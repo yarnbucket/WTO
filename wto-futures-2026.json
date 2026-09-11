@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "season": 2026,
+  "method": "normalized_market_implied_probability",
+  "description": "American futures odds are converted to implied probability and normalized within each market to remove sportsbook hold.",
+  "source": null,
+  "updated_at": null,
+  "snapshots": [],
+  "teams": {
+    "ARI": null, "ATL": null, "BAL": null, "BUF": null,
+    "CAR": null, "CHI": null, "CIN": null, "CLE": null,
+    "DAL": null, "DEN": null, "DET": null, "GB": null,
+    "HOU": null, "IND": null, "JAX": null, "KC": null,
+    "LV": null, "LAC": null, "LAR": null, "MIA": null,
+    "MIN": null, "NE": null, "NO": null, "NYG": null,
+    "NYJ": null, "PHI": null, "PIT": null, "SF": null,
+    "SEA": null, "TB": null, "TEN": null, "WAS": null
+  }
+}
