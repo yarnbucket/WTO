@@ -9,7 +9,11 @@
     "pending_lines_are": "market_snapshot",
     "completed_lines_are": "closing",
     "pushes_allowed": true,
-    "postponed_games_keep_original_week": true
+    "postponed_games_keep_original_week": true,
+    "excludes": [
+      "preseason",
+      "postseason"
+    ]
   },
   "weeks": [
     {
@@ -25,13 +29,14 @@
           "away_score": 10,
           "home_score": 13,
           "closing_favorite": "SEA",
-          "closing_spread": -3.5,
+          "closing_spread": -3,
           "closing_total": 44.5,
           "straight_up_winner": "SEA",
-          "ats_winner": "NE",
+          "ats_winner": "PUSH",
           "total_result": "under",
           "combined_points": 23,
-          "source_note": "FOX Sports Week 1 odds/results"
+          "source_note": "VegasInsider consensus close; ESPN final score",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-SF-LAR",
@@ -49,7 +54,11 @@
           "ats_winner": "SF",
           "total_result": "under",
           "combined_points": 34,
-          "source_note": "ESPN final score, Sep. 11, 2026"
+          "source_note": "VegasInsider consensus close; ESPN/NFL final score",
+          "season_type": "REG",
+          "closing_favorite": "LAR",
+          "closing_spread": -3.5,
+          "closing_total": 47.5
         },
         {
           "game_id": "2026-W01-ATL-PIT",
@@ -62,7 +71,8 @@
           "market_favorite": "PIT",
           "market_spread": -3.5,
           "market_total": 42.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-BAL-IND",
@@ -75,7 +85,8 @@
           "market_favorite": "BAL",
           "market_spread": -3.5,
           "market_total": 47.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-BUF-HOU",
@@ -88,7 +99,8 @@
           "market_favorite": "BUF",
           "market_spread": -1.5,
           "market_total": 44.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-CHI-CAR",
@@ -101,7 +113,8 @@
           "market_favorite": "CHI",
           "market_spread": -3.5,
           "market_total": 47.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-CLE-JAX",
@@ -114,7 +127,8 @@
           "market_favorite": "JAX",
           "market_spread": -8.5,
           "market_total": 40.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-NO-DET",
@@ -127,7 +141,8 @@
           "market_favorite": "DET",
           "market_spread": -6.5,
           "market_total": 49.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-NYJ-TEN",
@@ -140,7 +155,8 @@
           "market_favorite": "TEN",
           "market_spread": -1.5,
           "market_total": 38.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-TB-CIN",
@@ -153,7 +169,8 @@
           "market_favorite": "CIN",
           "market_spread": -3.5,
           "market_total": 50.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-ARI-LAC",
@@ -166,7 +183,8 @@
           "market_favorite": "LAC",
           "market_spread": -9.5,
           "market_total": 47.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-GB-MIN",
@@ -179,7 +197,8 @@
           "market_favorite": "MIN",
           "market_spread": -1.5,
           "market_total": 46.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-MIA-LV",
@@ -192,7 +211,8 @@
           "market_favorite": "LV",
           "market_spread": -3.5,
           "market_total": 40.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-WAS-PHI",
@@ -205,7 +225,8 @@
           "market_favorite": "PHI",
           "market_spread": -4.5,
           "market_total": 44.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-DAL-NYG",
@@ -218,7 +239,8 @@
           "market_favorite": "DAL",
           "market_spread": -2.5,
           "market_total": 48.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         },
         {
           "game_id": "2026-W01-DEN-KC",
@@ -231,9 +253,16 @@
           "market_favorite": "KC",
           "market_spread": -2.5,
           "market_total": 43.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "season_type": "REG"
         }
       ]
     }
-  ]
+  ],
+  "odds_source": {
+    "name": "VegasInsider",
+    "line_type": "consensus",
+    "grading_line": "closing",
+    "scope": "regular_season_only"
+  }
 }
