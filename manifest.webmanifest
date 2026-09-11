@@ -1,0 +1,22 @@
+{
+  "name": "WTO — What Are The Odds",
+  "short_name": "WTO",
+  "description": "NFL regular-season spreads, totals, results and picks.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#060B07",
+  "theme_color": "#060B07",
+  "categories": [
+    "sports"
+  ],
+  "icons": [
+    {
+      "src": "./wto-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
