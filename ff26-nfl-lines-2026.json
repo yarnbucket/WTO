@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-09-10T18:00:00Z",
+  "updated_at": "2026-09-11T08:30:00-04:00",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -38,13 +38,18 @@
           "kickoff_et": "2026-09-10T20:35:00-04:00",
           "away": "SF",
           "home": "LAR",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 27,
+          "home_score": 7,
           "market_favorite": "LAR",
           "market_spread": -3.5,
           "market_total": 48.5,
-          "market_as_of": "2026-09-09"
+          "market_as_of": "2026-09-09",
+          "straight_up_winner": "SF",
+          "ats_winner": "SF",
+          "total_result": "under",
+          "combined_points": 34,
+          "source_note": "ESPN final score, Sep. 11, 2026"
         },
         {
           "game_id": "2026-W01-ATL-PIT",
