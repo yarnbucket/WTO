@@ -215,6 +215,7 @@
 .background-choice.active{border-color:var(--gold);background:var(--gold);color:#070707;box-shadow:0 0 12px rgba(255,199,44,.22)}
 .summary-screen.stadium-background.stadium-soft-glow .summary-head::before,.summary-screen.stadium-background.stadium-soft-glow .summary-head::after{animation:wtoStadiumSoftGlow .5s ease-in-out 1}
 @keyframes wtoStadiumSoftGlow{0%,100%{opacity:.34;filter:drop-shadow(0 0 8px rgba(255,199,44,.9))}50%{opacity:.68;filter:drop-shadow(0 0 16px rgba(255,240,185,.85))}}
+.summary-nav button{display:flex;align-items:center;justify-content:center;gap:5px}.nav-hypocycloid{width:19px;height:13px;flex:0 0 19px;overflow:visible;filter:drop-shadow(0 0 3px rgba(255,255,255,.22))}
 </style>
 </head>
 <body>
@@ -225,8 +226,8 @@
   <div class="summary-picker"><label for="summaryWeek">WEEKLY TOTALS</label><span>PICK WEEK</span><select id="summaryWeek" aria-label="Pick week"></select></div>
   <div class="summary-nav" aria-label="Summary navigation">
     <button type="button" onclick="summaryThisWeek()">THIS WEEK</button>
-    <button type="button" onclick="summaryStep(-1)">&larr; BACK</button>
-    <button type="button" onclick="summaryStep(1)">FORWARD &rarr;</button>
+    <button type="button" onclick="summaryStep(-1)"><svg class="nav-hypocycloid back" viewBox="0 0 500 100" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="back-nav-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="0"><stop offset="0%" stop-color="#C60C30"></stop><stop offset="100%" stop-color="#FFFFFF"></stop></linearGradient></defs><path d="M0 50 C250 50 430 42 500 0 L500 100 C430 58 250 50 0 50 Z" fill="url(#back-nav-gradient)"></path></svg><span>BACK</span></button>
+    <button type="button" onclick="summaryStep(1)"><span>FORWARD</span><svg class="nav-hypocycloid forward" viewBox="500 0 500 100" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="forward-nav-gradient" gradientUnits="userSpaceOnUse" x1="500" y1="0" x2="1000" y2="0"><stop offset="0%" stop-color="#FFFFFF"></stop><stop offset="100%" stop-color="#003087"></stop></linearGradient></defs><path d="M500 0 C570 42 750 50 1000 50 C750 50 570 58 500 100 Z" fill="url(#forward-nav-gradient)"></path></svg></button>
     <button type="button" id="summaryTotalBtn" onclick="summarySeasonTotals()">TOTAL</button>
   </div>
 </section>
