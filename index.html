@@ -316,7 +316,18 @@ let deferredInstallPrompt=null;
 addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event;installBtn.classList.add('show')});
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
-if('serviceWorker'in navigator)addEventListener('load',()=>navigator.serviceWorker.register('./sw.js'));
+if('serviceWorker' in navigator){
+  let refreshing=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{
+    if(refreshing)return;
+    refreshing=true;
+    if(sessionStorage.getItem('wto-sw-reloaded')!=='v5'){
+      sessionStorage.setItem('wto-sw-reloaded','v5');
+      location.reload();
+    }
+  });
+  addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=5'));
+}
 let data={},historyData=null,futuresData=null,historyPromise=null,futuresPromise=null,current=1,summarySeasonMode=false,picks=loadPicks(),favorites=loadFavorites(),advanced=loadAdvanced(),advancedPicks=loadAdvancedPicks(),selectedGameId=null;
 let performanceOpen=false,chartVisible={winner:true,ats:true,total:true};
 let teamPerformanceOpen=false,teamChartMetric='ats',teamChartOverlay=false,teamChartSelected=new Set();
