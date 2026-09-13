@@ -324,43 +324,15 @@ if('serviceWorker' in navigator){
   navigator.serviceWorker.addEventListener('controllerchange',()=>{
     if(refreshing)return;
     refreshing=true;
-    if(sessionStorage.getItem('wto-sw-reloaded')!=='v6'){
-      sessionStorage.setItem('wto-sw-reloaded','v6');
+    if(sessionStorage.getItem('wto-sw-reloaded')!=='v7'){
+      sessionStorage.setItem('wto-sw-reloaded','v7');
       location.reload();
     }
   });
-  addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=6'));
+  addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=7'));
 }
 
-const startupAudio=new Audio('./Whatstheodds.mp3');
-startupAudio.preload='auto';
-let startupAudioPlayed=false;
-function clearStartupAudioFallback(){
-  document.removeEventListener('pointerdown',playStartupAudioOnInteraction);
-  document.removeEventListener('keydown',playStartupAudioOnInteraction);
-}
-function armStartupAudioFallback(){
-  document.addEventListener('pointerdown',playStartupAudioOnInteraction,{once:true});
-  document.addEventListener('keydown',playStartupAudioOnInteraction,{once:true});
-}
-function markStartupAudioPlayed(){
-  startupAudioPlayed=true;
-  clearStartupAudioFallback();
-}
-function attemptStartupAudio(){
-  if(startupAudioPlayed)return;
-  startupAudio.currentTime=0;
-  const playback=startupAudio.play();
-  if(playback&&typeof playback.then==='function'){
-    playback.then(markStartupAudioPlayed).catch(armStartupAudioFallback);
-  }else{
-    markStartupAudioPlayed();
-  }
-}
-function playStartupAudioOnInteraction(){
-  attemptStartupAudio();
-}
-addEventListener('load',attemptStartupAudio,{once:true});
+
 let data={},historyData=null,futuresData=null,historyPromise=null,futuresPromise=null,current=1,summarySeasonMode=false,picks=loadPicks(),favorites=loadFavorites(),advanced=loadAdvanced(),advancedPicks=loadAdvancedPicks(),selectedGameId=null;
 let performanceOpen=false,chartVisible={winner:true,ats:true,total:true};
 let teamPerformanceOpen=false,teamChartMetric='ats',teamChartOverlay=false,teamChartSelected=new Set();
