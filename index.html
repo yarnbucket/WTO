@@ -316,7 +316,7 @@ function loadPicks(){try{return JSON.parse(localStorage.getItem('wto-basic-picks
 function loadFavorites(){try{return JSON.parse(localStorage.getItem('wto-favorite-teams')||'[]')}catch(e){return []}}
 function loadAdvanced(){try{return {...{ats:false,total:false,line:false,futures:false},...JSON.parse(localStorage.getItem('wto-advanced-settings')||'{}')}}catch(e){return {ats:false,total:false,line:false,futures:false}}}
 function loadAdvancedPicks(){try{return JSON.parse(localStorage.getItem('wto-advanced-picks')||'{}')}catch(e){return {}}}
-function loadHomeBackground(){try{return localStorage.getItem('wto-home-background')==='stadium'?'stadium':'trophy'}catch(e){return 'trophy'}}
+function loadHomeBackground(){try{const raw=localStorage.getItem('wto-home-background');return raw===null?'stadium':raw==='trophy'?'trophy':raw==='stadium'?'stadium':'stadium'}catch(e){return 'stadium'}}
 let homeBackground=loadHomeBackground();
 let stadiumGlowScheduleTimer=null;
 let stadiumGlowEndTimer=null;
