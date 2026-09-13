@@ -40,19 +40,6 @@
       <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000" flood-opacity=".8"/>
     </filter>
     <clipPath id="panelClip"><rect x="32" y="32" width="960" height="960" rx="150"/></clipPath>
-    <mask id="gunplayStencil" maskUnits="userSpaceOnUse" x="120" y="350" width="780" height="340">
-      <rect x="120" y="350" width="780" height="340" fill="#fff"/>
-      <g fill="#000">
-        <rect x="508" y="388" width="10" height="82" rx="1"/>
-        <rect x="508" y="554" width="10" height="78" rx="1"/>
-      </g>
-    </mask>
-    <clipPath id="lettersClip">
-      <text x="512" y="512" font-family="Nimbus Sans Narrow, DejaVu Sans, sans-serif"
-            font-size="278" font-weight="900" letter-spacing="-13" text-anchor="middle"
-            dominant-baseline="middle">WTO</text>
-    </clipPath>
-
     <!-- One canonical quarter: every visible side below is a rotation of this exact curve. -->
     <path id="hypocycloid-quarter" d="M512 190 C512 346 678 512 834 512"/>
   </defs>
@@ -84,11 +71,6 @@
       <text x="512" y="512" fill="none" stroke="#e2ad25" stroke-width="42" filter="url(#shadow)">WTO</text>
       <text x="512" y="512" fill="none" stroke="#030303" stroke-width="32">WTO</text>
       <text x="512" y="512" fill="url(#pearlWhite)" stroke="#ffffff" stroke-width="3" paint-order="stroke fill">WTO</text>
-    </g>
-    <!-- Opaque stencil bridges keep the industrial cuts legible over the tricolor mark. -->
-    <g fill="#050505" clip-path="url(#lettersClip)">
-      <rect x="508" y="388" width="10" height="82" rx="1"/>
-      <rect x="508" y="554" width="10" height="78" rx="1"/>
     </g>
   </g>
 </svg>
