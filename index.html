@@ -245,13 +245,11 @@
 .chart-scroll,.trend-chart{border-radius:8px;background-color:#07120B;background-image:linear-gradient(rgba(3,14,8,.72),rgba(3,14,8,.82)),url('./wto-playbook-bg.svg');background-size:auto,480px 720px}
 #performanceChart path[fill="none"],#teamPerformanceChart path[fill="none"],#weeklyLeagueChart path[fill="none"],.trend-chart path[fill="none"]{filter:url(#wtoChalkLine);stroke-linecap:round;stroke-linejoin:round}
 #performanceChart line:not([stroke="#FFC72C"]),#teamPerformanceChart line:not([stroke="#FFC72C"]),#weeklyLeagueChart line:not([stroke="#FFC72C"]),.trend-chart line:not([stroke="#FFC72C"]){stroke:rgba(239,239,231,.16)}
-.featured-wrap{touch-action:pan-y;will-change:transform,opacity}
-.featured-wrap.swipe-exit-left{animation:wtoCardExitLeft .25s ease-in forwards}.featured-wrap.swipe-exit-right{animation:wtoCardExitRight .25s ease-in forwards}
-.featured-wrap.swipe-enter-right{animation:wtoCardEnterRight .25s ease-out both}.featured-wrap.swipe-enter-left{animation:wtoCardEnterLeft .25s ease-out both}
-.featured-wrap.swipe-boundary-left{animation:wtoCardBounceLeft .25s ease-out}.featured-wrap.swipe-boundary-right{animation:wtoCardBounceRight .25s ease-out}
-@keyframes wtoCardExitLeft{to{transform:translateX(-105%);opacity:.15}}@keyframes wtoCardExitRight{to{transform:translateX(105%);opacity:.15}}
-@keyframes wtoCardEnterRight{from{transform:translateX(105%);opacity:.15}to{transform:translateX(0);opacity:1}}@keyframes wtoCardEnterLeft{from{transform:translateX(-105%);opacity:.15}to{transform:translateX(0);opacity:1}}
-@keyframes wtoCardBounceLeft{50%{transform:translateX(-14px)}100%{transform:translateX(0)}}@keyframes wtoCardBounceRight{50%{transform:translateX(14px)}100%{transform:translateX(0)}}
+.featured-wrap{touch-action:pan-y;will-change:transform,opacity;transform-origin:50% 115%}
+.featured-wrap.swipe-exit-left{animation:wtoCardExitLeft .3s cubic-bezier(.55,.06,.68,.19) forwards}.featured-wrap.swipe-exit-right{animation:wtoCardExitRight .3s cubic-bezier(.55,.06,.68,.19) forwards}
+.featured-wrap.swipe-enter-right{animation:wtoCardEnterRight .32s cubic-bezier(.22,.75,.28,1) both}.featured-wrap.swipe-enter-left{animation:wtoCardEnterLeft .32s cubic-bezier(.22,.75,.28,1) both}
+@keyframes wtoCardExitLeft{to{transform:translateX(-112%) rotate(-9deg);opacity:.08}}@keyframes wtoCardExitRight{to{transform:translateX(112%) rotate(9deg);opacity:.08}}
+@keyframes wtoCardEnterRight{from{transform:translateX(112%) rotate(9deg);opacity:.08}to{transform:translateX(0) rotate(0);opacity:1}}@keyframes wtoCardEnterLeft{from{transform:translateX(-112%) rotate(-9deg);opacity:.08}to{transform:translateX(0) rotate(0);opacity:1}}
 @media(prefers-reduced-motion:reduce){.featured-wrap[class*="swipe-"]{animation:none!important}}
 </style>
 </head>
@@ -324,12 +322,12 @@ if('serviceWorker' in navigator){
   navigator.serviceWorker.addEventListener('controllerchange',()=>{
     if(refreshing)return;
     refreshing=true;
-    if(sessionStorage.getItem('wto-sw-reloaded')!=='v7'){
-      sessionStorage.setItem('wto-sw-reloaded','v7');
+    if(sessionStorage.getItem('wto-sw-reloaded')!=='v8'){
+      sessionStorage.setItem('wto-sw-reloaded','v8');
       location.reload();
     }
   });
-  addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=7'));
+  addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=8'));
 }
 
 
@@ -497,21 +495,21 @@ function selectGame(id){selectedGameId=selectedGameId===id?'COLLAPSED':id;render
 function render(){renderExecutive();const meta=WEEKS.find(w=>String(w.id)===String(current)),games=data[current]||[];gamesCount.textContent=games.length||'—';const finals=games.filter(g=>g.status==='final'),decided=finals.filter(gameWinner);finalCount.textContent=finals.length;const favWins=decided.filter(g=>gameWinner(g)===g.favorite).length;favCount.textContent=decided.length?`${favWins}–${decided.length-favWins}`:'—';const over=finals.filter(g=>resolvedTotalResult(g)==='over').length,under=finals.filter(g=>resolvedTotalResult(g)==='under').length;ouCount.textContent=finals.length?`${over}–${under}`:'—';updateRecords();document.querySelectorAll('.week-chip').forEach(b=>b.classList.toggle('active',String(b.dataset.week)===String(current)));if(!games.length){selectedGameId=null;schedule.innerHTML=`<div class="empty"><b>${meta.title} is ready.</b><br><br>Matchups will appear when the season file is updated.</div>`;return}if(selectedGameId!=='COLLAPSED'&&selectedGameId&&!games.some(g=>g.id===selectedGameId))selectedGameId=null;if(!selectedGameId)selectedGameId=(games.find(g=>g.status!=='final'&&(isFavorite(g.away)||isFavorite(g.home)))||games.find(g=>g.status!=='final')||games[0]).id;const selected=selectedGameId==='COLLAPSED'?null:games.find(g=>g.id===selectedGameId),rest=(selected?games.filter(g=>g.id!==selectedGameId):games).slice().sort((a,b)=>(a.status==='final')-(b.status==='final'));let html='';if(selected){const fav=isFavorite(selected.away)||isFavorite(selected.home);html=`<section class="featured-wrap"><div class="featured-label">${fav?'★ FAVORITE MATCHUP':meta.title.toUpperCase()+' MATCHUP'}</div>${card(selected)}<button class="collapse-game" onclick="selectGame('${selected.id}')">COLLAPSE MATCHUP ↑</button></section>`}html+=`<section><div class="compact-heading">ALL ${meta.title.toUpperCase()} GAMES</div><div class="compact-list">${rest.map(compactCard).join('')}</div></section>`;schedule.innerHTML=html;bindFeaturedSwipe()}
 function animateFeaturedEntry(delta){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;requestAnimationFrame(()=>{const next=schedule.querySelector('.featured-wrap');if(!next)return;const cls=delta>0?'swipe-enter-right':'swipe-enter-left';next.classList.add(cls);next.addEventListener('animationend',()=>next.classList.remove(cls),{once:true})})}
 function navigateSelectedGame(delta){
-  const games=data[current]||[],index=games.findIndex(g=>g.id===selectedGameId),target=games[index+delta],featured=schedule.querySelector('.featured-wrap');
-  if(index<0||!featured)return;
-  if(!target){const cls=delta>0?'swipe-boundary-left':'swipe-boundary-right';featured.classList.add(cls);featured.addEventListener('animationend',()=>featured.classList.remove(cls),{once:true});return}
+  const games=data[current]||[],index=games.findIndex(g=>g.id===selectedGameId),featured=schedule.querySelector('.featured-wrap');
+  if(index<0||!featured||!games.length)return;
+  const target=games[(index+delta+games.length)%games.length];
   const change=()=>{selectedGameId=target.id;render();animateFeaturedEntry(delta)};
   if(matchMedia('(prefers-reduced-motion: reduce)').matches){change();return}
   let finished=false;const finish=()=>{if(finished)return;finished=true;change()};
   featured.classList.add(delta>0?'swipe-exit-left':'swipe-exit-right');
   featured.addEventListener('animationend',finish,{once:true});
-  setTimeout(finish,280);
+  setTimeout(finish,340);
 }
 function bindFeaturedSwipe(){
   const featured=schedule.querySelector('.featured-wrap');if(!featured)return;
   let startX=0,startY=0,dx=0,dy=0,tracking=false;
   featured.addEventListener('touchstart',event=>{if(event.touches.length!==1||event.target.closest('button,a,input,select'))return;const touch=event.touches[0];startX=touch.clientX;startY=touch.clientY;dx=0;dy=0;tracking=true},{passive:true});
-  featured.addEventListener('touchmove',event=>{if(!tracking||event.touches.length!==1)return;const touch=event.touches[0];dx=touch.clientX-startX;dy=touch.clientY-startY;if(Math.abs(dx)>Math.abs(dy)){featured.style.transform='translateX('+Math.max(-90,Math.min(90,dx*.25))+'px)';featured.style.opacity=String(Math.max(.78,1-Math.abs(dx)/700))}},{passive:true});
+  featured.addEventListener('touchmove',event=>{if(!tracking||event.touches.length!==1)return;const touch=event.touches[0];dx=touch.clientX-startX;dy=touch.clientY-startY;if(Math.abs(dx)>Math.abs(dy)){const travel=Math.max(-110,Math.min(110,dx*.32));const tilt=Math.max(-7,Math.min(7,dx/18));featured.style.transform='translateX('+travel+'px) rotate('+tilt+'deg)';featured.style.opacity=String(Math.max(.72,1-Math.abs(dx)/620))}},{passive:true});
   featured.addEventListener('touchend',()=>{if(!tracking)return;tracking=false;featured.style.transform='';featured.style.opacity='';if(Math.abs(dx)>=60&&Math.abs(dx)>Math.abs(dy)*1.2)navigateSelectedGame(dx<0?1:-1)},{passive:true});
   featured.addEventListener('touchcancel',()=>{tracking=false;featured.style.transform='';featured.style.opacity=''},{passive:true});
 }
