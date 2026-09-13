@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-09-13T08:00:58-04:00",
+  "updated_at": "2026-09-13T19:42:41-04:00",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -829,8 +829,8 @@
           "home_score": null,
           "market_favorite": "DAL",
           "market_spread": -3,
-          "market_total": 48.5,
-          "market_as_of": "2026-09-13T08:00:58-04:00",
+          "market_total": 47.5,
+          "market_as_of": "2026-09-13T19:42:41-04:00",
           "season_type": "REG",
           "market_snapshots": [
             {
@@ -861,14 +861,30 @@
               "home_spread_price": -115,
               "over_price": -105,
               "under_price": -115
+            },
+            {
+              "captured_at": "2026-09-13T19:42:41-04:00",
+              "label": "7:42 PM ET",
+              "line_type": "market_snapshot",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/matchups/cowboys-vs-giants/",
+              "favorite": "DAL",
+              "favorite_spread": -3,
+              "total": 47.5,
+              "away_spread": -3,
+              "away_spread_price": -112,
+              "home_spread": 3,
+              "home_spread_price": -108,
+              "over_price": -115,
+              "under_price": -105
             }
           ],
-          "away_spread_price": -105,
-          "home_spread_price": -115,
-          "over_price": -105,
-          "under_price": -115,
-          "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T08:00:58-04:00"
+          "away_spread_price": -112,
+          "home_spread_price": -108,
+          "over_price": -115,
+          "under_price": -105,
+          "price_provider": "VegasInsider",
+          "price_timestamp": "2026-09-13T19:42:41-04:00"
         },
         {
           "game_id": "2026-W01-DEN-KC",
