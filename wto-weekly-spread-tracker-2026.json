@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "season": 2026,
+  "title": "WTO Weekly Spread Tracker",
+  "scope": {
+    "game_types": [
+      "regular_season",
+      "postseason"
+    ],
+    "preseason_included": false
+  },
+  "methodology": {
+    "capture_day": "Tuesday",
+    "comparison_day": "following Tuesday",
+    "tuesday_snapshot": "Capture the upcoming week's available consensus spread markets exactly as published on Tuesday.",
+    "comparison": "On the following Tuesday, compare each saved Tuesday spread with the verified closing spread and final ATS result for the same game.",
+    "provider_policy": "Use one clearly identified reliable provider per snapshot. Never mix providers within a snapshot.",
+    "unavailable_policy": "Omit an unavailable market value or store it as null. Never invent a spread, price, provider, or timestamp.",
+    "preservation_policy": "Tuesday snapshots are immutable. Later comparisons are appended without altering the original snapshot.",
+    "spread_convention": "Store the favorite separately and store its spread from the favorite perspective as a negative number.",
+    "ats_grading": "Add the stored negative spread to the favorite's final score and compare the adjusted score with the underdog's final score."
+  },
+  "week_record_fields": {
+    "identity": [
+      "week",
+      "season_type"
+    ],
+    "tuesday_snapshot": [
+      "captured_at",
+      "provider",
+      "games"
+    ],
+    "tuesday_game": [
+      "game_id",
+      "kickoff_et",
+      "away",
+      "home",
+      "favorite",
+      "favorite_spread",
+      "away_spread_price",
+      "home_spread_price"
+    ],
+    "following_tuesday_comparison": [
+      "compared_at",
+      "games",
+      "summary"
+    ],
+    "comparison_game": [
+      "game_id",
+      "closing_favorite",
+      "closing_spread",
+      "closing_away_spread_price",
+      "closing_home_spread_price",
+      "closing_provider",
+      "closing_timestamp",
+      "spread_movement_points",
+      "movement_direction",
+      "favorite_flipped",
+      "ats_winner",
+      "ats_push",
+      "tuesday_side_covered"
+    ],
+    "weekly_summary": [
+      "games_compared",
+      "average_absolute_movement",
+      "largest_movement",
+      "favorite_flips",
+      "tuesday_side_ats_wins",
+      "tuesday_side_ats_losses",
+      "tuesday_side_ats_pushes"
+    ]
+  },
+  "weeks": []
+}
