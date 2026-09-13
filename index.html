@@ -213,6 +213,8 @@
 .background-choices{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0 18px}
 .background-choice{min-height:44px;border:1px solid #48524c;background:#07120b;color:var(--chalk);font-family:'Anton',sans-serif;font-size:13px;letter-spacing:.7px;cursor:pointer}
 .background-choice.active{border-color:var(--gold);background:var(--gold);color:#070707;box-shadow:0 0 12px rgba(255,199,44,.22)}
+.summary-screen.stadium-background.stadium-lights-active .summary-head::before,.summary-screen.stadium-background.stadium-lights-active .summary-head::after{animation:wtoStadiumFlicker .7s steps(2,end) infinite}
+@keyframes wtoStadiumFlicker{0%,100%{opacity:.2;filter:drop-shadow(0 0 4px rgba(255,199,44,.45))}18%{opacity:.92;filter:drop-shadow(0 0 18px rgba(255,240,185,1))}32%{opacity:.38}46%{opacity:1;filter:drop-shadow(0 0 24px rgba(255,255,220,1))}61%{opacity:.26}78%{opacity:.84;filter:drop-shadow(0 0 15px rgba(255,199,44,.95))}}
 </style>
 </head>
 <body>
@@ -290,8 +292,21 @@ function loadAdvanced(){try{return {...{ats:false,total:false,line:false,futures
 function loadAdvancedPicks(){try{return JSON.parse(localStorage.getItem('wto-advanced-picks')||'{}')}catch(e){return {}}}
 function loadHomeBackground(){try{return localStorage.getItem('wto-home-background')==='stadium'?'stadium':'trophy'}catch(e){return 'trophy'}}
 let homeBackground=loadHomeBackground();
+let stadiumLightTimer=null;
+function stopStadiumLightFlicker(){
+  if(stadiumLightTimer){clearTimeout(stadiumLightTimer);stadiumLightTimer=null}
+  summaryScreen.classList.remove('stadium-lights-active');
+}
+function triggerStadiumLightFlicker(){
+  if(homeBackground!=='stadium')return;
+  summaryScreen.classList.add('stadium-lights-active');
+  if(stadiumLightTimer)clearTimeout(stadiumLightTimer);
+  stadiumLightTimer=setTimeout(stopStadiumLightFlicker,15000);
+}
+window.addEventListener('scroll',triggerStadiumLightFlicker,{passive:true});
 function applyHomeBackground(){
   summaryScreen.classList.toggle('stadium-background',homeBackground==='stadium');
+  if(homeBackground!=='stadium')stopStadiumLightFlicker();
   document.querySelectorAll('[data-background]').forEach(button=>{
     const selected=button.dataset.background===homeBackground;
     button.classList.toggle('active',selected);
