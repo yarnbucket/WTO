@@ -213,6 +213,8 @@
 .background-choices{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0 18px}
 .background-choice{min-height:44px;border:1px solid #48524c;background:#07120b;color:var(--chalk);font-family:'Anton',sans-serif;font-size:13px;letter-spacing:.7px;cursor:pointer}
 .background-choice.active{border-color:var(--gold);background:var(--gold);color:#070707;box-shadow:0 0 12px rgba(255,199,44,.22)}
+.summary-screen.stadium-background.stadium-soft-glow .summary-head::before,.summary-screen.stadium-background.stadium-soft-glow .summary-head::after{animation:wtoStadiumSoftGlow .5s ease-in-out 1}
+@keyframes wtoStadiumSoftGlow{0%,100%{opacity:.34;filter:drop-shadow(0 0 8px rgba(255,199,44,.9))}50%{opacity:.68;filter:drop-shadow(0 0 16px rgba(255,240,185,.85))}}
 </style>
 </head>
 <body>
@@ -265,8 +267,8 @@ function summaryThisWeek(){summarySetWeek(summaryWeekFromDate())}
 function summaryStep(delta){summarySetWeek(current+delta)}
 function summarySeasonTotals(){summarySeasonMode=true;renderExecutive()}
 function renderExecutive(){const games=summarySeasonMode?Object.values(data).flat():data[current]||[],finals=games.filter(g=>g.status==='final'),over=finals.filter(g=>resolvedTotalResult(g)==='over').length,under=finals.filter(g=>resolvedTotalResult(g)==='under').length,totalPush=finals.filter(g=>resolvedTotalResult(g)==='push').length,atsFinals=finals.map(g=>({g,ats:resolvedAts(g)})),fav=atsFinals.filter(x=>x.ats&&x.ats!=='PUSH'&&x.ats===x.g.favorite).length,fades=atsFinals.filter(x=>x.ats&&x.ats!=='PUSH'&&x.ats!==x.g.favorite).length,atsPush=atsFinals.filter(x=>x.ats==='PUSH').length;summaryWeek.value=String(current);summaryTotalBtn.classList.toggle('active',summarySeasonMode);summaryGlanceTitle.textContent=summarySeasonMode?'SEASON AT A GLANCE':'WEEK '+current+' AT A GLANCE';summaryCompleted.textContent=finals.length;summaryMeters.innerHTML=executiveBar(over,over+under+totalPush,'OVERS')+executiveBar(under,over+under+totalPush,'UNDERS')+executiveBar(fav,fav+fades+atsPush,'FAVORITES ATS')+executiveBar(fades,fav+fades+atsPush,'FADES ATS')+'<div class="meter-note"><span>ATS pushes: '+atsPush+'</span><span>Total pushes: '+totalPush+'</span></div>'}
-function openTracker(){render();summaryScreen.classList.add('app-hidden');trackerScreen.classList.remove('app-hidden');scrollTo(0,0)}
-function replaySummaryIntro(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;summaryHead.classList.remove('intro');void summaryHead.offsetWidth;summaryHead.classList.add('intro')}function openSummary(){if(detailView.classList.contains('active'))closeGame(true);trackerScreen.classList.add('app-hidden');summaryScreen.classList.remove('app-hidden');renderExecutive();replaySummaryIntro();scrollTo(0,0)}
+function openTracker(){stopStadiumGlow();render();summaryScreen.classList.add('app-hidden');trackerScreen.classList.remove('app-hidden');scrollTo(0,0)}
+function replaySummaryIntro(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;summaryHead.classList.remove('intro');void summaryHead.offsetWidth;summaryHead.classList.add('intro')}function openSummary(){if(detailView.classList.contains('active'))closeGame(true);trackerScreen.classList.add('app-hidden');summaryScreen.classList.remove('app-hidden');renderExecutive();replaySummaryIntro();scheduleStadiumGlow();scrollTo(0,0)}
 const TEAM={ARI:['Arizona Cardinals','#97233F','ari'],ATL:['Atlanta Falcons','#A71930','atl'],BAL:['Baltimore Ravens','#241773','bal'],BUF:['Buffalo Bills','#00338D','buf'],CAR:['Carolina Panthers','#0085CA','car'],CHI:['Chicago Bears','#0B162A','chi'],CIN:['Cincinnati Bengals','#FB4F14','cin'],CLE:['Cleveland Browns','#311D00','cle'],DAL:['Dallas Cowboys','#003594','dal'],DEN:['Denver Broncos','#FB4F14','den'],DET:['Detroit Lions','#0076B6','det'],GB:['Green Bay Packers','#203731','gb'],HOU:['Houston Texans','#03202F','hou'],IND:['Indianapolis Colts','#002C5F','ind'],JAX:['Jacksonville Jaguars','#006778','jax'],KC:['Kansas City Chiefs','#E31837','kc'],LV:['Las Vegas Raiders','#000000','lv'],LAC:['Los Angeles Chargers','#0080C6','lac'],LAR:['Los Angeles Rams','#003594','lar'],MIA:['Miami Dolphins','#008E97','mia'],MIN:['Minnesota Vikings','#4F2683','min'],NE:['New England Patriots','#002244','ne'],NO:['New Orleans Saints','#D3BC8D','no'],NYG:['New York Giants','#0B2265','nyg'],NYJ:['New York Jets','#125740','nyj'],PHI:['Philadelphia Eagles','#004C54','phi'],PIT:['Pittsburgh Steelers','#101820','pit'],SF:['San Francisco 49ers','#AA0000','sf'],SEA:['Seattle Seahawks','#002244','sea'],TB:['Tampa Bay Buccaneers','#D50A0A','tb'],TEN:['Tennessee Titans','#0C2340','ten'],WAS:['Washington Commanders','#5A1414','wsh']};
 const WEEKS=Array.from({length:18},(_,i)=>({id:i+1,label:`W${i+1}`,title:`Week ${i+1}`,phase:'Regular Season'}));
 let deferredInstallPrompt=null;
@@ -290,8 +292,30 @@ function loadAdvanced(){try{return {...{ats:false,total:false,line:false,futures
 function loadAdvancedPicks(){try{return JSON.parse(localStorage.getItem('wto-advanced-picks')||'{}')}catch(e){return {}}}
 function loadHomeBackground(){try{return localStorage.getItem('wto-home-background')==='stadium'?'stadium':'trophy'}catch(e){return 'trophy'}}
 let homeBackground=loadHomeBackground();
+let stadiumGlowScheduleTimer=null;
+let stadiumGlowEndTimer=null;
+function stopStadiumGlow(){
+  clearTimeout(stadiumGlowScheduleTimer);
+  clearTimeout(stadiumGlowEndTimer);
+  stadiumGlowScheduleTimer=null;
+  stadiumGlowEndTimer=null;
+  summaryScreen.classList.remove('stadium-soft-glow');
+}
+function scheduleStadiumGlow(){
+  stopStadiumGlow();
+  if(homeBackground!=='stadium'||summaryScreen.classList.contains('app-hidden')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  const delay=8000+Math.random()*10000;
+  stadiumGlowScheduleTimer=setTimeout(()=>{
+    summaryScreen.classList.add('stadium-soft-glow');
+    stadiumGlowEndTimer=setTimeout(()=>{
+      summaryScreen.classList.remove('stadium-soft-glow');
+      scheduleStadiumGlow();
+    },500);
+  },delay);
+}
 function applyHomeBackground(){
   summaryScreen.classList.toggle('stadium-background',homeBackground==='stadium');
+  scheduleStadiumGlow();
   document.querySelectorAll('[data-background]').forEach(button=>{
     const selected=button.dataset.background===homeBackground;
     button.classList.toggle('active',selected);
