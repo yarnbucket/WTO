@@ -213,8 +213,6 @@
 /* Spiral-pass accent: decorative, off-screen to off-screen */
 .summary-screen{position:relative}
 .spiral-pass-layer{position:absolute;z-index:8;left:0;top:0;width:100%;height:430px;overflow:hidden;pointer-events:none;contain:layout style}
-.spiral-pass-layer svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
-.spiral-pass-trail{fill:none;stroke:#F47C20;stroke-width:5;stroke-linecap:round;opacity:0;filter:drop-shadow(0 0 5px rgba(244,124,32,.62))}
 .spiral-football{position:absolute;left:0;top:0;width:34px;height:21px;opacity:0;will-change:transform;filter:drop-shadow(0 3px 5px rgba(0,0,0,.7))}
 .spiral-football.is-flying{opacity:1}
 .spiral-football-shell{position:absolute;inset:0;border:2px solid #ffb366;border-radius:52% 48% 52% 48%;background:linear-gradient(180deg,#ff9a3d 0%,#e66b12 48%,#a84408 100%);box-shadow:inset 0 2px 3px rgba(255,255,255,.35);animation:wtoFootballSpiral .16s linear infinite}
@@ -259,9 +257,6 @@
 <div class="summary-screen" id="summaryScreen">
 <header class="summary-head intro" id="summaryHead"><h1>WHAT'S THE ODDS</h1></header>
 <div class="spiral-pass-layer" id="spiralPassLayer" aria-hidden="true">
-  <svg viewBox="0 0 480 430" preserveAspectRatio="none" focusable="false">
-    <path class="spiral-pass-trail" id="spiralPassTrail" d=""></path>
-  </svg>
   <div class="spiral-football" id="spiralFootball"><span class="spiral-football-shell"></span></div>
 </div>
 
@@ -543,8 +538,7 @@ function quadraticPoint(start,control,end,t){
 function playSpiralPass(){
   const layer=document.getElementById('spiralPassLayer');
   const football=document.getElementById('spiralFootball');
-  const trail=document.getElementById('spiralPassTrail');
-  if(!layer||!football||!trail||spiralPassRunning||spiralMotionDisabled()||summaryScreen.classList.contains('app-hidden'))return;
+  if(!layer||!football||spiralPassRunning||spiralMotionDisabled()||summaryScreen.classList.contains('app-hidden'))return;
   const width=layer.clientWidth;
   const height=layer.clientHeight;
   const startX=-48;
@@ -553,19 +547,10 @@ function playSpiralPass(){
   const controlY=Math.max(92,height*.23);
   const endX=width+48;
   const endY=Math.min(300,height*.70);
-  trail.setAttribute('d',`M ${startX} ${startY} Q ${controlX} ${controlY} ${endX} ${endY}`);
-  const pathLength=trail.getTotalLength();
-  trail.style.strokeDasharray=String(pathLength);
-  trail.style.strokeDashoffset=String(pathLength);
   spiralPassRunning=true;
   football.classList.add('is-flying');
   const duration=1850;
   const started=performance.now();
-  const trailAnimation=trail.animate([
-    {strokeDashoffset:pathLength,opacity:0},
-    {strokeDashoffset:0,opacity:.82,offset:.72},
-    {strokeDashoffset:0,opacity:0}
-  ],{duration:duration+260,easing:'cubic-bezier(.2,.68,.22,1)',fill:'forwards'});
   function frame(now){
     const t=Math.min(1,(now-started)/duration);
     const eased=1-Math.pow(1-t,3);
@@ -578,7 +563,6 @@ function playSpiralPass(){
     if(t<1){requestAnimationFrame(frame);return}
     football.classList.remove('is-flying');
     spiralPassRunning=false;
-    trailAnimation.finished.catch(()=>{});
   }
   requestAnimationFrame(frame);
 }
