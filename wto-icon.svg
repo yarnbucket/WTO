@@ -1,1 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="92" fill="#060b07"/><rect x="28" y="28" width="456" height="456" rx="70" fill="#0c1f14" stroke="#ffc72c" stroke-width="20"/><path d="M90 160h332M90 352h332" stroke="#1f3d2a" stroke-width="12"/><text x="256" y="290" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="142" font-weight="900" fill="#ffc72c">WTO</text><text x="256" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="7" fill="#efefe7">NFL ODDS</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">WTO app icon</title>
+  <desc id="desc">Gold WTO lettering over an exactly symmetrical red, white, and blue four-cusped hypocycloid.</desc>
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f5f5"/><stop offset=".18" stop-color="#777"/>
+      <stop offset=".48" stop-color="#d8d8d8"/><stop offset=".72" stop-color="#5f5f5f"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff1a6"/><stop offset=".2" stop-color="#ffd557"/>
+      <stop offset=".56" stop-color="#a96300"/><stop offset=".78" stop-color="#f8bd25"/>
+      <stop offset="1" stop-color="#fff0a0"/>
+    </linearGradient>
+    <linearGradient id="tricolor" x1="174" y1="512" x2="850" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C60C30"/><stop offset=".34" stop-color="#f21d39"/>
+      <stop offset=".5" stop-color="#FFFFFF"/><stop offset=".66" stop-color="#1870d8"/>
+      <stop offset="1" stop-color="#003087"/>
+    </linearGradient>
+    <radialGradient id="blackPanel" cx="45%" cy="32%" r="78%">
+      <stop offset="0" stop-color="#242424"/><stop offset=".52" stop-color="#090909"/><stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <pattern id="pebbleGold" width="18" height="14" patternUnits="userSpaceOnUse">
+      <rect width="18" height="14" fill="#f4b61f"/>
+      <ellipse cx="4" cy="4" rx="3.2" ry="2.2" fill="#ffd65c" stroke="#a86300" stroke-width="1"/>
+      <ellipse cx="13" cy="9" rx="3.4" ry="2.3" fill="#ffc72c" stroke="#8b5100" stroke-width="1"/>
+      <ellipse cx="17" cy="1" rx="2.7" ry="2" fill="#ffe58a" stroke="#a86300" stroke-width=".8"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#000" flood-opacity=".9"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000" flood-opacity=".8"/>
+    </filter>
+    <clipPath id="panelClip"><rect x="32" y="32" width="960" height="960" rx="150"/></clipPath>
+
+    <!-- One canonical quarter: every visible side below is a rotation of this exact curve. -->
+    <path id="hypocycloid-quarter" d="M512 190 C512 346 678 512 834 512"/>
+  </defs>
+
+  <g clip-path="url(#panelClip)">
+    <rect width="1024" height="1024" fill="#000"/>
+    <rect x="18" y="18" width="988" height="988" rx="168" fill="url(#steel)"/>
+    <rect x="48" y="48" width="928" height="928" rx="136" fill="url(#blackPanel)" stroke="#efefef" stroke-width="5"/>
+    <rect x="64" y="64" width="896" height="896" rx="122" fill="none" stroke="#161616" stroke-width="10"/>
+
+    <circle cx="512" cy="512" r="397" fill="none" stroke="#080808" stroke-width="68"/>
+    <circle cx="512" cy="512" r="397" fill="none" stroke="url(#gold)" stroke-width="48" filter="url(#softShadow)"/>
+    <circle cx="512" cy="512" r="335" fill="none" stroke="#070707" stroke-width="48"/>
+    <circle cx="512" cy="512" r="335" fill="none" stroke="url(#gold)" stroke-width="29"/>
+
+    <!-- Filled astroid uses the same quarter curve and its exact 90-degree rotations. -->
+    <path d="M512 190 C512 346 678 512 834 512 C678 512 512 678 512 834 C512 678 346 512 190 512 C346 512 512 346 512 190 Z"
+          fill="url(#tricolor)" stroke="#f0bd36" stroke-width="5" filter="url(#softShadow)"/>
+    <g fill="none" stroke="#ffe59a" stroke-width="1.5" opacity=".38">
+      <use href="#hypocycloid-quarter" transform="rotate(0 512 512)"/>
+      <use href="#hypocycloid-quarter" transform="rotate(90 512 512)"/>
+      <use href="#hypocycloid-quarter" transform="rotate(180 512 512)"/>
+      <use href="#hypocycloid-quarter" transform="rotate(270 512 512)"/>
+    </g>
+
+    <text x="512" y="512" text-anchor="middle" dominant-baseline="middle"
+          font-family="Arial Black, Impact, sans-serif" font-size="256" font-weight="900" letter-spacing="-12"
+          fill="url(#pebbleGold)" stroke="#050505" stroke-width="22" paint-order="stroke fill" filter="url(#shadow)">WTO</text>
+    <text x="512" y="512" text-anchor="middle" dominant-baseline="middle"
+          font-family="Arial Black, Impact, sans-serif" font-size="256" font-weight="900" letter-spacing="-12"
+          fill="none" stroke="#ffd76b" stroke-width="4">WTO</text>
+  </g>
+</svg>
