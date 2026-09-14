@@ -3,14 +3,17 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-09-14T09:04:17-04:00",
+  "updated_at": "2026-09-14T09:30:00-04:00",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
     "completed_lines_are": "closing",
     "pushes_allowed": true,
     "postponed_games_keep_original_week": true,
-    "excludes": ["preseason", "postseason"]
+    "excludes": [
+      "preseason",
+      "postseason"
+    ]
   },
   "weeks": [
     {
@@ -81,7 +84,37 @@
               "turnovers": 0,
               "time_of_possession": "25:43"
             }
-          }
+          },
+          "opening_favorite": "SEA",
+          "opening_spread": -4,
+          "opening_total": 44.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00",
+          "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "SEA",
+              "favorite_spread": -4,
+              "total": 44.5,
+              "away_spread": 4,
+              "away_spread_price": null,
+              "home_spread": -4,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            }
+          ]
         },
         {
           "game_id": "2026-W01-SF-LAR",
@@ -138,7 +171,37 @@
               "passing_yards": 168,
               "rushing_yards": 122
             }
-          }
+          },
+          "opening_favorite": "LAR",
+          "opening_spread": -2.5,
+          "opening_total": 49.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00",
+          "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "LAR",
+              "favorite_spread": -2.5,
+              "total": 49.5,
+              "away_spread": 2.5,
+              "away_spread_price": null,
+              "home_spread": -2.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            }
+          ]
         },
         {
           "game_id": "2026-W01-ATL-PIT",
@@ -154,6 +217,23 @@
           "market_as_of": "2026-09-13T08:00:58-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "PIT",
+              "favorite_spread": -2.5,
+              "total": 41.5,
+              "away_spread": 2.5,
+              "away_spread_price": null,
+              "home_spread": -2.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -210,7 +290,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "PIT",
+          "opening_spread": -2.5,
+          "opening_total": 41.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-BAL-IND",
@@ -226,6 +317,23 @@
           "market_as_of": "2026-09-13T08:00:58-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "BAL",
+              "favorite_spread": -3.5,
+              "total": 49.5,
+              "away_spread": -3.5,
+              "away_spread_price": null,
+              "home_spread": 3.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -282,7 +390,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "BAL",
+          "opening_spread": -3.5,
+          "opening_total": 49.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-BUF-HOU",
@@ -298,6 +417,23 @@
           "market_as_of": "2026-09-13T08:00:58-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "BUF",
+              "favorite_spread": -1.5,
+              "total": 44.5,
+              "away_spread": -1.5,
+              "away_spread_price": null,
+              "home_spread": 1.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -354,7 +490,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "BUF",
+          "opening_spread": -1.5,
+          "opening_total": 44.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-CHI-CAR",
@@ -370,6 +517,23 @@
           "market_as_of": "2026-09-13T08:00:58-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "CHI",
+              "favorite_spread": -2.5,
+              "total": 45.5,
+              "away_spread": -2.5,
+              "away_spread_price": null,
+              "home_spread": 2.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -426,7 +590,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "CHI",
+          "opening_spread": -2.5,
+          "opening_total": 45.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-CLE-JAX",
@@ -442,6 +617,23 @@
           "market_as_of": "2026-09-13T08:00:58-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "JAX",
+              "favorite_spread": -7.5,
+              "total": 40.5,
+              "away_spread": 7.5,
+              "away_spread_price": null,
+              "home_spread": -7.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -498,7 +690,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "JAX",
+          "opening_spread": -7.5,
+          "opening_total": 40.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-NO-DET",
@@ -514,6 +717,23 @@
           "market_as_of": "2026-09-13T08:00:58-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "DET",
+              "favorite_spread": -6.5,
+              "total": 50.5,
+              "away_spread": 6.5,
+              "away_spread_price": null,
+              "home_spread": -6.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -570,7 +790,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "DET",
+          "opening_spread": -6.5,
+          "opening_total": 50.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-NYJ-TEN",
@@ -586,6 +817,23 @@
           "market_as_of": "2026-09-13T08:00:58-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "TEN",
+              "favorite_spread": -2.5,
+              "total": 38.5,
+              "away_spread": 2.5,
+              "away_spread_price": null,
+              "home_spread": -2.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -642,7 +890,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "TEN",
+          "opening_spread": -2.5,
+          "opening_total": 38.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-TB-CIN",
@@ -658,6 +917,23 @@
           "market_as_of": "2026-09-13T08:00:58-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "CIN",
+              "favorite_spread": -3.5,
+              "total": 51.5,
+              "away_spread": 3.5,
+              "away_spread_price": null,
+              "home_spread": -3.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -714,7 +990,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "CIN",
+          "opening_spread": -3.5,
+          "opening_total": 51.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-ARI-LAC",
@@ -730,6 +1017,23 @@
           "market_as_of": "2026-09-13T15:45:44-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "LAC",
+              "favorite_spread": -10.5,
+              "total": 46.5,
+              "away_spread": 10.5,
+              "away_spread_price": null,
+              "home_spread": -10.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -802,7 +1106,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "LAC",
+          "opening_spread": -10.5,
+          "opening_total": 46.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-GB-MIN",
@@ -818,6 +1133,23 @@
           "market_as_of": "2026-09-13T15:45:44-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "GB",
+              "favorite_spread": -1.5,
+              "total": 45.5,
+              "away_spread": -1.5,
+              "away_spread_price": null,
+              "home_spread": 1.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -890,7 +1222,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "GB",
+          "opening_spread": -1.5,
+          "opening_total": 45.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-MIA-LV",
@@ -906,6 +1249,23 @@
           "market_as_of": "2026-09-13T15:45:44-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "LV",
+              "favorite_spread": -3,
+              "total": 40.5,
+              "away_spread": 3,
+              "away_spread_price": null,
+              "home_spread": -3,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -978,7 +1338,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "LV",
+          "opening_spread": -3,
+          "opening_total": 40.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-WAS-PHI",
@@ -994,6 +1365,23 @@
           "market_as_of": "2026-09-13T15:45:44-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "PHI",
+              "favorite_spread": -4.5,
+              "total": 47.5,
+              "away_spread": 4.5,
+              "away_spread_price": null,
+              "home_spread": -4.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -1066,7 +1454,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "PHI",
+          "opening_spread": -4.5,
+          "opening_total": 47.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-DAL-NYG",
@@ -1082,6 +1481,23 @@
           "market_as_of": "2026-09-13T19:42:41-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "DAL",
+              "favorite_spread": -2.5,
+              "total": 48.5,
+              "away_spread": -2.5,
+              "away_spread_price": null,
+              "home_spread": 2.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -1154,7 +1570,18 @@
               "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
               "checked_at": "2026-09-14T08:03:10-04:00"
             }
-          ]
+          ],
+          "opening_favorite": "DAL",
+          "opening_spread": -2.5,
+          "opening_total": 48.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         },
         {
           "game_id": "2026-W01-DEN-KC",
@@ -1170,6 +1597,23 @@
           "market_as_of": "2026-09-14T08:03:10-04:00",
           "season_type": "REG",
           "market_snapshots": [
+            {
+              "captured_at": null,
+              "retrieved_at": "2026-09-14T09:30:00-04:00",
+              "timestamp_precision": "unavailable",
+              "line_type": "opening",
+              "provider": "VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+              "favorite": "KC",
+              "favorite_spread": -2.5,
+              "total": 42.5,
+              "away_spread": 2.5,
+              "away_spread_price": null,
+              "home_spread": -2.5,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null
+            },
             {
               "captured_at": "2026-09-09",
               "timestamp_precision": "date_only",
@@ -1221,7 +1665,18 @@
           "over_price": -108,
           "under_price": -112,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-14T08:03:10-04:00"
+          "price_timestamp": "2026-09-14T08:03:10-04:00",
+          "opening_favorite": "KC",
+          "opening_spread": -2.5,
+          "opening_total": 42.5,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_provider": "VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+          "opening_market_timestamp": null,
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
         }
       ]
     }
