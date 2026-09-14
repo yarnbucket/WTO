@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-09-14T18:40:39.246Z",
+  "updated_at": "2026-09-14T19:46:24-04:00",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -1622,7 +1622,7 @@
           "market_favorite": "KC",
           "market_spread": -2.5,
           "market_total": 43.5,
-          "market_as_of": "2026-09-14T08:03:10-04:00",
+          "market_as_of": "2026-09-14T19:46:24-04:00",
           "season_type": "REG",
           "market_snapshots": [
             {
@@ -1686,14 +1686,30 @@
               "home_spread_price": -108,
               "over_price": -108,
               "under_price": -112
+            },
+            {
+              "captured_at": "2026-09-14T19:46:24-04:00",
+              "label": "7:45 PM ET",
+              "line_type": "market_snapshot",
+              "provider": "VegasInsider Consensus",
+              "source_url": "https://www.vegasinsider.com/nfl/matchups/broncos-vs-chiefs/",
+              "favorite": "KC",
+              "favorite_spread": -2.5,
+              "total": 43.5,
+              "away_spread": 2.5,
+              "away_spread_price": -112,
+              "home_spread": -2.5,
+              "home_spread_price": -108,
+              "over_price": -108,
+              "under_price": -112
             }
           ],
           "away_spread_price": -112,
           "home_spread_price": -108,
           "over_price": -108,
           "under_price": -112,
-          "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-14T08:03:10-04:00",
+          "price_provider": "VegasInsider Consensus",
+          "price_timestamp": "2026-09-14T19:46:24-04:00",
           "opening_favorite": "KC",
           "opening_spread": -2.5,
           "opening_total": 42.5,
