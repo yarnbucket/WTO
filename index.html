@@ -267,21 +267,6 @@
 .wto-readme p{font-size:12.5px;line-height:1.5;color:#d8ddd9}
 .wto-readme .wto-readme-note{padding-top:11px;border-top:1px solid rgba(255,199,44,.28);color:#aeb8b0;font-size:11px}
 .wto-readme-close{width:100%;min-height:48px;margin-top:4px;border:1px solid #f5d46c;border-radius:10px;background:linear-gradient(180deg,#ffd85a,#ffc72c);color:#070b08;font:16px 'Anton',sans-serif;letter-spacing:.7px;cursor:pointer}
-
-/* Slow stadium-sky depth: visible only with the stadium background. */
-.summary-screen{position:relative;overflow:hidden}
-.stadium-cloud-layer{display:none;position:absolute;z-index:0;top:70px;left:0;width:100%;height:310px;overflow:hidden;pointer-events:none}
-.summary-screen.stadium-background .stadium-cloud-layer{display:block}
-.summary-screen>.summary-head,.summary-screen>.spiral-pass-layer,.summary-screen>.summary-weekbox,.summary-screen>.summary-panel,.summary-screen>.summary-open{position:relative;z-index:1}
-.wto-cloud{position:absolute;left:-190px;width:142px;height:40px;border-radius:999px;background:rgba(255,255,255,.43);filter:blur(1.5px);box-shadow:0 8px 20px rgba(255,255,255,.12);will-change:transform}
-.wto-cloud::before,.wto-cloud::after{content:"";position:absolute;border-radius:50%;background:inherit}
-.wto-cloud::before{width:70px;height:70px;left:23px;bottom:4px}
-.wto-cloud::after{width:55px;height:55px;right:18px;bottom:2px}
-.wto-cloud.cloud-one{top:54px;transform:scale(1.08);animation:wtoCloudDrift 50s linear -12s infinite}
-.wto-cloud.cloud-two{top:133px;opacity:.64;transform:scale(.72);animation:wtoCloudDrift 42s linear -29s infinite}
-.wto-cloud.cloud-three{top:205px;opacity:.48;transform:scale(.52);animation:wtoCloudDrift 38s linear -8s infinite}
-@keyframes wtoCloudDrift{from{translate:-190px 0}to{translate:860px 0}}
-@media(prefers-reduced-motion:reduce){.stadium-cloud-layer{display:none!important}.wto-cloud{animation:none!important}}
 </style>
 </head>
 <body>
@@ -289,11 +274,6 @@
 
 <div class="summary-screen" id="summaryScreen">
 <header class="summary-head intro" id="summaryHead"><h1>WHAT'S THE ODDS</h1></header>
-<div class="stadium-cloud-layer" aria-hidden="true">
-  <span class="wto-cloud cloud-one"></span>
-  <span class="wto-cloud cloud-two"></span>
-  <span class="wto-cloud cloud-three"></span>
-</div>
 <div class="spiral-pass-layer" id="spiralPassLayer" aria-hidden="true">
   <div class="spiral-football" id="spiralFootball"><span class="spiral-football-shell"></span></div>
 </div>
