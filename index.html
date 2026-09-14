@@ -269,10 +269,10 @@
 .wto-readme-close{width:100%;min-height:48px;margin-top:4px;border:1px solid #f5d46c;border-radius:10px;background:linear-gradient(180deg,#ffd85a,#ffc72c);color:#070b08;font:16px 'Anton',sans-serif;letter-spacing:.7px;cursor:pointer}
 
 /* Five-second home-screen guide to the completed-games action. */
-.summary-open.summary-guided-glow{animation:wtoSummaryGuidedGlow 2.2s ease-in-out 1}
+.summary-open.summary-guided-glow{animation:wtoSummaryGuidedGlow 1.4s ease-in-out 2}
 @keyframes wtoSummaryGuidedGlow{
-  0%,100%{box-shadow:0 8px 24px rgba(0,0,0,.35)}
-  45%{box-shadow:0 0 12px rgba(255,199,44,.72),0 0 30px rgba(255,199,44,.42);filter:brightness(1.08)}
+  0%,100%{box-shadow:0 8px 24px rgba(0,0,0,.35);filter:brightness(1)}
+  48%{box-shadow:0 0 18px rgba(255,215,84,.92),0 0 42px rgba(255,199,44,.62),0 0 64px rgba(255,199,44,.28);filter:brightness(1.14)}
 }
 @media(prefers-reduced-motion:reduce){.summary-open.summary-guided-glow{animation:none}}
 </style>
@@ -669,6 +669,22 @@ function openWtoReadme(){
 </script>
 
 <script>
+function easeSummaryScroll(target,duration){
+  const startY=window.scrollY;
+  const maxY=Math.max(0,document.documentElement.scrollHeight-window.innerHeight);
+  const targetY=Math.min(maxY,startY+target.getBoundingClientRect().top);
+  const distance=targetY-startY;
+  let startedAt=null;
+
+  function step(now){
+    if(startedAt===null) startedAt=now;
+    const progress=Math.min(1,(now-startedAt)/duration);
+    const eased=progress<.5 ? 4*progress*progress*progress : 1-Math.pow(-2*progress+2,3)/2;
+    window.scrollTo(0,startY+distance*eased);
+    if(progress<1) window.requestAnimationFrame(step);
+  }
+  window.requestAnimationFrame(step);
+}
 function scheduleSummaryReveal(){
   const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
   const screen=document.getElementById('summaryScreen');
@@ -689,11 +705,11 @@ function scheduleSummaryReveal(){
     const readme=document.getElementById('wtoReadmeDialog');
     if((settings&&settings.classList.contains('open'))||(readme&&readme.open)) return;
 
-    target.scrollIntoView({behavior:'smooth',block:'start'});
+    easeSummaryScroll(target,1400);
     window.setTimeout(()=>{
       button.classList.add('summary-guided-glow');
       button.addEventListener('animationend',()=>button.classList.remove('summary-guided-glow'),{once:true});
-    },650);
+    },1450);
   },5000);
 }
 if(document.readyState==='loading'){
