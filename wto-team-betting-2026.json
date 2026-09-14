@@ -3,7 +3,7 @@
   "season": 2026,
   "title": "WTO Team Betting Tracker",
   "source_of_truth": "ff26-nfl-lines-2026.json",
-  "generated_at": "2026-09-14T09:30:00-04:00",
+  "generated_at": "2026-09-14T18:40:39.246Z",
   "methodology": {
     "ats": "Team win/loss/push is derived from the verified game ATS winner. Favorite spreads are stored from the favorite perspective as negative numbers.",
     "totals": "The game Over/Under result is applied equally to both participating teams.",
@@ -344,7 +344,11 @@
           "ats_result": "loss",
           "combined_points": 96,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "scorigami": true,
+          "special_badges": [
+            "SCORIGAMI"
+          ]
         }
       ],
       "average_points_for": 37,
@@ -412,7 +416,11 @@
           "ats_result": "win",
           "combined_points": 96,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "scorigami": true,
+          "special_badges": [
+            "SCORIGAMI"
+          ]
         }
       ],
       "average_points_for": 59,
@@ -752,7 +760,11 @@
           "ats_result": null,
           "combined_points": 61,
           "total_result": null,
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "went_to_overtime": true,
+          "special_badges": [
+            "OT"
+          ]
         }
       ],
       "average_points_for": 31,
@@ -820,7 +832,11 @@
           "ats_result": "loss",
           "combined_points": 61,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "scorigami": true,
+          "special_badges": [
+            "SCORIGAMI"
+          ]
         }
       ],
       "average_points_for": 22,
@@ -1432,7 +1448,11 @@
           "ats_result": "win",
           "combined_points": 61,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "scorigami": true,
+          "special_badges": [
+            "SCORIGAMI"
+          ]
         }
       ],
       "average_points_for": 39,
@@ -1568,7 +1588,11 @@
           "ats_result": null,
           "combined_points": 61,
           "total_result": null,
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "went_to_overtime": true,
+          "special_badges": [
+            "OT"
+          ]
         }
       ],
       "average_points_for": 30,
