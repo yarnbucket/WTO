@@ -1,0 +1,2190 @@
+{
+  "schema_version": "1.0",
+  "season": 2026,
+  "title": "WTO Team Betting Tracker",
+  "source_of_truth": "ff26-nfl-lines-2026.json",
+  "generated_at": "2026-09-14T09:30:00-04:00",
+  "methodology": {
+    "ats": "Team win/loss/push is derived from the verified game ATS winner. Favorite spreads are stored from the favorite perspective as negative numbers.",
+    "totals": "The game Over/Under result is applied equally to both participating teams.",
+    "analysis": "Team pages distinguish verified game and market facts from interpretive commentary."
+  },
+  "teams": {
+    "ARI": {
+      "team": "ARI",
+      "name": "Arizona Cardinals",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 1,
+        "pushes": 0
+      },
+      "points_for": 26,
+      "points_against": 14,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-ARI-LAC",
+          "kickoff_et": "2026-09-13T16:25:00-04:00",
+          "opponent": "LAC",
+          "venue": "away",
+          "status": "final",
+          "score_for": 26,
+          "score_against": 14,
+          "straight_up_result": "win",
+          "opening_favorite": "LAC",
+          "opening_spread": -10.5,
+          "opening_total": 46.5,
+          "closing_favorite": "LAC",
+          "closing_spread": -8.5,
+          "closing_total": 47.5,
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 40,
+          "total_result": "under",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 26,
+      "average_points_against": 14
+    },
+    "ATL": {
+      "team": "ATL",
+      "name": "Atlanta Falcons",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 1,
+        "pushes": 0
+      },
+      "points_for": 13,
+      "points_against": 20,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-ATL-PIT",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "PIT",
+          "venue": "away",
+          "status": "final",
+          "score_for": 13,
+          "score_against": 20,
+          "straight_up_result": "loss",
+          "opening_favorite": "PIT",
+          "opening_spread": -2.5,
+          "opening_total": 41.5,
+          "closing_favorite": "PIT",
+          "closing_spread": -6.5,
+          "closing_total": 40.5,
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 33,
+          "total_result": "under",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 13,
+      "average_points_against": 20
+    },
+    "BAL": {
+      "team": "BAL",
+      "name": "Baltimore Ravens",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 41,
+      "points_against": 23,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-BAL-IND",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "IND",
+          "venue": "away",
+          "status": "final",
+          "score_for": 41,
+          "score_against": 23,
+          "straight_up_result": "win",
+          "opening_favorite": "BAL",
+          "opening_spread": -3.5,
+          "opening_total": 49.5,
+          "closing_favorite": "BAL",
+          "closing_spread": -3,
+          "closing_total": 48.5,
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 64,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 41,
+      "average_points_against": 23
+    },
+    "BUF": {
+      "team": "BUF",
+      "name": "Buffalo Bills",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 36,
+      "points_against": 31,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-BUF-HOU",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "HOU",
+          "venue": "away",
+          "status": "final",
+          "score_for": 36,
+          "score_against": 31,
+          "straight_up_result": "win",
+          "opening_favorite": "BUF",
+          "opening_spread": -1.5,
+          "opening_total": 44.5,
+          "closing_favorite": "BUF",
+          "closing_spread": -1.5,
+          "closing_total": 44.5,
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 67,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 36,
+      "average_points_against": 31
+    },
+    "CAR": {
+      "team": "CAR",
+      "name": "Carolina Panthers",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 37,
+      "points_against": 59,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-CHI-CAR",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "CHI",
+          "venue": "home",
+          "status": "final",
+          "score_for": 37,
+          "score_against": 59,
+          "straight_up_result": "loss",
+          "opening_favorite": "CHI",
+          "opening_spread": -2.5,
+          "opening_total": 45.5,
+          "closing_favorite": "CHI",
+          "closing_spread": -3,
+          "closing_total": 47.5,
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 96,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 37,
+      "average_points_against": 59
+    },
+    "CHI": {
+      "team": "CHI",
+      "name": "Chicago Bears",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 59,
+      "points_against": 37,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-CHI-CAR",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "CAR",
+          "venue": "away",
+          "status": "final",
+          "score_for": 59,
+          "score_against": 37,
+          "straight_up_result": "win",
+          "opening_favorite": "CHI",
+          "opening_spread": -2.5,
+          "opening_total": 45.5,
+          "closing_favorite": "CHI",
+          "closing_spread": -3,
+          "closing_total": 47.5,
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 96,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 59,
+      "average_points_against": 37
+    },
+    "CIN": {
+      "team": "CIN",
+      "name": "Cincinnati Bengals",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 33,
+      "points_against": 27,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-TB-CIN",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "TB",
+          "venue": "home",
+          "status": "final",
+          "score_for": 33,
+          "score_against": 27,
+          "straight_up_result": "win",
+          "opening_favorite": "CIN",
+          "opening_spread": -3.5,
+          "opening_total": 51.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "market_role": null,
+          "ats_result": null,
+          "combined_points": 60,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 33,
+      "average_points_against": 27
+    },
+    "CLE": {
+      "team": "CLE",
+      "name": "Cleveland Browns",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 10,
+      "points_against": 34,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-CLE-JAX",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "JAX",
+          "venue": "away",
+          "status": "final",
+          "score_for": 10,
+          "score_against": 34,
+          "straight_up_result": "loss",
+          "opening_favorite": "JAX",
+          "opening_spread": -7.5,
+          "opening_total": 40.5,
+          "closing_favorite": "JAX",
+          "closing_spread": -8.5,
+          "closing_total": 40.5,
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 44,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 10,
+      "average_points_against": 34
+    },
+    "DAL": {
+      "team": "DAL",
+      "name": "Dallas Cowboys",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 20,
+      "points_against": 28,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-DAL-NYG",
+          "kickoff_et": "2026-09-13T20:20:00-04:00",
+          "opponent": "NYG",
+          "venue": "away",
+          "status": "final",
+          "score_for": 20,
+          "score_against": 28,
+          "straight_up_result": "loss",
+          "opening_favorite": "DAL",
+          "opening_spread": -2.5,
+          "opening_total": 48.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "market_role": null,
+          "ats_result": null,
+          "combined_points": 48,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 20,
+      "average_points_against": 28
+    },
+    "DEN": {
+      "team": "DEN",
+      "name": "Denver Broncos",
+      "straight_up": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 0,
+      "points_against": 0,
+      "final_games": 0,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-DEN-KC",
+          "kickoff_et": "2026-09-14T20:15:00-04:00",
+          "opponent": "KC",
+          "venue": "away",
+          "status": "scheduled",
+          "score_for": null,
+          "score_against": null,
+          "straight_up_result": null,
+          "opening_favorite": "KC",
+          "opening_spread": -2.5,
+          "opening_total": 42.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "market_role": null,
+          "ats_result": null,
+          "combined_points": null,
+          "total_result": null,
+          "verified_at": null
+        }
+      ],
+      "average_points_for": null,
+      "average_points_against": null
+    },
+    "DET": {
+      "team": "DET",
+      "name": "Detroit Lions",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 31,
+      "points_against": 30,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-NO-DET",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "NO",
+          "venue": "home",
+          "status": "final",
+          "score_for": 31,
+          "score_against": 30,
+          "straight_up_result": "win",
+          "opening_favorite": "DET",
+          "opening_spread": -6.5,
+          "opening_total": 50.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "market_role": null,
+          "ats_result": null,
+          "combined_points": 61,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 31,
+      "average_points_against": 30
+    },
+    "GB": {
+      "team": "GB",
+      "name": "Green Bay Packers",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 22,
+      "points_against": 39,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-GB-MIN",
+          "kickoff_et": "2026-09-13T16:25:00-04:00",
+          "opponent": "MIN",
+          "venue": "away",
+          "status": "final",
+          "score_for": 22,
+          "score_against": 39,
+          "straight_up_result": "loss",
+          "opening_favorite": "GB",
+          "opening_spread": -1.5,
+          "opening_total": 45.5,
+          "closing_favorite": "MIN",
+          "closing_spread": -2.5,
+          "closing_total": 45.5,
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 61,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 22,
+      "average_points_against": 39
+    },
+    "HOU": {
+      "team": "HOU",
+      "name": "Houston Texans",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 31,
+      "points_against": 36,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-BUF-HOU",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "BUF",
+          "venue": "home",
+          "status": "final",
+          "score_for": 31,
+          "score_against": 36,
+          "straight_up_result": "loss",
+          "opening_favorite": "BUF",
+          "opening_spread": -1.5,
+          "opening_total": 44.5,
+          "closing_favorite": "BUF",
+          "closing_spread": -1.5,
+          "closing_total": 44.5,
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 67,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 31,
+      "average_points_against": 36
+    },
+    "IND": {
+      "team": "IND",
+      "name": "Indianapolis Colts",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 23,
+      "points_against": 41,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-BAL-IND",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "BAL",
+          "venue": "home",
+          "status": "final",
+          "score_for": 23,
+          "score_against": 41,
+          "straight_up_result": "loss",
+          "opening_favorite": "BAL",
+          "opening_spread": -3.5,
+          "opening_total": 49.5,
+          "closing_favorite": "BAL",
+          "closing_spread": -3,
+          "closing_total": 48.5,
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 64,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 23,
+      "average_points_against": 41
+    },
+    "JAX": {
+      "team": "JAX",
+      "name": "Jacksonville Jaguars",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 34,
+      "points_against": 10,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-CLE-JAX",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "CLE",
+          "venue": "home",
+          "status": "final",
+          "score_for": 34,
+          "score_against": 10,
+          "straight_up_result": "win",
+          "opening_favorite": "JAX",
+          "opening_spread": -7.5,
+          "opening_total": 40.5,
+          "closing_favorite": "JAX",
+          "closing_spread": -8.5,
+          "closing_total": 40.5,
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 44,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 34,
+      "average_points_against": 10
+    },
+    "KC": {
+      "team": "KC",
+      "name": "Kansas City Chiefs",
+      "straight_up": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 0,
+      "points_against": 0,
+      "final_games": 0,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-DEN-KC",
+          "kickoff_et": "2026-09-14T20:15:00-04:00",
+          "opponent": "DEN",
+          "venue": "home",
+          "status": "scheduled",
+          "score_for": null,
+          "score_against": null,
+          "straight_up_result": null,
+          "opening_favorite": "KC",
+          "opening_spread": -2.5,
+          "opening_total": 42.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "market_role": null,
+          "ats_result": null,
+          "combined_points": null,
+          "total_result": null,
+          "verified_at": null
+        }
+      ],
+      "average_points_for": null,
+      "average_points_against": null
+    },
+    "LV": {
+      "team": "LV",
+      "name": "Las Vegas Raiders",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 27,
+      "points_against": 13,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-MIA-LV",
+          "kickoff_et": "2026-09-13T16:25:00-04:00",
+          "opponent": "MIA",
+          "venue": "home",
+          "status": "final",
+          "score_for": 27,
+          "score_against": 13,
+          "straight_up_result": "win",
+          "opening_favorite": "LV",
+          "opening_spread": -3,
+          "opening_total": 40.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "market_role": null,
+          "ats_result": null,
+          "combined_points": 40,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 27,
+      "average_points_against": 13
+    },
+    "LAC": {
+      "team": "LAC",
+      "name": "Los Angeles Chargers",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 1,
+        "pushes": 0
+      },
+      "points_for": 14,
+      "points_against": 26,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-ARI-LAC",
+          "kickoff_et": "2026-09-13T16:25:00-04:00",
+          "opponent": "ARI",
+          "venue": "home",
+          "status": "final",
+          "score_for": 14,
+          "score_against": 26,
+          "straight_up_result": "loss",
+          "opening_favorite": "LAC",
+          "opening_spread": -10.5,
+          "opening_total": 46.5,
+          "closing_favorite": "LAC",
+          "closing_spread": -8.5,
+          "closing_total": 47.5,
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 40,
+          "total_result": "under",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 14,
+      "average_points_against": 26
+    },
+    "LAR": {
+      "team": "LAR",
+      "name": "Los Angeles Rams",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 1,
+        "pushes": 0
+      },
+      "points_for": 7,
+      "points_against": 27,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-SF-LAR",
+          "kickoff_et": "2026-09-10T20:35:00-04:00",
+          "opponent": "SF",
+          "venue": "home",
+          "status": "final",
+          "score_for": 7,
+          "score_against": 27,
+          "straight_up_result": "loss",
+          "opening_favorite": "LAR",
+          "opening_spread": -2.5,
+          "opening_total": 49.5,
+          "closing_favorite": "LAR",
+          "closing_spread": -3.5,
+          "closing_total": 47.5,
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 34,
+          "total_result": "under",
+          "verified_at": "2026-09-12T08:20:00-04:00"
+        }
+      ],
+      "average_points_for": 7,
+      "average_points_against": 27
+    },
+    "MIA": {
+      "team": "MIA",
+      "name": "Miami Dolphins",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 13,
+      "points_against": 27,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-MIA-LV",
+          "kickoff_et": "2026-09-13T16:25:00-04:00",
+          "opponent": "LV",
+          "venue": "away",
+          "status": "final",
+          "score_for": 13,
+          "score_against": 27,
+          "straight_up_result": "loss",
+          "opening_favorite": "LV",
+          "opening_spread": -3,
+          "opening_total": 40.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "market_role": null,
+          "ats_result": null,
+          "combined_points": 40,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 13,
+      "average_points_against": 27
+    },
+    "MIN": {
+      "team": "MIN",
+      "name": "Minnesota Vikings",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 39,
+      "points_against": 22,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-GB-MIN",
+          "kickoff_et": "2026-09-13T16:25:00-04:00",
+          "opponent": "GB",
+          "venue": "home",
+          "status": "final",
+          "score_for": 39,
+          "score_against": 22,
+          "straight_up_result": "win",
+          "opening_favorite": "GB",
+          "opening_spread": -1.5,
+          "opening_total": 45.5,
+          "closing_favorite": "MIN",
+          "closing_spread": -2.5,
+          "closing_total": 45.5,
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 61,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 39,
+      "average_points_against": 22
+    },
+    "NE": {
+      "team": "NE",
+      "name": "New England Patriots",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 1
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 1
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 1
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 1,
+        "pushes": 0
+      },
+      "points_for": 10,
+      "points_against": 13,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-NE-SEA",
+          "kickoff_et": "2026-09-09T20:20:00-04:00",
+          "opponent": "SEA",
+          "venue": "away",
+          "status": "final",
+          "score_for": 10,
+          "score_against": 13,
+          "straight_up_result": "loss",
+          "opening_favorite": "SEA",
+          "opening_spread": -4,
+          "opening_total": 44.5,
+          "closing_favorite": "SEA",
+          "closing_spread": -3,
+          "closing_total": 44.5,
+          "market_role": "underdog",
+          "ats_result": "push",
+          "combined_points": 23,
+          "total_result": "under",
+          "verified_at": "2026-09-12T08:20:00-04:00"
+        }
+      ],
+      "average_points_for": 10,
+      "average_points_against": 13
+    },
+    "NO": {
+      "team": "NO",
+      "name": "New Orleans Saints",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 30,
+      "points_against": 31,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-NO-DET",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "DET",
+          "venue": "away",
+          "status": "final",
+          "score_for": 30,
+          "score_against": 31,
+          "straight_up_result": "loss",
+          "opening_favorite": "DET",
+          "opening_spread": -6.5,
+          "opening_total": 50.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "market_role": null,
+          "ats_result": null,
+          "combined_points": 61,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 30,
+      "average_points_against": 31
+    },
+    "NYG": {
+      "team": "NYG",
+      "name": "New York Giants",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 28,
+      "points_against": 20,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-DAL-NYG",
+          "kickoff_et": "2026-09-13T20:20:00-04:00",
+          "opponent": "DAL",
+          "venue": "home",
+          "status": "final",
+          "score_for": 28,
+          "score_against": 20,
+          "straight_up_result": "win",
+          "opening_favorite": "DAL",
+          "opening_spread": -2.5,
+          "opening_total": 48.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "market_role": null,
+          "ats_result": null,
+          "combined_points": 48,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 28,
+      "average_points_against": 20
+    },
+    "NYJ": {
+      "team": "NYJ",
+      "name": "New York Jets",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 1,
+        "pushes": 0
+      },
+      "points_for": 23,
+      "points_against": 10,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-NYJ-TEN",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "TEN",
+          "venue": "away",
+          "status": "final",
+          "score_for": 23,
+          "score_against": 10,
+          "straight_up_result": "win",
+          "opening_favorite": "TEN",
+          "opening_spread": -2.5,
+          "opening_total": 38.5,
+          "closing_favorite": "TEN",
+          "closing_spread": -1.5,
+          "closing_total": 39.5,
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 33,
+          "total_result": "under",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 23,
+      "average_points_against": 10
+    },
+    "PHI": {
+      "team": "PHI",
+      "name": "Philadelphia Eagles",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 24,
+      "points_against": 22,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-WAS-PHI",
+          "kickoff_et": "2026-09-13T16:25:00-04:00",
+          "opponent": "WAS",
+          "venue": "home",
+          "status": "final",
+          "score_for": 24,
+          "score_against": 22,
+          "straight_up_result": "win",
+          "opening_favorite": "PHI",
+          "opening_spread": -4.5,
+          "opening_total": 47.5,
+          "closing_favorite": "PHI",
+          "closing_spread": -6,
+          "closing_total": 44,
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 46,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 24,
+      "average_points_against": 22
+    },
+    "PIT": {
+      "team": "PIT",
+      "name": "Pittsburgh Steelers",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 1,
+        "pushes": 0
+      },
+      "points_for": 20,
+      "points_against": 13,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-ATL-PIT",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "ATL",
+          "venue": "home",
+          "status": "final",
+          "score_for": 20,
+          "score_against": 13,
+          "straight_up_result": "win",
+          "opening_favorite": "PIT",
+          "opening_spread": -2.5,
+          "opening_total": 41.5,
+          "closing_favorite": "PIT",
+          "closing_spread": -6.5,
+          "closing_total": 40.5,
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 33,
+          "total_result": "under",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 20,
+      "average_points_against": 13
+    },
+    "SF": {
+      "team": "SF",
+      "name": "San Francisco 49ers",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 1,
+        "pushes": 0
+      },
+      "points_for": 27,
+      "points_against": 7,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-SF-LAR",
+          "kickoff_et": "2026-09-10T20:35:00-04:00",
+          "opponent": "LAR",
+          "venue": "away",
+          "status": "final",
+          "score_for": 27,
+          "score_against": 7,
+          "straight_up_result": "win",
+          "opening_favorite": "LAR",
+          "opening_spread": -2.5,
+          "opening_total": 49.5,
+          "closing_favorite": "LAR",
+          "closing_spread": -3.5,
+          "closing_total": 47.5,
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 34,
+          "total_result": "under",
+          "verified_at": "2026-09-12T08:20:00-04:00"
+        }
+      ],
+      "average_points_for": 27,
+      "average_points_against": 7
+    },
+    "SEA": {
+      "team": "SEA",
+      "name": "Seattle Seahawks",
+      "straight_up": {
+        "wins": 1,
+        "losses": 0,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 1
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 1
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 1
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 1,
+        "pushes": 0
+      },
+      "points_for": 13,
+      "points_against": 10,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-NE-SEA",
+          "kickoff_et": "2026-09-09T20:20:00-04:00",
+          "opponent": "NE",
+          "venue": "home",
+          "status": "final",
+          "score_for": 13,
+          "score_against": 10,
+          "straight_up_result": "win",
+          "opening_favorite": "SEA",
+          "opening_spread": -4,
+          "opening_total": 44.5,
+          "closing_favorite": "SEA",
+          "closing_spread": -3,
+          "closing_total": 44.5,
+          "market_role": "favorite",
+          "ats_result": "push",
+          "combined_points": 23,
+          "total_result": "under",
+          "verified_at": "2026-09-12T08:20:00-04:00"
+        }
+      ],
+      "average_points_for": 13,
+      "average_points_against": 10
+    },
+    "TB": {
+      "team": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 27,
+      "points_against": 33,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-TB-CIN",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "CIN",
+          "venue": "away",
+          "status": "final",
+          "score_for": 27,
+          "score_against": 33,
+          "straight_up_result": "loss",
+          "opening_favorite": "CIN",
+          "opening_spread": -3.5,
+          "opening_total": 51.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "market_role": null,
+          "ats_result": null,
+          "combined_points": 60,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 27,
+      "average_points_against": 33
+    },
+    "TEN": {
+      "team": "TEN",
+      "name": "Tennessee Titans",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 0,
+        "unders": 1,
+        "pushes": 0
+      },
+      "points_for": 10,
+      "points_against": 23,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-NYJ-TEN",
+          "kickoff_et": "2026-09-13T13:00:00-04:00",
+          "opponent": "NYJ",
+          "venue": "home",
+          "status": "final",
+          "score_for": 10,
+          "score_against": 23,
+          "straight_up_result": "loss",
+          "opening_favorite": "TEN",
+          "opening_spread": -2.5,
+          "opening_total": 38.5,
+          "closing_favorite": "TEN",
+          "closing_spread": -1.5,
+          "closing_total": 39.5,
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 33,
+          "total_result": "under",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 10,
+      "average_points_against": 23
+    },
+    "WAS": {
+      "team": "WAS",
+      "name": "Washington Commanders",
+      "straight_up": {
+        "wins": 0,
+        "losses": 1,
+        "ties": 0
+      },
+      "ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "favorite_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "underdog_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "home_ats": {
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0
+      },
+      "away_ats": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0
+      },
+      "totals": {
+        "overs": 1,
+        "unders": 0,
+        "pushes": 0
+      },
+      "points_for": 22,
+      "points_against": 24,
+      "final_games": 1,
+      "games": [
+        {
+          "week": 1,
+          "game_id": "2026-W01-WAS-PHI",
+          "kickoff_et": "2026-09-13T16:25:00-04:00",
+          "opponent": "PHI",
+          "venue": "away",
+          "status": "final",
+          "score_for": 22,
+          "score_against": 24,
+          "straight_up_result": "loss",
+          "opening_favorite": "PHI",
+          "opening_spread": -4.5,
+          "opening_total": 47.5,
+          "closing_favorite": "PHI",
+          "closing_spread": -6,
+          "closing_total": 44,
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 46,
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00"
+        }
+      ],
+      "average_points_for": 22,
+      "average_points_against": 24
+    }
+  }
+}
