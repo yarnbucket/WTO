@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-09-14T09:30:00-04:00",
+  "updated_at": "2026-09-14T18:40:39.246Z",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -601,7 +601,17 @@
           "opening_provider": "VegasInsider",
           "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00",
+          "scorigami": true,
+          "scorigami_scope": "NFL all-time final score",
+          "special_badges": [
+            "SCORIGAMI"
+          ],
+          "special_events_verified_at": "2026-09-14T18:40:39.246Z",
+          "special_event_sources": [
+            "https://nfl-scorigami.vercel.app/",
+            "https://www.windycitygridiron.com/chicago-bears-news/122570/chicago-bears-carolina-panthers-final-score-scorigami-2026-nfl-history-59-points"
+          ]
         },
         {
           "game_id": "2026-W01-CLE-JAX",
@@ -801,7 +811,15 @@
           "opening_provider": "VegasInsider",
           "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00",
+          "went_to_overtime": true,
+          "special_badges": [
+            "OT"
+          ],
+          "special_events_verified_at": "2026-09-14T18:40:39.246Z",
+          "special_event_sources": [
+            "https://www.neworleanssaints.com/news/detroit-lions-31-new-orleans-saints-30-ot-game-recap-2026-nfl-week-1"
+          ]
         },
         {
           "game_id": "2026-W01-NYJ-TEN",
@@ -1233,7 +1251,17 @@
           "opening_provider": "VegasInsider",
           "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00",
+          "scorigami": true,
+          "scorigami_scope": "NFL all-time final score",
+          "special_badges": [
+            "SCORIGAMI"
+          ],
+          "special_events_verified_at": "2026-09-14T18:40:39.246Z",
+          "special_event_sources": [
+            "https://nfl-scorigami.vercel.app/",
+            "https://www.dailynorseman.com/minnesota-vikings-news/99055/minnesota-vikings-green-bay-packers-scorigami-unique-final-score"
+          ]
         },
         {
           "game_id": "2026-W01-MIA-LV",
