@@ -251,6 +251,22 @@
 @keyframes wtoCardExitLeft{to{transform:translateX(-112%) rotate(-9deg);opacity:.08}}@keyframes wtoCardExitRight{to{transform:translateX(112%) rotate(9deg);opacity:.08}}
 @keyframes wtoCardEnterRight{from{transform:translateX(112%) rotate(9deg);opacity:.08}to{transform:translateX(0) rotate(0);opacity:1}}@keyframes wtoCardEnterLeft{from{transform:translateX(-112%) rotate(-9deg);opacity:.08}to{transform:translateX(0) rotate(0);opacity:1}}
 @media(prefers-reduced-motion:reduce){.featured-wrap[class*="swipe-"]{animation:none!important}}
+
+/* Home-screen quick-read guide */
+.summary-title-help{display:flex;align-items:center;gap:8px;min-width:0}
+.summary-readme-trigger{display:inline-grid;place-items:center;width:34px;height:34px;padding:0;border:1px solid rgba(255,199,44,.72);border-radius:50%;background:rgba(0,0,0,.46);font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,199,44,.16);-webkit-tap-highlight-color:transparent}
+.summary-readme-trigger:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.wto-readme{width:min(430px,calc(100vw - 28px));max-height:min(82vh,720px);margin:auto;padding:0;border:1px solid #9c8240;border-radius:16px;background:linear-gradient(180deg,rgba(11,19,13,.98),rgba(2,5,3,.99));color:var(--chalk);box-shadow:0 22px 70px rgba(0,0,0,.78),0 0 28px rgba(255,199,44,.15);overflow:auto}
+.wto-readme::backdrop{background:rgba(0,0,0,.76);backdrop-filter:blur(5px)}
+.wto-readme-inner{padding:22px 20px 18px}
+.wto-readme h2{margin:0 0 8px;color:var(--gold);font:27px/1 'Anton',sans-serif;letter-spacing:.7px}
+.wto-readme-lead{margin:0 0 14px;color:#fff;font-size:13px;line-height:1.5}
+.wto-readme h3{margin:0 0 7px;font:15px 'Anton',sans-serif;letter-spacing:.7px}
+.wto-readme ul{margin:0 0 15px;padding-left:20px}
+.wto-readme li{margin:0 0 7px;color:#d8ddd9;font-size:12.5px;line-height:1.42}
+.wto-readme p{font-size:12.5px;line-height:1.5;color:#d8ddd9}
+.wto-readme .wto-readme-note{padding-top:11px;border-top:1px solid rgba(255,199,44,.28);color:#aeb8b0;font-size:11px}
+.wto-readme-close{width:100%;min-height:48px;margin-top:4px;border:1px solid #f5d46c;border-radius:10px;background:linear-gradient(180deg,#ffd85a,#ffc72c);color:#070b08;font:16px 'Anton',sans-serif;letter-spacing:.7px;cursor:pointer}
 </style>
 </head>
 <body>
@@ -263,7 +279,7 @@
 </div>
 
 <section class="summary-weekbox">
-  <div class="summary-picker"><label for="summaryWeek">WEEKLY TOTALS</label><span>PICK WEEK</span><select id="summaryWeek" aria-label="Pick week"></select></div>
+  <div class="summary-picker"><div class="summary-title-help"><label for="summaryWeek">WEEKLY TOTALS</label><button type="button" class="summary-readme-trigger" id="wtoReadmeButton" aria-label="What does WTO do?" aria-haspopup="dialog" onclick="openWtoReadme()">🏈</button></div><span>PICK WEEK</span><select id="summaryWeek" aria-label="Pick week"></select></div>
   <div class="summary-nav" aria-label="Summary navigation">
     <button type="button" onclick="summaryThisWeek()">THIS WEEK</button>
     <button type="button" onclick="summaryStep(-1)"><svg class="nav-hypocycloid back" viewBox="0 0 500 100" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="back-nav-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="0"><stop offset="0%" stop-color="#C60C30"></stop><stop offset="100%" stop-color="#FFFFFF"></stop></linearGradient></defs><path d="M0 50 C250 50 430 42 500 0 L500 100 C430 58 250 50 0 50 Z" fill="url(#back-nav-gradient)"></path></svg><span>BACK</span></button>
@@ -275,6 +291,29 @@
 <section class="summary-panel summary-completed"><h2><span>COMPLETED GAMES</span><strong><em id="summaryCompleted">0</em> GAMES / <em id="summaryScheduled">0</em> GAMES</strong></h2><div class="summary-completion-track" role="progressbar" aria-label="Completed games" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="summaryCompletionTrack"><span id="summaryCompletionFill"></span></div><div class="summary-completion-label"><strong id="summaryCompletionPct">0%</strong> COMPLETE</div></section>
 <button class="summary-open" onclick="openTracker()">VIEW WEEK MATCHUPS →</button>
 </div>
+
+<dialog class="wto-readme" id="wtoReadmeDialog" aria-labelledby="wtoReadmeTitle">
+  <div class="wto-readme-inner">
+    <h2 id="wtoReadmeTitle">🏈 WHAT’S THE ODDS?</h2>
+    <p class="wto-readme-lead">WTO tracks the 2026 NFL regular season week by week.</p>
+    <h3>AT A GLANCE</h3>
+    <ul>
+      <li>Follow current spreads and over/under totals</li>
+      <li>See ATS winners, pushes, overs, and unders</li>
+      <li>Compare favorites and underdogs against the spread</li>
+      <li>Track opening, current, and verified closing lines</li>
+      <li>Make and track your winner, spread, and total picks</li>
+      <li>Review final scores, game statistics, and recaps</li>
+      <li>Explore team trends, matchup history, futures, and performance graphs</li>
+      <li>Personalize the home screen with switchable stadium, trophy-room, and night backgrounds</li>
+    </ul>
+    <p>The home screen provides a quick weekly picture. Tap <strong>VIEW WEEK MATCHUPS</strong> to see every game’s odds and make your picks.</p>
+    <p>Choose your background in <strong>Settings</strong>, where advanced statistics and tools remain tucked away until you need them.</p>
+    <p class="wto-readme-note"><em>Regular-season games only. Betting lines are informational and may change before kickoff.</em></p>
+    <form method="dialog"><button class="wto-readme-close" value="close">GOT IT 🏈</button></form>
+  </div>
+</dialog>
+
 <div class="screen app-hidden" id="trackerScreen">
 
   <div class="marquee">
@@ -605,6 +644,20 @@ function scheduleSpiralPass(delay=650){
 function init(){applyHomeBackground();scheduleSpiralPass(650);WEEKS.forEach(w=>{const o=document.createElement('option');o.value=w.id;o.textContent=w.title;summaryWeek.appendChild(o)});summaryWeek.onchange=()=>summarySetWeek(summaryWeek.value);WEEKS.forEach(w=>{const b=document.createElement('button');b.className='week-chip';b.dataset.week=w.id;b.textContent=w.label;b.onclick=()=>choose(w.id);weekbar.appendChild(b)});render();loadJson()}
 async function loadJson(){try{const seasonResponse=await fetch('./ff26-nfl-lines-2026.json',{cache:'no-store'});if(!seasonResponse.ok)throw Error('Season data unavailable');const j=await seasonResponse.json();for(const w of j.weeks||[]){data[w.week]=(w.games||[]).map(g=>({id:g.game_id,kickoff:g.kickoff_et,day:new Date(g.kickoff_et).toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',timeZone:'America/New_York'}),time:new Date(g.kickoff_et).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'}),away:g.away,home:g.home,status:g.status,awayScore:g.away_score,homeScore:g.home_score,combinedPoints:g.combined_points,favorite:g.closing_favorite||g.market_favorite,spread:g.closing_spread??g.market_spread,total:g.closing_total??g.market_total,openingSpread:g.opening_spread,openingTotal:g.opening_total,currentSpread:g.current_spread??g.market_spread,currentTotal:g.current_total??g.market_total,closingSpread:g.closing_spread,closingTotal:g.closing_total,awaySpreadPrice:g.away_spread_price??g.spread_price_away,homeSpreadPrice:g.home_spread_price??g.spread_price_home,overPrice:g.over_price??g.total_price_over,underPrice:g.under_price??g.total_price_under,ats:g.ats_winner,ou:g.total_result,boxScore:g.box_score,badges:g.badges||g.history_badges,divisional:NFL_GROUP[g.away]?.join('-')===NFL_GROUP[g.home]?.join('-'),history:g.matchup_history||null}))}updated.textContent=`UPD ${new Date(j.updated_at).toLocaleDateString('en-US',{month:'numeric',day:'numeric',year:'2-digit'})}`;render()}catch(e){error.style.display='block';error.textContent='Season data could not be loaded. Please refresh.'}}
 init();
+</script>
+
+<script>
+function openWtoReadme(){
+  const dialog=document.getElementById('wtoReadmeDialog');
+  if(dialog&&!dialog.open) dialog.showModal();
+}
+(function(){
+  const dialog=document.getElementById('wtoReadmeDialog');
+  if(!dialog) return;
+  dialog.addEventListener('click',function(event){
+    if(event.target===dialog) dialog.close();
+  });
+})();
 </script>
 </body>
 </html>
