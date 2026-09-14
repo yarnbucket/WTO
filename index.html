@@ -275,6 +275,22 @@
   48%{box-shadow:0 0 18px rgba(255,215,84,.92),0 0 42px rgba(255,199,44,.62),0 0 64px rgba(255,199,44,.28);filter:brightness(1.14)}
 }
 @media(prefers-reduced-motion:reduce){.summary-open.summary-guided-glow{animation:none}}
+
+/* One-way energy sheen across the filled portion of each executive meter. */
+.meter-sheen{pointer-events:none;opacity:0;transform:translateX(-140%)}
+.metric-bar.sheen-active .meter-sheen{animation:wtoMeterSheen 2.25s cubic-bezier(.22,.61,.36,1) 1 both}
+.metric-bar:nth-child(1) .meter-sheen{animation-delay:.08s}
+.metric-bar:nth-child(2) .meter-sheen{animation-delay:.22s}
+.metric-bar:nth-child(3) .meter-sheen{animation-delay:.36s}
+.metric-bar:nth-child(4) .meter-sheen{animation-delay:.5s}
+@keyframes wtoMeterSheen{
+  0%{opacity:0;transform:translateX(-140%)}
+  14%{opacity:.16}
+  48%{opacity:.9}
+  82%{opacity:.22}
+  100%{opacity:0;transform:translateX(520%)}
+}
+@media(prefers-reduced-motion:reduce){.meter-sheen{display:none!important;animation:none!important}}
 </style>
 </head>
 <body>
@@ -349,7 +365,7 @@
 function executivePct(value,total){return total?Math.round(value/total*100):0}
 function executiveMeter(left,leftLabel,right,rightLabel){const total=left+right,a=executivePct(left,total),b=total?100-a:0;return '<div class="meter-block"><div class="meter-label"><span>'+leftLabel+'</span><span>'+rightLabel+'</span></div><div class="meter-track"><span class="meter-a" style="width:'+a+'%"></span><span class="meter-b" style="width:'+b+'%"></span></div><div class="meter-note"><span>'+left+' · '+a+'%</span><span>'+right+' · '+b+'%</span></div></div>'}
 const wtoHypocycloidPath='M 0 50 C 250 50 430 42 500 0 C 570 42 750 50 1000 50 C 750 50 570 58 500 100 C 430 58 250 50 0 50 Z';
-function executiveBar(value,total,label){const pct=executivePct(value,total),id='meter-'+label.toLowerCase().replace(/[^a-z0-9]+/g,'-');return '<div class="meter-block metric-bar"><div class="meter-label"><span>'+label+'</span><strong>'+pct+'%</strong></div><svg class="hypocycloid-meter" viewBox="0 0 1000 100" preserveAspectRatio="none" role="img" aria-label="'+label+' '+pct+' percent"><defs><clipPath id="'+id+'-shape"><path d="'+wtoHypocycloidPath+'"></path></clipPath><clipPath id="'+id+'-progress"><rect x="0" y="0" width="'+(pct*10)+'" height="100"></rect></clipPath><linearGradient id="'+id+'-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0"><stop offset="0%" stop-color="#C60C30"></stop><stop offset="50%" stop-color="#FFFFFF"></stop><stop offset="100%" stop-color="#003087"></stop></linearGradient></defs><g class="hypocycloid-progress" clip-path="url(#'+id+'-progress)"><rect x="0" y="0" width="1000" height="100" fill="url(#'+id+'-gradient)" clip-path="url(#'+id+'-shape)"></rect><path d="'+wtoHypocycloidPath+'" fill="none" stroke="url(#'+id+'-gradient)" stroke-width="3" vector-effect="non-scaling-stroke"></path></g></svg></div>'}
+function executiveBar(value,total,label){const pct=executivePct(value,total),id='meter-'+label.toLowerCase().replace(/[^a-z0-9]+/g,'-');return '<div class="meter-block metric-bar"><div class="meter-label"><span>'+label+'</span><strong>'+pct+'%</strong></div><svg class="hypocycloid-meter" viewBox="0 0 1000 100" preserveAspectRatio="none" role="img" aria-label="'+label+' '+pct+' percent"><defs><clipPath id="'+id+'-shape"><path d="'+wtoHypocycloidPath+'"></path></clipPath><clipPath id="'+id+'-progress"><rect x="0" y="0" width="'+(pct*10)+'" height="100"></rect></clipPath><linearGradient id="'+id+'-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0"><stop offset="0%" stop-color="#C60C30"></stop><stop offset="50%" stop-color="#FFFFFF"></stop><stop offset="100%" stop-color="#003087"></stop></linearGradient><linearGradient id="'+id+'-sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"></stop><stop offset="50%" stop-color="#FFFFFF" stop-opacity=".96"></stop><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"></stop></linearGradient></defs><g class="hypocycloid-progress" clip-path="url(#'+id+'-progress)"><rect x="0" y="0" width="1000" height="100" fill="url(#'+id+'-gradient)" clip-path="url(#'+id+'-shape)"></rect><rect class="meter-sheen" x="0" y="0" width="260" height="100" fill="url(#'+id+'-sheen)" clip-path="url(#'+id+'-shape)"></rect><path d="'+wtoHypocycloidPath+'" fill="none" stroke="url(#'+id+'-gradient)" stroke-width="3" vector-effect="non-scaling-stroke"></path></g></svg></div>'}
 function summaryWeekFromDate(){const now=Date.now(),ranges=WEEKS.map(w=>{const times=(data[w.id]||[]).map(g=>new Date(g.kickoff).getTime()).filter(Number.isFinite);return times.length?{id:w.id,min:Math.min(...times),max:Math.max(...times)}:null}).filter(Boolean);return ranges.find(r=>now>=r.min-3*864e5&&now<=r.max+2*864e5)?.id||ranges.find(r=>r.max>=now)?.id||ranges.at(-1)?.id||1}
 function summarySetWeek(id){current=Math.max(1,Math.min(18,Number(id)||1));summarySeasonMode=false;weeklyLeagueWeek=current;selectedGameId=null;renderExecutive()}
 function summaryThisWeek(){summarySetWeek(summaryWeekFromDate())}
@@ -717,6 +733,37 @@ if(document.readyState==='loading'){
 }else{
   scheduleSummaryReveal();
 }
+</script>
+
+<script>
+(function(){
+  const container=document.getElementById('summaryMeters');
+  if(!container) return;
+  const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  function armMeterSheens(){
+    const bars=[...container.querySelectorAll('.metric-bar:not([data-sheen-armed])')];
+    if(!bars.length) return;
+    bars.forEach(bar=>bar.dataset.sheenArmed='true');
+    if(reduceMotion.matches) return;
+
+    if(!('IntersectionObserver' in window)){
+      bars.forEach(bar=>bar.classList.add('sheen-active'));
+      return;
+    }
+    const observer=new IntersectionObserver(entries=>{
+      entries.forEach(entry=>{
+        if(!entry.isIntersecting) return;
+        entry.target.classList.add('sheen-active');
+        observer.unobserve(entry.target);
+      });
+    },{threshold:.3});
+    bars.forEach(bar=>observer.observe(bar));
+  }
+
+  new MutationObserver(armMeterSheens).observe(container,{childList:true});
+  armMeterSheens();
+})();
 </script>
 </body>
 </html>
