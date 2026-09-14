@@ -267,6 +267,14 @@
 .wto-readme p{font-size:12.5px;line-height:1.5;color:#d8ddd9}
 .wto-readme .wto-readme-note{padding-top:11px;border-top:1px solid rgba(255,199,44,.28);color:#aeb8b0;font-size:11px}
 .wto-readme-close{width:100%;min-height:48px;margin-top:4px;border:1px solid #f5d46c;border-radius:10px;background:linear-gradient(180deg,#ffd85a,#ffc72c);color:#070b08;font:16px 'Anton',sans-serif;letter-spacing:.7px;cursor:pointer}
+
+/* Five-second home-screen guide to the completed-games action. */
+.summary-open.summary-guided-glow{animation:wtoSummaryGuidedGlow 2.2s ease-in-out 1}
+@keyframes wtoSummaryGuidedGlow{
+  0%,100%{box-shadow:0 8px 24px rgba(0,0,0,.35)}
+  45%{box-shadow:0 0 12px rgba(255,199,44,.72),0 0 30px rgba(255,199,44,.42);filter:brightness(1.08)}
+}
+@media(prefers-reduced-motion:reduce){.summary-open.summary-guided-glow{animation:none}}
 </style>
 </head>
 <body>
@@ -658,6 +666,41 @@ function openWtoReadme(){
     if(event.target===dialog) dialog.close();
   });
 })();
+</script>
+
+<script>
+function scheduleSummaryReveal(){
+  const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+  const screen=document.getElementById('summaryScreen');
+  const target=screen ? screen.querySelector('.summary-completed') : null;
+  const button=screen ? screen.querySelector('.summary-open') : null;
+  if(reduceMotion.matches||!target||!button) return;
+
+  let timer;
+  const cancelEvents=['pointerdown','touchstart','wheel','keydown','scroll'];
+  const cleanup=()=>cancelEvents.forEach(type=>window.removeEventListener(type,cancel));
+  const cancel=()=>{window.clearTimeout(timer);cleanup()};
+
+  cancelEvents.forEach(type=>window.addEventListener(type,cancel,{passive:true,once:true}));
+  timer=window.setTimeout(()=>{
+    cleanup();
+    if(screen.classList.contains('app-hidden')||window.scrollY>12) return;
+    const settings=document.getElementById('settingsOverlay');
+    const readme=document.getElementById('wtoReadmeDialog');
+    if((settings&&settings.classList.contains('open'))||(readme&&readme.open)) return;
+
+    target.scrollIntoView({behavior:'smooth',block:'start'});
+    window.setTimeout(()=>{
+      button.classList.add('summary-guided-glow');
+      button.addEventListener('animationend',()=>button.classList.remove('summary-guided-glow'),{once:true});
+    },650);
+  },5000);
+}
+if(document.readyState==='loading'){
+  document.addEventListener('DOMContentLoaded',scheduleSummaryReveal,{once:true});
+}else{
+  scheduleSummaryReveal();
+}
 </script>
 </body>
 </html>
