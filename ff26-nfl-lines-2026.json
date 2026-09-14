@@ -148,9 +148,9 @@
           "kickoff_et": "2026-09-13T13:00:00-04:00",
           "away": "ATL",
           "home": "PIT",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 13,
+          "home_score": 20,
           "market_favorite": "PIT",
           "market_spread": -6.5,
           "market_total": 40.5,
@@ -192,16 +192,37 @@
           "over_price": -118,
           "under_price": -102,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T08:00:58-04:00"
+          "price_timestamp": "2026-09-13T08:00:58-04:00",
+          "combined_points": 33,
+          "straight_up_winner": "PIT",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-BAL-IND",
           "kickoff_et": "2026-09-13T13:00:00-04:00",
           "away": "BAL",
           "home": "IND",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 41,
+          "home_score": 23,
           "market_favorite": "BAL",
           "market_spread": -3.5,
           "market_total": 47.5,
@@ -243,16 +264,37 @@
           "over_price": -115,
           "under_price": -105,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T08:00:58-04:00"
+          "price_timestamp": "2026-09-13T08:00:58-04:00",
+          "combined_points": 64,
+          "straight_up_winner": "BAL",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-BUF-HOU",
           "kickoff_et": "2026-09-13T13:00:00-04:00",
           "away": "BUF",
           "home": "HOU",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 36,
+          "home_score": 31,
           "market_favorite": "BUF",
           "market_spread": -1.5,
           "market_total": 44.5,
@@ -294,16 +336,37 @@
           "over_price": -110,
           "under_price": -110,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T08:00:58-04:00"
+          "price_timestamp": "2026-09-13T08:00:58-04:00",
+          "combined_points": 67,
+          "straight_up_winner": "BUF",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-CHI-CAR",
           "kickoff_et": "2026-09-13T13:00:00-04:00",
           "away": "CHI",
           "home": "CAR",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 59,
+          "home_score": 37,
           "market_favorite": "CHI",
           "market_spread": -3,
           "market_total": 47.5,
@@ -345,16 +408,37 @@
           "over_price": -110,
           "under_price": -110,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T08:00:58-04:00"
+          "price_timestamp": "2026-09-13T08:00:58-04:00",
+          "combined_points": 96,
+          "straight_up_winner": "CHI",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-CLE-JAX",
           "kickoff_et": "2026-09-13T13:00:00-04:00",
           "away": "CLE",
           "home": "JAX",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 10,
+          "home_score": 34,
           "market_favorite": "JAX",
           "market_spread": -8.5,
           "market_total": 39.5,
@@ -396,16 +480,37 @@
           "over_price": -118,
           "under_price": -102,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T08:00:58-04:00"
+          "price_timestamp": "2026-09-13T08:00:58-04:00",
+          "combined_points": 44,
+          "straight_up_winner": "JAX",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-NO-DET",
           "kickoff_et": "2026-09-13T13:00:00-04:00",
           "away": "NO",
           "home": "DET",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 30,
+          "home_score": 31,
           "market_favorite": "DET",
           "market_spread": -7,
           "market_total": 49.5,
@@ -447,16 +552,37 @@
           "over_price": -112,
           "under_price": -108,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T08:00:58-04:00"
+          "price_timestamp": "2026-09-13T08:00:58-04:00",
+          "combined_points": 61,
+          "straight_up_winner": "DET",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-NYJ-TEN",
           "kickoff_et": "2026-09-13T13:00:00-04:00",
           "away": "NYJ",
           "home": "TEN",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 23,
+          "home_score": 10,
           "market_favorite": "TEN",
           "market_spread": -1.5,
           "market_total": 38.5,
@@ -498,16 +624,37 @@
           "over_price": -112,
           "under_price": -108,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T08:00:58-04:00"
+          "price_timestamp": "2026-09-13T08:00:58-04:00",
+          "combined_points": 33,
+          "straight_up_winner": "NYJ",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-TB-CIN",
           "kickoff_et": "2026-09-13T13:00:00-04:00",
           "away": "TB",
           "home": "CIN",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 27,
+          "home_score": 33,
           "market_favorite": "CIN",
           "market_spread": -3.5,
           "market_total": 50.5,
@@ -549,16 +696,37 @@
           "over_price": -108,
           "under_price": -112,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T08:00:58-04:00"
+          "price_timestamp": "2026-09-13T08:00:58-04:00",
+          "combined_points": 60,
+          "straight_up_winner": "CIN",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-ARI-LAC",
           "kickoff_et": "2026-09-13T16:25:00-04:00",
           "away": "ARI",
           "home": "LAC",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 26,
+          "home_score": 14,
           "market_favorite": "LAC",
           "market_spread": -9.5,
           "market_total": 47.5,
@@ -616,16 +784,37 @@
           "over_price": -102,
           "under_price": -118,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T15:45:44-04:00"
+          "price_timestamp": "2026-09-13T15:45:44-04:00",
+          "combined_points": 40,
+          "straight_up_winner": "ARI",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-GB-MIN",
           "kickoff_et": "2026-09-13T16:25:00-04:00",
           "away": "GB",
           "home": "MIN",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 22,
+          "home_score": 39,
           "market_favorite": "MIN",
           "market_spread": -1.5,
           "market_total": 46.5,
@@ -683,16 +872,37 @@
           "over_price": -102,
           "under_price": -118,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T15:45:44-04:00"
+          "price_timestamp": "2026-09-13T15:45:44-04:00",
+          "combined_points": 61,
+          "straight_up_winner": "MIN",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-MIA-LV",
           "kickoff_et": "2026-09-13T16:25:00-04:00",
           "away": "MIA",
           "home": "LV",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 13,
+          "home_score": 27,
           "market_favorite": "LV",
           "market_spread": -3,
           "market_total": 40.5,
@@ -750,16 +960,37 @@
           "over_price": -110,
           "under_price": -110,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T15:45:44-04:00"
+          "price_timestamp": "2026-09-13T15:45:44-04:00",
+          "combined_points": 40,
+          "straight_up_winner": "LV",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-WAS-PHI",
           "kickoff_et": "2026-09-13T16:25:00-04:00",
           "away": "WAS",
           "home": "PHI",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 22,
+          "home_score": 24,
           "market_favorite": "PHI",
           "market_spread": -6,
           "market_total": 44.5,
@@ -817,16 +1048,37 @@
           "over_price": -105,
           "under_price": -115,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T15:45:44-04:00"
+          "price_timestamp": "2026-09-13T15:45:44-04:00",
+          "combined_points": 46,
+          "straight_up_winner": "PHI",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-DAL-NYG",
           "kickoff_et": "2026-09-13T20:20:00-04:00",
           "away": "DAL",
           "home": "NYG",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 20,
+          "home_score": 28,
           "market_favorite": "DAL",
           "market_spread": -3,
           "market_total": 47.5,
@@ -884,7 +1136,28 @@
           "over_price": -115,
           "under_price": -105,
           "price_provider": "VegasInsider",
-          "price_timestamp": "2026-09-13T19:42:41-04:00"
+          "price_timestamp": "2026-09-13T19:42:41-04:00",
+          "combined_points": 48,
+          "straight_up_winner": "NYG",
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "ats_winner": null,
+          "total_result": null,
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://www.espn.com/nfl/schedule",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            },
+            {
+              "provider": "Sleeper",
+              "url": "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+              "checked_at": "2026-09-14T08:03:10-04:00"
+            }
+          ]
         },
         {
           "game_id": "2026-W01-DEN-KC",
@@ -897,7 +1170,7 @@
           "market_favorite": "KC",
           "market_spread": -2.5,
           "market_total": 43.5,
-          "market_as_of": "2026-09-13T08:00:58-04:00",
+          "market_as_of": "2026-09-14T08:03:10-04:00",
           "season_type": "REG",
           "market_snapshots": [
             {
@@ -928,14 +1201,30 @@
               "home_spread_price": -112,
               "over_price": -110,
               "under_price": -110
+            },
+            {
+              "captured_at": "2026-09-14T08:03:10-04:00",
+              "label": "8:00 AM ET",
+              "line_type": "market_snapshot",
+              "provider": "ScoresAndOdds",
+              "source_url": "https://www.scoresandodds.com/nfl/broncos-vs-chiefs",
+              "favorite": "KC",
+              "favorite_spread": -2.5,
+              "total": 43.5,
+              "away_spread": 2.5,
+              "away_spread_price": -112,
+              "home_spread": -2.5,
+              "home_spread_price": -108,
+              "over_price": -108,
+              "under_price": -112
             }
           ],
-          "away_spread_price": -108,
-          "home_spread_price": -112,
-          "over_price": -110,
-          "under_price": -110,
+          "away_spread_price": -112,
+          "home_spread_price": -108,
+          "over_price": -108,
+          "under_price": -112,
           "price_provider": "ScoresAndOdds",
-          "price_timestamp": "2026-09-13T08:00:58-04:00"
+          "price_timestamp": "2026-09-14T08:03:10-04:00"
         }
       ]
     }
