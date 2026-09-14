@@ -400,12 +400,12 @@ if('serviceWorker' in navigator){
   navigator.serviceWorker.addEventListener('controllerchange',()=>{
     if(refreshing)return;
     refreshing=true;
-    if(sessionStorage.getItem('wto-sw-reloaded')!=='v8'){
-      sessionStorage.setItem('wto-sw-reloaded','v8');
+    if(sessionStorage.getItem('wto-sw-reloaded')!=='v9'){
+      sessionStorage.setItem('wto-sw-reloaded','v9');
       location.reload();
     }
   });
-  addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=8'));
+  addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=9'));
 }
 
 
