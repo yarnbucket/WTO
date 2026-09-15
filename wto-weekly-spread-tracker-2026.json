@@ -70,5 +70,198 @@
       "tuesday_side_ats_pushes"
     ]
   },
-  "weeks": []
+  "weeks": [
+    {
+      "week": 1,
+      "season_type": "REG",
+      "tuesday_snapshot": null,
+      "following_tuesday_comparison": {
+        "compared_at": "2026-09-15T05:57:25-04:00",
+        "games": [],
+        "summary": {
+          "games_compared": 0,
+          "average_absolute_movement": null,
+          "largest_movement": null,
+          "favorite_flips": null,
+          "tuesday_side_ats_wins": null,
+          "tuesday_side_ats_losses": null,
+          "tuesday_side_ats_pushes": null
+        },
+        "note": "No immutable Tuesday Week 1 snapshot was captured before kickoff. The available Wednesday/current snapshots were not relabeled retroactively, so a valid Tuesday-to-close comparison cannot be produced."
+      }
+    },
+    {
+      "week": 2,
+      "season_type": "REG",
+      "tuesday_snapshot": {
+        "captured_at": "2026-09-15T05:57:25-04:00",
+        "provider": "ScoresAndOdds",
+        "source_url": "https://www.scoresandodds.com/nfl",
+        "games": [
+          {
+            "game_id": "2026-W02-DET-BUF",
+            "kickoff_et": "2026-09-17T20:15:00-04:00",
+            "away": "DET",
+            "home": "BUF",
+            "favorite": "BUF",
+            "favorite_spread": -4.5,
+            "away_spread_price": -112,
+            "home_spread_price": -108
+          },
+          {
+            "game_id": "2026-W02-PHI-TEN",
+            "kickoff_et": "2026-09-20T13:00:00-04:00",
+            "away": "PHI",
+            "home": "TEN",
+            "favorite": "PHI",
+            "favorite_spread": -7,
+            "away_spread_price": -110,
+            "home_spread_price": -110
+          },
+          {
+            "game_id": "2026-W02-PIT-NE",
+            "kickoff_et": "2026-09-20T13:00:00-04:00",
+            "away": "PIT",
+            "home": "NE",
+            "favorite": "NE",
+            "favorite_spread": -5.5,
+            "away_spread_price": -110,
+            "home_spread_price": -110
+          },
+          {
+            "game_id": "2026-W02-MIN-CHI",
+            "kickoff_et": "2026-09-20T13:00:00-04:00",
+            "away": "MIN",
+            "home": "CHI",
+            "favorite": "CHI",
+            "favorite_spread": -5.5,
+            "away_spread_price": -110,
+            "home_spread_price": -110
+          },
+          {
+            "game_id": "2026-W02-CAR-ATL",
+            "kickoff_et": "2026-09-20T13:00:00-04:00",
+            "away": "CAR",
+            "home": "ATL",
+            "favorite": "CAR",
+            "favorite_spread": -1.5,
+            "away_spread_price": -108,
+            "home_spread_price": -112
+          },
+          {
+            "game_id": "2026-W02-GB-NYJ",
+            "kickoff_et": "2026-09-20T13:00:00-04:00",
+            "away": "GB",
+            "home": "NYJ",
+            "favorite": "GB",
+            "favorite_spread": -4.5,
+            "away_spread_price": -102,
+            "home_spread_price": -118
+          },
+          {
+            "game_id": "2026-W02-NO-BAL",
+            "kickoff_et": "2026-09-20T13:00:00-04:00",
+            "away": "NO",
+            "home": "BAL",
+            "favorite": "BAL",
+            "favorite_spread": -8.5,
+            "away_spread_price": -110,
+            "home_spread_price": -110
+          },
+          {
+            "game_id": "2026-W02-CIN-HOU",
+            "kickoff_et": "2026-09-20T13:00:00-04:00",
+            "away": "CIN",
+            "home": "HOU",
+            "favorite": "HOU",
+            "favorite_spread": -3,
+            "away_spread_price": -115,
+            "home_spread_price": -105
+          },
+          {
+            "game_id": "2026-W02-CLE-TB",
+            "kickoff_et": "2026-09-20T13:00:00-04:00",
+            "away": "CLE",
+            "home": "TB",
+            "favorite": "TB",
+            "favorite_spread": -8.5,
+            "away_spread_price": -110,
+            "home_spread_price": -110
+          },
+          {
+            "game_id": "2026-W02-JAX-DEN",
+            "kickoff_et": "2026-09-20T16:05:00-04:00",
+            "away": "JAX",
+            "home": "DEN",
+            "favorite": "DEN",
+            "favorite_spread": -2.5,
+            "away_spread_price": -110,
+            "home_spread_price": -110
+          },
+          {
+            "game_id": "2026-W02-LV-LAC",
+            "kickoff_et": "2026-09-20T16:05:00-04:00",
+            "away": "LV",
+            "home": "LAC",
+            "favorite": "LAC",
+            "favorite_spread": -7,
+            "away_spread_price": -115,
+            "home_spread_price": -105
+          },
+          {
+            "game_id": "2026-W02-SEA-ARI",
+            "kickoff_et": "2026-09-20T16:25:00-04:00",
+            "away": "SEA",
+            "home": "ARI",
+            "favorite": "SEA",
+            "favorite_spread": -4.5,
+            "away_spread_price": -105,
+            "home_spread_price": -115
+          },
+          {
+            "game_id": "2026-W02-MIA-SF",
+            "kickoff_et": "2026-09-20T16:25:00-04:00",
+            "away": "MIA",
+            "home": "SF",
+            "favorite": "SF",
+            "favorite_spread": -13.5,
+            "away_spread_price": -115,
+            "home_spread_price": -105
+          },
+          {
+            "game_id": "2026-W02-WAS-DAL",
+            "kickoff_et": "2026-09-20T16:25:00-04:00",
+            "away": "WAS",
+            "home": "DAL",
+            "favorite": "DAL",
+            "favorite_spread": -3.5,
+            "away_spread_price": -108,
+            "home_spread_price": -112
+          },
+          {
+            "game_id": "2026-W02-IND-KC",
+            "kickoff_et": "2026-09-20T20:20:00-04:00",
+            "away": "IND",
+            "home": "KC",
+            "favorite": "KC",
+            "favorite_spread": -6.5,
+            "away_spread_price": 100,
+            "home_spread_price": -120
+          },
+          {
+            "game_id": "2026-W02-NYG-LAR",
+            "kickoff_et": "2026-09-21T20:15:00-04:00",
+            "away": "NYG",
+            "home": "LAR",
+            "favorite": "LAR",
+            "favorite_spread": -7,
+            "away_spread_price": -105,
+            "home_spread_price": -115
+          }
+        ]
+      },
+      "following_tuesday_comparison": null
+    }
+  ],
+  "updated_at": "2026-09-15T05:57:25-04:00"
 }
