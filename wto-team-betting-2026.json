@@ -3,7 +3,7 @@
   "season": 2026,
   "title": "WTO Team Betting Tracker",
   "source_of_truth": "ff26-nfl-lines-2026.json",
-  "generated_at": "2026-09-14T18:40:39.246Z",
+  "generated_at": "2026-09-15T05:57:25-04:00",
   "methodology": {
     "ats": "Team win/loss/push is derived from the verified game ATS winner. Favorite spreads are stored from the favorite perspective as negative numbers.",
     "totals": "The game Over/Under result is applied equally to both participating teams.",
@@ -72,7 +72,19 @@
           "ats_result": "win",
           "combined_points": 40,
           "total_result": "under",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": -2,
+            "ats_margin": 20.5,
+            "points_vs_closing_total": -7.5,
+            "final_outcome": "ARI 26, LAC 14; covered; under.",
+            "interpretation": "The favorite's required margin decreased by 2 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 26,
@@ -140,7 +152,19 @@
           "ats_result": "loss",
           "combined_points": 33,
           "total_result": "under",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 4,
+            "ats_margin": -0.5,
+            "points_vs_closing_total": -7.5,
+            "final_outcome": "ATL 13, PIT 20; did not cover; under.",
+            "interpretation": "The favorite's required margin increased by 4 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 13,
@@ -208,7 +232,19 @@
           "ats_result": "win",
           "combined_points": 64,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": -0.5,
+            "ats_margin": 15,
+            "points_vs_closing_total": 15.5,
+            "final_outcome": "BAL 41, IND 23; covered; over.",
+            "interpretation": "The favorite's required margin decreased by 0.5 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 41,
@@ -276,7 +312,19 @@
           "ats_result": "win",
           "combined_points": 67,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": 3.5,
+            "points_vs_closing_total": 22.5,
+            "final_outcome": "BUF 36, HOU 31; covered; over.",
+            "interpretation": "The favorite and spread were unchanged from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 36,
@@ -345,10 +393,18 @@
           "combined_points": 96,
           "total_result": "over",
           "verified_at": "2026-09-14T08:03:10-04:00",
-          "scorigami": true,
-          "special_badges": [
-            "SCORIGAMI"
-          ]
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0.5,
+            "ats_margin": -19,
+            "points_vs_closing_total": 48.5,
+            "final_outcome": "CAR 37, CHI 59; did not cover; over.",
+            "interpretation": "The favorite's required margin increased by 0.5 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 37,
@@ -417,10 +473,18 @@
           "combined_points": 96,
           "total_result": "over",
           "verified_at": "2026-09-14T08:03:10-04:00",
-          "scorigami": true,
-          "special_badges": [
-            "SCORIGAMI"
-          ]
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0.5,
+            "ats_margin": 19,
+            "points_vs_closing_total": 48.5,
+            "final_outcome": "CHI 59, CAR 37; covered; over.",
+            "interpretation": "The favorite's required margin increased by 0.5 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 59,
@@ -435,12 +499,12 @@
         "ties": 0
       },
       "ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -450,7 +514,7 @@
         "pushes": 0
       },
       "home_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -460,7 +524,7 @@
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 0,
         "pushes": 0
       },
@@ -481,14 +545,26 @@
           "opening_favorite": "CIN",
           "opening_spread": -3.5,
           "opening_total": 51.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "market_role": null,
-          "ats_result": null,
+          "closing_favorite": "CIN",
+          "closing_spread": -3.5,
+          "closing_total": 50.5,
+          "market_role": "favorite",
+          "ats_result": "win",
           "combined_points": 60,
-          "total_result": null,
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": 2.5,
+            "points_vs_closing_total": 9.5,
+            "final_outcome": "CIN 33, TB 27; covered; over.",
+            "interpretation": "The favorite and spread were unchanged from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 33,
@@ -556,7 +632,19 @@
           "ats_result": "loss",
           "combined_points": 44,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 1,
+            "ats_margin": -15.5,
+            "points_vs_closing_total": 3.5,
+            "final_outcome": "CLE 10, JAX 34; did not cover; over.",
+            "interpretation": "The favorite's required margin increased by 1 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 10,
@@ -572,12 +660,12 @@
       },
       "ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "underdog_ats": {
@@ -592,13 +680,13 @@
       },
       "away_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
         "overs": 0,
         "unders": 0,
-        "pushes": 0
+        "pushes": 1
       },
       "points_for": 20,
       "points_against": 28,
@@ -617,14 +705,26 @@
           "opening_favorite": "DAL",
           "opening_spread": -2.5,
           "opening_total": 48.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "market_role": null,
-          "ats_result": null,
+          "closing_favorite": "DAL",
+          "closing_spread": -3,
+          "closing_total": 48,
+          "market_role": "favorite",
+          "ats_result": "loss",
           "combined_points": 48,
-          "total_result": null,
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "total_result": "push",
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0.5,
+            "ats_margin": -11,
+            "points_vs_closing_total": 0,
+            "final_outcome": "DAL 20, NYG 28; did not cover; push.",
+            "interpretation": "The favorite's required margin increased by 0.5 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 20,
@@ -635,12 +735,12 @@
       "name": "Denver Broncos",
       "straight_up": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       },
       "ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
@@ -650,7 +750,7 @@
       },
       "underdog_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "home_ats": {
@@ -660,17 +760,17 @@
       },
       "away_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
         "overs": 0,
-        "unders": 0,
+        "unders": 1,
         "pushes": 0
       },
-      "points_for": 0,
-      "points_against": 0,
-      "final_games": 0,
+      "points_for": 10,
+      "points_against": 31,
+      "final_games": 1,
       "games": [
         {
           "week": 1,
@@ -678,25 +778,37 @@
           "kickoff_et": "2026-09-14T20:15:00-04:00",
           "opponent": "KC",
           "venue": "away",
-          "status": "scheduled",
-          "score_for": null,
-          "score_against": null,
-          "straight_up_result": null,
+          "status": "final",
+          "score_for": 10,
+          "score_against": 31,
+          "straight_up_result": "loss",
           "opening_favorite": "KC",
           "opening_spread": -2.5,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "market_role": null,
-          "ats_result": null,
-          "combined_points": null,
-          "total_result": null,
-          "verified_at": null
+          "closing_favorite": "KC",
+          "closing_spread": -2.5,
+          "closing_total": 43.5,
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 41,
+          "total_result": "under",
+          "verified_at": "2026-09-15T05:57:25-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": -18.5,
+            "points_vs_closing_total": -2.5,
+            "final_outcome": "DEN 10, KC 31; did not cover; under.",
+            "interpretation": "The favorite and spread were unchanged from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
-      "average_points_for": null,
-      "average_points_against": null
+      "average_points_for": 10,
+      "average_points_against": 31
     },
     "DET": {
       "team": "DET",
@@ -708,12 +820,12 @@
       },
       "ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "underdog_ats": {
@@ -723,7 +835,7 @@
       },
       "home_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "away_ats": {
@@ -732,7 +844,7 @@
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 0,
         "pushes": 0
       },
@@ -753,18 +865,26 @@
           "opening_favorite": "DET",
           "opening_spread": -6.5,
           "opening_total": 50.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "market_role": null,
-          "ats_result": null,
+          "closing_favorite": "DET",
+          "closing_spread": -7,
+          "closing_total": 49.5,
+          "market_role": "favorite",
+          "ats_result": "loss",
           "combined_points": 61,
-          "total_result": null,
+          "total_result": "over",
           "verified_at": "2026-09-14T08:03:10-04:00",
-          "went_to_overtime": true,
-          "special_badges": [
-            "OT"
-          ]
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0.5,
+            "ats_margin": -6,
+            "points_vs_closing_total": 11.5,
+            "final_outcome": "DET 31, NO 30; did not cover; over.",
+            "interpretation": "The favorite's required margin increased by 0.5 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 31,
@@ -833,10 +953,18 @@
           "combined_points": 61,
           "total_result": "over",
           "verified_at": "2026-09-14T08:03:10-04:00",
-          "scorigami": true,
-          "special_badges": [
-            "SCORIGAMI"
-          ]
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "underdog",
+            "favorite_flipped": true,
+            "spread_movement_points": null,
+            "ats_margin": -14.5,
+            "points_vs_closing_total": 15.5,
+            "final_outcome": "GB 22, MIN 39; did not cover; over.",
+            "interpretation": "No same-favorite opening-to-closing movement comparison is available.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 22,
@@ -904,7 +1032,19 @@
           "ats_result": "loss",
           "combined_points": 67,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": -3.5,
+            "points_vs_closing_total": 22.5,
+            "final_outcome": "HOU 31, BUF 36; did not cover; over.",
+            "interpretation": "The favorite and spread were unchanged from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 31,
@@ -972,7 +1112,19 @@
           "ats_result": "loss",
           "combined_points": 64,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": -0.5,
+            "ats_margin": -15,
+            "points_vs_closing_total": 15.5,
+            "final_outcome": "IND 23, BAL 41; did not cover; over.",
+            "interpretation": "The favorite's required margin decreased by 0.5 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 23,
@@ -1040,7 +1192,19 @@
           "ats_result": "win",
           "combined_points": 44,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 1,
+            "ats_margin": 15.5,
+            "points_vs_closing_total": 3.5,
+            "final_outcome": "JAX 34, CLE 10; covered; over.",
+            "interpretation": "The favorite's required margin increased by 1 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 34,
@@ -1050,17 +1214,17 @@
       "team": "KC",
       "name": "Kansas City Chiefs",
       "straight_up": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "ties": 0
       },
       "ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -1070,7 +1234,7 @@
         "pushes": 0
       },
       "home_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -1081,12 +1245,12 @@
       },
       "totals": {
         "overs": 0,
-        "unders": 0,
+        "unders": 1,
         "pushes": 0
       },
-      "points_for": 0,
-      "points_against": 0,
-      "final_games": 0,
+      "points_for": 31,
+      "points_against": 10,
+      "final_games": 1,
       "games": [
         {
           "week": 1,
@@ -1094,25 +1258,37 @@
           "kickoff_et": "2026-09-14T20:15:00-04:00",
           "opponent": "DEN",
           "venue": "home",
-          "status": "scheduled",
-          "score_for": null,
-          "score_against": null,
-          "straight_up_result": null,
+          "status": "final",
+          "score_for": 31,
+          "score_against": 10,
+          "straight_up_result": "win",
           "opening_favorite": "KC",
           "opening_spread": -2.5,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "market_role": null,
-          "ats_result": null,
-          "combined_points": null,
-          "total_result": null,
-          "verified_at": null
+          "closing_favorite": "KC",
+          "closing_spread": -2.5,
+          "closing_total": 43.5,
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 41,
+          "total_result": "under",
+          "verified_at": "2026-09-15T05:57:25-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": 18.5,
+            "points_vs_closing_total": -2.5,
+            "final_outcome": "KC 31, DEN 10; covered; under.",
+            "interpretation": "The favorite and spread were unchanged from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
-      "average_points_for": null,
-      "average_points_against": null
+      "average_points_for": 31,
+      "average_points_against": 10
     },
     "LV": {
       "team": "LV",
@@ -1123,12 +1299,12 @@
         "ties": 0
       },
       "ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -1138,7 +1314,7 @@
         "pushes": 0
       },
       "home_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -1149,7 +1325,7 @@
       },
       "totals": {
         "overs": 0,
-        "unders": 0,
+        "unders": 1,
         "pushes": 0
       },
       "points_for": 27,
@@ -1169,14 +1345,26 @@
           "opening_favorite": "LV",
           "opening_spread": -3,
           "opening_total": 40.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "market_role": null,
-          "ats_result": null,
+          "closing_favorite": "LV",
+          "closing_spread": -3,
+          "closing_total": 40.5,
+          "market_role": "favorite",
+          "ats_result": "win",
           "combined_points": 40,
-          "total_result": null,
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "total_result": "under",
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": 11,
+            "points_vs_closing_total": -0.5,
+            "final_outcome": "LV 27, MIA 13; covered; under.",
+            "interpretation": "The favorite and spread were unchanged from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 27,
@@ -1244,7 +1432,19 @@
           "ats_result": "loss",
           "combined_points": 40,
           "total_result": "under",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": -2,
+            "ats_margin": -20.5,
+            "points_vs_closing_total": -7.5,
+            "final_outcome": "LAC 14, ARI 26; did not cover; under.",
+            "interpretation": "The favorite's required margin decreased by 2 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 14,
@@ -1312,7 +1512,19 @@
           "ats_result": "loss",
           "combined_points": 34,
           "total_result": "under",
-          "verified_at": "2026-09-12T08:20:00-04:00"
+          "verified_at": "2026-09-12T08:20:00-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 1,
+            "ats_margin": -23.5,
+            "points_vs_closing_total": -13.5,
+            "final_outcome": "LAR 7, SF 27; did not cover; under.",
+            "interpretation": "The favorite's required margin increased by 1 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 7,
@@ -1328,7 +1540,7 @@
       },
       "ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
@@ -1338,7 +1550,7 @@
       },
       "underdog_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "home_ats": {
@@ -1348,12 +1560,12 @@
       },
       "away_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
         "overs": 0,
-        "unders": 0,
+        "unders": 1,
         "pushes": 0
       },
       "points_for": 13,
@@ -1373,14 +1585,26 @@
           "opening_favorite": "LV",
           "opening_spread": -3,
           "opening_total": 40.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "market_role": null,
-          "ats_result": null,
+          "closing_favorite": "LV",
+          "closing_spread": -3,
+          "closing_total": 40.5,
+          "market_role": "underdog",
+          "ats_result": "loss",
           "combined_points": 40,
-          "total_result": null,
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "total_result": "under",
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": -11,
+            "points_vs_closing_total": -0.5,
+            "final_outcome": "MIA 13, LV 27; did not cover; under.",
+            "interpretation": "The favorite and spread were unchanged from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 13,
@@ -1449,10 +1673,18 @@
           "combined_points": 61,
           "total_result": "over",
           "verified_at": "2026-09-14T08:03:10-04:00",
-          "scorigami": true,
-          "special_badges": [
-            "SCORIGAMI"
-          ]
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "favorite",
+            "favorite_flipped": true,
+            "spread_movement_points": null,
+            "ats_margin": 14.5,
+            "points_vs_closing_total": 15.5,
+            "final_outcome": "MIN 39, GB 22; covered; over.",
+            "interpretation": "No same-favorite opening-to-closing movement comparison is available.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 39,
@@ -1520,7 +1752,19 @@
           "ats_result": "push",
           "combined_points": 23,
           "total_result": "under",
-          "verified_at": "2026-09-12T08:20:00-04:00"
+          "verified_at": "2026-09-12T08:20:00-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": -1,
+            "ats_margin": 0,
+            "points_vs_closing_total": -21.5,
+            "final_outcome": "NE 10, SEA 13; ATS push; under.",
+            "interpretation": "The favorite's required margin decreased by 1 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 10,
@@ -1535,7 +1779,7 @@
         "ties": 0
       },
       "ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -1545,7 +1789,7 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -1555,12 +1799,12 @@
         "pushes": 0
       },
       "away_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 0,
         "pushes": 0
       },
@@ -1581,18 +1825,26 @@
           "opening_favorite": "DET",
           "opening_spread": -6.5,
           "opening_total": 50.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "market_role": null,
-          "ats_result": null,
+          "closing_favorite": "DET",
+          "closing_spread": -7,
+          "closing_total": 49.5,
+          "market_role": "underdog",
+          "ats_result": "win",
           "combined_points": 61,
-          "total_result": null,
+          "total_result": "over",
           "verified_at": "2026-09-14T08:03:10-04:00",
-          "went_to_overtime": true,
-          "special_badges": [
-            "OT"
-          ]
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0.5,
+            "ats_margin": 6,
+            "points_vs_closing_total": 11.5,
+            "final_outcome": "NO 30, DET 31; covered; over.",
+            "interpretation": "The favorite's required margin increased by 0.5 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 30,
@@ -1607,7 +1859,7 @@
         "ties": 0
       },
       "ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -1617,12 +1869,12 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -1634,7 +1886,7 @@
       "totals": {
         "overs": 0,
         "unders": 0,
-        "pushes": 0
+        "pushes": 1
       },
       "points_for": 28,
       "points_against": 20,
@@ -1653,14 +1905,26 @@
           "opening_favorite": "DAL",
           "opening_spread": -2.5,
           "opening_total": 48.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "market_role": null,
-          "ats_result": null,
+          "closing_favorite": "DAL",
+          "closing_spread": -3,
+          "closing_total": 48,
+          "market_role": "underdog",
+          "ats_result": "win",
           "combined_points": 48,
-          "total_result": null,
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "total_result": "push",
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0.5,
+            "ats_margin": 11,
+            "points_vs_closing_total": 0,
+            "final_outcome": "NYG 28, DAL 20; covered; push.",
+            "interpretation": "The favorite's required margin increased by 0.5 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 28,
@@ -1728,7 +1992,19 @@
           "ats_result": "win",
           "combined_points": 33,
           "total_result": "under",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": -1,
+            "ats_margin": 14.5,
+            "points_vs_closing_total": -6.5,
+            "final_outcome": "NYJ 23, TEN 10; covered; under.",
+            "interpretation": "The favorite's required margin decreased by 1 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 23,
@@ -1796,7 +2072,19 @@
           "ats_result": "loss",
           "combined_points": 46,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 1.5,
+            "ats_margin": -4,
+            "points_vs_closing_total": 2,
+            "final_outcome": "PHI 24, WAS 22; did not cover; over.",
+            "interpretation": "The favorite's required margin increased by 1.5 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 24,
@@ -1864,7 +2152,19 @@
           "ats_result": "win",
           "combined_points": 33,
           "total_result": "under",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 4,
+            "ats_margin": 0.5,
+            "points_vs_closing_total": -7.5,
+            "final_outcome": "PIT 20, ATL 13; covered; under.",
+            "interpretation": "The favorite's required margin increased by 4 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 20,
@@ -1932,7 +2232,19 @@
           "ats_result": "win",
           "combined_points": 34,
           "total_result": "under",
-          "verified_at": "2026-09-12T08:20:00-04:00"
+          "verified_at": "2026-09-12T08:20:00-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 1,
+            "ats_margin": 23.5,
+            "points_vs_closing_total": -13.5,
+            "final_outcome": "SF 27, LAR 7; covered; under.",
+            "interpretation": "The favorite's required margin increased by 1 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 27,
@@ -2000,7 +2312,19 @@
           "ats_result": "push",
           "combined_points": 23,
           "total_result": "under",
-          "verified_at": "2026-09-12T08:20:00-04:00"
+          "verified_at": "2026-09-12T08:20:00-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": -1,
+            "ats_margin": 0,
+            "points_vs_closing_total": -21.5,
+            "final_outcome": "SEA 13, NE 10; ATS push; under.",
+            "interpretation": "The favorite's required margin decreased by 1 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 13,
@@ -2016,7 +2340,7 @@
       },
       "ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
@@ -2026,7 +2350,7 @@
       },
       "underdog_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "home_ats": {
@@ -2036,11 +2360,11 @@
       },
       "away_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 0,
         "pushes": 0
       },
@@ -2061,14 +2385,26 @@
           "opening_favorite": "CIN",
           "opening_spread": -3.5,
           "opening_total": 51.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "market_role": null,
-          "ats_result": null,
+          "closing_favorite": "CIN",
+          "closing_spread": -3.5,
+          "closing_total": 50.5,
+          "market_role": "underdog",
+          "ats_result": "loss",
           "combined_points": 60,
-          "total_result": null,
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "total_result": "over",
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": -2.5,
+            "points_vs_closing_total": 9.5,
+            "final_outcome": "TB 27, CIN 33; did not cover; over.",
+            "interpretation": "The favorite and spread were unchanged from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 27,
@@ -2136,7 +2472,19 @@
           "ats_result": "loss",
           "combined_points": 33,
           "total_result": "under",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": -1,
+            "ats_margin": -14.5,
+            "points_vs_closing_total": -6.5,
+            "final_outcome": "TEN 10, NYJ 23; did not cover; under.",
+            "interpretation": "The favorite's required margin decreased by 1 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 10,
@@ -2204,7 +2552,19 @@
           "ats_result": "win",
           "combined_points": 46,
           "total_result": "over",
-          "verified_at": "2026-09-14T08:03:10-04:00"
+          "verified_at": "2026-09-14T08:03:10-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 1.5,
+            "ats_margin": 4,
+            "points_vs_closing_total": 2,
+            "final_outcome": "WAS 22, PHI 24; covered; over.",
+            "interpretation": "The favorite's required margin increased by 1.5 points from the recorded opening to the verified close.",
+            "verified_causes": [],
+            "evidence_note": "Market movement and the final result are verified. No causal explanation is asserted without a sourced report."
+          }
         }
       ],
       "average_points_for": 22,
