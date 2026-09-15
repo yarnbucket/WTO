@@ -1644,7 +1644,7 @@
           "opening_market_timestamp": null,
           "opening_retrieved_at": "2026-09-14T09:30:00-04:00",
           "closing_provider": "PFF",
-          "closing_source_url": "https://www.pff.com/nfl/scores/2026/1/dallas-cowboys_at_new-york-giants",
+          "closing_source_url": "https://www.pff.com/nfl/scores/2026/1/dallas-cowboys_at_new-york-giants_30608",
           "closing_market_timestamp": null,
           "closing_verified_at": "2026-09-15T05:57:25-04:00",
           "closing_away_spread_price": null,
