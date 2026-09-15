@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-09-14T19:46:24-04:00",
+  "updated_at": "2026-09-15T05:57:25-04:00",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -18,7 +18,7 @@
   "weeks": [
     {
       "week": 1,
-      "status": "in_progress",
+      "status": "final",
       "games": [
         {
           "game_id": "2026-W01-NE-SEA",
@@ -611,7 +611,10 @@
           "special_event_sources": [
             "https://nfl-scorigami.vercel.app/",
             "https://www.windycitygridiron.com/chicago-bears-news/122570/chicago-bears-carolina-panthers-final-score-scorigami-2026-nfl-history-59-points"
-          ]
+          ],
+          "scorigami_number": 1096,
+          "scorigami_verified_at": "2026-09-15T05:57:25-04:00",
+          "scorigami_source_url": "https://www.cbssports.com/nfl/news/bears-panthers-final-score-scorigami/"
         },
         {
           "game_id": "2026-W01-CLE-JAX",
@@ -782,11 +785,11 @@
           "price_timestamp": "2026-09-13T08:00:58-04:00",
           "combined_points": 61,
           "straight_up_winner": "DET",
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "ats_winner": null,
-          "total_result": null,
+          "closing_favorite": "DET",
+          "closing_spread": -7,
+          "closing_total": 49.5,
+          "ats_winner": "NO",
+          "total_result": "over",
           "verified_at": "2026-09-14T08:03:10-04:00",
           "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
           "result_sources": [
@@ -819,7 +822,16 @@
           "special_events_verified_at": "2026-09-14T18:40:39.246Z",
           "special_event_sources": [
             "https://www.neworleanssaints.com/game-day/2026/reg-week1/lions-vs-saints/recap"
-          ]
+          ],
+          "closing_provider": "PFF",
+          "closing_source_url": "https://www.pff.com/nfl/scores/2026/1/new-orleans-saints_at_detroit-lions_30611",
+          "closing_market_timestamp": null,
+          "closing_verified_at": "2026-09-15T05:57:25-04:00",
+          "closing_away_spread_price": null,
+          "closing_home_spread_price": null,
+          "closing_over_price": null,
+          "closing_under_price": null,
+          "closing_price_note": "Archived closing-market prices were not available; null values are intentional."
         },
         {
           "game_id": "2026-W01-NYJ-TEN",
@@ -990,11 +1002,11 @@
           "price_timestamp": "2026-09-13T08:00:58-04:00",
           "combined_points": 60,
           "straight_up_winner": "CIN",
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "ats_winner": null,
-          "total_result": null,
+          "closing_favorite": "CIN",
+          "closing_spread": -3.5,
+          "closing_total": 50.5,
+          "ats_winner": "CIN",
+          "total_result": "over",
           "verified_at": "2026-09-14T08:03:10-04:00",
           "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
           "result_sources": [
@@ -1019,7 +1031,16 @@
           "opening_provider": "VegasInsider",
           "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00",
+          "closing_provider": "PFF",
+          "closing_source_url": "https://www.pff.com/nfl/scores/2026/1/tampa-bay-buccaneers_at_cincinnati-bengals_30610",
+          "closing_market_timestamp": null,
+          "closing_verified_at": "2026-09-15T05:57:25-04:00",
+          "closing_away_spread_price": null,
+          "closing_home_spread_price": -110,
+          "closing_over_price": null,
+          "closing_under_price": null,
+          "closing_price_note": "PFF displayed CIN -3.5 at -110; the opposite spread and total-side closing prices were unavailable."
         },
         {
           "game_id": "2026-W01-ARI-LAC",
@@ -1261,7 +1282,10 @@
           "special_event_sources": [
             "https://nfl-scorigami.vercel.app/",
             "https://www.dailynorseman.com/minnesota-vikings-news/99055/minnesota-vikings-green-bay-packers-scorigami-unique-final-score"
-          ]
+          ],
+          "scorigami_number": 1097,
+          "scorigami_verified_at": "2026-09-15T05:57:25-04:00",
+          "scorigami_source_url": "https://www.cbssports.com/nfl/news/vikings-packers-scorigami-week-1-2026/"
         },
         {
           "game_id": "2026-W01-MIA-LV",
@@ -1348,11 +1372,11 @@
           "price_timestamp": "2026-09-13T15:45:44-04:00",
           "combined_points": 40,
           "straight_up_winner": "LV",
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "ats_winner": null,
-          "total_result": null,
+          "closing_favorite": "LV",
+          "closing_spread": -3,
+          "closing_total": 40.5,
+          "ats_winner": "LV",
+          "total_result": "under",
           "verified_at": "2026-09-14T08:03:10-04:00",
           "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
           "result_sources": [
@@ -1377,7 +1401,16 @@
           "opening_provider": "VegasInsider",
           "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00",
+          "closing_provider": "PFF",
+          "closing_source_url": "https://www.pff.com/nfl/scores/2026/1/miami-dolphins_at_las-vegas-raiders_30618",
+          "closing_market_timestamp": null,
+          "closing_verified_at": "2026-09-15T05:57:25-04:00",
+          "closing_away_spread_price": null,
+          "closing_home_spread_price": null,
+          "closing_over_price": null,
+          "closing_under_price": null,
+          "closing_price_note": "Archived closing-market prices were not available; null values are intentional."
         },
         {
           "game_id": "2026-W01-WAS-PHI",
@@ -1580,11 +1613,11 @@
           "price_timestamp": "2026-09-13T19:42:41-04:00",
           "combined_points": 48,
           "straight_up_winner": "NYG",
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
-          "ats_winner": null,
-          "total_result": null,
+          "closing_favorite": "DAL",
+          "closing_spread": -3,
+          "closing_total": 48,
+          "ats_winner": "NYG",
+          "total_result": "push",
           "verified_at": "2026-09-14T08:03:10-04:00",
           "source_note": "Final score verified across ESPN and Sleeper; verified consensus closing line not yet available, so ATS and total grading remain pending.",
           "result_sources": [
@@ -1609,16 +1642,25 @@
           "opening_provider": "VegasInsider",
           "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00",
+          "closing_provider": "PFF",
+          "closing_source_url": "https://www.pff.com/nfl/scores/2026/1/dallas-cowboys_at_new-york-giants",
+          "closing_market_timestamp": null,
+          "closing_verified_at": "2026-09-15T05:57:25-04:00",
+          "closing_away_spread_price": null,
+          "closing_home_spread_price": null,
+          "closing_over_price": null,
+          "closing_under_price": null,
+          "closing_price_note": "PFF archived DAL -3 and 48 as closing; exact closing prices and market timestamp were unavailable."
         },
         {
           "game_id": "2026-W01-DEN-KC",
           "kickoff_et": "2026-09-14T20:15:00-04:00",
           "away": "DEN",
           "home": "KC",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 10,
+          "home_score": 31,
           "market_favorite": "KC",
           "market_spread": -2.5,
           "market_total": 43.5,
@@ -1720,9 +1762,127 @@
           "opening_provider": "VegasInsider",
           "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-14T09:30:00-04:00"
+          "opening_retrieved_at": "2026-09-14T09:30:00-04:00",
+          "closing_favorite": "KC",
+          "closing_spread": -2.5,
+          "closing_total": 43.5,
+          "closing_provider": "PFF",
+          "closing_source_url": "https://www.pff.com/nfl/scores/2026/1/denver-broncos_at_kansas-city-chiefs_30621",
+          "closing_market_timestamp": null,
+          "closing_verified_at": "2026-09-15T05:57:25-04:00",
+          "closing_away_spread_price": null,
+          "closing_home_spread_price": -110,
+          "closing_over_price": null,
+          "closing_under_price": null,
+          "closing_price_note": "PFF displayed KC -2.5 at -110; the opposite spread and total-side closing prices were unavailable.",
+          "combined_points": 41,
+          "straight_up_winner": "KC",
+          "verified_at": "2026-09-15T05:57:25-04:00",
+          "result_sources": [
+            "https://www.reuters.com/sports/nfl/kenneth-walker-iii-delivers-kc-masterpiece-chiefs-blast-broncos-31-10--flm-2026-09-15/",
+            "https://www.pff.com/news/nfl-week-1-recap-denver-broncos-10-kansas-city-chiefs-31",
+            "https://www.espn.com/nfl/odds/_/gameId/401872931"
+          ],
+          "source_note": "Final score cross-checked with Reuters, PFF and ESPN. PFF archived KC -2.5 and 43.5 as the closing market. Only the KC spread price (-110) was exposed; other closing prices and the exact market timestamp were unavailable.",
+          "box_score": {
+            "provider": "Reuters",
+            "verified_at": "2026-09-15T05:57:25-04:00",
+            "away": {
+              "team": "DEN",
+              "total_yards": 176,
+              "first_downs": 9,
+              "third_down_conversions": 2,
+              "sacks_allowed": 4
+            },
+            "home": {
+              "team": "KC"
+            },
+            "top_performers": [
+              {
+                "team": "KC",
+                "player": "Kenneth Walker III",
+                "rushing_yards": 173,
+                "total_yards": 191,
+                "touchdowns": 2
+              },
+              {
+                "team": "KC",
+                "player": "Patrick Mahomes",
+                "passing": "15/27",
+                "passing_yards": 184,
+                "passing_touchdowns": 2,
+                "interceptions": 1,
+                "rushing_touchdowns": 1
+              },
+              {
+                "team": "DEN",
+                "player": "Bo Nix",
+                "passing": "17/28",
+                "passing_yards": 131,
+                "passing_touchdowns": 1,
+                "interceptions": 1
+              }
+            ]
+          },
+          "ats_winner": "KC",
+          "total_result": "under"
         }
-      ]
+      ],
+      "finalized_at": "2026-09-15T05:57:25-04:00",
+      "top_performers": {
+        "verified_at": "2026-09-15T05:57:25-04:00",
+        "statistical_leaders": [
+          {
+            "category": "passing_yards",
+            "player": "Tyler Shough",
+            "team": "NO",
+            "value": 410,
+            "source": "https://www.espn.com/nfl/weekly/leaders"
+          },
+          {
+            "category": "rushing_yards",
+            "player": "Jahmyr Gibbs",
+            "team": "DET",
+            "value": 156,
+            "source": "https://www.pro-football-reference.com/years/2026/week_1.htm"
+          },
+          {
+            "category": "receiving_yards",
+            "player": "Chris Olave",
+            "team": "NO",
+            "value": 182,
+            "source": "https://www.pro-football-reference.com/years/2026/week_1.htm"
+          }
+        ],
+        "pff_awards": [
+          {
+            "award": "Quarterback of the Week",
+            "player": "Trevor Lawrence",
+            "team": "JAX"
+          },
+          {
+            "award": "Offensive Player of the Week",
+            "player": "Zay Flowers",
+            "team": "BAL"
+          },
+          {
+            "award": "Defensive Player of the Week",
+            "player": "T.J. Watt",
+            "team": "PIT"
+          }
+        ],
+        "award_source": "https://www.pff.com/news/nfl-week-1-team-of-the-week-player-awards"
+      },
+      "weekly_summary": {
+        "completed_games": 16,
+        "home_wins": 7,
+        "away_wins": 8,
+        "pushes": 1,
+        "overs": 8,
+        "unders": 7,
+        "total_pushes": 1,
+        "validated_at": "2026-09-15T05:57:25-04:00"
+      }
     }
   ],
   "odds_source": {
