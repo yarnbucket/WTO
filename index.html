@@ -423,7 +423,7 @@ if('serviceWorker' in navigator){
 }
 
 
-let data={},historyData=null,futuresData=null,historyPromise=null,futuresPromise=null,current=1,userSelectedWeek=false,summarySeasonMode=false,picks=loadPicks(),favorites=loadFavorites(),advanced=loadAdvanced(),advancedPicks=loadAdvancedPicks(),selectedGameId=null;
+let data={},historyData=null,futuresData=null,historyPromise=null,futuresPromise=null,current=1,userSelectedWeek=false,summarySeasonMode=true,picks=loadPicks(),favorites=loadFavorites(),advanced=loadAdvanced(),advancedPicks=loadAdvancedPicks(),selectedGameId=null;
 let performanceOpen=false,chartVisible={winner:true,ats:true,total:true};
 let teamPerformanceOpen=false,teamChartMetric='ats',teamChartOverlay=false,teamChartSelected=new Set();
 let statsOpen=false;
