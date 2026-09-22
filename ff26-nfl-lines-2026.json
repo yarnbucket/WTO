@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-09-22T10:01:56.000Z",
+  "updated_at": "2026-09-22T13:57:32.018Z",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -2006,7 +2006,14 @@
           "closing_source_url": "https://www.scoresandodds.com/nfl",
           "closing_market_timestamp": null,
           "closing_retrieved_at": "2026-09-20T05:57:21-04:00",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "BUF",
+          "grading_spread": -5.5,
+          "grading_total": 54.5,
+          "grading_line_type": "verified_closing_line",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-PHI-TEN",
@@ -2020,10 +2027,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "PHI",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "TEN",
+          "total_result": "over",
           "combined_points": 44,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "PHI",
@@ -2122,7 +2129,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "PHI",
+          "grading_spread": -7,
+          "grading_total": 39.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-PIT-NE",
@@ -2136,10 +2150,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "NE",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "NE",
+          "total_result": "under",
           "combined_points": 23,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "NE",
@@ -2238,7 +2252,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "NE",
+          "grading_spread": -5.5,
+          "grading_total": 41.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-MIN-CHI",
@@ -2252,10 +2273,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "MIN",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "MIN",
+          "total_result": "under",
           "combined_points": 12,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "CHI",
@@ -2354,7 +2375,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "CHI",
+          "grading_spread": -4.5,
+          "grading_total": 47.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-CAR-ATL",
@@ -2368,10 +2396,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "CAR",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "CAR",
+          "total_result": "under",
           "combined_points": 37,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "CAR",
@@ -2470,7 +2498,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "CAR",
+          "grading_spread": -2.5,
+          "grading_total": 43.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-GB-NYJ",
@@ -2484,10 +2519,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "GB",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "NYJ",
+          "total_result": "under",
           "combined_points": 37,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. Game went to overtime.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. Game went to overtime. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "GB",
@@ -2586,7 +2621,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "GB",
+          "grading_spread": -3.5,
+          "grading_total": 44.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-NO-BAL",
@@ -2600,10 +2642,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "NO",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "NO",
+          "total_result": "under",
           "combined_points": 41,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "BAL",
@@ -2702,7 +2744,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "BAL",
+          "grading_spread": -8.5,
+          "grading_total": 45.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-CIN-HOU",
@@ -2716,10 +2765,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "CIN",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "CIN",
+          "total_result": "under",
           "combined_points": 26,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "HOU",
@@ -2818,7 +2867,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "HOU",
+          "grading_spread": -2.5,
+          "grading_total": 45.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-CLE-TB",
@@ -2832,10 +2888,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "CLE",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "CLE",
+          "total_result": "over",
           "combined_points": 42,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "TB",
@@ -2934,7 +2990,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "TB",
+          "grading_spread": -7.5,
+          "grading_total": 41.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-JAX-DEN",
@@ -2948,10 +3011,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "DEN",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "DEN",
+          "total_result": "under",
           "combined_points": 33,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "DEN",
@@ -3050,7 +3113,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "DEN",
+          "grading_spread": -3,
+          "grading_total": 45.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-LV-LAC",
@@ -3064,10 +3134,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "LV",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "LV",
+          "total_result": "under",
           "combined_points": 40,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "LAC",
@@ -3166,7 +3236,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "LAC",
+          "grading_spread": -7,
+          "grading_total": 43.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-SEA-ARI",
@@ -3180,10 +3257,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "SEA",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "SEA",
+          "total_result": "under",
           "combined_points": 38,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "SEA",
@@ -3282,7 +3359,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "SEA",
+          "grading_spread": -3.5,
+          "grading_total": 40.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-MIA-SF",
@@ -3296,10 +3380,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "SF",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "SF",
+          "total_result": "over",
           "combined_points": 48,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "SF",
@@ -3398,7 +3482,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "SF",
+          "grading_spread": -13.5,
+          "grading_total": 44.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-WAS-DAL",
@@ -3412,10 +3503,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "DAL",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "DAL",
+          "total_result": "over",
           "combined_points": 57,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "DAL",
@@ -3514,7 +3605,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "DAL",
+          "grading_spread": -3.5,
+          "grading_total": 50.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-IND-KC",
@@ -3528,10 +3626,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "KC",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "IND",
+          "total_result": "over",
           "combined_points": 63,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. Game went to overtime.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. Game went to overtime. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "KC",
@@ -3630,7 +3728,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "KC",
+          "grading_spread": -6,
+          "grading_total": 46.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-20T05:57:21-04:00",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         },
         {
           "game_id": "2026-W02-NYG-LAR",
@@ -3644,10 +3749,10 @@
           "closing_spread": null,
           "closing_total": null,
           "straight_up_winner": "LAR",
-          "ats_winner": null,
-          "total_result": null,
+          "ats_winner": "LAR",
+          "total_result": "under",
           "combined_points": 34,
-          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot.",
+          "source_note": "Final score verified from Sky Sports and cross-checked against contemporary Week 2 reporting. An explicitly identified archived consensus closing spread/total was not available from the checked sources, so ATS and O/U grading remain null rather than using the Sunday market snapshot. ATS and O/U are graded against the latest verified pregame snapshot, clearly labeled as such; it is not represented as a closing line.",
           "season_type": "REG",
           "verified_at": "2026-09-22T06:01:56-04:00",
           "market_favorite": "LAR",
@@ -3730,7 +3835,14 @@
             }
           ],
           "closing_market_unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run.",
-          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run."
+          "box_score_unavailable_reason": "Complete verified team box-score totals were not available from the checked sources during this run.",
+          "grading_favorite": "LAR",
+          "grading_spread": -7,
+          "grading_total": 48.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-15T11:27:39.042Z",
+          "grading_verified_at": "2026-09-22T09:57:32-04:00"
         }
       ],
       "finalized_at": "2026-09-22T06:01:56-04:00",
@@ -3739,11 +3851,12 @@
       "weekly_summary": {
         "final_games": 16,
         "closing_markets_verified": 1,
-        "ats_graded": 1,
-        "totals_graded": 1,
+        "latest_verified_pregame_markets_used": 15,
+        "ats_graded": 16,
+        "totals_graded": 16,
         "ot_games": 2,
         "scorigamis_verified": 0,
-        "note": "All 16 final scores are verified. DET-BUF has a verified archived final market and grade; the other 15 remain ungraded until an explicitly identified closing market is available."
+        "note": "All 16 games are graded. DET-BUF uses its verified archived closing market. The other 15 use the latest stored verified pregame snapshot and remain explicitly distinguished from closing lines."
       }
     },
     {
