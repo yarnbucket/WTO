@@ -260,8 +260,421 @@
           }
         ]
       },
+      "following_tuesday_comparison": {
+        "compared_at": "2026-09-22T06:01:56-04:00",
+        "games": [
+          {
+            "game_id": "2026-W02-DET-BUF",
+            "tuesday_favorite": "BUF",
+            "tuesday_spread": -4.5,
+            "closing_favorite": "BUF",
+            "closing_spread": -5.5,
+            "spread_movement": 1,
+            "movement_direction": "toward favorite",
+            "favorite_flip": false,
+            "ats_winner": "BUF",
+            "tuesday_side_ats_result": "win",
+            "available": true
+          },
+          {
+            "game_id": "2026-W02-PHI-TEN",
+            "tuesday_favorite": "PHI",
+            "tuesday_spread": -7,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-PIT-NE",
+            "tuesday_favorite": "NE",
+            "tuesday_spread": -5.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-MIN-CHI",
+            "tuesday_favorite": "CHI",
+            "tuesday_spread": -5.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-CAR-ATL",
+            "tuesday_favorite": "CAR",
+            "tuesday_spread": -1.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-GB-NYJ",
+            "tuesday_favorite": "GB",
+            "tuesday_spread": -4.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-NO-BAL",
+            "tuesday_favorite": "BAL",
+            "tuesday_spread": -8.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-CIN-HOU",
+            "tuesday_favorite": "HOU",
+            "tuesday_spread": -3,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-CLE-TB",
+            "tuesday_favorite": "TB",
+            "tuesday_spread": -8.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-JAX-DEN",
+            "tuesday_favorite": "DEN",
+            "tuesday_spread": -2.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-LV-LAC",
+            "tuesday_favorite": "LAC",
+            "tuesday_spread": -7,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-SEA-ARI",
+            "tuesday_favorite": "SEA",
+            "tuesday_spread": -4.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-MIA-SF",
+            "tuesday_favorite": "SF",
+            "tuesday_spread": -13.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-WAS-DAL",
+            "tuesday_favorite": "DAL",
+            "tuesday_spread": -3.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-IND-KC",
+            "tuesday_favorite": "KC",
+            "tuesday_spread": -6.5,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          },
+          {
+            "game_id": "2026-W02-NYG-LAR",
+            "tuesday_favorite": "LAR",
+            "tuesday_spread": -7,
+            "closing_favorite": null,
+            "closing_spread": null,
+            "spread_movement": null,
+            "movement_direction": null,
+            "favorite_flip": null,
+            "ats_winner": null,
+            "tuesday_side_ats_result": null,
+            "available": false,
+            "unavailable_reason": "Checked ScoresAndOdds archived/current pages and PFF game pages; neither exposed an explicitly identified consensus closing market with a verifiable timestamp during this run."
+          }
+        ],
+        "summary": {
+          "games_compared": 1,
+          "average_absolute_movement": 1,
+          "largest_movement": {
+            "game_id": "2026-W02-DET-BUF",
+            "points": 1
+          },
+          "favorite_flips": 0,
+          "tuesday_side_ats_wins": 1,
+          "tuesday_side_ats_losses": 0,
+          "tuesday_side_ats_pushes": 0,
+          "games_unavailable": 15
+        },
+        "note": "DET-BUF is the only Week 2 game with an explicitly archived final market available during this run. The other 15 retain immutable Tuesday snapshots but are not compared to a pregame current snapshot mislabeled as a close."
+      }
+    },
+    {
+      "week": 3,
+      "season_type": "REG",
+      "tuesday_snapshot": {
+        "captured_at": "2026-09-22T06:01:56-04:00",
+        "provider": "ScoresAndOdds",
+        "source_url": "https://www.scoresandodds.com/nfl",
+        "games": [
+          {
+            "game_id": "2026-W03-ATL-GB",
+            "kickoff_et": "2026-09-24T20:15:00-04:00",
+            "away": "ATL",
+            "home": "GB",
+            "favorite": "GB",
+            "favorite_spread": -6,
+            "away_spread_price": -108,
+            "home_spread_price": -112
+          },
+          {
+            "game_id": "2026-W03-SEA-WAS",
+            "kickoff_et": "2026-09-27T13:00:00-04:00",
+            "away": "SEA",
+            "home": "WAS",
+            "favorite": "SEA",
+            "favorite_spread": -7,
+            "away_spread_price": -105,
+            "home_spread_price": -115
+          },
+          {
+            "game_id": "2026-W03-CIN-PIT",
+            "kickoff_et": "2026-09-27T13:00:00-04:00",
+            "away": "CIN",
+            "home": "PIT",
+            "favorite": "CIN",
+            "favorite_spread": -3.5,
+            "away_spread_price": -115,
+            "home_spread_price": -105
+          },
+          {
+            "game_id": "2026-W03-NYJ-DET",
+            "kickoff_et": "2026-09-27T13:00:00-04:00",
+            "away": "NYJ",
+            "home": "DET",
+            "favorite": "DET",
+            "favorite_spread": -6.5,
+            "away_spread_price": -110,
+            "home_spread_price": -110
+          },
+          {
+            "game_id": "2026-W03-TEN-NYG",
+            "kickoff_et": "2026-09-27T13:00:00-04:00",
+            "away": "TEN",
+            "home": "NYG",
+            "favorite": "NYG",
+            "favorite_spread": -6,
+            "away_spread_price": -110,
+            "home_spread_price": -110
+          },
+          {
+            "game_id": "2026-W03-NE-JAX",
+            "kickoff_et": "2026-09-27T13:00:00-04:00",
+            "away": "NE",
+            "home": "JAX",
+            "favorite": "JAX",
+            "favorite_spread": -3,
+            "away_spread_price": -112,
+            "home_spread_price": -108
+          },
+          {
+            "game_id": "2026-W03-KC-MIA",
+            "kickoff_et": "2026-09-27T13:00:00-04:00",
+            "away": "KC",
+            "home": "MIA",
+            "favorite": "KC",
+            "favorite_spread": -11.5,
+            "away_spread_price": -108,
+            "home_spread_price": -112
+          },
+          {
+            "game_id": "2026-W03-HOU-IND",
+            "kickoff_et": "2026-09-27T13:00:00-04:00",
+            "away": "HOU",
+            "home": "IND",
+            "favorite": "HOU",
+            "favorite_spread": -2.5,
+            "away_spread_price": -115,
+            "home_spread_price": -105
+          },
+          {
+            "game_id": "2026-W03-CAR-CLE",
+            "kickoff_et": "2026-09-27T13:00:00-04:00",
+            "away": "CAR",
+            "home": "CLE",
+            "favorite": "CAR",
+            "favorite_spread": -2.5,
+            "away_spread_price": -120,
+            "home_spread_price": 100
+          },
+          {
+            "game_id": "2026-W03-LAC-BUF",
+            "kickoff_et": "2026-09-27T13:00:00-04:00",
+            "away": "LAC",
+            "home": "BUF",
+            "favorite": "BUF",
+            "favorite_spread": -7,
+            "away_spread_price": -108,
+            "home_spread_price": -112
+          },
+          {
+            "game_id": "2026-W03-MIN-TB",
+            "kickoff_et": "2026-09-27T16:05:00-04:00",
+            "away": "MIN",
+            "home": "TB",
+            "favorite": "MIN",
+            "favorite_spread": -1.5,
+            "away_spread_price": -110,
+            "home_spread_price": -110
+          },
+          {
+            "game_id": "2026-W03-ARI-SF",
+            "kickoff_et": "2026-09-27T16:05:00-04:00",
+            "away": "ARI",
+            "home": "SF",
+            "favorite": "SF",
+            "favorite_spread": -8.5,
+            "away_spread_price": -115,
+            "home_spread_price": -105
+          },
+          {
+            "game_id": "2026-W03-LV-NO",
+            "kickoff_et": "2026-09-27T16:25:00-04:00",
+            "away": "LV",
+            "home": "NO",
+            "favorite": "NO",
+            "favorite_spread": -3,
+            "away_spread_price": 100,
+            "home_spread_price": -120
+          },
+          {
+            "game_id": "2026-W03-BAL-DAL",
+            "kickoff_et": "2026-09-27T16:25:00-04:00",
+            "away": "BAL",
+            "home": "DAL",
+            "favorite": "BAL",
+            "favorite_spread": -3,
+            "away_spread_price": -108,
+            "home_spread_price": -112
+          },
+          {
+            "game_id": "2026-W03-LAR-DEN",
+            "kickoff_et": "2026-09-27T20:20:00-04:00",
+            "away": "LAR",
+            "home": "DEN",
+            "favorite": "LAR",
+            "favorite_spread": -2.5,
+            "away_spread_price": -105,
+            "home_spread_price": -115
+          },
+          {
+            "game_id": "2026-W03-PHI-CHI",
+            "kickoff_et": "2026-09-28T20:15:00-04:00",
+            "away": "PHI",
+            "home": "CHI",
+            "favorite": "PHI",
+            "favorite_spread": -3,
+            "away_spread_price": -115,
+            "home_spread_price": -105
+          }
+        ]
+      },
       "following_tuesday_comparison": null
     }
   ],
-  "updated_at": "2026-09-15T05:57:25-04:00"
+  "updated_at": "2026-09-22T10:01:56.000Z"
 }
