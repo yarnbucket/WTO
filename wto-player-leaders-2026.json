@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "season": 2026,
+  "updated_at": "2026-09-23T10:00:00-04:00",
+  "description": "Immutable cumulative player-leader snapshots, isolated from odds, results, and team-ranking data.",
+  "snapshots": [
+    {
+      "through_week": 2,
+      "verified_at": "2026-09-23T10:00:00-04:00",
+      "sources": {
+        "passing": "https://www.nfl.com/stats/player-stats/category/passing/2026/reg/all/passingyards/desc",
+        "rushing": "https://www.nfl.com/stats/player-stats/category/rushing/2026/reg/all/rushingyards/desc",
+        "receiving": "https://www.nfl.com/stats/player-stats/category/receiving/2026/reg/all/receivingyards/desc"
+      },
+      "scopes": {
+        "LEAGUE": [{"category":"passing_yards","player":"Tyler Shough"},{"category":"rushing_yards","player":"Kenneth Walker III"},{"category":"receiving_yards","player":"Jaxon Smith-Njigba"}],
+        "CONFERENCE_AFC": [{"category":"passing_yards","player":"C.J. Stroud"},{"category":"rushing_yards","player":"Kenneth Walker III"},{"category":"receiving_yards","player":"Dalton Kincaid"}],
+        "CONFERENCE_NFC": [{"category":"passing_yards","player":"Tyler Shough"},{"category":"rushing_yards","player":"Jahmyr Gibbs"},{"category":"receiving_yards","player":"Jaxon Smith-Njigba"}],
+        "DIVISION_AFC_EAST": [{"category":"passing_yards","player":"Josh Allen"},{"category":"rushing_yards","player":"James Cook"},{"category":"receiving_yards","player":"Dalton Kincaid"}],
+        "DIVISION_AFC_NORTH": [{"category":"passing_yards","player":"Lamar Jackson"},{"category":"rushing_yards","player":"Derrick Henry"},{"category":"receiving_yards","player":"Tee Higgins"}],
+        "DIVISION_AFC_SOUTH": [{"category":"passing_yards","player":"C.J. Stroud"},{"category":"rushing_yards","player":"Jonathan Taylor"},{"category":"receiving_yards","player":"Parker Washington"}],
+        "DIVISION_AFC_WEST": [{"category":"passing_yards","player":"Patrick Mahomes"},{"category":"rushing_yards","player":"Kenneth Walker III"},{"category":"receiving_yards","player":"Travis Kelce"}],
+        "DIVISION_NFC_EAST": [{"category":"passing_yards","player":"Jalen Hurts"},{"category":"rushing_yards","player":"Cam Skattebo"},{"category":"receiving_yards","player":"CeeDee Lamb"}],
+        "DIVISION_NFC_NORTH": [{"category":"passing_yards","player":"Jared Goff"},{"category":"rushing_yards","player":"Jahmyr Gibbs"},{"category":"receiving_yards","player":"Amon-Ra St. Brown"}],
+        "DIVISION_NFC_SOUTH": [{"category":"passing_yards","player":"Tyler Shough"},{"category":"rushing_yards","player":"Bijan Robinson"},{"category":"receiving_yards","player":"Chris Olave"}],
+        "DIVISION_NFC_WEST": [{"category":"passing_yards","player":"Brock Purdy"},{"category":"rushing_yards","player":"Blake Corum"},{"category":"receiving_yards","player":"Jaxon Smith-Njigba"}]
+      }
+    }
+  ]
+}
