@@ -291,6 +291,15 @@
   100%{opacity:0;transform:translateX(520%)}
 }
 @media(prefers-reduced-motion:reduce){.meter-sheen{display:none!important;animation:none!important}}
+.wto-lean{margin:18px 22px 0;padding:18px;border:1px solid rgba(255,199,44,.55);border-left:5px solid var(--gold);background:rgba(3,18,10,.88);border-radius:12px}
+.wto-lean-title{font-family:var(--display);font-size:23px;color:var(--gold);letter-spacing:.7px}
+.wto-lean-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:13px}
+.wto-lean-item{padding:11px;background:rgba(20,53,35,.55);border:1px solid var(--line);border-radius:9px}
+.wto-lean-item span{display:block;color:var(--muted);font:11px var(--mono);letter-spacing:1.1px;text-transform:uppercase}
+.wto-lean-item b{display:block;margin-top:5px;color:var(--white);font-size:17px}
+.wto-lean-copy{margin:13px 0 0;color:#d9ddd9;font-size:14px;line-height:1.45}
+.wto-lean-note{display:block;margin-top:9px;color:var(--muted);font-size:11px;font-style:italic}
+@media(max-width:520px){.wto-lean{margin:14px 12px 0}.wto-lean-grid{grid-template-columns:1fr 1fr}}
 </style>
 
 <style>
@@ -352,6 +361,7 @@
       <li>See ATS covers and pushes plus overs, unders, and total pushes</li>
       <li>Compare Tuesday-to-closing movement using verified grading lines</li>
       <li>Make and track winner, spread, and total picks</li>
+      <li>Review a transparent WTO Smart Lean for win, ATS, total, projected score, and confidence</li>
     </ul>
     <h3>TEAMS &amp; LEAGUE</h3>
     <ul>
@@ -716,7 +726,49 @@ const espnEventCache={};
 function findGame(id){return Object.values(data).flat().find(g=>g.id===id)}
 async function getEspnEvent(g){if(espnEventCache[g.id])return espnEventCache[g.id];const date=g.kickoff.slice(0,10).replaceAll('-','');const board=await fetch(`https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=${date}`).then(r=>{if(!r.ok)throw Error();return r.json()});const event=(board.events||[]).find(e=>{const c=e.competitions?.[0]?.competitors||[];return c.some(x=>x.team.abbreviation===g.away)&&c.some(x=>x.team.abbreviation===g.home)});if(!event)throw Error('Game page unavailable');espnEventCache[g.id]=event;return event}
 async function openExternalGame(id){const g=findGame(id);if(!g)return;const tab=window.open('about:blank','_blank');if(!tab){alert('Allow pop-ups to open the game page.');return}tab.opener=null;tab.document.title='Opening game…';tab.document.body.innerHTML='<p style="font:16px system-ui;padding:24px">Opening the game page…</p>';try{const event=await getEspnEvent(g);tab.location.replace(`https://www.espn.com/nfl/game/_/gameId/${event.id}`)}catch(e){tab.document.body.innerHTML='<p style="font:16px system-ui;padding:24px">The game page is not available yet. You can close this tab and try again later.</p>'}}
-function detailScore(g){const fin=g.status==='final',points=combinedTotal(g);return `<div class="detail-score"><div class="game-top"><span>${g.day} · ${g.time}</span><span class="${fin?'final':'scheduled'}">${fin?'FINAL':'SCHEDULED'}</span></div><div class="scoreboard">${team(g.away,g.awayScore)}<div class="score-mid">${fin?`${g.awayScore}<br>${g.homeScore}`:'AT'}</div>${team(g.home,g.homeScore)}</div><div class="lines-row"><div class="col"><div class="lbl">${fin?(g.lineLabel||'Closing'):'Current'} Spread</div><div class="val">${g.favorite||'—'} ${g.spread==null?'—':signed(g.spread)}</div></div><div class="col"><div class="lbl">${fin?'Final Combined Score':'Current Total'}</div><div class="val">${fin?`${points??'—'} · ${(resolvedTotalResult(g)||'—').toUpperCase()}`:`O/U ${g.total??'—'}`}</div></div></div>${completedSummaryHtml(g)}</div>`}
+function predictionProfile(team,beforeWeek){
+  const games=Object.values(data).flat().filter(g=>g.status==='final'&&Number(g.week)<Number(beforeWeek)&&(g.away===team||g.home===team));
+  let margin=0,total=0,atsWins=0,atsLosses=0;
+  for(const game of games){
+    const isHome=game.home===team,sc=Number(isHome?game.homeScore:game.awayScore),opp=Number(isHome?game.awayScore:game.homeScore);
+    margin+=sc-opp;total+=sc+opp;
+    const ats=resolvedAts(game);
+    if(ats===team)atsWins++;else if(ats&&ats!=='PUSH')atsLosses++;
+  }
+  const atsDecisions=atsWins+atsLosses;
+  return {games:games.length,avgMargin:games.length?margin/games.length:0,avgTotal:games.length?total/games.length:null,atsRate:atsDecisions?atsWins/atsDecisions:.5};
+}
+function wtoLean(g){
+  if(!g||g.status==='final'||!g.favorite||g.spread==null||g.total==null)return null;
+  const favorite=g.favorite,underdog=g.away===favorite?g.home:g.away;
+  const fav=predictionProfile(favorite,g.week),dog=predictionProfile(underdog,g.week);
+  const formEdge=(fav.avgMargin-dog.avgMargin)*.12;
+  const atsEdge=(fav.atsRate-dog.atsRate)*3;
+  let movementEdge=0;
+  if(g.openingSpread!=null&&(!g.openingFavorite||g.openingFavorite===favorite)){
+    const move=Math.abs(Number(g.spread))-Math.abs(Number(g.openingSpread));
+    movementEdge=Math.max(-.75,Math.min(.75,move*.35));
+  }
+  const edge=Math.max(-4,Math.min(4,formEdge+atsEdge+movementEdge));
+  const marketMargin=Math.abs(Number(g.spread)),projectedMargin=Math.max(.5,marketMargin+edge);
+  const winProbability=Math.round(Math.max(51,Math.min(80,50+marketMargin*3+edge*1.5)));
+  const atsLean=edge>.6?favorite:edge<-.6?underdog:'NO EDGE';
+  const totalSamples=[fav.avgTotal,dog.avgTotal].filter(x=>x!=null),recentTotal=totalSamples.length?totalSamples.reduce((a,b)=>a+b,0)/totalSamples.length:null;
+  const totalEdge=recentTotal==null?0:recentTotal-Number(g.total);
+  const totalLean=totalEdge>2?'OVER':totalEdge<-2?'UNDER':'NO EDGE';
+  const sample=Math.min(fav.games,dog.games);
+  const strength=Math.max(Math.abs(edge),Math.abs(totalEdge)/2);
+  const confidence=sample>=4&&strength>=2.25?'HIGH':sample>=2&&strength>=1?'MEDIUM':'LOW';
+  const dogPoints=Math.round((Number(g.total)-projectedMargin)/2),favPoints=Math.max(dogPoints+1,Math.round((Number(g.total)+projectedMargin)/2));
+  const awayPoints=g.away===favorite?favPoints:dogPoints,homePoints=g.home===favorite?favPoints:dogPoints;
+  const reason=sample?'Market line plus '+sample+' prior game'+(sample===1?'':'s')+' per team, scoring margin, ATS form, totals form, and verified line movement.':'Market line only; current-season team sample is not available yet.';
+  return {winner:favorite,winProbability,atsLean,totalLean,confidence,projectedScore:g.away+' '+awayPoints+'–'+homePoints+' '+g.home,reason};
+}
+function predictionHtml(g){
+  const p=wtoLean(g);if(!p)return '';
+  return '<section class="wto-lean" aria-label="WTO Smart Lean"><div class="wto-lean-title">WTO SMART LEAN</div><div class="wto-lean-grid"><div class="wto-lean-item"><span>Win Lean</span><b>'+p.winner+' · '+p.winProbability+'%</b></div><div class="wto-lean-item"><span>Projected Score</span><b>'+p.projectedScore+'</b></div><div class="wto-lean-item"><span>ATS Lean</span><b>'+p.atsLean+'</b></div><div class="wto-lean-item"><span>Total Lean</span><b>'+p.totalLean+'</b></div></div><p class="wto-lean-copy">'+p.reason+'</p><small class="wto-lean-note">Confidence: '+p.confidence+'. Data-based estimate—not a guarantee or betting advice.</small></section>';
+}
+function detailScore(g){const fin=g.status==='final',points=combinedTotal(g);return `<div class="detail-score"><div class="game-top"><span>${g.day} · ${g.time}</span><span class="${fin?'final':'scheduled'}">${fin?'FINAL':'SCHEDULED'}</span></div><div class="scoreboard">${team(g.away,g.awayScore)}<div class="score-mid">${fin?`${g.awayScore}<br>${g.homeScore}`:'AT'}</div>${team(g.home,g.homeScore)}</div><div class="lines-row"><div class="col"><div class="lbl">${fin?(g.lineLabel||'Closing'):'Current'} Spread</div><div class="val">${g.favorite||'—'} ${g.spread==null?'—':signed(g.spread)}</div></div><div class="col"><div class="lbl">${fin?'Final Combined Score':'Current Total'}</div><div class="val">${fin?`${points??'—'} · ${(resolvedTotalResult(g)||'—').toUpperCase()}`:`O/U ${g.total??'—'}`}</div></div></div>${fin?'':predictionHtml(g)}${completedSummaryHtml(g)}</div>`}
 function statRows(stats,g){if(!stats?.length)return '<div class="detail-loading">Detailed team stats will appear when ESPN posts them.</div>';const wanted=['firstDowns','totalYards','netPassingYards','rushingYards','turnovers','possessionTime'];const rows=wanted.map(k=>stats.find(s=>s.name===k)).filter(Boolean);return rows.map(s=>`<div class="stat-row"><b>${s.displayValue||s.value||'—'}</b><span class="label">${s.label||s.name}</span><b>${s.opponentValue||'—'}</b></div>`).join('')}
 function savedStatRows(g){const b=g.boxScore;if(!b?.away||!b?.home)return '';const defs=[['first_downs','First Downs'],['total_yards','Total Yards'],['passing_yards','Passing Yards'],['rushing_yards','Rushing Yards'],['turnovers','Turnovers'],['possession_time','Possession']];const rows=defs.filter(([k])=>b.away[k]!=null||b.home[k]!=null);return rows.map(([k,label])=>`<div class="stat-row"><b>${b.away[k]??'—'}</b><span class="label">${label}</span><b>${b.home[k]??'—'}</b></div>`).join('')}
 function moreGameDataShell(g){return `<section class="more-data"><button class="more-data-toggle" aria-expanded="false" onclick="toggleMoreGameData('${g.id}')">MORE GAME DATA <span>＋</span></button><div class="more-data-panel"></div></section>`}
