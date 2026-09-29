@@ -3,7 +3,7 @@
   "season": 2026,
   "title": "WTO Team Betting Tracker",
   "source_of_truth": "ff26-nfl-lines-2026.json",
-  "generated_at": "2026-09-22T09:57:32-04:00",
+  "generated_at": "2026-09-29T05:58:07-04:00",
   "methodology": {
     "ats": "Team win/loss/push is derived from the verified game ATS winner. Favorite spreads are stored from the favorite perspective as negative numbers.",
     "totals": "The game Over/Under result is applied equally to both participating teams.",
@@ -16,11 +16,11 @@
       "name": "Arizona Cardinals",
       "straight_up": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
@@ -30,7 +30,7 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
@@ -40,18 +40,18 @@
         "pushes": 0
       },
       "away_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 2,
         "pushes": 0
       },
-      "points_for": 33,
-      "points_against": 45,
-      "final_games": 2,
+      "points_for": 63,
+      "points_against": 81,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -126,7 +126,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -6.5,
-            "ats_margin": 20.5,
+            "ats_margin": -20.5,
             "points_vs_grading_total": -2.5,
             "final_outcome": "SEA 31, ARI 7; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -135,21 +135,63 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-ARI-SF",
+          "kickoff_et": "2026-09-27T16:05:00-04:00",
+          "opponent": "SF",
+          "venue": "away",
+          "status": "final",
+          "score_for": 30,
+          "score_against": 36,
+          "straight_up_result": "loss",
+          "opening_favorite": "SF",
+          "opening_spread": -11.5,
+          "opening_total": 46.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "SF",
+          "grading_spread": -7.5,
+          "grading_total": 48.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 66,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": -4,
+            "ats_margin": 1.5,
+            "points_vs_grading_total": 17.5,
+            "final_outcome": "ARI 30, SF 36; loss; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 16.5,
-      "average_points_against": 22.5
+      "average_points_for": 21,
+      "average_points_against": 27
     },
     "ATL": {
       "team": "ATL",
       "name": "Atlanta Falcons",
       "straight_up": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "ties": 0
       },
       "ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "pushes": 0
       },
@@ -159,7 +201,7 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "pushes": 0
       },
@@ -169,18 +211,18 @@
         "pushes": 0
       },
       "away_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 2,
         "pushes": 0
       },
-      "points_for": 16,
-      "points_against": 54,
-      "final_games": 2,
+      "points_for": 51,
+      "points_against": 68,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -213,7 +255,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 4,
-            "ats_margin": 0.5,
+            "ats_margin": -0.5,
             "points_vs_grading_total": -7.5,
             "final_outcome": "ATL 13, PIT 20; loss; under.",
             "interpretation": "Graded against the verified closing market.",
@@ -254,8 +296,8 @@
             "closing_role": null,
             "grading_role": "underdog",
             "favorite_flipped": true,
-            "spread_movement_points": 1,
-            "ats_margin": 28.5,
+            "spread_movement_points": null,
+            "ats_margin": -28.5,
             "points_vs_grading_total": -6.5,
             "final_outcome": "CAR 34, ATL 3; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -264,27 +306,69 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-ATL-GB",
+          "kickoff_et": "2026-09-24T20:15:00-04:00",
+          "opponent": "GB",
+          "venue": "away",
+          "status": "final",
+          "score_for": 35,
+          "score_against": 14,
+          "straight_up_result": "win",
+          "opening_favorite": "GB",
+          "opening_spread": -7.5,
+          "opening_total": 46.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "GB",
+          "grading_spread": -6,
+          "grading_total": 44.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-22T06:01:56-04:00",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 49,
+          "total_result": "over",
+          "verified_at": "2026-09-27T06:02:04-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": -1.5,
+            "ats_margin": 27,
+            "points_vs_grading_total": 4.5,
+            "final_outcome": "ATL 35, GB 14; win; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 8,
-      "average_points_against": 27
+      "average_points_for": 17,
+      "average_points_against": 22.7
     },
     "BAL": {
       "team": "BAL",
       "name": "Baltimore Ravens",
       "straight_up": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
       "ats": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "underdog_ats": {
@@ -299,17 +383,17 @@
       },
       "away_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
-        "overs": 1,
+        "overs": 2,
         "unders": 1,
         "pushes": 0
       },
-      "points_for": 58,
-      "points_against": 47,
-      "final_games": 2,
+      "points_for": 92,
+      "points_against": 78,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -384,7 +468,7 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": 15.5,
+            "ats_margin": -15.5,
             "points_vs_grading_total": -4.5,
             "final_outcome": "NO 24, BAL 17; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -393,26 +477,68 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-BAL-DAL",
+          "kickoff_et": "2026-09-27T16:25:00-04:00",
+          "opponent": "DAL",
+          "venue": "away",
+          "status": "final",
+          "score_for": 34,
+          "score_against": 31,
+          "straight_up_result": "win",
+          "opening_favorite": "BAL",
+          "opening_spread": -2.5,
+          "opening_total": 50.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "BAL",
+          "grading_spread": -3.5,
+          "grading_total": 53.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 65,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 1,
+            "ats_margin": -0.5,
+            "points_vs_grading_total": 11.5,
+            "final_outcome": "BAL 34, DAL 31; win; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 29,
-      "average_points_against": 23.5
+      "average_points_for": 30.7,
+      "average_points_against": 26
     },
     "BUF": {
       "team": "BUF",
       "name": "Buffalo Bills",
       "straight_up": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       },
       "ats": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "pushes": 0
       },
@@ -422,7 +548,7 @@
         "pushes": 0
       },
       "home_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
@@ -433,12 +559,12 @@
       },
       "totals": {
         "overs": 2,
-        "unders": 0,
+        "unders": 1,
         "pushes": 0
       },
-      "points_for": 77,
-      "points_against": 62,
-      "final_games": 2,
+      "points_for": 101,
+      "points_against": 78,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -522,27 +648,69 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LAC-BUF",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "LAC",
+          "venue": "home",
+          "status": "final",
+          "score_for": 24,
+          "score_against": 16,
+          "straight_up_result": "win",
+          "opening_favorite": "BUF",
+          "opening_spread": -2.5,
+          "opening_total": 48.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "BUF",
+          "grading_spread": -7,
+          "grading_total": 50.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 40,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 4.5,
+            "ats_margin": 1,
+            "points_vs_grading_total": -10.5,
+            "final_outcome": "LAC 16, BUF 24; win; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 38.5,
-      "average_points_against": 31
+      "average_points_for": 33.7,
+      "average_points_against": 26
     },
     "CAR": {
       "team": "CAR",
       "name": "Carolina Panthers",
       "straight_up": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       },
       "ats": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "underdog_ats": {
@@ -557,17 +725,17 @@
       },
       "away_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
         "overs": 1,
-        "unders": 1,
+        "unders": 2,
         "pushes": 0
       },
-      "points_for": 71,
-      "points_against": 62,
-      "final_games": 2,
+      "points_for": 89,
+      "points_against": 83,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -600,7 +768,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": 19,
+            "ats_margin": -19,
             "points_vs_grading_total": 48.5,
             "final_outcome": "CHI 59, CAR 37; loss; over.",
             "interpretation": "Graded against the verified closing market.",
@@ -641,7 +809,7 @@
             "closing_role": null,
             "grading_role": "favorite",
             "favorite_flipped": true,
-            "spread_movement_points": 1,
+            "spread_movement_points": null,
             "ats_margin": 28.5,
             "points_vs_grading_total": -6.5,
             "final_outcome": "CAR 34, ATL 3; win; under.",
@@ -651,21 +819,63 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-CAR-CLE",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "CLE",
+          "venue": "away",
+          "status": "final",
+          "score_for": 18,
+          "score_against": 21,
+          "straight_up_result": "loss",
+          "opening_favorite": "CAR",
+          "opening_spread": -1.5,
+          "opening_total": 39.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "CAR",
+          "grading_spread": -1.5,
+          "grading_total": 42.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 39,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": -4.5,
+            "points_vs_grading_total": -3.5,
+            "final_outcome": "CAR 18, CLE 21; loss; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 35.5,
-      "average_points_against": 31
+      "average_points_for": 29.7,
+      "average_points_against": 27.7
     },
     "CHI": {
       "team": "CHI",
       "name": "Chicago Bears",
       "straight_up": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
@@ -675,12 +885,12 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
@@ -691,12 +901,12 @@
       },
       "totals": {
         "overs": 1,
-        "unders": 1,
+        "unders": 2,
         "pushes": 0
       },
-      "points_for": 62,
-      "points_against": 46,
-      "final_games": 2,
+      "points_for": 89,
+      "points_against": 53,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -771,7 +981,7 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": 10.5,
+            "ats_margin": -10.5,
             "points_vs_grading_total": -35.5,
             "final_outcome": "MIN 9, CHI 3; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -780,27 +990,69 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-PHI-CHI",
+          "kickoff_et": "2026-09-28T20:15:00-04:00",
+          "opponent": "PHI",
+          "venue": "home",
+          "status": "final",
+          "score_for": 27,
+          "score_against": 7,
+          "straight_up_result": "win",
+          "opening_favorite": "CHI",
+          "opening_spread": -1.5,
+          "opening_total": 46.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "PHI",
+          "grading_spread": -3,
+          "grading_total": 44.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-22T06:01:56-04:00",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 34,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": true,
+            "spread_movement_points": null,
+            "ats_margin": 23,
+            "points_vs_grading_total": -10.5,
+            "final_outcome": "PHI 7, CHI 27; win; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 31,
-      "average_points_against": 23
+      "average_points_for": 29.7,
+      "average_points_against": 17.7
     },
     "CIN": {
       "team": "CIN",
       "name": "Cincinnati Bengals",
       "straight_up": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       },
       "ats": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "underdog_ats": {
@@ -815,17 +1067,17 @@
       },
       "away_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
-        "overs": 1,
+        "overs": 2,
         "unders": 1,
         "pushes": 0
       },
-      "points_for": 53,
-      "points_against": 33,
-      "final_games": 2,
+      "points_for": 80,
+      "points_against": 63,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -847,7 +1099,6 @@
           "grading_spread": -3.5,
           "grading_total": 50.5,
           "grading_line_type": "verified_closing_line",
-          "grading_market_as_of": null,
           "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 60,
@@ -910,21 +1161,63 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-CIN-PIT",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "PIT",
+          "venue": "away",
+          "status": "final",
+          "score_for": 27,
+          "score_against": 30,
+          "straight_up_result": "loss",
+          "opening_favorite": "CIN",
+          "opening_spread": -1.5,
+          "opening_total": 47.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "CIN",
+          "grading_spread": -3.5,
+          "grading_total": 42.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 57,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 2,
+            "ats_margin": -6.5,
+            "points_vs_grading_total": 14.5,
+            "final_outcome": "CIN 27, PIT 30; loss; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 26.5,
-      "average_points_against": 16.5
+      "average_points_for": 26.7,
+      "average_points_against": 21
     },
     "CLE": {
       "team": "CLE",
       "name": "Cleveland Browns",
       "straight_up": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
@@ -934,12 +1227,12 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -950,12 +1243,12 @@
       },
       "totals": {
         "overs": 2,
-        "unders": 0,
+        "unders": 1,
         "pushes": 0
       },
-      "points_for": 33,
-      "points_against": 53,
-      "final_games": 2,
+      "points_for": 54,
+      "points_against": 71,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -988,7 +1281,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": 15.5,
+            "ats_margin": -15.5,
             "points_vs_grading_total": 3.5,
             "final_outcome": "CLE 10, JAX 34; loss; over.",
             "interpretation": "Graded against the verified closing market.",
@@ -1039,21 +1332,63 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-CAR-CLE",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "CAR",
+          "venue": "home",
+          "status": "final",
+          "score_for": 21,
+          "score_against": 18,
+          "straight_up_result": "win",
+          "opening_favorite": "CAR",
+          "opening_spread": -1.5,
+          "opening_total": 39.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "CAR",
+          "grading_spread": -1.5,
+          "grading_total": 42.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 39,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": 4.5,
+            "points_vs_grading_total": -3.5,
+            "final_outcome": "CAR 18, CLE 21; win; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 16.5,
-      "average_points_against": 26.5
+      "average_points_for": 18,
+      "average_points_against": 23.7
     },
     "DAL": {
       "team": "DAL",
       "name": "Dallas Cowboys",
       "straight_up": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
@@ -1063,12 +1398,12 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
@@ -1078,13 +1413,13 @@
         "pushes": 0
       },
       "totals": {
-        "overs": 1,
+        "overs": 2,
         "unders": 0,
         "pushes": 1
       },
-      "points_for": 57,
-      "points_against": 48,
-      "final_games": 2,
+      "points_for": 88,
+      "points_against": 82,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -1106,7 +1441,6 @@
           "grading_spread": -3,
           "grading_total": 48,
           "grading_line_type": "verified_closing_line",
-          "grading_market_as_of": null,
           "market_role": "favorite",
           "ats_result": "loss",
           "combined_points": 48,
@@ -1118,7 +1452,7 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": 11,
+            "ats_margin": -11,
             "points_vs_grading_total": 0,
             "final_outcome": "DAL 20, NYG 28; loss; push.",
             "interpretation": "Graded against the verified closing market.",
@@ -1169,21 +1503,63 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-BAL-DAL",
+          "kickoff_et": "2026-09-27T16:25:00-04:00",
+          "opponent": "BAL",
+          "venue": "home",
+          "status": "final",
+          "score_for": 31,
+          "score_against": 34,
+          "straight_up_result": "loss",
+          "opening_favorite": "BAL",
+          "opening_spread": -2.5,
+          "opening_total": 50.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "BAL",
+          "grading_spread": -3.5,
+          "grading_total": 53.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 65,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 1,
+            "ats_margin": 0.5,
+            "points_vs_grading_total": 11.5,
+            "final_outcome": "BAL 34, DAL 31; loss; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 28.5,
-      "average_points_against": 24
+      "average_points_for": 29.3,
+      "average_points_against": 27.3
     },
     "DEN": {
       "team": "DEN",
       "name": "Denver Broncos",
       "straight_up": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
@@ -1193,12 +1569,12 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
@@ -1208,13 +1584,13 @@
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 2,
         "pushes": 0
       },
-      "points_for": 30,
-      "points_against": 44,
-      "final_games": 2,
+      "points_for": 60,
+      "points_against": 70,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -1236,7 +1612,6 @@
           "grading_spread": -2.5,
           "grading_total": 43.5,
           "grading_line_type": "verified_closing_line",
-          "grading_market_as_of": null,
           "market_role": "underdog",
           "ats_result": "loss",
           "combined_points": 41,
@@ -1248,7 +1623,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": 18.5,
+            "ats_margin": -18.5,
             "points_vs_grading_total": -2.5,
             "final_outcome": "DEN 10, KC 31; loss; under.",
             "interpretation": "Graded against the verified closing market.",
@@ -1299,26 +1674,68 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LAR-DEN",
+          "kickoff_et": "2026-09-27T20:20:00-04:00",
+          "opponent": "LAR",
+          "venue": "home",
+          "status": "final",
+          "score_for": 30,
+          "score_against": 26,
+          "straight_up_result": "win",
+          "opening_favorite": "LAR",
+          "opening_spread": -2.5,
+          "opening_total": 45.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "LAR",
+          "grading_spread": -2.5,
+          "grading_total": 43.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 56,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": 6.5,
+            "points_vs_grading_total": 12.5,
+            "final_outcome": "LAR 26, DEN 30; win; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 15,
-      "average_points_against": 22
+      "average_points_for": 20,
+      "average_points_against": 23.3
     },
     "DET": {
       "team": "DET",
       "name": "Detroit Lions",
       "straight_up": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
       "ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
@@ -1328,7 +1745,7 @@
         "pushes": 0
       },
       "home_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
@@ -1338,13 +1755,13 @@
         "pushes": 0
       },
       "totals": {
-        "overs": 2,
+        "overs": 3,
         "unders": 0,
         "pushes": 0
       },
-      "points_for": 62,
-      "points_against": 71,
-      "final_games": 2,
+      "points_for": 93,
+      "points_against": 95,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -1366,7 +1783,6 @@
           "grading_spread": -7,
           "grading_total": 49.5,
           "grading_line_type": "verified_closing_line",
-          "grading_market_as_of": null,
           "market_role": "favorite",
           "ats_result": "loss",
           "combined_points": 61,
@@ -1378,9 +1794,9 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": 6,
+            "ats_margin": -6,
             "points_vs_grading_total": 11.5,
-            "final_outcome": "NO 30, DET 31; loss; over.",
+            "final_outcome": "NO 30, DET 31; win; over.",
             "interpretation": "Graded against the verified closing market.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
@@ -1420,7 +1836,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 2.5,
-            "ats_margin": 4.5,
+            "ats_margin": -4.5,
             "points_vs_grading_total": 17.5,
             "final_outcome": "DET 31, BUF 41; loss; over.",
             "interpretation": "Graded against the verified closing market.",
@@ -1429,27 +1845,69 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-NYJ-DET",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "NYJ",
+          "venue": "home",
+          "status": "final",
+          "score_for": 31,
+          "score_against": 24,
+          "straight_up_result": "win",
+          "opening_favorite": "DET",
+          "opening_spread": -9.5,
+          "opening_total": 45.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "DET",
+          "grading_spread": -6.5,
+          "grading_total": 48.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 55,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": -3,
+            "ats_margin": 0.5,
+            "points_vs_grading_total": 6.5,
+            "final_outcome": "NYJ 24, DET 31; win; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
       "average_points_for": 31,
-      "average_points_against": 35.5
+      "average_points_against": 31.7
     },
     "GB": {
       "team": "GB",
       "name": "Green Bay Packers",
       "straight_up": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       },
       "ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "underdog_ats": {
@@ -1459,7 +1917,7 @@
       },
       "home_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "away_ats": {
@@ -1468,13 +1926,13 @@
         "pushes": 0
       },
       "totals": {
-        "overs": 1,
+        "overs": 2,
         "unders": 1,
         "pushes": 0
       },
-      "points_for": 42,
-      "points_against": 56,
-      "final_games": 2,
+      "points_for": 56,
+      "points_against": 91,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -1506,8 +1964,8 @@
             "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": true,
-            "spread_movement_points": 1,
-            "ats_margin": 14.5,
+            "spread_movement_points": null,
+            "ats_margin": -14.5,
             "points_vs_grading_total": 15.5,
             "final_outcome": "GB 22, MIN 39; loss; over.",
             "interpretation": "Graded against the verified closing market.",
@@ -1549,36 +2007,78 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -3,
-            "ats_margin": 0.5,
+            "ats_margin": -0.5,
             "points_vs_grading_total": -7.5,
-            "final_outcome": "GB 20, NYJ 17; loss; under.",
+            "final_outcome": "GB 20, NYJ 17; win; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           },
           "overtime": true,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-ATL-GB",
+          "kickoff_et": "2026-09-24T20:15:00-04:00",
+          "opponent": "ATL",
+          "venue": "home",
+          "status": "final",
+          "score_for": 14,
+          "score_against": 35,
+          "straight_up_result": "loss",
+          "opening_favorite": "GB",
+          "opening_spread": -7.5,
+          "opening_total": 46.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "GB",
+          "grading_spread": -6,
+          "grading_total": 44.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-22T06:01:56-04:00",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 49,
+          "total_result": "over",
+          "verified_at": "2026-09-27T06:02:04-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": -1.5,
+            "ats_margin": -27,
+            "points_vs_grading_total": 4.5,
+            "final_outcome": "ATL 35, GB 14; loss; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 21,
-      "average_points_against": 28
+      "average_points_for": 18.7,
+      "average_points_against": 30.3
     },
     "HOU": {
       "team": "HOU",
       "name": "Houston Texans",
       "straight_up": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
       "ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "underdog_ats": {
@@ -1593,17 +2093,17 @@
       },
       "away_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
         "overs": 1,
-        "unders": 1,
+        "unders": 2,
         "pushes": 0
       },
-      "points_for": 37,
-      "points_against": 56,
-      "final_games": 2,
+      "points_for": 54,
+      "points_against": 75,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -1636,7 +2136,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": 3.5,
+            "ats_margin": -3.5,
             "points_vs_grading_total": 22.5,
             "final_outcome": "BUF 36, HOU 31; loss; over.",
             "interpretation": "Graded against the verified closing market.",
@@ -1678,7 +2178,7 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": 16.5,
+            "ats_margin": -16.5,
             "points_vs_grading_total": -19.5,
             "final_outcome": "CIN 20, HOU 6; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -1687,21 +2187,63 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-HOU-IND",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "IND",
+          "venue": "away",
+          "status": "final",
+          "score_for": 17,
+          "score_against": 19,
+          "straight_up_result": "loss",
+          "opening_favorite": "HOU",
+          "opening_spread": -1.5,
+          "opening_total": 45.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "HOU",
+          "grading_spread": -1.5,
+          "grading_total": 42.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 36,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": -3.5,
+            "points_vs_grading_total": -6.5,
+            "final_outcome": "HOU 17, IND 19; loss; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 18.5,
-      "average_points_against": 28
+      "average_points_for": 18,
+      "average_points_against": 25
     },
     "IND": {
       "team": "IND",
       "name": "Indianapolis Colts",
       "straight_up": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
@@ -1711,12 +2253,12 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
@@ -1727,12 +2269,12 @@
       },
       "totals": {
         "overs": 2,
-        "unders": 0,
+        "unders": 1,
         "pushes": 0
       },
-      "points_for": 53,
-      "points_against": 74,
-      "final_games": 2,
+      "points_for": 72,
+      "points_against": 91,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -1765,7 +2307,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -0.5,
-            "ats_margin": 15,
+            "ats_margin": -15,
             "points_vs_grading_total": 15.5,
             "final_outcome": "BAL 41, IND 23; loss; over.",
             "interpretation": "Graded against the verified closing market.",
@@ -1809,33 +2351,75 @@
             "spread_movement_points": 0.5,
             "ats_margin": 3,
             "points_vs_grading_total": 16.5,
-            "final_outcome": "IND 30, KC 33; win; over.",
+            "final_outcome": "IND 30, KC 33; loss; over.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           },
           "overtime": true,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-HOU-IND",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "HOU",
+          "venue": "home",
+          "status": "final",
+          "score_for": 19,
+          "score_against": 17,
+          "straight_up_result": "win",
+          "opening_favorite": "HOU",
+          "opening_spread": -1.5,
+          "opening_total": 45.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "HOU",
+          "grading_spread": -1.5,
+          "grading_total": 42.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 36,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": 3.5,
+            "points_vs_grading_total": -6.5,
+            "final_outcome": "HOU 17, IND 19; win; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 26.5,
-      "average_points_against": 37
+      "average_points_for": 24,
+      "average_points_against": 30.3
     },
     "JAX": {
       "team": "JAX",
       "name": "Jacksonville Jaguars",
       "straight_up": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
@@ -1845,7 +2429,7 @@
         "pushes": 0
       },
       "home_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
@@ -1856,12 +2440,12 @@
       },
       "totals": {
         "overs": 1,
-        "unders": 1,
+        "unders": 2,
         "pushes": 0
       },
-      "points_for": 47,
-      "points_against": 30,
-      "final_games": 2,
+      "points_for": 82,
+      "points_against": 36,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -1936,7 +2520,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": 4,
+            "ats_margin": -4,
             "points_vs_grading_total": -12.5,
             "final_outcome": "JAX 13, DEN 20; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -1945,26 +2529,68 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-NE-JAX",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "NE",
+          "venue": "home",
+          "status": "final",
+          "score_for": 35,
+          "score_against": 6,
+          "straight_up_result": "win",
+          "opening_favorite": "JAX",
+          "opening_spread": -1.5,
+          "opening_total": 45.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "JAX",
+          "grading_spread": -3,
+          "grading_total": 45.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 41,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 1.5,
+            "ats_margin": 26,
+            "points_vs_grading_total": -4.5,
+            "final_outcome": "NE 6, JAX 35; win; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 23.5,
-      "average_points_against": 15
+      "average_points_for": 27.3,
+      "average_points_against": 12
     },
     "KC": {
       "team": "KC",
       "name": "Kansas City Chiefs",
       "straight_up": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
@@ -1979,18 +2605,18 @@
         "pushes": 0
       },
       "away_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
       "totals": {
         "overs": 1,
-        "unders": 1,
+        "unders": 2,
         "pushes": 0
       },
-      "points_for": 64,
-      "points_against": 40,
-      "final_games": 2,
+      "points_for": 88,
+      "points_against": 50,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -2012,7 +2638,6 @@
           "grading_spread": -2.5,
           "grading_total": 43.5,
           "grading_line_type": "verified_closing_line",
-          "grading_market_as_of": null,
           "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 41,
@@ -2066,30 +2691,72 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": 3,
+            "ats_margin": -3,
             "points_vs_grading_total": 16.5,
-            "final_outcome": "IND 30, KC 33; loss; over.",
+            "final_outcome": "IND 30, KC 33; win; over.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           },
           "overtime": true,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-KC-MIA",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "MIA",
+          "venue": "away",
+          "status": "final",
+          "score_for": 24,
+          "score_against": 10,
+          "straight_up_result": "win",
+          "opening_favorite": "KC",
+          "opening_spread": -7,
+          "opening_total": 44.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "KC",
+          "grading_spread": -10,
+          "grading_total": 45.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 34,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 3,
+            "ats_margin": 4,
+            "points_vs_grading_total": -11.5,
+            "final_outcome": "KC 24, MIA 10; win; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 32,
-      "average_points_against": 20
+      "average_points_for": 29.3,
+      "average_points_against": 16.7
     },
     "LV": {
       "team": "LV",
       "name": "Las Vegas Raiders",
       "straight_up": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       },
       "ats": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "pushes": 0
       },
@@ -2099,7 +2766,7 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
@@ -2109,18 +2776,18 @@
         "pushes": 0
       },
       "away_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 2,
         "pushes": 0
       },
-      "points_for": 53,
-      "points_against": 27,
-      "final_games": 2,
+      "points_for": 88,
+      "points_against": 54,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -2142,7 +2809,6 @@
           "grading_spread": -3,
           "grading_total": 40.5,
           "grading_line_type": "verified_closing_line",
-          "grading_market_as_of": null,
           "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 40,
@@ -2205,22 +2871,64 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LV-NO",
+          "kickoff_et": "2026-09-27T16:25:00-04:00",
+          "opponent": "NO",
+          "venue": "away",
+          "status": "final",
+          "score_for": 35,
+          "score_against": 27,
+          "straight_up_result": "win",
+          "opening_favorite": "NO",
+          "opening_spread": -3,
+          "opening_total": 42.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "NO",
+          "grading_spread": -3.5,
+          "grading_total": 43.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 62,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 0.5,
+            "ats_margin": 11.5,
+            "points_vs_grading_total": 18.5,
+            "final_outcome": "LV 35, NO 27; win; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 26.5,
-      "average_points_against": 13.5
+      "average_points_for": 29.3,
+      "average_points_against": 18
     },
     "LAC": {
       "team": "LAC",
       "name": "Los Angeles Chargers",
       "straight_up": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
       "ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "pushes": 0
       },
       "favorite_ats": {
@@ -2230,7 +2938,7 @@
       },
       "underdog_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "home_ats": {
@@ -2240,17 +2948,17 @@
       },
       "away_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
         "overs": 0,
-        "unders": 2,
+        "unders": 3,
         "pushes": 0
       },
-      "points_for": 28,
-      "points_against": 52,
-      "final_games": 2,
+      "points_for": 44,
+      "points_against": 76,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -2283,7 +2991,7 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -2,
-            "ats_margin": 20.5,
+            "ats_margin": -20.5,
             "points_vs_grading_total": -7.5,
             "final_outcome": "ARI 26, LAC 14; loss; under.",
             "interpretation": "Graded against the verified closing market.",
@@ -2325,7 +3033,7 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -1.5,
-            "ats_margin": 19,
+            "ats_margin": -19,
             "points_vs_grading_total": -3.5,
             "final_outcome": "LV 26, LAC 14; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -2334,27 +3042,69 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LAC-BUF",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "BUF",
+          "venue": "away",
+          "status": "final",
+          "score_for": 16,
+          "score_against": 24,
+          "straight_up_result": "loss",
+          "opening_favorite": "BUF",
+          "opening_spread": -2.5,
+          "opening_total": 48.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "BUF",
+          "grading_spread": -7,
+          "grading_total": 50.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 40,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 4.5,
+            "ats_margin": -1,
+            "points_vs_grading_total": -10.5,
+            "final_outcome": "LAC 16, BUF 24; loss; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 14,
-      "average_points_against": 26
+      "average_points_for": 14.7,
+      "average_points_against": 25.3
     },
     "LAR": {
       "team": "LAR",
       "name": "Los Angeles Rams",
       "straight_up": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       },
       "ats": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "underdog_ats": {
@@ -2369,17 +3119,17 @@
       },
       "away_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 2,
         "pushes": 0
       },
-      "points_for": 35,
-      "points_against": 33,
-      "final_games": 2,
+      "points_for": 61,
+      "points_against": 63,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -2412,7 +3162,7 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": 23.5,
+            "ats_margin": -23.5,
             "points_vs_grading_total": -13.5,
             "final_outcome": "SF 27, LAR 7; loss; under.",
             "interpretation": "Graded against the verified closing market.",
@@ -2463,22 +3213,64 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LAR-DEN",
+          "kickoff_et": "2026-09-27T20:20:00-04:00",
+          "opponent": "DEN",
+          "venue": "away",
+          "status": "final",
+          "score_for": 26,
+          "score_against": 30,
+          "straight_up_result": "loss",
+          "opening_favorite": "LAR",
+          "opening_spread": -2.5,
+          "opening_total": 45.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "LAR",
+          "grading_spread": -2.5,
+          "grading_total": 43.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 56,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0,
+            "ats_margin": -6.5,
+            "points_vs_grading_total": 12.5,
+            "final_outcome": "LAR 26, DEN 30; loss; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 17.5,
-      "average_points_against": 16.5
+      "average_points_for": 20.3,
+      "average_points_against": 21
     },
     "MIA": {
       "team": "MIA",
       "name": "Miami Dolphins",
       "straight_up": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
       "ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "pushes": 0
       },
       "favorite_ats": {
@@ -2488,12 +3280,12 @@
       },
       "underdog_ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "pushes": 0
       },
       "home_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "away_ats": {
@@ -2503,12 +3295,12 @@
       },
       "totals": {
         "overs": 1,
-        "unders": 1,
+        "unders": 2,
         "pushes": 0
       },
-      "points_for": 26,
-      "points_against": 62,
-      "final_games": 2,
+      "points_for": 36,
+      "points_against": 86,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -2530,7 +3322,6 @@
           "grading_spread": -3,
           "grading_total": 40.5,
           "grading_line_type": "verified_closing_line",
-          "grading_market_as_of": null,
           "market_role": "underdog",
           "ats_result": "loss",
           "combined_points": 40,
@@ -2542,7 +3333,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": 11,
+            "ats_margin": -11,
             "points_vs_grading_total": -0.5,
             "final_outcome": "MIA 13, LV 27; loss; under.",
             "interpretation": "Graded against the verified closing market.",
@@ -2584,7 +3375,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 3,
-            "ats_margin": 8.5,
+            "ats_margin": -8.5,
             "points_vs_grading_total": 3.5,
             "final_outcome": "MIA 13, SF 35; loss; over.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -2593,26 +3384,68 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-KC-MIA",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "KC",
+          "venue": "home",
+          "status": "final",
+          "score_for": 10,
+          "score_against": 24,
+          "straight_up_result": "loss",
+          "opening_favorite": "KC",
+          "opening_spread": -7,
+          "opening_total": 44.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "KC",
+          "grading_spread": -10,
+          "grading_total": 45.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 34,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 3,
+            "ats_margin": -4,
+            "points_vs_grading_total": -11.5,
+            "final_outcome": "KC 24, MIA 10; loss; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 13,
-      "average_points_against": 31
+      "average_points_for": 12,
+      "average_points_against": 28.7
     },
     "MIN": {
       "team": "MIN",
       "name": "Minnesota Vikings",
       "straight_up": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       },
       "ats": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
@@ -2627,18 +3460,18 @@
         "pushes": 0
       },
       "away_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
       "totals": {
         "overs": 1,
-        "unders": 1,
+        "unders": 2,
         "pushes": 0
       },
-      "points_for": 48,
-      "points_against": 25,
-      "final_games": 2,
+      "points_for": 71,
+      "points_against": 41,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -2670,7 +3503,7 @@
             "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": true,
-            "spread_movement_points": 1,
+            "spread_movement_points": null,
             "ats_margin": 14.5,
             "points_vs_grading_total": 15.5,
             "final_outcome": "GB 22, MIN 39; win; over.",
@@ -2722,23 +3555,65 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-MIN-TB",
+          "kickoff_et": "2026-09-27T16:05:00-04:00",
+          "opponent": "TB",
+          "venue": "away",
+          "status": "final",
+          "score_for": 23,
+          "score_against": 16,
+          "straight_up_result": "win",
+          "opening_favorite": "TB",
+          "opening_spread": -1.5,
+          "opening_total": 44.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "MIN",
+          "grading_spread": -1.5,
+          "grading_total": 42.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 39,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": true,
+            "spread_movement_points": null,
+            "ats_margin": 5.5,
+            "points_vs_grading_total": -3.5,
+            "final_outcome": "MIN 23, TB 16; win; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 24,
-      "average_points_against": 12.5
+      "average_points_for": 23.7,
+      "average_points_against": 13.7
     },
     "NE": {
       "team": "NE",
       "name": "New England Patriots",
       "straight_up": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       },
       "ats": {
         "wins": 1,
         "losses": 1,
-        "pushes": 0
+        "pushes": 1
       },
       "favorite_ats": {
         "wins": 1,
@@ -2748,7 +3623,7 @@
       "underdog_ats": {
         "wins": 0,
         "losses": 1,
-        "pushes": 0
+        "pushes": 1
       },
       "home_ats": {
         "wins": 1,
@@ -2758,16 +3633,16 @@
       "away_ats": {
         "wins": 0,
         "losses": 1,
-        "pushes": 0
+        "pushes": 1
       },
       "totals": {
         "overs": 0,
-        "unders": 2,
+        "unders": 3,
         "pushes": 0
       },
-      "points_for": 30,
-      "points_against": 16,
-      "final_games": 2,
+      "points_for": 36,
+      "points_against": 51,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -2790,7 +3665,7 @@
           "grading_total": 44.5,
           "grading_line_type": "verified_closing_line",
           "market_role": "underdog",
-          "ats_result": "loss",
+          "ats_result": "push",
           "combined_points": 23,
           "total_result": "under",
           "verified_at": "2026-09-12T08:20:00-04:00",
@@ -2851,27 +3726,69 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-NE-JAX",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "JAX",
+          "venue": "away",
+          "status": "final",
+          "score_for": 6,
+          "score_against": 35,
+          "straight_up_result": "loss",
+          "opening_favorite": "JAX",
+          "opening_spread": -1.5,
+          "opening_total": 45.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "JAX",
+          "grading_spread": -3,
+          "grading_total": 45.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 41,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 1.5,
+            "ats_margin": -26,
+            "points_vs_grading_total": -4.5,
+            "final_outcome": "NE 6, JAX 35; loss; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 15,
-      "average_points_against": 8
+      "average_points_for": 12,
+      "average_points_against": 17
     },
     "NO": {
       "team": "NO",
       "name": "New Orleans Saints",
       "straight_up": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       },
       "ats": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "underdog_ats": {
@@ -2881,7 +3798,7 @@
       },
       "home_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "away_ats": {
@@ -2890,13 +3807,13 @@
         "pushes": 0
       },
       "totals": {
-        "overs": 1,
+        "overs": 2,
         "unders": 1,
         "pushes": 0
       },
-      "points_for": 54,
-      "points_against": 48,
-      "final_games": 2,
+      "points_for": 81,
+      "points_against": 83,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -2918,7 +3835,6 @@
           "grading_spread": -7,
           "grading_total": 49.5,
           "grading_line_type": "verified_closing_line",
-          "grading_market_as_of": null,
           "market_role": "underdog",
           "ats_result": "win",
           "combined_points": 61,
@@ -2932,7 +3848,7 @@
             "spread_movement_points": 0.5,
             "ats_margin": 6,
             "points_vs_grading_total": 11.5,
-            "final_outcome": "NO 30, DET 31; win; over.",
+            "final_outcome": "NO 30, DET 31; loss; over.",
             "interpretation": "Graded against the verified closing market.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
@@ -2981,26 +3897,68 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LV-NO",
+          "kickoff_et": "2026-09-27T16:25:00-04:00",
+          "opponent": "LV",
+          "venue": "home",
+          "status": "final",
+          "score_for": 27,
+          "score_against": 35,
+          "straight_up_result": "loss",
+          "opening_favorite": "NO",
+          "opening_spread": -3,
+          "opening_total": 42.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "NO",
+          "grading_spread": -3.5,
+          "grading_total": 43.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 62,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 0.5,
+            "ats_margin": -11.5,
+            "points_vs_grading_total": 18.5,
+            "final_outcome": "LV 35, NO 27; loss; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
       "average_points_for": 27,
-      "average_points_against": 24
+      "average_points_against": 27.7
     },
     "NYG": {
       "team": "NYG",
       "name": "New York Giants",
       "straight_up": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -3010,7 +3968,7 @@
         "pushes": 0
       },
       "home_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
@@ -3021,12 +3979,12 @@
       },
       "totals": {
         "overs": 0,
-        "unders": 1,
+        "unders": 2,
         "pushes": 1
       },
-      "points_for": 34,
-      "points_against": 48,
-      "final_games": 2,
+      "points_for": 46,
+      "points_against": 55,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -3048,7 +4006,6 @@
           "grading_spread": -3,
           "grading_total": 48,
           "grading_line_type": "verified_closing_line",
-          "grading_market_as_of": null,
           "market_role": "underdog",
           "ats_result": "win",
           "combined_points": 48,
@@ -3102,7 +4059,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -1.5,
-            "ats_margin": 15,
+            "ats_margin": -15,
             "points_vs_grading_total": -14.5,
             "final_outcome": "NYG 6, LAR 28; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -3111,22 +4068,64 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-TEN-NYG",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "TEN",
+          "venue": "home",
+          "status": "final",
+          "score_for": 12,
+          "score_against": 7,
+          "straight_up_result": "win",
+          "opening_favorite": "NYG",
+          "opening_spread": -3,
+          "opening_total": 45.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "NYG",
+          "grading_spread": -2.5,
+          "grading_total": 37.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "win",
+          "combined_points": 19,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": -0.5,
+            "ats_margin": 2.5,
+            "points_vs_grading_total": -18.5,
+            "final_outcome": "TEN 7, NYG 12; win; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 17,
-      "average_points_against": 24
+      "average_points_for": 15.3,
+      "average_points_against": 18.3
     },
     "NYJ": {
       "team": "NYJ",
       "name": "New York Jets",
       "straight_up": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       },
       "ats": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
@@ -3136,7 +4135,7 @@
       },
       "underdog_ats": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "home_ats": {
@@ -3146,17 +4145,17 @@
       },
       "away_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 2,
         "pushes": 0
       },
-      "points_for": 40,
-      "points_against": 30,
-      "final_games": 2,
+      "points_for": 64,
+      "points_against": 61,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -3233,34 +4232,76 @@
             "spread_movement_points": -3,
             "ats_margin": 0.5,
             "points_vs_grading_total": -7.5,
-            "final_outcome": "GB 20, NYJ 17; win; under.",
+            "final_outcome": "GB 20, NYJ 17; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           },
           "overtime": true,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-NYJ-DET",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "DET",
+          "venue": "away",
+          "status": "final",
+          "score_for": 24,
+          "score_against": 31,
+          "straight_up_result": "loss",
+          "opening_favorite": "DET",
+          "opening_spread": -9.5,
+          "opening_total": 45.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "DET",
+          "grading_spread": -6.5,
+          "grading_total": 48.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 55,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": -3,
+            "ats_margin": -0.5,
+            "points_vs_grading_total": 6.5,
+            "final_outcome": "NYJ 24, DET 31; loss; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 20,
-      "average_points_against": 15
+      "average_points_for": 21.3,
+      "average_points_against": 20.3
     },
     "PHI": {
       "team": "PHI",
       "name": "Philadelphia Eagles",
       "straight_up": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       },
       "ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "pushes": 0
       },
       "underdog_ats": {
@@ -3275,17 +4316,17 @@
       },
       "away_ats": {
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "totals": {
         "overs": 2,
-        "unders": 0,
+        "unders": 1,
         "pushes": 0
       },
-      "points_for": 48,
-      "points_against": 42,
-      "final_games": 2,
+      "points_for": 55,
+      "points_against": 69,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -3318,9 +4359,9 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 1.5,
-            "ats_margin": 4,
+            "ats_margin": -4,
             "points_vs_grading_total": 2,
-            "final_outcome": "WAS 22, PHI 24; loss; over.",
+            "final_outcome": "WAS 22, PHI 24; win; over.",
             "interpretation": "Graded against the verified closing market.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
@@ -3360,9 +4401,51 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 2.5,
-            "ats_margin": 3,
+            "ats_margin": -3,
             "points_vs_grading_total": 4.5,
-            "final_outcome": "PHI 24, TEN 20; loss; over.",
+            "final_outcome": "PHI 24, TEN 20; win; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-PHI-CHI",
+          "kickoff_et": "2026-09-28T20:15:00-04:00",
+          "opponent": "CHI",
+          "venue": "away",
+          "status": "final",
+          "score_for": 7,
+          "score_against": 27,
+          "straight_up_result": "loss",
+          "opening_favorite": "CHI",
+          "opening_spread": -1.5,
+          "opening_total": 46.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "PHI",
+          "grading_spread": -3,
+          "grading_total": 44.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-22T06:01:56-04:00",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 34,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": true,
+            "spread_movement_points": null,
+            "ats_margin": -23,
+            "points_vs_grading_total": -10.5,
+            "final_outcome": "PHI 7, CHI 27; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
@@ -3371,19 +4454,19 @@
           "scorigami": false
         }
       ],
-      "average_points_for": 24,
-      "average_points_against": 21
+      "average_points_for": 18.3,
+      "average_points_against": 23
     },
     "PIT": {
       "team": "PIT",
       "name": "Pittsburgh Steelers",
       "straight_up": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
@@ -3393,12 +4476,12 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
@@ -3408,13 +4491,13 @@
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 2,
         "pushes": 0
       },
-      "points_for": 23,
-      "points_against": 33,
-      "final_games": 2,
+      "points_for": 53,
+      "points_against": 60,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -3489,7 +4572,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": 11.5,
+            "ats_margin": -11.5,
             "points_vs_grading_total": -18.5,
             "final_outcome": "PIT 3, NE 20; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -3498,27 +4581,69 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-CIN-PIT",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "CIN",
+          "venue": "home",
+          "status": "final",
+          "score_for": 30,
+          "score_against": 27,
+          "straight_up_result": "win",
+          "opening_favorite": "CIN",
+          "opening_spread": -1.5,
+          "opening_total": 47.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "CIN",
+          "grading_spread": -3.5,
+          "grading_total": 42.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 57,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 2,
+            "ats_margin": 6.5,
+            "points_vs_grading_total": 14.5,
+            "final_outcome": "CIN 27, PIT 30; win; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 11.5,
-      "average_points_against": 16.5
+      "average_points_for": 17.7,
+      "average_points_against": 20
     },
     "SF": {
       "team": "SF",
       "name": "San Francisco 49ers",
       "straight_up": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       },
       "ats": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "underdog_ats": {
@@ -3528,7 +4653,7 @@
       },
       "home_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "away_ats": {
@@ -3537,13 +4662,13 @@
         "pushes": 0
       },
       "totals": {
-        "overs": 1,
+        "overs": 2,
         "unders": 1,
         "pushes": 0
       },
-      "points_for": 62,
-      "points_against": 20,
-      "final_games": 2,
+      "points_for": 98,
+      "points_against": 50,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -3627,28 +4752,70 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-ARI-SF",
+          "kickoff_et": "2026-09-27T16:05:00-04:00",
+          "opponent": "ARI",
+          "venue": "home",
+          "status": "final",
+          "score_for": 36,
+          "score_against": 30,
+          "straight_up_result": "win",
+          "opening_favorite": "SF",
+          "opening_spread": -11.5,
+          "opening_total": 46.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "SF",
+          "grading_spread": -7.5,
+          "grading_total": 48.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 66,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": -4,
+            "ats_margin": -1.5,
+            "points_vs_grading_total": 17.5,
+            "final_outcome": "ARI 30, SF 36; win; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 31,
-      "average_points_against": 10
+      "average_points_for": 32.7,
+      "average_points_against": 16.7
     },
     "SEA": {
       "team": "SEA",
       "name": "Seattle Seahawks",
       "straight_up": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       },
       "ats": {
         "wins": 1,
         "losses": 1,
-        "pushes": 0
+        "pushes": 1
       },
       "favorite_ats": {
         "wins": 1,
         "losses": 1,
-        "pushes": 0
+        "pushes": 1
       },
       "underdog_ats": {
         "wins": 0,
@@ -3657,22 +4824,22 @@
       },
       "home_ats": {
         "wins": 0,
-        "losses": 1,
-        "pushes": 0
+        "losses": 0,
+        "pushes": 1
       },
       "away_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
-        "overs": 0,
+        "overs": 1,
         "unders": 2,
         "pushes": 0
       },
-      "points_for": 44,
-      "points_against": 17,
-      "final_games": 2,
+      "points_for": 75,
+      "points_against": 50,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -3695,7 +4862,7 @@
           "grading_total": 44.5,
           "grading_line_type": "verified_closing_line",
           "market_role": "favorite",
-          "ats_result": "loss",
+          "ats_result": "push",
           "combined_points": 23,
           "total_result": "under",
           "verified_at": "2026-09-12T08:20:00-04:00",
@@ -3707,7 +4874,7 @@
             "spread_movement_points": -1,
             "ats_margin": 0,
             "points_vs_grading_total": -21.5,
-            "final_outcome": "NE 10, SEA 13; loss; under.",
+            "final_outcome": "NE 10, SEA 13; win; under.",
             "interpretation": "Graded against the verified closing market.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
@@ -3756,22 +4923,64 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-SEA-WAS",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "WAS",
+          "venue": "away",
+          "status": "final",
+          "score_for": 31,
+          "score_against": 33,
+          "straight_up_result": "loss",
+          "opening_favorite": "SEA",
+          "opening_spread": -3.5,
+          "opening_total": 46.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "SEA",
+          "grading_spread": -8.5,
+          "grading_total": 40.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "combined_points": 64,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": false,
+            "spread_movement_points": 5,
+            "ats_margin": -10.5,
+            "points_vs_grading_total": 23.5,
+            "final_outcome": "SEA 31, WAS 33; loss; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 22,
-      "average_points_against": 8.5
+      "average_points_for": 25,
+      "average_points_against": 16.7
     },
     "TB": {
       "team": "TB",
       "name": "Tampa Bay Buccaneers",
       "straight_up": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
       "ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "pushes": 0
       },
       "favorite_ats": {
@@ -3781,12 +4990,12 @@
       },
       "underdog_ats": {
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "home_ats": {
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "away_ats": {
@@ -3796,12 +5005,12 @@
       },
       "totals": {
         "overs": 2,
-        "unders": 0,
+        "unders": 1,
         "pushes": 0
       },
-      "points_for": 46,
-      "points_against": 56,
-      "final_games": 2,
+      "points_for": 62,
+      "points_against": 79,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -3823,7 +5032,6 @@
           "grading_spread": -3.5,
           "grading_total": 50.5,
           "grading_line_type": "verified_closing_line",
-          "grading_market_as_of": null,
           "market_role": "underdog",
           "ats_result": "loss",
           "combined_points": 60,
@@ -3835,7 +5043,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": 2.5,
+            "ats_margin": -2.5,
             "points_vs_grading_total": 9.5,
             "final_outcome": "TB 27, CIN 33; loss; over.",
             "interpretation": "Graded against the verified closing market.",
@@ -3877,7 +5085,7 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 2,
-            "ats_margin": 11.5,
+            "ats_margin": -11.5,
             "points_vs_grading_total": 0.5,
             "final_outcome": "CLE 23, TB 19; loss; over.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -3886,22 +5094,64 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-MIN-TB",
+          "kickoff_et": "2026-09-27T16:05:00-04:00",
+          "opponent": "MIN",
+          "venue": "home",
+          "status": "final",
+          "score_for": 16,
+          "score_against": 23,
+          "straight_up_result": "loss",
+          "opening_favorite": "TB",
+          "opening_spread": -1.5,
+          "opening_total": 44.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "MIN",
+          "grading_spread": -1.5,
+          "grading_total": 42.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 39,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": true,
+            "spread_movement_points": null,
+            "ats_margin": -5.5,
+            "points_vs_grading_total": -3.5,
+            "final_outcome": "MIN 23, TB 16; loss; under.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 23,
-      "average_points_against": 28
+      "average_points_for": 20.7,
+      "average_points_against": 26.3
     },
     "TEN": {
       "team": "TEN",
       "name": "Tennessee Titans",
       "straight_up": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
       "ats": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "favorite_ats": {
@@ -3911,7 +5161,7 @@
       },
       "underdog_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "home_ats": {
@@ -3921,17 +5171,17 @@
       },
       "away_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "totals": {
         "overs": 1,
-        "unders": 1,
+        "unders": 2,
         "pushes": 0
       },
-      "points_for": 30,
-      "points_against": 47,
-      "final_games": 2,
+      "points_for": 37,
+      "points_against": 59,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -3964,7 +5214,7 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -1,
-            "ats_margin": 14.5,
+            "ats_margin": -14.5,
             "points_vs_grading_total": -6.5,
             "final_outcome": "NYJ 23, TEN 10; loss; under.",
             "interpretation": "Graded against the verified closing market.",
@@ -4008,7 +5258,49 @@
             "spread_movement_points": 2.5,
             "ats_margin": 3,
             "points_vs_grading_total": 4.5,
-            "final_outcome": "PHI 24, TEN 20; win; over.",
+            "final_outcome": "PHI 24, TEN 20; loss; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-TEN-NYG",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "NYG",
+          "venue": "away",
+          "status": "final",
+          "score_for": 7,
+          "score_against": 12,
+          "straight_up_result": "loss",
+          "opening_favorite": "NYG",
+          "opening_spread": -3,
+          "opening_total": 45.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "NYG",
+          "grading_spread": -2.5,
+          "grading_total": 37.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "loss",
+          "combined_points": 19,
+          "total_result": "under",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": -0.5,
+            "ats_margin": -2.5,
+            "points_vs_grading_total": -18.5,
+            "final_outcome": "TEN 7, NYG 12; loss; under.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
@@ -4017,19 +5309,19 @@
           "scorigami": false
         }
       ],
-      "average_points_for": 15,
-      "average_points_against": 23.5
+      "average_points_for": 12.3,
+      "average_points_against": 19.7
     },
     "WAS": {
       "team": "WAS",
       "name": "Washington Commanders",
       "straight_up": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
@@ -4039,12 +5331,12 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -4054,13 +5346,13 @@
         "pushes": 0
       },
       "totals": {
-        "overs": 2,
+        "overs": 3,
         "unders": 0,
         "pushes": 0
       },
-      "points_for": 42,
-      "points_against": 61,
-      "final_games": 2,
+      "points_for": 75,
+      "points_against": 92,
+      "final_games": 3,
       "games": [
         {
           "week": 1,
@@ -4095,7 +5387,7 @@
             "spread_movement_points": 1.5,
             "ats_margin": 4,
             "points_vs_grading_total": 2,
-            "final_outcome": "WAS 22, PHI 24; win; over.",
+            "final_outcome": "WAS 22, PHI 24; loss; over.",
             "interpretation": "Graded against the verified closing market.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
@@ -4135,7 +5427,7 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -1,
-            "ats_margin": 13.5,
+            "ats_margin": -13.5,
             "points_vs_grading_total": 6.5,
             "final_outcome": "WAS 20, DAL 37; loss; over.",
             "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
@@ -4144,10 +5436,52 @@
           },
           "overtime": false,
           "scorigami": false
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-SEA-WAS",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "opponent": "SEA",
+          "venue": "home",
+          "status": "final",
+          "score_for": 33,
+          "score_against": 31,
+          "straight_up_result": "win",
+          "opening_favorite": "SEA",
+          "opening_spread": -3.5,
+          "opening_total": 46.5,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "SEA",
+          "grading_spread": -8.5,
+          "grading_total": 40.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-09-27T06:02:04-04:00",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "combined_points": 64,
+          "total_result": "over",
+          "verified_at": "2026-09-29T05:58:07-04:00",
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": false,
+            "spread_movement_points": 5,
+            "ats_margin": 10.5,
+            "points_vs_grading_total": 23.5,
+            "final_outcome": "SEA 31, WAS 33; win; over.",
+            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "verified_causes": [],
+            "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
+          },
+          "overtime": false,
+          "scorigami": false
         }
       ],
-      "average_points_for": 21,
-      "average_points_against": 30.5
+      "average_points_for": 25,
+      "average_points_against": 30.7
     }
   }
 }
