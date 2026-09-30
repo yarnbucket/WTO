@@ -299,7 +299,7 @@
 .wto-lean-item b{display:block;margin-top:5px;color:var(--white);font-size:17px}
 .wto-lean-copy{margin:13px 0 0;color:#d9ddd9;font-size:14px;line-height:1.45}
 .wto-lean-comparison{margin-top:10px;padding:10px 11px;border:1px solid var(--line);background:rgba(7,28,17,.62);font-size:12px;line-height:1.5}.wto-lean-comparison b{color:var(--gold)}
-.wto-lean-factors{display:grid;gap:7px;margin-top:11px}.wto-lean-factor{display:grid;grid-template-columns:96px 1fr;gap:8px;padding:8px 0;border-top:1px solid var(--line);font-size:12px;line-height:1.4}.wto-lean-factor span{color:var(--muted);font:10px var(--mono);letter-spacing:.7px;text-transform:uppercase}.wto-lean-factor b{font-weight:600}.wto-lean-evidence{margin-top:10px}.wto-lean-evidence summary{cursor:pointer;color:var(--gold);font:12px var(--mono);letter-spacing:.8px;text-transform:uppercase}.wto-lean-evidence ul{margin:8px 0 0;padding-left:18px;color:#d9ddd9;font-size:12px;line-height:1.5}
+.wto-read{margin:12px 0 0;color:#e8ece8;font-size:14px;line-height:1.55}.wto-risk{margin-top:10px;padding:9px 10px;border-left:3px solid var(--gold);background:rgba(7,28,17,.62);font-size:12px;line-height:1.45}.wto-sources{margin-top:9px;color:var(--muted);font:10px var(--mono);line-height:1.4}
 .wto-lean-note{display:block;margin-top:9px;color:var(--muted);font-size:11px;font-style:italic}
 @media(max-width:520px){.wto-lean{margin:14px 12px 0}.wto-lean-grid{grid-template-columns:1fr 1fr}}
 </style>
@@ -474,12 +474,12 @@ if('serviceWorker' in navigator){
   navigator.serviceWorker.addEventListener('controllerchange',()=>{
     if(refreshing)return;
     refreshing=true;
-    if(sessionStorage.getItem('wto-sw-reloaded')!=='v10'){
-      sessionStorage.setItem('wto-sw-reloaded','v10');
+    if(sessionStorage.getItem('wto-sw-reloaded')!=='v11'){
+      sessionStorage.setItem('wto-sw-reloaded','v11');
       location.reload();
     }
   });
-  addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=10'));
+  addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=11'));
 }
 
 
@@ -737,12 +737,12 @@ function latestPregameInsight(gameId,now=new Date()){
 function predictionHtml(g){
   if(!g||g.status==='final')return '';
   const r=latestPregameInsight(g.id),p=r?.independent_projection,m=r?.market_comparison,f=r?.factor_summary;
-  if(!r||!p)return '<section class="wto-lean" aria-label="WTO Weekly Game Insight"><div class="wto-lean-title">WTO WEEKLY GAME INSIGHT</div><p class="wto-lean-copy"><b>Insufficient Evidence</b><br>No validated pregame insight is stored for this matchup.</p><small class="wto-lean-note">Informational only—not a guarantee or betting advice.</small></section>';
-  const unavailable=(r.unavailable_fields||[]).map(x=>x.field+': '+x.reason);
-  const evidence=[...(f?.evidence_for_away||[]).map(x=>g.away+': '+x),...(f?.evidence_for_home||[]).map(x=>g.home+': '+x),...unavailable];
+  if(!r||!p)return '<section class="wto-lean" aria-label="WTO’s Read"><div class="wto-lean-title">WTO’S READ</div><p class="wto-lean-copy"><b>Insufficient Evidence</b><br>No validated pregame insight is stored for this matchup.</p><small class="wto-lean-note">Informational only—not a guarantee or betting advice.</small></section>';
   const projectedLine=p.winner+' '+signed(-Math.abs(Number(p.projected_margin)));
   const marketLine=m?.favorite&&m?.spread!=null?m.favorite+' '+signed(m.spread):'Unavailable';
-  return '<section class="wto-lean" aria-label="WTO Weekly Game Insight"><div class="wto-lean-title">WTO WEEKLY GAME INSIGHT</div><div class="wto-lean-grid"><div class="wto-lean-item"><span>Win Lean</span><b>'+safeText(p.winner)+' · '+Math.round(Number(p.win_probability)*100)+'%</b></div><div class="wto-lean-item"><span>Projected Score</span><b>'+safeText(g.away)+' '+safeText(p.away_score)+'–'+safeText(p.home_score)+' '+safeText(g.home)+'</b></div><div class="wto-lean-item"><span>ATS Lean</span><b>'+safeText(m?.ats_lean||'NO EDGE')+'</b></div><div class="wto-lean-item"><span>Total Lean</span><b>'+safeText(m?.total_lean||'NO EDGE')+'</b></div></div><div class="wto-lean-comparison"><b>WTO '+safeText(projectedLine)+'</b> vs market '+safeText(marketLine)+' · Hype Check: '+safeText(m?.hype_check||'UNAVAILABLE')+'</div><div class="wto-lean-factors"><div class="wto-lean-factor"><span>QB / Injury</span><b>'+safeText(f?.quarterback?.effect||'unavailable')+' · '+safeText(f?.quarterback?.detail||'No verified detail stored.')+'</b></div><div class="wto-lean-factor"><span>Home Field</span><b>'+safeText(f?.home_field||'No verified adjustment stored.')+'</b></div><div class="wto-lean-factor"><span>Travel / Weather</span><b>'+safeText(f?.travel||'No material travel adjustment.')+' '+safeText(f?.weather?.detail||'Weather unavailable.')+'</b></div><div class="wto-lean-factor"><span>Primary Risk</span><b>'+safeText(f?.primary_risk||'No primary risk stored.')+'</b></div></div><details class="wto-lean-evidence"><summary>Evidence Balance</summary><ul>'+evidence.map(x=>'<li>'+safeText(x)+'</li>').join('')+'</ul></details><small class="wto-lean-note">Confidence: '+safeText(r.confidence)+'. Data as of '+safeText(new Date(r.generated_at).toLocaleString('en-US',{timeZone:'America/New_York'}))+' ET. Data-based estimate—not a guarantee or betting advice.</small></section>';
+  const read=r.editorial_read||'WTO’s stored trial projection remains the current read for this matchup.';
+  const providers=[...new Set((r.sources||[]).map(source=>source.provider).filter(Boolean))].join(' · ');
+  return '<section class="wto-lean" aria-label="WTO’s Read"><div class="wto-lean-title">WTO’S READ</div><p class="wto-read">'+safeText(read)+'</p><div class="wto-lean-grid"><div class="wto-lean-item"><span>Win Lean</span><b>'+safeText(p.winner)+' · '+Math.round(Number(p.win_probability)*100)+'%</b></div><div class="wto-lean-item"><span>Projected Score</span><b>'+safeText(g.away)+' '+safeText(p.away_score)+'–'+safeText(p.home_score)+' '+safeText(g.home)+'</b></div><div class="wto-lean-item"><span>ATS Lean</span><b>'+safeText(m?.ats_lean||'NO EDGE')+'</b></div><div class="wto-lean-item"><span>Total Lean</span><b>'+safeText(m?.total_lean||'NO EDGE')+'</b></div></div><div class="wto-lean-comparison"><b>WTO '+safeText(projectedLine)+'</b> vs market '+safeText(marketLine)+' · Hype Check: '+safeText(m?.hype_check||'UNAVAILABLE')+' · Confidence: '+safeText(r.confidence)+'</div><div class="wto-risk"><b>Primary Risk:</b> '+safeText(f?.primary_risk||'No primary risk stored.')+'</div><div class="wto-sources">Sources checked: '+safeText(providers||'Unavailable')+'</div><small class="wto-lean-note">Data as of '+safeText(new Date(r.generated_at).toLocaleString('en-US',{timeZone:'America/New_York'}))+' ET. Data-based estimate—not a guarantee or betting advice.</small></section>';
 }
 function detailScore(g){const fin=g.status==='final',points=combinedTotal(g);return `<div class="detail-score"><div class="game-top"><span>${g.day} · ${g.time}</span><span class="${fin?'final':'scheduled'}">${fin?'FINAL':'SCHEDULED'}</span></div><div class="scoreboard">${team(g.away,g.awayScore)}<div class="score-mid">${fin?`${g.awayScore}<br>${g.homeScore}`:'AT'}</div>${team(g.home,g.homeScore)}</div><div class="lines-row"><div class="col"><div class="lbl">${fin?(g.lineLabel||'Closing'):'Current'} Spread</div><div class="val">${g.favorite||'—'} ${g.spread==null?'—':signed(g.spread)}</div></div><div class="col"><div class="lbl">${fin?'Final Combined Score':'Current Total'}</div><div class="val">${fin?`${points??'—'} · ${(resolvedTotalResult(g)||'—').toUpperCase()}`:`O/U ${g.total??'—'}`}</div></div></div>${fin?'':predictionHtml(g)}${completedSummaryHtml(g)}</div>`}
 function statRows(stats,g){if(!stats?.length)return '<div class="detail-loading">Detailed team stats will appear when ESPN posts them.</div>';const wanted=['firstDowns','totalYards','netPassingYards','rushingYards','turnovers','possessionTime'];const rows=wanted.map(k=>stats.find(s=>s.name===k)).filter(Boolean);return rows.map(s=>`<div class="stat-row"><b>${s.displayValue||s.value||'—'}</b><span class="label">${s.label||s.name}</span><b>${s.opponentValue||'—'}</b></div>`).join('')}
