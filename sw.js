@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v9';
+const CACHE = 'wto-shell-v10';
 
 const SHELL = [
   './',
@@ -10,7 +10,8 @@ const SHELL = [
   './wto-apple-touch-icon-180.png',
   './wto-icon-maskable-512.png',
   './wto-welcome-trophy-room.png',
-  './wto-team-betting-2026.json'
+  './wto-team-betting-2026.json',
+  './wto-game-insights-2026.json'
 ];
 
 self.addEventListener('install', event => {
