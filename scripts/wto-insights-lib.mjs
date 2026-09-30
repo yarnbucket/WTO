@@ -1,7 +1,38 @@
 const iso = value => Number.isFinite(Date.parse(value));
+const EDITORIAL_WEIGHTS = {recent_performance:35,quarterback_personnel:20,matchup:15,home_travel_weather:10,hometown_sentiment:10,coaching_history:5,special_teams_regression:5};
+const roundHalf = value => Math.round(Number(value)*2)/2;
+const clamp = (min,max,value) => Math.max(min,Math.min(max,value));
+
+export function calculateEditorialProjection(model) {
+  const weightedEdge=(model?.factors??[]).reduce((sum,f)=>sum+Number(f.weight)*Number(f.score)*Number(f.strength),0)/100;
+  const rawHomeMargin=roundHalf(weightedEdge*14)||0;
+  const adjustment=clamp(-8,8,(model?.total_adjustments??[]).reduce((sum,x)=>sum+Number(x.points||0),0));
+  const rawTotal=roundHalf(Number(model?.neutral_total||0)+adjustment);
+  const awayScore=Math.round((rawTotal-rawHomeMargin)/2),homeScore=Math.round((rawTotal+rawHomeMargin)/2);
+  const margin=Math.abs(homeScore-awayScore),total=homeScore+awayScore;
+  const side=homeScore===awayScore?'NO EDGE':homeScore>awayScore?'HOME':'AWAY';
+  const probability=side==='NO EDGE'?.5:side==='HOME'?clamp(.15,.85,1/(1+Math.exp(-rawHomeMargin/6.5))):1-clamp(.15,.85,1/(1+Math.exp(-rawHomeMargin/6.5)));
+  const winner=side==='HOME'?model.home:side==='AWAY'?model.away:'NO EDGE';
+  return {winner,winner_side:side,away_score:awayScore,home_score:homeScore,projected_margin:margin,projected_total:total,win_probability:Number(probability.toFixed(3)),audit:{weighted_edge:Number(weightedEdge.toFixed(4)),raw_home_margin:rawHomeMargin,raw_total:rawTotal}};
+}
+
+export function validateEditorialRevision(revision) {
+  const errors=[],model=revision?.factor_model;
+  if(!model)return ['MISSING_FACTOR_MODEL'];
+  const factors=model.factors??[],sum=factors.reduce((n,f)=>n+Number(f.weight||0),0);
+  if(sum!==100||Object.entries(EDITORIAL_WEIGHTS).some(([key,weight])=>factors.find(f=>f.key===key)?.weight!==weight))errors.push('INVALID_FACTOR_WEIGHTS');
+  if(factors.find(f=>f.key==='hometown_sentiment')?.weight!==10)errors.push('INVALID_HOMETOWN_WEIGHT');
+  if(factors.some(f=>Number(f.score)<-1||Number(f.score)>1||Number(f.strength)<0||Number(f.strength)>1))errors.push('INVALID_FACTOR_SCORE');
+  if(factors.some(f=>Number(f.strength)>0&&(!(f.claims?.length)||!(f.source_ids?.length))))errors.push('UNVERIFIED_FACTOR_STRENGTH');
+  const claims=factors.flatMap(f=>f.claims??[]);if(new Set(claims).size!==claims.length)errors.push('DUPLICATE_EVIDENCE_CLAIM');
+  const sourceIds=new Set((model.sources??[]).filter(s=>s.id&&s.url&&iso(s.checked_at)).map(s=>s.id));
+  if(factors.some(f=>(f.source_ids??[]).some(id=>!sourceIds.has(id))))errors.push('UNSOURCED_MATERIAL_CLAIM');
+  return [...new Set(errors)];
+}
 
 export function validateRevision(revision, game) {
   const errors = [];
+  if(revision?.revision_type==='editorial_rescrub')errors.push(...validateEditorialRevision(revision,game));
   const p = revision?.independent_projection;
   if (!revision?.revision_id) errors.push('MISSING_REVISION_ID');
   if (!iso(revision?.generated_at)) errors.push('INVALID_GENERATED_AT');
@@ -9,7 +40,7 @@ export function validateRevision(revision, game) {
   if (p) {
     if (Math.abs(Math.abs(p.away_score - p.home_score) - p.projected_margin) > 0.001) errors.push('PROJECTED_MARGIN_MISMATCH');
     if (Math.abs(p.away_score + p.home_score - p.projected_total) > 0.001) errors.push('PROJECTED_TOTAL_MISMATCH');
-    const scoreWinner = p.away_score === p.home_score ? 'TIE' : p.away_score > p.home_score ? game.away : game.home;
+    const scoreWinner = p.away_score === p.home_score ? (revision.revision_type==='editorial_rescrub'?'NO EDGE':'TIE') : p.away_score > p.home_score ? game.away : game.home;
     if (p.winner !== scoreWinner) errors.push('PROJECTED_WINNER_MISMATCH');
   } else if (revision?.revision_type !== 'insufficient_evidence') errors.push('MISSING_PROJECTION');
   for (const key of ['quarterback','weather']) {
@@ -91,9 +122,9 @@ export function gradeRevision(revision, finalGame) {
   return {
     winner_correct:p.winner === actualWinner,
     ats_result:atsResult,
-    ats_lean_correct:atsResult && atsResult !== 'PUSH' ? revision.market_comparison?.ats_lean === atsResult : null,
+    ats_lean_correct:atsResult && atsResult !== 'PUSH' && revision.market_comparison?.ats_lean !== 'NO EDGE' ? revision.market_comparison?.ats_lean === atsResult : null,
     total_result:totalResult,
-    total_lean_correct:totalResult && totalResult !== 'PUSH' ? revision.market_comparison?.total_lean === totalResult : null,
+    total_lean_correct:totalResult && totalResult !== 'PUSH' && revision.market_comparison?.total_lean !== 'NO EDGE' ? revision.market_comparison?.total_lean === totalResult : null,
     grading_favorite:favorite ?? null,
     grading_spread:spread ?? null,
     grading_total:total ?? null,

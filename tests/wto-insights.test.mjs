@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { appendRevision, gradeRevision, validateRevision, validateInsightFile } from '../scripts/wto-insights-lib.mjs';
+import crypto from 'node:crypto';
+import { appendRevision, calculateEditorialProjection, gradeRevision, validateEditorialRevision, validateRevision, validateInsightFile } from '../scripts/wto-insights-lib.mjs';
 
 const game = { id:'2026-W04-PIT-CLE', week:4, kickoff:'2026-10-01T20:15:00-04:00', away:'PIT', home:'CLE' };
 const valid = () => ({
@@ -48,4 +49,35 @@ test('grades_ats_with_verified_or_last_verified_line',()=>{const grade=gradeRevi
 test('grades_total_push',()=>assert.equal(gradeRevision(valid(),finalGame).total_result,'PUSH'));
 test('calculates_score_and_margin_error',()=>{const grade=gradeRevision(valid(),finalGame);assert.equal(grade.absolute_score_error,6);assert.equal(grade.absolute_margin_error,0);});
 test('service_worker_caches_insight_artifact',()=>assert.match(fs.readFileSync(new URL('../sw.js',import.meta.url),'utf8'),/wto-game-insights-2026\.json/));
-test('service_worker_cache_version_is_incremented',()=>assert.match(fs.readFileSync(new URL('../sw.js',import.meta.url),'utf8'),/wto-shell-v10/));
+test('service_worker_cache_version_is_incremented',()=>assert.match(fs.readFileSync(new URL('../sw.js',import.meta.url),'utf8'),/wto-shell-v11/));
+
+const editorialModel=()=>({
+  away:'PIT',home:'CLE',neutral_total:42,total_adjustments:[{key:'weather',points:-1}],
+  factors:[
+    ['recent_performance',35,-.3,1],['quarterback_personnel',20,-.2,.8],['matchup',15,.2,.7],
+    ['home_travel_weather',10,.4,.9],['hometown_sentiment',10,.3,.5],['coaching_history',5,0,0],['special_teams_regression',5,-.1,.6]
+  ].map(([key,weight,score,strength])=>({key,weight,score,strength,claims:strength?[key+'-claim']:[],source_ids:strength?['src-1']:[]})),
+  sources:[{id:'src-1',provider:'ESPN',url:'https://www.espn.com/nfl/',checked_at:'2026-09-30T10:00:00-04:00'}]
+});
+test('editorial_weights_sum_to_100',()=>assert.equal(validateEditorialRevision({factor_model:editorialModel()},game).includes('INVALID_FACTOR_WEIGHTS'),false));
+test('hometown_weight_is_exactly_10',()=>{const m=editorialModel();m.factors.find(f=>f.key==='hometown_sentiment').weight=11;assert.ok(validateEditorialRevision({factor_model:m},game).includes('INVALID_HOMETOWN_WEIGHT'));});
+test('factor_score_is_between_negative_one_and_one',()=>{const m=editorialModel();m.factors[0].score=1.1;assert.ok(validateEditorialRevision({factor_model:m},game).includes('INVALID_FACTOR_SCORE'));});
+test('unverified_factor_has_zero_strength',()=>{const m=editorialModel();m.factors[0].claims=[];m.factors[0].source_ids=[];assert.ok(validateEditorialRevision({factor_model:m},game).includes('UNVERIFIED_FACTOR_STRENGTH'));});
+test('rejects_duplicate_evidence_claim',()=>{const m=editorialModel();m.factors[1].claims=[m.factors[0].claims[0]];assert.ok(validateEditorialRevision({factor_model:m},game).includes('DUPLICATE_EVIDENCE_CLAIM'));});
+test('permits_positive_backup_qb_evidence',()=>{const m=editorialModel();m.factors[1].score=.4;assert.ok(!validateEditorialRevision({factor_model:m},game).includes('INVALID_FACTOR_SCORE'));});
+test('requires_source_and_timestamp_for_material_claim',()=>{const m=editorialModel();m.sources[0].checked_at=null;assert.ok(validateEditorialRevision({factor_model:m},game).includes('UNSOURCED_MATERIAL_CLAIM'));});
+test('calculate_editorial_projection_is_reproducible',()=>{const a=calculateEditorialProjection(editorialModel()),b=calculateEditorialProjection(editorialModel());assert.deepEqual(a,b);assert.equal(a.away_score+a.home_score,a.projected_total);assert.equal(Math.abs(a.home_score-a.away_score),a.projected_margin);});
+
+test('week4_has_16_editorial_rescrub_revisions',()=>{const f=JSON.parse(fs.readFileSync(new URL('../wto-game-insights-2026.json',import.meta.url)));assert.equal(f.weeks[0].games.filter(g=>g.revisions.some(r=>r.revision_type==='editorial_rescrub')).length,16);});
+test('tuesday_baselines_are_unchanged',()=>{const f=JSON.parse(fs.readFileSync(new URL('../wto-game-insights-2026.json',import.meta.url))),hash=crypto.createHash('sha256').update(JSON.stringify(f.weeks[0].games.map(g=>g.revisions[0]))).digest('hex');assert.equal(hash,'4de70bde79c8225eb5acca5de11485feed867971c25eb022f115a3a47dd8160b');});
+test('all_editorial_numbers_recalculate_exactly',()=>{const f=JSON.parse(fs.readFileSync(new URL('../wto-game-insights-2026.json',import.meta.url)));for(const r of f.weeks[0].games.map(g=>g.revisions.find(x=>x.revision_type==='editorial_rescrub'))){assert.deepEqual(r.independent_projection,calculateEditorialProjection(r.factor_model));}});
+test('all_material_claims_resolve_to_sources',()=>{const f=JSON.parse(fs.readFileSync(new URL('../wto-game-insights-2026.json',import.meta.url)));for(const r of f.weeks[0].games.map(g=>g.revisions.find(x=>x.revision_type==='editorial_rescrub'))){assert.deepEqual(validateEditorialRevision(r),[]);}});
+test('no_market_field_appears_in_factor_model',()=>{const f=JSON.parse(fs.readFileSync(new URL('../wto-game-insights-2026.json',import.meta.url)));for(const r of f.weeks[0].games.map(g=>g.revisions.find(x=>x.revision_type==='editorial_rescrub'))){assert.doesNotMatch(JSON.stringify(r.factor_model),/market_|spread|favorite/);}});
+test('editorial_tie_uses_no_edge',()=>{const r=structuredClone(valid());r.revision_type='editorial_rescrub';r.factor_model=editorialModel();r.independent_projection={winner:'NO EDGE',winner_side:'NO EDGE',away_score:20,home_score:20,projected_margin:0,projected_total:40,win_probability:.5,audit:{}};assert.ok(!validateRevision(r,game).includes('PROJECTED_WINNER_MISMATCH'));});
+test('editorial_early_weather_is_not_labeled_game_day',()=>{const f=JSON.parse(fs.readFileSync(new URL('../wto-game-insights-2026.json',import.meta.url)));for(const [entry] of f.weeks[0].games.map(g=>[g.revisions.find(x=>x.revision_type==='editorial_rescrub')]))assert.ok(!validateRevision(entry,game).includes('EARLY_FORECAST_LABELED_GAME_DAY'));});
+test('renders_wtos_read_heading',()=>assert.match(fs.readFileSync(new URL('../index.html',import.meta.url),'utf8'),/WTO’S READ/));
+test('renders_editorial_read_not_process_breakdown',()=>{const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');assert.match(html,/editorial_read/);assert.doesNotMatch(html,/Evidence Balance/);});
+test('retains_win_score_ats_total_hype_confidence_and_risk',()=>{const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');for(const label of ['Win Lean','Projected Score','ATS Lean','Total Lean','Hype Check','Confidence','Primary Risk'])assert.match(html,new RegExp(label));});
+test('renders_compact_sources_checked_line',()=>assert.match(fs.readFileSync(new URL('../index.html',import.meta.url),'utf8'),/Sources checked/));
+test('does_not_render_factor_weight_list',()=>assert.doesNotMatch(fs.readFileSync(new URL('../index.html',import.meta.url),'utf8'),/recent_performance.*35/));
+test('grades_no_edge_as_not_applicable',()=>{const r=valid();r.market_comparison.ats_lean='NO EDGE';r.market_comparison.total_lean='NO EDGE';const grade=gradeRevision(r,finalGame);assert.equal(grade.ats_lean_correct,null);assert.equal(grade.total_lean_correct,null);});
