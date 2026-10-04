@@ -29,5 +29,9 @@
     const summary=`${winnerSentence} ${winnerCorrect===null?'The straight-up call was not scored':`The straight-up call ${winnerCorrect?'hit':'missed'}`}, ${atsSentence}, and ${totalSentence}. The final score differed from the projection by ${scoreError} combined team points.`;
     return {verdict,winner_correct:winnerCorrect,ats_correct:atsCorrect,total_correct:totalCorrect,projected_score:projectedScore,final_score:finalScore,score_error:scoreError,summary};
   }
-  root.WTOUI={latestMarket,evaluatePredictionOutcome};
+  function selectOutcomeSummary(game,result){
+    const stored=String(game?.postgameSummary||game?.postgame_summary||'').trim();
+    return stored||String(result?.summary||'').trim();
+  }
+  root.WTOUI={latestMarket,evaluatePredictionOutcome,selectOutcomeSummary};
 })(typeof globalThis!=='undefined'?globalThis:this);
