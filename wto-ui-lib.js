@@ -25,7 +25,7 @@
     const scoreError=Math.abs(Number(game.awayScore)-Number(p.away_score))+Math.abs(Number(game.homeScore)-Number(p.home_score));
     const winnerSentence=winnerCorrect===null?`${name(actualWinner)} won ${game.homeScore}–${game.awayScore} after WTO recorded no straight-up edge at ${p.away_score}–${p.home_score}.`:`${name(actualWinner)} won ${game.homeScore}–${game.awayScore} after WTO projected ${name(predictedWinner)} ${p.away_score}–${p.home_score}.`;
     const atsSentence=atsCorrect===null?'the ATS call was not scored':`the ${atsLean} ATS lean ${atsCorrect?'hit':'missed'}`;
-    const totalSentence=totalCorrect===null?'the total call was not scored':`the ${totalLean[0]+	otalLean.slice(1).toLowerCase()} lean ${totalCorrect?'hit':'missed'}`;
+    const totalSentence=totalCorrect===null?'the total call was not scored':`the ${totalLean[0]+totalLean.slice(1).toLowerCase()} lean ${totalCorrect?'hit':'missed'}`;
     const summary=`${winnerSentence} ${winnerCorrect===null?'The straight-up call was not scored':`The straight-up call ${winnerCorrect?'hit':'missed'}`}, ${atsSentence}, and ${totalSentence}. The final score differed from the projection by ${scoreError} combined team points.`;
     return {verdict,winner_correct:winnerCorrect,ats_correct:atsCorrect,total_correct:totalCorrect,projected_score:projectedScore,final_score:finalScore,score_error:scoreError,summary};
   }
