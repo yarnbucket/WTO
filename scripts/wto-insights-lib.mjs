@@ -3,6 +3,37 @@ const EDITORIAL_WEIGHTS = {recent_performance:35,quarterback_personnel:20,matchu
 const roundHalf = value => Math.round(Number(value)*2)/2;
 const clamp = (min,max,value) => Math.max(min,Math.min(max,value));
 
+export function validateWeather(weather) {
+  const errors=[];
+  if (!weather) return errors;
+  const stages=['early_forecast','game_day','controlled_environment','unavailable'];
+  if (!stages.includes(weather.forecast_stage)) errors.push('INVALID_WEATHER_STAGE');
+  if (weather.forecast_stage==='early_forecast' && /verified game-day/i.test(weather.detail??'')) errors.push('EARLY_FORECAST_LABELED_GAME_DAY');
+  if (weather.forecast_stage==='game_day' && weather.effect!=='neutral' && (!weather.location || !iso(weather.forecast_as_of) || !weather.source_url)) errors.push('MISSING_WEATHER_PROVENANCE');
+  if (weather.forecast_stage==='controlled_environment' && !String(weather.detail??'').trim()) errors.push('MISSING_CONTROLLED_ENVIRONMENT_DETAIL');
+  return errors;
+}
+
+export function validatePostgameReview(review, game, revisions=[]) {
+  const errors=[];
+  if (!review) return errors;
+  if (!iso(review.generated_at)) errors.push('INVALID_POSTGAME_GENERATED_AT');
+  const revision=revisions.find(item=>item.revision_id===review.prediction_revision_id);
+  if (!revision) errors.push('UNKNOWN_PREDICTION_REVISION');
+  else {
+    const kickoff=Date.parse(game?.kickoff??game?.kickoff_et??'');
+    if (!iso(revision.generated_at) || (Number.isFinite(kickoff)&&Date.parse(revision.generated_at)>=kickoff)) errors.push('INVALID_POSTGAME_PREDICTION_REVISION');
+  }
+  if (game?.status!=='final') errors.push('POSTGAME_REVIEW_FOR_NONFINAL');
+  const finalAt=Date.parse(game?.verified_at??game?.kickoff??game?.kickoff_et??'');
+  if (iso(review.generated_at)&&Number.isFinite(finalAt)&&Date.parse(review.generated_at)<finalAt) errors.push('POSTGAME_REVIEW_BEFORE_FINAL');
+  const bullets=review.bullets??{},required=['final','why_winner_won','weakness_exposed','carry_forward'];
+  if (required.some(key=>!String(bullets[key]??'').trim())) errors.push('MISSING_POSTGAME_BULLET');
+  if (Object.keys(bullets).filter(key=>String(bullets[key]??'').trim()).length>6) errors.push('TOO_MANY_POSTGAME_BULLETS');
+  if (!review.evidence?.length || review.evidence.some(item=>!item.label||!item.url||!iso(item.checked_at))) errors.push('MISSING_POSTGAME_EVIDENCE');
+  return [...new Set(errors)];
+}
+
 export function calculateEditorialProjection(model) {
   const weightedEdge=(model?.factors??[]).reduce((sum,f)=>sum+Number(f.weight)*Number(f.score)*Number(f.strength),0)/100;
   const rawHomeMargin=roundHalf(weightedEdge*14)||0;
@@ -49,7 +80,7 @@ export function validateRevision(revision, game) {
   const q = revision?.factor_summary?.quarterback;
   if (q && !['positive','neutral','negative'].includes(q.effect)) errors.push('INVALID_QB_EFFECT');
   const w = revision?.factor_summary?.weather;
-  if (w?.forecast_stage === 'early_forecast' && /verified game-day/i.test(w.detail ?? '')) errors.push('EARLY_FORECAST_LABELED_GAME_DAY');
+  errors.push(...validateWeather(w));
   if (!revision?.market_comparison?.provider || !iso(revision?.market_comparison?.market_as_of)) errors.push('INVALID_MARKET_COMPARISON');
   if (!revision?.sources?.length || revision.sources.some(s => !s.url || !iso(s.checked_at))) errors.push('INVALID_SOURCE');
   return [...new Set(errors)];
@@ -68,6 +99,7 @@ export function validateInsightFile(file, ledger) {
       ids.add(revision.revision_id);
       errors.push(...validateRevision(revision, game));
     }
+    for (const error of validatePostgameReview(entry.postgame_review,game,entry.revisions??[])) errors.push(`${entry.game_id}:${error}`);
   }
   return { errors:[...new Set(errors)], warnings };
 }
