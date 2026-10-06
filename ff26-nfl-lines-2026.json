@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-10-04T06:01:25-04:00",
+  "updated_at": "2026-10-06T06:03:52-04:00",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -5890,9 +5890,9 @@
           "schedule_detail": "Sun, October 4th at 9:30 AM EDT",
           "away": "IND",
           "home": "WAS",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 30,
+          "home_score": 13,
           "market_favorite": "IND",
           "market_spread": -4.5,
           "market_total": 46.5,
@@ -5903,10 +5903,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "IND",
+          "ats_winner": "IND",
+          "total_result": "under",
+          "combined_points": 43,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -5977,7 +5977,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "IND",
+          "grading_spread": -4.5,
+          "grading_total": 46.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "IND won 30-13. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 30,
+              "home_score": 13,
+              "combined_points": 43
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-ARI-NYG",
@@ -5986,9 +6049,9 @@
           "schedule_detail": "Sun, October 4th at 1:00 PM EDT",
           "away": "ARI",
           "home": "NYG",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 24,
+          "home_score": 36,
           "market_favorite": "ARI",
           "market_spread": -2.5,
           "market_total": 44.5,
@@ -5999,10 +6062,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "NYG",
+          "ats_winner": "NYG",
+          "total_result": "over",
+          "combined_points": 60,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -6073,7 +6136,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "ARI",
+          "grading_spread": -2.5,
+          "grading_total": 44.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "NYG won 24-36. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 24,
+              "home_score": 36,
+              "combined_points": 60
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-DAL-HOU",
@@ -6082,9 +6208,9 @@
           "schedule_detail": "Sun, October 4th at 1:00 PM EDT",
           "away": "DAL",
           "home": "HOU",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 34,
+          "home_score": 30,
           "market_favorite": "HOU",
           "market_spread": -3,
           "market_total": 48.5,
@@ -6095,10 +6221,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "DAL",
+          "ats_winner": "DAL",
+          "total_result": "over",
+          "combined_points": 64,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -6169,7 +6295,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "HOU",
+          "grading_spread": -3,
+          "grading_total": 48.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "DAL won 34-30. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 34,
+              "home_score": 30,
+              "combined_points": 64
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-GB-TB",
@@ -6178,9 +6367,9 @@
           "schedule_detail": "Sun, October 4th at 1:00 PM EDT",
           "away": "GB",
           "home": "TB",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 17,
+          "home_score": 14,
           "market_favorite": "GB",
           "market_spread": -3,
           "market_total": 38.5,
@@ -6191,10 +6380,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "GB",
+          "ats_winner": "push",
+          "total_result": "under",
+          "combined_points": 31,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -6265,7 +6454,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "GB",
+          "grading_spread": -3,
+          "grading_total": 38.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "GB won 17-14. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 17,
+              "home_score": 14,
+              "combined_points": 31
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-JAX-CIN",
@@ -6274,9 +6526,9 @@
           "schedule_detail": "Sun, October 4th at 1:00 PM EDT",
           "away": "JAX",
           "home": "CIN",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 22,
+          "home_score": 17,
           "market_favorite": "CIN",
           "market_spread": -2.5,
           "market_total": 51.5,
@@ -6287,10 +6539,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "JAX",
+          "ats_winner": "JAX",
+          "total_result": "under",
+          "combined_points": 39,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -6361,7 +6613,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "CIN",
+          "grading_spread": -2.5,
+          "grading_total": 51.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "JAX won 22-17. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 22,
+              "home_score": 17,
+              "combined_points": 39
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-LAR-PHI",
@@ -6370,9 +6685,9 @@
           "schedule_detail": "Sun, October 4th at 1:00 PM EDT",
           "away": "LAR",
           "home": "PHI",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 24,
+          "home_score": 20,
           "market_favorite": "LAR",
           "market_spread": -3.5,
           "market_total": 42.5,
@@ -6383,10 +6698,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "LAR",
+          "ats_winner": "LAR",
+          "total_result": "over",
+          "combined_points": 44,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -6457,7 +6772,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "LAR",
+          "grading_spread": -3.5,
+          "grading_total": 42.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "LAR won 24-20. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 24,
+              "home_score": 20,
+              "combined_points": 44
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-NE-BUF",
@@ -6466,9 +6844,9 @@
           "schedule_detail": "Sun, October 4th at 1:00 PM EDT",
           "away": "NE",
           "home": "BUF",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 29,
+          "home_score": 26,
           "market_favorite": "BUF",
           "market_spread": -7,
           "market_total": 50.5,
@@ -6479,10 +6857,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "NE",
+          "ats_winner": "NE",
+          "total_result": "over",
+          "combined_points": 55,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -6553,7 +6931,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "BUF",
+          "grading_spread": -7,
+          "grading_total": 50.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "NE won 29-26. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 29,
+              "home_score": 26,
+              "combined_points": 55
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-NYJ-CHI",
@@ -6562,9 +7003,9 @@
           "schedule_detail": "Sun, October 4th at 1:00 PM EDT",
           "away": "NYJ",
           "home": "CHI",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 12,
+          "home_score": 23,
           "market_favorite": "CHI",
           "market_spread": -3.5,
           "market_total": 43.5,
@@ -6575,10 +7016,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "CHI",
+          "ats_winner": "CHI",
+          "total_result": "under",
+          "combined_points": 35,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -6649,7 +7090,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "CHI",
+          "grading_spread": -3.5,
+          "grading_total": 43.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "CHI won 12-23. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 12,
+              "home_score": 23,
+              "combined_points": 35
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-TEN-BAL",
@@ -6658,9 +7162,9 @@
           "schedule_detail": "Sun, October 4th at 1:00 PM EDT",
           "away": "TEN",
           "home": "BAL",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 18,
+          "home_score": 24,
           "market_favorite": "BAL",
           "market_spread": -11.5,
           "market_total": 41.5,
@@ -6671,10 +7175,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "BAL",
+          "ats_winner": "TEN",
+          "total_result": "over",
+          "combined_points": 42,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -6745,7 +7249,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "BAL",
+          "grading_spread": -11.5,
+          "grading_total": 41.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "BAL won 18-24. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 18,
+              "home_score": 24,
+              "combined_points": 42
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-MIA-MIN",
@@ -6754,9 +7321,9 @@
           "schedule_detail": "Sun, October 4th at 4:05 PM EDT",
           "away": "MIA",
           "home": "MIN",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 10,
+          "home_score": 15,
           "market_favorite": "MIN",
           "market_spread": -10,
           "market_total": 38.5,
@@ -6767,10 +7334,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "MIN",
+          "ats_winner": "MIA",
+          "total_result": "under",
+          "combined_points": 25,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -6841,7 +7408,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "MIN",
+          "grading_spread": -10,
+          "grading_total": 38.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "MIN won 10-15. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 10,
+              "home_score": 15,
+              "combined_points": 25
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-DEN-SF",
@@ -6850,9 +7480,9 @@
           "schedule_detail": "Sun, October 4th at 4:25 PM EDT",
           "away": "DEN",
           "home": "SF",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 14,
+          "home_score": 24,
           "market_favorite": "SF",
           "market_spread": -3,
           "market_total": 48.5,
@@ -6863,10 +7493,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "SF",
+          "ats_winner": "SF",
+          "total_result": "under",
+          "combined_points": 38,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -6937,7 +7567,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "SF",
+          "grading_spread": -3,
+          "grading_total": 48.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "SF won 14-24. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 14,
+              "home_score": 24,
+              "combined_points": 38
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-KC-LV",
@@ -6946,9 +7639,9 @@
           "schedule_detail": "Sun, October 4th at 4:25 PM EDT",
           "away": "KC",
           "home": "LV",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 30,
+          "home_score": 27,
           "market_favorite": "KC",
           "market_spread": -4.5,
           "market_total": 47.5,
@@ -6959,10 +7652,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "KC",
+          "ats_winner": "LV",
+          "total_result": "over",
+          "combined_points": 57,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -7033,7 +7726,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "KC",
+          "grading_spread": -4.5,
+          "grading_total": 47.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "KC won 30-27. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 30,
+              "home_score": 27,
+              "combined_points": 57
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-LAC-SEA",
@@ -7042,9 +7798,9 @@
           "schedule_detail": "Sun, October 4th at 4:25 PM EDT",
           "away": "LAC",
           "home": "SEA",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 23,
+          "home_score": 30,
           "market_favorite": "SEA",
           "market_spread": -7,
           "market_total": 42.5,
@@ -7055,10 +7811,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "SEA",
+          "ats_winner": "push",
+          "total_result": "over",
+          "combined_points": 53,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -7129,7 +7885,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "SEA",
+          "grading_spread": -7,
+          "grading_total": 42.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "SEA won 23-30. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 23,
+              "home_score": 30,
+              "combined_points": 53
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-DET-CAR",
@@ -7138,9 +7957,9 @@
           "schedule_detail": "Sun, October 4th at 8:20 PM EDT",
           "away": "DET",
           "home": "CAR",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 26,
+          "home_score": 32,
           "market_favorite": "DET",
           "market_spread": -3.5,
           "market_total": 51.5,
@@ -7151,10 +7970,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "CAR",
+          "ats_winner": "CAR",
+          "total_result": "over",
+          "combined_points": 58,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -7225,7 +8044,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "DET",
+          "grading_spread": -3.5,
+          "grading_total": 51.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-10-04T06:01:25-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "CAR won 26-32. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 26,
+              "home_score": 32,
+              "combined_points": 58
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         },
         {
           "game_id": "2026-W04-ATL-NO",
@@ -7234,9 +8116,9 @@
           "schedule_detail": "Mon, October 5th at 8:15 PM EDT",
           "away": "ATL",
           "home": "NO",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 45,
+          "home_score": 24,
           "market_favorite": "NO",
           "market_spread": -3,
           "market_total": 48.5,
@@ -7247,10 +8129,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "ATL",
+          "ats_winner": "ATL",
+          "total_result": "over",
+          "combined_points": 69,
           "market_snapshots": [
             {
               "captured_at": null,
@@ -7305,7 +8187,70 @@
           "opening_provider": "ScoresAndOdds",
           "opening_source_url": "https://www.scoresandodds.com/nfl",
           "opening_market_timestamp": null,
-          "opening_retrieved_at": "2026-09-29T05:58:07-04:00"
+          "opening_retrieved_at": "2026-09-29T05:58:07-04:00",
+          "grading_favorite": "NO",
+          "grading_spread": -3,
+          "grading_total": 48.5,
+          "grading_provider": "ScoresAndOdds",
+          "grading_market_as_of": "2026-09-29T05:58:07-04:00",
+          "grading_verified_at": "2026-10-06T06:03:52-04:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "verified_at": "2026-10-06T06:03:52-04:00",
+          "result_sources": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00"
+            }
+          ],
+          "closing_market_status": "unavailable_after_source_check",
+          "closing_market_attempts": [
+            {
+              "provider": "CBS Sports",
+              "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score verified; no explicit closing market stated."
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/REG4/",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "Final score cross-check; no explicit closing market stated."
+            },
+            {
+              "provider": "ScoresAndOdds",
+              "url": "https://www.scoresandodds.com/nfl",
+              "checked_at": "2026-10-06T06:03:52-04:00",
+              "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
+            }
+          ],
+          "postgame_summary": "ATL won 45-24. The verified final establishes the result, but causal box-score evidence was not available in this update, so WTO is not assigning an unsupported football cause. The spread and total were graded against the last verified pregame market, not labeled as a closing line.",
+          "postgame_evidence": {
+            "metrics": {
+              "away_score": 45,
+              "home_score": 24,
+              "combined_points": 69
+            },
+            "providers": [
+              {
+                "provider": "CBS Sports",
+                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              },
+              {
+                "provider": "NFL",
+                "url": "https://www.nfl.com/schedules/2026/REG4/",
+                "checked_at": "2026-10-06T06:03:52-04:00"
+              }
+            ],
+            "verified_at": "2026-10-06T06:03:52-04:00",
+            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+          }
         }
       ]
     },
@@ -7324,13 +8269,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
+          "market_favorite": "DAL",
+          "market_spread": -8,
+          "market_total": 47.5,
           "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "home_spread_price": -111,
+          "over_price": -104,
+          "under_price": -110,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7338,13 +8283,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "DAL",
+              "favorite_spread": -8,
+              "total": 47.5,
+              "away_spread": 8,
+              "away_spread_price": null,
+              "home_spread": -8,
+              "home_spread_price": -111,
+              "over_price": -104,
+              "under_price": -110
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872980/buccaneers-cowboys",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872980"
+          "schedule_game_id": "401872980",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-PHI-JAX",
@@ -7356,13 +8321,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
+          "market_favorite": "JAX",
+          "market_spread": -6.5,
+          "market_total": 42.5,
           "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "home_spread_price": -108,
+          "over_price": -111,
+          "under_price": -102,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7370,13 +8335,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "JAX",
+              "favorite_spread": -6.5,
+              "total": 42.5,
+              "away_spread": 6.5,
+              "away_spread_price": null,
+              "home_spread": -6.5,
+              "home_spread_price": -108,
+              "over_price": -111,
+              "under_price": -102
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872981/eagles-jaguars",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872981"
+          "schedule_game_id": "401872981",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-CIN-MIA",
@@ -7388,13 +8373,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
+          "market_favorite": "CIN",
+          "market_spread": -7,
+          "market_total": 42.5,
+          "away_spread_price": -112,
           "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "over_price": -105,
+          "under_price": -110,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7402,13 +8387,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "CIN",
+              "favorite_spread": -7,
+              "total": 42.5,
+              "away_spread": -7,
+              "away_spread_price": -112,
+              "home_spread": 7,
+              "home_spread_price": null,
+              "over_price": -105,
+              "under_price": -110
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872982/bengals-dolphins",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872982"
+          "schedule_game_id": "401872982",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-CLE-NYJ",
@@ -7420,13 +8425,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
+          "market_favorite": "NYJ",
+          "market_spread": -1.5,
+          "market_total": 40.5,
           "away_spread_price": null,
-          "home_spread_price": null,
+          "home_spread_price": -115,
           "over_price": null,
-          "under_price": null,
+          "under_price": -120,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7434,13 +8439,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "NYJ",
+              "favorite_spread": -1.5,
+              "total": 40.5,
+              "away_spread": 1.5,
+              "away_spread_price": null,
+              "home_spread": -1.5,
+              "home_spread_price": -115,
+              "over_price": null,
+              "under_price": -120
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872983/browns-jets",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872983"
+          "schedule_game_id": "401872983",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-HOU-TEN",
@@ -7452,13 +8477,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
+          "market_favorite": "HOU",
+          "market_spread": -6.5,
+          "market_total": 39.5,
+          "away_spread_price": -120,
           "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "over_price": -105,
+          "under_price": -110,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7466,13 +8491,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "HOU",
+              "favorite_spread": -6.5,
+              "total": 39.5,
+              "away_spread": -6.5,
+              "away_spread_price": -120,
+              "home_spread": 6.5,
+              "home_spread_price": null,
+              "over_price": -105,
+              "under_price": -110
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872984/texans-titans",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872984"
+          "schedule_game_id": "401872984",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-IND-PIT",
@@ -7484,13 +8529,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
+          "market_favorite": "PIT",
+          "market_spread": -1.5,
+          "market_total": 44.5,
           "away_spread_price": null,
-          "home_spread_price": null,
+          "home_spread_price": -118,
           "over_price": null,
-          "under_price": null,
+          "under_price": -112,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7498,13 +8543,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "PIT",
+              "favorite_spread": -1.5,
+              "total": 44.5,
+              "away_spread": 1.5,
+              "away_spread_price": null,
+              "home_spread": -1.5,
+              "home_spread_price": -118,
+              "over_price": null,
+              "under_price": -112
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872985/colts-steelers",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872985"
+          "schedule_game_id": "401872985",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-LV-NE",
@@ -7516,13 +8581,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "NE",
+          "market_spread": -3.5,
+          "market_total": 45.5,
+          "away_spread_price": -104,
+          "home_spread_price": -110,
+          "over_price": -104,
+          "under_price": -111,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7530,13 +8595,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "NE",
+              "favorite_spread": -3.5,
+              "total": 45.5,
+              "away_spread": 3.5,
+              "away_spread_price": -104,
+              "home_spread": -3.5,
+              "home_spread_price": -110,
+              "over_price": -104,
+              "under_price": -111
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872986/raiders-patriots",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872986"
+          "schedule_game_id": "401872986",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-MIN-NO",
@@ -7548,13 +8633,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
+          "market_favorite": "MIN",
+          "market_spread": -1.5,
+          "market_total": 42.5,
+          "away_spread_price": -108,
+          "home_spread_price": -104,
           "over_price": null,
-          "under_price": null,
+          "under_price": -115,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7562,13 +8647,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "MIN",
+              "favorite_spread": -1.5,
+              "total": 42.5,
+              "away_spread": -1.5,
+              "away_spread_price": -108,
+              "home_spread": 1.5,
+              "home_spread_price": -104,
+              "over_price": null,
+              "under_price": -115
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872987/vikings-saints",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872987"
+          "schedule_game_id": "401872987",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-NYG-WAS",
@@ -7580,13 +8685,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
+          "market_favorite": "WAS",
+          "market_spread": -3,
+          "market_total": 43.5,
           "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "home_spread_price": -115,
+          "over_price": -111,
+          "under_price": -102,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7594,13 +8699,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "WAS",
+              "favorite_spread": -3,
+              "total": 43.5,
+              "away_spread": 3,
+              "away_spread_price": null,
+              "home_spread": -3,
+              "home_spread_price": -115,
+              "over_price": -111,
+              "under_price": -102
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872988/giants-commanders",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872988"
+          "schedule_game_id": "401872988",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-DEN-LAC",
@@ -7612,13 +8737,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
+          "market_favorite": "DEN",
+          "market_spread": -3.5,
+          "market_total": 42.5,
+          "away_spread_price": -105,
+          "home_spread_price": -110,
           "over_price": null,
-          "under_price": null,
+          "under_price": -108,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7626,13 +8751,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "DEN",
+              "favorite_spread": -3.5,
+              "total": 42.5,
+              "away_spread": -3.5,
+              "away_spread_price": -105,
+              "home_spread": 3.5,
+              "home_spread_price": -110,
+              "over_price": null,
+              "under_price": -108
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872989/broncos-chargers",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872989"
+          "schedule_game_id": "401872989",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-CHI-GB",
@@ -7644,12 +8789,12 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
+          "market_favorite": "CHI",
+          "market_spread": -2.5,
+          "market_total": 44.5,
+          "away_spread_price": -114,
           "home_spread_price": null,
-          "over_price": null,
+          "over_price": -106,
           "under_price": null,
           "closing_favorite": null,
           "closing_spread": null,
@@ -7658,13 +8803,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "CHI",
+              "favorite_spread": -2.5,
+              "total": 44.5,
+              "away_spread": -2.5,
+              "away_spread_price": -114,
+              "home_spread": 2.5,
+              "home_spread_price": null,
+              "over_price": -106,
+              "under_price": null
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872990/bears-packers",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872990"
+          "schedule_game_id": "401872990",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-DET-ARI",
@@ -7676,13 +8841,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
+          "market_favorite": "DET",
+          "market_spread": -4.5,
+          "market_total": 54.5,
+          "away_spread_price": -105,
+          "home_spread_price": -108,
           "over_price": null,
-          "under_price": null,
+          "under_price": -110,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7690,13 +8855,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "DET",
+              "favorite_spread": -4.5,
+              "total": 54.5,
+              "away_spread": -4.5,
+              "away_spread_price": -105,
+              "home_spread": 4.5,
+              "home_spread_price": -108,
+              "over_price": null,
+              "under_price": -110
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872991/lions-cardinals",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872991"
+          "schedule_game_id": "401872991",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-SF-SEA",
@@ -7708,13 +8893,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
+          "market_favorite": "SEA",
+          "market_spread": -2.5,
+          "market_total": 47.5,
           "away_spread_price": null,
-          "home_spread_price": null,
+          "home_spread_price": -120,
           "over_price": null,
-          "under_price": null,
+          "under_price": -115,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7722,13 +8907,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "SEA",
+              "favorite_spread": -2.5,
+              "total": 47.5,
+              "away_spread": 2.5,
+              "away_spread_price": null,
+              "home_spread": -2.5,
+              "home_spread_price": -120,
+              "over_price": null,
+              "under_price": -115
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872992/49ers-seahawks",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872992"
+          "schedule_game_id": "401872992",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-BAL-ATL",
@@ -7740,13 +8945,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "BAL",
+          "market_spread": -2.5,
+          "market_total": 45.5,
+          "away_spread_price": -108,
+          "home_spread_price": -108,
+          "over_price": -108,
+          "under_price": -105,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7754,13 +8959,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "BAL",
+              "favorite_spread": -2.5,
+              "total": 45.5,
+              "away_spread": -2.5,
+              "away_spread_price": -108,
+              "home_spread": 2.5,
+              "home_spread_price": -108,
+              "over_price": -108,
+              "under_price": -105
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872993/ravens-falcons",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872993"
+          "schedule_game_id": "401872993",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         },
         {
           "game_id": "2026-W05-BUF-LAR",
@@ -7772,13 +8997,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "LAR",
+          "market_spread": -2.5,
+          "market_total": 54.5,
+          "away_spread_price": 100,
+          "home_spread_price": -118,
+          "over_price": -108,
+          "under_price": -108,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -7786,13 +9011,33 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "captured_at": "2026-10-06T06:03:52-04:00",
+              "label": "Tuesday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports consensus",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "LAR",
+              "favorite_spread": -2.5,
+              "total": 54.5,
+              "away_spread": 2.5,
+              "away_spread_price": 100,
+              "home_spread": -2.5,
+              "home_spread_price": -118,
+              "over_price": -108,
+              "under_price": -108
+            }
+          ],
           "season_type": "REG",
-          "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
+          "source_note": "Tuesday market snapshot from CBS Sports consensus. A null price means the displayed opposite side or total used a different point value, so WTO did not pair mismatched markets or invent a price.",
           "schedule_provider": "NFL / ESPN schedule feed",
           "schedule_source_url": "https://www.espn.com/nfl/game/_/gameId/401872994/bills-rams",
           "schedule_verified_at": "2026-09-22T06:01:56-04:00",
-          "schedule_game_id": "401872994"
+          "schedule_game_id": "401872994",
+          "market_as_of": "2026-10-06T06:03:52-04:00",
+          "price_provider": "CBS Sports consensus",
+          "price_timestamp": "2026-10-06T06:03:52-04:00"
         }
       ]
     },
