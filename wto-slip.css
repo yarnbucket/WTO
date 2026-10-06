@@ -20,3 +20,5 @@
 .pick-btn small{display:block;font-size:12px;font-weight:normal;margin-top:5px}.matchup-projection{padding:12px 0;text-align:center}.projection-chances{display:flex;justify-content:space-between;color:#ffc72c}.projection-bar{height:10px;background:#ffc72c;border-radius:8px;overflow:hidden;margin:12px 0}.projection-bar span{display:block;height:100%;background:#647f6d}.matchup-projection p,.matchup-why p{font-size:15px;line-height:1.5}.matchup-why{padding:12px 0;border-top:1px solid #294132}.team-analysis-card li{margin:12px 0;line-height:1.5}.team-analysis-card details{margin-top:16px}.team-analysis-card a{color:#ffc72c}
 
 .slip-add.has-choices{background:#ffc72c;color:#07150c;border-color:#ffc72c;font-weight:700}
+
+.team-scoring-trend{margin:16px 0;padding:16px;border:1px solid #647f6d;border-radius:12px}.team-scoring-trend summary{color:#ffc72c;cursor:pointer;min-height:44px;font-weight:bold}.team-scoring-trend svg{width:100%;height:auto}.team-scoring-trend table{width:100%;text-align:left;font-size:14px}.team-scoring-trend td,.team-scoring-trend th{padding:8px 2px}.team-scoring-trend p{font-size:14px;line-height:1.5}
