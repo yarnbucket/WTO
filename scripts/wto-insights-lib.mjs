@@ -71,7 +71,7 @@ export function validateRevision(revision, game) {
   if (p) {
     if (Math.abs(Math.abs(p.away_score - p.home_score) - p.projected_margin) > 0.001) errors.push('PROJECTED_MARGIN_MISMATCH');
     if (Math.abs(p.away_score + p.home_score - p.projected_total) > 0.001) errors.push('PROJECTED_TOTAL_MISMATCH');
-    const scoreWinner = p.away_score === p.home_score ? (revision.revision_type==='editorial_rescrub'?'NO EDGE':'TIE') : p.away_score > p.home_score ? game.away : game.home;
+    const scoreWinner = p.away_score === p.home_score ? (['editorial_rescrub','evidence_revision'].includes(revision.revision_type)?'NO EDGE':'TIE') : p.away_score > p.home_score ? game.away : game.home;
     if (p.winner !== scoreWinner) errors.push('PROJECTED_WINNER_MISMATCH');
   } else if (revision?.revision_type !== 'insufficient_evidence') errors.push('MISSING_PROJECTION');
   for (const key of ['quarterback','weather']) {

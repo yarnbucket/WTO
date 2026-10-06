@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "season": 2026,
   "model_version": "week4-trial-v1",
-  "updated_at": "2026-10-06T12:17:49.731Z",
+  "updated_at": "2026-10-06T12:32:31.173Z",
   "methodology": {
-    "projection": "Previous three verified games, opponent context, venue and rest evaluated before market comparison.",
+    "projection": "Opponent-adjusted independent offensive/defensive scoring rates with two-game shrinkage; market is only compared afterward. Unresolved material personnel uncertainty holds betting calls.",
     "market_use": "Market is comparison only, never a projection input.",
-    "disclaimer": "Data-based estimate—not a guarantee or betting advice."
+    "disclaimer": "Data-based estimate\u2014not a guarantee or betting advice."
   },
   "weeks": [
     {
@@ -233,7 +233,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "Neither side owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a controlled, lower-scoring game, PIT 20–20 CLE.",
+              "editorial_read": "Neither side owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a controlled, lower-scoring game, PIT 20\u201320 CLE.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -281,11 +281,29 @@
             "ats_result": "CLE",
             "total_result": "OVER",
             "prediction_revision_id": "2026-W04-PIT-CLE-editorial-20260930T104600-0400",
-            "projected_score": "PIT 20–20 CLE",
-            "final_score": "PIT 24–27 CLE",
+            "projected_score": "PIT 20\u201320 CLE",
+            "final_score": "PIT 24\u201327 CLE",
             "score_error": 11,
-            "summary": "CLE won 27–24 after WTO recorded no straight-up edge at 20–20. The straight-up call was not scored, the CLE ATS lean hit, and the total call was not scored. The final score differed from the projection by 11 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "CLE won 27\u201324 after WTO recorded no straight-up edge at 20\u201320. The straight-up call was not scored, the CLE ATS lean hit, and the total call was not scored. The final score differed from the projection by 11 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-PIT-CLE-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "PIT 24\u201327 CLE \u00b7 ATS CLE \u00b7 OVER",
+              "why_winner_won": "Cleveland pressure and takeaways decided it; Pittsburgh protection failed.",
+              "weakness_exposed": "Outcome review: WTO projected PIT 20\u201320 CLE; final PIT 24\u201327 CLE. Winner NO EDGE / unscored, spread hit, total NO EDGE / unscored \u2014 PARTIALLY ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/steelers-browns-on-thursday-night-football-what-we-learned-from-cleveland-s-27-24-win",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -506,7 +524,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "WAS owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects an aggressive, higher-scoring game, IND 27–28 WAS.",
+              "editorial_read": "WAS owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects an aggressive, higher-scoring game, IND 27\u201328 WAS.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -554,11 +572,29 @@
             "ats_result": "IND",
             "total_result": "UNDER",
             "prediction_revision_id": "2026-W04-IND-WAS-editorial-20260930T104600-0400",
-            "projected_score": "IND 27–28 WAS",
-            "final_score": "IND 30–13 WAS",
+            "projected_score": "IND 27\u201328 WAS",
+            "final_score": "IND 30\u201313 WAS",
             "score_error": 18,
-            "summary": "IND won 13–30 after WTO projected WAS 27–28. The straight-up call missed, the WAS ATS lean missed, and the Over lean missed. The final score differed from the projection by 18 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "IND won 13\u201330 after WTO projected WAS 27\u201328. The straight-up call missed, the WAS ATS lean missed, and the Over lean missed. The final score differed from the projection by 18 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-IND-WAS-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "IND 30\u201313 WAS \u00b7 ATS IND \u00b7 UNDER",
+              "why_winner_won": "Taylor carried Indianapolis; Washington lost Mariota during the game.",
+              "weakness_exposed": "Outcome review: WTO projected IND 27\u201328 WAS; final IND 30\u201313 WAS. Winner missed, spread missed, total missed \u2014 MISSED.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -780,7 +816,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "NYG owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a controlled, lower-scoring game, ARI 20–21 NYG.",
+              "editorial_read": "NYG owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a controlled, lower-scoring game, ARI 20\u201321 NYG.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -828,11 +864,29 @@
             "ats_result": "NYG",
             "total_result": "OVER",
             "prediction_revision_id": "2026-W04-ARI-NYG-editorial-20260930T104600-0400",
-            "projected_score": "ARI 20–21 NYG",
-            "final_score": "ARI 24–36 NYG",
+            "projected_score": "ARI 20\u201321 NYG",
+            "final_score": "ARI 24\u201336 NYG",
             "score_error": 19,
-            "summary": "NYG won 36–24 after WTO projected NYG 20–21. The straight-up call hit, the NYG ATS lean hit, and the Under lean missed. The final score differed from the projection by 19 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "NYG won 36\u201324 after WTO projected NYG 20\u201321. The straight-up call hit, the NYG ATS lean hit, and the Under lean missed. The final score differed from the projection by 19 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-ARI-NYG-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "ARI 24\u201336 NYG \u00b7 ATS NYG \u00b7 OVER",
+              "why_winner_won": "Banks ended Arizona\u2019s comeback with a decisive interception return.",
+              "weakness_exposed": "Outcome review: WTO projected ARI 20\u201321 NYG; final ARI 24\u201336 NYG. Winner hit, spread hit, total missed \u2014 PARTIALLY ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -1054,7 +1108,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "DAL owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects an aggressive, higher-scoring game, DAL 26–24 HOU.",
+              "editorial_read": "DAL owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects an aggressive, higher-scoring game, DAL 26\u201324 HOU.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -1102,11 +1156,29 @@
             "ats_result": "DAL",
             "total_result": "OVER",
             "prediction_revision_id": "2026-W04-DAL-HOU-editorial-20260930T104600-0400",
-            "projected_score": "DAL 26–24 HOU",
-            "final_score": "DAL 34–30 HOU",
+            "projected_score": "DAL 26\u201324 HOU",
+            "final_score": "DAL 34\u201330 HOU",
             "score_error": 14,
-            "summary": "DAL won 30–34 after WTO projected DAL 26–24. The straight-up call hit, the DAL ATS lean hit, and the Over lean hit. The final score differed from the projection by 14 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "DAL won 30\u201334 after WTO projected DAL 26\u201324. The straight-up call hit, the DAL ATS lean hit, and the Over lean hit. The final score differed from the projection by 14 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-DAL-HOU-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "DAL 34\u201330 HOU \u00b7 ATS DAL \u00b7 OVER",
+              "why_winner_won": "Lamb overwhelmed Houston\u2019s coverage; Dallas scored repeatedly after halftime.",
+              "weakness_exposed": "Outcome review: WTO projected DAL 26\u201324 HOU; final DAL 34\u201330 HOU. Winner hit, spread hit, total hit \u2014 ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -1327,7 +1399,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "TB owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, GB 23–25 TB.",
+              "editorial_read": "TB owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, GB 23\u201325 TB.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -1375,11 +1447,29 @@
             "ats_result": "PUSH",
             "total_result": "UNDER",
             "prediction_revision_id": "2026-W04-GB-TB-editorial-20260930T104600-0400",
-            "projected_score": "GB 23–25 TB",
-            "final_score": "GB 17–14 TB",
+            "projected_score": "GB 23\u201325 TB",
+            "final_score": "GB 17\u201314 TB",
             "score_error": 17,
-            "summary": "GB won 14–17 after WTO projected TB 23–25. The straight-up call missed, the ATS call was not scored, and the Over lean missed. The final score differed from the projection by 17 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "GB won 14\u201317 after WTO projected TB 23\u201325. The straight-up call missed, the ATS call was not scored, and the Over lean missed. The final score differed from the projection by 17 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-GB-TB-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "GB 17\u201314 TB \u00b7 ATS PUSH \u00b7 UNDER",
+              "why_winner_won": "Green Bay pressure stopped Tampa Bay\u2019s final possession.",
+              "weakness_exposed": "Outcome review: WTO projected GB 23\u201325 TB; final GB 17\u201314 TB. Winner missed, spread NO EDGE / unscored, total missed \u2014 MISSED.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -1601,7 +1691,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "JAX owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, JAX 23–21 CIN.",
+              "editorial_read": "JAX owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, JAX 23\u201321 CIN.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -1649,11 +1739,29 @@
             "ats_result": "JAX",
             "total_result": "UNDER",
             "prediction_revision_id": "2026-W04-JAX-CIN-editorial-20260930T104600-0400",
-            "projected_score": "JAX 23–21 CIN",
-            "final_score": "JAX 22–17 CIN",
+            "projected_score": "JAX 23\u201321 CIN",
+            "final_score": "JAX 22\u201317 CIN",
             "score_error": 5,
-            "summary": "JAX won 17–22 after WTO projected JAX 23–21. The straight-up call hit, the JAX ATS lean hit, and the Under lean hit. The final score differed from the projection by 5 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "JAX won 17\u201322 after WTO projected JAX 23\u201321. The straight-up call hit, the JAX ATS lean hit, and the Under lean hit. The final score differed from the projection by 5 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-JAX-CIN-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "JAX 22\u201317 CIN \u00b7 ATS JAX \u00b7 UNDER",
+              "why_winner_won": "Burrow interceptions erased opportunities; Jacksonville capitalized.",
+              "weakness_exposed": "Outcome review: WTO projected JAX 23\u201321 CIN; final JAX 22\u201317 CIN. Winner hit, spread hit, total hit \u2014 ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -1875,7 +1983,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "LAR owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The current line is close to WTO’s independent number. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a controlled, lower-scoring game, LAR 21–20 PHI.",
+              "editorial_read": "LAR owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The current line is close to WTO\u2019s independent number. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a controlled, lower-scoring game, LAR 21\u201320 PHI.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -1923,11 +2031,29 @@
             "ats_result": "LAR",
             "total_result": "OVER",
             "prediction_revision_id": "2026-W04-LAR-PHI-editorial-20260930T104600-0400",
-            "projected_score": "LAR 21–20 PHI",
-            "final_score": "LAR 24–20 PHI",
+            "projected_score": "LAR 21\u201320 PHI",
+            "final_score": "LAR 24\u201320 PHI",
             "score_error": 3,
-            "summary": "LAR won 20–24 after WTO projected LAR 21–20. The straight-up call hit, the PHI ATS lean missed, and the Under lean missed. The final score differed from the projection by 3 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "LAR won 20\u201324 after WTO projected LAR 21\u201320. The straight-up call hit, the PHI ATS lean missed, and the Under lean missed. The final score differed from the projection by 3 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-LAR-PHI-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "LAR 24\u201320 PHI \u00b7 ATS LAR \u00b7 OVER",
+              "why_winner_won": "Philadelphia went 0-for-12 on third down; Williams finished the comeback.",
+              "weakness_exposed": "Outcome review: WTO projected LAR 21\u201320 PHI; final LAR 24\u201320 PHI. Winner hit, spread missed, total missed \u2014 PARTIALLY ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://www.philadelphiaeagles.com/news/rams-vs-eagles-game-recap-october-4-2026-nfl-week-4-regular-season-jalen-hurts-matthew-stafford",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -2149,7 +2275,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "BUF owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, NE 21–24 BUF.",
+              "editorial_read": "BUF owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, NE 21\u201324 BUF.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -2197,11 +2323,29 @@
             "ats_result": "NE",
             "total_result": "OVER",
             "prediction_revision_id": "2026-W04-NE-BUF-editorial-20260930T104600-0400",
-            "projected_score": "NE 21–24 BUF",
-            "final_score": "NE 29–26 BUF",
+            "projected_score": "NE 21\u201324 BUF",
+            "final_score": "NE 29\u201326 BUF",
             "score_error": 10,
-            "summary": "NE won 26–29 after WTO projected BUF 21–24. The straight-up call missed, the NE ATS lean hit, and the Under lean missed. The final score differed from the projection by 10 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "NE won 26\u201329 after WTO projected BUF 21\u201324. The straight-up call missed, the NE ATS lean hit, and the Under lean missed. The final score differed from the projection by 10 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-NE-BUF-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "NE 29\u201326 BUF \u00b7 ATS NE \u00b7 OVER",
+              "why_winner_won": "Maye delivered late; Buffalo couldn\u2019t finish defensively.",
+              "weakness_exposed": "Outcome review: WTO projected NE 21\u201324 BUF; final NE 29\u201326 BUF. Winner missed, spread hit, total missed \u2014 PARTIALLY ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -2423,7 +2567,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "CHI owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The current line is close to WTO’s independent number. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, NYJ 21–24 CHI.",
+              "editorial_read": "CHI owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The current line is close to WTO\u2019s independent number. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, NYJ 21\u201324 CHI.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -2471,11 +2615,29 @@
             "ats_result": "CHI",
             "total_result": "UNDER",
             "prediction_revision_id": "2026-W04-NYJ-CHI-editorial-20260930T104600-0400",
-            "projected_score": "NYJ 21–24 CHI",
-            "final_score": "NYJ 12–23 CHI",
+            "projected_score": "NYJ 21\u201324 CHI",
+            "final_score": "NYJ 12\u201323 CHI",
             "score_error": 10,
-            "summary": "CHI won 23–12 after WTO projected CHI 21–24. The straight-up call hit, the ATS call was not scored, and the total call was not scored. The final score differed from the projection by 10 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "CHI won 23\u201312 after WTO projected CHI 21\u201324. The straight-up call hit, the ATS call was not scored, and the total call was not scored. The final score differed from the projection by 10 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-NYJ-CHI-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "NYJ 12\u201323 CHI \u00b7 ATS CHI \u00b7 UNDER",
+              "why_winner_won": "Chicago\u2019s running game supported Bagent; New York couldn\u2019t sustain offense.",
+              "weakness_exposed": "Outcome review: WTO projected NYJ 21\u201324 CHI; final NYJ 12\u201323 CHI. Winner hit, spread NO EDGE / unscored, total NO EDGE / unscored \u2014 ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -2697,7 +2859,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "BAL owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, TEN 21–24 BAL.",
+              "editorial_read": "BAL owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, TEN 21\u201324 BAL.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -2745,11 +2907,29 @@
             "ats_result": "TEN",
             "total_result": "OVER",
             "prediction_revision_id": "2026-W04-TEN-BAL-editorial-20260930T104600-0400",
-            "projected_score": "TEN 21–24 BAL",
-            "final_score": "TEN 18–24 BAL",
+            "projected_score": "TEN 21\u201324 BAL",
+            "final_score": "TEN 18\u201324 BAL",
             "score_error": 3,
-            "summary": "BAL won 24–18 after WTO projected BAL 21–24. The straight-up call hit, the TEN ATS lean hit, and the total call was not scored. The final score differed from the projection by 3 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "BAL won 24\u201318 after WTO projected BAL 21\u201324. The straight-up call hit, the TEN ATS lean hit, and the total call was not scored. The final score differed from the projection by 3 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-TEN-BAL-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "TEN 18\u201324 BAL \u00b7 ATS TEN \u00b7 OVER",
+              "why_winner_won": "Baltimore\u2019s defense protected the lead after Jackson exited.",
+              "weakness_exposed": "Outcome review: WTO projected TEN 21\u201324 BAL; final TEN 18\u201324 BAL. Winner hit, spread hit, total NO EDGE / unscored \u2014 ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -2971,7 +3151,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "MIN owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a controlled, lower-scoring game, MIA 17–22 MIN.",
+              "editorial_read": "MIN owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a controlled, lower-scoring game, MIA 17\u201322 MIN.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -3019,11 +3199,29 @@
             "ats_result": "MIA",
             "total_result": "UNDER",
             "prediction_revision_id": "2026-W04-MIA-MIN-editorial-20260930T104600-0400",
-            "projected_score": "MIA 17–22 MIN",
-            "final_score": "MIA 10–15 MIN",
+            "projected_score": "MIA 17\u201322 MIN",
+            "final_score": "MIA 10\u201315 MIN",
             "score_error": 14,
-            "summary": "MIN won 15–10 after WTO projected MIN 17–22. The straight-up call hit, the MIA ATS lean hit, and the total call was not scored. The final score differed from the projection by 14 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "MIN won 15\u201310 after WTO projected MIN 17\u201322. The straight-up call hit, the MIA ATS lean hit, and the total call was not scored. The final score differed from the projection by 14 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-MIA-MIN-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "MIA 10\u201315 MIN \u00b7 ATS MIA \u00b7 UNDER",
+              "why_winner_won": "Reichard\u2019s kicking carried Minnesota; offensive finishing remained weak.",
+              "weakness_exposed": "Outcome review: WTO projected MIA 17\u201322 MIN; final MIA 10\u201315 MIN. Winner hit, spread hit, total NO EDGE / unscored \u2014 ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -3244,7 +3442,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "SF owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The current line is close to WTO’s independent number. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, DEN 21–26 SF.",
+              "editorial_read": "SF owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The current line is close to WTO\u2019s independent number. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, DEN 21\u201326 SF.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -3292,11 +3490,29 @@
             "ats_result": "SF",
             "total_result": "UNDER",
             "prediction_revision_id": "2026-W04-DEN-SF-editorial-20260930T104600-0400",
-            "projected_score": "DEN 21–26 SF",
-            "final_score": "DEN 14–24 SF",
+            "projected_score": "DEN 21\u201326 SF",
+            "final_score": "DEN 14\u201324 SF",
             "score_error": 9,
-            "summary": "SF won 24–14 after WTO projected SF 21–26. The straight-up call hit, the SF ATS lean hit, and the total call was not scored. The final score differed from the projection by 9 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "SF won 24\u201314 after WTO projected SF 21\u201326. The straight-up call hit, the SF ATS lean hit, and the total call was not scored. The final score differed from the projection by 9 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-DEN-SF-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "DEN 14\u201324 SF \u00b7 ATS SF \u00b7 UNDER",
+              "why_winner_won": "Kittle\u2019s screen punished Denver; San Francisco controlled the run.",
+              "weakness_exposed": "Outcome review: WTO projected DEN 21\u201326 SF; final DEN 14\u201324 SF. Winner hit, spread hit, total NO EDGE / unscored \u2014 ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -3518,7 +3734,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "Neither side owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, KC 23–23 LV.",
+              "editorial_read": "Neither side owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, KC 23\u201323 LV.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -3566,11 +3782,29 @@
             "ats_result": "LV",
             "total_result": "OVER",
             "prediction_revision_id": "2026-W04-KC-LV-editorial-20260930T104600-0400",
-            "projected_score": "KC 23–23 LV",
-            "final_score": "KC 30–27 LV",
+            "projected_score": "KC 23\u201323 LV",
+            "final_score": "KC 30\u201327 LV",
             "score_error": 11,
-            "summary": "KC won 27–30 after WTO recorded no straight-up edge at 23–23. The straight-up call was not scored, the LV ATS lean hit, and the total call was not scored. The final score differed from the projection by 11 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "KC won 27\u201330 after WTO recorded no straight-up edge at 23\u201323. The straight-up call was not scored, the LV ATS lean hit, and the total call was not scored. The final score differed from the projection by 11 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-KC-LV-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "KC 30\u201327 LV \u00b7 ATS LV \u00b7 OVER",
+              "why_winner_won": "Walker and special teams supplied Kansas City\u2019s decisive separation.",
+              "weakness_exposed": "Outcome review: WTO projected KC 23\u201323 LV; final KC 30\u201327 LV. Winner NO EDGE / unscored, spread hit, total NO EDGE / unscored \u2014 PARTIALLY ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -3792,7 +4026,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "SEA owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The current line is close to WTO’s independent number. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a controlled, lower-scoring game, LAC 18–23 SEA.",
+              "editorial_read": "SEA owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The current line is close to WTO\u2019s independent number. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a controlled, lower-scoring game, LAC 18\u201323 SEA.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -3840,11 +4074,29 @@
             "ats_result": "PUSH",
             "total_result": "OVER",
             "prediction_revision_id": "2026-W04-LAC-SEA-editorial-20260930T104600-0400",
-            "projected_score": "LAC 18–23 SEA",
-            "final_score": "LAC 23–30 SEA",
+            "projected_score": "LAC 18\u201323 SEA",
+            "final_score": "LAC 23\u201330 SEA",
             "score_error": 12,
-            "summary": "SEA won 30–23 after WTO projected SEA 18–23. The straight-up call hit, the ATS call was not scored, and the total call was not scored. The final score differed from the projection by 12 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "SEA won 30\u201323 after WTO projected SEA 18\u201323. The straight-up call hit, the ATS call was not scored, and the total call was not scored. The final score differed from the projection by 12 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-LAC-SEA-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "LAC 23\u201330 SEA \u00b7 ATS PUSH \u00b7 OVER",
+              "why_winner_won": "Herbert turnovers undermined Los Angeles; Seattle finished with pressure.",
+              "weakness_exposed": "Outcome review: WTO projected LAC 18\u201323 SEA; final LAC 23\u201330 SEA. Winner hit, spread NO EDGE / unscored, total NO EDGE / unscored \u2014 ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -4066,7 +4318,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "CAR owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects an aggressive, higher-scoring game, DET 30–31 CAR.",
+              "editorial_read": "CAR owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The market appears to be charging a premium for the favorite. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects an aggressive, higher-scoring game, DET 30\u201331 CAR.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -4114,11 +4366,29 @@
             "ats_result": "CAR",
             "total_result": "OVER",
             "prediction_revision_id": "2026-W04-DET-CAR-editorial-20260930T104600-0400",
-            "projected_score": "DET 30–31 CAR",
-            "final_score": "DET 26–32 CAR",
+            "projected_score": "DET 30\u201331 CAR",
+            "final_score": "DET 26\u201332 CAR",
             "score_error": 5,
-            "summary": "CAR won 32–26 after WTO projected CAR 30–31. The straight-up call hit, the CAR ATS lean hit, and the Over lean hit. The final score differed from the projection by 5 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "CAR won 32\u201326 after WTO projected CAR 30\u201331. The straight-up call hit, the CAR ATS lean hit, and the Over lean hit. The final score differed from the projection by 5 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-DET-CAR-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "DET 26\u201332 CAR \u00b7 ATS CAR \u00b7 OVER",
+              "why_winner_won": "McMillan exposed Detroit\u2019s coverage; Carolina finished drives better.",
+              "weakness_exposed": "Outcome review: WTO projected DET 30\u201331 CAR; final DET 26\u201332 CAR. Winner hit, spread hit, total hit \u2014 ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         },
         {
@@ -4340,7 +4610,7 @@
                 "primary_risk": "Three-game samples and incomplete verified personnel evidence can distort the projection."
               },
               "confidence": "LOW",
-              "editorial_read": "NO owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The current line is close to WTO’s independent number. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, ATL 23–24 NO.",
+              "editorial_read": "NO owns the stronger evidence entering this matchup, driven primarily by opponent-adjusted results through three games. The current line is close to WTO\u2019s independent number. Available personnel and local-sentiment evidence is not strong enough to justify extra weight, so confidence remains controlled. WTO expects a balanced scoring game, ATL 23\u201324 NO.",
               "sources": [
                 {
                   "provider": "ESPN",
@@ -4388,11 +4658,29 @@
             "ats_result": "ATL",
             "total_result": "OVER",
             "prediction_revision_id": "2026-W04-ATL-NO-editorial-20260930T104600-0400",
-            "projected_score": "ATL 23–24 NO",
-            "final_score": "ATL 45–24 NO",
+            "projected_score": "ATL 23\u201324 NO",
+            "final_score": "ATL 45\u201324 NO",
             "score_error": 22,
-            "summary": "ATL won 24–45 after WTO projected NO 23–24. The straight-up call missed, the ATL ATS lean hit, and the total call was not scored. The final score differed from the projection by 22 combined team points.",
-            "verified_at": "2026-10-06T12:17:49.731Z"
+            "summary": "ATL won 24\u201345 after WTO projected NO 23\u201324. The straight-up call missed, the ATL ATS lean hit, and the total call was not scored. The final score differed from the projection by 22 combined team points.",
+            "verified_at": "2026-10-06T12:32:31.173Z"
+          },
+          "postgame_review": {
+            "generated_at": "2026-10-06T12:32:31.173Z",
+            "analysis_type": "retrospective",
+            "prediction_revision_id": "2026-W04-ATL-NO-editorial-20260930T104600-0400",
+            "bullets": {
+              "final": "ATL 45\u201324 NO \u00b7 ATS ATL \u00b7 OVER",
+              "why_winner_won": "Atlanta ran through New Orleans; defensive absences and missed tackles mattered.",
+              "weakness_exposed": "Outcome review: WTO projected ATL 23\u201324 NO; final ATL 45\u201324 NO. Winner missed, spread hit, total NO EDGE / unscored \u2014 PARTIALLY ACCURATE.",
+              "carry_forward": "Recheck whether this matchup weakness persists against the next opponent; one result does not establish a trend."
+            },
+            "evidence": [
+              {
+                "label": "Verified game recap",
+                "url": "https://fantasy-www.nfl.com/news/falcons-saints-on-monday-night-football-what-we-learned-from-atlanta-s-45-24-win",
+                "checked_at": "2026-10-06T12:32:31.173Z"
+              }
+            ]
           }
         }
       ]
@@ -4529,7 +4817,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects TB 25–27 DAL. TB is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects TB 25\u201327 DAL. TB is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -4572,6 +4860,182 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-TB-DAL-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "DAL",
+                "away_score": 24,
+                "home_score": 30,
+                "projected_margin": 6,
+                "projected_total": 54,
+                "win_probability": 0.702
+              },
+              "market_comparison": {
+                "favorite": "DAL",
+                "spread": -8,
+                "total": 47.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "FAIR",
+                "spread_edge_points": -2,
+                "total_edge_points": 6.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "DAL",
+                  "winner_side": "HOME",
+                  "away_score": 25,
+                  "home_score": 27,
+                  "projected_margin": 2,
+                  "projected_total": 52,
+                  "win_probability": 0.576,
+                  "audit": {
+                    "weighted_edge": 0.1388,
+                    "raw_home_margin": 2,
+                    "raw_total": 51
+                  }
+                },
+                "new_projection": {
+                  "winner": "DAL",
+                  "away_score": 24,
+                  "home_score": 30,
+                  "projected_margin": 6,
+                  "projected_total": 54,
+                  "win_probability": 0.702
+                },
+                "previous_market_call": {
+                  "favorite": "DAL",
+                  "spread": -8,
+                  "total": 47.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "TB",
+                  "total_lean": "OVER",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "DAL",
+                  "spread": -8,
+                  "total": 47.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "FAIR",
+                  "spread_edge_points": -2,
+                  "total_edge_points": 6.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Verified availability uncertainty prevents an actionable ATS/total call.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 20.369791666666668,
+                  "pa": 23.703125,
+                  "offense": 20.80260416666667,
+                  "defense": 24.6109375,
+                  "opponents": [
+                    "CIN",
+                    "CLE",
+                    "MIN",
+                    "GB"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 28.036458333333332,
+                  "pa": 26.369791666666668,
+                  "offense": 27.86927083333333,
+                  "defense": 26.85260416666667,
+                  "opponents": [
+                    "NYG",
+                    "WAS",
+                    "BAL",
+                    "HOU"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 23.795833333333338,
+                "home_points": 30.12083333333333,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "availability_unresolved",
+                  "effect": "neutral",
+                  "detail": "Mayfield estimated DNP with thumb injury; Dallas guard Tyler Smith limited. Availability unresolved."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; TB faced CIN, CLE, MIN, GB; DAL faced NYG, WAS, BAL, HOU.",
+                "matchup": "Mayfield estimated DNP with thumb injury; Dallas guard Tyler Smith limited. Availability unresolved.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Mayfield estimated DNP with thumb injury; Dallas guard Tyler Smith limited. Availability unresolved. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects TB 24\u201330 DAL, independently of the market. Availability uncertainty keeps the betting read on hold. Mayfield estimated DNP with thumb injury; Dallas guard Tyler Smith limited. Availability unresolved.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                },
+                {
+                  "provider": "Official NFL/team report",
+                  "url": "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-5-week-5-2026",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market",
+                  "reported_injury_risk"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "https://www.buccaneers.com/news/buccaneers-cowboys-injury-report-oct-5-week-5-2026"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -4701,7 +5165,7 @@
                 "home_field": "No home-field bonus applied to the London matchup.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects PHI 18–22 JAX. PHI is the spread lean; UNDER is the total lean. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects PHI 18\u201322 JAX. PHI is the spread lean; UNDER is the total lean. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -4744,6 +5208,182 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-PHI-JAX-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "JAX",
+                "away_score": 14,
+                "home_score": 27,
+                "projected_margin": 13,
+                "projected_total": 41,
+                "win_probability": 0.75
+              },
+              "market_comparison": {
+                "favorite": "JAX",
+                "spread": -6.5,
+                "total": 42.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNDERVALUED",
+                "spread_edge_points": 6.5,
+                "total_edge_points": -1.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "JAX",
+                  "winner_side": "HOME",
+                  "away_score": 18,
+                  "home_score": 22,
+                  "projected_margin": 4,
+                  "projected_total": 40,
+                  "win_probability": 0.649,
+                  "audit": {
+                    "weighted_edge": 0.302,
+                    "raw_home_margin": 4,
+                    "raw_total": 40.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "JAX",
+                  "away_score": 14,
+                  "home_score": 27,
+                  "projected_margin": 13,
+                  "projected_total": 41,
+                  "win_probability": 0.75
+                },
+                "previous_market_call": {
+                  "favorite": "JAX",
+                  "spread": -6.5,
+                  "total": 42.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "PHI",
+                  "total_lean": "UNDER",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "JAX",
+                  "spread": -6.5,
+                  "total": 42.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "UNDERVALUED",
+                  "spread_edge_points": 6.5,
+                  "total_edge_points": -1.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Verified availability uncertainty prevents an actionable ATS/total call.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 20.203125,
+                  "pa": 23.203125,
+                  "offense": 20.1859375,
+                  "defense": 23.9609375,
+                  "opponents": [
+                    "WAS",
+                    "TEN",
+                    "CHI",
+                    "LAR"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 25.036458333333332,
+                  "pa": 16.536458333333332,
+                  "offense": 25.794270833333332,
+                  "defense": 16.86927083333333,
+                  "opponents": [
+                    "CLE",
+                    "DEN",
+                    "NE",
+                    "CIN"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 13.945833333333333,
+                "home_points": 26.645833333333332,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "availability_unresolved",
+                  "effect": "neutral",
+                  "detail": "Barkley left with a hamstring injury. Philadelphia\u2019s offensive finishing needs a rebound; Week 5 availability unresolved."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; PHI faced WAS, TEN, CHI, LAR; JAX faced CLE, DEN, NE, CIN.",
+                "matchup": "Barkley left with a hamstring injury. Philadelphia\u2019s offensive finishing needs a rebound; Week 5 availability unresolved.",
+                "home_field": "London: no home-field scoring bonus.",
+                "primary_risk": "Barkley left with a hamstring injury. Philadelphia\u2019s offensive finishing needs a rebound; Week 5 availability unresolved. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects PHI 14\u201327 JAX, independently of the market. Availability uncertainty keeps the betting read on hold. Barkley left with a hamstring injury. Philadelphia\u2019s offensive finishing needs a rebound; Week 5 availability unresolved.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                },
+                {
+                  "provider": "Official NFL/team report",
+                  "url": "https://www.philadelphiaeagles.com/news/rams-vs-eagles-game-recap-october-4-2026-nfl-week-4-regular-season-jalen-hurts-matthew-stafford",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market",
+                  "reported_injury_risk"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "https://www.philadelphiaeagles.com/news/rams-vs-eagles-game-recap-october-4-2026-nfl-week-4-regular-season-jalen-hurts-matthew-stafford"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -4877,7 +5517,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects CIN 23–19 MIA. MIA is the spread lean; no clear total edge. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects CIN 23\u201319 MIA. MIA is the spread lean; no clear total edge. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -4920,6 +5560,182 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-CIN-MIA-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "CIN",
+                "away_score": 24,
+                "home_score": 17,
+                "projected_margin": 7,
+                "projected_total": 41,
+                "win_probability": 0.731
+              },
+              "market_comparison": {
+                "favorite": "CIN",
+                "spread": -7,
+                "total": 42.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "FAIR",
+                "spread_edge_points": 0,
+                "total_edge_points": -1.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "CIN",
+                  "winner_side": "AWAY",
+                  "away_score": 23,
+                  "home_score": 19,
+                  "projected_margin": 4,
+                  "projected_total": 42,
+                  "win_probability": 0.649,
+                  "audit": {
+                    "weighted_edge": -0.2858,
+                    "raw_home_margin": -4,
+                    "raw_total": 41
+                  }
+                },
+                "new_projection": {
+                  "winner": "CIN",
+                  "away_score": 24,
+                  "home_score": 17,
+                  "projected_margin": 7,
+                  "projected_total": 41,
+                  "win_probability": 0.731
+                },
+                "previous_market_call": {
+                  "favorite": "CIN",
+                  "spread": -7,
+                  "total": 42.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "MIA",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "CIN",
+                  "spread": -7,
+                  "total": 42.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "FAIR",
+                  "spread_edge_points": 0,
+                  "total_edge_points": -1.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Verified availability uncertainty prevents an actionable ATS/total call.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 23.869791666666668,
+                  "pa": 21.869791666666668,
+                  "offense": 24.60260416666667,
+                  "defense": 22.402604166666666,
+                  "opponents": [
+                    "TB",
+                    "HOU",
+                    "PIT",
+                    "JAX"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 15.369791666666666,
+                  "pa": 24.536458333333332,
+                  "offense": 16.552604166666665,
+                  "defense": 22.969270833333333,
+                  "opponents": [
+                    "LV",
+                    "SF",
+                    "KC",
+                    "MIN"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 23.712500000000002,
+                "home_points": 16.59583333333333,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "availability_unresolved",
+                  "effect": "neutral",
+                  "detail": "Chase exited with concussion symptoms; clearance unresolved."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; CIN faced TB, HOU, PIT, JAX; MIA faced LV, SF, KC, MIN.",
+                "matchup": "Chase exited with concussion symptoms; clearance unresolved.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Chase exited with concussion symptoms; clearance unresolved. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects CIN 24\u201317 MIA, independently of the market. Availability uncertainty keeps the betting read on hold. Chase exited with concussion symptoms; clearance unresolved.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                },
+                {
+                  "provider": "Official NFL/team report",
+                  "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market",
+                  "reported_injury_risk"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -5053,7 +5869,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects CLE 21–21 NYJ. CLE is the spread lean; no clear total edge. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects CLE 21\u201321 NYJ. CLE is the spread lean; no clear total edge. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -5096,6 +5912,175 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-CLE-NYJ-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "NYJ",
+                "away_score": 19,
+                "home_score": 21,
+                "projected_margin": 2,
+                "projected_total": 40,
+                "win_probability": 0.571
+              },
+              "market_comparison": {
+                "favorite": "NYJ",
+                "spread": -1.5,
+                "total": 40.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "FAIR",
+                "spread_edge_points": 0.5,
+                "total_edge_points": -0.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "NO EDGE",
+                  "winner_side": "NO EDGE",
+                  "away_score": 21,
+                  "home_score": 21,
+                  "projected_margin": 0,
+                  "projected_total": 42,
+                  "win_probability": 0.5,
+                  "audit": {
+                    "weighted_edge": 0.0338,
+                    "raw_home_margin": 0.5,
+                    "raw_total": 42
+                  }
+                },
+                "new_projection": {
+                  "winner": "NYJ",
+                  "away_score": 19,
+                  "home_score": 21,
+                  "projected_margin": 2,
+                  "projected_total": 40,
+                  "win_probability": 0.571
+                },
+                "previous_market_call": {
+                  "favorite": "NYJ",
+                  "spread": -1.5,
+                  "total": 40.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "CLE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "FAIR"
+                },
+                "new_market_call": {
+                  "favorite": "NYJ",
+                  "spread": -1.5,
+                  "total": 40.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "FAIR",
+                  "spread_edge_points": 0.5,
+                  "total_edge_points": -0.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Only differences above the conservative thresholds produce a lean.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 21.203125,
+                  "pa": 23.536458333333332,
+                  "offense": 21.5359375,
+                  "defense": 23.394270833333334,
+                  "opponents": [
+                    "JAX",
+                    "TB",
+                    "CAR",
+                    "PIT"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 20.369791666666668,
+                  "pa": 21.703125,
+                  "offense": 19.702604166666667,
+                  "defense": 21.7609375,
+                  "opponents": [
+                    "TEN",
+                    "GB",
+                    "DET",
+                    "CHI"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 19.4375,
+                "home_points": 20.7375,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "not_fully_verified",
+                  "effect": "neutral",
+                  "detail": "Current Week 5 QB status not fully verified; no assumed injury penalty."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; CLE faced JAX, TB, CAR, PIT; NYJ faced TEN, GB, DET, CHI.",
+                "matchup": "Compare each offense with the opponent\u2019s schedule-adjusted points allowed.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Four-game sample; detailed personnel, scheme and weather verification incomplete. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects CLE 19\u201321 NYJ, independently of the market. Against NYJ -1.5 and 40.5, the spread read is NO EDGE and total read is NO EDGE. Opponent quality is included; confidence remains low with only four games.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -5229,7 +6214,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects HOU 21–21 TEN. TEN is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects HOU 21\u201321 TEN. TEN is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -5272,6 +6257,175 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-HOU-TEN-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "NO EDGE",
+                "away_score": 18,
+                "home_score": 18,
+                "projected_margin": 0,
+                "projected_total": 36,
+                "win_probability": 0.5
+              },
+              "market_comparison": {
+                "favorite": "HOU",
+                "spread": -6.5,
+                "total": 39.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "TEN",
+                "total_lean": "NO EDGE",
+                "hype_check": "OVERVALUED",
+                "spread_edge_points": -6.5,
+                "total_edge_points": -3.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "NO EDGE",
+                  "winner_side": "NO EDGE",
+                  "away_score": 21,
+                  "home_score": 21,
+                  "projected_margin": 0,
+                  "projected_total": 42,
+                  "win_probability": 0.5,
+                  "audit": {
+                    "weighted_edge": -0.0054,
+                    "raw_home_margin": 0,
+                    "raw_total": 41.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "NO EDGE",
+                  "away_score": 18,
+                  "home_score": 18,
+                  "projected_margin": 0,
+                  "projected_total": 36,
+                  "win_probability": 0.5
+                },
+                "previous_market_call": {
+                  "favorite": "HOU",
+                  "spread": -6.5,
+                  "total": 39.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "TEN",
+                  "total_lean": "OVER",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "HOU",
+                  "spread": -6.5,
+                  "total": 39.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "TEN",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "OVERVALUED",
+                  "spread_edge_points": -6.5,
+                  "total_edge_points": -3.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Only differences above the conservative thresholds produce a lean.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 21.703125,
+                  "pa": 25.869791666666668,
+                  "offense": 20.5359375,
+                  "defense": 24.327604166666667,
+                  "opponents": [
+                    "BUF",
+                    "CIN",
+                    "IND",
+                    "DAL"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 16.869791666666668,
+                  "pa": 21.536458333333332,
+                  "offense": 16.377604166666668,
+                  "defense": 21.81927083333333,
+                  "opponents": [
+                    "NYJ",
+                    "PHI",
+                    "NYG",
+                    "BAL"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 18.49583333333333,
+                "home_points": 18.345833333333335,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "not_fully_verified",
+                  "effect": "neutral",
+                  "detail": "Current Week 5 QB status not fully verified; no assumed injury penalty."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; HOU faced BUF, CIN, IND, DAL; TEN faced NYJ, PHI, NYG, BAL.",
+                "matchup": "Compare each offense with the opponent\u2019s schedule-adjusted points allowed.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Four-game sample; detailed personnel, scheme and weather verification incomplete. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects HOU 18\u201318 TEN, independently of the market. Against HOU -6.5 and 39.5, the spread read is TEN and total read is NO EDGE. Opponent quality is included; confidence remains low with only four games.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -5405,7 +6559,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects IND 24–23 PIT. IND is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects IND 24\u201323 PIT. IND is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -5448,6 +6602,175 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-IND-PIT-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "NO EDGE",
+                "away_score": 23,
+                "home_score": 23,
+                "projected_margin": 0,
+                "projected_total": 46,
+                "win_probability": 0.5
+              },
+              "market_comparison": {
+                "favorite": "PIT",
+                "spread": -1.5,
+                "total": 44.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "FAIR",
+                "spread_edge_points": -1.5,
+                "total_edge_points": 1.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "IND",
+                  "winner_side": "AWAY",
+                  "away_score": 24,
+                  "home_score": 23,
+                  "projected_margin": 1,
+                  "projected_total": 47,
+                  "win_probability": 0.519,
+                  "audit": {
+                    "weighted_edge": -0.0275,
+                    "raw_home_margin": -0.5,
+                    "raw_total": 46.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "NO EDGE",
+                  "away_score": 23,
+                  "home_score": 23,
+                  "projected_margin": 0,
+                  "projected_total": 46,
+                  "win_probability": 0.5
+                },
+                "previous_market_call": {
+                  "favorite": "PIT",
+                  "spread": -1.5,
+                  "total": 44.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "IND",
+                  "total_lean": "OVER",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "PIT",
+                  "spread": -1.5,
+                  "total": 44.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "FAIR",
+                  "spread_edge_points": -1.5,
+                  "total_edge_points": 1.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Only differences above the conservative thresholds produce a lean.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 24.703125,
+                  "pa": 25.036458333333332,
+                  "offense": 24.0859375,
+                  "defense": 24.419270833333332,
+                  "opponents": [
+                    "BAL",
+                    "KC",
+                    "HOU",
+                    "WAS"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 20.536458333333332,
+                  "pa": 22.203125,
+                  "offense": 20.669270833333332,
+                  "defense": 22.8359375,
+                  "opponents": [
+                    "ATL",
+                    "NE",
+                    "CIN",
+                    "CLE"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 23.0625,
+                "home_points": 22.729166666666664,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "not_fully_verified",
+                  "effect": "neutral",
+                  "detail": "Current Week 5 QB status not fully verified; no assumed injury penalty."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; IND faced BAL, KC, HOU, WAS; PIT faced ATL, NE, CIN, CLE.",
+                "matchup": "Compare each offense with the opponent\u2019s schedule-adjusted points allowed.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Four-game sample; detailed personnel, scheme and weather verification incomplete. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects IND 23\u201323 PIT, independently of the market. Against PIT -1.5 and 44.5, the spread read is NO EDGE and total read is NO EDGE. Opponent quality is included; confidence remains low with only four games.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -5581,7 +6904,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects LV 23–20 NE. LV is the spread lean; UNDER is the total lean. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects LV 23\u201320 NE. LV is the spread lean; UNDER is the total lean. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -5624,6 +6947,175 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-LV-NE-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "LV",
+                "away_score": 22,
+                "home_score": 19,
+                "projected_margin": 3,
+                "projected_total": 41,
+                "win_probability": 0.606
+              },
+              "market_comparison": {
+                "favorite": "NE",
+                "spread": -3.5,
+                "total": 45.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "LV",
+                "total_lean": "UNDER",
+                "hype_check": "OVERVALUED",
+                "spread_edge_points": -6.5,
+                "total_edge_points": -4.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "LV",
+                  "winner_side": "AWAY",
+                  "away_score": 23,
+                  "home_score": 20,
+                  "projected_margin": 3,
+                  "projected_total": 43,
+                  "win_probability": 0.595,
+                  "audit": {
+                    "weighted_edge": -0.1805,
+                    "raw_home_margin": -2.5,
+                    "raw_total": 42.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "LV",
+                  "away_score": 22,
+                  "home_score": 19,
+                  "projected_margin": 3,
+                  "projected_total": 41,
+                  "win_probability": 0.606
+                },
+                "previous_market_call": {
+                  "favorite": "NE",
+                  "spread": -3.5,
+                  "total": 45.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "LV",
+                  "total_lean": "UNDER",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "NE",
+                  "spread": -3.5,
+                  "total": 45.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "LV",
+                  "total_lean": "UNDER",
+                  "hype_check": "OVERVALUED",
+                  "spread_edge_points": -6.5,
+                  "total_edge_points": -4.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Only differences above the conservative thresholds produce a lean.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 26.869791666666668,
+                  "pa": 21.703125,
+                  "offense": 26.377604166666668,
+                  "defense": 22.3359375,
+                  "opponents": [
+                    "MIA",
+                    "LAC",
+                    "NO",
+                    "KC"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 18.536458333333332,
+                  "pa": 20.536458333333332,
+                  "offense": 19.094270833333333,
+                  "defense": 19.06927083333333,
+                  "opponents": [
+                    "SEA",
+                    "PIT",
+                    "JAX",
+                    "BUF"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 21.5875,
+                "home_points": 19.070833333333333,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "not_fully_verified",
+                  "effect": "neutral",
+                  "detail": "Current Week 5 QB status not fully verified; no assumed injury penalty."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; LV faced MIA, LAC, NO, KC; NE faced SEA, PIT, JAX, BUF.",
+                "matchup": "Compare each offense with the opponent\u2019s schedule-adjusted points allowed.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Four-game sample; detailed personnel, scheme and weather verification incomplete. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects LV 22\u201319 NE, independently of the market. Against NE -3.5 and 45.5, the spread read is LV and total read is UNDER. Opponent quality is included; confidence remains low with only four games.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -5757,7 +7249,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects MIN 25–22 NO. MIN is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects MIN 25\u201322 NO. MIN is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -5800,6 +7292,175 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-MIN-NO-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "MIN",
+                "away_score": 26,
+                "home_score": 19,
+                "projected_margin": 7,
+                "projected_total": 45,
+                "win_probability": 0.731
+              },
+              "market_comparison": {
+                "favorite": "MIN",
+                "spread": -1.5,
+                "total": 42.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "MIN",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNDERVALUED",
+                "spread_edge_points": 5.5,
+                "total_edge_points": 2.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "MIN",
+                  "winner_side": "AWAY",
+                  "away_score": 25,
+                  "home_score": 22,
+                  "projected_margin": 3,
+                  "projected_total": 47,
+                  "win_probability": 0.631,
+                  "audit": {
+                    "weighted_edge": -0.2462,
+                    "raw_home_margin": -3.5,
+                    "raw_total": 46.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "MIN",
+                  "away_score": 26,
+                  "home_score": 19,
+                  "projected_margin": 7,
+                  "projected_total": 45,
+                  "win_probability": 0.731
+                },
+                "previous_market_call": {
+                  "favorite": "MIN",
+                  "spread": -1.5,
+                  "total": 42.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "MIN",
+                  "total_lean": "OVER",
+                  "hype_check": "FAIR"
+                },
+                "new_market_call": {
+                  "favorite": "MIN",
+                  "spread": -1.5,
+                  "total": 42.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "MIN",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "UNDERVALUED",
+                  "spread_edge_points": 5.5,
+                  "total_edge_points": 2.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Only differences above the conservative thresholds produce a lean.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 22.036458333333332,
+                  "pa": 16.203125,
+                  "offense": 21.94427083333333,
+                  "defense": 16.7359375,
+                  "opponents": [
+                    "GB",
+                    "CHI",
+                    "TB",
+                    "MIA"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 25.203125,
+                  "pa": 29.036458333333332,
+                  "offense": 24.7859375,
+                  "defense": 28.019270833333334,
+                  "opponents": [
+                    "DET",
+                    "BAL",
+                    "LV",
+                    "ATL"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 26.104166666666664,
+                "home_points": 19.162499999999998,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "not_fully_verified",
+                  "effect": "neutral",
+                  "detail": "Current Week 5 QB status not fully verified; no assumed injury penalty."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; MIN faced GB, CHI, TB, MIA; NO faced DET, BAL, LV, ATL.",
+                "matchup": "Compare each offense with the opponent\u2019s schedule-adjusted points allowed.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Four-game sample; detailed personnel, scheme and weather verification incomplete. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects MIN 26\u201319 NO, independently of the market. Against MIN -1.5 and 42.5, the spread read is MIN and total read is NO EDGE. Opponent quality is included; confidence remains low with only four games.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -5933,7 +7594,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects NYG 24–22 WAS. NYG is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects NYG 24\u201322 WAS. NYG is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -5976,6 +7637,182 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-NYG-WAS-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "NYG",
+                "away_score": 25,
+                "home_score": 21,
+                "projected_margin": 4,
+                "projected_total": 46,
+                "win_probability": 0.639
+              },
+              "market_comparison": {
+                "favorite": "WAS",
+                "spread": -3,
+                "total": 43.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "OVERVALUED",
+                "spread_edge_points": -7,
+                "total_edge_points": 2.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "NYG",
+                  "winner_side": "AWAY",
+                  "away_score": 24,
+                  "home_score": 22,
+                  "projected_margin": 2,
+                  "projected_total": 46,
+                  "win_probability": 0.576,
+                  "audit": {
+                    "weighted_edge": -0.1546,
+                    "raw_home_margin": -2,
+                    "raw_total": 46.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "NYG",
+                  "away_score": 25,
+                  "home_score": 21,
+                  "projected_margin": 4,
+                  "projected_total": 46,
+                  "win_probability": 0.639
+                },
+                "previous_market_call": {
+                  "favorite": "WAS",
+                  "spread": -3,
+                  "total": 43.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NYG",
+                  "total_lean": "OVER",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "WAS",
+                  "spread": -3,
+                  "total": 43.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "OVERVALUED",
+                  "spread_edge_points": -7,
+                  "total_edge_points": 2.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Verified availability uncertainty prevents an actionable ATS/total call.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 21.369791666666668,
+                  "pa": 20.869791666666668,
+                  "offense": 20.477604166666666,
+                  "defense": 21.05260416666667,
+                  "opponents": [
+                    "DAL",
+                    "LAR",
+                    "TEN",
+                    "ARI"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 22.369791666666668,
+                  "pa": 28.036458333333332,
+                  "offense": 21.952604166666667,
+                  "defense": 27.919270833333332,
+                  "opponents": [
+                    "PHI",
+                    "DAL",
+                    "SEA",
+                    "IND"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 24.537499999999998,
+                "home_points": 20.645833333333336,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "availability_unresolved",
+                  "effect": "neutral",
+                  "detail": "Washington quarterback availability unresolved after Mariota\u2019s injury; Daniels return is unconfirmed."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; NYG faced DAL, LAR, TEN, ARI; WAS faced PHI, DAL, SEA, IND.",
+                "matchup": "Washington quarterback availability unresolved after Mariota\u2019s injury; Daniels return is unconfirmed.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Washington quarterback availability unresolved after Mariota\u2019s injury; Daniels return is unconfirmed. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects NYG 25\u201321 WAS, independently of the market. Availability uncertainty keeps the betting read on hold. Washington quarterback availability unresolved after Mariota\u2019s injury; Daniels return is unconfirmed.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                },
+                {
+                  "provider": "Official NFL/team report",
+                  "url": "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market",
+                  "reported_injury_risk"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -6109,7 +7946,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects DEN 22–21 LAC. LAC is the spread lean; no clear total edge. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects DEN 22\u201321 LAC. LAC is the spread lean; no clear total edge. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -6152,6 +7989,182 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-DEN-LAC-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "DEN",
+                "away_score": 22,
+                "home_score": 18,
+                "projected_margin": 4,
+                "projected_total": 40,
+                "win_probability": 0.639
+              },
+              "market_comparison": {
+                "favorite": "DEN",
+                "spread": -3.5,
+                "total": 42.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "FAIR",
+                "spread_edge_points": 0.5,
+                "total_edge_points": -2.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "DEN",
+                  "winner_side": "AWAY",
+                  "away_score": 22,
+                  "home_score": 21,
+                  "projected_margin": 1,
+                  "projected_total": 43,
+                  "win_probability": 0.538,
+                  "audit": {
+                    "weighted_edge": -0.0755,
+                    "raw_home_margin": -1,
+                    "raw_total": 42.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "DEN",
+                  "away_score": 22,
+                  "home_score": 18,
+                  "projected_margin": 4,
+                  "projected_total": 40,
+                  "win_probability": 0.639
+                },
+                "previous_market_call": {
+                  "favorite": "DEN",
+                  "spread": -3.5,
+                  "total": 42.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "LAC",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "DEN",
+                  "spread": -3.5,
+                  "total": 42.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "FAIR",
+                  "spread_edge_points": 0.5,
+                  "total_edge_points": -2.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Verified availability uncertainty prevents an actionable ATS/total call.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 20.036458333333332,
+                  "pa": 23.369791666666668,
+                  "offense": 21.894270833333334,
+                  "defense": 21.92760416666667,
+                  "opponents": [
+                    "KC",
+                    "JAX",
+                    "LAR",
+                    "SF"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 18.869791666666668,
+                  "pa": 25.369791666666668,
+                  "offense": 17.952604166666667,
+                  "defense": 24.10260416666667,
+                  "opponents": [
+                    "ARI",
+                    "LV",
+                    "BUF",
+                    "SEA"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 22.137500000000003,
+                "home_points": 17.520833333333336,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "availability_unresolved",
+                  "effect": "neutral",
+                  "detail": "Slater high ankle sprain, Alt still under evaluation, Penning in concussion protocol. Protection risk is material."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; DEN faced KC, JAX, LAR, SF; LAC faced ARI, LV, BUF, SEA.",
+                "matchup": "Slater high ankle sprain, Alt still under evaluation, Penning in concussion protocol. Protection risk is material.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Slater high ankle sprain, Alt still under evaluation, Penning in concussion protocol. Protection risk is material. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects DEN 22\u201318 LAC, independently of the market. Availability uncertainty keeps the betting read on hold. Slater high ankle sprain, Alt still under evaluation, Penning in concussion protocol. Protection risk is material.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                },
+                {
+                  "provider": "Official NFL/team report",
+                  "url": "https://www.chargers.com/news/injury-updates-rashawn-slater-joe-alt-ladd-mcconkey",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market",
+                  "reported_injury_risk"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "https://www.chargers.com/news/injury-updates-rashawn-slater-joe-alt-ladd-mcconkey"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -6285,7 +8298,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects CHI 25–20 GB. CHI is the spread lean; no clear total edge. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects CHI 25\u201320 GB. CHI is the spread lean; no clear total edge. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -6328,6 +8341,182 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-CHI-GB-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "CHI",
+                "away_score": 30,
+                "home_score": 16,
+                "projected_margin": 14,
+                "projected_total": 46,
+                "win_probability": 0.75
+              },
+              "market_comparison": {
+                "favorite": "CHI",
+                "spread": -2.5,
+                "total": 44.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNDERVALUED",
+                "spread_edge_points": 11.5,
+                "total_edge_points": 1.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "CHI",
+                  "winner_side": "AWAY",
+                  "away_score": 25,
+                  "home_score": 20,
+                  "projected_margin": 5,
+                  "projected_total": 45,
+                  "win_probability": 0.666,
+                  "audit": {
+                    "weighted_edge": -0.3383,
+                    "raw_home_margin": -4.5,
+                    "raw_total": 44.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "CHI",
+                  "away_score": 30,
+                  "home_score": 16,
+                  "projected_margin": 14,
+                  "projected_total": 46,
+                  "win_probability": 0.75
+                },
+                "previous_market_call": {
+                  "favorite": "CHI",
+                  "spread": -2.5,
+                  "total": 44.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "CHI",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "UNDERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "CHI",
+                  "spread": -2.5,
+                  "total": 44.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "UNDERVALUED",
+                  "spread_edge_points": 11.5,
+                  "total_edge_points": 1.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Verified availability uncertainty prevents an actionable ATS/total call.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 26.369791666666668,
+                  "pa": 18.536458333333332,
+                  "offense": 27.67760416666667,
+                  "defense": 18.144270833333334,
+                  "opponents": [
+                    "CAR",
+                    "MIN",
+                    "PHI",
+                    "NYJ"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 19.869791666666668,
+                  "pa": 25.203125,
+                  "offense": 20.55260416666667,
+                  "defense": 26.4109375,
+                  "opponents": [
+                    "MIN",
+                    "NYJ",
+                    "ATL",
+                    "TB"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 30.229166666666668,
+                "home_points": 16.337500000000002,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "availability_unresolved",
+                  "effect": "neutral",
+                  "detail": "Bagent demonstrated productive relief play; Chicago starter remains unresolved. Green Bay lost Cooper for the season."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; CHI faced CAR, MIN, PHI, NYJ; GB faced MIN, NYJ, ATL, TB.",
+                "matchup": "Bagent demonstrated productive relief play; Chicago starter remains unresolved. Green Bay lost Cooper for the season.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Bagent demonstrated productive relief play; Chicago starter remains unresolved. Green Bay lost Cooper for the season. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects CHI 30\u201316 GB, independently of the market. Availability uncertainty keeps the betting read on hold. Bagent demonstrated productive relief play; Chicago starter remains unresolved. Green Bay lost Cooper for the season.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                },
+                {
+                  "provider": "Official NFL/team report",
+                  "url": "https://www.packers.com/news/lb-edgerrin-cooper-is-tough-one-to-lose-for-packers-oct-5-2026",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market",
+                  "reported_injury_risk"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "https://www.packers.com/news/lb-edgerrin-cooper-is-tough-one-to-lose-for-packers-oct-5-2026"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -6461,7 +8650,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects DET 29–28 ARI. ARI is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects DET 29\u201328 ARI. ARI is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -6504,6 +8693,175 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-DET-ARI-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "DET",
+                "away_score": 31,
+                "home_score": 29,
+                "projected_margin": 2,
+                "projected_total": 60,
+                "win_probability": 0.571
+              },
+              "market_comparison": {
+                "favorite": "DET",
+                "spread": -4.5,
+                "total": 54.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "OVER",
+                "hype_check": "FAIR",
+                "spread_edge_points": -2.5,
+                "total_edge_points": 5.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "DET",
+                  "winner_side": "AWAY",
+                  "away_score": 29,
+                  "home_score": 28,
+                  "projected_margin": 1,
+                  "projected_total": 57,
+                  "win_probability": 0.538,
+                  "audit": {
+                    "weighted_edge": -0.0887,
+                    "raw_home_margin": -1,
+                    "raw_total": 56.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "DET",
+                  "away_score": 31,
+                  "home_score": 29,
+                  "projected_margin": 2,
+                  "projected_total": 60,
+                  "win_probability": 0.571
+                },
+                "previous_market_call": {
+                  "favorite": "DET",
+                  "spread": -4.5,
+                  "total": 54.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "ARI",
+                  "total_lean": "OVER",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "DET",
+                  "spread": -4.5,
+                  "total": 54.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "OVER",
+                  "hype_check": "FAIR",
+                  "spread_edge_points": -2.5,
+                  "total_edge_points": 5.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Only differences above the conservative thresholds produce a lean.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 27.536458333333332,
+                  "pa": 28.869791666666668,
+                  "offense": 26.74427083333333,
+                  "defense": 28.252604166666668,
+                  "opponents": [
+                    "NO",
+                    "BUF",
+                    "NYJ",
+                    "CAR"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 22.203125,
+                  "pa": 27.203125,
+                  "offense": 23.2609375,
+                  "defense": 27.6609375,
+                  "opponents": [
+                    "LAC",
+                    "SEA",
+                    "SF",
+                    "NYG"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 30.54583333333333,
+                "home_points": 29.15416666666667,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "not_fully_verified",
+                  "effect": "neutral",
+                  "detail": "Current Week 5 QB status not fully verified; no assumed injury penalty."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; DET faced NO, BUF, NYJ, CAR; ARI faced LAC, SEA, SF, NYG.",
+                "matchup": "Compare each offense with the opponent\u2019s schedule-adjusted points allowed.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Four-game sample; detailed personnel, scheme and weather verification incomplete. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects DET 31\u201329 ARI, independently of the market. Against DET -4.5 and 54.5, the spread read is NO EDGE and total read is OVER. Opponent quality is included; confidence remains low with only four games.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -6637,7 +8995,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects SF 24–22 SEA. SF is the spread lean; no clear total edge. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects SF 24\u201322 SEA. SF is the spread lean; no clear total edge. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -6680,6 +9038,175 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-SF-SEA-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "SF",
+                "away_score": 25,
+                "home_score": 21,
+                "projected_margin": 4,
+                "projected_total": 46,
+                "win_probability": 0.639
+              },
+              "market_comparison": {
+                "favorite": "SEA",
+                "spread": -2.5,
+                "total": 47.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "SF",
+                "total_lean": "NO EDGE",
+                "hype_check": "OVERVALUED",
+                "spread_edge_points": -6.5,
+                "total_edge_points": -1.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "SF",
+                  "winner_side": "AWAY",
+                  "away_score": 24,
+                  "home_score": 22,
+                  "projected_margin": 2,
+                  "projected_total": 46,
+                  "win_probability": 0.557,
+                  "audit": {
+                    "weighted_edge": -0.1062,
+                    "raw_home_margin": -1.5,
+                    "raw_total": 45.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "SF",
+                  "away_score": 25,
+                  "home_score": 21,
+                  "projected_margin": 4,
+                  "projected_total": 46,
+                  "win_probability": 0.639
+                },
+                "previous_market_call": {
+                  "favorite": "SEA",
+                  "spread": -2.5,
+                  "total": 47.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "SF",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "SEA",
+                  "spread": -2.5,
+                  "total": 47.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "SF",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "OVERVALUED",
+                  "spread_edge_points": -6.5,
+                  "total_edge_points": -1.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Only differences above the conservative thresholds produce a lean.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 28.036458333333332,
+                  "pa": 18.369791666666668,
+                  "offense": 28.14427083333333,
+                  "defense": 19.60260416666667,
+                  "opponents": [
+                    "LAR",
+                    "MIA",
+                    "ARI",
+                    "DEN"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 25.203125,
+                  "pa": 19.869791666666668,
+                  "offense": 24.2109375,
+                  "defense": 20.952604166666667,
+                  "opponents": [
+                    "NE",
+                    "ARI",
+                    "WAS",
+                    "LAC"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 25.237499999999997,
+                "home_points": 21.45416666666667,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "not_fully_verified",
+                  "effect": "neutral",
+                  "detail": "Current Week 5 QB status not fully verified; no assumed injury penalty."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; SF faced LAR, MIA, ARI, DEN; SEA faced NE, ARI, WAS, LAC.",
+                "matchup": "Compare each offense with the opponent\u2019s schedule-adjusted points allowed.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Four-game sample; detailed personnel, scheme and weather verification incomplete. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects SF 25\u201321 SEA, independently of the market. Against SEA -2.5 and 47.5, the spread read is SF and total read is NO EDGE. Opponent quality is included; confidence remains low with only four games.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -6813,7 +9340,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects BAL 26–25 ATL. ATL is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects BAL 26\u201325 ATL. ATL is the spread lean; OVER is the total lean. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -6856,6 +9383,182 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-BAL-ATL-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "BAL",
+                "away_score": 25,
+                "home_score": 23,
+                "projected_margin": 2,
+                "projected_total": 48,
+                "win_probability": 0.571
+              },
+              "market_comparison": {
+                "favorite": "BAL",
+                "spread": -2.5,
+                "total": 45.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "FAIR",
+                "spread_edge_points": -0.5,
+                "total_edge_points": 2.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "BAL",
+                  "winner_side": "AWAY",
+                  "away_score": 26,
+                  "home_score": 25,
+                  "projected_margin": 1,
+                  "projected_total": 51,
+                  "win_probability": 0.538,
+                  "audit": {
+                    "weighted_edge": -0.0625,
+                    "raw_home_margin": -1,
+                    "raw_total": 50
+                  }
+                },
+                "new_projection": {
+                  "winner": "BAL",
+                  "away_score": 25,
+                  "home_score": 23,
+                  "projected_margin": 2,
+                  "projected_total": 48,
+                  "win_probability": 0.571
+                },
+                "previous_market_call": {
+                  "favorite": "BAL",
+                  "spread": -2.5,
+                  "total": 45.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "ATL",
+                  "total_lean": "OVER",
+                  "hype_check": "FAIR"
+                },
+                "new_market_call": {
+                  "favorite": "BAL",
+                  "spread": -2.5,
+                  "total": 45.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "FAIR",
+                  "spread_edge_points": -0.5,
+                  "total_edge_points": 2.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Verified availability uncertainty prevents an actionable ATS/total call.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 27.036458333333332,
+                  "pa": 23.703125,
+                  "offense": 26.19427083333333,
+                  "defense": 23.4359375,
+                  "opponents": [
+                    "IND",
+                    "NO",
+                    "DAL",
+                    "TEN"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 23.703125,
+                  "pa": 23.036458333333332,
+                  "offense": 22.3109375,
+                  "defense": 22.86927083333333,
+                  "opponents": [
+                    "PIT",
+                    "CAR",
+                    "GB",
+                    "NO"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 25.204166666666662,
+                "home_points": 23.387500000000003,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "availability_unresolved",
+                  "effect": "neutral",
+                  "detail": "Jackson\u2019s Week 5 availability remains unresolved; Huntley is the alternative, not an automatic failure."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; BAL faced IND, NO, DAL, TEN; ATL faced PIT, CAR, GB, NO.",
+                "matchup": "Jackson\u2019s Week 5 availability remains unresolved; Huntley is the alternative, not an automatic failure.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Jackson\u2019s Week 5 availability remains unresolved; Huntley is the alternative, not an automatic failure. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects BAL 25\u201323 ATL, independently of the market. Availability uncertainty keeps the betting read on hold. Jackson\u2019s Week 5 availability remains unresolved; Huntley is the alternative, not an automatic failure.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                },
+                {
+                  "provider": "Official NFL/team report",
+                  "url": "https://www.baltimoreravens.com/news/lamar-jackson-ankle-injury-update-jesse-minter-ravens-pass-rush-defensive-line-tyler-loop",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market",
+                  "reported_injury_risk"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "https://www.baltimoreravens.com/news/lamar-jackson-ankle-injury-update-jesse-minter-ravens-pass-rush-defensive-line-tyler-loop"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }
@@ -6989,7 +9692,7 @@
                 "home_field": "Small generic home-field effect from the existing trial model.",
                 "primary_risk": "Provisional four-game baseline. Injuries, line health, weather and scheme evidence are not verified."
               },
-              "editorial_read": "WTO’s provisional four-game baseline projects BUF 26–25 LAR. BUF is the spread lean; UNDER is the total lean. Confidence is low until personnel and weather are verified.",
+              "editorial_read": "WTO\u2019s provisional four-game baseline projects BUF 26\u201325 LAR. BUF is the spread lean; UNDER is the total lean. Confidence is low until personnel and weather are verified.",
               "sources": [
                 {
                   "id": "verified-results",
@@ -7032,6 +9735,175 @@
                 {
                   "field": "matchup",
                   "reason": "Opponent-adjusted scheme evidence not verified."
+                }
+              ]
+            },
+            {
+              "revision_id": "2026-W05-BUF-LAR-evidence-20261006123231173",
+              "revision_type": "evidence_revision",
+              "generated_at": "2026-10-06T12:32:31.173Z",
+              "independent_projection": {
+                "winner": "LAR",
+                "away_score": 26,
+                "home_score": 27,
+                "projected_margin": 1,
+                "projected_total": 53,
+                "win_probability": 0.536
+              },
+              "market_comparison": {
+                "favorite": "LAR",
+                "spread": -2.5,
+                "total": 54.5,
+                "provider": "CBS Sports consensus",
+                "market_as_of": "2026-10-06T06:03:52-04:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "FAIR",
+                "spread_edge_points": -1.5,
+                "total_edge_points": -1.5
+              },
+              "confidence": "LOW",
+              "what_changed": {
+                "previous_projection": {
+                  "winner": "BUF",
+                  "winner_side": "AWAY",
+                  "away_score": 26,
+                  "home_score": 25,
+                  "projected_margin": 1,
+                  "projected_total": 51,
+                  "win_probability": 0.538,
+                  "audit": {
+                    "weighted_edge": -0.0712,
+                    "raw_home_margin": -1,
+                    "raw_total": 50.5
+                  }
+                },
+                "new_projection": {
+                  "winner": "LAR",
+                  "away_score": 26,
+                  "home_score": 27,
+                  "projected_margin": 1,
+                  "projected_total": 53,
+                  "win_probability": 0.536
+                },
+                "previous_market_call": {
+                  "favorite": "LAR",
+                  "spread": -2.5,
+                  "total": 54.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "BUF",
+                  "total_lean": "UNDER",
+                  "hype_check": "OVERVALUED"
+                },
+                "new_market_call": {
+                  "favorite": "LAR",
+                  "spread": -2.5,
+                  "total": 54.5,
+                  "provider": "CBS Sports consensus",
+                  "market_as_of": "2026-10-06T06:03:52-04:00",
+                  "ats_lean": "NO EDGE",
+                  "total_lean": "NO EDGE",
+                  "hype_check": "FAIR",
+                  "spread_edge_points": -1.5,
+                  "total_edge_points": -1.5
+                }
+              },
+              "why_changed": "Opponent-adjusted scoring replaces compressed margin weighting; offense and opponent defense now determine each team\u2019s independent score. Only differences above the conservative thresholds produce a lean.",
+              "model_audit": {
+                "version": "opponent-adjusted-points-v2",
+                "away": {
+                  "count": 4,
+                  "pf": 28.869791666666668,
+                  "pa": 25.536458333333332,
+                  "offense": 28.502604166666668,
+                  "defense": 26.76927083333333,
+                  "opponents": [
+                    "HOU",
+                    "DET",
+                    "LAC",
+                    "NE"
+                  ]
+                },
+                "home": {
+                  "count": 4,
+                  "pf": 21.869791666666668,
+                  "pa": 21.536458333333332,
+                  "offense": 22.67760416666667,
+                  "defense": 21.719270833333333,
+                  "opponents": [
+                    "SF",
+                    "NYG",
+                    "DEN",
+                    "PHI"
+                  ]
+                },
+                "league": 23.109375,
+                "away_points": 26.3625,
+                "home_points": 27.0875,
+                "shrinkage_pseudo_games": 2,
+                "opponent_adjustment_strength": 0.5,
+                "home_points_effect": 0.75,
+                "market_used_as_input": false,
+                "probability_calibrated": false,
+                "injury_point_adjustment": 0,
+                "injury_policy": "Unresolved availability holds actionable calls rather than inventing a point penalty."
+              },
+              "factor_summary": {
+                "quarterback": {
+                  "status": "not_fully_verified",
+                  "effect": "neutral",
+                  "detail": "Current Week 5 QB status not fully verified; no assumed injury penalty."
+                },
+                "weather": {
+                  "forecast_stage": "unavailable",
+                  "effect": "neutral",
+                  "detail": "Forecast wind, precipitation and roof status remain unverified; no weather points applied."
+                },
+                "recent_form": "Opponent-adjusted scoring through Week 4; BUF faced HOU, DET, LAC, NE; LAR faced SF, NYG, DEN, PHI.",
+                "matchup": "Compare each offense with the opponent\u2019s schedule-adjusted points allowed.",
+                "home_field": "Small venue allowance applied.",
+                "primary_risk": "Four-game sample; detailed personnel, scheme and weather verification incomplete. Trial probabilities are uncalibrated; current forecasts remain unverified."
+              },
+              "editorial_read": "WTO projects BUF 26\u201327 LAR, independently of the market. Against LAR -2.5 and 54.5, the spread read is NO EDGE and total read is NO EDGE. Opponent quality is included; confidence remains low with only four games.",
+              "sources": [
+                {
+                  "provider": "WTO verified results",
+                  "url": "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json",
+                  "checked_at": "2026-10-06T12:32:31.173Z"
+                },
+                {
+                  "provider": "CBS Sports consensus",
+                  "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+                  "checked_at": "2026-10-06T06:03:52-04:00"
+                }
+              ],
+              "verification_confirmation": {
+                "status": "partial",
+                "verified_at": "2026-10-06T12:32:31.173Z",
+                "verified_fields": [
+                  "prior_results",
+                  "opponents",
+                  "schedule_adjusted_scoring",
+                  "stored_market"
+                ],
+                "unverified_fields": [
+                  "final_week5_availability",
+                  "weather",
+                  "complete_scheme_metrics"
+                ],
+                "source_urls": [
+                  "https://github.com/yarnbucket/WTO/blob/36f2ad7ffe4e7230d6e8b1a3e75c411c3934dd62/ff26-nfl-lines-2026.json"
+                ]
+              },
+              "unavailable_fields": [
+                {
+                  "field": "weather",
+                  "reason": "Current weather not verified."
+                },
+                {
+                  "field": "final_week5_availability",
+                  "reason": "Final participation and game designations not yet confirmed."
                 }
               ]
             }

@@ -5881,6 +5881,18 @@
                 "receiving_yards": 89
               }
             }
+          },
+          "postgame_summary": "Cleveland pressure and takeaways decided it; Pittsburgh protection failed. WTO projected PIT 20–20 CLE; final PIT 24–27 CLE. Winner NO EDGE / unscored, spread hit, total NO EDGE / unscored — PARTIALLY ACCURATE.",
+          "postgame_evidence": {
+            "metrics": {
+              "pit_sacks_allowed": 5,
+              "pit_interceptions": 2
+            },
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/steelers-browns-on-thursday-night-football-what-we-learned-from-cleveland-s-27-24-win"
+            ],
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -6019,27 +6031,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "IND 30–13 WAS. IND won 13–30 after WTO projected WAS 27–28. The straight-up call missed, the WAS ATS lean missed, and the Over lean missed. The final score differed from the projection by 18 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Taylor carried Indianapolis; Washington lost Mariota during the game. WTO projected IND 27–28 WAS; final IND 30–13 WAS. Winner missed, spread missed, total missed — MISSED.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 30,
-              "home_score": 13,
-              "combined_points": 43
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -6178,27 +6177,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "ARI 24–36 NYG. NYG won 36–24 after WTO projected NYG 20–21. The straight-up call hit, the NYG ATS lean hit, and the Under lean missed. The final score differed from the projection by 19 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Banks ended Arizona’s comeback with a decisive interception return. WTO projected ARI 20–21 NYG; final ARI 24–36 NYG. Winner hit, spread hit, total missed — PARTIALLY ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 24,
-              "home_score": 36,
-              "combined_points": 60
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -6337,27 +6323,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "DAL 34–30 HOU. DAL won 30–34 after WTO projected DAL 26–24. The straight-up call hit, the DAL ATS lean hit, and the Over lean hit. The final score differed from the projection by 14 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Lamb overwhelmed Houston’s coverage; Dallas scored repeatedly after halftime. WTO projected DAL 26–24 HOU; final DAL 34–30 HOU. Winner hit, spread hit, total hit — ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 34,
-              "home_score": 30,
-              "combined_points": 64
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -6496,27 +6469,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "GB 17–14 TB. GB won 14–17 after WTO projected TB 23–25. The straight-up call missed, the ATS call was not scored, and the Over lean missed. The final score differed from the projection by 17 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Green Bay pressure stopped Tampa Bay’s final possession. WTO projected GB 23–25 TB; final GB 17–14 TB. Winner missed, spread NO EDGE / unscored, total missed — MISSED.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 17,
-              "home_score": 14,
-              "combined_points": 31
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -6655,27 +6615,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "JAX 22–17 CIN. JAX won 17–22 after WTO projected JAX 23–21. The straight-up call hit, the JAX ATS lean hit, and the Under lean hit. The final score differed from the projection by 5 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Burrow interceptions erased opportunities; Jacksonville capitalized. WTO projected JAX 23–21 CIN; final JAX 22–17 CIN. Winner hit, spread hit, total hit — ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 22,
-              "home_score": 17,
-              "combined_points": 39
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -6814,27 +6761,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "LAR 24–20 PHI. LAR won 20–24 after WTO projected LAR 21–20. The straight-up call hit, the PHI ATS lean missed, and the Under lean missed. The final score differed from the projection by 3 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Philadelphia went 0-for-12 on third down; Williams finished the comeback. WTO projected LAR 21–20 PHI; final LAR 24–20 PHI. Winner hit, spread missed, total missed — PARTIALLY ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 24,
-              "home_score": 20,
-              "combined_points": 44
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://www.philadelphiaeagles.com/news/rams-vs-eagles-game-recap-october-4-2026-nfl-week-4-regular-season-jalen-hurts-matthew-stafford"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -6973,27 +6907,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "NE 29–26 BUF. NE won 26–29 after WTO projected BUF 21–24. The straight-up call missed, the NE ATS lean hit, and the Under lean missed. The final score differed from the projection by 10 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Maye delivered late; Buffalo couldn’t finish defensively. WTO projected NE 21–24 BUF; final NE 29–26 BUF. Winner missed, spread hit, total missed — PARTIALLY ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 29,
-              "home_score": 26,
-              "combined_points": 55
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -7132,27 +7053,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "NYJ 12–23 CHI. CHI won 23–12 after WTO projected CHI 21–24. The straight-up call hit, the ATS call was not scored, and the total call was not scored. The final score differed from the projection by 10 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Chicago’s running game supported Bagent; New York couldn’t sustain offense. WTO projected NYJ 21–24 CHI; final NYJ 12–23 CHI. Winner hit, spread NO EDGE / unscored, total NO EDGE / unscored — ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 12,
-              "home_score": 23,
-              "combined_points": 35
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -7291,27 +7199,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "TEN 18–24 BAL. BAL won 24–18 after WTO projected BAL 21–24. The straight-up call hit, the TEN ATS lean hit, and the total call was not scored. The final score differed from the projection by 3 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Baltimore’s defense protected the lead after Jackson exited. WTO projected TEN 21–24 BAL; final TEN 18–24 BAL. Winner hit, spread hit, total NO EDGE / unscored — ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 18,
-              "home_score": 24,
-              "combined_points": 42
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -7450,27 +7345,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "MIA 10–15 MIN. MIN won 15–10 after WTO projected MIN 17–22. The straight-up call hit, the MIA ATS lean hit, and the total call was not scored. The final score differed from the projection by 14 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Reichard’s kicking carried Minnesota; offensive finishing remained weak. WTO projected MIA 17–22 MIN; final MIA 10–15 MIN. Winner hit, spread hit, total NO EDGE / unscored — ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 10,
-              "home_score": 15,
-              "combined_points": 25
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -7609,27 +7491,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "DEN 14–24 SF. SF won 24–14 after WTO projected SF 21–26. The straight-up call hit, the SF ATS lean hit, and the total call was not scored. The final score differed from the projection by 9 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Kittle’s screen punished Denver; San Francisco controlled the run. WTO projected DEN 21–26 SF; final DEN 14–24 SF. Winner hit, spread hit, total NO EDGE / unscored — ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 14,
-              "home_score": 24,
-              "combined_points": 38
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -7768,27 +7637,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "KC 30–27 LV. KC won 27–30 after WTO recorded no straight-up edge at 23–23. The straight-up call was not scored, the LV ATS lean hit, and the total call was not scored. The final score differed from the projection by 11 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Walker and special teams supplied Kansas City’s decisive separation. WTO projected KC 23–23 LV; final KC 30–27 LV. Winner NO EDGE / unscored, spread hit, total NO EDGE / unscored — PARTIALLY ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 30,
-              "home_score": 27,
-              "combined_points": 57
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -7927,27 +7783,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "LAC 23–30 SEA. SEA won 30–23 after WTO projected SEA 18–23. The straight-up call hit, the ATS call was not scored, and the total call was not scored. The final score differed from the projection by 12 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Herbert turnovers undermined Los Angeles; Seattle finished with pressure. WTO projected LAC 18–23 SEA; final LAC 23–30 SEA. Winner hit, spread NO EDGE / unscored, total NO EDGE / unscored — ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 23,
-              "home_score": 30,
-              "combined_points": 53
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -8086,27 +7929,14 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "DET 26–32 CAR. CAR won 32–26 after WTO projected CAR 30–31. The straight-up call hit, the CAR ATS lean hit, and the Over lean hit. The final score differed from the projection by 5 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "McMillan exposed Detroit’s coverage; Carolina finished drives better. WTO projected DET 30–31 CAR; final DET 26–32 CAR. Winner hit, spread hit, total hit — ACCURATE.",
           "postgame_evidence": {
-            "metrics": {
-              "away_score": 26,
-              "home_score": 32,
-              "combined_points": 58
-            },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "metrics": {},
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/2026-nfl-season-week-4-what-we-learned-from-sunday-s-games"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         },
         {
@@ -8229,27 +8059,18 @@
               "result": "No accessible explicit archived closing designation; latest stored verified pregame snapshot retained for grading."
             }
           ],
-          "postgame_summary": "ATL 45–24 NO. ATL won 24–45 after WTO projected NO 23–24. The straight-up call missed, the ATL ATS lean hit, and the total call was not scored. The final score differed from the projection by 22 combined team points. Detailed football causes remain unverified.",
+          "postgame_summary": "Atlanta ran through New Orleans; defensive absences and missed tackles mattered. WTO projected ATL 23–24 NO; final ATL 45–24 NO. Winner missed, spread hit, total NO EDGE / unscored — PARTIALLY ACCURATE.",
           "postgame_evidence": {
             "metrics": {
-              "away_score": 45,
-              "home_score": 24,
-              "combined_points": 69
+              "atl_rushing_yards": 205,
+              "atl_rushing_touchdowns": 5,
+              "no_missed_tackles": 19
             },
-            "providers": [
-              {
-                "provider": "CBS Sports",
-                "url": "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              },
-              {
-                "provider": "NFL",
-                "url": "https://www.nfl.com/schedules/2026/REG4/",
-                "checked_at": "2026-10-06T06:03:52-04:00"
-              }
+            "provider": "NFL / official team recap",
+            "source_urls": [
+              "https://fantasy-www.nfl.com/news/falcons-saints-on-monday-night-football-what-we-learned-from-atlanta-s-45-24-win"
             ],
-            "verified_at": "2026-10-06T06:03:52-04:00",
-            "evidence_note": "Score and grading outcome verified; detailed causal metrics unavailable."
+            "verified_at": "2026-10-06T12:32:31.173Z"
           }
         }
       ]
