@@ -49,7 +49,7 @@ test('grades_ats_with_verified_or_last_verified_line',()=>{const grade=gradeRevi
 test('grades_total_push',()=>assert.equal(gradeRevision(valid(),finalGame).total_result,'PUSH'));
 test('calculates_score_and_margin_error',()=>{const grade=gradeRevision(valid(),finalGame);assert.equal(grade.absolute_score_error,6);assert.equal(grade.absolute_margin_error,0);});
 test('service_worker_caches_insight_artifact',()=>assert.match(fs.readFileSync(new URL('../sw.js',import.meta.url),'utf8'),/wto-game-insights-2026\.json/));
-test('service_worker_cache_version_is_incremented',()=>assert.match(fs.readFileSync(new URL('../sw.js',import.meta.url),'utf8'),/wto-shell-v16/));
+test('service_worker_cache_version_is_incremented',()=>assert.match(fs.readFileSync(new URL('../sw.js',import.meta.url),'utf8'),/wto-shell-v17/));
 
 const editorialModel=()=>({
   away:'PIT',home:'CLE',neutral_total:42,total_adjustments:[{key:'weather',points:-1}],

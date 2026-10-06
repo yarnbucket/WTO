@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v16';
+const CACHE = 'wto-shell-v17';
 
 const SHELL = [
   './',
