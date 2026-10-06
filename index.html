@@ -329,7 +329,7 @@
 @media(max-width:390px){.weekly-result-head,.weekly-result-row{grid-template-columns:minmax(0,1fr) 58px 58px;gap:4px}.special-result-badge{font-size:7px;padding:2px 5px}}
 .scope-info-hero{padding:18px;border:1px solid var(--field-line);border-radius:18px;background:rgba(6,16,9,.82);margin-bottom:14px}.scope-info-hero span{color:var(--gold);font:11px 'Share Tech Mono',monospace;letter-spacing:1px}.scope-info-hero h1{margin:5px 0 2px;font:28px 'Anton',sans-serif;letter-spacing:.7px}.scope-info-hero p{margin:0;color:var(--grey)}.top-player-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.top-player-card{min-height:82px;padding:11px;border:1px solid var(--field-line);border-radius:9px;background:rgba(7,24,14,.82)}.top-player-card span{display:block;color:var(--gold);font:10px 'Share Tech Mono',monospace;letter-spacing:.7px}.top-player-card strong{display:block;margin-top:8px;font:17px 'Anton',sans-serif;letter-spacing:.35px}.top-player-pending{padding:14px;border:1px dashed #665a38;color:var(--grey);font:12px 'Share Tech Mono',monospace;text-align:center}@media(max-width:370px){.top-player-grid{grid-template-columns:1fr}}
 </style>
-<link rel="stylesheet" href="./wto-slip.css?v=20">
+<link rel="stylesheet" href="./wto-slip.css?v=21">
 </head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
@@ -860,7 +860,7 @@ function openTeamInfo(team,week=current){
 function closeTeamInfo(fromPop=false){const returnSummary=detailView.dataset.returnSummary==='true';delete detailView.dataset.team;delete detailView.dataset.scope;delete detailView.dataset.returnSummary;detailView.classList.remove('active');listView.classList.remove('hidden');if(!fromPop&&location.hash.startsWith('#team-'))history.back();if(returnSummary){trackerScreen.classList.add('app-hidden');summaryScreen.classList.remove('app-hidden');renderExecutive();scheduleStadiumGlow()}requestAnimationFrame(()=>scrollTo(0,returnScroll))}
 function closeGame(fromPop=false){detailView.classList.remove('active');listView.classList.remove('hidden');if(!fromPop&&location.hash.startsWith('#game-'))history.back();requestAnimationFrame(()=>scrollTo(0,returnScroll))}
 addEventListener('popstate',()=>{if(detailView.classList.contains('active'))(detailView.dataset.team||detailView.dataset.scope)?closeTeamInfo(true):closeGame(true)});
-async function loadHistory(){if(historyData)return historyData;if(historyPromise)return historyPromise;historyPromise=fetch('./wto-history-2021-2025.json?v=20260911-repair1',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(j=>{if(!j?.teams||!j?.head_to_head)throw Error();return historyData=j}).catch(()=>null);return historyPromise}
+async function loadHistory(){if(historyData)return historyData;if(historyPromise)return historyPromise;historyPromise=fetch('./wto-history-2021-2025.json?v=21260911-repair1',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(j=>{if(!j?.teams||!j?.head_to_head)throw Error();return historyData=j}).catch(()=>null);return historyPromise}
 async function loadFutures(){if(futuresData)return futuresData;if(futuresPromise)return futuresPromise;futuresPromise=fetch('./wto-futures-2026.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(j=>futuresData=j).catch(()=>null);return futuresPromise}
 let weeklyLeagueWeek=1,weeklyVisible={home:true,away:true,over:true,under:true,atsPush:false,totalPush:false};
 function specialResultBadges(g){const badges=Array.isArray(g.specialBadges)?g.specialBadges:[];return badges.map(label=>label==='SCORIGAMI'?'<span class="special-result-badge scorigami"><span aria-hidden="true">✦</span> SCORIGAMI</span>':'<span class="special-result-badge overtime">OT</span>').join('')}
@@ -1037,6 +1037,6 @@ if(document.readyState==='loading'){
 })();
 </script>
 <script src="./wto-slip-lib.js"></script>
-<script src="./wto-slip.js?v=20"></script>
+<script src="./wto-slip.js?v=21"></script>
 </body>
 </html>
