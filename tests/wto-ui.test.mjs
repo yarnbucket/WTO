@@ -83,9 +83,9 @@ test('omits unsupported player-rising recap bullet',()=>{
   assert.equal(ui.postgameBullets(finalGame,review,grade).some(x=>x.key==='player_rising'),false);
 });
 
-test('fallback recap contains only the verified mechanical final',()=>{
+test('fallback recap contains the verified final and prediction comparison',()=>{
   const ui=loadUI(),grade=ui.evaluatePredictionOutcome(finalGame,revision),items=ui.postgameBullets(finalGame,null,grade);
-  assert.deepEqual([...items.map(item=>item.key)],['final']);
+  assert.deepEqual([...items.map(item=>item.key)],['final','prediction_comparison','prediction_analysis']);
 });
 
 test('loads WTOUI helper before application code',()=>{

@@ -119,7 +119,12 @@
     const awayScore=game.awayScore??game.away_score,homeScore=game.homeScore??game.home_score;
     const outcome=marketOutcome(game),ats=upper(outcome.ats_result)||'PENDING',total=upper(outcome.total_result)||'PENDING';
     const final=`${game.away} ${awayScore}–${homeScore} ${game.home} · ATS ${ats} · ${total}`;
-    return [{key:'final',text:final}];
+    const bullets=[{key:'final',text:final}];
+    if(grade){
+      bullets.push({key:'prediction_comparison',text:`WTO projected ${grade.projected_score}; final ${grade.final_score}. ${grade.verdict.replaceAll('_',' ')}.`});
+      bullets.push({key:'prediction_analysis',text:grade.summary});
+    }
+    return bullets;
   }
 
   root.WTOUI={latestMarket,marketOutcome,evaluatePredictionOutcome,selectOutcomeSummary,weatherView,compactRead,pickSummary,postgameBullets};
