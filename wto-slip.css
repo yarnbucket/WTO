@@ -14,3 +14,5 @@
 .slip-clean-row{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:8px;padding:14px 0;border-bottom:1px solid #455049;font-size:18px;white-space:nowrap}.slip-card-spreads{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:8px}.slip-card-spreads input,.slip-card-total input{width:100%;min-width:0;box-sizing:border-box;background:#08110b;color:white;border:1px solid #ffc72c;border-radius:8px;font-size:20px;text-align:center}.slip-card-total{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}.slip-card-spreads,.slip-card-total{margin-bottom:14px}.slip-card-spreads button,.slip-card-total button{min-height:46px}.pick-area>.slip-add{width:100%;margin-top:15px}
 
 .slip-clear{margin-top:8px;min-height:44px;width:100%;background:transparent;color:#ffc72c;border:1px solid #455049;border-radius:8px}
+
+.slip-clean-row{grid-template-columns:1fr 1fr 1.2fr 34px;gap:5px;align-items:center}.my-slip-dialog .slip-remove-row{min-height:40px;width:34px;padding:0;font-size:23px;background:transparent;color:#ffc72c;border:1px solid #455049;border-radius:7px}.slip-clean-row span{font-size:clamp(13px,3.5vw,18px)}
