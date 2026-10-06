@@ -16,3 +16,5 @@
 .slip-clear{margin-top:8px;min-height:44px;width:100%;background:transparent;color:#ffc72c;border:1px solid #455049;border-radius:8px}
 
 .slip-clean-row{grid-template-columns:1fr 1fr 1.2fr 34px;gap:5px;align-items:center}.my-slip-dialog .slip-remove-row{min-height:40px;width:34px;padding:0;font-size:23px;background:transparent;color:#ffc72c;border:1px solid #455049;border-radius:7px}.slip-clean-row span{font-size:clamp(13px,3.5vw,18px)}
+
+.pick-btn small{display:block;font-size:12px;font-weight:normal;margin-top:5px}.matchup-projection{padding:12px 0;text-align:center}.projection-chances{display:flex;justify-content:space-between;color:#ffc72c}.projection-bar{height:10px;background:#ffc72c;border-radius:8px;overflow:hidden;margin:12px 0}.projection-bar span{display:block;height:100%;background:#647f6d}.matchup-projection p,.matchup-why p{font-size:15px;line-height:1.5}.matchup-why{padding:12px 0;border-top:1px solid #294132}.team-analysis-card li{margin:12px 0;line-height:1.5}.team-analysis-card details{margin-top:16px}.team-analysis-card a{color:#ffc72c}
