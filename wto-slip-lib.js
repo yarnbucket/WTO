@@ -14,5 +14,6 @@
   return {id:previous?.id??`${game.id}:${kind}:${group}`,game_id:game.id,week:game.week,season:2026,kind,side,line,price,group,custom:kind!=='winner'&&line!==m.line,market_line:m.line,market_price:m.price,market_as_of:game.marketAsOf??null,market_provider:game.priceProvider??null,saved_at:at,history};
  }
  function grade(p,g){if(!g||g.status!=='final')return 'PENDING';const a=num(g.awayScore??g.away_score),h=num(g.homeScore??g.home_score);if(a==null||h==null||!Number.isFinite(a)||!Number.isFinite(h))return 'PENDING';let delta;if(p.kind==='winner')delta=p.side===g.away?a-h:h-a;else if(p.kind==='spread')delta=(p.side===g.away?a-h:h-a)+p.line;else delta=(a+h-p.line)*(p.side==='over'?1:-1);return delta===0?'PUSH':delta>0?'WON':'LOST';}
- root.WTOSlip={save,grade,locked,market};
+ function select(picks,next){return [...picks.filter(p=>p.game_id!==next.game_id||p.kind!==next.kind),next]}
+ root.WTOSlip={save,grade,locked,market,select};
 })(typeof globalThis!=='undefined'?globalThis:this);
