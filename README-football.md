@@ -9,3 +9,7 @@ The baseline is preserved in `wto-division-read.js`, separate from futures odds.
 Interpretation compares actual win percentage with projected season wins divided by 17: above/below by more than 15 percentage points is exceeding/falling behind; otherwise on track. Fewer than four completed games are labeled an early read. Scoring margin and opponents’ win percentage outside games against the featured team provide context; repeated opponents count once per matchup. These are descriptive indicators, not betting value or prediction adjustments.
 
 Source: https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf (September 9 baseline).
+
+## Shared matchup and picks
+
+Week 5 onward uses one scheduled matchup card for projected score, confidence, winner probabilities, editable spread/total picks and Add to My Slip. WTO recommendations remain distinct from user selections. More Insight lazily opens matchup history, current-season form and verification sources. Missing archive meetings and unavailable betting lines are labeled explicitly. Completed-game recap and prediction-versus-outcome reviews remain separate. Tuesday/Sunday updates reuse the same saved evidence; this layout adds no collection task.
