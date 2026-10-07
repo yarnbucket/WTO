@@ -811,7 +811,7 @@ function movementText(g){
   if(Number(g.openingSpread)===Number(g.closingSpread))return `The spread held at ${to}.`;
   return `The spread moved from ${from} to ${to}.`;
 }
-function matchupPredictionInsight(g){
+function matchupPredictionHeader(g){
  const r=latestPregameInsight(g.id),p=r?.independent_projection;if(!p)return '<div class="matchup-projection"><b>Prediction score unavailable</b><p>Insufficient verified evidence for this matchup.</p></div>';
  return `<div class="matchup-projection"><b>PROJECTED SCORE</b><p>${safeText(g.away)} ${p.away_score}–${p.home_score} ${safeText(g.home)} · ${safeText(r.confidence)} confidence</p></div>`;
 }
@@ -830,7 +830,7 @@ async function loadMatchupMore(id,wrap){
  panel.dataset.loaded='loading';panel.innerHTML='<p>Loading verified history…</p>';
  const h=await loadHistory();if(!h){delete panel.dataset.loaded;panel.innerHTML='<p>Historical records could not be loaded. Close and reopen to retry.</p>';return}
  g.history=historicalMatchup(g.away,g.home);const r=latestPregameInsight(id),f=r?.factor_summary;
- panel.innerHTML=matchupPredictionInsight(g)+matchupWhyHtml(g)+matchupArchiveSummary(g,g.history?.head_to_head||{})+`<details><summary>Current season form</summary>${teamTrendHtml(g.away,g.week)}${teamTrendHtml(g.home,g.week)}</details><details><summary>Evidence &amp; verification</summary><p>${safeText(f?.primary_risk||'Supporting risk evidence unavailable.')}</p><p>Checked: ${safeText(r?.verification_confirmation?.verified_at||r?.generated_at||'Unavailable')}</p>${verifiedEvidenceLinks(r,g)}</details>`;panel.dataset.loaded='true';
+ panel.innerHTML=matchupPredictionHeader(g)+matchupWhyHtml(g)+matchupArchiveSummary(g,g.history?.head_to_head||{})+`<details><summary>Current season form</summary>${teamTrendHtml(g.away,g.week)}${teamTrendHtml(g.home,g.week)}</details><details><summary>Evidence &amp; verification</summary><p>${safeText(f?.primary_risk||'Supporting risk evidence unavailable.')}</p><p>Checked: ${safeText(r?.verification_confirmation?.verified_at||r?.generated_at||'Unavailable')}</p>${verifiedEvidenceLinks(r,g)}</details>`;panel.dataset.loaded='true';
 }
 function teamScoringTrend(team,week){
  const games=Object.values(data).flat().filter(g=>g.status==='final'&&Number(g.week)<Number(week)&&(g.away===team||g.home===team)).sort((a,b)=>Date.parse(a.kickoff)-Date.parse(b.kickoff));
