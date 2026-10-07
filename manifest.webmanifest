@@ -2,7 +2,7 @@
   "name": "WTO — What Are The Odds",
   "short_name": "WTO",
   "description": "NFL regular-season spreads, totals, results and picks.",
-  "start_url": "./?v=53",
+  "start_url": "./?v=54",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
