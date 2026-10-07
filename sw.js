@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v43';
+const CACHE = 'wto-shell-v44';
 
 const SHELL = [
   './',
@@ -13,10 +13,10 @@ const SHELL = [
   './wto-team-betting-2026.json',
   './wto-game-insights-2026.json',
   './wto-ui-lib.js',
-  './wto-division-read.js?v=43',
-  './wto-slip-lib.js?v=43',
-  './wto-slip.js?v=43',
-  './wto-slip.css?v=43'
+  './wto-division-read.js?v=44',
+  './wto-slip-lib.js?v=44',
+  './wto-slip.js?v=44',
+  './wto-slip.css?v=44'
 ];
 
 self.addEventListener('install', event => {
@@ -50,7 +50,7 @@ self.addEventListener('fetch', event => {
 
   if (useNetworkFirst) {
     event.respondWith(
-      fetch(event.request)
+      fetch(event.request, {cache: 'reload'})
         .then(response => {
           const copy = response.clone();
           caches.open(CACHE).then(cache => cache.put(event.request, copy));
