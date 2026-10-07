@@ -480,8 +480,8 @@ if('serviceWorker' in navigator){
   navigator.serviceWorker.addEventListener('controllerchange',()=>{
     if(refreshing)return;
     refreshing=true;
-    if(sessionStorage.getItem('wto-sw-reloaded')!=='v44'){
-      sessionStorage.setItem('wto-sw-reloaded','v44');
+    if(sessionStorage.getItem('wto-sw-reloaded')!=='v46'){
+      sessionStorage.setItem('wto-sw-reloaded','v46');
       location.reload();
     }
   });
