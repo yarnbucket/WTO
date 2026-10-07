@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v39';
+const CACHE = 'wto-shell-v40';
 
 const SHELL = [
   './',
@@ -13,10 +13,10 @@ const SHELL = [
   './wto-team-betting-2026.json',
   './wto-game-insights-2026.json',
   './wto-ui-lib.js',
-  './wto-division-read.js?v=39',
-  './wto-slip-lib.js?v=39',
-  './wto-slip.js?v=39',
-  './wto-slip.css?v=39'
+  './wto-division-read.js?v=40',
+  './wto-slip-lib.js?v=40',
+  './wto-slip.js?v=40',
+  './wto-slip.css?v=40'
 ];
 
 self.addEventListener('install', event => {
