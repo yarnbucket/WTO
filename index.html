@@ -353,6 +353,17 @@
 @media(prefers-reduced-motion:reduce){.wto-install-banner:not([hidden]){animation:none}}
 
 </style>
+<style>
+/* Brief lightning behind the install card. */
+.wto-install-lightning{display:none;position:fixed;inset:0;z-index:999;pointer-events:none;overflow:hidden}
+body:has(#wtoInstallBanner:not([hidden])) .wto-install-lightning{display:block}
+.wto-install-lightning::before,.wto-install-lightning::after{content:"";position:absolute;top:8%;width:110px;height:70%;opacity:0;clip-path:polygon(58% 0,18% 43%,47% 43%,24% 100%,88% 34%,57% 34%,82% 0);filter:drop-shadow(0 0 15px currentColor)}
+.wto-install-lightning::before{left:8%;background:#fff;color:#fff;animation:wtoWhiteLightning 5s ease-out 2}
+.wto-install-lightning::after{right:8%;background:#59adff;color:#59adff;transform:rotate(12deg);animation:wtoBlueLightning 5s ease-out 2}
+@keyframes wtoWhiteLightning{0%,12%,22%,100%{opacity:0}15%{opacity:.65}19%{opacity:.12}}
+@keyframes wtoBlueLightning{0%,52%,62%,100%{opacity:0}55%{opacity:.65}59%{opacity:.12}}
+@media(prefers-reduced-motion:reduce){.wto-install-lightning{display:none!important}}
+</style>
 </head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
@@ -1078,6 +1089,7 @@ if(document.readyState==='loading'){
 <script src="./wto-slip-lib.js?v=58"></script>
 <script src="./wto-slip.js?v=58"></script>
 
+<div class="wto-install-lightning" aria-hidden="true"></div>
 <aside id="wtoInstallBanner" class="wto-install-banner" aria-labelledby="wtoInstallTitle" hidden>
   <div class="install-intro"><img src="./wto-icon-192.png" alt=""><div><h2 id="wtoInstallTitle">TAKE WTO WITH YOU</h2><p id="wtoInstallText">Matchups, odds, and your picks—one tap away.</p></div></div>
   <div class="wto-install-actions"><button type="button" id="wtoBannerInstall">↓ INSTALL</button><button type="button" id="wtoBannerDismiss">NOT NOW</button></div>
