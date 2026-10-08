@@ -1109,7 +1109,7 @@ if(document.readyState==='loading'){
   let shown=false,ready=false,seen=false;
   try{seen=localStorage.getItem(key)==='1'}catch(e){}
   window.showWtoInstallBanner=function(){
-    if(!ready||seen||shown||standalone()||(!ios&&!deferredInstallPrompt))return;
+    if(!ready||seen||shown||standalone())return;
     shown=true;
     banner.hidden=false;
   };
@@ -1117,10 +1117,10 @@ if(document.readyState==='loading'){
   dismiss.onclick=finish;
   install.onclick=async()=>{
     if(deferredInstallPrompt){finish();await installWto();return}
-    if(ios){
-      text.textContent='Open WTO in Safari, tap Share, then Add to Home Screen. Tap Add to finish.';
-      install.hidden=true;dismiss.textContent='GOT IT';
-    }
+    text.textContent=ios
+      ? 'Open WTO in Safari, tap Share, then Add to Home Screen. Tap Add to finish.'
+      : 'In Chrome, tap the three-dot menu, then Add to Home screen or Install app. Follow the steps to finish.';
+    install.hidden=true;dismiss.textContent='GOT IT';
   };
   addEventListener('appinstalled',()=>{banner.hidden=true;seen=true;try{localStorage.setItem(key,'1')}catch(e){}});
   if(mobile&&!standalone())setTimeout(()=>{ready=true;window.showWtoInstallBanner()},3000);
