@@ -255,7 +255,7 @@
 .summary-title-help{display:flex;align-items:center;min-width:0}.summary-title-help label{white-space:nowrap;font-size:clamp(14px,4.15vw,18px)}
 .summary-readme-trigger{display:inline-grid;place-items:center;width:34px;height:34px;padding:0;border:1px solid rgba(255,199,44,.72);border-radius:50%;background:rgba(0,0,0,.46);font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,199,44,.16);-webkit-tap-highlight-color:transparent}
 .summary-readme-trigger:focus-visible{outline:3px solid #fff;outline-offset:2px}
-.readme-football-spin{display:inline-block;transform-origin:center;animation:wtoReadmeSpin 3s ease-in-out 7}
+.readme-football-spin{display:inline-block;transform-origin:center;animation:wtoReadmeSpin 3s ease-in-out 12}
 @keyframes wtoReadmeSpin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){.readme-football-spin{animation:none}}
 .wto-readme{width:min(430px,calc(100vw - 28px));max-height:min(82vh,720px);margin:auto;padding:0;border:1px solid #9c8240;border-radius:16px;background:linear-gradient(180deg,rgba(11,19,13,.98),rgba(2,5,3,.99));color:var(--chalk);box-shadow:0 22px 70px rgba(0,0,0,.78),0 0 28px rgba(255,199,44,.15);overflow:auto}
@@ -1101,7 +1101,6 @@ if(document.readyState==='loading'){
   const banner=document.getElementById('wtoInstallBanner');
   const install=document.getElementById('wtoBannerInstall');
   const dismiss=document.getElementById('wtoBannerDismiss');
-  const text=document.getElementById('wtoInstallText');
   const key='wto-install-banner-dismissed-v2';
   const standalone=()=>window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
   const ios=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
@@ -1109,18 +1108,16 @@ if(document.readyState==='loading'){
   let shown=false,ready=false,seen=false;
   try{seen=localStorage.getItem(key)==='1'}catch(e){}
   window.showWtoInstallBanner=function(){
-    if(!ready||seen||shown||standalone())return;
+    if(!ready||seen||shown||standalone()||!deferredInstallPrompt)return;
     shown=true;
     banner.hidden=false;
   };
   const finish=()=>{banner.hidden=true;seen=true;try{localStorage.setItem(key,'1')}catch(e){}};
   dismiss.onclick=finish;
   install.onclick=async()=>{
-    if(deferredInstallPrompt){finish();await installWto();return}
-    text.textContent=ios
-      ? 'Open WTO in Safari, tap Share, then Add to Home Screen. Tap Add to finish.'
-      : 'In Chrome, tap the three-dot menu, then Add to Home screen or Install app. Follow the steps to finish.';
-    install.hidden=true;dismiss.textContent='GOT IT';
+    if(!deferredInstallPrompt)return;
+    finish();
+    await installWto();
   };
   addEventListener('appinstalled',()=>{banner.hidden=true;seen=true;try{localStorage.setItem(key,'1')}catch(e){}});
   if(mobile&&!standalone())setTimeout(()=>{ready=true;window.showWtoInstallBanner()},3000);
