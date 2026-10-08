@@ -127,5 +127,12 @@
     return bullets;
   }
 
-  root.WTOUI={latestMarket,marketOutcome,evaluatePredictionOutcome,selectOutcomeSummary,weatherView,compactRead,pickSummary,postgameBullets};
+  function scoringTrendAxis(rows,maxValue){
+    const max=Math.max(10,Math.ceil(Number(maxValue||0)/10)*10),yTop=26,yBottom=176,xLeft=40,xRight=455;
+    const ticks=Array.from({length:max/5+1},(_,i)=>{const value=i*5;return {value,major:value%10===0,y:yBottom-value/max*(yBottom-yTop)}});
+    const step=rows.length>1?(xRight-(xLeft+5))/(rows.length-1):0,weekXs=rows.map((_,i)=>xLeft+5+i*step);
+    return {max,yTop,yBottom,xLeft,xRight,ticks,weekXs};
+  }
+
+  root.WTOUI={latestMarket,marketOutcome,evaluatePredictionOutcome,selectOutcomeSummary,weatherView,compactRead,pickSummary,postgameBullets,scoringTrendAxis};
 })(typeof globalThis!=='undefined'?globalThis:this);
