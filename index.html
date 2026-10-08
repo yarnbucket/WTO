@@ -342,6 +342,16 @@
 .wto-install-actions button{flex:1;min-height:46px;border:1px solid #ffc72c;border-radius:10px;font:16px 'Anton',sans-serif;cursor:pointer}
 #wtoBannerInstall{background:#ffc72c;color:#07120b}
 #wtoBannerDismiss{background:transparent;color:#fff}
+.wto-install-banner{background:linear-gradient(135deg,#ffe17a,#ffc72c 65%,#e6ac11);border:2px solid #fff0b4;color:#07120b;box-shadow:0 12px 50px #000c,0 0 20px #ffc72c55}
+.wto-install-banner h2{color:#07120b}
+.wto-install-banner p{color:#172018}
+.wto-install-banner img{border:1px solid #07120b;background:#07120b}
+#wtoBannerInstall{background:#07120b;color:#ffc72c;border-color:#07120b}
+#wtoBannerDismiss{background:transparent;color:#07120b;border-color:#07120b}
+.wto-install-banner:not([hidden]){animation:wtoInstallAttention 2s ease-in-out 3}
+@keyframes wtoInstallAttention{0%,100%{box-shadow:0 12px 50px #000c,0 0 12px #ffc72c55}50%{box-shadow:0 12px 50px #000c,0 0 30px #fff0b4aa}}
+@media(prefers-reduced-motion:reduce){.wto-install-banner:not([hidden]){animation:none}}
+
 </style>
 </head>
 <body>
