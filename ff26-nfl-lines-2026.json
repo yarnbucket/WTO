@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-10-06T06:03:52-04:00",
+  "updated_at": "2026-10-08T12:07:07-04:00",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -8120,6 +8120,22 @@
               "home_spread_price": -111,
               "over_price": -104,
               "under_price": -110
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "DAL",
+              "favorite_spread": -8.5,
+              "total": 48.5,
+              "away_spread": 8.5,
+              "away_spread_price": -105,
+              "home_spread": -8.5,
+              "home_spread_price": -105,
+              "over_price": -105,
+              "under_price": -108
             }
           ],
           "season_type": "REG",
@@ -8172,6 +8188,22 @@
               "home_spread_price": -108,
               "over_price": -111,
               "under_price": -102
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "JAX",
+              "favorite_spread": -7.5,
+              "total": 41.5,
+              "away_spread": 7.5,
+              "away_spread_price": -111,
+              "home_spread": -7.5,
+              "home_spread_price": -102,
+              "over_price": -111,
+              "under_price": -105
             }
           ],
           "season_type": "REG",
@@ -8224,6 +8256,22 @@
               "home_spread_price": null,
               "over_price": -105,
               "under_price": -110
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "CIN",
+              "favorite_spread": -6.5,
+              "total": 42.5,
+              "away_spread": -6.5,
+              "away_spread_price": -120,
+              "home_spread": 7,
+              "home_spread_price": -115,
+              "over_price": -110,
+              "under_price": -108
             }
           ],
           "season_type": "REG",
@@ -8276,6 +8324,23 @@
               "home_spread_price": -115,
               "over_price": null,
               "under_price": -120
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "NYJ",
+              "favorite_spread": -1.5,
+              "total": 39.5,
+              "away_spread": 2,
+              "away_spread_price": -111,
+              "home_spread": -1.5,
+              "home_spread_price": -115,
+              "over_price": -118,
+              "under_price": null,
+              "market_note": "CBS displays Under 40.5 at -115; under_price is null for the recorded total 39.5."
             }
           ],
           "season_type": "REG",
@@ -8328,6 +8393,23 @@
               "home_spread_price": null,
               "over_price": -105,
               "under_price": -110
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "HOU",
+              "favorite_spread": -7.5,
+              "total": 37.5,
+              "away_spread": -7.5,
+              "away_spread_price": -104,
+              "home_spread": 7.5,
+              "home_spread_price": -111,
+              "over_price": -115,
+              "under_price": null,
+              "market_note": "CBS displays Under 38.5 at -108; under_price is null for the recorded total 37.5."
             }
           ],
           "season_type": "REG",
@@ -8380,6 +8462,22 @@
               "home_spread_price": -118,
               "over_price": null,
               "under_price": -112
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "PIT",
+              "favorite_spread": -2.5,
+              "total": 44.5,
+              "away_spread": 2.5,
+              "away_spread_price": -102,
+              "home_spread": -2.5,
+              "home_spread_price": -108,
+              "over_price": -104,
+              "under_price": -108
             }
           ],
           "season_type": "REG",
@@ -8432,6 +8530,23 @@
               "home_spread_price": -110,
               "over_price": -104,
               "under_price": -111
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "NE",
+              "favorite_spread": -3.5,
+              "total": 44.5,
+              "away_spread": 3.5,
+              "away_spread_price": -105,
+              "home_spread": -3.5,
+              "home_spread_price": -110,
+              "over_price": -118,
+              "under_price": null,
+              "market_note": "CBS displays Under 45.5 at -115; under_price is null for the recorded total 44.5."
             }
           ],
           "season_type": "REG",
@@ -8484,6 +8599,23 @@
               "home_spread_price": -104,
               "over_price": null,
               "under_price": -115
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "MIN",
+              "favorite_spread": -1.5,
+              "total": 41.5,
+              "away_spread": -1.5,
+              "away_spread_price": -108,
+              "home_spread": 2,
+              "home_spread_price": -110,
+              "over_price": -108,
+              "under_price": null,
+              "market_note": "CBS displays Under 42.5 at -115; under_price is null for the recorded total 41.5."
             }
           ],
           "season_type": "REG",
@@ -8536,6 +8668,23 @@
               "home_spread_price": -115,
               "over_price": -111,
               "under_price": -102
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "WAS",
+              "favorite_spread": -3.5,
+              "total": 41.5,
+              "away_spread": 3.5,
+              "away_spread_price": -102,
+              "home_spread": -3.5,
+              "home_spread_price": -111,
+              "over_price": -111,
+              "under_price": null,
+              "market_note": "CBS displays Under 42.5 at -115; under_price is null for the recorded total 41.5."
             }
           ],
           "season_type": "REG",
@@ -8588,6 +8737,23 @@
               "home_spread_price": -110,
               "over_price": null,
               "under_price": -108
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "DEN",
+              "favorite_spread": -3.5,
+              "total": 41.5,
+              "away_spread": -3.5,
+              "away_spread_price": -102,
+              "home_spread": 3.5,
+              "home_spread_price": -110,
+              "over_price": -111,
+              "under_price": null,
+              "market_note": "CBS displays Under 42.5 at -114; under_price is null for the recorded total 41.5."
             }
           ],
           "season_type": "REG",
@@ -8640,6 +8806,22 @@
               "home_spread_price": null,
               "over_price": -106,
               "under_price": null
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "CHI",
+              "favorite_spread": -1.5,
+              "total": 45.5,
+              "away_spread": -1.5,
+              "away_spread_price": -111,
+              "home_spread": 1.5,
+              "home_spread_price": -102,
+              "over_price": -110,
+              "under_price": -102
             }
           ],
           "season_type": "REG",
@@ -8692,6 +8874,22 @@
               "home_spread_price": -108,
               "over_price": null,
               "under_price": -110
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "DET",
+              "favorite_spread": -5.5,
+              "total": 54.5,
+              "away_spread": -5.5,
+              "away_spread_price": -104,
+              "home_spread": 5.5,
+              "home_spread_price": -110,
+              "over_price": -108,
+              "under_price": -105
             }
           ],
           "season_type": "REG",
@@ -8744,6 +8942,23 @@
               "home_spread_price": -120,
               "over_price": null,
               "under_price": -115
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "SEA",
+              "favorite_spread": -3,
+              "total": 45.5,
+              "away_spread": 3,
+              "away_spread_price": -104,
+              "home_spread": -3,
+              "home_spread_price": -110,
+              "over_price": -115,
+              "under_price": null,
+              "market_note": "CBS displays Under 46.5 at -115; under_price is null for the recorded total 45.5."
             }
           ],
           "season_type": "REG",
@@ -8796,6 +9011,23 @@
               "home_spread_price": -108,
               "over_price": -108,
               "under_price": -105
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "ATL",
+              "favorite_spread": -3.5,
+              "total": 43.5,
+              "away_spread": 3.5,
+              "away_spread_price": -115,
+              "home_spread": -3.5,
+              "home_spread_price": 100,
+              "over_price": -114,
+              "under_price": null,
+              "market_note": "CBS displays Under 44 at -114; under_price is null for the recorded total 43.5."
             }
           ],
           "season_type": "REG",
@@ -8848,6 +9080,22 @@
               "home_spread_price": -118,
               "over_price": -108,
               "under_price": -108
+            },
+            {
+              "captured_at": "2026-10-08T12:07:07-04:00",
+              "label": "Thursday checkpoint",
+              "line_type": "market_snapshot",
+              "provider": "CBS Sports",
+              "source_url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+              "favorite": "LAR",
+              "favorite_spread": -3,
+              "total": 54.5,
+              "away_spread": 3.5,
+              "away_spread_price": -118,
+              "home_spread": -3,
+              "home_spread_price": -110,
+              "over_price": -108,
+              "under_price": -102
             }
           ],
           "season_type": "REG",
@@ -15131,8 +15379,8 @@
     }
   ],
   "odds_source": {
-    "provider": "ScoresAndOdds",
-    "url": "https://www.scoresandodds.com/nfl",
-    "captured_at": "2026-10-04T06:01:25-04:00"
+    "provider": "CBS Sports",
+    "url": "https://www.cbssports.com/nfl/odds/2026/regular/week-5/",
+    "captured_at": "2026-10-08T12:07:07-04:00"
   }
 }
