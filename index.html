@@ -333,7 +333,7 @@
 
 <style>
 .wto-install-banner[hidden]{display:none!important}
-.wto-install-banner{position:fixed;z-index:1000;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(430px,calc(100vw - 28px));box-sizing:border-box;padding:18px;border:1px solid #ffc72c;border-radius:18px;background:#08120c;color:#fff;box-shadow:0 12px 50px #000c}
+.wto-install-banner{position:fixed;z-index:1000;left:50%;top:50%;transform:translate(-50%,-50%);max-height:calc(100dvh - 40px);overflow:auto;width:min(430px,calc(100vw - 28px));box-sizing:border-box;padding:18px;border:1px solid #ffc72c;border-radius:18px;background:#08120c;color:#fff;box-shadow:0 12px 50px #000c}
 .wto-install-banner .install-intro{display:flex;align-items:center;gap:12px;margin-bottom:16px}
 .wto-install-banner img{width:58px;height:58px;flex-shrink:0;border-radius:12px}
 .wto-install-banner h2{margin:0 0 5px;font:21px/1.15 'Anton',sans-serif;color:#ffc72c}
@@ -1088,7 +1088,7 @@ if(document.readyState==='loading'){
   const install=document.getElementById('wtoBannerInstall');
   const dismiss=document.getElementById('wtoBannerDismiss');
   const text=document.getElementById('wtoInstallText');
-  const key='wto-install-banner-seen';
+  const key='wto-install-banner-dismissed-v2';
   const standalone=()=>window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
   const ios=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
   const mobile=ios||/Android/.test(navigator.userAgent);
@@ -1096,13 +1096,13 @@ if(document.readyState==='loading'){
   try{seen=localStorage.getItem(key)==='1'}catch(e){}
   window.showWtoInstallBanner=function(){
     if(!ready||seen||shown||standalone()||(!ios&&!deferredInstallPrompt))return;
-    shown=true;seen=true;
-    try{localStorage.setItem(key,'1')}catch(e){}
+    shown=true;
     banner.hidden=false;
   };
-  dismiss.onclick=()=>{banner.hidden=true};
+  const finish=()=>{banner.hidden=true;seen=true;try{localStorage.setItem(key,'1')}catch(e){}};
+  dismiss.onclick=finish;
   install.onclick=async()=>{
-    if(deferredInstallPrompt){banner.hidden=true;await installWto();return}
+    if(deferredInstallPrompt){finish();await installWto();return}
     if(ios){
       text.textContent='Open WTO in Safari, tap Share, then Add to Home Screen. Tap Add to finish.';
       install.hidden=true;dismiss.textContent='GOT IT';
