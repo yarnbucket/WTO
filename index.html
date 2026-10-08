@@ -255,6 +255,9 @@
 .summary-title-help{display:flex;align-items:center;min-width:0}.summary-title-help label{white-space:nowrap;font-size:clamp(14px,4.15vw,18px)}
 .summary-readme-trigger{display:inline-grid;place-items:center;width:34px;height:34px;padding:0;border:1px solid rgba(255,199,44,.72);border-radius:50%;background:rgba(0,0,0,.46);font-size:20px;line-height:1;cursor:pointer;box-shadow:0 0 10px rgba(255,199,44,.16);-webkit-tap-highlight-color:transparent}
 .summary-readme-trigger:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.readme-football-spin{display:inline-block;transform-origin:center;animation:wtoReadmeSpin 2s ease-in-out 5}
+@keyframes wtoReadmeSpin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.readme-football-spin{animation:none}}
 .wto-readme{width:min(430px,calc(100vw - 28px));max-height:min(82vh,720px);margin:auto;padding:0;border:1px solid #9c8240;border-radius:16px;background:linear-gradient(180deg,rgba(11,19,13,.98),rgba(2,5,3,.99));color:var(--chalk);box-shadow:0 22px 70px rgba(0,0,0,.78),0 0 28px rgba(255,199,44,.15);overflow:auto}
 .wto-readme::backdrop{background:rgba(0,0,0,.76);backdrop-filter:blur(5px)}
 .wto-readme-inner{padding:22px 20px 18px}
@@ -347,7 +350,7 @@
   </div>
 </section>
 <section class="summary-panel"><h2 id="summaryGlanceTitle">WEEK AT A GLANCE</h2><div id="summaryMeters"></div></section>
-<section class="summary-panel summary-completed"><h2><span class="summary-completed-title"><span>COMPLETED GAMES</span><button type="button" class="summary-readme-trigger" id="wtoReadmeButton" aria-label="What does WTO do?" aria-haspopup="dialog" onclick="openWtoReadme()">🏈</button></span><strong><em id="summaryCompleted">0</em> GAMES / <em id="summaryScheduled">0</em> GAMES</strong></h2><div class="summary-completion-track" role="progressbar" aria-label="Completed games" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="summaryCompletionTrack"><span id="summaryCompletionFill"></span></div><div class="summary-completion-label"><strong id="summaryCompletionPct">0%</strong> COMPLETE</div></section>
+<section class="summary-panel summary-completed"><h2><span class="summary-completed-title"><span>COMPLETED GAMES</span><button type="button" class="summary-readme-trigger" id="wtoReadmeButton" aria-label="What does WTO do?" aria-haspopup="dialog" onclick="openWtoReadme()"><span class="readme-football-spin" aria-hidden="true">🏈</span></button></span><strong><em id="summaryCompleted">0</em> GAMES / <em id="summaryScheduled">0</em> GAMES</strong></h2><div class="summary-completion-track" role="progressbar" aria-label="Completed games" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="summaryCompletionTrack"><span id="summaryCompletionFill"></span></div><div class="summary-completion-label"><strong id="summaryCompletionPct">0%</strong> COMPLETE</div></section>
 <button class="summary-open" onclick="openTracker()">VIEW WEEK MATCHUPS →</button>
 <button class="summary-open" onclick="openMySlip()">MY PICKS ★</button>
 </div>
