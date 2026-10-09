@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "reviewed_on": "2026-10-09",
-  "purpose": "Reference for WTO weather updates; not automatically loaded by the app.",
+  "purpose": "Runtime venue roof reference loaded by WTO and used by existing weather update tasks.",
   "rules": [
     "Use actual game venue including international/neutral games, not team home location.",
     "NWS kickoff-time point forecast is primary; AccuWeather city search is secondary. User-supplied sources do not establish which services teams themselves use.",
