@@ -8214,7 +8214,14 @@
           "schedule_game_id": "401872981",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_unavailable": {
+            "checked_at": "2026-10-09T00:58:25.567Z",
+            "reason": "Venue outside NWS coverage",
+            "attempted_urls": [
+              "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872981"
+            ]
+          }
         },
         {
           "game_id": "2026-W05-CIN-MIA",
@@ -8282,7 +8289,60 @@
           "schedule_game_id": "401872982",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/MFL/107,58/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=25.9579623&lon=-80.2388423",
+              "checked_at": "2026-10-09T00:55:56.612393+00:00",
+              "kickoff": "2026-10-11T13:00:00-04:00",
+              "stadium": "Hard Rock Stadium",
+              "latitude": 25.9579623,
+              "longitude": -80.2388423,
+              "condition": "sunny",
+              "is_night": false,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T13:00:00-04:00",
+              "forecast_period_end": "2026-10-11T14:00:00-04:00",
+              "forecast_issued_at": "2026-10-08T20:02:17+00:00",
+              "temperature": 89,
+              "temperature_unit": "F",
+              "wind_speed": "10 mph",
+              "wind_direction": "SE",
+              "precipitation_probability": 8,
+              "detail": "Mostly Sunny · 89°F · Wind 10 mph SE"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/MFL/107,58/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=25.9579623&lon=-80.2388423",
+            "checked_at": "2026-10-09T00:55:56.612393+00:00",
+            "kickoff": "2026-10-11T13:00:00-04:00",
+            "stadium": "Hard Rock Stadium",
+            "latitude": 25.9579623,
+            "longitude": -80.2388423,
+            "condition": "sunny",
+            "is_night": false,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T13:00:00-04:00",
+            "forecast_period_end": "2026-10-11T14:00:00-04:00",
+            "forecast_issued_at": "2026-10-08T20:02:17+00:00",
+            "temperature": 89,
+            "temperature_unit": "F",
+            "wind_speed": "10 mph",
+            "wind_direction": "SE",
+            "precipitation_probability": 8,
+            "detail": "Mostly Sunny · 89°F · Wind 10 mph SE"
+          },
+          "venue": {
+            "name": "Hard Rock Stadium",
+            "latitude": 25.9579623,
+            "longitude": -80.2388423
+          }
         },
         {
           "game_id": "2026-W05-CLE-NYJ",
@@ -8351,7 +8411,60 @@
           "schedule_game_id": "401872983",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/OKX/30,46/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=40.813507465&lon=-74.074342406",
+              "checked_at": "2026-10-09T00:55:56.741968+00:00",
+              "kickoff": "2026-10-11T13:00:00-04:00",
+              "stadium": "MetLife Stadium",
+              "latitude": 40.813507465,
+              "longitude": -74.074342406,
+              "condition": "rain",
+              "is_night": false,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T13:00:00-04:00",
+              "forecast_period_end": "2026-10-11T14:00:00-04:00",
+              "forecast_issued_at": "2026-10-08T23:47:25+00:00",
+              "temperature": 66,
+              "temperature_unit": "F",
+              "wind_speed": "8 mph",
+              "wind_direction": "S",
+              "precipitation_probability": 17,
+              "detail": "Slight Chance Rain Showers · 66°F · Wind 8 mph S"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/OKX/30,46/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=40.813507465&lon=-74.074342406",
+            "checked_at": "2026-10-09T00:55:56.741968+00:00",
+            "kickoff": "2026-10-11T13:00:00-04:00",
+            "stadium": "MetLife Stadium",
+            "latitude": 40.813507465,
+            "longitude": -74.074342406,
+            "condition": "rain",
+            "is_night": false,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T13:00:00-04:00",
+            "forecast_period_end": "2026-10-11T14:00:00-04:00",
+            "forecast_issued_at": "2026-10-08T23:47:25+00:00",
+            "temperature": 66,
+            "temperature_unit": "F",
+            "wind_speed": "8 mph",
+            "wind_direction": "S",
+            "precipitation_probability": 17,
+            "detail": "Slight Chance Rain Showers · 66°F · Wind 8 mph S"
+          },
+          "venue": {
+            "name": "MetLife Stadium",
+            "latitude": 40.813507465,
+            "longitude": -74.074342406
+          }
         },
         {
           "game_id": "2026-W05-HOU-TEN",
@@ -8420,7 +8533,60 @@
           "schedule_game_id": "401872984",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/OHX/50,57/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=36.1664774&lon=-86.7712938",
+              "checked_at": "2026-10-09T00:55:56.627266+00:00",
+              "kickoff": "2026-10-11T13:00:00-04:00",
+              "stadium": "Nissan Stadium",
+              "latitude": 36.1664774,
+              "longitude": -86.7712938,
+              "condition": "rain",
+              "is_night": false,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T12:00:00-05:00",
+              "forecast_period_end": "2026-10-11T13:00:00-05:00",
+              "forecast_issued_at": "2026-10-08T23:01:34+00:00",
+              "temperature": 70,
+              "temperature_unit": "F",
+              "wind_speed": "10 mph",
+              "wind_direction": "WSW",
+              "precipitation_probability": 53,
+              "detail": "Chance Rain Showers · 70°F · Wind 10 mph WSW"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/OHX/50,57/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=36.1664774&lon=-86.7712938",
+            "checked_at": "2026-10-09T00:55:56.627266+00:00",
+            "kickoff": "2026-10-11T13:00:00-04:00",
+            "stadium": "Nissan Stadium",
+            "latitude": 36.1664774,
+            "longitude": -86.7712938,
+            "condition": "rain",
+            "is_night": false,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T12:00:00-05:00",
+            "forecast_period_end": "2026-10-11T13:00:00-05:00",
+            "forecast_issued_at": "2026-10-08T23:01:34+00:00",
+            "temperature": 70,
+            "temperature_unit": "F",
+            "wind_speed": "10 mph",
+            "wind_direction": "WSW",
+            "precipitation_probability": 53,
+            "detail": "Chance Rain Showers · 70°F · Wind 10 mph WSW"
+          },
+          "venue": {
+            "name": "Nissan Stadium",
+            "latitude": 36.1664774,
+            "longitude": -86.7712938
+          }
         },
         {
           "game_id": "2026-W05-IND-PIT",
@@ -8488,7 +8654,60 @@
           "schedule_game_id": "401872985",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/PBZ/77,66/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=40.4467883&lon=-80.0157692",
+              "checked_at": "2026-10-09T00:55:56.623931+00:00",
+              "kickoff": "2026-10-11T13:00:00-04:00",
+              "stadium": "Acrisure Stadium",
+              "latitude": 40.4467883,
+              "longitude": -80.0157692,
+              "condition": "rain",
+              "is_night": false,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T13:00:00-04:00",
+              "forecast_period_end": "2026-10-11T14:00:00-04:00",
+              "forecast_issued_at": "2026-10-08T22:41:26+00:00",
+              "temperature": 64,
+              "temperature_unit": "F",
+              "wind_speed": "12 mph",
+              "wind_direction": "E",
+              "precipitation_probability": 92,
+              "detail": "Rain Showers · 64°F · Wind 12 mph E"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/PBZ/77,66/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=40.4467883&lon=-80.0157692",
+            "checked_at": "2026-10-09T00:55:56.623931+00:00",
+            "kickoff": "2026-10-11T13:00:00-04:00",
+            "stadium": "Acrisure Stadium",
+            "latitude": 40.4467883,
+            "longitude": -80.0157692,
+            "condition": "rain",
+            "is_night": false,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T13:00:00-04:00",
+            "forecast_period_end": "2026-10-11T14:00:00-04:00",
+            "forecast_issued_at": "2026-10-08T22:41:26+00:00",
+            "temperature": 64,
+            "temperature_unit": "F",
+            "wind_speed": "12 mph",
+            "wind_direction": "E",
+            "precipitation_probability": 92,
+            "detail": "Rain Showers · 64°F · Wind 12 mph E"
+          },
+          "venue": {
+            "name": "Acrisure Stadium",
+            "latitude": 40.4467883,
+            "longitude": -80.0157692
+          }
         },
         {
           "game_id": "2026-W05-LV-NE",
@@ -8557,7 +8776,60 @@
           "schedule_game_id": "401872986",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/BOX/67,88/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=42.0909217&lon=-71.2643321",
+              "checked_at": "2026-10-09T00:55:56.625991+00:00",
+              "kickoff": "2026-10-11T13:00:00-04:00",
+              "stadium": "Gillette Stadium",
+              "latitude": 42.0909217,
+              "longitude": -71.2643321,
+              "condition": "sunny",
+              "is_night": false,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T13:00:00-04:00",
+              "forecast_period_end": "2026-10-11T14:00:00-04:00",
+              "forecast_issued_at": "2026-10-08T17:46:56+00:00",
+              "temperature": 65,
+              "temperature_unit": "F",
+              "wind_speed": "8 mph",
+              "wind_direction": "SW",
+              "precipitation_probability": 0,
+              "detail": "Partly Sunny · 65°F · Wind 8 mph SW"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/BOX/67,88/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=42.0909217&lon=-71.2643321",
+            "checked_at": "2026-10-09T00:55:56.625991+00:00",
+            "kickoff": "2026-10-11T13:00:00-04:00",
+            "stadium": "Gillette Stadium",
+            "latitude": 42.0909217,
+            "longitude": -71.2643321,
+            "condition": "sunny",
+            "is_night": false,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T13:00:00-04:00",
+            "forecast_period_end": "2026-10-11T14:00:00-04:00",
+            "forecast_issued_at": "2026-10-08T17:46:56+00:00",
+            "temperature": 65,
+            "temperature_unit": "F",
+            "wind_speed": "8 mph",
+            "wind_direction": "SW",
+            "precipitation_probability": 0,
+            "detail": "Partly Sunny · 65°F · Wind 8 mph SW"
+          },
+          "venue": {
+            "name": "Gillette Stadium",
+            "latitude": 42.0909217,
+            "longitude": -71.2643321
+          }
         },
         {
           "game_id": "2026-W05-MIN-NO",
@@ -8626,7 +8898,62 @@
           "schedule_game_id": "401872987",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/LIX/67,88/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=29.9511425&lon=-90.0810779",
+              "checked_at": "2026-10-09T00:55:56.740554+00:00",
+              "kickoff": "2026-10-11T13:00:00-04:00",
+              "stadium": "Caesars Superdome",
+              "latitude": 29.9511425,
+              "longitude": -90.0810779,
+              "condition": "sunny",
+              "is_night": false,
+              "indoor": true,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T12:00:00-05:00",
+              "forecast_period_end": "2026-10-11T13:00:00-05:00",
+              "forecast_issued_at": "2026-10-08T21:18:59+00:00",
+              "temperature": 80,
+              "temperature_unit": "F",
+              "wind_speed": "5 mph",
+              "wind_direction": "NW",
+              "precipitation_probability": 0,
+              "detail": "Sunny · 80°F · Wind 5 mph NW",
+              "indoor_source_url": "https://www.caesarssuperdome.com/assets/doc/Dome-FacilityGuide-9189bfa92f.pdf"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/LIX/67,88/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=29.9511425&lon=-90.0810779",
+            "checked_at": "2026-10-09T00:55:56.740554+00:00",
+            "kickoff": "2026-10-11T13:00:00-04:00",
+            "stadium": "Caesars Superdome",
+            "latitude": 29.9511425,
+            "longitude": -90.0810779,
+            "condition": "sunny",
+            "is_night": false,
+            "indoor": true,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T12:00:00-05:00",
+            "forecast_period_end": "2026-10-11T13:00:00-05:00",
+            "forecast_issued_at": "2026-10-08T21:18:59+00:00",
+            "temperature": 80,
+            "temperature_unit": "F",
+            "wind_speed": "5 mph",
+            "wind_direction": "NW",
+            "precipitation_probability": 0,
+            "detail": "Sunny · 80°F · Wind 5 mph NW",
+            "indoor_source_url": "https://www.caesarssuperdome.com/assets/doc/Dome-FacilityGuide-9189bfa92f.pdf"
+          },
+          "venue": {
+            "name": "Caesars Superdome",
+            "latitude": 29.9511425,
+            "longitude": -90.0810779
+          }
         },
         {
           "game_id": "2026-W05-NYG-WAS",
@@ -8695,7 +9022,60 @@
           "schedule_game_id": "401872988",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/LWX/102,73/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=38.907703&lon=-76.8645083",
+              "checked_at": "2026-10-09T00:56:00.533540+00:00",
+              "kickoff": "2026-10-11T13:00:00-04:00",
+              "stadium": "Northwest Stadium",
+              "latitude": 38.907703,
+              "longitude": -76.8645083,
+              "condition": "rain",
+              "is_night": false,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T13:00:00-04:00",
+              "forecast_period_end": "2026-10-11T14:00:00-04:00",
+              "forecast_issued_at": "2026-10-08T23:52:35+00:00",
+              "temperature": 65,
+              "temperature_unit": "F",
+              "wind_speed": "12 mph",
+              "wind_direction": "E",
+              "precipitation_probability": 83,
+              "detail": "Rain Showers · 65°F · Wind 12 mph E"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/LWX/102,73/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=38.907703&lon=-76.8645083",
+            "checked_at": "2026-10-09T00:56:00.533540+00:00",
+            "kickoff": "2026-10-11T13:00:00-04:00",
+            "stadium": "Northwest Stadium",
+            "latitude": 38.907703,
+            "longitude": -76.8645083,
+            "condition": "rain",
+            "is_night": false,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T13:00:00-04:00",
+            "forecast_period_end": "2026-10-11T14:00:00-04:00",
+            "forecast_issued_at": "2026-10-08T23:52:35+00:00",
+            "temperature": 65,
+            "temperature_unit": "F",
+            "wind_speed": "12 mph",
+            "wind_direction": "E",
+            "precipitation_probability": 83,
+            "detail": "Rain Showers · 65°F · Wind 12 mph E"
+          },
+          "venue": {
+            "name": "Northwest Stadium",
+            "latitude": 38.907703,
+            "longitude": -76.8645083
+          }
         },
         {
           "game_id": "2026-W05-DEN-LAC",
@@ -8764,7 +9144,60 @@
           "schedule_game_id": "401872989",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/LOX/151,41/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=33.953485&lon=-118.3390307",
+              "checked_at": "2026-10-09T00:56:09.471357+00:00",
+              "kickoff": "2026-10-11T16:05:00-04:00",
+              "stadium": "SoFi Stadium",
+              "latitude": 33.953485,
+              "longitude": -118.3390307,
+              "condition": "rain",
+              "is_night": false,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T13:00:00-07:00",
+              "forecast_period_end": "2026-10-11T14:00:00-07:00",
+              "forecast_issued_at": "2026-10-08T18:26:38+00:00",
+              "temperature": 77,
+              "temperature_unit": "F",
+              "wind_speed": "15 mph",
+              "wind_direction": "SW",
+              "precipitation_probability": 47,
+              "detail": "Chance Rain Showers · 77°F · Wind 15 mph SW"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/LOX/151,41/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=33.953485&lon=-118.3390307",
+            "checked_at": "2026-10-09T00:56:09.471357+00:00",
+            "kickoff": "2026-10-11T16:05:00-04:00",
+            "stadium": "SoFi Stadium",
+            "latitude": 33.953485,
+            "longitude": -118.3390307,
+            "condition": "rain",
+            "is_night": false,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T13:00:00-07:00",
+            "forecast_period_end": "2026-10-11T14:00:00-07:00",
+            "forecast_issued_at": "2026-10-08T18:26:38+00:00",
+            "temperature": 77,
+            "temperature_unit": "F",
+            "wind_speed": "15 mph",
+            "wind_direction": "SW",
+            "precipitation_probability": 47,
+            "detail": "Chance Rain Showers · 77°F · Wind 15 mph SW"
+          },
+          "venue": {
+            "name": "SoFi Stadium",
+            "latitude": 33.953485,
+            "longitude": -118.3390307
+          }
         },
         {
           "game_id": "2026-W05-CHI-GB",
@@ -8832,7 +9265,14 @@
           "schedule_game_id": "401872990",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_unavailable": {
+            "checked_at": "2026-10-09T00:58:25.567Z",
+            "reason": "Kickoff mismatch",
+            "attempted_urls": [
+              "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990"
+            ]
+          }
         },
         {
           "game_id": "2026-W05-DET-ARI",
@@ -8900,7 +9340,60 @@
           "schedule_game_id": "401872991",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/PSR/152,62/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=33.5277555&lon=-112.2625948",
+              "checked_at": "2026-10-09T00:56:09.720318+00:00",
+              "kickoff": "2026-10-11T16:25:00-04:00",
+              "stadium": "State Farm Stadium",
+              "latitude": 33.5277555,
+              "longitude": -112.2625948,
+              "condition": "storm",
+              "is_night": false,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T13:00:00-07:00",
+              "forecast_period_end": "2026-10-11T14:00:00-07:00",
+              "forecast_issued_at": "2026-10-08T19:37:27+00:00",
+              "temperature": 83,
+              "temperature_unit": "F",
+              "wind_speed": "25 mph",
+              "wind_direction": "SSW",
+              "precipitation_probability": 65,
+              "detail": "Showers And Thunderstorms Likely · 83°F · Wind 25 mph SSW"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/PSR/152,62/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=33.5277555&lon=-112.2625948",
+            "checked_at": "2026-10-09T00:56:09.720318+00:00",
+            "kickoff": "2026-10-11T16:25:00-04:00",
+            "stadium": "State Farm Stadium",
+            "latitude": 33.5277555,
+            "longitude": -112.2625948,
+            "condition": "storm",
+            "is_night": false,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T13:00:00-07:00",
+            "forecast_period_end": "2026-10-11T14:00:00-07:00",
+            "forecast_issued_at": "2026-10-08T19:37:27+00:00",
+            "temperature": 83,
+            "temperature_unit": "F",
+            "wind_speed": "25 mph",
+            "wind_direction": "SSW",
+            "precipitation_probability": 65,
+            "detail": "Showers And Thunderstorms Likely · 83°F · Wind 25 mph SSW"
+          },
+          "venue": {
+            "name": "State Farm Stadium",
+            "latitude": 33.5277555,
+            "longitude": -112.2625948
+          }
         },
         {
           "game_id": "2026-W05-SF-SEA",
@@ -8969,7 +9462,60 @@
           "schedule_game_id": "401872992",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/SEW/125,67/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=47.5951513&lon=-122.3316259",
+              "checked_at": "2026-10-09T00:56:09.528992+00:00",
+              "kickoff": "2026-10-11T16:25:00-04:00",
+              "stadium": "Lumen Field",
+              "latitude": 47.5951513,
+              "longitude": -122.3316259,
+              "condition": "sunny",
+              "is_night": false,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T13:00:00-07:00",
+              "forecast_period_end": "2026-10-11T14:00:00-07:00",
+              "forecast_issued_at": "2026-10-08T19:25:21+00:00",
+              "temperature": 58,
+              "temperature_unit": "F",
+              "wind_speed": "7 mph",
+              "wind_direction": "N",
+              "precipitation_probability": 0,
+              "detail": "Sunny · 58°F · Wind 7 mph N"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/SEW/125,67/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=47.5951513&lon=-122.3316259",
+            "checked_at": "2026-10-09T00:56:09.528992+00:00",
+            "kickoff": "2026-10-11T16:25:00-04:00",
+            "stadium": "Lumen Field",
+            "latitude": 47.5951513,
+            "longitude": -122.3316259,
+            "condition": "sunny",
+            "is_night": false,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T13:00:00-07:00",
+            "forecast_period_end": "2026-10-11T14:00:00-07:00",
+            "forecast_issued_at": "2026-10-08T19:25:21+00:00",
+            "temperature": 58,
+            "temperature_unit": "F",
+            "wind_speed": "7 mph",
+            "wind_direction": "N",
+            "precipitation_probability": 0,
+            "detail": "Sunny · 58°F · Wind 7 mph N"
+          },
+          "venue": {
+            "name": "Lumen Field",
+            "latitude": 47.5951513,
+            "longitude": -122.3316259
+          }
         },
         {
           "game_id": "2026-W05-BAL-ATL",
@@ -9038,7 +9584,60 @@
           "schedule_game_id": "401872993",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/FFC/50,87/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=33.7555052&lon=-84.4008484",
+              "checked_at": "2026-10-09T00:56:09.729862+00:00",
+              "kickoff": "2026-10-11T20:20:00-04:00",
+              "stadium": "Mercedes-Benz Stadium",
+              "latitude": 33.7555052,
+              "longitude": -84.4008484,
+              "condition": "cloudy",
+              "is_night": true,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-11T20:00:00-04:00",
+              "forecast_period_end": "2026-10-11T21:00:00-04:00",
+              "forecast_issued_at": "2026-10-08T22:47:02+00:00",
+              "temperature": 73,
+              "temperature_unit": "F",
+              "wind_speed": "10 mph",
+              "wind_direction": "W",
+              "precipitation_probability": 6,
+              "detail": "Partly Cloudy · 73°F · Wind 10 mph W"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/FFC/50,87/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=33.7555052&lon=-84.4008484",
+            "checked_at": "2026-10-09T00:56:09.729862+00:00",
+            "kickoff": "2026-10-11T20:20:00-04:00",
+            "stadium": "Mercedes-Benz Stadium",
+            "latitude": 33.7555052,
+            "longitude": -84.4008484,
+            "condition": "cloudy",
+            "is_night": true,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-11T20:00:00-04:00",
+            "forecast_period_end": "2026-10-11T21:00:00-04:00",
+            "forecast_issued_at": "2026-10-08T22:47:02+00:00",
+            "temperature": 73,
+            "temperature_unit": "F",
+            "wind_speed": "10 mph",
+            "wind_direction": "W",
+            "precipitation_probability": 6,
+            "detail": "Partly Cloudy · 73°F · Wind 10 mph W"
+          },
+          "venue": {
+            "name": "Mercedes-Benz Stadium",
+            "latitude": 33.7555052,
+            "longitude": -84.4008484
+          }
         },
         {
           "game_id": "2026-W05-BUF-LAR",
@@ -9106,7 +9705,60 @@
           "schedule_game_id": "401872994",
           "market_as_of": "2026-10-08T12:07:07-04:00",
           "price_provider": "CBS Sports",
-          "price_timestamp": "2026-10-08T12:07:07-04:00"
+          "price_timestamp": "2026-10-08T12:07:07-04:00",
+          "kickoff_weather_snapshots": [
+            {
+              "provider": "National Weather Service",
+              "source_url": "https://api.weather.gov/gridpoints/LOX/151,41/forecast/hourly",
+              "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=33.953485&lon=-118.3390307",
+              "checked_at": "2026-10-09T00:56:09.493244+00:00",
+              "kickoff": "2026-10-12T20:15:00-04:00",
+              "stadium": "SoFi Stadium",
+              "latitude": 33.953485,
+              "longitude": -118.3390307,
+              "condition": "rain",
+              "is_night": false,
+              "indoor": null,
+              "forecast_resolution": "hourly",
+              "forecast_period_start": "2026-10-12T17:00:00-07:00",
+              "forecast_period_end": "2026-10-12T18:00:00-07:00",
+              "forecast_issued_at": "2026-10-08T18:26:38+00:00",
+              "temperature": 65,
+              "temperature_unit": "F",
+              "wind_speed": "10 mph",
+              "wind_direction": "SW",
+              "precipitation_probability": 38,
+              "detail": "Chance Rain Showers · 65°F · Wind 10 mph SW"
+            }
+          ],
+          "kickoff_weather": {
+            "provider": "National Weather Service",
+            "source_url": "https://api.weather.gov/gridpoints/LOX/151,41/forecast/hourly",
+            "forecast_page_url": "https://forecast.weather.gov/MapClick.php?lat=33.953485&lon=-118.3390307",
+            "checked_at": "2026-10-09T00:56:09.493244+00:00",
+            "kickoff": "2026-10-12T20:15:00-04:00",
+            "stadium": "SoFi Stadium",
+            "latitude": 33.953485,
+            "longitude": -118.3390307,
+            "condition": "rain",
+            "is_night": false,
+            "indoor": null,
+            "forecast_resolution": "hourly",
+            "forecast_period_start": "2026-10-12T17:00:00-07:00",
+            "forecast_period_end": "2026-10-12T18:00:00-07:00",
+            "forecast_issued_at": "2026-10-08T18:26:38+00:00",
+            "temperature": 65,
+            "temperature_unit": "F",
+            "wind_speed": "10 mph",
+            "wind_direction": "SW",
+            "precipitation_probability": 38,
+            "detail": "Chance Rain Showers · 65°F · Wind 10 mph SW"
+          },
+          "venue": {
+            "name": "SoFi Stadium",
+            "latitude": 33.953485,
+            "longitude": -118.3390307
+          }
         }
       ]
     },
