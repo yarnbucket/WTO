@@ -697,8 +697,11 @@ function kickoffWeather(g){
   const roof=homeVenue?wtoWeatherVenues?.teams?.[g.home]?.roof_type:(w?.venue_roof_type||null);
   const roofProof=w&&w.kickoff===g.kickoff&&/^https:\/\//.test(w.roof_source_url||'')&&Number.isFinite(Date.parse(w.roof_checked_at));
   const closed=roof==='retractable'&&roofProof&&w.roof_status==='closed';
-  if(roof==='fixed_enclosed'||closed)return {condition:'indoors',label:'🏟️ '+(closed?'Roof closed':'Indoors')+' · Weather no factor',detail:closed?'Game-specific roof closure verified.':'Enclosed fixed-roof venue; outdoor weather does not affect field conditions.',url:closed?w.roof_source_url:undefined,checked:closed?w.roof_checked_at:undefined};
-  const roofNote=roof==='retractable'?(roofProof&&w.roof_status==='open'?'Roof open':'Roof status unconfirmed'):roof==='fixed_canopy_open_air'?'Roof canopy · Open-air':'';
+  if(roof==='fixed_enclosed'||closed)return {condition:'indoors',label:'🏟️ Weather no factor',detail:closed?'Game-specific roof closure verified.':'Enclosed fixed-roof venue; outdoor weather does not affect field conditions.',url:closed?w.roof_source_url:undefined,checked:closed?w.roof_checked_at:undefined};
+  const roofed=['fixed_enclosed','retractable','fixed_canopy_open_air'].includes(roof);
+  const material=sourced&&w.weather_impact==='material'&&(roof==='fixed_canopy_open_air'||(roof==='retractable'&&roofProof&&w.roof_status==='open'));
+  if(roofed&&!material)return {condition:'indoors',label:'🏟️ Weather no factor',detail:'Roofed venue default. Weather impact is shown only after verification during a scheduled update.'};
+  const roofNote=roof==='retractable'?(roofProof&&w.roof_status==='open'?'Roof open':''):roof==='fixed_canopy_open_air'?'Roof canopy · Open-air':'';
   const suffix=roofNote?' · '+roofNote:'';
   if(!sourced||!allowed.includes(w.condition))return {condition:'unavailable',label:'☁️ Forecast'+suffix,detail:g.kickoff_time_tbd||!Number.isFinite(Date.parse(g.kickoff))?'Game date or kickoff time is TBD.':'No verified forecast covering this kickoff is stored yet.'};
   const icons={sunny:'☀️',clear:'☀️',cloudy:'☁️',rain:'🌧️',storm:'⛈️',sleet:'🌨️',snow:'❄️'};
