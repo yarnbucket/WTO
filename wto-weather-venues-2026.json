@@ -1,0 +1,253 @@
+{
+  "season": 2026,
+  "reviewed_on": "2026-10-09",
+  "purpose": "Reference for WTO weather updates; not automatically loaded by the app.",
+  "rules": [
+    "Use actual game venue including international/neutral games, not team home location.",
+    "NWS kickoff-time point forecast is primary; AccuWeather city search is secondary. User-supplied sources do not establish which services teams themselves use.",
+    "Fixed enclosed home venues: weather no factor.",
+    "Retractable: only show indoors/weather no factor with event-specific official roof-closed confirmation; unknown roof status remains unconfirmed.",
+    "SoFi fixed canopy is open-air: rain sheltered; check wind/temperature and do not automatically mark indoor.",
+    "Flag material wind, rain, snow/ice, extreme cold and storms; ordinary outdoor weather no factor only with verified forecast.",
+    "Refresh checks with Tuesday, Thursday and Sunday updates; do not add automation jobs.",
+    "BUF: confirm new 2026 stadium coordinates before reusing old point forecast. TEN: open in 2026; enclosed replacement scheduled 2027."
+  ],
+  "teams": {
+    "BUF": {
+      "city": "Orchard Park, NY",
+      "nws_office": "BUF",
+      "nws_url": "https://www.weather.gov/buf/",
+      "accuweather_location": "Orchard Park, NY",
+      "roof_type": "open"
+    },
+    "MIA": {
+      "city": "Miami Gardens, FL",
+      "nws_office": "MFL",
+      "nws_url": "https://www.weather.gov/mfl/",
+      "accuweather_location": "Miami Gardens, FL",
+      "roof_type": "open"
+    },
+    "NE": {
+      "city": "Foxborough, MA",
+      "nws_office": "BOX",
+      "nws_url": "https://www.weather.gov/box/",
+      "accuweather_location": "Foxborough, MA",
+      "roof_type": "open"
+    },
+    "NYJ": {
+      "city": "East Rutherford, NJ",
+      "nws_office": "OKX",
+      "nws_url": "https://www.weather.gov/okx/",
+      "accuweather_location": "East Rutherford, NJ",
+      "roof_type": "open"
+    },
+    "BAL": {
+      "city": "Baltimore, MD",
+      "nws_office": "LWX",
+      "nws_url": "https://www.weather.gov/lwx/",
+      "accuweather_location": "Baltimore, MD",
+      "roof_type": "open"
+    },
+    "CIN": {
+      "city": "Cincinnati, OH",
+      "nws_office": "ILN",
+      "nws_url": "https://www.weather.gov/iln/",
+      "accuweather_location": "Cincinnati, OH",
+      "roof_type": "open"
+    },
+    "CLE": {
+      "city": "Cleveland, OH",
+      "nws_office": "CLE",
+      "nws_url": "https://www.weather.gov/cle/",
+      "accuweather_location": "Cleveland, OH",
+      "roof_type": "open"
+    },
+    "PIT": {
+      "city": "Pittsburgh, PA",
+      "nws_office": "PBZ",
+      "nws_url": "https://www.weather.gov/pbz/",
+      "accuweather_location": "Pittsburgh, PA",
+      "roof_type": "open"
+    },
+    "HOU": {
+      "city": "Houston, TX",
+      "nws_office": "HGX",
+      "nws_url": "https://www.weather.gov/hgx/",
+      "accuweather_location": "Houston, TX",
+      "roof_type": "retractable"
+    },
+    "IND": {
+      "city": "Indianapolis, IN",
+      "nws_office": "IND",
+      "nws_url": "https://www.weather.gov/ind/",
+      "accuweather_location": "Indianapolis, IN",
+      "roof_type": "retractable"
+    },
+    "JAX": {
+      "city": "Jacksonville, FL",
+      "nws_office": "JAX",
+      "nws_url": "https://www.weather.gov/jax/",
+      "accuweather_location": "Jacksonville, FL",
+      "roof_type": "open"
+    },
+    "TEN": {
+      "city": "Nashville, TN",
+      "nws_office": "OHX",
+      "nws_url": "https://www.weather.gov/ohx/",
+      "accuweather_location": "Nashville, TN",
+      "roof_type": "open"
+    },
+    "DEN": {
+      "city": "Denver, CO",
+      "nws_office": "BOU",
+      "nws_url": "https://www.weather.gov/bou/",
+      "accuweather_location": "Denver, CO",
+      "roof_type": "open"
+    },
+    "KC": {
+      "city": "Kansas City, MO",
+      "nws_office": "EAX",
+      "nws_url": "https://www.weather.gov/eax/",
+      "accuweather_location": "Kansas City, MO",
+      "roof_type": "open"
+    },
+    "LV": {
+      "city": "Paradise, NV",
+      "nws_office": "VEF",
+      "nws_url": "https://www.weather.gov/vef/",
+      "accuweather_location": "Paradise, NV",
+      "roof_type": "fixed_enclosed"
+    },
+    "LAC": {
+      "city": "Inglewood, CA",
+      "nws_office": "LOX",
+      "nws_url": "https://www.weather.gov/lox/",
+      "accuweather_location": "Inglewood, CA",
+      "roof_type": "fixed_canopy_open_air"
+    },
+    "DAL": {
+      "city": "Arlington, TX",
+      "nws_office": "FWD",
+      "nws_url": "https://www.weather.gov/fwd/",
+      "accuweather_location": "Arlington, TX",
+      "roof_type": "retractable"
+    },
+    "NYG": {
+      "city": "East Rutherford, NJ",
+      "nws_office": "OKX",
+      "nws_url": "https://www.weather.gov/okx/",
+      "accuweather_location": "East Rutherford, NJ",
+      "roof_type": "open"
+    },
+    "PHI": {
+      "city": "Philadelphia, PA",
+      "nws_office": "PHI",
+      "nws_url": "https://www.weather.gov/phi/",
+      "accuweather_location": "Philadelphia, PA",
+      "roof_type": "open"
+    },
+    "WAS": {
+      "city": "Landover, MD",
+      "nws_office": "LWX",
+      "nws_url": "https://www.weather.gov/lwx/",
+      "accuweather_location": "Landover, MD",
+      "roof_type": "open"
+    },
+    "CHI": {
+      "city": "Chicago, IL",
+      "nws_office": "LOT",
+      "nws_url": "https://www.weather.gov/lot/",
+      "accuweather_location": "Chicago, IL",
+      "roof_type": "open"
+    },
+    "DET": {
+      "city": "Detroit, MI",
+      "nws_office": "DTX",
+      "nws_url": "https://www.weather.gov/dtx/",
+      "accuweather_location": "Detroit, MI",
+      "roof_type": "fixed_enclosed"
+    },
+    "GB": {
+      "city": "Green Bay, WI",
+      "nws_office": "GRB",
+      "nws_url": "https://www.weather.gov/grb/",
+      "accuweather_location": "Green Bay, WI",
+      "roof_type": "open"
+    },
+    "MIN": {
+      "city": "Minneapolis, MN",
+      "nws_office": "MPX",
+      "nws_url": "https://www.weather.gov/mpx/",
+      "accuweather_location": "Minneapolis, MN",
+      "roof_type": "fixed_enclosed"
+    },
+    "ATL": {
+      "city": "Atlanta, GA",
+      "nws_office": "FFC",
+      "nws_url": "https://www.weather.gov/ffc/",
+      "accuweather_location": "Atlanta, GA",
+      "roof_type": "retractable"
+    },
+    "CAR": {
+      "city": "Charlotte, NC",
+      "nws_office": "GSP",
+      "nws_url": "https://www.weather.gov/gsp/",
+      "accuweather_location": "Charlotte, NC",
+      "roof_type": "open"
+    },
+    "NO": {
+      "city": "New Orleans, LA",
+      "nws_office": "LIX",
+      "nws_url": "https://www.weather.gov/lix/",
+      "accuweather_location": "New Orleans, LA",
+      "roof_type": "fixed_enclosed"
+    },
+    "TB": {
+      "city": "Tampa, FL",
+      "nws_office": "TBW",
+      "nws_url": "https://www.weather.gov/tbw/",
+      "accuweather_location": "Tampa, FL",
+      "roof_type": "open"
+    },
+    "ARI": {
+      "city": "Glendale, AZ",
+      "nws_office": "PSR",
+      "nws_url": "https://www.weather.gov/psr/",
+      "accuweather_location": "Glendale, AZ",
+      "roof_type": "retractable"
+    },
+    "LAR": {
+      "city": "Inglewood, CA",
+      "nws_office": "LOX",
+      "nws_url": "https://www.weather.gov/lox/",
+      "accuweather_location": "Inglewood, CA",
+      "roof_type": "fixed_canopy_open_air"
+    },
+    "SF": {
+      "city": "Santa Clara, CA",
+      "nws_office": "MTR",
+      "nws_url": "https://www.weather.gov/mtr/",
+      "accuweather_location": "Santa Clara, CA",
+      "roof_type": "open"
+    },
+    "SEA": {
+      "city": "Seattle, WA",
+      "nws_office": "SEW",
+      "nws_url": "https://www.weather.gov/sew/",
+      "accuweather_location": "Seattle, WA",
+      "roof_type": "open"
+    }
+  },
+  "roof_sources": [
+    "https://www.lucasoilstadium.com/tours-stadium-info/background-history/",
+    "https://www.nrgpark.com/reliant-stadium/",
+    "https://www.statefarmstadium.com/plan-your-visit/a-z-guide",
+    "https://www.hksinc.com/what-we-do/projects/att-stadium/",
+    "https://www.mercedesbenzstadium.com/news/falcons-vs-packers-to-be-first-ever-event-with-roof-open",
+    "https://www.fordfield.com/",
+    "https://www.usbankstadium.com/plan-your-visit/a-z-guide",
+    "https://www.allegiantstadium.com/news/detail/construction-of-allegiant-stadium-achieves-certificate-of-occupancy-1",
+    "https://www.caesarssuperdome.com/assets/doc/Dome-FacilityGuide-9189bfa92f.pdf",
+    "https://static.clubs.nfl.com/image/upload/v1606870383/chargers/txw6assy6dudk8zvaw0a.pdf"
+  ]
+}
