@@ -369,27 +369,28 @@ body:has(#wtoInstallBanner:not([hidden])) .wto-install-lightning{display:block}
 <style>
 /* Lightweight drifting clouds behind matchup content. */
 #trackerScreen{position:relative;isolation:isolate}
-#trackerScreen::before,#trackerScreen::after{content:"";position:fixed;inset:-10% -80%;z-index:-1;pointer-events:none;opacity:0;background-repeat:no-repeat;will-change:transform}
-body.wto-clouds-on #trackerScreen:not(.app-hidden)::before{opacity:.15;background-image:radial-gradient(ellipse at 24% 22%,#dce6ed 0,transparent 24%),radial-gradient(ellipse at 52% 28%,#afc3cf 0,transparent 30%),radial-gradient(ellipse at 79% 20%,#dce6ed 0,transparent 22%);animation:wtoCloudDrift 75s linear infinite alternate}
-body.wto-clouds-on #trackerScreen:not(.app-hidden)::after{opacity:.09;background-image:radial-gradient(ellipse at 30% 65%,#c1d0db 0,transparent 25%),radial-gradient(ellipse at 70% 75%,#e4eaf0 0,transparent 28%);animation:wtoCloudDrift 110s linear infinite alternate-reverse}
+#wtoAtmosphereLayer::before,#wtoAtmosphereLayer::after{content:"";position:fixed;inset:-10% -80%;z-index:-1;pointer-events:none;opacity:0;background-repeat:no-repeat;will-change:transform}
+body.wto-clouds-on #wtoAtmosphereLayer::before{opacity:.24;background-image:radial-gradient(ellipse at 24% 22%,#dce6ed 0,transparent 24%),radial-gradient(ellipse at 52% 28%,#afc3cf 0,transparent 30%),radial-gradient(ellipse at 79% 20%,#dce6ed 0,transparent 22%);animation:wtoCloudDrift 75s linear infinite alternate}
+body.wto-clouds-on #wtoAtmosphereLayer::after{opacity:.16;background-image:radial-gradient(ellipse at 30% 65%,#c1d0db 0,transparent 25%),radial-gradient(ellipse at 70% 75%,#e4eaf0 0,transparent 28%);animation:wtoCloudDrift 110s linear infinite alternate-reverse}
 @keyframes wtoCloudDrift{from{transform:translateX(-12%)}to{transform:translateX(12%)}}
-body.wto-clouds-paused #trackerScreen::before,body.wto-clouds-paused #trackerScreen::after{animation-play-state:paused!important}
-@media(prefers-reduced-motion:reduce){#trackerScreen::before,#trackerScreen::after{animation:none!important;will-change:auto}}
+body.wto-clouds-paused #wtoAtmosphereLayer::before,body.wto-clouds-paused #wtoAtmosphereLayer::after{animation-play-state:paused!important}
+@media(prefers-reduced-motion:reduce){#wtoAtmosphereLayer::before,#wtoAtmosphereLayer::after{animation:none!important;will-change:auto}}
 </style>
 <style>
-#trackerScreen .wto-weather{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+#wtoAtmosphereLayer .wto-weather{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
 .wto-weather i{position:absolute;top:-20px;left:var(--x);opacity:0;animation:none}
-body.wto-clouds-on #trackerScreen:not(.app-hidden) .wto-weather[data-weather="rain"] i{width:1px;height:13px;background:#abc7d4;opacity:.18;animation:wtoPrecip 1.9s linear infinite;animation-delay:var(--delay)}
-body.wto-clouds-on #trackerScreen:not(.app-hidden) .wto-weather[data-weather="sleet"] i{width:2px;height:4px;background:#dce8ed;opacity:.22;animation:wtoPrecip 3s linear infinite;animation-delay:var(--delay)}
-body.wto-clouds-on #trackerScreen:not(.app-hidden) .wto-weather[data-weather="snow"] i{width:3px;height:3px;border-radius:50%;background:#fff;opacity:.28;animation:wtoPrecip 9s linear infinite;animation-delay:var(--delay)}
+body.wto-clouds-on #wtoAtmosphereLayer .wto-weather[data-weather="rain"] i{width:1px;height:13px;background:#abc7d4;opacity:.18;animation:wtoPrecip 1.9s linear infinite;animation-delay:var(--delay)}
+body.wto-clouds-on #wtoAtmosphereLayer .wto-weather[data-weather="sleet"] i{width:2px;height:4px;background:#dce8ed;opacity:.22;animation:wtoPrecip 3s linear infinite;animation-delay:var(--delay)}
+body.wto-clouds-on #wtoAtmosphereLayer .wto-weather[data-weather="snow"] i{width:3px;height:3px;border-radius:50%;background:#fff;opacity:.28;animation:wtoPrecip 9s linear infinite;animation-delay:var(--delay)}
 @keyframes wtoPrecip{to{transform:translate(-40px,110vh)}}
 body.wto-clouds-paused .wto-weather i{animation-play-state:paused!important}
-body[data-wto-season="winter"] #trackerScreen::before{animation-duration:55s!important}
-body[data-wto-season="winter"] #trackerScreen::after{animation-duration:85s!important}
-body[data-wto-season="summer"] #trackerScreen::before{animation-duration:100s!important}
-body[data-wto-season="summer"] #trackerScreen::after{animation-duration:140s!important}
+body[data-wto-season="winter"] #wtoAtmosphereLayer::before{animation-duration:55s!important}
+body[data-wto-season="winter"] #wtoAtmosphereLayer::after{animation-duration:85s!important}
+body[data-wto-season="summer"] #wtoAtmosphereLayer::before{animation-duration:100s!important}
+body[data-wto-season="summer"] #wtoAtmosphereLayer::after{animation-duration:140s!important}
 @media(prefers-reduced-motion:reduce){.wto-weather{display:none!important}}
 </style>
+<style>#wtoAtmosphereLayer{position:fixed;inset:0;z-index:2;pointer-events:none;overflow:hidden;display:none}body.wto-clouds-on #wtoAtmosphereLayer{display:block}#wtoAtmosphereLayer::before,#wtoAtmosphereLayer::after,#wtoAtmosphereLayer .wto-weather{z-index:0}</style>
 </head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
@@ -433,7 +434,7 @@ body[data-wto-season="summer"] #trackerScreen::after{animation-duration:140s!imp
   </div>
 </dialog>
 
-<div class="screen app-hidden" id="trackerScreen"><div class="wto-weather" aria-hidden="true" data-weather="clear"><i style="--x:0%;--delay:-0s"></i><i style="--x:37%;--delay:-0.7s"></i><i style="--x:74%;--delay:-1.4s"></i><i style="--x:11%;--delay:-2.0999999999999996s"></i><i style="--x:48%;--delay:-2.8s"></i><i style="--x:85%;--delay:-3.5s"></i><i style="--x:22%;--delay:-4.199999999999999s"></i><i style="--x:59%;--delay:-4.8999999999999995s"></i><i style="--x:96%;--delay:-5.6s"></i><i style="--x:33%;--delay:-0s"></i><i style="--x:70%;--delay:-0.7s"></i><i style="--x:7%;--delay:-1.4s"></i><i style="--x:44%;--delay:-2.0999999999999996s"></i><i style="--x:81%;--delay:-2.8s"></i><i style="--x:18%;--delay:-3.5s"></i><i style="--x:55%;--delay:-4.199999999999999s"></i><i style="--x:92%;--delay:-4.8999999999999995s"></i><i style="--x:29%;--delay:-5.6s"></i><i style="--x:66%;--delay:-0s"></i><i style="--x:3%;--delay:-0.7s"></i><i style="--x:40%;--delay:-1.4s"></i><i style="--x:77%;--delay:-2.0999999999999996s"></i><i style="--x:14%;--delay:-2.8s"></i><i style="--x:51%;--delay:-3.5s"></i></div>
+<div class="screen app-hidden" id="trackerScreen">
 
   <div class="marquee">
     <div class="masthead">
@@ -1149,29 +1150,29 @@ if(document.readyState==='loading'){
 })();
 </script>
 
+<div id="wtoAtmosphereLayer" aria-hidden="true"><div class="wto-weather" aria-hidden="true" data-weather="clear"><i style="--x:0%;--delay:-0s"></i><i style="--x:37%;--delay:-0.7s"></i><i style="--x:74%;--delay:-1.4s"></i><i style="--x:11%;--delay:-2.0999999999999996s"></i><i style="--x:48%;--delay:-2.8s"></i><i style="--x:85%;--delay:-3.5s"></i><i style="--x:22%;--delay:-4.199999999999999s"></i><i style="--x:59%;--delay:-4.8999999999999995s"></i><i style="--x:96%;--delay:-5.6s"></i><i style="--x:33%;--delay:-0s"></i><i style="--x:70%;--delay:-0.7s"></i><i style="--x:7%;--delay:-1.4s"></i><i style="--x:44%;--delay:-2.0999999999999996s"></i><i style="--x:81%;--delay:-2.8s"></i><i style="--x:18%;--delay:-3.5s"></i><i style="--x:55%;--delay:-4.199999999999999s"></i><i style="--x:92%;--delay:-4.8999999999999995s"></i><i style="--x:29%;--delay:-5.6s"></i><i style="--x:66%;--delay:-0s"></i><i style="--x:3%;--delay:-0.7s"></i><i style="--x:40%;--delay:-1.4s"></i><i style="--x:77%;--delay:-2.0999999999999996s"></i><i style="--x:14%;--delay:-2.8s"></i><i style="--x:51%;--delay:-3.5s"></i></div></div>
 <script>
 
 (function(){
   const key='wto-moving-clouds',button=document.getElementById('cloudSwitch');
-  const tracker=document.getElementById('trackerScreen'),weather=tracker.querySelector('.wto-weather');
+  const layer=document.getElementById('wtoAtmosphereLayer'),weather=layer.querySelector('.wto-weather');
   const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
-  let enabled=false,timer=null,phase=0;
+  let enabled=false,timer=null,phase=1;
   try{enabled=localStorage.getItem(key)==='on'}catch(e){}
   function season(){const month=Number(new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'numeric'}).format(new Date()));return month===12||month<=2?'winter':month>=6&&month<=8?'summer':month>=9?'fall':'spring'}
   function sequence(){const value=season();document.body.dataset.wtoSeason=value;return value==='winter'?['clear','snow','clear','sleet','clear','rain']:value==='fall'?['clear','rain','clear','sleet','clear','snow']:['clear','rain','clear','rain']}
   function sync(){
     clearTimeout(timer);timer=null;
-    const active=enabled&&!document.hidden&&!tracker.classList.contains('app-hidden')&&!motion.matches;
+    const active=enabled&&!document.hidden&&!motion.matches;
     document.body.classList.toggle('wto-clouds-paused',!active);
     if(!active){weather.dataset.weather='clear';return}
     const stages=sequence();weather.dataset.weather=stages[phase%stages.length];
     timer=setTimeout(()=>{phase++;sync()},weather.dataset.weather==='clear'?26000:12000);
   }
   function apply(){document.body.classList.toggle('wto-clouds-on',enabled);button.classList.toggle('on',enabled);button.setAttribute('aria-pressed',String(enabled));sync()}
-  button.onclick=function(){enabled=!enabled;phase=0;apply();try{localStorage.setItem(key,enabled?'on':'off')}catch(e){}};
+  button.onclick=function(){enabled=!enabled;phase=1;apply();try{localStorage.setItem(key,enabled?'on':'off')}catch(e){}};
   document.addEventListener('visibilitychange',sync);
   motion.addEventListener('change',sync);
-  new MutationObserver(sync).observe(tracker,{attributes:true,attributeFilter:['class']});
   apply();
 })();
 </script>
