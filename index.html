@@ -668,15 +668,15 @@ function matchupBadges(g){const supplied=Array.isArray(g.badges)?g.badges:[],a=N
 function kickoffWeather(g){
   const w=g.kickoff_weather;
   const allowed=['sunny','cloudy','rain','storm','sleet','snow','clear'];
-  const sourced=w&&w.provider==='Weather.com'&&/^https:\/\/(?:www\.)?weather\.com\//.test(w.source_url||'')&&Number.isFinite(Date.parse(w.checked_at))&&w.kickoff===g.kickoff;
+  const sourced=w&&w.provider==='National Weather Service'&&/^https:\/\/(?:api\.weather\.gov|(?:www\.)?weather\.gov)\//.test(w.source_url||'')&&Number.isFinite(Date.parse(w.checked_at))&&w.kickoff===g.kickoff;
   if(sourced&&w.indoor===true)return {condition:'indoors',label:'🏟️ Indoors · Weather no factor',detail:w.detail||'Indoor conditions verified.',url:w.source_url,checked:w.checked_at};
-  if(!sourced||!allowed.includes(w.condition)||typeof w.is_night!=='boolean')return {condition:'unavailable',label:'Forecast unavailable',detail:'A Weather.com forecast for this stadium and kickoff has not been verified.'};
+  if(!sourced||!allowed.includes(w.condition)||typeof w.is_night!=='boolean')return {condition:'unavailable',label:'Forecast unavailable',detail:'A National Weather Service forecast for this stadium and kickoff has not been verified.'};
   const icons={sunny:'☀️',clear:'☀️',cloudy:'☁️',rain:'🌧️',storm:'⛈️',sleet:'🌨️',snow:'❄️'};
   return {condition:w.condition,label:(w.is_night?'🌙 ':'')+icons[w.condition]+' '+(w.is_night?'Night · ':'')+w.condition.charAt(0).toUpperCase()+w.condition.slice(1),detail:w.detail||'Kickoff forecast',url:w.source_url,checked:w.checked_at};
 }
 function kickoffWeatherHtml(g){
   const w=kickoffWeather(g);
-  return '<details class="kickoff-weather"><summary>'+safeText(w.label)+'</summary><div>'+safeText(w.detail)+(w.checked?'<br>Weather.com · Updated '+safeText(new Date(w.checked).toLocaleString('en-US',{timeZone:'America/New_York'}))+' ET<br><a href="'+safeText(w.url)+'" target="_blank" rel="noopener">View forecast</a>':'')+'</div></details>';
+  return '<details class="kickoff-weather"><summary>'+safeText(w.label)+'</summary><div>'+safeText(w.detail)+(w.checked?'<br>National Weather Service · Updated '+safeText(new Date(w.checked).toLocaleString('en-US',{timeZone:'America/New_York'}))+' ET<br><a href="'+safeText(w.url)+'" target="_blank" rel="noopener">View forecast</a>':'')+'</div></details>';
 }
 function badgesHtml(g){return `<div class="game-badges">${matchupBadges(g).map(x=>`<span class="game-badge ${/SUPER BOWL|PLAYOFF/.test(x)?'major':''}">${x}</span>`).join('')}${kickoffWeatherHtml(g)}</div>`}
 function recordLabel(x){return x&&typeof x==='object'?`${x.wins||0}–${x.losses||0}–${x.ties||0}`:x||'—'}
