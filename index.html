@@ -405,6 +405,7 @@ body[data-wto-kickoff-weather="storm"] #wtoAtmosphereLayer::after{animation-dura
 .wto-matchup-lightning::after{content:"";position:absolute;top:3%;left:72%;width:36px;height:28%;background:#eaf4ff;clip-path:polygon(48% 0,12% 47%,46% 47%,20% 100%,92% 35%,57% 35%,83% 0)}
 body.wto-clouds-on[data-wto-kickoff-weather="rain"] .wto-matchup-lightning{animation:wtoRainLightning 19s linear infinite}
 body.wto-clouds-on[data-wto-kickoff-weather="storm"] .wto-matchup-lightning{animation:wtoStormLightning 9s linear infinite}
+body[data-wto-kickoff-weather="sunny"] #wtoAtmosphereLayer::before,body[data-wto-kickoff-weather="sunny"] #wtoAtmosphereLayer::after,body[data-wto-kickoff-weather="clear"] #wtoAtmosphereLayer::before,body[data-wto-kickoff-weather="clear"] #wtoAtmosphereLayer::after{opacity:0}
 @keyframes wtoRainLightning{0%,24%,29%,100%{opacity:0}26%{opacity:.09}27%{opacity:.03}}
 @keyframes wtoStormLightning{0%,19%,28%,66%,77%,100%{opacity:0}22%{opacity:.22}25%{opacity:.07}69%{opacity:.28}73%{opacity:.08}}
 body.wto-clouds-paused .wto-matchup-lightning{animation-play-state:paused!important}
