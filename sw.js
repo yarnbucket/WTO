@@ -1,8 +1,9 @@
-const CACHE = 'wto-shell-v58';
+const CACHE = 'wto-shell-v59-weather';
 
 const SHELL = [
   './',
   './index.html',
+  './wto-weather-venues-2026.json',
   './manifest.webmanifest',
   './wto-icon.svg',
   './wto-icon-192.png',
