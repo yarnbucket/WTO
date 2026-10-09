@@ -6,4 +6,4 @@ Save your selections in **My Pick Slip** to track how you do. Odds refresh Tuesd
 
 Coming next: simple weekly graphs comparing your picks, WTO predictions, market lines, and actual results.
 
-Want a game-day atmosphere? Turn on **Atmosphere** in Settings. It’s optional and off by default, with seasonal clouds, light rain, sleet, snow, and quiet pauses.
+Want a game-day atmosphere? Turn on **Atmosphere** in Settings. It’s optional and off by default. Effects appear only inside the selected matchup when a forecast is available.
