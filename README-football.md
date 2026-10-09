@@ -5,3 +5,5 @@ What’s the Odds? helps you follow NFL matchups, compare team trends, and under
 Save your selections in **My Pick Slip** to track how you do. Odds refresh Tuesday, Thursday, and Sunday, while your saved lines stay fixed.
 
 Coming next: simple weekly graphs comparing your picks, WTO predictions, market lines, and actual results.
+
+Want a game-day atmosphere? Turn on **Moving Clouds** in Settings. It’s optional and off by default.
