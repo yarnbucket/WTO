@@ -6,8 +6,8 @@
     "Use actual game venue including international/neutral games, not team home location.",
     "NWS kickoff-time point forecast is primary; AccuWeather city search is secondary. User-supplied sources do not establish which services teams themselves use.",
     "Fixed enclosed home venues: weather no factor.",
-    "Retractable: only show indoors/weather no factor with event-specific official roof-closed confirmation; unknown roof status remains unconfirmed.",
-    "SoFi fixed canopy is open-air: rain sheltered; check wind/temperature and do not automatically mark indoor.",
+    "Retractable: retain roof status and official game-specific evidence internally. Badge defaults to Weather no factor; show field-relevant weather only for verified open roof plus material conditions. Never display unconfirmed status.",
+    "SoFi fixed canopy is open-air: retain true classification. Badge defaults to Weather no factor; show verified material field-relevant wind/temperature during existing updates.",
     "Flag material wind, rain, snow/ice, extreme cold and storms; ordinary outdoor weather no factor only with verified forecast.",
     "Refresh checks with Tuesday, Thursday and Sunday updates; do not add automation jobs.",
     "BUF: confirm new 2026 stadium coordinates before reusing old point forecast. TEN: open in 2026; enclosed replacement scheduled 2027."
