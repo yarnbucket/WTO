@@ -391,6 +391,7 @@ body[data-wto-season="summer"] #wtoAtmosphereLayer::after{animation-duration:140
 @media(prefers-reduced-motion:reduce){.wto-weather{display:none!important}}
 </style>
 <style>#wtoAtmosphereLayer{position:fixed;inset:0;z-index:2;pointer-events:none;overflow:hidden;display:none}body.wto-clouds-on #wtoAtmosphereLayer{display:block}#wtoAtmosphereLayer::before,#wtoAtmosphereLayer::after,#wtoAtmosphereLayer .wto-weather{z-index:0}</style>
+<style>.game-badges{display:flex;align-items:flex-start;flex-wrap:wrap;gap:8px}.kickoff-weather{margin-left:auto;max-width:230px;color:#dcebf4;font:12px/1.4 sans-serif}.kickoff-weather summary{cursor:pointer;border:1px solid #7591a4;border-radius:5px;padding:5px 7px}.kickoff-weather>div{padding:8px;background:#08170e}.kickoff-weather a{color:#ffc72c}body[data-wto-kickoff-weather="unavailable"] #wtoAtmosphereLayer::before,body[data-wto-kickoff-weather="unavailable"] #wtoAtmosphereLayer::after,body[data-wto-kickoff-weather="indoors"] #wtoAtmosphereLayer::before,body[data-wto-kickoff-weather="indoors"] #wtoAtmosphereLayer::after,body[data-wto-kickoff-weather="sunny"] #wtoAtmosphereLayer::before,body[data-wto-kickoff-weather="sunny"] #wtoAtmosphereLayer::after,body[data-wto-kickoff-weather="clear"] #wtoAtmosphereLayer::before,body[data-wto-kickoff-weather="clear"] #wtoAtmosphereLayer::after{opacity:0}</style>
 </head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
@@ -663,7 +664,21 @@ function teamNameParts(name){const words=String(name||'').trim().split(/\s+/).fi
 function team(t,score){const a=TEAM[t]||[t,'#24352A',t.toLowerCase()],parts=teamNameParts(a[0]);return `<div class="team-block"><button class="crest team-info-trigger" style="background:${a[1]}" aria-label="Open ${a[0]} team information" onclick="openTeamInfo('${t}',${current})"><img src="${logo(t)}" alt="" onerror="this.parentElement.textContent='${t}'"></button><div class="team-copy"><div class="tname"><span class="team-city">${safeText(parts.city)}</span><span class="team-nickname">${safeText(parts.nickname)}</span></div>${score==null?'':`<div class="tscore">Score · ${score}</div>`}</div></div>`}
 const NFL_GROUP={BUF:['AFC','E'],MIA:['AFC','E'],NE:['AFC','E'],NYJ:['AFC','E'],BAL:['AFC','N'],CIN:['AFC','N'],CLE:['AFC','N'],PIT:['AFC','N'],HOU:['AFC','S'],IND:['AFC','S'],JAX:['AFC','S'],TEN:['AFC','S'],DEN:['AFC','W'],KC:['AFC','W'],LV:['AFC','W'],LAC:['AFC','W'],DAL:['NFC','E'],NYG:['NFC','E'],PHI:['NFC','E'],WAS:['NFC','E'],CHI:['NFC','N'],DET:['NFC','N'],GB:['NFC','N'],MIN:['NFC','N'],ATL:['NFC','S'],CAR:['NFC','S'],NO:['NFC','S'],TB:['NFC','S'],ARI:['NFC','W'],LAR:['NFC','W'],SF:['NFC','W'],SEA:['NFC','W']};
 function matchupBadges(g){const supplied=Array.isArray(g.badges)?g.badges:[],a=NFL_GROUP[g.away],h=NFL_GROUP[g.home],derived=a&&h?[a[0]===h[0]&&a[1]===h[1]?'DIVISIONAL GAME':a[0]===h[0]?'CONFERENCE GAME':'INTERCONFERENCE']:[];return [...new Set([...supplied,...derived])].slice(0,3)}
-function badgesHtml(g){return `<div class="game-badges">${matchupBadges(g).map(x=>`<span class="game-badge ${/SUPER BOWL|PLAYOFF/.test(x)?'major':''}">${x}</span>`).join('')}</div>`}
+
+function kickoffWeather(g){
+  const w=g.kickoff_weather;
+  const allowed=['sunny','cloudy','rain','storm','sleet','snow','clear'];
+  const sourced=w&&w.provider==='Weather.com'&&/^https:\/\/(?:www\.)?weather\.com\//.test(w.source_url||'')&&Number.isFinite(Date.parse(w.checked_at))&&w.kickoff===g.kickoff;
+  if(sourced&&w.indoor===true)return {condition:'indoors',label:'🏟️ Indoors · Weather no factor',detail:w.detail||'Indoor conditions verified.',url:w.source_url,checked:w.checked_at};
+  if(!sourced||!allowed.includes(w.condition)||typeof w.is_night!=='boolean')return {condition:'unavailable',label:'Forecast unavailable',detail:'A Weather.com forecast for this stadium and kickoff has not been verified.'};
+  const icons={sunny:'☀️',clear:'☀️',cloudy:'☁️',rain:'🌧️',storm:'⛈️',sleet:'🌨️',snow:'❄️'};
+  return {condition:w.condition,label:(w.is_night?'🌙 ':'')+icons[w.condition]+' '+(w.is_night?'Night · ':'')+w.condition.charAt(0).toUpperCase()+w.condition.slice(1),detail:w.detail||'Kickoff forecast',url:w.source_url,checked:w.checked_at};
+}
+function kickoffWeatherHtml(g){
+  const w=kickoffWeather(g);
+  return '<details class="kickoff-weather"><summary>'+safeText(w.label)+'</summary><div>'+safeText(w.detail)+(w.checked?'<br>Weather.com · Updated '+safeText(new Date(w.checked).toLocaleString('en-US',{timeZone:'America/New_York'}))+' ET<br><a href="'+safeText(w.url)+'" target="_blank" rel="noopener">View forecast</a>':'')+'</div></details>';
+}
+function badgesHtml(g){return `<div class="game-badges">${matchupBadges(g).map(x=>`<span class="game-badge ${/SUPER BOWL|PLAYOFF/.test(x)?'major':''}">${x}</span>`).join('')}${kickoffWeatherHtml(g)}</div>`}
 function recordLabel(x){return x&&typeof x==='object'?`${x.wins||0}–${x.losses||0}–${x.ties||0}`:x||'—'}
 function gameLabel(x){return x?`${x.away} ${x.away_score}, ${x.home} ${x.home_score} · ${x.season} Week ${x.week}`:''}
 function atsLabel(x){if(!x)return '—';const n=x.wins+x.losses,p=n?Math.round(x.wins/n*100):0;return `${x.wins}–${x.losses}–${x.pushes} · ${p}%`}
@@ -1166,12 +1181,18 @@ if(document.readyState==='loading'){
     const active=enabled&&!document.hidden&&!motion.matches;
     document.body.classList.toggle('wto-clouds-paused',!active);
     if(!active){weather.dataset.weather='clear';return}
-    const stages=sequence();weather.dataset.weather=stages[phase%stages.length];
+    const stages=sequence();
+    const selected=typeof selectedGameId==='string'&&selectedGameId!=='COLLAPSED'&&!document.getElementById('trackerScreen').classList.contains('app-hidden')?findGame(selectedGameId):null;
+    const forecast=selected?kickoffWeather(selected):null;
+    document.body.dataset.wtoKickoffWeather=forecast?.condition||'decorative';
+    weather.dataset.weather=forecast?(['rain','snow','sleet'].includes(forecast.condition)?forecast.condition:forecast.condition==='storm'?'rain':'clear'):stages[phase%stages.length];
     timer=setTimeout(()=>{phase++;sync()},weather.dataset.weather==='clear'?26000:12000);
   }
   function apply(){document.body.classList.toggle('wto-clouds-on',enabled);button.classList.toggle('on',enabled);button.setAttribute('aria-pressed',String(enabled));sync()}
   button.onclick=function(){enabled=!enabled;phase=1;apply();try{localStorage.setItem(key,enabled?'on':'off')}catch(e){}};
   document.addEventListener('visibilitychange',sync);
+  new MutationObserver(sync).observe(document.getElementById('schedule'),{childList:true});
+  new MutationObserver(sync).observe(document.getElementById('trackerScreen'),{attributes:true,attributeFilter:['class']});
   motion.addEventListener('change',sync);
   apply();
 })();
