@@ -35,7 +35,7 @@ async function loadTeamTrivia(panel){
 }
 function renderTeamTrivia(panel){
  const team=panel.dataset.triviaTeam,questions=wtoTriviaBank?.teams[team]?.questions;if(!questions?.length)return;
- const p=triviaProgress(team);p.revealed=Array.isArray(p.revealed)?p.revealed:[];p.cursor=((p.cursor%questions.length)+questions.length)%questions.length;
+ const p=triviaProgress(team);p.revealed=Array.isArray(p.revealed)?p.revealed:[];p.solved=[...new Set(p.solved)].filter(id=>questions.some(q=>q.id===id));p.cursor=((p.cursor%questions.length)+questions.length)%questions.length;
  const q=questions[p.cursor],revealed=p.solved.includes(q.id)||p.revealed.includes(q.id),body=panel.querySelector('.team-trivia-body');
  body.innerHTML='<p class="trivia-progress">Question '+(p.cursor+1)+' of '+questions.length+' · '+p.solved.length+' correct</p><p class="trivia-question">'+safeText(q.question)+'</p><form onsubmit="return submitTeamTrivia(this)"><label>Your answer<input name="answer" autocomplete="off" autocapitalize="words" spellcheck="false" maxlength="100" '+(revealed?'disabled':'')+' required></label><button type="submit" '+(revealed?'disabled':'')+'>CHECK ANSWER</button></form><p class="trivia-feedback" aria-live="polite"></p><div class="trivia-actions"><button type="button" onclick="hintTeamTrivia(this)">HINT</button><button type="button" onclick="revealTeamTrivia(this)">SHOW ANSWER</button><button type="button" onclick="nextTeamTrivia(this)">NEXT →</button><button type="button" onclick="resetTeamTrivia(this)">RESET QUIZ</button></div><small>Records checked '+safeText(q.verified_at)+'. Franchise history includes earlier names and cities.</small>';
  if(revealed)showTriviaAnswer(panel,q,p.solved.includes(q.id)?'Correct!':'Answer revealed.');
@@ -48,7 +48,7 @@ function showTriviaAnswer(panel,q,message){
 function submitTeamTrivia(form){
  const panel=form.closest('.team-trivia'),{team,p,qs,q}=currentTrivia(panel),result=triviaMatch(q,form.elements.answer.value,qs);
  const feedback=panel.querySelector('.trivia-feedback');
- if(result==='correct'){if(!p.solved.includes(q.id))p.solved.push(q.id);triviaSave(team,p);renderTeamTrivia(panel)}
+ if(result==='correct'){if(!p.solved.includes(q.id))p.solved.push(q.id);triviaSave(team,p);renderTeamTrivia(panel);if(unlockTriviaTrophy(team,p,qs))panel.querySelector('.trivia-feedback').insertAdjacentHTML('beforeend','<br><strong>🏆 Trophy unlocked! Look for it next time you start WTO.</strong>')}
  else feedback.textContent=result==='ambiguous'?'Be more specific—try the full name.':result==='empty'?'Type an answer first.':'Not quite. Try again or use a hint.';
  return false;
 }
@@ -57,3 +57,20 @@ function revealTeamTrivia(button){const panel=button.closest('.team-trivia'),{te
 function nextTeamTrivia(button){const panel=button.closest('.team-trivia'),{team,p,qs}=currentTrivia(panel);p.cursor=(p.cursor+1)%qs.length;triviaSave(team,p);renderTeamTrivia(panel)}
 
 function resetTeamTrivia(button){const panel=button.closest('.team-trivia');triviaSave(panel.dataset.triviaTeam,{cursor:0,solved:[],revealed:[]});renderTeamTrivia(panel)}
+
+/* An earned trophy survives quiz resets; only current, correctly answered questions count. */
+function triviaTrophyEarned(){try{return JSON.parse(localStorage.getItem('wto-trivia-trophy-v1')||'null')}catch(e){return null}}
+function unlockTriviaTrophy(team,progress,questions){
+ if(triviaTrophyEarned()||questions.length!==10||!questions.every(q=>progress.solved.includes(q.id)))return false;
+ try{localStorage.setItem('wto-trivia-trophy-v1',JSON.stringify({team,earned_at:new Date().toISOString()}));return true}catch(e){return false}
+}
+function showTriviaStartupTrophy(){
+ if(!triviaTrophyEarned()||document.getElementById('trivia-startup-trophy'))return;
+ const home=document.getElementById('summaryScreen');
+ if(!home||home.classList.contains('app-hidden'))return;
+ const badge=document.createElement('div');badge.id='trivia-startup-trophy';badge.className='trivia-startup-trophy';badge.setAttribute('role','status');
+ badge.innerHTML='<svg viewBox="0 0 120 180" width="90" height="135" aria-hidden="true"><defs><linearGradient id="trivia-silver"><stop stop-color="#6d7982"/><stop offset=".4" stop-color="#fff"/><stop offset=".6" stop-color="#bccbd5"/><stop offset="1" stop-color="#56636d"/></linearGradient></defs><path d="M48 67L72 67 88 155 32 155Z" fill="url(#trivia-silver)" stroke="#edf6ff"/><path d="M60 70L68 155" stroke="#596a78"/><ellipse cx="60" cy="40" rx="23" ry="38" transform="rotate(38 60 40)" fill="url(#trivia-silver)" stroke="#edf6ff" stroke-width="2"/><path d="M43 59L77 20M50 43L62 52M55 36L68 45M60 29L73 38" stroke="#586877" stroke-width="2"/><rect x="29" y="155" width="62" height="10" rx="2" fill="url(#trivia-silver)"/></svg><strong>TRIVIA CHAMPION</strong>';
+ home.appendChild(badge);
+ setTimeout(()=>badge.remove(),2800);
+}
+if(typeof document!=='undefined')document.addEventListener('DOMContentLoaded',()=>setTimeout(showTriviaStartupTrophy,800));

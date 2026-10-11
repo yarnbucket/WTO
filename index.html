@@ -322,6 +322,11 @@ body[data-theme="halloween"] .featured-label::before{content:"🎃";font-size:19
 body[data-theme="halloween"] .game-card .pick-btn.selected{box-shadow:0 0 12px #ff8a0044}
 body[data-theme]:not([data-theme="classic"]) .summary-screen{background-color:var(--field)}
 
+
+.trivia-startup-trophy{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:70;pointer-events:none;display:flex;align-items:center;flex-direction:column;padding:16px 24px;border:1px solid var(--gold,#ffcc32);border-radius:18px;background:rgba(5,15,10,.82);color:#ffcc32;box-shadow:0 0 35px #ffc83244;animation:trivia-trophy-arrive .5s ease-out}
+.trivia-startup-trophy strong{font-size:16px;letter-spacing:.1em}
+@keyframes trivia-trophy-arrive{from{opacity:0;transform:translate(-50%,-45%) scale(.9)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+@media(prefers-reduced-motion:reduce){.trivia-startup-trophy{animation:none}}
 </style>
 
 <style>
@@ -491,7 +496,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
 .team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
-</style><script src="./wto-team-trivia.js?v=81"></script></head>
+</style><script src="./wto-team-trivia.js?v=82"></script></head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
 
@@ -643,7 +648,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-11-v81';
+const WTO_RELEASE='2026-10-11-v82';
 function showWtoUpdateNotice(needsReload=false){
  let notice=document.getElementById('wtoUpdateNotice');
  if(!notice){notice=document.createElement('div');notice.id='wtoUpdateNotice';notice.setAttribute('role','status');notice.innerHTML='<div class="update-haunts" aria-hidden="true"><b>🦇</b><b>🕸</b><b>🕷</b><b>🦇</b></div><span></span><a href="#wtoReadmeDialog">CHECK README ☠</a><button type="button"></button>';document.body.appendChild(notice)}
@@ -657,7 +662,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=81',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=82',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();

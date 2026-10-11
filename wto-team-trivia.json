@@ -806,15 +806,15 @@
         },
         {
           "id": "CHI-founded",
-          "question": "In what year was the Chicago Bears franchise originally founded?",
+          "question": "In what year was the original Decatur Staleys company football team formed?",
           "answer": "1919",
           "answer_type": "year",
           "aliases": [
             "1919"
           ],
           "hint": "The year starts with 19.",
-          "explanation": "The franchise traces its founding to 1919, which may precede its first league season.",
-          "source_url": "https://en.wikipedia.org/wiki/Chicago_Bears",
+          "explanation": "The company team formed in 1919, joined the NFL's predecessor in 1920, and later became the Chicago Bears.",
+          "source_url": "https://www.chicagobears.com/news/chicago-bears-primient-announce-multi-year-partnership-to-preserve-and-share-team-history",
           "verified_at": "2026-10-11"
         },
         {
@@ -1517,16 +1517,16 @@
           "verified_at": "2026-10-11"
         },
         {
-          "id": "DET-founded",
-          "question": "In what year was the Detroit Lions franchise originally founded?",
-          "answer": "1928",
+          "id": "DET-detroit-move",
+          "question": "In what year did the Portsmouth Spartans move to Detroit and become the Lions?",
+          "answer": "1934",
           "answer_type": "year",
           "aliases": [
-            "1928"
+            "1934"
           ],
           "hint": "The year starts with 19.",
-          "explanation": "The franchise traces its founding to 1928, which may precede its first league season.",
-          "source_url": "https://en.wikipedia.org/wiki/Detroit_Lions",
+          "explanation": "The Portsmouth Spartans moved to Detroit and became the Lions in 1934.",
+          "source_url": "https://www.profootballhof.com/teams/detroit-lions/team-facts",
           "verified_at": "2026-10-11"
         },
         {
@@ -2671,15 +2671,15 @@
         },
         {
           "id": "LAR-firstseason",
-          "question": "In what year did the Los Angeles Rams franchise first play in the NFL, AFL, or AAFC?",
+          "question": "In what year did the Rams franchise first play in the NFL?",
           "answer": "1937",
           "answer_type": "year",
           "aliases": [
             "1937"
           ],
           "hint": "The year starts with 19.",
-          "explanation": "The franchise's first season in those leagues was 1937. Earlier names and cities count.",
-          "source_url": "https://www.pro-football-reference.com/teams/ram/",
+          "explanation": "The Cleveland Rams joined the NFL in 1937 after playing in an earlier American Football League in 1936.",
+          "source_url": "https://case.edu/ech/articles/c/cleveland-rams",
           "verified_at": "2026-10-11"
         },
         {
@@ -3939,15 +3939,15 @@
         },
         {
           "id": "SF-founded",
-          "question": "In what year was the San Francisco 49ers franchise originally founded?",
+          "question": "In what year was San Francisco granted its AAFC franchise?",
           "answer": "1944",
           "answer_type": "year",
           "aliases": [
             "1944"
           ],
           "hint": "The year starts with 19.",
-          "explanation": "The franchise traces its founding to 1944, which may precede its first league season.",
-          "source_url": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+          "explanation": "San Francisco was granted an AAFC franchise in 1944 and began playing in 1946.",
+          "source_url": "https://www.profootballhof.com/teams/san-francisco-49ers/team-facts",
           "verified_at": "2026-10-11"
         },
         {
