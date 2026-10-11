@@ -520,7 +520,7 @@ function executivePct(value,total){return total?Math.round(value/total*100):0}
 function executiveMeter(left,leftLabel,right,rightLabel){const total=left+right,a=executivePct(left,total),b=total?100-a:0;return '<div class="meter-block"><div class="meter-label"><span>'+leftLabel+'</span><span>'+rightLabel+'</span></div><div class="meter-track"><span class="meter-a" style="width:'+a+'%"></span><span class="meter-b" style="width:'+b+'%"></span></div><div class="meter-note"><span>'+left+' · '+a+'%</span><span>'+right+' · '+b+'%</span></div></div>'}
 const wtoHypocycloidPath='M 0 50 C 250 50 430 42 500 0 C 570 42 750 50 1000 50 C 750 50 570 58 500 100 C 430 58 250 50 0 50 Z';
 function wtoMeterField(label){
- const total=/OVER|UNDER/i.test(label),left=total?'OVERS':'FAVORITES',right=total?'UNDERS':'UNDERDOGS';
+ const total=/^(OVERS|UNDERS)$/i.test(label),left=total?'OVERS':'FAVORITES',right=total?'UNDERS':'UNDERDOGS';
  let marks='<rect x="1" y="1" width="998" height="98" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M40 1V99M960 1V99" stroke="currentColor" stroke-width="1.5"/>';
  for(let yard=0;yard<=100;yard++){
   const x=40+yard*9.2;
