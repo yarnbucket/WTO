@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v67-meter-endzones';
+const CACHE = 'wto-shell-v68-weather-intros';
 
 const SHELL = [
   './',
