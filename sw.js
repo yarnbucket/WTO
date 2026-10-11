@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v75-readme-start';
+const CACHE = 'wto-shell-v76-compact-standings';
 
 const SHELL = [
   './',
