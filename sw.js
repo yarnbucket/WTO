@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v64-gridiron-themes';
+const CACHE = 'wto-shell-v65-seasonal-fonts-transparency';
 
 const SHELL = [
   './',
