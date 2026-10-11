@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v66-field-meters';
+const CACHE = 'wto-shell-v67-meter-endzones';
 
 const SHELL = [
   './',
