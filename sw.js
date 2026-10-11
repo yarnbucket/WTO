@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v62-team-division';
+const CACHE = 'wto-shell-v63-compact-team-header';
 
 const SHELL = [
   './',
