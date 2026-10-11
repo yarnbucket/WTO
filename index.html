@@ -327,6 +327,7 @@ body[data-theme]:not([data-theme="classic"]) .summary-screen{background-color:va
 .trivia-startup-trophy strong{font-size:16px;letter-spacing:.1em}
 @keyframes trivia-trophy-arrive{from{opacity:0;transform:translate(-50%,-45%) scale(.9)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
 @media(prefers-reduced-motion:reduce){.trivia-startup-trophy{animation:none}}
+.trivia-reward-progress{display:flex;align-items:center;flex-wrap:wrap;gap:5px;font-size:13px;color:var(--gold,#ffcc32)}
 </style>
 
 <style>
@@ -648,7 +649,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-11-v82';
+const WTO_RELEASE='2026-10-11-v83';
 function showWtoUpdateNotice(needsReload=false){
  let notice=document.getElementById('wtoUpdateNotice');
  if(!notice){notice=document.createElement('div');notice.id='wtoUpdateNotice';notice.setAttribute('role','status');notice.innerHTML='<div class="update-haunts" aria-hidden="true"><b>🦇</b><b>🕸</b><b>🕷</b><b>🦇</b></div><span></span><a href="#wtoReadmeDialog">CHECK README ☠</a><button type="button"></button>';document.body.appendChild(notice)}

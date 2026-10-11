@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v82-trivia-trophy';
+const CACHE = 'wto-shell-v83-trivia-rewards';
 
 const SHELL = [
   './',
