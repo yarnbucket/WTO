@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v68-weather-intros';
+const CACHE = 'wto-shell-v69-release-notice';
 
 const SHELL = [
   './',
