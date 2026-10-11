@@ -1,8 +1,10 @@
-const CACHE = 'wto-shell-v79-team-established';
+const CACHE = 'wto-shell-v80-team-trivia';
 
 const SHELL = [
   './',
   './index.html',
+  './wto-team-trivia.js?v=80',
+  './wto-team-trivia.json',
   './wto-weather-venues-2026.json',
   './manifest.webmanifest',
   './wto-icon.svg',

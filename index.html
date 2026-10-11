@@ -480,7 +480,18 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .division-standings-list small{display:block;opacity:.7;margin-bottom:8px}
 .division-standing-row{display:grid;grid-template-columns:52px minmax(0,1fr) 38px;gap:7px;padding:7px 0;border-top:1px solid #ffffff22;font-size:13px}
 .division-standing-row.selected{color:#ffcd32;font-weight:bold}
-</style><style>.team-name-line{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.team-name-line h1{margin-bottom:0}.team-established{font-size:13px;color:var(--gold,#ffcd32);white-space:nowrap;text-decoration:underline;text-underline-offset:3px;padding:5px 0}</style></head>
+</style><style>.team-name-line{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.team-name-line h1{margin-bottom:0}.team-established{font-size:13px;color:var(--gold,#ffcd32);white-space:nowrap;text-decoration:underline;text-underline-offset:3px;padding:5px 0}</style><style>.team-trivia{border:1px solid var(--gold,#ffcd32);border-radius:12px;margin:14px 0;background:rgba(8,26,17,.65)}
+.team-trivia summary{padding:13px 16px;cursor:pointer;color:var(--gold,#ffcd32);font-weight:bold;list-style:none}
+.team-trivia-body{padding:0 16px 16px}.trivia-question{font-size:17px;line-height:1.45}
+.trivia-progress,.team-trivia-body small{font-size:12px;opacity:.75}
+.team-trivia-body form{display:flex;gap:8px;align-items:end;flex-wrap:wrap}
+.team-trivia-body label{flex:1;min-width:150px;font-size:13px}
+.team-trivia-body input{display:block;width:100%;box-sizing:border-box;padding:12px;margin-top:6px;font-size:16px;color:#fff;background:#08170f;border:1px solid #a78d47;border-radius:7px}
+.team-trivia-body button{padding:12px 10px;border-radius:7px;border:1px solid var(--gold,#ffcd32);background:#10291b;color:#ffe09a;cursor:pointer;font-weight:bold}
+.team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
+.team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
+</style><script src="./wto-team-trivia.js?v=80"></script></head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
 
@@ -517,7 +528,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
     <h3>FOLLOW THE TRENDS</h3>
     <p>The football fields show how often teams go Over or Under and how often favorites or underdogs cover. Higher percentages gain more yards; <strong>50% is midfield</strong>.</p>
     <p>Open <strong>Team Info</strong> to see results and scoring trends. Compare points scored, points allowed, and saved WTO predictions.</p>
-    <h3>ADD SOME GAME-DAY ATMOSPHERE</h3>
+    <h3>TEST YOUR TEAM KNOWLEDGE</h3><p>Open <strong>Team Info → Team Trivia</strong> for ten questions. Type your answer—small spelling mistakes are okay. Try a hint if you get stuck. Your progress stays saved on this device.</p><h3>ADD SOME GAME-DAY ATMOSPHERE</h3>
     <p>Turn on <strong>Atmosphere</strong> in Settings for a little sunshine, rain, lightning, or snow in your matchup. It’s optional and starts off.</p>
     <h3>WHEN TO CHECK BACK · EASTERN TIME</h3>
     <ul>
@@ -632,7 +643,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-11-v79';
+const WTO_RELEASE='2026-10-11-v80';
 function showWtoUpdateNotice(needsReload=false){
  let notice=document.getElementById('wtoUpdateNotice');
  if(!notice){notice=document.createElement('div');notice.id='wtoUpdateNotice';notice.setAttribute('role','status');notice.innerHTML='<div class="update-haunts" aria-hidden="true"><b>🦇</b><b>🕸</b><b>🕷</b><b>🦇</b></div><span></span><a href="#wtoReadmeDialog">CHECK README ☠</a><button type="button"></button>';document.body.appendChild(notice)}
@@ -646,7 +657,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=79',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=80',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1137,7 +1148,7 @@ function teamDivisionStandingsHtml(team,selectedWeek){
 function openTeamInfo(team,week=current){
   const meta=TEAM[team]||[team,'#24352A',team.toLowerCase()],r=teamSeasonRecord(team),available=WEEKS.map(w=>`<option value="${w.id}" ${String(w.id)===String(week)?'selected':''}>${w.title}</option>`).join('');
   returnScroll=scrollY;listView.classList.add('hidden');detailView.classList.add('active');delete detailView.dataset.gameId;detailView.dataset.team=team;history.pushState({team},'',`#team-${team}`);scrollTo(0,0);
-  detailView.innerHTML=`<div class="detail-head"><button class="back-btn" onclick="closeTeamInfo()">&larr; BACK TO WEEK ${current}</button></div><div class="detail-body"><div class="team-info-hero"><img src="${logo(team)}" alt="${meta[0]} logo"><div class="team-info-copy"><span class="team-info-kicker">Team Info</span><div class="team-name-line"><h1>${meta[0]}</h1>${teamEstablishedHtml(team)}</div><div class="team-info-meta">${teamDivisionStandingsHtml(team,week)}<div class="team-mascot-name"><span>MASCOT</span>${teamMascotHtml(team,meta[0])}</div></div></div></div><div class="detail-section"><h2>Season Snapshot</h2><div class="team-record-grid"><div class="team-record-tile"><span>Straight Up</span><b>${r.su.w}–${r.su.l}–${r.su.t}</b></div><div class="team-record-tile"><span>ATS</span><b>${recordText(r.ats)}</b></div><div class="team-record-tile"><span>Favorite ATS</span><b>${recordText(r.fav)}</b></div><div class="team-record-tile"><span>Underdog ATS</span><b>${recordText(r.dog)}</b></div><div class="team-record-tile"><span>Totals</span><b>${r.totals.o}O–${r.totals.u}U–${r.totals.p}P</b></div><div class="team-record-tile"><span>Avg. Score</span><b>${r.finals?(r.pf/r.finals).toFixed(1):'—'}</b></div></div><select class="team-week-select" aria-label="Select team week" onchange="changeTeamWeek('${team}',this.value)">${available}</select></div>${teamScheduleHtml(team,Number(week))}<div class="team-week-content"></div></div>`;
+  detailView.innerHTML=`<div class="detail-head"><button class="back-btn" onclick="closeTeamInfo()">&larr; BACK TO WEEK ${current}</button></div><div class="detail-body"><div class="team-info-hero"><img src="${logo(team)}" alt="${meta[0]} logo"><div class="team-info-copy"><span class="team-info-kicker">Team Info</span><div class="team-name-line"><h1>${meta[0]}</h1>${teamEstablishedHtml(team)}</div><div class="team-info-meta">${teamDivisionStandingsHtml(team,week)}<div class="team-mascot-name"><span>MASCOT</span>${teamMascotHtml(team,meta[0])}</div></div></div></div><div class="detail-section"><h2>Season Snapshot</h2><div class="team-record-grid"><div class="team-record-tile"><span>Straight Up</span><b>${r.su.w}–${r.su.l}–${r.su.t}</b></div><div class="team-record-tile"><span>ATS</span><b>${recordText(r.ats)}</b></div><div class="team-record-tile"><span>Favorite ATS</span><b>${recordText(r.fav)}</b></div><div class="team-record-tile"><span>Underdog ATS</span><b>${recordText(r.dog)}</b></div><div class="team-record-tile"><span>Totals</span><b>${r.totals.o}O–${r.totals.u}U–${r.totals.p}P</b></div><div class="team-record-tile"><span>Avg. Score</span><b>${r.finals?(r.pf/r.finals).toFixed(1):'—'}</b></div></div><select class="team-week-select" aria-label="Select team week" onchange="changeTeamWeek('${team}',this.value)">${available}</select></div>${teamScheduleHtml(team,Number(week))}${teamTriviaHtml(team)}<div class="team-week-content"></div></div>`;
   renderTeamWeek(team,Number(week));
 }
 function closeTeamInfo(fromPop=false){const returnSummary=detailView.dataset.returnSummary==='true';delete detailView.dataset.team;delete detailView.dataset.scope;delete detailView.dataset.returnSummary;detailView.classList.remove('active');listView.classList.remove('hidden');if(!fromPop&&location.hash.startsWith('#team-'))history.back();if(returnSummary){trackerScreen.classList.add('app-hidden');summaryScreen.classList.remove('app-hidden');renderExecutive();scheduleStadiumGlow()}requestAnimationFrame(()=>scrollTo(0,returnScroll))}

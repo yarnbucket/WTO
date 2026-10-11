@@ -18,6 +18,10 @@ The football fields show how often teams go Over or Under and how often favorite
 
 Open **Team Info** to see results and scoring trends. Compare points scored, points allowed, and saved WTO predictions.
 
+## Team trivia
+
+Open **Team Info → Team Trivia** for ten questions about your team. Type your answer; surnames, common nicknames, and small spelling mistakes are accepted when clear. Use **Hint** or **Show Answer** if you get stuck. Trivia progress stays saved on your device alongside your picks.
+
 ## Add some game-day atmosphere
 
 Turn on **Atmosphere** in Settings for a little sunshine, rain, lightning, or snow in your matchup. It’s optional and starts off.

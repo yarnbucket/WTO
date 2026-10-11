@@ -1,0 +1,4564 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-11",
+  "scope": "Franchise regular-season career records; coaching wins include playoffs. Earlier franchise names and cities included.",
+  "teams": {
+    "ARI": {
+      "name": "Arizona Cardinals",
+      "questions": [
+        {
+          "id": "ARI-passing",
+          "question": "Who is the Arizona Cardinals franchise's all-time passing leader in yards?",
+          "answer": "Jim Hart",
+          "answer_type": "person",
+          "aliases": [
+            "Jim Hart",
+            "Hart"
+          ],
+          "hint": "Their surname starts with H.",
+          "explanation": "Jim Hart leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/crd/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ARI-rushing",
+          "question": "Who is the Arizona Cardinals franchise's all-time rushing leader in yards?",
+          "answer": "Ottis Anderson",
+          "answer_type": "person",
+          "aliases": [
+            "Ottis Anderson",
+            "Anderson"
+          ],
+          "hint": "Their surname starts with A.",
+          "explanation": "Ottis Anderson leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/crd/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ARI-receiving",
+          "question": "Who is the Arizona Cardinals franchise's all-time receiving leader in yards?",
+          "answer": "Larry Fitzgerald",
+          "answer_type": "person",
+          "aliases": [
+            "Larry Fitzgerald",
+            "Fitzgerald"
+          ],
+          "hint": "Their surname starts with F.",
+          "explanation": "Larry Fitzgerald leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/crd/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ARI-scoring",
+          "question": "Who is the Arizona Cardinals franchise's all-time scoring leader in points?",
+          "answer": "Jim Bakken",
+          "answer_type": "person",
+          "aliases": [
+            "Jim Bakken",
+            "Bakken"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Jim Bakken leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/crd/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ARI-coach",
+          "question": "Which coach has the most Arizona Cardinals franchise wins, including playoffs?",
+          "answer": "Bruce Arians",
+          "answer_type": "person",
+          "aliases": [
+            "Bruce Arians",
+            "Arians"
+          ],
+          "hint": "Their surname starts with A.",
+          "explanation": "Bruce Arians has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/crd/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ARI-superbowls",
+          "question": "How many Super Bowls has the Arizona Cardinals franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/crd/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ARI-founded",
+          "question": "In what year was the Arizona Cardinals franchise originally founded?",
+          "answer": "1898",
+          "answer_type": "year",
+          "aliases": [
+            "1898"
+          ],
+          "hint": "The year starts with 18.",
+          "explanation": "The franchise traces its founding to 1898, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ARI-firstseason",
+          "question": "In what year did the Arizona Cardinals franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1920",
+          "answer_type": "year",
+          "aliases": [
+            "1920"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1920. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/crd/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ARI-division",
+          "question": "Which division do the Arizona Cardinals play in?",
+          "answer": "NFC West",
+          "answer_type": "text",
+          "aliases": [
+            "NFC West"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Arizona Cardinals are members of the NFC West.",
+          "source_url": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ARI-conference",
+          "question": "Which conference do the Arizona Cardinals play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Arizona Cardinals play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Arizona_Cardinals",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "ATL": {
+      "name": "Atlanta Falcons",
+      "questions": [
+        {
+          "id": "ATL-passing",
+          "question": "Who is the Atlanta Falcons franchise's all-time passing leader in yards?",
+          "answer": "Matt Ryan",
+          "answer_type": "person",
+          "aliases": [
+            "Matt Ryan",
+            "Ryan"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "Matt Ryan leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/atl/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ATL-rushing",
+          "question": "Who is the Atlanta Falcons franchise's all-time rushing leader in yards?",
+          "answer": "Gerald Riggs",
+          "answer_type": "person",
+          "aliases": [
+            "Gerald Riggs",
+            "Riggs"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "Gerald Riggs leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/atl/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ATL-receiving",
+          "question": "Who is the Atlanta Falcons franchise's all-time receiving leader in yards?",
+          "answer": "Julio Jones",
+          "answer_type": "person",
+          "aliases": [
+            "Julio Jones",
+            "Jones"
+          ],
+          "hint": "Their surname starts with J.",
+          "explanation": "Julio Jones leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/atl/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ATL-scoring",
+          "question": "Who is the Atlanta Falcons franchise's all-time scoring leader in points?",
+          "answer": "Matt Bryant",
+          "answer_type": "person",
+          "aliases": [
+            "Matt Bryant",
+            "Bryant"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Matt Bryant leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/atl/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ATL-coach",
+          "question": "Which coach has the most Atlanta Falcons franchise wins, including playoffs?",
+          "answer": "Mike Smith",
+          "answer_type": "person",
+          "aliases": [
+            "Mike Smith",
+            "Smith"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Mike Smith has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/atl/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ATL-superbowls",
+          "question": "How many Super Bowls has the Atlanta Falcons franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/atl/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ATL-founded",
+          "question": "In what year was the Atlanta Falcons franchise originally founded?",
+          "answer": "1965",
+          "answer_type": "year",
+          "aliases": [
+            "1965"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1965, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ATL-firstseason",
+          "question": "In what year did the Atlanta Falcons franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1966",
+          "answer_type": "year",
+          "aliases": [
+            "1966"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1966. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/atl/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ATL-division",
+          "question": "Which division do the Atlanta Falcons play in?",
+          "answer": "NFC South",
+          "answer_type": "text",
+          "aliases": [
+            "NFC South"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Atlanta Falcons are members of the NFC South.",
+          "source_url": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "ATL-conference",
+          "question": "Which conference do the Atlanta Falcons play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Atlanta Falcons play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Atlanta_Falcons",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "BAL": {
+      "name": "Baltimore Ravens",
+      "questions": [
+        {
+          "id": "BAL-passing",
+          "question": "Who is the Baltimore Ravens franchise's all-time passing leader in yards?",
+          "answer": "Joe Flacco",
+          "answer_type": "person",
+          "aliases": [
+            "Joe Flacco",
+            "Flacco"
+          ],
+          "hint": "Their surname starts with F.",
+          "explanation": "Joe Flacco leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/rav/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BAL-rushing",
+          "question": "Who is the Baltimore Ravens franchise's all-time rushing leader in yards?",
+          "answer": "Jamal Lewis",
+          "answer_type": "person",
+          "aliases": [
+            "Jamal Lewis",
+            "Lewis"
+          ],
+          "hint": "Their surname starts with L.",
+          "explanation": "Jamal Lewis leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/rav/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BAL-receiving",
+          "question": "Who is the Baltimore Ravens franchise's all-time receiving leader in yards?",
+          "answer": "Mark Andrews",
+          "answer_type": "person",
+          "aliases": [
+            "Mark Andrews",
+            "Andrews"
+          ],
+          "hint": "Their surname starts with A.",
+          "explanation": "Mark Andrews leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/rav/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BAL-scoring",
+          "question": "Who is the Baltimore Ravens franchise's all-time scoring leader in points?",
+          "answer": "Justin Tucker",
+          "answer_type": "person",
+          "aliases": [
+            "Justin Tucker",
+            "Tucker"
+          ],
+          "hint": "Their surname starts with T.",
+          "explanation": "Justin Tucker leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/rav/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BAL-coach",
+          "question": "Which coach has the most Baltimore Ravens franchise wins, including playoffs?",
+          "answer": "John Harbaugh",
+          "answer_type": "person",
+          "aliases": [
+            "John Harbaugh",
+            "Harbaugh"
+          ],
+          "hint": "Their surname starts with H.",
+          "explanation": "John Harbaugh has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/rav/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BAL-superbowls",
+          "question": "How many Super Bowls has the Baltimore Ravens franchise won?",
+          "answer": "2",
+          "answer_type": "number",
+          "aliases": [
+            "2",
+            "two"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 2 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/rav/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BAL-founded",
+          "question": "In what year was the Baltimore Ravens franchise originally founded?",
+          "answer": "1996",
+          "answer_type": "year",
+          "aliases": [
+            "1996"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1996, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BAL-firstseason",
+          "question": "In what year did the Baltimore Ravens franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1996",
+          "answer_type": "year",
+          "aliases": [
+            "1996"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1996. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/rav/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BAL-division",
+          "question": "Which division do the Baltimore Ravens play in?",
+          "answer": "AFC North",
+          "answer_type": "text",
+          "aliases": [
+            "AFC North"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Baltimore Ravens are members of the AFC North.",
+          "source_url": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BAL-conference",
+          "question": "Which conference do the Baltimore Ravens play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Baltimore Ravens play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Baltimore_Ravens",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "BUF": {
+      "name": "Buffalo Bills",
+      "questions": [
+        {
+          "id": "BUF-passing",
+          "question": "Who is the Buffalo Bills franchise's all-time passing leader in yards?",
+          "answer": "Jim Kelly",
+          "answer_type": "person",
+          "aliases": [
+            "Jim Kelly",
+            "Kelly"
+          ],
+          "hint": "Their surname starts with K.",
+          "explanation": "Jim Kelly leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/buf/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BUF-rushing",
+          "question": "Who is the Buffalo Bills franchise's all-time rushing leader in yards?",
+          "answer": "Thurman Thomas",
+          "answer_type": "person",
+          "aliases": [
+            "Thurman Thomas",
+            "Thomas"
+          ],
+          "hint": "Their surname starts with T.",
+          "explanation": "Thurman Thomas leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/buf/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BUF-receiving",
+          "question": "Who is the Buffalo Bills franchise's all-time receiving leader in yards?",
+          "answer": "Andre Reed",
+          "answer_type": "person",
+          "aliases": [
+            "Andre Reed",
+            "Reed"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "Andre Reed leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/buf/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BUF-scoring",
+          "question": "Who is the Buffalo Bills franchise's all-time scoring leader in points?",
+          "answer": "Steve Christie",
+          "answer_type": "person",
+          "aliases": [
+            "Steve Christie",
+            "Christie"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Steve Christie leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/buf/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BUF-coach",
+          "question": "Which coach has the most Buffalo Bills franchise wins, including playoffs?",
+          "answer": "Marv Levy",
+          "answer_type": "person",
+          "aliases": [
+            "Marv Levy",
+            "Levy"
+          ],
+          "hint": "Their surname starts with L.",
+          "explanation": "Marv Levy has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/buf/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BUF-superbowls",
+          "question": "How many Super Bowls has the Buffalo Bills franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/buf/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BUF-founded",
+          "question": "In what year was the Buffalo Bills franchise originally founded?",
+          "answer": "1959",
+          "answer_type": "year",
+          "aliases": [
+            "1959"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1959, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BUF-firstseason",
+          "question": "In what year did the Buffalo Bills franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1960. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/buf/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BUF-division",
+          "question": "Which division do the Buffalo Bills play in?",
+          "answer": "AFC East",
+          "answer_type": "text",
+          "aliases": [
+            "AFC East"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Buffalo Bills are members of the AFC East.",
+          "source_url": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "BUF-conference",
+          "question": "Which conference do the Buffalo Bills play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Buffalo Bills play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Buffalo_Bills",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "CAR": {
+      "name": "Carolina Panthers",
+      "questions": [
+        {
+          "id": "CAR-passing",
+          "question": "Who is the Carolina Panthers franchise's all-time passing leader in yards?",
+          "answer": "Cam Newton",
+          "answer_type": "person",
+          "aliases": [
+            "Cam Newton",
+            "Newton",
+            "Super Cam"
+          ],
+          "hint": "Their surname starts with N.",
+          "explanation": "Cam Newton leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/car/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CAR-rushing",
+          "question": "Who is the Carolina Panthers franchise's all-time rushing leader in yards?",
+          "answer": "Jonathan Stewart",
+          "answer_type": "person",
+          "aliases": [
+            "Jonathan Stewart",
+            "Stewart"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Jonathan Stewart leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/car/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CAR-receiving",
+          "question": "Who is the Carolina Panthers franchise's all-time receiving leader in yards?",
+          "answer": "Steve Smith",
+          "answer_type": "person",
+          "aliases": [
+            "Steve Smith",
+            "Smith",
+            "Steve Smith Sr",
+            "Steve Smith Senior"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Steve Smith leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/car/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CAR-scoring",
+          "question": "Who is the Carolina Panthers franchise's all-time scoring leader in points?",
+          "answer": "John Kasay",
+          "answer_type": "person",
+          "aliases": [
+            "John Kasay",
+            "Kasay"
+          ],
+          "hint": "Their surname starts with K.",
+          "explanation": "John Kasay leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/car/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CAR-coach",
+          "question": "Which coach has the most Carolina Panthers franchise wins, including playoffs?",
+          "answer": "Ron Rivera",
+          "answer_type": "person",
+          "aliases": [
+            "Ron Rivera",
+            "Rivera"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "Ron Rivera has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/car/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CAR-superbowls",
+          "question": "How many Super Bowls has the Carolina Panthers franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/car/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CAR-founded",
+          "question": "In what year was the Carolina Panthers franchise originally founded?",
+          "answer": "1993",
+          "answer_type": "year",
+          "aliases": [
+            "1993"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1993, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CAR-firstseason",
+          "question": "In what year did the Carolina Panthers franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1995",
+          "answer_type": "year",
+          "aliases": [
+            "1995"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1995. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/car/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CAR-division",
+          "question": "Which division do the Carolina Panthers play in?",
+          "answer": "NFC South",
+          "answer_type": "text",
+          "aliases": [
+            "NFC South"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Carolina Panthers are members of the NFC South.",
+          "source_url": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CAR-conference",
+          "question": "Which conference do the Carolina Panthers play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Carolina Panthers play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Carolina_Panthers",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "CHI": {
+      "name": "Chicago Bears",
+      "questions": [
+        {
+          "id": "CHI-passing",
+          "question": "Who is the Chicago Bears franchise's all-time passing leader in yards?",
+          "answer": "Jay Cutler",
+          "answer_type": "person",
+          "aliases": [
+            "Jay Cutler",
+            "Cutler"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Jay Cutler leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/chi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CHI-rushing",
+          "question": "Who is the Chicago Bears franchise's all-time rushing leader in yards?",
+          "answer": "Walter Payton",
+          "answer_type": "person",
+          "aliases": [
+            "Walter Payton",
+            "Payton",
+            "Sweetness"
+          ],
+          "hint": "Their surname starts with P.",
+          "explanation": "Walter Payton leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/chi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CHI-receiving",
+          "question": "Who is the Chicago Bears franchise's all-time receiving leader in yards?",
+          "answer": "Johnny Morris",
+          "answer_type": "person",
+          "aliases": [
+            "Johnny Morris",
+            "Morris"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Johnny Morris leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/chi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CHI-scoring",
+          "question": "Who is the Chicago Bears franchise's all-time scoring leader in points?",
+          "answer": "Robbie Gould",
+          "answer_type": "person",
+          "aliases": [
+            "Robbie Gould",
+            "Gould"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Robbie Gould leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/chi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CHI-coach",
+          "question": "Which coach has the most Chicago Bears franchise wins, including playoffs?",
+          "answer": "George Halas",
+          "answer_type": "person",
+          "aliases": [
+            "George Halas",
+            "Halas"
+          ],
+          "hint": "Their surname starts with H.",
+          "explanation": "George Halas has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/chi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CHI-superbowls",
+          "question": "How many Super Bowls has the Chicago Bears franchise won?",
+          "answer": "1",
+          "answer_type": "number",
+          "aliases": [
+            "1",
+            "one"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 1 Super Bowl as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/chi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CHI-founded",
+          "question": "In what year was the Chicago Bears franchise originally founded?",
+          "answer": "1919",
+          "answer_type": "year",
+          "aliases": [
+            "1919"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1919, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Chicago_Bears",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CHI-firstseason",
+          "question": "In what year did the Chicago Bears franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1920",
+          "answer_type": "year",
+          "aliases": [
+            "1920"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1920. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/chi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CHI-division",
+          "question": "Which division do the Chicago Bears play in?",
+          "answer": "NFC North",
+          "answer_type": "text",
+          "aliases": [
+            "NFC North"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Chicago Bears are members of the NFC North.",
+          "source_url": "https://en.wikipedia.org/wiki/Chicago_Bears",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CHI-conference",
+          "question": "Which conference do the Chicago Bears play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Chicago Bears play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Chicago_Bears",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "CIN": {
+      "name": "Cincinnati Bengals",
+      "questions": [
+        {
+          "id": "CIN-passing",
+          "question": "Who is the Cincinnati Bengals franchise's all-time passing leader in yards?",
+          "answer": "Ken Anderson",
+          "answer_type": "person",
+          "aliases": [
+            "Ken Anderson",
+            "Anderson"
+          ],
+          "hint": "Their surname starts with A.",
+          "explanation": "Ken Anderson leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/cin/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CIN-rushing",
+          "question": "Who is the Cincinnati Bengals franchise's all-time rushing leader in yards?",
+          "answer": "Corey Dillon",
+          "answer_type": "person",
+          "aliases": [
+            "Corey Dillon",
+            "Dillon"
+          ],
+          "hint": "Their surname starts with D.",
+          "explanation": "Corey Dillon leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/cin/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CIN-receiving",
+          "question": "Who is the Cincinnati Bengals franchise's all-time receiving leader in yards?",
+          "answer": "Chad Johnson",
+          "answer_type": "person",
+          "aliases": [
+            "Chad Johnson",
+            "Johnson",
+            "Chad Ochocinco",
+            "Ochocinco"
+          ],
+          "hint": "Their surname starts with J.",
+          "explanation": "Chad Johnson leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/cin/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CIN-scoring",
+          "question": "Who is the Cincinnati Bengals franchise's all-time scoring leader in points?",
+          "answer": "Jim Breech",
+          "answer_type": "person",
+          "aliases": [
+            "Jim Breech",
+            "Breech"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Jim Breech leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/cin/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CIN-coach",
+          "question": "Which coach has the most Cincinnati Bengals franchise wins, including playoffs?",
+          "answer": "Marvin Lewis",
+          "answer_type": "person",
+          "aliases": [
+            "Marvin Lewis",
+            "Lewis"
+          ],
+          "hint": "Their surname starts with L.",
+          "explanation": "Marvin Lewis has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/cin/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CIN-superbowls",
+          "question": "How many Super Bowls has the Cincinnati Bengals franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/cin/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CIN-founded",
+          "question": "In what year was the Cincinnati Bengals franchise originally founded?",
+          "answer": "1967",
+          "answer_type": "year",
+          "aliases": [
+            "1967"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1967, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Cincinnati_Bengals",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CIN-firstseason",
+          "question": "In what year did the Cincinnati Bengals franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1968",
+          "answer_type": "year",
+          "aliases": [
+            "1968"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1968. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/cin/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CIN-division",
+          "question": "Which division do the Cincinnati Bengals play in?",
+          "answer": "AFC North",
+          "answer_type": "text",
+          "aliases": [
+            "AFC North"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Cincinnati Bengals are members of the AFC North.",
+          "source_url": "https://en.wikipedia.org/wiki/Cincinnati_Bengals",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CIN-conference",
+          "question": "Which conference do the Cincinnati Bengals play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Cincinnati Bengals play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Cincinnati_Bengals",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "CLE": {
+      "name": "Cleveland Browns",
+      "questions": [
+        {
+          "id": "CLE-passing",
+          "question": "Who is the Cleveland Browns franchise's all-time passing leader in yards?",
+          "answer": "Brian Sipe",
+          "answer_type": "person",
+          "aliases": [
+            "Brian Sipe",
+            "Sipe"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Brian Sipe leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/cle/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CLE-rushing",
+          "question": "Who is the Cleveland Browns franchise's all-time rushing leader in yards?",
+          "answer": "Jim Brown",
+          "answer_type": "person",
+          "aliases": [
+            "Jim Brown",
+            "Brown"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Jim Brown leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/cle/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CLE-receiving",
+          "question": "Who is the Cleveland Browns franchise's all-time receiving leader in yards?",
+          "answer": "Ozzie Newsome",
+          "answer_type": "person",
+          "aliases": [
+            "Ozzie Newsome",
+            "Newsome"
+          ],
+          "hint": "Their surname starts with N.",
+          "explanation": "Ozzie Newsome leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/cle/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CLE-scoring",
+          "question": "Who is the Cleveland Browns franchise's all-time scoring leader in points?",
+          "answer": "Lou Groza",
+          "answer_type": "person",
+          "aliases": [
+            "Lou Groza",
+            "Groza"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Lou Groza leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/cle/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CLE-coach",
+          "question": "Which coach has the most Cleveland Browns franchise wins, including playoffs?",
+          "answer": "Paul Brown",
+          "answer_type": "person",
+          "aliases": [
+            "Paul Brown",
+            "Brown"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Paul Brown has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/cle/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CLE-superbowls",
+          "question": "How many Super Bowls has the Cleveland Browns franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/cle/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CLE-founded",
+          "question": "In what year was the Cleveland Browns franchise originally founded?",
+          "answer": "1944",
+          "answer_type": "year",
+          "aliases": [
+            "1944"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1944, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CLE-firstseason",
+          "question": "In what year did the Cleveland Browns franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1946",
+          "answer_type": "year",
+          "aliases": [
+            "1946"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1946. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/cle/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CLE-division",
+          "question": "Which division do the Cleveland Browns play in?",
+          "answer": "AFC North",
+          "answer_type": "text",
+          "aliases": [
+            "AFC North"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Cleveland Browns are members of the AFC North.",
+          "source_url": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "CLE-conference",
+          "question": "Which conference do the Cleveland Browns play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Cleveland Browns play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Cleveland_Browns",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "DAL": {
+      "name": "Dallas Cowboys",
+      "questions": [
+        {
+          "id": "DAL-passing",
+          "question": "Who is the Dallas Cowboys franchise's all-time passing leader in yards?",
+          "answer": "Dak Prescott",
+          "answer_type": "person",
+          "aliases": [
+            "Dak Prescott",
+            "Prescott"
+          ],
+          "hint": "Their surname starts with P.",
+          "explanation": "Dak Prescott leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/dal/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DAL-rushing",
+          "question": "Who is the Dallas Cowboys franchise's all-time rushing leader in yards?",
+          "answer": "Emmitt Smith",
+          "answer_type": "person",
+          "aliases": [
+            "Emmitt Smith",
+            "Smith"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Emmitt Smith leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/dal/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DAL-receiving",
+          "question": "Who is the Dallas Cowboys franchise's all-time receiving leader in yards?",
+          "answer": "Jason Witten",
+          "answer_type": "person",
+          "aliases": [
+            "Jason Witten",
+            "Witten"
+          ],
+          "hint": "Their surname starts with W.",
+          "explanation": "Jason Witten leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/dal/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DAL-scoring",
+          "question": "Who is the Dallas Cowboys franchise's all-time scoring leader in points?",
+          "answer": "Emmitt Smith",
+          "answer_type": "person",
+          "aliases": [
+            "Emmitt Smith",
+            "Smith"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Emmitt Smith leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/dal/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DAL-coach",
+          "question": "Which coach has the most Dallas Cowboys franchise wins, including playoffs?",
+          "answer": "Tom Landry",
+          "answer_type": "person",
+          "aliases": [
+            "Tom Landry",
+            "Landry"
+          ],
+          "hint": "Their surname starts with L.",
+          "explanation": "Tom Landry has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/dal/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DAL-superbowls",
+          "question": "How many Super Bowls has the Dallas Cowboys franchise won?",
+          "answer": "5",
+          "answer_type": "number",
+          "aliases": [
+            "5",
+            "five"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 5 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/dal/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DAL-founded",
+          "question": "In what year was the Dallas Cowboys franchise originally founded?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1960, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DAL-firstseason",
+          "question": "In what year did the Dallas Cowboys franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1960. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/dal/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DAL-division",
+          "question": "Which division do the Dallas Cowboys play in?",
+          "answer": "NFC East",
+          "answer_type": "text",
+          "aliases": [
+            "NFC East"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Dallas Cowboys are members of the NFC East.",
+          "source_url": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DAL-conference",
+          "question": "Which conference do the Dallas Cowboys play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Dallas Cowboys play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Dallas_Cowboys",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "DEN": {
+      "name": "Denver Broncos",
+      "questions": [
+        {
+          "id": "DEN-passing",
+          "question": "Who is the Denver Broncos franchise's all-time passing leader in yards?",
+          "answer": "John Elway",
+          "answer_type": "person",
+          "aliases": [
+            "John Elway",
+            "Elway"
+          ],
+          "hint": "Their surname starts with E.",
+          "explanation": "John Elway leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/den/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DEN-rushing",
+          "question": "Who is the Denver Broncos franchise's all-time rushing leader in yards?",
+          "answer": "Terrell Davis",
+          "answer_type": "person",
+          "aliases": [
+            "Terrell Davis",
+            "Davis"
+          ],
+          "hint": "Their surname starts with D.",
+          "explanation": "Terrell Davis leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/den/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DEN-receiving",
+          "question": "Who is the Denver Broncos franchise's all-time receiving leader in yards?",
+          "answer": "Rod Smith",
+          "answer_type": "person",
+          "aliases": [
+            "Rod Smith",
+            "Smith"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Rod Smith leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/den/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DEN-scoring",
+          "question": "Who is the Denver Broncos franchise's all-time scoring leader in points?",
+          "answer": "Jason Elam",
+          "answer_type": "person",
+          "aliases": [
+            "Jason Elam",
+            "Elam"
+          ],
+          "hint": "Their surname starts with E.",
+          "explanation": "Jason Elam leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/den/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DEN-coach",
+          "question": "Which coach has the most Denver Broncos franchise wins, including playoffs?",
+          "answer": "Mike Shanahan",
+          "answer_type": "person",
+          "aliases": [
+            "Mike Shanahan",
+            "Shanahan"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Mike Shanahan has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/den/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DEN-superbowls",
+          "question": "How many Super Bowls has the Denver Broncos franchise won?",
+          "answer": "3",
+          "answer_type": "number",
+          "aliases": [
+            "3",
+            "three"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 3 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/den/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DEN-founded",
+          "question": "In what year was the Denver Broncos franchise originally founded?",
+          "answer": "1959",
+          "answer_type": "year",
+          "aliases": [
+            "1959"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1959, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Denver_Broncos",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DEN-firstseason",
+          "question": "In what year did the Denver Broncos franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1960. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/den/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DEN-division",
+          "question": "Which division do the Denver Broncos play in?",
+          "answer": "AFC West",
+          "answer_type": "text",
+          "aliases": [
+            "AFC West"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Denver Broncos are members of the AFC West.",
+          "source_url": "https://en.wikipedia.org/wiki/Denver_Broncos",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DEN-conference",
+          "question": "Which conference do the Denver Broncos play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Denver Broncos play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Denver_Broncos",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "DET": {
+      "name": "Detroit Lions",
+      "questions": [
+        {
+          "id": "DET-passing",
+          "question": "Who is the Detroit Lions franchise's all-time passing leader in yards?",
+          "answer": "Matthew Stafford",
+          "answer_type": "person",
+          "aliases": [
+            "Matthew Stafford",
+            "Stafford"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Matthew Stafford leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/det/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DET-rushing",
+          "question": "Who is the Detroit Lions franchise's all-time rushing leader in yards?",
+          "answer": "Barry Sanders",
+          "answer_type": "person",
+          "aliases": [
+            "Barry Sanders",
+            "Sanders"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Barry Sanders leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/det/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DET-receiving",
+          "question": "Who is the Detroit Lions franchise's all-time receiving leader in yards?",
+          "answer": "Calvin Johnson",
+          "answer_type": "person",
+          "aliases": [
+            "Calvin Johnson",
+            "Johnson"
+          ],
+          "hint": "Their surname starts with J.",
+          "explanation": "Calvin Johnson leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/det/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DET-scoring",
+          "question": "Who is the Detroit Lions franchise's all-time scoring leader in points?",
+          "answer": "Jason Hanson",
+          "answer_type": "person",
+          "aliases": [
+            "Jason Hanson",
+            "Hanson"
+          ],
+          "hint": "Their surname starts with H.",
+          "explanation": "Jason Hanson leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/det/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DET-coach",
+          "question": "Which coach has the most Detroit Lions franchise wins, including playoffs?",
+          "answer": "Wayne Fontes",
+          "answer_type": "person",
+          "aliases": [
+            "Wayne Fontes",
+            "Fontes"
+          ],
+          "hint": "Their surname starts with F.",
+          "explanation": "Wayne Fontes has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/det/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DET-superbowls",
+          "question": "How many Super Bowls has the Detroit Lions franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/det/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DET-founded",
+          "question": "In what year was the Detroit Lions franchise originally founded?",
+          "answer": "1928",
+          "answer_type": "year",
+          "aliases": [
+            "1928"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1928, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Detroit_Lions",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DET-firstseason",
+          "question": "In what year did the Detroit Lions franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1930",
+          "answer_type": "year",
+          "aliases": [
+            "1930"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1930. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/det/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DET-division",
+          "question": "Which division do the Detroit Lions play in?",
+          "answer": "NFC North",
+          "answer_type": "text",
+          "aliases": [
+            "NFC North"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Detroit Lions are members of the NFC North.",
+          "source_url": "https://en.wikipedia.org/wiki/Detroit_Lions",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "DET-conference",
+          "question": "Which conference do the Detroit Lions play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Detroit Lions play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Detroit_Lions",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "GB": {
+      "name": "Green Bay Packers",
+      "questions": [
+        {
+          "id": "GB-passing",
+          "question": "Who is the Green Bay Packers franchise's all-time passing leader in yards?",
+          "answer": "Brett Favre",
+          "answer_type": "person",
+          "aliases": [
+            "Brett Favre",
+            "Favre"
+          ],
+          "hint": "Their surname starts with F.",
+          "explanation": "Brett Favre leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/gnb/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "GB-rushing",
+          "question": "Who is the Green Bay Packers franchise's all-time rushing leader in yards?",
+          "answer": "Ahman Green",
+          "answer_type": "person",
+          "aliases": [
+            "Ahman Green",
+            "Green"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Ahman Green leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/gnb/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "GB-receiving",
+          "question": "Who is the Green Bay Packers franchise's all-time receiving leader in yards?",
+          "answer": "Donald Driver",
+          "answer_type": "person",
+          "aliases": [
+            "Donald Driver",
+            "Driver"
+          ],
+          "hint": "Their surname starts with D.",
+          "explanation": "Donald Driver leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/gnb/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "GB-scoring",
+          "question": "Who is the Green Bay Packers franchise's all-time scoring leader in points?",
+          "answer": "Mason Crosby",
+          "answer_type": "person",
+          "aliases": [
+            "Mason Crosby",
+            "Crosby"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Mason Crosby leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/gnb/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "GB-coach",
+          "question": "Which coach has the most Green Bay Packers franchise wins, including playoffs?",
+          "answer": "Curly Lambeau",
+          "answer_type": "person",
+          "aliases": [
+            "Curly Lambeau",
+            "Lambeau",
+            "Earl Lambeau"
+          ],
+          "hint": "Their surname starts with L.",
+          "explanation": "Curly Lambeau has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/gnb/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "GB-superbowls",
+          "question": "How many Super Bowls has the Green Bay Packers franchise won?",
+          "answer": "4",
+          "answer_type": "number",
+          "aliases": [
+            "4",
+            "four"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 4 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/gnb/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "GB-founded",
+          "question": "In what year was the Green Bay Packers franchise originally founded?",
+          "answer": "1919",
+          "answer_type": "year",
+          "aliases": [
+            "1919"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1919, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "GB-firstseason",
+          "question": "In what year did the Green Bay Packers franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1921",
+          "answer_type": "year",
+          "aliases": [
+            "1921"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1921. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/gnb/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "GB-division",
+          "question": "Which division do the Green Bay Packers play in?",
+          "answer": "NFC North",
+          "answer_type": "text",
+          "aliases": [
+            "NFC North"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Green Bay Packers are members of the NFC North.",
+          "source_url": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "GB-conference",
+          "question": "Which conference do the Green Bay Packers play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Green Bay Packers play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Green_Bay_Packers",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "HOU": {
+      "name": "Houston Texans",
+      "questions": [
+        {
+          "id": "HOU-passing",
+          "question": "Who is the Houston Texans franchise's all-time passing leader in yards?",
+          "answer": "Matt Schaub",
+          "answer_type": "person",
+          "aliases": [
+            "Matt Schaub",
+            "Schaub"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Matt Schaub leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/htx/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "HOU-rushing",
+          "question": "Who is the Houston Texans franchise's all-time rushing leader in yards?",
+          "answer": "Arian Foster",
+          "answer_type": "person",
+          "aliases": [
+            "Arian Foster",
+            "Foster"
+          ],
+          "hint": "Their surname starts with F.",
+          "explanation": "Arian Foster leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/htx/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "HOU-receiving",
+          "question": "Who is the Houston Texans franchise's all-time receiving leader in yards?",
+          "answer": "Andre Johnson",
+          "answer_type": "person",
+          "aliases": [
+            "Andre Johnson",
+            "Johnson"
+          ],
+          "hint": "Their surname starts with J.",
+          "explanation": "Andre Johnson leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/htx/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "HOU-scoring",
+          "question": "Who is the Houston Texans franchise's all-time scoring leader in points?",
+          "answer": "Ka'imi Fairbairn",
+          "answer_type": "person",
+          "aliases": [
+            "Ka'imi Fairbairn",
+            "Fairbairn",
+            "Kaimi Fairbairn"
+          ],
+          "hint": "Their surname starts with F.",
+          "explanation": "Ka'imi Fairbairn leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/htx/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "HOU-coach",
+          "question": "Which coach has the most Houston Texans franchise wins, including playoffs?",
+          "answer": "Gary Kubiak",
+          "answer_type": "person",
+          "aliases": [
+            "Gary Kubiak",
+            "Kubiak"
+          ],
+          "hint": "Their surname starts with K.",
+          "explanation": "Gary Kubiak has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/htx/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "HOU-superbowls",
+          "question": "How many Super Bowls has the Houston Texans franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/htx/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "HOU-founded",
+          "question": "In what year was the Houston Texans franchise originally founded?",
+          "answer": "1999",
+          "answer_type": "year",
+          "aliases": [
+            "1999"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1999, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Houston_Texans",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "HOU-firstseason",
+          "question": "In what year did the Houston Texans franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "2002",
+          "answer_type": "year",
+          "aliases": [
+            "2002"
+          ],
+          "hint": "The year starts with 20.",
+          "explanation": "The franchise's first season in those leagues was 2002. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/htx/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "HOU-division",
+          "question": "Which division do the Houston Texans play in?",
+          "answer": "AFC South",
+          "answer_type": "text",
+          "aliases": [
+            "AFC South"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Houston Texans are members of the AFC South.",
+          "source_url": "https://en.wikipedia.org/wiki/Houston_Texans",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "HOU-conference",
+          "question": "Which conference do the Houston Texans play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Houston Texans play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Houston_Texans",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "IND": {
+      "name": "Indianapolis Colts",
+      "questions": [
+        {
+          "id": "IND-passing",
+          "question": "Who is the Indianapolis Colts franchise's all-time passing leader in yards?",
+          "answer": "Peyton Manning",
+          "answer_type": "person",
+          "aliases": [
+            "Peyton Manning",
+            "Manning"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Peyton Manning leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/clt/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "IND-rushing",
+          "question": "Who is the Indianapolis Colts franchise's all-time rushing leader in yards?",
+          "answer": "Edgerrin James",
+          "answer_type": "person",
+          "aliases": [
+            "Edgerrin James",
+            "James"
+          ],
+          "hint": "Their surname starts with J.",
+          "explanation": "Edgerrin James leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/clt/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "IND-receiving",
+          "question": "Who is the Indianapolis Colts franchise's all-time receiving leader in yards?",
+          "answer": "Marvin Harrison",
+          "answer_type": "person",
+          "aliases": [
+            "Marvin Harrison",
+            "Harrison"
+          ],
+          "hint": "Their surname starts with H.",
+          "explanation": "Marvin Harrison leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/clt/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "IND-scoring",
+          "question": "Who is the Indianapolis Colts franchise's all-time scoring leader in points?",
+          "answer": "Adam Vinatieri",
+          "answer_type": "person",
+          "aliases": [
+            "Adam Vinatieri",
+            "Vinatieri"
+          ],
+          "hint": "Their surname starts with V.",
+          "explanation": "Adam Vinatieri leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/clt/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "IND-coach",
+          "question": "Which coach has the most Indianapolis Colts franchise wins, including playoffs?",
+          "answer": "Tony Dungy",
+          "answer_type": "person",
+          "aliases": [
+            "Tony Dungy",
+            "Dungy"
+          ],
+          "hint": "Their surname starts with D.",
+          "explanation": "Tony Dungy has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/clt/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "IND-superbowls",
+          "question": "How many Super Bowls has the Indianapolis Colts franchise won?",
+          "answer": "2",
+          "answer_type": "number",
+          "aliases": [
+            "2",
+            "two"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 2 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/clt/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "IND-founded",
+          "question": "In what year was the Indianapolis Colts franchise originally founded?",
+          "answer": "1953",
+          "answer_type": "year",
+          "aliases": [
+            "1953"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1953, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "IND-firstseason",
+          "question": "In what year did the Indianapolis Colts franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1953",
+          "answer_type": "year",
+          "aliases": [
+            "1953"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1953. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/clt/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "IND-division",
+          "question": "Which division do the Indianapolis Colts play in?",
+          "answer": "AFC South",
+          "answer_type": "text",
+          "aliases": [
+            "AFC South"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Indianapolis Colts are members of the AFC South.",
+          "source_url": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "IND-conference",
+          "question": "Which conference do the Indianapolis Colts play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Indianapolis Colts play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Indianapolis_Colts",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "JAX": {
+      "name": "Jacksonville Jaguars",
+      "questions": [
+        {
+          "id": "JAX-passing",
+          "question": "Who is the Jacksonville Jaguars franchise's all-time passing leader in yards?",
+          "answer": "Mark Brunell",
+          "answer_type": "person",
+          "aliases": [
+            "Mark Brunell",
+            "Brunell"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Mark Brunell leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/jax/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "JAX-rushing",
+          "question": "Who is the Jacksonville Jaguars franchise's all-time rushing leader in yards?",
+          "answer": "Fred Taylor",
+          "answer_type": "person",
+          "aliases": [
+            "Fred Taylor",
+            "Taylor"
+          ],
+          "hint": "Their surname starts with T.",
+          "explanation": "Fred Taylor leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/jax/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "JAX-receiving",
+          "question": "Who is the Jacksonville Jaguars franchise's all-time receiving leader in yards?",
+          "answer": "Jimmy Smith",
+          "answer_type": "person",
+          "aliases": [
+            "Jimmy Smith",
+            "Smith"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Jimmy Smith leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/jax/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "JAX-scoring",
+          "question": "Who is the Jacksonville Jaguars franchise's all-time scoring leader in points?",
+          "answer": "Josh Scobee",
+          "answer_type": "person",
+          "aliases": [
+            "Josh Scobee",
+            "Scobee"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Josh Scobee leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/jax/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "JAX-coach",
+          "question": "Which coach has the most Jacksonville Jaguars franchise wins, including playoffs?",
+          "answer": "Tom Coughlin",
+          "answer_type": "person",
+          "aliases": [
+            "Tom Coughlin",
+            "Coughlin"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Tom Coughlin has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/jax/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "JAX-superbowls",
+          "question": "How many Super Bowls has the Jacksonville Jaguars franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/jax/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "JAX-founded",
+          "question": "In what year was the Jacksonville Jaguars franchise originally founded?",
+          "answer": "1993",
+          "answer_type": "year",
+          "aliases": [
+            "1993"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1993, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "JAX-firstseason",
+          "question": "In what year did the Jacksonville Jaguars franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1995",
+          "answer_type": "year",
+          "aliases": [
+            "1995"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1995. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/jax/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "JAX-division",
+          "question": "Which division do the Jacksonville Jaguars play in?",
+          "answer": "AFC South",
+          "answer_type": "text",
+          "aliases": [
+            "AFC South"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Jacksonville Jaguars are members of the AFC South.",
+          "source_url": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "JAX-conference",
+          "question": "Which conference do the Jacksonville Jaguars play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Jacksonville Jaguars play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Jacksonville_Jaguars",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "KC": {
+      "name": "Kansas City Chiefs",
+      "questions": [
+        {
+          "id": "KC-passing",
+          "question": "Who is the Kansas City Chiefs franchise's all-time passing leader in yards?",
+          "answer": "Patrick Mahomes",
+          "answer_type": "person",
+          "aliases": [
+            "Patrick Mahomes",
+            "Mahomes"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Patrick Mahomes leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/kan/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "KC-rushing",
+          "question": "Who is the Kansas City Chiefs franchise's all-time rushing leader in yards?",
+          "answer": "Jamaal Charles",
+          "answer_type": "person",
+          "aliases": [
+            "Jamaal Charles",
+            "Charles"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Jamaal Charles leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/kan/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "KC-receiving",
+          "question": "Who is the Kansas City Chiefs franchise's all-time receiving leader in yards?",
+          "answer": "Travis Kelce",
+          "answer_type": "person",
+          "aliases": [
+            "Travis Kelce",
+            "Kelce"
+          ],
+          "hint": "Their surname starts with K.",
+          "explanation": "Travis Kelce leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/kan/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "KC-scoring",
+          "question": "Who is the Kansas City Chiefs franchise's all-time scoring leader in points?",
+          "answer": "Nick Lowery",
+          "answer_type": "person",
+          "aliases": [
+            "Nick Lowery",
+            "Lowery"
+          ],
+          "hint": "Their surname starts with L.",
+          "explanation": "Nick Lowery leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/kan/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "KC-coach",
+          "question": "Which coach has the most Kansas City Chiefs franchise wins, including playoffs?",
+          "answer": "Andy Reid",
+          "answer_type": "person",
+          "aliases": [
+            "Andy Reid",
+            "Reid"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "Andy Reid has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/kan/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "KC-superbowls",
+          "question": "How many Super Bowls has the Kansas City Chiefs franchise won?",
+          "answer": "4",
+          "answer_type": "number",
+          "aliases": [
+            "4",
+            "four"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 4 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/kan/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "KC-founded",
+          "question": "In what year was the Kansas City Chiefs franchise originally founded?",
+          "answer": "1959",
+          "answer_type": "year",
+          "aliases": [
+            "1959"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1959, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "KC-firstseason",
+          "question": "In what year did the Kansas City Chiefs franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1960. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/kan/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "KC-division",
+          "question": "Which division do the Kansas City Chiefs play in?",
+          "answer": "AFC West",
+          "answer_type": "text",
+          "aliases": [
+            "AFC West"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Kansas City Chiefs are members of the AFC West.",
+          "source_url": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "KC-conference",
+          "question": "Which conference do the Kansas City Chiefs play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Kansas City Chiefs play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Kansas_City_Chiefs",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "LV": {
+      "name": "Las Vegas Raiders",
+      "questions": [
+        {
+          "id": "LV-passing",
+          "question": "Who is the Las Vegas Raiders franchise's all-time passing leader in yards?",
+          "answer": "Derek Carr",
+          "answer_type": "person",
+          "aliases": [
+            "Derek Carr",
+            "Carr"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Derek Carr leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/rai/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LV-rushing",
+          "question": "Who is the Las Vegas Raiders franchise's all-time rushing leader in yards?",
+          "answer": "Marcus Allen",
+          "answer_type": "person",
+          "aliases": [
+            "Marcus Allen",
+            "Allen"
+          ],
+          "hint": "Their surname starts with A.",
+          "explanation": "Marcus Allen leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/rai/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LV-receiving",
+          "question": "Who is the Las Vegas Raiders franchise's all-time receiving leader in yards?",
+          "answer": "Tim Brown",
+          "answer_type": "person",
+          "aliases": [
+            "Tim Brown",
+            "Brown"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Tim Brown leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/rai/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LV-scoring",
+          "question": "Who is the Las Vegas Raiders franchise's all-time scoring leader in points?",
+          "answer": "Sebastian Janikowski",
+          "answer_type": "person",
+          "aliases": [
+            "Sebastian Janikowski",
+            "Janikowski"
+          ],
+          "hint": "Their surname starts with J.",
+          "explanation": "Sebastian Janikowski leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/rai/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LV-coach",
+          "question": "Which coach has the most Las Vegas Raiders franchise wins, including playoffs?",
+          "answer": "John Madden",
+          "answer_type": "person",
+          "aliases": [
+            "John Madden",
+            "Madden"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "John Madden has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/rai/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LV-superbowls",
+          "question": "How many Super Bowls has the Las Vegas Raiders franchise won?",
+          "answer": "3",
+          "answer_type": "number",
+          "aliases": [
+            "3",
+            "three"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 3 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/rai/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LV-founded",
+          "question": "In what year was the Las Vegas Raiders franchise originally founded?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1960, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LV-firstseason",
+          "question": "In what year did the Las Vegas Raiders franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1960. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/rai/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LV-division",
+          "question": "Which division do the Las Vegas Raiders play in?",
+          "answer": "AFC West",
+          "answer_type": "text",
+          "aliases": [
+            "AFC West"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Las Vegas Raiders are members of the AFC West.",
+          "source_url": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LV-conference",
+          "question": "Which conference do the Las Vegas Raiders play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Las Vegas Raiders play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "LAC": {
+      "name": "Los Angeles Chargers",
+      "questions": [
+        {
+          "id": "LAC-passing",
+          "question": "Who is the Los Angeles Chargers franchise's all-time passing leader in yards?",
+          "answer": "Philip Rivers",
+          "answer_type": "person",
+          "aliases": [
+            "Philip Rivers",
+            "Rivers"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "Philip Rivers leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/sdg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAC-rushing",
+          "question": "Who is the Los Angeles Chargers franchise's all-time rushing leader in yards?",
+          "answer": "LaDainian Tomlinson",
+          "answer_type": "person",
+          "aliases": [
+            "LaDainian Tomlinson",
+            "Tomlinson",
+            "LT",
+            "L T"
+          ],
+          "hint": "Their surname starts with T.",
+          "explanation": "LaDainian Tomlinson leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/sdg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAC-receiving",
+          "question": "Who is the Los Angeles Chargers franchise's all-time receiving leader in yards?",
+          "answer": "Antonio Gates",
+          "answer_type": "person",
+          "aliases": [
+            "Antonio Gates",
+            "Gates"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Antonio Gates leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/sdg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAC-scoring",
+          "question": "Who is the Los Angeles Chargers franchise's all-time scoring leader in points?",
+          "answer": "John Carney",
+          "answer_type": "person",
+          "aliases": [
+            "John Carney",
+            "Carney"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "John Carney leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/sdg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAC-coach",
+          "question": "Which coach has the most Los Angeles Chargers franchise wins, including playoffs?",
+          "answer": "Sid Gillman",
+          "answer_type": "person",
+          "aliases": [
+            "Sid Gillman",
+            "Gillman"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Sid Gillman has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/sdg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAC-superbowls",
+          "question": "How many Super Bowls has the Los Angeles Chargers franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/sdg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAC-founded",
+          "question": "In what year was the Los Angeles Chargers franchise originally founded?",
+          "answer": "1959",
+          "answer_type": "year",
+          "aliases": [
+            "1959"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1959, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAC-firstseason",
+          "question": "In what year did the Los Angeles Chargers franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1960. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/sdg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAC-division",
+          "question": "Which division do the Los Angeles Chargers play in?",
+          "answer": "AFC West",
+          "answer_type": "text",
+          "aliases": [
+            "AFC West"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Los Angeles Chargers are members of the AFC West.",
+          "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAC-conference",
+          "question": "Which conference do the Los Angeles Chargers play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Los Angeles Chargers play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "LAR": {
+      "name": "Los Angeles Rams",
+      "questions": [
+        {
+          "id": "LAR-passing",
+          "question": "Who is the Los Angeles Rams franchise's all-time passing leader in yards?",
+          "answer": "Jim Everett",
+          "answer_type": "person",
+          "aliases": [
+            "Jim Everett",
+            "Everett"
+          ],
+          "hint": "Their surname starts with E.",
+          "explanation": "Jim Everett leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/ram/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAR-rushing",
+          "question": "Who is the Los Angeles Rams franchise's all-time rushing leader in yards?",
+          "answer": "Steven Jackson",
+          "answer_type": "person",
+          "aliases": [
+            "Steven Jackson",
+            "Jackson"
+          ],
+          "hint": "Their surname starts with J.",
+          "explanation": "Steven Jackson leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/ram/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAR-receiving",
+          "question": "Who is the Los Angeles Rams franchise's all-time receiving leader in yards?",
+          "answer": "Isaac Bruce",
+          "answer_type": "person",
+          "aliases": [
+            "Isaac Bruce",
+            "Bruce"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Isaac Bruce leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/ram/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAR-scoring",
+          "question": "Who is the Los Angeles Rams franchise's all-time scoring leader in points?",
+          "answer": "Jeff Wilkins",
+          "answer_type": "person",
+          "aliases": [
+            "Jeff Wilkins",
+            "Wilkins"
+          ],
+          "hint": "Their surname starts with W.",
+          "explanation": "Jeff Wilkins leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/ram/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAR-coach",
+          "question": "Which coach has the most Los Angeles Rams franchise wins, including playoffs?",
+          "answer": "Sean McVay",
+          "answer_type": "person",
+          "aliases": [
+            "Sean McVay",
+            "McVay"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Sean McVay has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/ram/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAR-superbowls",
+          "question": "How many Super Bowls has the Los Angeles Rams franchise won?",
+          "answer": "2",
+          "answer_type": "number",
+          "aliases": [
+            "2",
+            "two"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 2 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/ram/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAR-founded",
+          "question": "In what year was the Los Angeles Rams franchise originally founded?",
+          "answer": "1936",
+          "answer_type": "year",
+          "aliases": [
+            "1936"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1936, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAR-firstseason",
+          "question": "In what year did the Los Angeles Rams franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1937",
+          "answer_type": "year",
+          "aliases": [
+            "1937"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1937. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/ram/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAR-division",
+          "question": "Which division do the Los Angeles Rams play in?",
+          "answer": "NFC West",
+          "answer_type": "text",
+          "aliases": [
+            "NFC West"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Los Angeles Rams are members of the NFC West.",
+          "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "LAR-conference",
+          "question": "Which conference do the Los Angeles Rams play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Los Angeles Rams play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_Rams",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "MIA": {
+      "name": "Miami Dolphins",
+      "questions": [
+        {
+          "id": "MIA-passing",
+          "question": "Who is the Miami Dolphins franchise's all-time passing leader in yards?",
+          "answer": "Dan Marino",
+          "answer_type": "person",
+          "aliases": [
+            "Dan Marino",
+            "Marino"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Dan Marino leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/mia/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIA-rushing",
+          "question": "Who is the Miami Dolphins franchise's all-time rushing leader in yards?",
+          "answer": "Larry Csonka",
+          "answer_type": "person",
+          "aliases": [
+            "Larry Csonka",
+            "Csonka"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Larry Csonka leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/mia/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIA-receiving",
+          "question": "Who is the Miami Dolphins franchise's all-time receiving leader in yards?",
+          "answer": "Mark Duper",
+          "answer_type": "person",
+          "aliases": [
+            "Mark Duper",
+            "Duper"
+          ],
+          "hint": "Their surname starts with D.",
+          "explanation": "Mark Duper leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/mia/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIA-scoring",
+          "question": "Who is the Miami Dolphins franchise's all-time scoring leader in points?",
+          "answer": "Olindo Mare",
+          "answer_type": "person",
+          "aliases": [
+            "Olindo Mare",
+            "Mare"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Olindo Mare leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/mia/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIA-coach",
+          "question": "Which coach has the most Miami Dolphins franchise wins, including playoffs?",
+          "answer": "Don Shula",
+          "answer_type": "person",
+          "aliases": [
+            "Don Shula",
+            "Shula"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "Don Shula has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/mia/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIA-superbowls",
+          "question": "How many Super Bowls has the Miami Dolphins franchise won?",
+          "answer": "2",
+          "answer_type": "number",
+          "aliases": [
+            "2",
+            "two"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 2 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/mia/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIA-founded",
+          "question": "In what year was the Miami Dolphins franchise originally founded?",
+          "answer": "1965",
+          "answer_type": "year",
+          "aliases": [
+            "1965"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1965, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIA-firstseason",
+          "question": "In what year did the Miami Dolphins franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1966",
+          "answer_type": "year",
+          "aliases": [
+            "1966"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1966. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/mia/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIA-division",
+          "question": "Which division do the Miami Dolphins play in?",
+          "answer": "AFC East",
+          "answer_type": "text",
+          "aliases": [
+            "AFC East"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Miami Dolphins are members of the AFC East.",
+          "source_url": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIA-conference",
+          "question": "Which conference do the Miami Dolphins play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Miami Dolphins play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Miami_Dolphins",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "MIN": {
+      "name": "Minnesota Vikings",
+      "questions": [
+        {
+          "id": "MIN-passing",
+          "question": "Who is the Minnesota Vikings franchise's all-time passing leader in yards?",
+          "answer": "Fran Tarkenton",
+          "answer_type": "person",
+          "aliases": [
+            "Fran Tarkenton",
+            "Tarkenton"
+          ],
+          "hint": "Their surname starts with T.",
+          "explanation": "Fran Tarkenton leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/min/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIN-rushing",
+          "question": "Who is the Minnesota Vikings franchise's all-time rushing leader in yards?",
+          "answer": "Adrian Peterson",
+          "answer_type": "person",
+          "aliases": [
+            "Adrian Peterson",
+            "Peterson"
+          ],
+          "hint": "Their surname starts with P.",
+          "explanation": "Adrian Peterson leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/min/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIN-receiving",
+          "question": "Who is the Minnesota Vikings franchise's all-time receiving leader in yards?",
+          "answer": "Cris Carter",
+          "answer_type": "person",
+          "aliases": [
+            "Cris Carter",
+            "Carter"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Cris Carter leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/min/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIN-scoring",
+          "question": "Who is the Minnesota Vikings franchise's all-time scoring leader in points?",
+          "answer": "Fred Cox",
+          "answer_type": "person",
+          "aliases": [
+            "Fred Cox",
+            "Cox"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Fred Cox leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/min/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIN-coach",
+          "question": "Which coach has the most Minnesota Vikings franchise wins, including playoffs?",
+          "answer": "Bud Grant",
+          "answer_type": "person",
+          "aliases": [
+            "Bud Grant",
+            "Grant"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Bud Grant has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/min/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIN-superbowls",
+          "question": "How many Super Bowls has the Minnesota Vikings franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/min/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIN-founded",
+          "question": "In what year was the Minnesota Vikings franchise originally founded?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1960, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIN-firstseason",
+          "question": "In what year did the Minnesota Vikings franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1961",
+          "answer_type": "year",
+          "aliases": [
+            "1961"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1961. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/min/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIN-division",
+          "question": "Which division do the Minnesota Vikings play in?",
+          "answer": "NFC North",
+          "answer_type": "text",
+          "aliases": [
+            "NFC North"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Minnesota Vikings are members of the NFC North.",
+          "source_url": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "MIN-conference",
+          "question": "Which conference do the Minnesota Vikings play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Minnesota Vikings play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Minnesota_Vikings",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "NE": {
+      "name": "New England Patriots",
+      "questions": [
+        {
+          "id": "NE-passing",
+          "question": "Who is the New England Patriots franchise's all-time passing leader in yards?",
+          "answer": "Tom Brady",
+          "answer_type": "person",
+          "aliases": [
+            "Tom Brady",
+            "Brady"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Tom Brady leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nwe/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NE-rushing",
+          "question": "Who is the New England Patriots franchise's all-time rushing leader in yards?",
+          "answer": "Sam Cunningham",
+          "answer_type": "person",
+          "aliases": [
+            "Sam Cunningham",
+            "Cunningham"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Sam Cunningham leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nwe/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NE-receiving",
+          "question": "Who is the New England Patriots franchise's all-time receiving leader in yards?",
+          "answer": "Stanley Morgan",
+          "answer_type": "person",
+          "aliases": [
+            "Stanley Morgan",
+            "Morgan"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Stanley Morgan leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nwe/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NE-scoring",
+          "question": "Who is the New England Patriots franchise's all-time scoring leader in points?",
+          "answer": "Stephen Gostkowski",
+          "answer_type": "person",
+          "aliases": [
+            "Stephen Gostkowski",
+            "Gostkowski"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Stephen Gostkowski leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/nwe/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NE-coach",
+          "question": "Which coach has the most New England Patriots franchise wins, including playoffs?",
+          "answer": "Bill Belichick",
+          "answer_type": "person",
+          "aliases": [
+            "Bill Belichick",
+            "Belichick"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Bill Belichick has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/nwe/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NE-superbowls",
+          "question": "How many Super Bowls has the New England Patriots franchise won?",
+          "answer": "6",
+          "answer_type": "number",
+          "aliases": [
+            "6",
+            "six"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 6 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/nwe/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NE-founded",
+          "question": "In what year was the New England Patriots franchise originally founded?",
+          "answer": "1959",
+          "answer_type": "year",
+          "aliases": [
+            "1959"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1959, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/New_England_Patriots",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NE-firstseason",
+          "question": "In what year did the New England Patriots franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1960. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/nwe/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NE-division",
+          "question": "Which division do the New England Patriots play in?",
+          "answer": "AFC East",
+          "answer_type": "text",
+          "aliases": [
+            "AFC East"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The New England Patriots are members of the AFC East.",
+          "source_url": "https://en.wikipedia.org/wiki/New_England_Patriots",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NE-conference",
+          "question": "Which conference do the New England Patriots play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The New England Patriots play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/New_England_Patriots",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "NO": {
+      "name": "New Orleans Saints",
+      "questions": [
+        {
+          "id": "NO-passing",
+          "question": "Who is the New Orleans Saints franchise's all-time passing leader in yards?",
+          "answer": "Drew Brees",
+          "answer_type": "person",
+          "aliases": [
+            "Drew Brees",
+            "Brees"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Drew Brees leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nor/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NO-rushing",
+          "question": "Who is the New Orleans Saints franchise's all-time rushing leader in yards?",
+          "answer": "Alvin Kamara",
+          "answer_type": "person",
+          "aliases": [
+            "Alvin Kamara",
+            "Kamara"
+          ],
+          "hint": "Their surname starts with K.",
+          "explanation": "Alvin Kamara leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nor/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NO-receiving",
+          "question": "Who is the New Orleans Saints franchise's all-time receiving leader in yards?",
+          "answer": "Marques Colston",
+          "answer_type": "person",
+          "aliases": [
+            "Marques Colston",
+            "Colston"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Marques Colston leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nor/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NO-scoring",
+          "question": "Who is the New Orleans Saints franchise's all-time scoring leader in points?",
+          "answer": "Morten Andersen",
+          "answer_type": "person",
+          "aliases": [
+            "Morten Andersen",
+            "Andersen"
+          ],
+          "hint": "Their surname starts with A.",
+          "explanation": "Morten Andersen leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/nor/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NO-coach",
+          "question": "Which coach has the most New Orleans Saints franchise wins, including playoffs?",
+          "answer": "Sean Payton",
+          "answer_type": "person",
+          "aliases": [
+            "Sean Payton",
+            "Payton"
+          ],
+          "hint": "Their surname starts with P.",
+          "explanation": "Sean Payton has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/nor/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NO-superbowls",
+          "question": "How many Super Bowls has the New Orleans Saints franchise won?",
+          "answer": "1",
+          "answer_type": "number",
+          "aliases": [
+            "1",
+            "one"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 1 Super Bowl as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/nor/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NO-founded",
+          "question": "In what year was the New Orleans Saints franchise originally founded?",
+          "answer": "1966",
+          "answer_type": "year",
+          "aliases": [
+            "1966"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1966, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NO-firstseason",
+          "question": "In what year did the New Orleans Saints franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1967",
+          "answer_type": "year",
+          "aliases": [
+            "1967"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1967. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/nor/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NO-division",
+          "question": "Which division do the New Orleans Saints play in?",
+          "answer": "NFC South",
+          "answer_type": "text",
+          "aliases": [
+            "NFC South"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The New Orleans Saints are members of the NFC South.",
+          "source_url": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NO-conference",
+          "question": "Which conference do the New Orleans Saints play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The New Orleans Saints play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/New_Orleans_Saints",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "NYG": {
+      "name": "New York Giants",
+      "questions": [
+        {
+          "id": "NYG-passing",
+          "question": "Who is the New York Giants franchise's all-time passing leader in yards?",
+          "answer": "Eli Manning",
+          "answer_type": "person",
+          "aliases": [
+            "Eli Manning",
+            "Manning"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Eli Manning leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYG-rushing",
+          "question": "Who is the New York Giants franchise's all-time rushing leader in yards?",
+          "answer": "Tiki Barber",
+          "answer_type": "person",
+          "aliases": [
+            "Tiki Barber",
+            "Barber"
+          ],
+          "hint": "Their surname starts with B.",
+          "explanation": "Tiki Barber leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYG-receiving",
+          "question": "Who is the New York Giants franchise's all-time receiving leader in yards?",
+          "answer": "Amani Toomer",
+          "answer_type": "person",
+          "aliases": [
+            "Amani Toomer",
+            "Toomer"
+          ],
+          "hint": "Their surname starts with T.",
+          "explanation": "Amani Toomer leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYG-scoring",
+          "question": "Who is the New York Giants franchise's all-time scoring leader in points?",
+          "answer": "Pete Gogolak",
+          "answer_type": "person",
+          "aliases": [
+            "Pete Gogolak",
+            "Gogolak"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Pete Gogolak leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYG-coach",
+          "question": "Which coach has the most New York Giants franchise wins, including playoffs?",
+          "answer": "Steve Owen",
+          "answer_type": "person",
+          "aliases": [
+            "Steve Owen",
+            "Owen"
+          ],
+          "hint": "Their surname starts with O.",
+          "explanation": "Steve Owen has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYG-superbowls",
+          "question": "How many Super Bowls has the New York Giants franchise won?",
+          "answer": "4",
+          "answer_type": "number",
+          "aliases": [
+            "4",
+            "four"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 4 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYG-founded",
+          "question": "In what year was the New York Giants franchise originally founded?",
+          "answer": "1925",
+          "answer_type": "year",
+          "aliases": [
+            "1925"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1925, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/New_York_Giants",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYG-firstseason",
+          "question": "In what year did the New York Giants franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1925",
+          "answer_type": "year",
+          "aliases": [
+            "1925"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1925. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyg/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYG-division",
+          "question": "Which division do the New York Giants play in?",
+          "answer": "NFC East",
+          "answer_type": "text",
+          "aliases": [
+            "NFC East"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The New York Giants are members of the NFC East.",
+          "source_url": "https://en.wikipedia.org/wiki/New_York_Giants",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYG-conference",
+          "question": "Which conference do the New York Giants play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The New York Giants play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/New_York_Giants",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "NYJ": {
+      "name": "New York Jets",
+      "questions": [
+        {
+          "id": "NYJ-passing",
+          "question": "Who is the New York Jets franchise's all-time passing leader in yards?",
+          "answer": "Joe Namath",
+          "answer_type": "person",
+          "aliases": [
+            "Joe Namath",
+            "Namath"
+          ],
+          "hint": "Their surname starts with N.",
+          "explanation": "Joe Namath leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyj/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYJ-rushing",
+          "question": "Who is the New York Jets franchise's all-time rushing leader in yards?",
+          "answer": "Curtis Martin",
+          "answer_type": "person",
+          "aliases": [
+            "Curtis Martin",
+            "Martin"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Curtis Martin leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyj/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYJ-receiving",
+          "question": "Who is the New York Jets franchise's all-time receiving leader in yards?",
+          "answer": "Don Maynard",
+          "answer_type": "person",
+          "aliases": [
+            "Don Maynard",
+            "Maynard"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Don Maynard leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyj/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYJ-scoring",
+          "question": "Who is the New York Jets franchise's all-time scoring leader in points?",
+          "answer": "Pat Leahy",
+          "answer_type": "person",
+          "aliases": [
+            "Pat Leahy",
+            "Leahy"
+          ],
+          "hint": "Their surname starts with L.",
+          "explanation": "Pat Leahy leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyj/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYJ-coach",
+          "question": "Which coach has the most New York Jets franchise wins, including playoffs?",
+          "answer": "Weeb Ewbank",
+          "answer_type": "person",
+          "aliases": [
+            "Weeb Ewbank",
+            "Ewbank"
+          ],
+          "hint": "Their surname starts with E.",
+          "explanation": "Weeb Ewbank has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyj/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYJ-superbowls",
+          "question": "How many Super Bowls has the New York Jets franchise won?",
+          "answer": "1",
+          "answer_type": "number",
+          "aliases": [
+            "1",
+            "one"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 1 Super Bowl as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyj/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYJ-founded",
+          "question": "In what year was the New York Jets franchise originally founded?",
+          "answer": "1959",
+          "answer_type": "year",
+          "aliases": [
+            "1959"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1959, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/New_York_Jets",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYJ-firstseason",
+          "question": "In what year did the New York Jets franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1960. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/nyj/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYJ-division",
+          "question": "Which division do the New York Jets play in?",
+          "answer": "AFC East",
+          "answer_type": "text",
+          "aliases": [
+            "AFC East"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The New York Jets are members of the AFC East.",
+          "source_url": "https://en.wikipedia.org/wiki/New_York_Jets",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "NYJ-conference",
+          "question": "Which conference do the New York Jets play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The New York Jets play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/New_York_Jets",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "PHI": {
+      "name": "Philadelphia Eagles",
+      "questions": [
+        {
+          "id": "PHI-passing",
+          "question": "Who is the Philadelphia Eagles franchise's all-time passing leader in yards?",
+          "answer": "Donovan McNabb",
+          "answer_type": "person",
+          "aliases": [
+            "Donovan McNabb",
+            "McNabb"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Donovan McNabb leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/phi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PHI-rushing",
+          "question": "Who is the Philadelphia Eagles franchise's all-time rushing leader in yards?",
+          "answer": "LeSean McCoy",
+          "answer_type": "person",
+          "aliases": [
+            "LeSean McCoy",
+            "McCoy",
+            "Shady McCoy",
+            "Shady"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "LeSean McCoy leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/phi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PHI-receiving",
+          "question": "Who is the Philadelphia Eagles franchise's all-time receiving leader in yards?",
+          "answer": "Harold Carmichael",
+          "answer_type": "person",
+          "aliases": [
+            "Harold Carmichael",
+            "Carmichael"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Harold Carmichael leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/phi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PHI-scoring",
+          "question": "Who is the Philadelphia Eagles franchise's all-time scoring leader in points?",
+          "answer": "David Akers",
+          "answer_type": "person",
+          "aliases": [
+            "David Akers",
+            "Akers"
+          ],
+          "hint": "Their surname starts with A.",
+          "explanation": "David Akers leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/phi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PHI-coach",
+          "question": "Which coach has the most Philadelphia Eagles franchise wins, including playoffs?",
+          "answer": "Andy Reid",
+          "answer_type": "person",
+          "aliases": [
+            "Andy Reid",
+            "Reid"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "Andy Reid has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/phi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PHI-superbowls",
+          "question": "How many Super Bowls has the Philadelphia Eagles franchise won?",
+          "answer": "2",
+          "answer_type": "number",
+          "aliases": [
+            "2",
+            "two"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 2 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/phi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PHI-founded",
+          "question": "In what year was the Philadelphia Eagles franchise originally founded?",
+          "answer": "1933",
+          "answer_type": "year",
+          "aliases": [
+            "1933"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1933, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PHI-firstseason",
+          "question": "In what year did the Philadelphia Eagles franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1933",
+          "answer_type": "year",
+          "aliases": [
+            "1933"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1933. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/phi/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PHI-division",
+          "question": "Which division do the Philadelphia Eagles play in?",
+          "answer": "NFC East",
+          "answer_type": "text",
+          "aliases": [
+            "NFC East"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Philadelphia Eagles are members of the NFC East.",
+          "source_url": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PHI-conference",
+          "question": "Which conference do the Philadelphia Eagles play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Philadelphia Eagles play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Philadelphia_Eagles",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "PIT": {
+      "name": "Pittsburgh Steelers",
+      "questions": [
+        {
+          "id": "PIT-passing",
+          "question": "Who is the Pittsburgh Steelers franchise's all-time passing leader in yards?",
+          "answer": "Ben Roethlisberger",
+          "answer_type": "person",
+          "aliases": [
+            "Ben Roethlisberger",
+            "Roethlisberger",
+            "Big Ben"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "Ben Roethlisberger leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/pit/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PIT-rushing",
+          "question": "Who is the Pittsburgh Steelers franchise's all-time rushing leader in yards?",
+          "answer": "Franco Harris",
+          "answer_type": "person",
+          "aliases": [
+            "Franco Harris",
+            "Harris"
+          ],
+          "hint": "Their surname starts with H.",
+          "explanation": "Franco Harris leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/pit/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PIT-receiving",
+          "question": "Who is the Pittsburgh Steelers franchise's all-time receiving leader in yards?",
+          "answer": "Hines Ward",
+          "answer_type": "person",
+          "aliases": [
+            "Hines Ward",
+            "Ward"
+          ],
+          "hint": "Their surname starts with W.",
+          "explanation": "Hines Ward leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/pit/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PIT-scoring",
+          "question": "Who is the Pittsburgh Steelers franchise's all-time scoring leader in points?",
+          "answer": "Gary Anderson",
+          "answer_type": "person",
+          "aliases": [
+            "Gary Anderson",
+            "Anderson"
+          ],
+          "hint": "Their surname starts with A.",
+          "explanation": "Gary Anderson leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/pit/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PIT-coach",
+          "question": "Which coach has the most Pittsburgh Steelers franchise wins, including playoffs?",
+          "answer": "Chuck Noll",
+          "answer_type": "person",
+          "aliases": [
+            "Chuck Noll",
+            "Noll"
+          ],
+          "hint": "Their surname starts with N.",
+          "explanation": "Chuck Noll has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/pit/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PIT-superbowls",
+          "question": "How many Super Bowls has the Pittsburgh Steelers franchise won?",
+          "answer": "6",
+          "answer_type": "number",
+          "aliases": [
+            "6",
+            "six"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 6 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/pit/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PIT-founded",
+          "question": "In what year was the Pittsburgh Steelers franchise originally founded?",
+          "answer": "1933",
+          "answer_type": "year",
+          "aliases": [
+            "1933"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1933, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Pittsburgh_Steelers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PIT-firstseason",
+          "question": "In what year did the Pittsburgh Steelers franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1933",
+          "answer_type": "year",
+          "aliases": [
+            "1933"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1933. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/pit/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PIT-division",
+          "question": "Which division do the Pittsburgh Steelers play in?",
+          "answer": "AFC North",
+          "answer_type": "text",
+          "aliases": [
+            "AFC North"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Pittsburgh Steelers are members of the AFC North.",
+          "source_url": "https://en.wikipedia.org/wiki/Pittsburgh_Steelers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "PIT-conference",
+          "question": "Which conference do the Pittsburgh Steelers play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Pittsburgh Steelers play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Pittsburgh_Steelers",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "SF": {
+      "name": "San Francisco 49ers",
+      "questions": [
+        {
+          "id": "SF-passing",
+          "question": "Who is the San Francisco 49ers franchise's all-time passing leader in yards?",
+          "answer": "Joe Montana",
+          "answer_type": "person",
+          "aliases": [
+            "Joe Montana",
+            "Montana"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Joe Montana leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/sfo/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SF-rushing",
+          "question": "Who is the San Francisco 49ers franchise's all-time rushing leader in yards?",
+          "answer": "Frank Gore",
+          "answer_type": "person",
+          "aliases": [
+            "Frank Gore",
+            "Gore"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Frank Gore leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/sfo/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SF-receiving",
+          "question": "Who is the San Francisco 49ers franchise's all-time receiving leader in yards?",
+          "answer": "Jerry Rice",
+          "answer_type": "person",
+          "aliases": [
+            "Jerry Rice",
+            "Rice"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "Jerry Rice leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/sfo/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SF-scoring",
+          "question": "Who is the San Francisco 49ers franchise's all-time scoring leader in points?",
+          "answer": "Jerry Rice",
+          "answer_type": "person",
+          "aliases": [
+            "Jerry Rice",
+            "Rice"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "Jerry Rice leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/sfo/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SF-coach",
+          "question": "Which coach has the most San Francisco 49ers franchise wins, including playoffs?",
+          "answer": "George Seifert",
+          "answer_type": "person",
+          "aliases": [
+            "George Seifert",
+            "Seifert"
+          ],
+          "hint": "Their surname starts with S.",
+          "explanation": "George Seifert has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/sfo/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SF-superbowls",
+          "question": "How many Super Bowls has the San Francisco 49ers franchise won?",
+          "answer": "5",
+          "answer_type": "number",
+          "aliases": [
+            "5",
+            "five"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 5 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/sfo/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SF-founded",
+          "question": "In what year was the San Francisco 49ers franchise originally founded?",
+          "answer": "1944",
+          "answer_type": "year",
+          "aliases": [
+            "1944"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1944, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SF-firstseason",
+          "question": "In what year did the San Francisco 49ers franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1946",
+          "answer_type": "year",
+          "aliases": [
+            "1946"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1946. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/sfo/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SF-division",
+          "question": "Which division do the San Francisco 49ers play in?",
+          "answer": "NFC West",
+          "answer_type": "text",
+          "aliases": [
+            "NFC West"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The San Francisco 49ers are members of the NFC West.",
+          "source_url": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SF-conference",
+          "question": "Which conference do the San Francisco 49ers play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The San Francisco 49ers play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/San_Francisco_49ers",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "SEA": {
+      "name": "Seattle Seahawks",
+      "questions": [
+        {
+          "id": "SEA-passing",
+          "question": "Who is the Seattle Seahawks franchise's all-time passing leader in yards?",
+          "answer": "Russell Wilson",
+          "answer_type": "person",
+          "aliases": [
+            "Russell Wilson",
+            "Wilson"
+          ],
+          "hint": "Their surname starts with W.",
+          "explanation": "Russell Wilson leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/sea/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SEA-rushing",
+          "question": "Who is the Seattle Seahawks franchise's all-time rushing leader in yards?",
+          "answer": "Shaun Alexander",
+          "answer_type": "person",
+          "aliases": [
+            "Shaun Alexander",
+            "Alexander"
+          ],
+          "hint": "Their surname starts with A.",
+          "explanation": "Shaun Alexander leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/sea/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SEA-receiving",
+          "question": "Who is the Seattle Seahawks franchise's all-time receiving leader in yards?",
+          "answer": "Steve Largent",
+          "answer_type": "person",
+          "aliases": [
+            "Steve Largent",
+            "Largent"
+          ],
+          "hint": "Their surname starts with L.",
+          "explanation": "Steve Largent leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/sea/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SEA-scoring",
+          "question": "Who is the Seattle Seahawks franchise's all-time scoring leader in points?",
+          "answer": "Jason Myers",
+          "answer_type": "person",
+          "aliases": [
+            "Jason Myers",
+            "Myers"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Jason Myers leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/sea/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SEA-coach",
+          "question": "Which coach has the most Seattle Seahawks franchise wins, including playoffs?",
+          "answer": "Pete Carroll",
+          "answer_type": "person",
+          "aliases": [
+            "Pete Carroll",
+            "Carroll"
+          ],
+          "hint": "Their surname starts with C.",
+          "explanation": "Pete Carroll has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/sea/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SEA-superbowls",
+          "question": "How many Super Bowls has the Seattle Seahawks franchise won?",
+          "answer": "2",
+          "answer_type": "number",
+          "aliases": [
+            "2",
+            "two"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 2 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/sea/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SEA-founded",
+          "question": "In what year was the Seattle Seahawks franchise originally founded?",
+          "answer": "1974",
+          "answer_type": "year",
+          "aliases": [
+            "1974"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1974, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SEA-firstseason",
+          "question": "In what year did the Seattle Seahawks franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1976",
+          "answer_type": "year",
+          "aliases": [
+            "1976"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1976. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/sea/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SEA-division",
+          "question": "Which division do the Seattle Seahawks play in?",
+          "answer": "NFC West",
+          "answer_type": "text",
+          "aliases": [
+            "NFC West"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Seattle Seahawks are members of the NFC West.",
+          "source_url": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "SEA-conference",
+          "question": "Which conference do the Seattle Seahawks play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Seattle Seahawks play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Seattle_Seahawks",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "TB": {
+      "name": "Tampa Bay Buccaneers",
+      "questions": [
+        {
+          "id": "TB-passing",
+          "question": "Who is the Tampa Bay Buccaneers franchise's all-time passing leader in yards?",
+          "answer": "Jameis Winston",
+          "answer_type": "person",
+          "aliases": [
+            "Jameis Winston",
+            "Winston"
+          ],
+          "hint": "Their surname starts with W.",
+          "explanation": "Jameis Winston leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/tam/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TB-rushing",
+          "question": "Who is the Tampa Bay Buccaneers franchise's all-time rushing leader in yards?",
+          "answer": "James Wilder",
+          "answer_type": "person",
+          "aliases": [
+            "James Wilder",
+            "Wilder"
+          ],
+          "hint": "Their surname starts with W.",
+          "explanation": "James Wilder leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/tam/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TB-receiving",
+          "question": "Who is the Tampa Bay Buccaneers franchise's all-time receiving leader in yards?",
+          "answer": "Mike Evans",
+          "answer_type": "person",
+          "aliases": [
+            "Mike Evans",
+            "Evans"
+          ],
+          "hint": "Their surname starts with E.",
+          "explanation": "Mike Evans leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/tam/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TB-scoring",
+          "question": "Who is the Tampa Bay Buccaneers franchise's all-time scoring leader in points?",
+          "answer": "Mike Evans",
+          "answer_type": "person",
+          "aliases": [
+            "Mike Evans",
+            "Evans"
+          ],
+          "hint": "Their surname starts with E.",
+          "explanation": "Mike Evans leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/tam/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TB-coach",
+          "question": "Which coach has the most Tampa Bay Buccaneers franchise wins, including playoffs?",
+          "answer": "Jon Gruden",
+          "answer_type": "person",
+          "aliases": [
+            "Jon Gruden",
+            "Gruden"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Jon Gruden has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/tam/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TB-superbowls",
+          "question": "How many Super Bowls has the Tampa Bay Buccaneers franchise won?",
+          "answer": "2",
+          "answer_type": "number",
+          "aliases": [
+            "2",
+            "two"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 2 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/tam/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TB-founded",
+          "question": "In what year was the Tampa Bay Buccaneers franchise originally founded?",
+          "answer": "1974",
+          "answer_type": "year",
+          "aliases": [
+            "1974"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1974, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TB-firstseason",
+          "question": "In what year did the Tampa Bay Buccaneers franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1976",
+          "answer_type": "year",
+          "aliases": [
+            "1976"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1976. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/tam/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TB-division",
+          "question": "Which division do the Tampa Bay Buccaneers play in?",
+          "answer": "NFC South",
+          "answer_type": "text",
+          "aliases": [
+            "NFC South"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Tampa Bay Buccaneers are members of the NFC South.",
+          "source_url": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TB-conference",
+          "question": "Which conference do the Tampa Bay Buccaneers play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Tampa Bay Buccaneers play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "TEN": {
+      "name": "Tennessee Titans",
+      "questions": [
+        {
+          "id": "TEN-passing",
+          "question": "Who is the Tennessee Titans franchise's all-time passing leader in yards?",
+          "answer": "Warren Moon",
+          "answer_type": "person",
+          "aliases": [
+            "Warren Moon",
+            "Moon"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Warren Moon leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/oti/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TEN-rushing",
+          "question": "Who is the Tennessee Titans franchise's all-time rushing leader in yards?",
+          "answer": "Eddie George",
+          "answer_type": "person",
+          "aliases": [
+            "Eddie George",
+            "George"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Eddie George leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/oti/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TEN-receiving",
+          "question": "Who is the Tennessee Titans franchise's all-time receiving leader in yards?",
+          "answer": "Ernest Givins",
+          "answer_type": "person",
+          "aliases": [
+            "Ernest Givins",
+            "Givins"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Ernest Givins leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/oti/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TEN-scoring",
+          "question": "Who is the Tennessee Titans franchise's all-time scoring leader in points?",
+          "answer": "Al Del Greco",
+          "answer_type": "person",
+          "aliases": [
+            "Al Del Greco",
+            "Greco"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Al Del Greco leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/oti/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TEN-coach",
+          "question": "Which coach has the most Tennessee Titans franchise wins, including playoffs?",
+          "answer": "Jeff Fisher",
+          "answer_type": "person",
+          "aliases": [
+            "Jeff Fisher",
+            "Fisher"
+          ],
+          "hint": "Their surname starts with F.",
+          "explanation": "Jeff Fisher has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/oti/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TEN-superbowls",
+          "question": "How many Super Bowls has the Tennessee Titans franchise won?",
+          "answer": "0",
+          "answer_type": "number",
+          "aliases": [
+            "0",
+            "zero"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 0 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/oti/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TEN-founded",
+          "question": "In what year was the Tennessee Titans franchise originally founded?",
+          "answer": "1959",
+          "answer_type": "year",
+          "aliases": [
+            "1959"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1959, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TEN-firstseason",
+          "question": "In what year did the Tennessee Titans franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1960",
+          "answer_type": "year",
+          "aliases": [
+            "1960"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1960. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/oti/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TEN-division",
+          "question": "Which division do the Tennessee Titans play in?",
+          "answer": "AFC South",
+          "answer_type": "text",
+          "aliases": [
+            "AFC South"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Tennessee Titans are members of the AFC South.",
+          "source_url": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "TEN-conference",
+          "question": "Which conference do the Tennessee Titans play in?",
+          "answer": "AFC",
+          "answer_type": "text",
+          "aliases": [
+            "AFC",
+            "American Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Tennessee Titans play in the AFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Tennessee_Titans",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    },
+    "WAS": {
+      "name": "Washington Commanders",
+      "questions": [
+        {
+          "id": "WAS-passing",
+          "question": "Who is the Washington Commanders franchise's all-time passing leader in yards?",
+          "answer": "Joe Theismann",
+          "answer_type": "person",
+          "aliases": [
+            "Joe Theismann",
+            "Theismann"
+          ],
+          "hint": "Their surname starts with T.",
+          "explanation": "Joe Theismann leads the franchise in career passing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/was/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "WAS-rushing",
+          "question": "Who is the Washington Commanders franchise's all-time rushing leader in yards?",
+          "answer": "John Riggins",
+          "answer_type": "person",
+          "aliases": [
+            "John Riggins",
+            "Riggins"
+          ],
+          "hint": "Their surname starts with R.",
+          "explanation": "John Riggins leads the franchise in career rushing yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/was/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "WAS-receiving",
+          "question": "Who is the Washington Commanders franchise's all-time receiving leader in yards?",
+          "answer": "Art Monk",
+          "answer_type": "person",
+          "aliases": [
+            "Art Monk",
+            "Monk"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Art Monk leads the franchise in career receiving yards.",
+          "source_url": "https://www.pro-football-reference.com/teams/was/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "WAS-scoring",
+          "question": "Who is the Washington Commanders franchise's all-time scoring leader in points?",
+          "answer": "Mark Moseley",
+          "answer_type": "person",
+          "aliases": [
+            "Mark Moseley",
+            "Moseley"
+          ],
+          "hint": "Their surname starts with M.",
+          "explanation": "Mark Moseley leads the franchise in career points scored.",
+          "source_url": "https://www.pro-football-reference.com/teams/was/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "WAS-coach",
+          "question": "Which coach has the most Washington Commanders franchise wins, including playoffs?",
+          "answer": "Joe Gibbs",
+          "answer_type": "person",
+          "aliases": [
+            "Joe Gibbs",
+            "Gibbs"
+          ],
+          "hint": "Their surname starts with G.",
+          "explanation": "Joe Gibbs has the most coaching wins for the franchise when playoff wins are included.",
+          "source_url": "https://www.pro-football-reference.com/teams/was/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "WAS-superbowls",
+          "question": "How many Super Bowls has the Washington Commanders franchise won?",
+          "answer": "3",
+          "answer_type": "number",
+          "aliases": [
+            "3",
+            "three"
+          ],
+          "hint": "Enter a number from 0 to 6.",
+          "explanation": "The franchise has won 3 Super Bowls as of 2026-10-11.",
+          "source_url": "https://www.pro-football-reference.com/teams/was/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "WAS-founded",
+          "question": "In what year was the Washington Commanders franchise originally founded?",
+          "answer": "1932",
+          "answer_type": "year",
+          "aliases": [
+            "1932"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise traces its founding to 1932, which may precede its first league season.",
+          "source_url": "https://en.wikipedia.org/wiki/Washington_Commanders",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "WAS-firstseason",
+          "question": "In what year did the Washington Commanders franchise first play in the NFL, AFL, or AAFC?",
+          "answer": "1932",
+          "answer_type": "year",
+          "aliases": [
+            "1932"
+          ],
+          "hint": "The year starts with 19.",
+          "explanation": "The franchise's first season in those leagues was 1932. Earlier names and cities count.",
+          "source_url": "https://www.pro-football-reference.com/teams/was/",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "WAS-division",
+          "question": "Which division do the Washington Commanders play in?",
+          "answer": "NFC East",
+          "answer_type": "text",
+          "aliases": [
+            "NFC East"
+          ],
+          "hint": "Include the conference and direction.",
+          "explanation": "The Washington Commanders are members of the NFC East.",
+          "source_url": "https://en.wikipedia.org/wiki/Washington_Commanders",
+          "verified_at": "2026-10-11"
+        },
+        {
+          "id": "WAS-conference",
+          "question": "Which conference do the Washington Commanders play in?",
+          "answer": "NFC",
+          "answer_type": "text",
+          "aliases": [
+            "NFC",
+            "National Football Conference"
+          ],
+          "hint": "AFC or NFC.",
+          "explanation": "The Washington Commanders play in the NFC.",
+          "source_url": "https://en.wikipedia.org/wiki/Washington_Commanders",
+          "verified_at": "2026-10-11"
+        }
+      ]
+    }
+  }
+}
