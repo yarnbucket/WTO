@@ -462,7 +462,17 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 #wtoUpdateNotice::before{content:"WTO UPDATE";display:block;font:26px/1.2 'Anton',sans-serif;letter-spacing:1.2px;color:#11180f}
 #wtoUpdateNotice button{width:100%;min-height:52px;padding:12px 18px;border:2px solid #11180f;border-radius:8px;background:#11180f;color:#ffc72c;font-size:17px;font-weight:900}
 #wtoUpdateNotice button:focus-visible{outline:3px solid #fff;outline-offset:3px}
-</style><style>#wtoUpdateNotice a{color:#11180f;font:700 15px/1.4 sans-serif;text-decoration:underline;text-underline-offset:3px}#wtoUpdateNotice a:focus-visible{outline:3px solid #11180f;outline-offset:4px}</style></head>
+</style><style>#wtoUpdateNotice a{color:#11180f;font:700 15px/1.4 sans-serif;text-decoration:underline;text-underline-offset:3px}#wtoUpdateNotice a:focus-visible{outline:3px solid #11180f;outline-offset:4px}</style><style>
+#wtoUpdateNotice{overflow:hidden;padding:36px 24px 24px;gap:22px;border:4px solid #28152e;background:radial-gradient(ellipse at center,#ffc747,#ff861b 75%,#e56113);color:#160e19;box-shadow:0 0 0 100vmax #0009,0 0 28px #ff890055,inset 0 0 0 2px #e7a236;font-size:18px}
+#wtoUpdateNotice::before{position:relative;z-index:1;color:#160c1d;font-family:'Creepster',Georgia,serif;font-size:32px}
+#wtoUpdateNotice>span,#wtoUpdateNotice>a,#wtoUpdateNotice>button{position:relative;z-index:1}
+#wtoUpdateNotice a{color:#160c1d;font-size:17px;text-decoration-thickness:2px}
+#wtoUpdateNotice button{background:#1b0c22;color:#ffb43c;border-color:#352039;font-family:'Creepster',Georgia,serif;font-size:26px;letter-spacing:1px;box-shadow:0 4px 8px #46212555}
+.update-haunts{position:absolute;inset:0;pointer-events:none}
+.update-haunts::before,.update-haunts::after{content:"";position:absolute;width:80px;height:80px;opacity:.6;background:repeating-radial-gradient(circle at 0 0,transparent 0 13px,#382030 14px 15px,transparent 16px 20px),repeating-conic-gradient(from 0deg at 0 0,transparent 0deg 16deg,#382030 17deg 18deg,transparent 19deg 30deg)}
+.update-haunts::before{left:0;top:0}.update-haunts::after{right:0;bottom:0;transform:rotate(180deg)}
+.update-haunts b{position:absolute;font-size:21px;font-weight:normal}.update-haunts b:nth-child(1){left:16px;top:20px}.update-haunts b:nth-child(2){right:8px;top:4px;font-size:45px;opacity:.65}.update-haunts b:nth-child(3){left:8px;top:94px;font-size:16px}.update-haunts b:nth-child(4){right:14px;top:87px;font-size:18px}
+</style></head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
 
@@ -615,11 +625,11 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-11-v70';
+const WTO_RELEASE='2026-10-11-v72';
 function showWtoUpdateNotice(needsReload=false){
  let notice=document.getElementById('wtoUpdateNotice');
- if(!notice){notice=document.createElement('div');notice.id='wtoUpdateNotice';notice.setAttribute('role','status');notice.innerHTML='<span></span><a href="https://github.com/yarnbucket/WTO/blob/main/README-football.md" target="_blank" rel="noopener">Check out the new README for the new features ↗</a><button type="button"></button>';document.body.appendChild(notice)}
- notice.querySelector('span').textContent=needsReload?'WTO update available. Load the latest version.':'WTO updated: new themes, fonts, field meters and weather effects.';
+ if(!notice){notice=document.createElement('div');notice.id='wtoUpdateNotice';notice.setAttribute('role','status');notice.innerHTML='<div class="update-haunts" aria-hidden="true"><b>🦇</b><b>🕸</b><b>🕷</b><b>🦇</b></div><span></span><a href="https://github.com/yarnbucket/WTO/blob/main/README-football.md" target="_blank" rel="noopener">CHECK README ☠</a><button type="button"></button>';document.body.appendChild(notice)}
+ notice.querySelector('span').textContent=needsReload?'A spooky new update is ready! Load the latest version.':'A spooky new update is here! Explore the new themes, field meters and weather effects.';
  const button=notice.querySelector('button');button.textContent=needsReload?'UPDATE NOW':'GOT IT';
  button.onclick=()=>{try{localStorage.setItem('wto-release-seen',WTO_RELEASE)}catch(e){}if(needsReload)location.reload();else notice.remove()};
 }
@@ -628,7 +638,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=70',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=72',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
