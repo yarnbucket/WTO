@@ -3,7 +3,7 @@
   "season": 2026,
   "title": "WTO Team Betting Tracker",
   "source_of_truth": "ff26-nfl-lines-2026.json",
-  "generated_at": "2026-10-06T06:03:52-04:00",
+  "generated_at": "2026-10-11T10:10:24.478809+00:00",
   "methodology": {
     "ats": "Team win/loss/push is derived from the verified game ATS winner. Favorite spreads are stored from the favorite perspective as negative numbers.",
     "totals": "The game Over/Under result is applied equally to both participating teams.",
@@ -87,10 +87,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": 20.5,
+            "points_vs_grading_total": -7.5,
             "final_outcome": "ARI 26, LAC 14; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -108,9 +108,9 @@
           "opening_favorite": "SEA",
           "opening_spread": -10,
           "opening_total": 44.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SEA",
+          "closing_spread": -3.5,
+          "closing_total": 40.5,
           "grading_favorite": "SEA",
           "grading_spread": -3.5,
           "grading_total": 40.5,
@@ -125,14 +125,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -6.5,
-            "ats_margin": null,
+            "ats_margin": -20.5,
             "points_vs_grading_total": -2.5,
-            "final_outcome": "SEA 31, ARI 7; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "ARI 7, SEA 31; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -150,9 +150,9 @@
           "opening_favorite": "SF",
           "opening_spread": -11.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SF",
+          "closing_spread": -7.5,
+          "closing_total": 48.5,
           "grading_favorite": "SF",
           "grading_spread": -7.5,
           "grading_total": 48.5,
@@ -167,14 +167,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -4,
-            "ats_margin": null,
+            "ats_margin": 1.5,
             "points_vs_grading_total": 17.5,
             "final_outcome": "ARI 30, SF 36; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -192,9 +192,9 @@
           "opening_favorite": "NYG",
           "opening_spread": -7,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "ARI",
+          "closing_spread": -2.5,
+          "closing_total": 43.5,
           "grading_favorite": "ARI",
           "grading_spread": -2.5,
           "grading_total": 44.5,
@@ -209,21 +209,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": true,
             "spread_movement_points": -4.5,
-            "ats_margin": null,
-            "points_vs_grading_total": 15.5,
+            "ats_margin": -14.5,
+            "points_vs_grading_total": 16.5,
             "final_outcome": "ARI 24, NYG 36; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
       "average_points_for": 21.8,
-      "average_points_against": 29.3
+      "average_points_against": 29.2
     },
     "ATL": {
       "team": "ATL",
@@ -301,10 +301,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": -0.5,
+            "points_vs_grading_total": -7.5,
             "final_outcome": "ATL 13, PIT 20; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -322,9 +322,9 @@
           "opening_favorite": "ATL",
           "opening_spread": -1.5,
           "opening_total": 43.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CAR",
+          "closing_spread": -2.5,
+          "closing_total": 43.5,
           "grading_favorite": "CAR",
           "grading_spread": -2.5,
           "grading_total": 43.5,
@@ -339,14 +339,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": true,
             "spread_movement_points": 1,
-            "ats_margin": null,
+            "ats_margin": -28.5,
             "points_vs_grading_total": -6.5,
-            "final_outcome": "CAR 34, ATL 3; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "ATL 3, CAR 34; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -364,9 +364,9 @@
           "opening_favorite": "GB",
           "opening_spread": -7.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "GB",
+          "closing_spread": -4.5,
+          "closing_total": 43.5,
           "grading_favorite": "GB",
           "grading_spread": -6,
           "grading_total": 44.5,
@@ -381,14 +381,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -1.5,
-            "ats_margin": null,
-            "points_vs_grading_total": 4.5,
+            "ats_margin": 25.5,
+            "points_vs_grading_total": 5.5,
             "final_outcome": "ATL 35, GB 14; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -406,9 +406,9 @@
           "opening_favorite": "NO",
           "opening_spread": -2.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "NO",
+          "closing_spread": -1.5,
+          "closing_total": 48.5,
           "grading_favorite": "NO",
           "grading_spread": -3,
           "grading_total": 48.5,
@@ -423,21 +423,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
+            "ats_margin": 22.5,
             "points_vs_grading_total": 20.5,
             "final_outcome": "ATL 45, NO 24; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 24,
-      "average_points_against": 23
+      "average_points_for": 24.0,
+      "average_points_against": 23.0
     },
     "BAL": {
       "team": "BAL",
@@ -449,16 +449,16 @@
       },
       "ats": {
         "wins": 1,
-        "losses": 3,
-        "pushes": 0
+        "losses": 2,
+        "pushes": 1
       },
       "favorite_ats": {
-        "wins": 0,
-        "losses": 3,
-        "pushes": 0
+        "wins": 1,
+        "losses": 2,
+        "pushes": 1
       },
       "underdog_ats": {
-        "wins": 1,
+        "wins": 0,
         "losses": 0,
         "pushes": 0
       },
@@ -469,8 +469,8 @@
       },
       "away_ats": {
         "wins": 1,
-        "losses": 1,
-        "pushes": 0
+        "losses": 0,
+        "pushes": 1
       },
       "totals": {
         "overs": 3,
@@ -502,7 +502,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 64,
           "total_result": "over",
@@ -512,13 +512,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": 15,
+            "points_vs_grading_total": 15.5,
             "final_outcome": "BAL 41, IND 23; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -536,9 +536,9 @@
           "opening_favorite": "BAL",
           "opening_spread": -7.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "BAL",
+          "closing_spread": -8.5,
+          "closing_total": 45.5,
           "grading_favorite": "BAL",
           "grading_spread": -8.5,
           "grading_total": 45.5,
@@ -553,14 +553,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": null,
+            "ats_margin": -15.5,
             "points_vs_grading_total": -4.5,
-            "final_outcome": "NO 24, BAL 17; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "BAL 17, NO 24; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -578,16 +578,16 @@
           "opening_favorite": "BAL",
           "opening_spread": -2.5,
           "opening_total": 50.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "BAL",
+          "closing_spread": -3.0,
+          "closing_total": 54.5,
           "grading_favorite": "BAL",
           "grading_spread": -3.5,
           "grading_total": 53.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-09-27T06:02:04-04:00",
           "market_role": "favorite",
-          "ats_result": "loss",
+          "ats_result": "push",
           "combined_points": 65,
           "total_result": "over",
           "verified_at": "2026-09-29T05:58:07-04:00",
@@ -595,14 +595,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": null,
-            "points_vs_grading_total": 11.5,
+            "ats_margin": 0.0,
+            "points_vs_grading_total": 10.5,
             "final_outcome": "BAL 34, DAL 31; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -620,9 +620,9 @@
           "opening_favorite": "BAL",
           "opening_spread": -8.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "BAL",
+          "closing_spread": -11.5,
+          "closing_total": 41.5,
           "grading_favorite": "BAL",
           "grading_spread": -11.5,
           "grading_total": 41.5,
@@ -637,21 +637,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 3,
-            "ats_margin": null,
+            "ats_margin": -5.5,
             "points_vs_grading_total": 0.5,
-            "final_outcome": "TEN 18, BAL 24; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "BAL 24, TEN 18; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 29,
-      "average_points_against": 24
+      "average_points_for": 29.0,
+      "average_points_against": 24.0
     },
     "BUF": {
       "team": "BUF",
@@ -667,12 +667,12 @@
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 2,
+        "wins": 3,
         "losses": 1,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 1,
+        "wins": 0,
         "losses": 0,
         "pushes": 0
       },
@@ -716,7 +716,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 67,
           "total_result": "over",
@@ -726,13 +726,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": 3.5,
+            "points_vs_grading_total": 22.5,
             "final_outcome": "BUF 36, HOU 31; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -771,10 +771,10 @@
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 2.5,
-            "ats_margin": null,
+            "ats_margin": 4.5,
             "points_vs_grading_total": 17.5,
-            "final_outcome": "DET 31, BUF 41; win; over.",
-            "interpretation": "Graded against the verified closing market.",
+            "final_outcome": "BUF 41, DET 31; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -792,9 +792,9 @@
           "opening_favorite": "BUF",
           "opening_spread": -2.5,
           "opening_total": 48.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "BUF",
+          "closing_spread": -7.0,
+          "closing_total": 50.5,
           "grading_favorite": "BUF",
           "grading_spread": -7,
           "grading_total": 50.5,
@@ -809,14 +809,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 4.5,
-            "ats_margin": null,
+            "ats_margin": 1.0,
             "points_vs_grading_total": -10.5,
-            "final_outcome": "LAC 16, BUF 24; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "BUF 24, LAC 16; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -834,9 +834,9 @@
           "opening_favorite": "BUF",
           "opening_spread": -3,
           "opening_total": 49.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "BUF",
+          "closing_spread": -7.0,
+          "closing_total": 49.5,
           "grading_favorite": "BUF",
           "grading_spread": -7,
           "grading_total": 50.5,
@@ -851,14 +851,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 4,
-            "ats_margin": null,
-            "points_vs_grading_total": 4.5,
-            "final_outcome": "NE 29, BUF 26; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -10.0,
+            "points_vs_grading_total": 5.5,
+            "final_outcome": "BUF 26, NE 29; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -943,10 +943,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "CHI 59, CAR 37; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -19,
+            "points_vs_grading_total": 48.5,
+            "final_outcome": "CAR 37, CHI 59; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -964,9 +964,9 @@
           "opening_favorite": "ATL",
           "opening_spread": -1.5,
           "opening_total": 43.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CAR",
+          "closing_spread": -2.5,
+          "closing_total": 43.5,
           "grading_favorite": "CAR",
           "grading_spread": -2.5,
           "grading_total": 43.5,
@@ -981,14 +981,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": true,
             "spread_movement_points": 1,
-            "ats_margin": null,
+            "ats_margin": 28.5,
             "points_vs_grading_total": -6.5,
             "final_outcome": "CAR 34, ATL 3; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1006,9 +1006,9 @@
           "opening_favorite": "CAR",
           "opening_spread": -1.5,
           "opening_total": 39.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CAR",
+          "closing_spread": -2.5,
+          "closing_total": 41.5,
           "grading_favorite": "CAR",
           "grading_spread": -1.5,
           "grading_total": 42.5,
@@ -1023,14 +1023,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
-            "points_vs_grading_total": -3.5,
+            "ats_margin": -5.5,
+            "points_vs_grading_total": -2.5,
             "final_outcome": "CAR 18, CLE 21; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1048,9 +1048,9 @@
           "opening_favorite": "DET",
           "opening_spread": -3,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "DET",
+          "closing_spread": -3.5,
+          "closing_total": 52.5,
           "grading_favorite": "DET",
           "grading_spread": -3.5,
           "grading_total": 51.5,
@@ -1065,21 +1065,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
-            "points_vs_grading_total": 6.5,
-            "final_outcome": "DET 26, CAR 32; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 9.5,
+            "points_vs_grading_total": 5.5,
+            "final_outcome": "CAR 32, DET 26; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 30.3,
-      "average_points_against": 27.3
+      "average_points_for": 30.2,
+      "average_points_against": 27.2
     },
     "CHI": {
       "team": "CHI",
@@ -1095,12 +1095,12 @@
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 2,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -1144,7 +1144,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 96,
           "total_result": "over",
@@ -1154,13 +1154,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": 19,
+            "points_vs_grading_total": 48.5,
             "final_outcome": "CHI 59, CAR 37; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1178,9 +1178,9 @@
           "opening_favorite": "CHI",
           "opening_spread": -3.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CHI",
+          "closing_spread": -4.5,
+          "closing_total": 46.5,
           "grading_favorite": "CHI",
           "grading_spread": -4.5,
           "grading_total": 47.5,
@@ -1195,14 +1195,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": null,
-            "points_vs_grading_total": -35.5,
-            "final_outcome": "MIN 9, CHI 3; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -10.5,
+            "points_vs_grading_total": -34.5,
+            "final_outcome": "CHI 3, MIN 9; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1220,9 +1220,9 @@
           "opening_favorite": "CHI",
           "opening_spread": -1.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "PHI",
+          "closing_spread": -3.0,
+          "closing_total": 42.5,
           "grading_favorite": "PHI",
           "grading_spread": -3,
           "grading_total": 44.5,
@@ -1237,14 +1237,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": true,
             "spread_movement_points": 1.5,
-            "ats_margin": null,
-            "points_vs_grading_total": -10.5,
-            "final_outcome": "PHI 7, CHI 27; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 23.0,
+            "points_vs_grading_total": -8.5,
+            "final_outcome": "CHI 27, PHI 7; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1262,9 +1262,9 @@
           "opening_favorite": "CHI",
           "opening_spread": -8.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CHI",
+          "closing_spread": -3.5,
+          "closing_total": 43.5,
           "grading_favorite": "CHI",
           "grading_spread": -3.5,
           "grading_total": 43.5,
@@ -1279,21 +1279,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -5,
-            "ats_margin": null,
+            "ats_margin": 7.5,
             "points_vs_grading_total": -8.5,
-            "final_outcome": "NYJ 12, CHI 23; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "CHI 23, NYJ 12; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 28,
-      "average_points_against": 16.3
+      "average_points_for": 28.0,
+      "average_points_against": 16.2
     },
     "CIN": {
       "team": "CIN",
@@ -1309,12 +1309,12 @@
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 2,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
@@ -1358,7 +1358,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 60,
           "total_result": "over",
@@ -1368,13 +1368,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "TB 27, CIN 33; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 2.5,
+            "points_vs_grading_total": 9.5,
+            "final_outcome": "CIN 33, TB 27; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1392,9 +1392,9 @@
           "opening_favorite": "HOU",
           "opening_spread": -2.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "HOU",
+          "closing_spread": -3.0,
+          "closing_total": 45.5,
           "grading_favorite": "HOU",
           "grading_spread": -2.5,
           "grading_total": 45.5,
@@ -1409,14 +1409,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
+            "ats_margin": 17.0,
             "points_vs_grading_total": -19.5,
             "final_outcome": "CIN 20, HOU 6; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1434,9 +1434,9 @@
           "opening_favorite": "CIN",
           "opening_spread": -1.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CIN",
+          "closing_spread": -3.5,
+          "closing_total": 42.5,
           "grading_favorite": "CIN",
           "grading_spread": -3.5,
           "grading_total": 42.5,
@@ -1451,14 +1451,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 2,
-            "ats_margin": null,
+            "ats_margin": -6.5,
             "points_vs_grading_total": 14.5,
             "final_outcome": "CIN 27, PIT 30; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1476,9 +1476,9 @@
           "opening_favorite": "CIN",
           "opening_spread": -2.5,
           "opening_total": 51.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CIN",
+          "closing_spread": -2.5,
+          "closing_total": 51.5,
           "grading_favorite": "CIN",
           "grading_spread": -2.5,
           "grading_total": 51.5,
@@ -1493,21 +1493,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
+            "ats_margin": -7.5,
             "points_vs_grading_total": -12.5,
-            "final_outcome": "JAX 22, CIN 17; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "CIN 17, JAX 22; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 24.3,
-      "average_points_against": 21.3
+      "average_points_for": 24.2,
+      "average_points_against": 21.2
     },
     "CLE": {
       "team": "CLE",
@@ -1585,10 +1585,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": -15.5,
+            "points_vs_grading_total": 3.5,
             "final_outcome": "CLE 10, JAX 34; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1606,9 +1606,9 @@
           "opening_favorite": "TB",
           "opening_spread": -5.5,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "TB",
+          "closing_spread": -8.5,
+          "closing_total": 41.5,
           "grading_favorite": "TB",
           "grading_spread": -7.5,
           "grading_total": 41.5,
@@ -1623,14 +1623,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 2,
-            "ats_margin": null,
+            "ats_margin": 12.5,
             "points_vs_grading_total": 0.5,
             "final_outcome": "CLE 23, TB 19; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1648,9 +1648,9 @@
           "opening_favorite": "CAR",
           "opening_spread": -1.5,
           "opening_total": 39.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CAR",
+          "closing_spread": -2.5,
+          "closing_total": 41.5,
           "grading_favorite": "CAR",
           "grading_spread": -1.5,
           "grading_total": 42.5,
@@ -1665,14 +1665,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
-            "points_vs_grading_total": -3.5,
-            "final_outcome": "CAR 18, CLE 21; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 5.5,
+            "points_vs_grading_total": -2.5,
+            "final_outcome": "CLE 21, CAR 18; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1690,9 +1690,9 @@
           "opening_favorite": "PIT",
           "opening_spread": -2.5,
           "opening_total": 40.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "PIT",
+          "closing_spread": -2.5,
+          "closing_total": 38.5,
           "grading_favorite": "PIT",
           "grading_spread": -2.5,
           "grading_total": 38.5,
@@ -1707,20 +1707,20 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
+            "ats_margin": 5.5,
             "points_vs_grading_total": 12.5,
-            "final_outcome": "PIT 24, CLE 27; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "CLE 27, PIT 24; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 20.3,
+      "average_points_for": 20.2,
       "average_points_against": 23.8
     },
     "DAL": {
@@ -1728,28 +1728,28 @@
       "name": "Dallas Cowboys",
       "straight_up": {
         "wins": 2,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
       "ats": {
-        "wins": 3,
-        "losses": 1,
-        "pushes": 0
+        "wins": 2,
+        "losses": 2,
+        "pushes": 1
       },
       "favorite_ats": {
         "wins": 1,
-        "losses": 0,
+        "losses": 2,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 2,
-        "losses": 1,
-        "pushes": 0
+        "wins": 1,
+        "losses": 0,
+        "pushes": 1
       },
       "home_ats": {
-        "wins": 2,
-        "losses": 0,
-        "pushes": 0
+        "wins": 1,
+        "losses": 1,
+        "pushes": 1
       },
       "away_ats": {
         "wins": 1,
@@ -1758,12 +1758,12 @@
       },
       "totals": {
         "overs": 3,
-        "unders": 0,
+        "unders": 1,
         "pushes": 1
       },
-      "points_for": 122,
-      "points_against": 112,
-      "final_games": 4,
+      "points_for": 138,
+      "points_against": 136,
+      "final_games": 5,
       "games": [
         {
           "week": 1,
@@ -1786,7 +1786,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "loss",
           "combined_points": 48,
           "total_result": "push",
@@ -1796,13 +1796,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": -11,
+            "points_vs_grading_total": 0,
             "final_outcome": "DAL 20, NYG 28; loss; push.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1820,9 +1820,9 @@
           "opening_favorite": "DAL",
           "opening_spread": -4.5,
           "opening_total": 51.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "DAL",
+          "closing_spread": -4.5,
+          "closing_total": 51.5,
           "grading_favorite": "DAL",
           "grading_spread": -3.5,
           "grading_total": 50.5,
@@ -1837,14 +1837,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -1,
-            "ats_margin": null,
-            "points_vs_grading_total": 6.5,
-            "final_outcome": "WAS 20, DAL 37; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 12.5,
+            "points_vs_grading_total": 5.5,
+            "final_outcome": "DAL 37, WAS 20; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1862,16 +1862,16 @@
           "opening_favorite": "BAL",
           "opening_spread": -2.5,
           "opening_total": 50.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "BAL",
+          "closing_spread": -3.0,
+          "closing_total": 54.5,
           "grading_favorite": "BAL",
           "grading_spread": -3.5,
           "grading_total": 53.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-09-27T06:02:04-04:00",
           "market_role": "underdog",
-          "ats_result": "win",
+          "ats_result": "push",
           "combined_points": 65,
           "total_result": "over",
           "verified_at": "2026-09-29T05:58:07-04:00",
@@ -1879,14 +1879,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": null,
-            "points_vs_grading_total": 11.5,
-            "final_outcome": "BAL 34, DAL 31; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 0.0,
+            "points_vs_grading_total": 10.5,
+            "final_outcome": "DAL 31, BAL 34; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -1904,9 +1904,9 @@
           "opening_favorite": "HOU",
           "opening_spread": -2.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "HOU",
+          "closing_spread": -3.0,
+          "closing_total": 48.5,
           "grading_favorite": "HOU",
           "grading_spread": -3,
           "grading_total": 48.5,
@@ -1921,21 +1921,55 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
+            "ats_margin": 7.0,
             "points_vs_grading_total": 15.5,
             "final_outcome": "DAL 34, HOU 30; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
+        },
+        {
+          "week": 5,
+          "game_id": "2026-W05-TB-DAL",
+          "kickoff_et": "2026-10-08T20:15:00-04:00",
+          "opponent": "TB",
+          "venue": "home",
+          "status": "final",
+          "score_for": 16,
+          "score_against": 24,
+          "straight_up_result": "loss",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "total_result": "under",
+          "combined_points": 40,
+          "verified_at": "2026-10-11T10:03:30.170062+00:00",
+          "overtime": false,
+          "scorigami": false,
+          "closing_favorite": "DAL",
+          "closing_spread": -8.5,
+          "closing_total": 49.5,
+          "grading_favorite": null,
+          "grading_spread": null,
+          "grading_total": null,
+          "grading_line_type": null,
+          "grading_market_as_of": null,
+          "expected_vs_final": {
+            "closing_role": "favorite",
+            "grading_role": "favorite",
+            "ats_margin": -16.5,
+            "points_vs_grading_total": -9.5,
+            "final_outcome": "DAL 16, TB 24; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger."
+          }
         }
       ],
-      "average_points_for": 30.5,
-      "average_points_against": 28
+      "average_points_for": 27.6,
+      "average_points_against": 27.2
     },
     "DEN": {
       "team": "DEN",
@@ -1951,12 +1985,12 @@
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 1,
+        "wins": 0,
         "losses": 2,
         "pushes": 0
       },
@@ -2013,10 +2047,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": -18.5,
+            "points_vs_grading_total": -2.5,
             "final_outcome": "DEN 10, KC 31; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2034,9 +2068,9 @@
           "opening_favorite": "DEN",
           "opening_spread": -2.5,
           "opening_total": 43.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "DEN",
+          "closing_spread": -2.5,
+          "closing_total": 45.5,
           "grading_favorite": "DEN",
           "grading_spread": -3,
           "grading_total": 45.5,
@@ -2051,14 +2085,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
+            "ats_margin": 4.5,
             "points_vs_grading_total": -12.5,
-            "final_outcome": "JAX 13, DEN 20; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "DEN 20, JAX 13; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2076,15 +2110,15 @@
           "opening_favorite": "LAR",
           "opening_spread": -2.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "DEN",
+          "closing_spread": -1.5,
+          "closing_total": 44.5,
           "grading_favorite": "LAR",
           "grading_spread": -2.5,
           "grading_total": 43.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-09-27T06:02:04-04:00",
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 56,
           "total_result": "over",
@@ -2093,14 +2127,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
-            "grading_role": "underdog",
+            "closing_role": "favorite",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
-            "points_vs_grading_total": 12.5,
-            "final_outcome": "LAR 26, DEN 30; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 2.5,
+            "points_vs_grading_total": 11.5,
+            "final_outcome": "DEN 30, LAR 26; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2118,9 +2152,9 @@
           "opening_favorite": "SF",
           "opening_spread": -2.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SF",
+          "closing_spread": -3.0,
+          "closing_total": 48.5,
           "grading_favorite": "SF",
           "grading_spread": -3,
           "grading_total": 48.5,
@@ -2135,14 +2169,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
+            "ats_margin": -7.0,
             "points_vs_grading_total": -10.5,
             "final_outcome": "DEN 14, SF 24; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2160,24 +2194,24 @@
         "ties": 0
       },
       "ats": {
-        "wins": 1,
+        "wins": 0,
         "losses": 3,
-        "pushes": 0
+        "pushes": 1
       },
       "favorite_ats": {
-        "wins": 1,
-        "losses": 1,
-        "pushes": 0
+        "wins": 0,
+        "losses": 2,
+        "pushes": 1
       },
       "underdog_ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 1,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 1,
+        "wins": 0,
         "losses": 1,
-        "pushes": 0
+        "pushes": 1
       },
       "away_ats": {
         "wins": 0,
@@ -2214,7 +2248,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "loss",
           "combined_points": 61,
           "total_result": "over",
@@ -2224,13 +2258,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "NO 30, DET 31; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -6,
+            "points_vs_grading_total": 11.5,
+            "final_outcome": "DET 31, NO 30; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2269,10 +2303,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 2.5,
-            "ats_margin": null,
+            "ats_margin": -4.5,
             "points_vs_grading_total": 17.5,
             "final_outcome": "DET 31, BUF 41; loss; over.",
-            "interpretation": "Graded against the verified closing market.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2290,16 +2324,16 @@
           "opening_favorite": "DET",
           "opening_spread": -9.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "DET",
+          "closing_spread": -7.0,
+          "closing_total": 49.5,
           "grading_favorite": "DET",
           "grading_spread": -6.5,
           "grading_total": 48.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-09-27T06:02:04-04:00",
           "market_role": "favorite",
-          "ats_result": "win",
+          "ats_result": "push",
           "combined_points": 55,
           "total_result": "over",
           "verified_at": "2026-09-29T05:58:07-04:00",
@@ -2307,14 +2341,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -3,
-            "ats_margin": null,
-            "points_vs_grading_total": 6.5,
-            "final_outcome": "NYJ 24, DET 31; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 0.0,
+            "points_vs_grading_total": 5.5,
+            "final_outcome": "DET 31, NYJ 24; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2332,9 +2366,9 @@
           "opening_favorite": "DET",
           "opening_spread": -3,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "DET",
+          "closing_spread": -3.5,
+          "closing_total": 52.5,
           "grading_favorite": "DET",
           "grading_spread": -3.5,
           "grading_total": 51.5,
@@ -2349,14 +2383,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
-            "points_vs_grading_total": 6.5,
+            "ats_margin": -9.5,
+            "points_vs_grading_total": 5.5,
             "final_outcome": "DET 26, CAR 32; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2374,14 +2408,14 @@
         "ties": 0
       },
       "ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 3,
-        "pushes": 1
+        "pushes": 0
       },
       "favorite_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
-        "pushes": 1
+        "pushes": 0
       },
       "underdog_ats": {
         "wins": 0,
@@ -2394,9 +2428,9 @@
         "pushes": 0
       },
       "away_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
-        "pushes": 1
+        "pushes": 0
       },
       "totals": {
         "overs": 2,
@@ -2441,10 +2475,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": -14.5,
+            "points_vs_grading_total": 15.5,
             "final_outcome": "GB 22, MIN 39; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2462,9 +2496,9 @@
           "opening_favorite": "GB",
           "opening_spread": -6.5,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "GB",
+          "closing_spread": -3.5,
+          "closing_total": 44.5,
           "grading_favorite": "GB",
           "grading_spread": -3.5,
           "grading_total": 44.5,
@@ -2479,14 +2513,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -3,
-            "ats_margin": null,
+            "ats_margin": -0.5,
             "points_vs_grading_total": -7.5,
             "final_outcome": "GB 20, NYJ 17; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2504,9 +2538,9 @@
           "opening_favorite": "GB",
           "opening_spread": -7.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "GB",
+          "closing_spread": -4.5,
+          "closing_total": 43.5,
           "grading_favorite": "GB",
           "grading_spread": -6,
           "grading_total": 44.5,
@@ -2521,14 +2555,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -1.5,
-            "ats_margin": null,
-            "points_vs_grading_total": 4.5,
-            "final_outcome": "ATL 35, GB 14; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -25.5,
+            "points_vs_grading_total": 5.5,
+            "final_outcome": "GB 14, ATL 35; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2546,16 +2580,16 @@
           "opening_favorite": "GB",
           "opening_spread": -1.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "GB",
+          "closing_spread": -2.5,
+          "closing_total": 38.5,
           "grading_favorite": "GB",
           "grading_spread": -3,
           "grading_total": 38.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-10-04T06:01:25-04:00",
           "market_role": "favorite",
-          "ats_result": "push",
+          "ats_result": "win",
           "combined_points": 31,
           "total_result": "under",
           "verified_at": "2026-10-06T06:03:52-04:00",
@@ -2563,21 +2597,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 1.5,
-            "ats_margin": null,
+            "ats_margin": 0.5,
             "points_vs_grading_total": -7.5,
             "final_outcome": "GB 17, TB 14; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 18.3,
-      "average_points_against": 26.3
+      "average_points_for": 18.2,
+      "average_points_against": 26.2
     },
     "HOU": {
       "team": "HOU",
@@ -2655,10 +2689,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "BUF 36, HOU 31; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -3.5,
+            "points_vs_grading_total": 22.5,
+            "final_outcome": "HOU 31, BUF 36; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2676,9 +2710,9 @@
           "opening_favorite": "HOU",
           "opening_spread": -2.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "HOU",
+          "closing_spread": -3.0,
+          "closing_total": 45.5,
           "grading_favorite": "HOU",
           "grading_spread": -2.5,
           "grading_total": 45.5,
@@ -2693,14 +2727,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
+            "ats_margin": -17.0,
             "points_vs_grading_total": -19.5,
-            "final_outcome": "CIN 20, HOU 6; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "HOU 6, CIN 20; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2718,9 +2752,9 @@
           "opening_favorite": "HOU",
           "opening_spread": -1.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "HOU",
+          "closing_spread": -1.5,
+          "closing_total": 42.5,
           "grading_favorite": "HOU",
           "grading_spread": -1.5,
           "grading_total": 42.5,
@@ -2735,14 +2769,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
+            "ats_margin": -3.5,
             "points_vs_grading_total": -6.5,
             "final_outcome": "HOU 17, IND 19; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2760,9 +2794,9 @@
           "opening_favorite": "HOU",
           "opening_spread": -2.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "HOU",
+          "closing_spread": -3.0,
+          "closing_total": 48.5,
           "grading_favorite": "HOU",
           "grading_spread": -3,
           "grading_total": 48.5,
@@ -2777,21 +2811,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
+            "ats_margin": -7.0,
             "points_vs_grading_total": 15.5,
-            "final_outcome": "DAL 34, HOU 30; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "HOU 30, DAL 34; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 21,
-      "average_points_against": 27.3
+      "average_points_for": 21.0,
+      "average_points_against": 27.2
     },
     "IND": {
       "team": "IND",
@@ -2869,10 +2903,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "BAL 41, IND 23; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -15,
+            "points_vs_grading_total": 15.5,
+            "final_outcome": "IND 23, BAL 41; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2890,9 +2924,9 @@
           "opening_favorite": "KC",
           "opening_spread": -5.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "KC",
+          "closing_spread": -6.0,
+          "closing_total": 46.5,
           "grading_favorite": "KC",
           "grading_spread": -6,
           "grading_total": 46.5,
@@ -2907,14 +2941,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
+            "ats_margin": 3.0,
             "points_vs_grading_total": 16.5,
             "final_outcome": "IND 30, KC 33; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2932,9 +2966,9 @@
           "opening_favorite": "HOU",
           "opening_spread": -1.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "HOU",
+          "closing_spread": -1.5,
+          "closing_total": 42.5,
           "grading_favorite": "HOU",
           "grading_spread": -1.5,
           "grading_total": 42.5,
@@ -2949,14 +2983,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
+            "ats_margin": 3.5,
             "points_vs_grading_total": -6.5,
-            "final_outcome": "HOU 17, IND 19; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "IND 19, HOU 17; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -2974,9 +3008,9 @@
           "opening_favorite": "WAS",
           "opening_spread": -1.5,
           "opening_total": 48.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "IND",
+          "closing_spread": -4.5,
+          "closing_total": 46.5,
           "grading_favorite": "IND",
           "grading_spread": -4.5,
           "grading_total": 46.5,
@@ -2991,21 +3025,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": true,
             "spread_movement_points": 3,
-            "ats_margin": null,
+            "ats_margin": 12.5,
             "points_vs_grading_total": -3.5,
             "final_outcome": "IND 30, WAS 13; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
       "average_points_for": 25.5,
-      "average_points_against": 26
+      "average_points_against": 26.0
     },
     "JAX": {
       "team": "JAX",
@@ -3021,12 +3055,12 @@
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 2,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
@@ -3070,7 +3104,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 44,
           "total_result": "over",
@@ -3080,13 +3114,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "CLE 10, JAX 34; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 15.5,
+            "points_vs_grading_total": 3.5,
+            "final_outcome": "JAX 34, CLE 10; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3104,9 +3138,9 @@
           "opening_favorite": "DEN",
           "opening_spread": -2.5,
           "opening_total": 43.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "DEN",
+          "closing_spread": -2.5,
+          "closing_total": 45.5,
           "grading_favorite": "DEN",
           "grading_spread": -3,
           "grading_total": 45.5,
@@ -3121,14 +3155,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
+            "ats_margin": -4.5,
             "points_vs_grading_total": -12.5,
             "final_outcome": "JAX 13, DEN 20; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3146,9 +3180,9 @@
           "opening_favorite": "JAX",
           "opening_spread": -1.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "JAX",
+          "closing_spread": -3.0,
+          "closing_total": 46.5,
           "grading_favorite": "JAX",
           "grading_spread": -3,
           "grading_total": 45.5,
@@ -3163,14 +3197,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 1.5,
-            "ats_margin": null,
-            "points_vs_grading_total": -4.5,
-            "final_outcome": "NE 6, JAX 35; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 26.0,
+            "points_vs_grading_total": -5.5,
+            "final_outcome": "JAX 35, NE 6; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3188,9 +3222,9 @@
           "opening_favorite": "CIN",
           "opening_spread": -2.5,
           "opening_total": 51.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CIN",
+          "closing_spread": -2.5,
+          "closing_total": 51.5,
           "grading_favorite": "CIN",
           "grading_spread": -2.5,
           "grading_total": 51.5,
@@ -3205,21 +3239,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
+            "ats_margin": 7.5,
             "points_vs_grading_total": -12.5,
             "final_outcome": "JAX 22, CIN 17; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 26,
-      "average_points_against": 13.3
+      "average_points_for": 26.0,
+      "average_points_against": 13.2
     },
     "KC": {
       "team": "KC",
@@ -3235,12 +3269,12 @@
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 1,
+        "wins": 2,
         "losses": 2,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 1,
+        "wins": 0,
         "losses": 0,
         "pushes": 0
       },
@@ -3284,7 +3318,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 41,
           "total_result": "under",
@@ -3294,13 +3328,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "DEN 10, KC 31; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 18.5,
+            "points_vs_grading_total": -2.5,
+            "final_outcome": "KC 31, DEN 10; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3318,9 +3352,9 @@
           "opening_favorite": "KC",
           "opening_spread": -5.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "KC",
+          "closing_spread": -6.0,
+          "closing_total": 46.5,
           "grading_favorite": "KC",
           "grading_spread": -6,
           "grading_total": 46.5,
@@ -3335,14 +3369,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
+            "ats_margin": -3.0,
             "points_vs_grading_total": 16.5,
-            "final_outcome": "IND 30, KC 33; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "KC 33, IND 30; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3360,9 +3394,9 @@
           "opening_favorite": "KC",
           "opening_spread": -7,
           "opening_total": 44.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "KC",
+          "closing_spread": -10.0,
+          "closing_total": 45.5,
           "grading_favorite": "KC",
           "grading_spread": -10,
           "grading_total": 45.5,
@@ -3377,14 +3411,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 3,
-            "ats_margin": null,
+            "ats_margin": 4.0,
             "points_vs_grading_total": -11.5,
             "final_outcome": "KC 24, MIA 10; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3402,9 +3436,9 @@
           "opening_favorite": "KC",
           "opening_spread": -5.5,
           "opening_total": 43.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "KC",
+          "closing_spread": -3.5,
+          "closing_total": 47.5,
           "grading_favorite": "KC",
           "grading_spread": -4.5,
           "grading_total": 47.5,
@@ -3419,21 +3453,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -1,
-            "ats_margin": null,
+            "ats_margin": -0.5,
             "points_vs_grading_total": 9.5,
             "final_outcome": "KC 30, LV 27; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
       "average_points_for": 29.5,
-      "average_points_against": 19.3
+      "average_points_against": 19.2
     },
     "LV": {
       "team": "LV",
@@ -3449,12 +3483,12 @@
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 4,
+        "wins": 3,
         "losses": 0,
         "pushes": 0
       },
@@ -3498,7 +3532,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 40,
           "total_result": "under",
@@ -3508,13 +3542,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "MIA 13, LV 27; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 11,
+            "points_vs_grading_total": -0.5,
+            "final_outcome": "LV 27, MIA 13; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3532,9 +3566,9 @@
           "opening_favorite": "LAC",
           "opening_spread": -8.5,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "LAC",
+          "closing_spread": -6.5,
+          "closing_total": 43.5,
           "grading_favorite": "LAC",
           "grading_spread": -7,
           "grading_total": 43.5,
@@ -3549,14 +3583,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -1.5,
-            "ats_margin": null,
+            "ats_margin": 18.5,
             "points_vs_grading_total": -3.5,
             "final_outcome": "LV 26, LAC 14; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3574,9 +3608,9 @@
           "opening_favorite": "NO",
           "opening_spread": -3,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "NO",
+          "closing_spread": -3.5,
+          "closing_total": 44.5,
           "grading_favorite": "NO",
           "grading_spread": -3.5,
           "grading_total": 43.5,
@@ -3591,14 +3625,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
-            "points_vs_grading_total": 18.5,
+            "ats_margin": 11.5,
+            "points_vs_grading_total": 17.5,
             "final_outcome": "LV 35, NO 27; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3616,9 +3650,9 @@
           "opening_favorite": "KC",
           "opening_spread": -5.5,
           "opening_total": 43.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "KC",
+          "closing_spread": -3.5,
+          "closing_total": 47.5,
           "grading_favorite": "KC",
           "grading_spread": -4.5,
           "grading_total": 47.5,
@@ -3633,21 +3667,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -1,
-            "ats_margin": null,
+            "ats_margin": 0.5,
             "points_vs_grading_total": 9.5,
-            "final_outcome": "KC 30, LV 27; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "LV 27, KC 30; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
       "average_points_for": 28.8,
-      "average_points_against": 21
+      "average_points_against": 21.0
     },
     "LAC": {
       "team": "LAC",
@@ -3664,12 +3698,12 @@
       },
       "favorite_ats": {
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "underdog_ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 1,
         "pushes": 1
       },
       "home_ats": {
@@ -3712,7 +3746,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "loss",
           "combined_points": 40,
           "total_result": "under",
@@ -3722,13 +3756,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "ARI 26, LAC 14; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -20.5,
+            "points_vs_grading_total": -7.5,
+            "final_outcome": "LAC 14, ARI 26; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3746,9 +3780,9 @@
           "opening_favorite": "LAC",
           "opening_spread": -8.5,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "LAC",
+          "closing_spread": -6.5,
+          "closing_total": 43.5,
           "grading_favorite": "LAC",
           "grading_spread": -7,
           "grading_total": 43.5,
@@ -3763,14 +3797,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -1.5,
-            "ats_margin": null,
+            "ats_margin": -18.5,
             "points_vs_grading_total": -3.5,
-            "final_outcome": "LV 26, LAC 14; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "LAC 14, LV 26; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3788,9 +3822,9 @@
           "opening_favorite": "BUF",
           "opening_spread": -2.5,
           "opening_total": 48.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "BUF",
+          "closing_spread": -7.0,
+          "closing_total": 50.5,
           "grading_favorite": "BUF",
           "grading_spread": -7,
           "grading_total": 50.5,
@@ -3805,14 +3839,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 4.5,
-            "ats_margin": null,
+            "ats_margin": -1.0,
             "points_vs_grading_total": -10.5,
             "final_outcome": "LAC 16, BUF 24; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3830,9 +3864,9 @@
           "opening_favorite": "SEA",
           "opening_spread": -3,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SEA",
+          "closing_spread": -7.0,
+          "closing_total": 43.5,
           "grading_favorite": "SEA",
           "grading_spread": -7,
           "grading_total": 42.5,
@@ -3847,14 +3881,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 4,
-            "ats_margin": null,
-            "points_vs_grading_total": 10.5,
+            "ats_margin": 0.0,
+            "points_vs_grading_total": 9.5,
             "final_outcome": "LAC 23, SEA 30; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3872,13 +3906,13 @@
         "ties": 0
       },
       "ats": {
-        "wins": 2,
-        "losses": 2,
+        "wins": 1,
+        "losses": 3,
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 2,
-        "losses": 1,
+        "wins": 1,
+        "losses": 2,
         "pushes": 0
       },
       "underdog_ats": {
@@ -3892,8 +3926,8 @@
         "pushes": 0
       },
       "away_ats": {
-        "wins": 1,
-        "losses": 1,
+        "wins": 0,
+        "losses": 2,
         "pushes": 0
       },
       "totals": {
@@ -3926,7 +3960,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "loss",
           "combined_points": 34,
           "total_result": "under",
@@ -3936,13 +3970,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "SF 27, LAR 7; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -23.5,
+            "points_vs_grading_total": -13.5,
+            "final_outcome": "LAR 7, SF 27; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -3960,9 +3994,9 @@
           "opening_favorite": "LAR",
           "opening_spread": -8.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "LAR",
+          "closing_spread": -7.0,
+          "closing_total": 47.5,
           "grading_favorite": "LAR",
           "grading_spread": -7,
           "grading_total": 48.5,
@@ -3977,14 +4011,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -1.5,
-            "ats_margin": null,
-            "points_vs_grading_total": -14.5,
-            "final_outcome": "NYG 6, LAR 28; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 15.0,
+            "points_vs_grading_total": -13.5,
+            "final_outcome": "LAR 28, NYG 6; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4002,15 +4036,15 @@
           "opening_favorite": "LAR",
           "opening_spread": -2.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "DEN",
+          "closing_spread": -1.5,
+          "closing_total": 44.5,
           "grading_favorite": "LAR",
           "grading_spread": -2.5,
           "grading_total": 43.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-09-27T06:02:04-04:00",
-          "market_role": "favorite",
+          "market_role": "underdog",
           "ats_result": "loss",
           "combined_points": 56,
           "total_result": "over",
@@ -4019,14 +4053,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
-            "grading_role": "favorite",
+            "closing_role": "underdog",
+            "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
-            "points_vs_grading_total": 12.5,
+            "ats_margin": -2.5,
+            "points_vs_grading_total": 11.5,
             "final_outcome": "LAR 26, DEN 30; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4044,16 +4078,16 @@
           "opening_favorite": "LAR",
           "opening_spread": -1.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "LAR",
+          "closing_spread": -4.5,
+          "closing_total": 42.5,
           "grading_favorite": "LAR",
           "grading_spread": -3.5,
           "grading_total": 42.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-10-04T06:01:25-04:00",
           "market_role": "favorite",
-          "ats_result": "win",
+          "ats_result": "loss",
           "combined_points": 44,
           "total_result": "over",
           "verified_at": "2026-10-06T06:03:52-04:00",
@@ -4061,20 +4095,20 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 2,
-            "ats_margin": null,
+            "ats_margin": -0.5,
             "points_vs_grading_total": 1.5,
             "final_outcome": "LAR 24, PHI 20; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 21.3,
+      "average_points_for": 21.2,
       "average_points_against": 20.8
     },
     "MIA": {
@@ -4153,10 +4187,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": -11,
+            "points_vs_grading_total": -0.5,
             "final_outcome": "MIA 13, LV 27; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4174,9 +4208,9 @@
           "opening_favorite": "SF",
           "opening_spread": -10.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SF",
+          "closing_spread": -12.5,
+          "closing_total": 44.5,
           "grading_favorite": "SF",
           "grading_spread": -13.5,
           "grading_total": 44.5,
@@ -4191,14 +4225,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 3,
-            "ats_margin": null,
+            "ats_margin": -9.5,
             "points_vs_grading_total": 3.5,
             "final_outcome": "MIA 13, SF 35; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4216,9 +4250,9 @@
           "opening_favorite": "KC",
           "opening_spread": -7,
           "opening_total": 44.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "KC",
+          "closing_spread": -10.0,
+          "closing_total": 45.5,
           "grading_favorite": "KC",
           "grading_spread": -10,
           "grading_total": 45.5,
@@ -4233,14 +4267,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 3,
-            "ats_margin": null,
+            "ats_margin": -4.0,
             "points_vs_grading_total": -11.5,
-            "final_outcome": "KC 24, MIA 10; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "MIA 10, KC 24; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4258,9 +4292,9 @@
           "opening_favorite": "MIN",
           "opening_spread": -7.5,
           "opening_total": 43.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "MIN",
+          "closing_spread": -10.0,
+          "closing_total": 38.5,
           "grading_favorite": "MIN",
           "grading_spread": -10,
           "grading_total": 38.5,
@@ -4275,21 +4309,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 2.5,
-            "ats_margin": null,
+            "ats_margin": 5.0,
             "points_vs_grading_total": -13.5,
             "final_outcome": "MIA 10, MIN 15; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
       "average_points_for": 11.5,
-      "average_points_against": 25.3
+      "average_points_against": 25.2
     },
     "MIN": {
       "team": "MIN",
@@ -4354,7 +4388,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 61,
           "total_result": "over",
@@ -4364,13 +4398,13 @@
           "expected_vs_final": {
             "opening_role": "underdog",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "GB 22, MIN 39; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 14.5,
+            "points_vs_grading_total": 15.5,
+            "final_outcome": "MIN 39, GB 22; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4388,9 +4422,9 @@
           "opening_favorite": "CHI",
           "opening_spread": -3.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CHI",
+          "closing_spread": -4.5,
+          "closing_total": 46.5,
           "grading_favorite": "CHI",
           "grading_spread": -4.5,
           "grading_total": 47.5,
@@ -4405,14 +4439,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": null,
-            "points_vs_grading_total": -35.5,
+            "ats_margin": 10.5,
+            "points_vs_grading_total": -34.5,
             "final_outcome": "MIN 9, CHI 3; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4430,15 +4464,15 @@
           "opening_favorite": "TB",
           "opening_spread": -1.5,
           "opening_total": 44.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "TB",
+          "closing_spread": -1.5,
+          "closing_total": 42.5,
           "grading_favorite": "MIN",
           "grading_spread": -1.5,
           "grading_total": 42.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-09-27T06:02:04-04:00",
-          "market_role": "favorite",
+          "market_role": "underdog",
           "ats_result": "win",
           "combined_points": 39,
           "total_result": "under",
@@ -4447,14 +4481,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
-            "grading_role": "favorite",
+            "closing_role": "underdog",
+            "grading_role": "underdog",
             "favorite_flipped": true,
             "spread_movement_points": 0,
-            "ats_margin": null,
+            "ats_margin": 8.5,
             "points_vs_grading_total": -3.5,
             "final_outcome": "MIN 23, TB 16; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4472,9 +4506,9 @@
           "opening_favorite": "MIN",
           "opening_spread": -7.5,
           "opening_total": 43.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "MIN",
+          "closing_spread": -10.0,
+          "closing_total": 38.5,
           "grading_favorite": "MIN",
           "grading_spread": -10,
           "grading_total": 38.5,
@@ -4489,14 +4523,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 2.5,
-            "ats_margin": null,
+            "ats_margin": -5.0,
             "points_vs_grading_total": -13.5,
-            "final_outcome": "MIA 10, MIN 15; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "MIN 15, MIA 10; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4515,8 +4549,8 @@
       },
       "ats": {
         "wins": 2,
-        "losses": 2,
-        "pushes": 0
+        "losses": 1,
+        "pushes": 1
       },
       "favorite_ats": {
         "wins": 1,
@@ -4525,8 +4559,8 @@
       },
       "underdog_ats": {
         "wins": 1,
-        "losses": 2,
-        "pushes": 0
+        "losses": 1,
+        "pushes": 1
       },
       "home_ats": {
         "wins": 1,
@@ -4535,8 +4569,8 @@
       },
       "away_ats": {
         "wins": 1,
-        "losses": 2,
-        "pushes": 0
+        "losses": 1,
+        "pushes": 1
       },
       "totals": {
         "overs": 1,
@@ -4569,7 +4603,7 @@
           "grading_line_type": null,
           "grading_market_as_of": null,
           "market_role": "underdog",
-          "ats_result": "loss",
+          "ats_result": "push",
           "combined_points": 23,
           "total_result": "under",
           "verified_at": "2026-09-12T08:20:00-04:00",
@@ -4581,10 +4615,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": 0,
+            "points_vs_grading_total": -21.5,
             "final_outcome": "NE 10, SEA 13; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4602,9 +4636,9 @@
           "opening_favorite": "NE",
           "opening_spread": -4.5,
           "opening_total": 43.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "NE",
+          "closing_spread": -4.5,
+          "closing_total": 41.5,
           "grading_favorite": "NE",
           "grading_spread": -5.5,
           "grading_total": 41.5,
@@ -4619,14 +4653,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": null,
+            "ats_margin": 12.5,
             "points_vs_grading_total": -18.5,
-            "final_outcome": "PIT 3, NE 20; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "NE 20, PIT 3; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4644,9 +4678,9 @@
           "opening_favorite": "JAX",
           "opening_spread": -1.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "JAX",
+          "closing_spread": -3.0,
+          "closing_total": 46.5,
           "grading_favorite": "JAX",
           "grading_spread": -3,
           "grading_total": 45.5,
@@ -4661,14 +4695,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 1.5,
-            "ats_margin": null,
-            "points_vs_grading_total": -4.5,
+            "ats_margin": -26.0,
+            "points_vs_grading_total": -5.5,
             "final_outcome": "NE 6, JAX 35; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4686,9 +4720,9 @@
           "opening_favorite": "BUF",
           "opening_spread": -3,
           "opening_total": 49.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "BUF",
+          "closing_spread": -7.0,
+          "closing_total": 49.5,
           "grading_favorite": "BUF",
           "grading_spread": -7,
           "grading_total": 50.5,
@@ -4703,21 +4737,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 4,
-            "ats_margin": null,
-            "points_vs_grading_total": 4.5,
+            "ats_margin": 10.0,
+            "points_vs_grading_total": 5.5,
             "final_outcome": "NE 29, BUF 26; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 16.3,
-      "average_points_against": 19.3
+      "average_points_for": 16.2,
+      "average_points_against": 19.2
     },
     "NO": {
       "team": "NO",
@@ -4795,10 +4829,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": 6,
+            "points_vs_grading_total": 11.5,
             "final_outcome": "NO 30, DET 31; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4816,9 +4850,9 @@
           "opening_favorite": "BAL",
           "opening_spread": -7.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "BAL",
+          "closing_spread": -8.5,
+          "closing_total": 45.5,
           "grading_favorite": "BAL",
           "grading_spread": -8.5,
           "grading_total": 45.5,
@@ -4833,14 +4867,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": null,
+            "ats_margin": 15.5,
             "points_vs_grading_total": -4.5,
             "final_outcome": "NO 24, BAL 17; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4858,9 +4892,9 @@
           "opening_favorite": "NO",
           "opening_spread": -3,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "NO",
+          "closing_spread": -3.5,
+          "closing_total": 44.5,
           "grading_favorite": "NO",
           "grading_spread": -3.5,
           "grading_total": 43.5,
@@ -4875,14 +4909,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
-            "points_vs_grading_total": 18.5,
-            "final_outcome": "LV 35, NO 27; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -11.5,
+            "points_vs_grading_total": 17.5,
+            "final_outcome": "NO 27, LV 35; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -4900,9 +4934,9 @@
           "opening_favorite": "NO",
           "opening_spread": -2.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "NO",
+          "closing_spread": -1.5,
+          "closing_total": 48.5,
           "grading_favorite": "NO",
           "grading_spread": -3,
           "grading_total": 48.5,
@@ -4917,21 +4951,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
+            "ats_margin": -22.5,
             "points_vs_grading_total": 20.5,
-            "final_outcome": "ATL 45, NO 24; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "NO 24, ATL 45; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 26.3,
-      "average_points_against": 32
+      "average_points_for": 26.2,
+      "average_points_against": 32.0
     },
     "NYG": {
       "team": "NYG",
@@ -5009,10 +5043,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "DAL 20, NYG 28; win; push.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 11,
+            "points_vs_grading_total": 0,
+            "final_outcome": "NYG 28, DAL 20; win; push.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5030,9 +5064,9 @@
           "opening_favorite": "LAR",
           "opening_spread": -8.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "LAR",
+          "closing_spread": -7.0,
+          "closing_total": 47.5,
           "grading_favorite": "LAR",
           "grading_spread": -7,
           "grading_total": 48.5,
@@ -5047,14 +5081,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -1.5,
-            "ats_margin": null,
-            "points_vs_grading_total": -14.5,
+            "ats_margin": -15.0,
+            "points_vs_grading_total": -13.5,
             "final_outcome": "NYG 6, LAR 28; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5072,9 +5106,9 @@
           "opening_favorite": "NYG",
           "opening_spread": -3,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "NYG",
+          "closing_spread": -2.5,
+          "closing_total": 37.5,
           "grading_favorite": "NYG",
           "grading_spread": -2.5,
           "grading_total": 37.5,
@@ -5089,14 +5123,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -0.5,
-            "ats_margin": null,
+            "ats_margin": 2.5,
             "points_vs_grading_total": -18.5,
-            "final_outcome": "TEN 7, NYG 12; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "NYG 12, TEN 7; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5114,9 +5148,9 @@
           "opening_favorite": "NYG",
           "opening_spread": -7,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "ARI",
+          "closing_spread": -2.5,
+          "closing_total": 43.5,
           "grading_favorite": "ARI",
           "grading_spread": -2.5,
           "grading_total": 44.5,
@@ -5131,14 +5165,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": true,
             "spread_movement_points": -4.5,
-            "ats_margin": null,
-            "points_vs_grading_total": 15.5,
-            "final_outcome": "ARI 24, NYG 36; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 14.5,
+            "points_vs_grading_total": 16.5,
+            "final_outcome": "NYG 36, ARI 24; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5157,8 +5191,8 @@
       },
       "ats": {
         "wins": 2,
-        "losses": 2,
-        "pushes": 0
+        "losses": 1,
+        "pushes": 1
       },
       "favorite_ats": {
         "wins": 0,
@@ -5167,8 +5201,8 @@
       },
       "underdog_ats": {
         "wins": 2,
-        "losses": 2,
-        "pushes": 0
+        "losses": 1,
+        "pushes": 1
       },
       "home_ats": {
         "wins": 1,
@@ -5177,8 +5211,8 @@
       },
       "away_ats": {
         "wins": 1,
-        "losses": 2,
-        "pushes": 0
+        "losses": 1,
+        "pushes": 1
       },
       "totals": {
         "overs": 1,
@@ -5223,10 +5257,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": 14.5,
+            "points_vs_grading_total": -6.5,
             "final_outcome": "NYJ 23, TEN 10; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5244,9 +5278,9 @@
           "opening_favorite": "GB",
           "opening_spread": -6.5,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "GB",
+          "closing_spread": -3.5,
+          "closing_total": 44.5,
           "grading_favorite": "GB",
           "grading_spread": -3.5,
           "grading_total": 44.5,
@@ -5261,14 +5295,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -3,
-            "ats_margin": null,
+            "ats_margin": 0.5,
             "points_vs_grading_total": -7.5,
-            "final_outcome": "GB 20, NYJ 17; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "NYJ 17, GB 20; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5286,16 +5320,16 @@
           "opening_favorite": "DET",
           "opening_spread": -9.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "DET",
+          "closing_spread": -7.0,
+          "closing_total": 49.5,
           "grading_favorite": "DET",
           "grading_spread": -6.5,
           "grading_total": 48.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-09-27T06:02:04-04:00",
           "market_role": "underdog",
-          "ats_result": "loss",
+          "ats_result": "push",
           "combined_points": 55,
           "total_result": "over",
           "verified_at": "2026-09-29T05:58:07-04:00",
@@ -5303,14 +5337,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -3,
-            "ats_margin": null,
-            "points_vs_grading_total": 6.5,
+            "ats_margin": 0.0,
+            "points_vs_grading_total": 5.5,
             "final_outcome": "NYJ 24, DET 31; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5328,9 +5362,9 @@
           "opening_favorite": "CHI",
           "opening_spread": -8.5,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CHI",
+          "closing_spread": -3.5,
+          "closing_total": 43.5,
           "grading_favorite": "CHI",
           "grading_spread": -3.5,
           "grading_total": 43.5,
@@ -5345,21 +5379,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -5,
-            "ats_margin": null,
+            "ats_margin": -7.5,
             "points_vs_grading_total": -8.5,
             "final_outcome": "NYJ 12, CHI 23; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 19,
-      "average_points_against": 21
+      "average_points_for": 19.0,
+      "average_points_against": 21.0
     },
     "PHI": {
       "team": "PHI",
@@ -5370,23 +5404,23 @@
         "ties": 0
       },
       "ats": {
-        "wins": 0,
-        "losses": 4,
+        "wins": 1,
+        "losses": 3,
         "pushes": 0
       },
       "favorite_ats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 0,
-        "losses": 2,
+        "wins": 1,
+        "losses": 0,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 0,
-        "losses": 2,
+        "wins": 1,
+        "losses": 1,
         "pushes": 0
       },
       "away_ats": {
@@ -5424,7 +5458,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "loss",
           "combined_points": 46,
           "total_result": "over",
@@ -5434,13 +5468,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "WAS 22, PHI 24; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -4,
+            "points_vs_grading_total": 2,
+            "final_outcome": "PHI 24, WAS 22; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5458,9 +5492,9 @@
           "opening_favorite": "PHI",
           "opening_spread": -4.5,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "PHI",
+          "closing_spread": -7.0,
+          "closing_total": 39.5,
           "grading_favorite": "PHI",
           "grading_spread": -7,
           "grading_total": 39.5,
@@ -5475,14 +5509,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 2.5,
-            "ats_margin": null,
+            "ats_margin": -3.0,
             "points_vs_grading_total": 4.5,
             "final_outcome": "PHI 24, TEN 20; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5500,9 +5534,9 @@
           "opening_favorite": "CHI",
           "opening_spread": -1.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "PHI",
+          "closing_spread": -3.0,
+          "closing_total": 42.5,
           "grading_favorite": "PHI",
           "grading_spread": -3,
           "grading_total": 44.5,
@@ -5517,14 +5551,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": true,
             "spread_movement_points": 1.5,
-            "ats_margin": null,
-            "points_vs_grading_total": -10.5,
+            "ats_margin": -23.0,
+            "points_vs_grading_total": -8.5,
             "final_outcome": "PHI 7, CHI 27; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5542,16 +5576,16 @@
           "opening_favorite": "LAR",
           "opening_spread": -1.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "LAR",
+          "closing_spread": -4.5,
+          "closing_total": 42.5,
           "grading_favorite": "LAR",
           "grading_spread": -3.5,
           "grading_total": 42.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-10-04T06:01:25-04:00",
           "market_role": "underdog",
-          "ats_result": "loss",
+          "ats_result": "win",
           "combined_points": 44,
           "total_result": "over",
           "verified_at": "2026-10-06T06:03:52-04:00",
@@ -5559,21 +5593,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 2,
-            "ats_margin": null,
+            "ats_margin": 0.5,
             "points_vs_grading_total": 1.5,
-            "final_outcome": "LAR 24, PHI 20; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "PHI 20, LAR 24; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
       "average_points_for": 18.8,
-      "average_points_against": 23.3
+      "average_points_against": 23.2
     },
     "PIT": {
       "team": "PIT",
@@ -5589,12 +5623,12 @@
         "pushes": 0
       },
       "favorite_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 2,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
@@ -5638,7 +5672,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "win",
           "combined_points": 33,
           "total_result": "under",
@@ -5648,13 +5682,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "ATL 13, PIT 20; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 0.5,
+            "points_vs_grading_total": -7.5,
+            "final_outcome": "PIT 20, ATL 13; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5672,9 +5706,9 @@
           "opening_favorite": "NE",
           "opening_spread": -4.5,
           "opening_total": 43.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "NE",
+          "closing_spread": -4.5,
+          "closing_total": 41.5,
           "grading_favorite": "NE",
           "grading_spread": -5.5,
           "grading_total": 41.5,
@@ -5689,14 +5723,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 1,
-            "ats_margin": null,
+            "ats_margin": -12.5,
             "points_vs_grading_total": -18.5,
             "final_outcome": "PIT 3, NE 20; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5714,9 +5748,9 @@
           "opening_favorite": "CIN",
           "opening_spread": -1.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "CIN",
+          "closing_spread": -3.5,
+          "closing_total": 42.5,
           "grading_favorite": "CIN",
           "grading_spread": -3.5,
           "grading_total": 42.5,
@@ -5731,14 +5765,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 2,
-            "ats_margin": null,
+            "ats_margin": 6.5,
             "points_vs_grading_total": 14.5,
-            "final_outcome": "CIN 27, PIT 30; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "PIT 30, CIN 27; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5756,9 +5790,9 @@
           "opening_favorite": "PIT",
           "opening_spread": -2.5,
           "opening_total": 40.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "PIT",
+          "closing_spread": -2.5,
+          "closing_total": 38.5,
           "grading_favorite": "PIT",
           "grading_spread": -2.5,
           "grading_total": 38.5,
@@ -5773,20 +5807,20 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0,
-            "ats_margin": null,
+            "ats_margin": -5.5,
             "points_vs_grading_total": 12.5,
             "final_outcome": "PIT 24, CLE 27; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 19.3,
+      "average_points_for": 19.2,
       "average_points_against": 21.8
     },
     "SF": {
@@ -5865,10 +5899,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": 23.5,
+            "points_vs_grading_total": -13.5,
             "final_outcome": "SF 27, LAR 7; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5886,9 +5920,9 @@
           "opening_favorite": "SF",
           "opening_spread": -10.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SF",
+          "closing_spread": -12.5,
+          "closing_total": 44.5,
           "grading_favorite": "SF",
           "grading_spread": -13.5,
           "grading_total": 44.5,
@@ -5903,14 +5937,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 3,
-            "ats_margin": null,
+            "ats_margin": 9.5,
             "points_vs_grading_total": 3.5,
-            "final_outcome": "MIA 13, SF 35; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "SF 35, MIA 13; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5928,9 +5962,9 @@
           "opening_favorite": "SF",
           "opening_spread": -11.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SF",
+          "closing_spread": -7.5,
+          "closing_total": 48.5,
           "grading_favorite": "SF",
           "grading_spread": -7.5,
           "grading_total": 48.5,
@@ -5945,14 +5979,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -4,
-            "ats_margin": null,
+            "ats_margin": -1.5,
             "points_vs_grading_total": 17.5,
-            "final_outcome": "ARI 30, SF 36; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "SF 36, ARI 30; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -5970,9 +6004,9 @@
           "opening_favorite": "SF",
           "opening_spread": -2.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SF",
+          "closing_spread": -3.0,
+          "closing_total": 48.5,
           "grading_favorite": "SF",
           "grading_spread": -3,
           "grading_total": 48.5,
@@ -5987,21 +6021,21 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 0.5,
-            "ats_margin": null,
+            "ats_margin": 7.0,
             "points_vs_grading_total": -10.5,
-            "final_outcome": "DEN 14, SF 24; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "SF 24, DEN 14; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
       "average_points_for": 30.5,
-      "average_points_against": 16
+      "average_points_against": 16.0
     },
     "SEA": {
       "team": "SEA",
@@ -6013,23 +6047,23 @@
       },
       "ats": {
         "wins": 1,
-        "losses": 2,
-        "pushes": 1
+        "losses": 1,
+        "pushes": 2
       },
       "favorite_ats": {
         "wins": 1,
         "losses": 1,
-        "pushes": 1
+        "pushes": 2
       },
       "underdog_ats": {
         "wins": 0,
-        "losses": 1,
+        "losses": 0,
         "pushes": 0
       },
       "home_ats": {
         "wins": 0,
-        "losses": 1,
-        "pushes": 1
+        "losses": 0,
+        "pushes": 2
       },
       "away_ats": {
         "wins": 1,
@@ -6066,8 +6100,8 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
-          "ats_result": "loss",
+          "market_role": "favorite",
+          "ats_result": "push",
           "combined_points": 23,
           "total_result": "under",
           "verified_at": "2026-09-12T08:20:00-04:00",
@@ -6076,13 +6110,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "NE 10, SEA 13; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 0,
+            "points_vs_grading_total": -21.5,
+            "final_outcome": "SEA 13, NE 10; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6100,9 +6134,9 @@
           "opening_favorite": "SEA",
           "opening_spread": -10,
           "opening_total": 44.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SEA",
+          "closing_spread": -3.5,
+          "closing_total": 40.5,
           "grading_favorite": "SEA",
           "grading_spread": -3.5,
           "grading_total": 40.5,
@@ -6117,14 +6151,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": -6.5,
-            "ats_margin": null,
+            "ats_margin": 20.5,
             "points_vs_grading_total": -2.5,
             "final_outcome": "SEA 31, ARI 7; win; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6142,9 +6176,9 @@
           "opening_favorite": "SEA",
           "opening_spread": -3.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SEA",
+          "closing_spread": -8.5,
+          "closing_total": 40.5,
           "grading_favorite": "SEA",
           "grading_spread": -8.5,
           "grading_total": 40.5,
@@ -6159,14 +6193,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 5,
-            "ats_margin": null,
+            "ats_margin": -10.5,
             "points_vs_grading_total": 23.5,
             "final_outcome": "SEA 31, WAS 33; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6184,9 +6218,9 @@
           "opening_favorite": "SEA",
           "opening_spread": -3,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SEA",
+          "closing_spread": -7.0,
+          "closing_total": 43.5,
           "grading_favorite": "SEA",
           "grading_spread": -7,
           "grading_total": 42.5,
@@ -6201,63 +6235,63 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 4,
-            "ats_margin": null,
-            "points_vs_grading_total": 10.5,
-            "final_outcome": "LAC 23, SEA 30; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": 0.0,
+            "points_vs_grading_total": 9.5,
+            "final_outcome": "SEA 30, LAC 23; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 26.3,
-      "average_points_against": 18.3
+      "average_points_for": 26.2,
+      "average_points_against": 18.2
     },
     "TB": {
       "team": "TB",
       "name": "Tampa Bay Buccaneers",
       "straight_up": {
-        "wins": 0,
+        "wins": 1,
         "losses": 4,
         "ties": 0
       },
       "ats": {
-        "wins": 0,
-        "losses": 3,
-        "pushes": 1
+        "wins": 1,
+        "losses": 4,
+        "pushes": 0
       },
       "favorite_ats": {
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
-        "pushes": 1
+        "pushes": 0
       },
       "home_ats": {
         "wins": 0,
-        "losses": 2,
-        "pushes": 1
+        "losses": 3,
+        "pushes": 0
       },
       "away_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "pushes": 0
       },
       "totals": {
         "overs": 2,
-        "unders": 2,
+        "unders": 3,
         "pushes": 0
       },
-      "points_for": 76,
-      "points_against": 96,
-      "final_games": 4,
+      "points_for": 100,
+      "points_against": 112,
+      "final_games": 5,
       "games": [
         {
           "week": 1,
@@ -6293,10 +6327,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": -2.5,
+            "points_vs_grading_total": 9.5,
             "final_outcome": "TB 27, CIN 33; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6314,9 +6348,9 @@
           "opening_favorite": "TB",
           "opening_spread": -5.5,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "TB",
+          "closing_spread": -8.5,
+          "closing_total": 41.5,
           "grading_favorite": "TB",
           "grading_spread": -7.5,
           "grading_total": 41.5,
@@ -6331,14 +6365,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "favorite",
             "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": 2,
-            "ats_margin": null,
+            "ats_margin": -12.5,
             "points_vs_grading_total": 0.5,
-            "final_outcome": "CLE 23, TB 19; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "TB 19, CLE 23; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6356,15 +6390,15 @@
           "opening_favorite": "TB",
           "opening_spread": -1.5,
           "opening_total": 44.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "TB",
+          "closing_spread": -1.5,
+          "closing_total": 42.5,
           "grading_favorite": "MIN",
           "grading_spread": -1.5,
           "grading_total": 42.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-09-27T06:02:04-04:00",
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "loss",
           "combined_points": 39,
           "total_result": "under",
@@ -6373,14 +6407,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
-            "grading_role": "underdog",
+            "closing_role": "favorite",
+            "grading_role": "favorite",
             "favorite_flipped": true,
             "spread_movement_points": 0,
-            "ats_margin": null,
+            "ats_margin": -8.5,
             "points_vs_grading_total": -3.5,
-            "final_outcome": "MIN 23, TB 16; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "TB 16, MIN 23; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6398,16 +6432,16 @@
           "opening_favorite": "GB",
           "opening_spread": -1.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "GB",
+          "closing_spread": -2.5,
+          "closing_total": 38.5,
           "grading_favorite": "GB",
           "grading_spread": -3,
           "grading_total": 38.5,
           "grading_line_type": "latest_verified_pregame_snapshot",
           "grading_market_as_of": "2026-10-04T06:01:25-04:00",
           "market_role": "underdog",
-          "ats_result": "push",
+          "ats_result": "loss",
           "combined_points": 31,
           "total_result": "under",
           "verified_at": "2026-10-06T06:03:52-04:00",
@@ -6415,21 +6449,55 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 1.5,
-            "ats_margin": null,
+            "ats_margin": -0.5,
             "points_vs_grading_total": -7.5,
-            "final_outcome": "GB 17, TB 14; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "TB 14, GB 17; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
+        },
+        {
+          "week": 5,
+          "game_id": "2026-W05-TB-DAL",
+          "kickoff_et": "2026-10-08T20:15:00-04:00",
+          "opponent": "DAL",
+          "venue": "away",
+          "status": "final",
+          "score_for": 24,
+          "score_against": 16,
+          "straight_up_result": "win",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "total_result": "under",
+          "combined_points": 40,
+          "verified_at": "2026-10-11T10:03:30.170062+00:00",
+          "overtime": false,
+          "scorigami": false,
+          "closing_favorite": "DAL",
+          "closing_spread": -8.5,
+          "closing_total": 49.5,
+          "grading_favorite": null,
+          "grading_spread": null,
+          "grading_total": null,
+          "grading_line_type": null,
+          "grading_market_as_of": null,
+          "expected_vs_final": {
+            "closing_role": "underdog",
+            "grading_role": "underdog",
+            "ats_margin": 16.5,
+            "points_vs_grading_total": -9.5,
+            "final_outcome": "TB 24, DAL 16; win; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger."
+          }
         }
       ],
-      "average_points_for": 19,
-      "average_points_against": 24
+      "average_points_for": 20.0,
+      "average_points_against": 22.4
     },
     "TEN": {
       "team": "TEN",
@@ -6446,12 +6514,12 @@
       },
       "favorite_ats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "pushes": 0
       },
       "underdog_ats": {
         "wins": 2,
-        "losses": 2,
+        "losses": 1,
         "pushes": 0
       },
       "home_ats": {
@@ -6494,7 +6562,7 @@
           "grading_total": null,
           "grading_line_type": null,
           "grading_market_as_of": null,
-          "market_role": "underdog",
+          "market_role": "favorite",
           "ats_result": "loss",
           "combined_points": 33,
           "total_result": "under",
@@ -6504,13 +6572,13 @@
           "expected_vs_final": {
             "opening_role": "favorite",
             "closing_role": "favorite",
-            "grading_role": "underdog",
+            "grading_role": "favorite",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
-            "final_outcome": "NYJ 23, TEN 10; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "ats_margin": -14.5,
+            "points_vs_grading_total": -6.5,
+            "final_outcome": "TEN 10, NYJ 23; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6528,9 +6596,9 @@
           "opening_favorite": "PHI",
           "opening_spread": -4.5,
           "opening_total": 42.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "PHI",
+          "closing_spread": -7.0,
+          "closing_total": 39.5,
           "grading_favorite": "PHI",
           "grading_spread": -7,
           "grading_total": 39.5,
@@ -6545,14 +6613,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 2.5,
-            "ats_margin": null,
+            "ats_margin": 3.0,
             "points_vs_grading_total": 4.5,
-            "final_outcome": "PHI 24, TEN 20; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "TEN 20, PHI 24; loss; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6570,9 +6638,9 @@
           "opening_favorite": "NYG",
           "opening_spread": -3,
           "opening_total": 45.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "NYG",
+          "closing_spread": -2.5,
+          "closing_total": 37.5,
           "grading_favorite": "NYG",
           "grading_spread": -2.5,
           "grading_total": 37.5,
@@ -6587,14 +6655,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -0.5,
-            "ats_margin": null,
+            "ats_margin": -2.5,
             "points_vs_grading_total": -18.5,
             "final_outcome": "TEN 7, NYG 12; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6612,9 +6680,9 @@
           "opening_favorite": "BAL",
           "opening_spread": -8.5,
           "opening_total": 47.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "BAL",
+          "closing_spread": -11.5,
+          "closing_total": 41.5,
           "grading_favorite": "BAL",
           "grading_spread": -11.5,
           "grading_total": 41.5,
@@ -6629,14 +6697,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 3,
-            "ats_margin": null,
+            "ats_margin": 5.5,
             "points_vs_grading_total": 0.5,
             "final_outcome": "TEN 18, BAL 24; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6721,10 +6789,10 @@
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": null,
-            "ats_margin": null,
-            "points_vs_grading_total": null,
+            "ats_margin": 4,
+            "points_vs_grading_total": 2,
             "final_outcome": "WAS 22, PHI 24; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6742,9 +6810,9 @@
           "opening_favorite": "DAL",
           "opening_spread": -4.5,
           "opening_total": 51.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "DAL",
+          "closing_spread": -4.5,
+          "closing_total": 51.5,
           "grading_favorite": "DAL",
           "grading_spread": -3.5,
           "grading_total": 50.5,
@@ -6759,14 +6827,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": -1,
-            "ats_margin": null,
-            "points_vs_grading_total": 6.5,
+            "ats_margin": -12.5,
+            "points_vs_grading_total": 5.5,
             "final_outcome": "WAS 20, DAL 37; loss; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6784,9 +6852,9 @@
           "opening_favorite": "SEA",
           "opening_spread": -3.5,
           "opening_total": 46.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "SEA",
+          "closing_spread": -8.5,
+          "closing_total": 40.5,
           "grading_favorite": "SEA",
           "grading_spread": -8.5,
           "grading_total": 40.5,
@@ -6801,14 +6869,14 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "underdog",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": false,
             "spread_movement_points": 5,
-            "ats_margin": null,
+            "ats_margin": 10.5,
             "points_vs_grading_total": 23.5,
-            "final_outcome": "SEA 31, WAS 33; win; over.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "WAS 33, SEA 31; win; over.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
@@ -6826,9 +6894,9 @@
           "opening_favorite": "WAS",
           "opening_spread": -1.5,
           "opening_total": 48.5,
-          "closing_favorite": null,
-          "closing_spread": null,
-          "closing_total": null,
+          "closing_favorite": "IND",
+          "closing_spread": -4.5,
+          "closing_total": 46.5,
           "grading_favorite": "IND",
           "grading_spread": -4.5,
           "grading_total": 46.5,
@@ -6843,20 +6911,20 @@
           "scorigami": false,
           "expected_vs_final": {
             "opening_role": "favorite",
-            "closing_role": null,
+            "closing_role": "underdog",
             "grading_role": "underdog",
             "favorite_flipped": true,
             "spread_movement_points": 3,
-            "ats_margin": null,
+            "ats_margin": -12.5,
             "points_vs_grading_total": -3.5,
-            "final_outcome": "IND 30, WAS 13; loss; under.",
-            "interpretation": "Graded against the latest stored verified pregame snapshot; this is not labeled as a closing line.",
+            "final_outcome": "WAS 13, IND 30; loss; under.",
+            "interpretation": "Graded using the explicitly verified archived sportsbook close; consensus status is recorded separately in the ledger.",
             "verified_causes": [],
             "evidence_note": "The final score and grading market are identified separately. No causal explanation is asserted without sourced evidence."
           }
         }
       ],
-      "average_points_for": 22,
+      "average_points_for": 22.0,
       "average_points_against": 30.5
     }
   }
