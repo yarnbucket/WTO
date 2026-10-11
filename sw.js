@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v73-player-guide';
+const CACHE = 'wto-shell-v74-division-standings';
 
 const SHELL = [
   './',
