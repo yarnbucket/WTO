@@ -629,7 +629,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-11-v77';
+const WTO_RELEASE='2026-10-11-v78';
 function showWtoUpdateNotice(needsReload=false){
  let notice=document.getElementById('wtoUpdateNotice');
  if(!notice){notice=document.createElement('div');notice.id='wtoUpdateNotice';notice.setAttribute('role','status');notice.innerHTML='<div class="update-haunts" aria-hidden="true"><b>🦇</b><b>🕸</b><b>🕷</b><b>🦇</b></div><span></span><a href="#wtoReadmeDialog">CHECK README ☠</a><button type="button"></button>';document.body.appendChild(notice)}
@@ -643,7 +643,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=77',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=78',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1356,12 +1356,13 @@ if(document.readyState==='loading'){
 
 (function(){
   const key='wto-moving-clouds',button=document.getElementById('cloudSwitch');
+  const weatherIntroSeen=new Set();
   let introGame=null,introTimer=null;
   function clearIntro(){layer.querySelectorAll('.wto-weather-intro').forEach(el=>el.remove());clearTimeout(introTimer)}
   function playIntro(card,condition){
     clearIntro();
     const badge=card.querySelector('.kickoff-weather'),r=card.getBoundingClientRect(),b=badge?.getBoundingClientRect();
-    if(!b||!['rain','storm','sunny','snow','sleet'].includes(condition))return;
+    if(!b||!['rain','storm','sunny','snow','sleet'].includes(condition))return false;
     const intro=document.createElement('div');intro.className='wto-weather-intro';intro.setAttribute('aria-hidden','true');
     const x=b.left-r.left+Math.min(18,b.width/2),y=b.bottom-r.top;
     intro.style.left=(x-110)+'px';intro.style.top=y+'px';
@@ -1371,7 +1372,7 @@ if(document.readyState==='loading'){
     }else{
       intro.innerHTML='<svg width="220" height="280" viewBox="0 0 220 280"><path d="M110 0l-10 26 14 18-23 23 11 27-20 29 12 22-25 38 11 23-16 34 M101 66l-23 9-12 22-20 11 M96 120l23 10 8 27 24 17 M82 181l-25 9-12 26"/></svg>';
     }
-    layer.appendChild(intro);introTimer=setTimeout(clearIntro,2200);
+    layer.appendChild(intro);introTimer=setTimeout(clearIntro,2200);return true;
   }
   const layer=document.getElementById('wtoAtmosphereLayer'),weather=layer.querySelector('.wto-weather');
   const tracker=document.getElementById('trackerScreen'),schedule=document.getElementById('schedule');
@@ -1391,13 +1392,14 @@ if(document.readyState==='loading'){
       const rect=card.getBoundingClientRect();
       layer.style.left=rect.left+'px';layer.style.top=rect.top+'px';
       layer.style.width=rect.width+'px';layer.style.height=rect.height+'px';
-      if(introGame!==selected.id){introGame=selected.id;playIntro(card,forecast.condition)}
+      if(introGame!==selected.id){clearIntro();introGame=selected.id}
+      if(!weatherIntroSeen.has(selected.id)&&playIntro(card,forecast.condition))weatherIntroSeen.add(selected.id);
     }else{introGame=null;clearIntro()}
   }
   function apply(){document.body.classList.toggle('wto-clouds-on',enabled);button.classList.toggle('on',enabled);button.setAttribute('aria-pressed',String(enabled));sync()}
   button.onclick=function(){enabled=!enabled;apply();try{localStorage.setItem(key,enabled?'on':'off')}catch(e){}};
   document.addEventListener('visibilitychange',sync);
-  new MutationObserver(sync).observe(schedule,{childList:true});
+  new MutationObserver(sync).observe(schedule,{childList:true,subtree:true});
   new MutationObserver(sync).observe(tracker,{attributes:true,attributeFilter:['class']});
   addEventListener('scroll',sync,{passive:true});addEventListener('resize',sync,{passive:true});
   motion.addEventListener('change',sync);
