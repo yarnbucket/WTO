@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v72-spooky-update-notice';
+const CACHE = 'wto-shell-v73-player-guide';
 
 const SHELL = [
   './',

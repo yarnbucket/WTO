@@ -1,57 +1,35 @@
 # What’s the Odds?
 
-WTO helps you follow NFL matchups, compare team trends and betting lines, and track your picks against the results. A spread is the expected winning margin; a total is the expected combined score.
+Pick your games. Follow the action. See how you did.
 
-Odds refresh Tuesday, Thursday, and Sunday. Your saved custom lines stay fixed.
+## Make your picks
 
-## Themes — updated October 11, 2026
+Choose a winner, a spread side, or Over/Under, then tap **Add to My Slip**. Choose one side in each category. Tap a highlighted choice again to deselect it, or use the red × on your pick sheet to remove a game.
 
-Open **Settings → Theme** to choose your look.
+Want your own line? Adjust it before adding your picks. Your saved lines stay fixed so you can track the result.
 
-| Theme | Fonts | Appearance |
-| --- | --- | --- |
-| Classic WTO | Original Anton headings and Inter body text | Original dark football theme with gold accents; default |
-| Vintage Gridiron | Times New Roman | Worn green, cream, and gold with a football-program feel |
-| Halloween Gridiron | Creepster headings; readable body text | Dark wood tones, orange/gold glow, and pumpkin accents |
-| Christmas Gridiron | Georgia headings; readable body text | Evergreen, cream, gold, and restrained red accents |
+## Choose your look
 
-Your device remembers your theme. Switch back to **Classic WTO** at any time.
+Open **Settings → Theme** and try Classic, Vintage, Halloween, or Christmas. Switch whenever you like—your picks stay saved. You can also choose Stadium or Trophy Room as your background.
 
-Themes share the existing layout and controls. Summary panels and matchup-card backgrounds retain **40% opacity**, keeping the stadium visible through them. Text and buttons remain readable. Smaller information panels retain their existing transparency levels.
+## Follow the trends
 
-**Settings → Home Background** separately selects Stadium or Trophy Room. Theme changes preserve your saved picks, editable lines, results, predictions, and tracking.
+The football fields show how often teams go Over or Under and how often favorites or underdogs cover. Higher percentages gain more yards; **50% is midfield**.
 
-## Football-field percentage meters
+Open **Team Info** to see results and scoring trends. Compare points scored, points allowed, and saved WTO predictions.
 
-All four percentage meters have transparent field borders, yard numbers, and hash marks. Their abbreviated end-zone names are bold and centered horizontally and vertically.
+## Add some game-day atmosphere
 
-- Overs: **OVER → UNDER**
-- Unders: **UNDER → OVER**
-- Favorites ATS: **FAV → DOG**
-- Underdogs ATS: **DOG → FAV**
+Turn on **Atmosphere** in Settings for a little sunshine, rain, lightning, or snow in your matchup. It’s optional and starts off.
 
-Each meter advances left to right as its displayed percentage rises. **50% is midfield**; the end zones sit outside the measured playing area. The original red–white–blue meter colors remain.
+## When to check back — Eastern time
 
-## Matchups and picks
+- **Tuesday · 6 AM:** Last week’s results and the new week’s matchups.
+- **Thursday · Noon:** Updated lines before the week’s games.
+- **Sunday · 6 AM:** Pregame lines, injuries, and weather.
 
-Select one winner, one spread side, and one Over/Under side per game. Tap a selected choice to deselect it. Adjust custom spreads and totals on the same screen, then add your choices to your slip. Use the red remove button on the pick sheet to remove a game.
+WTO predictions are estimates, not guarantees. Check the latest matchup information before making your choices.
 
-Team Info uses a compact logo/name header, with division and mascot together underneath. Team scoring graphs show available saved WTO projections alongside actual scored and allowed points.
+## Get the latest update
 
-## Optional weather atmosphere
-
-Turn on **Atmosphere** in Settings; it is off by default. Effects appear inside the selected matchup when an applicable stored forecast is available.
-
-- **Rain/storm:** fine branching lightning descends from the weather badge, then fades.
-- **Sunny:** a soft brightness lift lasts about one second.
-- **Snow/sleet:** a brief localized squall falls from the badge, then thins out.
-
-Introductions play when the matchup opens; subtle rain, snowfall, and faint clouds continue where applicable. Reduced-motion preferences disable animation. Indoor or unavailable forecasts do not start effects. These are visual effects, not changes to the forecast or model prediction.
-
-## App update notice
-
-The update notice appears **in the center**, with a bright gold panel, bold dark text, a **WTO UPDATE** heading, and a large action button. It includes **“Check out the new README for the new features”** with a link to this file.
-
-The app checks for updates at launch, when it becomes visible, and when connectivity returns. A newer active service worker triggers an **Update now** notice. Loading a new release shows a one-time feature announcement. Saved picks and theme preferences are preserved.
-
-Updates work in supported browsers and installed Home Screen web apps, including iPhone and iPad. Older copies may reload once through their previous update handler. Open the app online to receive updates; closed or offline apps receive them when next opened online. This is an **in-app notice**, not a lock-screen push notification.
+Open WTO online. When an update is ready, tap **Update Now**. Your saved picks stay with you. **Check README** opens the guide inside WTO.
