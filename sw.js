@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v61-compatible-picks';
+const CACHE = 'wto-shell-v62-team-division';
 
 const SHELL = [
   './',
