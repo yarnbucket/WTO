@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v59-weather';
+const CACHE = 'wto-shell-v60-parlay-note';
 
 const SHELL = [
   './',
@@ -16,7 +16,7 @@ const SHELL = [
   './wto-ui-lib.js',
   './wto-division-read.js?v=58',
   './wto-slip-lib.js?v=58',
-  './wto-slip.js?v=58',
+  './wto-slip.js?v=60',
   './wto-slip.css?v=58'
 ];
 
