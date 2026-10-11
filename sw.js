@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v69-release-notice';
+const CACHE = 'wto-shell-v70-centered-update-notice';
 
 const SHELL = [
   './',
