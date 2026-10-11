@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v63-compact-team-header';
+const CACHE = 'wto-shell-v64-gridiron-themes';
 
 const SHELL = [
   './',
