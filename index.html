@@ -629,7 +629,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-11-v74';
+const WTO_RELEASE='2026-10-11-v75';
 function showWtoUpdateNotice(needsReload=false){
  let notice=document.getElementById('wtoUpdateNotice');
  if(!notice){notice=document.createElement('div');notice.id='wtoUpdateNotice';notice.setAttribute('role','status');notice.innerHTML='<div class="update-haunts" aria-hidden="true"><b>🦇</b><b>🕸</b><b>🕷</b><b>🦇</b></div><span></span><a href="#wtoReadmeDialog">CHECK README ☠</a><button type="button"></button>';document.body.appendChild(notice)}
@@ -643,7 +643,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=74',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=75',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1209,7 +1209,15 @@ init();
 <script>
 function openWtoReadme(){
   const dialog=document.getElementById('wtoReadmeDialog');
-  if(dialog&&!dialog.open) dialog.showModal();
+  if(dialog){
+    if(!dialog.open) dialog.showModal();
+    dialog.scrollTop=0;
+    const inner=dialog.querySelector('.wto-readme-inner');
+    if(inner) inner.scrollTop=0;
+    const title=document.getElementById('wtoReadmeTitle');
+    if(title){title.setAttribute('tabindex','-1');title.focus({preventScroll:true})}
+    requestAnimationFrame(()=>{dialog.scrollTop=0;if(inner)inner.scrollTop=0});
+  }
 }
 (function(){
   const dialog=document.getElementById('wtoReadmeDialog');
