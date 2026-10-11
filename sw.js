@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v65-seasonal-fonts-transparency';
+const CACHE = 'wto-shell-v66-field-meters';
 
 const SHELL = [
   './',
