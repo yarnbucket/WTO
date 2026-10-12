@@ -498,7 +498,19 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
 .team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
-</style><script src="./wto-team-trivia.js?v=85"></script></head>
+</style><script src="./wto-team-trivia.js?v=86"></script><style>
+.team-info-hero{display:grid;grid-template-columns:52px minmax(0,1fr);gap:6px 10px;padding:12px}
+.team-info-hero>img{grid-row:1;width:52px;height:52px;align-self:center}
+.team-info-copy{grid-column:2}.team-name-line{display:block}
+.team-info-meta{grid-column:1/-1;display:grid;gap:2px;margin-top:0}
+.team-info-links{display:flex;align-items:baseline;flex-wrap:wrap;gap:2px 14px}
+.team-info-links .team-established{padding:2px 0}
+.team-info-meta .team-standings-link{font-size:13px;line-height:1.35;padding:3px 0}
+.team-info-links .team-mascot-name{min-width:0}.team-info-links .team-mascot-link{overflow-wrap:anywhere}
+.team-info-hero .team-info-kicker{font-size:12px;line-height:1.2}
+.team-info-hero h1{font-size:clamp(19px,5.2vw,25px);line-height:1.15}
+@media(min-width:600px){.team-info-meta{grid-column:2}.team-info-hero>img{grid-row:1/3;width:58px;height:58px}}
+</style></head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
 
@@ -650,7 +662,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-12-v85';
+const WTO_RELEASE='2026-10-12-v86';
 function showWtoUpdateNotice(needsReload=false){
  let notice=document.getElementById('wtoUpdateNotice');
  if(!notice){notice=document.createElement('div');notice.id='wtoUpdateNotice';notice.setAttribute('role','status');notice.innerHTML='<div class="update-haunts" aria-hidden="true"><b>🦇</b><b>🕸</b><b>🕷</b><b>🦇</b></div><span></span><a href="#wtoReadmeDialog">CHECK README ☠</a><button type="button"></button>';document.body.appendChild(notice)}
@@ -664,7 +676,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=85',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=86',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1155,7 +1167,7 @@ function teamDivisionStandingsHtml(team,selectedWeek){
 function openTeamInfo(team,week=current){
   const meta=TEAM[team]||[team,'#24352A',team.toLowerCase()],r=teamSeasonRecord(team),available=WEEKS.map(w=>`<option value="${w.id}" ${String(w.id)===String(week)?'selected':''}>${w.title}</option>`).join('');
   returnScroll=scrollY;listView.classList.add('hidden');detailView.classList.add('active');delete detailView.dataset.gameId;detailView.dataset.team=team;history.pushState({team},'',`#team-${team}`);scrollTo(0,0);
-  detailView.innerHTML=`<div class="detail-head"><button class="back-btn" onclick="closeTeamInfo()">&larr; BACK TO WEEK ${current}</button></div><div class="detail-body"><div class="team-info-hero"><img src="${logo(team)}" alt="${meta[0]} logo"><div class="team-info-copy"><span class="team-info-kicker">Team Info</span><div class="team-name-line"><h1>${meta[0]}</h1>${teamEstablishedHtml(team)}</div><div class="team-info-meta">${teamDivisionStandingsHtml(team,week)}<div class="team-mascot-name"><span>MASCOT</span>${teamMascotHtml(team,meta[0])}</div></div></div></div><div class="detail-section"><h2>Season Snapshot</h2><div class="team-record-grid"><div class="team-record-tile"><span>Straight Up</span><b>${r.su.w}–${r.su.l}–${r.su.t}</b></div><div class="team-record-tile"><span>ATS</span><b>${recordText(r.ats)}</b></div><div class="team-record-tile"><span>Favorite ATS</span><b>${recordText(r.fav)}</b></div><div class="team-record-tile"><span>Underdog ATS</span><b>${recordText(r.dog)}</b></div><div class="team-record-tile"><span>Totals</span><b>${r.totals.o}O–${r.totals.u}U–${r.totals.p}P</b></div><div class="team-record-tile"><span>Avg. Score</span><b>${r.finals?(r.pf/r.finals).toFixed(1):'—'}</b></div></div><select class="team-week-select" aria-label="Select team week" onchange="changeTeamWeek('${team}',this.value)">${available}</select></div>${teamScheduleHtml(team,Number(week))}${teamTriviaHtml(team)}<div class="team-week-content"></div></div>`;
+  detailView.innerHTML=`<div class="detail-head"><button class="back-btn" onclick="closeTeamInfo()">&larr; BACK TO WEEK ${current}</button></div><div class="detail-body"><div class="team-info-hero"><img src="${logo(team)}" alt="${meta[0]} logo"><div class="team-info-copy"><span class="team-info-kicker">Team Info</span><div class="team-name-line"><h1>${meta[0]}</h1></div></div><div class="team-info-meta">${teamDivisionStandingsHtml(team,week)}<div class="team-info-links">${teamEstablishedHtml(team)}<div class="team-mascot-name"><span>MASCOT</span>${teamMascotHtml(team,meta[0])}</div></div></div></div><div class="detail-section"><h2>Season Snapshot</h2><div class="team-record-grid"><div class="team-record-tile"><span>Straight Up</span><b>${r.su.w}–${r.su.l}–${r.su.t}</b></div><div class="team-record-tile"><span>ATS</span><b>${recordText(r.ats)}</b></div><div class="team-record-tile"><span>Favorite ATS</span><b>${recordText(r.fav)}</b></div><div class="team-record-tile"><span>Underdog ATS</span><b>${recordText(r.dog)}</b></div><div class="team-record-tile"><span>Totals</span><b>${r.totals.o}O–${r.totals.u}U–${r.totals.p}P</b></div><div class="team-record-tile"><span>Avg. Score</span><b>${r.finals?(r.pf/r.finals).toFixed(1):'—'}</b></div></div><select class="team-week-select" aria-label="Select team week" onchange="changeTeamWeek('${team}',this.value)">${available}</select></div>${teamScheduleHtml(team,Number(week))}${teamTriviaHtml(team)}<div class="team-week-content"></div></div>`;
   renderTeamWeek(team,Number(week));
 }
 function closeTeamInfo(fromPop=false){const returnSummary=detailView.dataset.returnSummary==='true';delete detailView.dataset.team;delete detailView.dataset.scope;delete detailView.dataset.returnSummary;detailView.classList.remove('active');listView.classList.remove('hidden');if(!fromPop&&location.hash.startsWith('#team-'))history.back();if(returnSummary){trackerScreen.classList.add('app-hidden');summaryScreen.classList.remove('app-hidden');renderExecutive();scheduleStadiumGlow()}requestAnimationFrame(()=>scrollTo(0,returnScroll))}
