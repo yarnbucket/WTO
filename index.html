@@ -328,6 +328,7 @@ body[data-theme]:not([data-theme="classic"]) .summary-screen{background-color:va
 @keyframes trivia-trophy-arrive{from{opacity:0;transform:translate(-50%,-45%) scale(.9)}to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
 @media(prefers-reduced-motion:reduce){.trivia-startup-trophy{animation:none}}
 .trivia-reward-progress{display:flex;align-items:center;flex-wrap:wrap;gap:5px;font-size:13px;color:var(--gold,#ffcc32)}
+.team-standings-link{display:inline-block;color:var(--gold,#ffcd32);padding:4px 0;text-decoration:none}.team-standings-link:hover{text-decoration:underline}
 </style>
 
 <style>
@@ -497,7 +498,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
 .team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
-</style><script src="./wto-team-trivia.js?v=82"></script></head>
+</style><script src="./wto-team-trivia.js?v=84"></script></head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
 
@@ -649,7 +650,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-11-v83';
+const WTO_RELEASE='2026-10-12-v84';
 function showWtoUpdateNotice(needsReload=false){
  let notice=document.getElementById('wtoUpdateNotice');
  if(!notice){notice=document.createElement('div');notice.id='wtoUpdateNotice';notice.setAttribute('role','status');notice.innerHTML='<div class="update-haunts" aria-hidden="true"><b>🦇</b><b>🕸</b><b>🕷</b><b>🦇</b></div><span></span><a href="#wtoReadmeDialog">CHECK README ☠</a><button type="button"></button>';document.body.appendChild(notice)}
@@ -663,7 +664,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=82',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=84',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1148,7 +1149,7 @@ function teamDivisionStandingsHtml(team,selectedWeek){
  const own=rows.find(row=>row.team===team),league=rankWithin(own,allRows),conference=rankWithin(own,allRows.filter(row=>NFL_GROUP[row.team][0]===group[0])),division=rankWithin(own,rows);
  const overall=(league.tied?'Tied ':'')+ordinal(league.rank)+' overall';
  const ranks='Division: '+shortRank(division)+' · '+group[0]+': '+shortRank(conference)+' · NFL: '+shortRank(league);
- return '<details class="team-division-standings"><summary>'+name+' · '+overall+' <span aria-hidden="true">▾</span></summary><div class="division-standings-list"><small>Through Week '+through+' · Record standings</small><p class="division-rank-summary">'+ranks+'</p>'+rows.map(row=>'<div class="division-standing-row'+(row.team===team?' selected':'')+'"><span>'+row.place+'</span><span>'+TEAM[row.team][0]+'</span><b>'+row.record+'</b></div>').join('')+'</div></details>';
+ return '<a class="team-division-standings team-standings-link" href="https://www.espn.com/nfl/standings" target="_blank" rel="noopener noreferrer" aria-label="'+name+' standings on ESPN">'+name+' · '+overall+' <span aria-hidden="true">↗</span></a>';
 }
 
 function openTeamInfo(team,week=current){
