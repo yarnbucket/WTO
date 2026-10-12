@@ -498,7 +498,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
 .team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
-</style><script src="./wto-team-trivia.js?v=88"></script><style>
+</style><script src="./wto-team-trivia.js?v=89"></script><style>
 .team-info-hero{display:grid;grid-template-columns:52px minmax(0,1fr);gap:6px 10px;padding:12px}
 .team-info-hero>img{grid-row:1;width:52px;height:52px;align-self:center}
 .team-info-copy{grid-column:2}.team-name-line{display:block}
@@ -510,7 +510,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-info-hero .team-info-kicker{font-size:12px;line-height:1.2}
 .team-info-hero h1{font-size:clamp(19px,5.2vw,25px);line-height:1.15}
 @media(min-width:600px){.team-info-meta{grid-column:2}.team-info-hero>img{grid-row:1/3;width:58px;height:58px}}
-</style><style>#settingsUpdateNow{display:block;width:100%;box-sizing:border-box;text-align:center;min-height:48px;margin-top:10px}</style></head>
+</style><style>#settingsUpdateNow{display:block;width:100%;box-sizing:border-box;text-align:center;min-height:48px;margin-top:10px}</style><style>.wto-masthead-icon{display:block;width:54px;height:54px;object-fit:contain;flex-shrink:0;background:transparent;border:0;box-shadow:none}</style></head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
 
@@ -565,7 +565,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 
   <div class="marquee">
     <div class="masthead">
-      <div class="badge"><span class="fmain">FF</span><span class="fsub">26</span></div>
+      <img class="wto-masthead-icon" src="./wto-icon-192.png" width="54" height="54" alt="WTO">
       <div class="sub"><div class="title">FF26 NFL Season Lines</div></div>
       <div class="head-actions"><button class="install-btn" id="installBtn" onclick="installWto()" aria-label="Install WTO app">INSTALL</button><button class="settings-btn" onclick="openSettings()" aria-label="Open advanced settings">⚙ SETTINGS</button><div class="updated"><span class="dot"></span><span id="updated">SEASON TRACKER</span></div></div>
     </div>
@@ -662,7 +662,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-12-v88';
+const WTO_RELEASE='2026-10-12-v89';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -682,7 +682,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=88',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=89',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
