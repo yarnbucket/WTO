@@ -37,3 +37,7 @@ WTO predictions are estimates, not guarantees. Check the latest matchup informat
 ## Get the latest update
 
 Open WTO online. When an update is ready, tap **Update Now**. Your saved picks stay with you. **Check README** opens the guide inside WTO.
+
+
+### Update alerts
+At the bottom of Settings, turn off **Show update alerts** to hide future update popups. WTO continues checking for updates. The full-width **Update Now** button checks and reloads the app. Saved picks remain on the device, and each device remembers its own alert preference.
