@@ -498,7 +498,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
 .team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
-</style><script src="./wto-team-trivia.js?v=89"></script><style>
+</style><script src="./wto-team-trivia.js?v=90"></script><style>
 .team-info-hero{display:grid;grid-template-columns:52px minmax(0,1fr);gap:6px 10px;padding:12px}
 .team-info-hero>img{grid-row:1;width:52px;height:52px;align-self:center}
 .team-info-copy{grid-column:2}.team-name-line{display:block}
@@ -510,7 +510,13 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-info-hero .team-info-kicker{font-size:12px;line-height:1.2}
 .team-info-hero h1{font-size:clamp(19px,5.2vw,25px);line-height:1.15}
 @media(min-width:600px){.team-info-meta{grid-column:2}.team-info-hero>img{grid-row:1/3;width:58px;height:58px}}
-</style><style>#settingsUpdateNow{display:block;width:100%;box-sizing:border-box;text-align:center;min-height:48px;margin-top:10px}</style><style>.wto-masthead-icon{display:block;width:54px;height:54px;object-fit:contain;flex-shrink:0;background:transparent;border:0;box-shadow:none}</style></head>
+</style><style>#settingsUpdateNow{display:block;width:100%;box-sizing:border-box;text-align:center;min-height:48px;margin-top:10px}</style><style>.wto-masthead-icon{display:block;width:54px;height:54px;object-fit:contain;flex-shrink:0;background:transparent;border:0;box-shadow:none}</style><style>
+.tracker-sticky-nav{position:sticky;top:0;z-index:40;background:var(--turf,#06130b)}
+.tracker-sticky-nav .marquee{position:relative;top:auto}
+.tracker-sticky-nav .matchups-back{margin-bottom:0}
+#schedule,#schedule .game-card{scroll-margin-top:calc(var(--tracker-nav-height,170px) + 10px)}
+.week-chip{scroll-margin-inline:12px}
+</style></head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
 
@@ -561,7 +567,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
   </div>
 </dialog>
 
-<div class="screen app-hidden" id="trackerScreen">
+<div class="screen app-hidden" id="trackerScreen"><div class="tracker-sticky-nav" id="trackerStickyNav">
 
   <div class="marquee">
     <div class="masthead">
@@ -574,7 +580,8 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 
   <button class="matchups-back" type="button" onclick="openSummary()" aria-label="Back to weekly summary"><svg class="matchups-back-hypocycloid" viewBox="0 0 500 100" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="matchups-back-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="500" y2="0"><stop offset="0%" stop-color="#C60C30"></stop><stop offset="100%" stop-color="#FFFFFF"></stop></linearGradient></defs><path d="M0 50 C250 50 430 42 500 0 L500 100 C430 58 250 50 0 50 Z" fill="url(#matchups-back-gradient)"></path></svg><span>BACK TO WEEKLY SUMMARY</span></button>
 
-  <div class="list-view" id="listView">
+  </div>
+<div class="list-view" id="listView">
     <div class="error" id="error"></div>
     <div id="schedule"></div>
     <section class="stats-drawer"><button class="stats-drawer-btn" id="statsDrawerBtn" onclick="openPerformance()" aria-expanded="false">ODDS N&rsquo;AT <span>→</span></button><div class="stats-panel" id="statsPanel"><div class="performance-screen-head"><button class="back-btn" onclick="closePerformance()">&larr; BACK TO WEEK <span id="performanceWeekLabel">1</span></button></div><div class="stat-grid"><div class="stat-tile"><div class="num" id="gamesCount">—</div><div class="lbl">Games</div></div><div class="stat-tile"><div class="num" id="finalCount">—</div><div class="lbl">Final</div></div><div class="stat-tile"><div class="num" id="favCount">—</div><div class="lbl">Favorites W&#8211;L</div></div><div class="stat-tile"><div class="num" id="ouCount">—</div><div class="lbl">Over&#8211;Under</div></div></div><section class="performance" aria-label="Performance graphs"><div class="performance-tabs" role="tablist" aria-label="Choose performance view"><button class="performance-tab" id="myPicksTab" role="tab" aria-selected="false" aria-controls="chartPanel" onclick="showPerformanceTab('picks')">MY PICKS</button><button class="performance-tab" id="teamTrendsTab" role="tab" aria-selected="true" aria-controls="teamChartPanel" onclick="showPerformanceTab('teams')">TEAM TRENDS</button></div><div class="chart-panel" id="chartPanel" role="tabpanel" aria-labelledby="myPicksTab"><h2 class="performance-view-title">MY PICKS PERFORMANCE</h2><div class="chart-legend" id="chartLegend"></div><div class="chart-scroll" id="chartScroll"><svg id="performanceChart" viewBox="0 0 920 250" role="img" aria-label="Weekly pick accuracy line graph"></svg></div><div class="chart-note">Tap a category to show or hide its line.</div></div><div class="chart-panel open" id="teamChartPanel" role="tabpanel" aria-labelledby="teamTrendsTab"><h2 class="performance-view-title">NFL TEAM TRENDS</h2><div class="team-chart-tools"><button class="team-chart-btn active" id="teamAtsBtn" onclick="setTeamMetric('ats')">ALL ATS</button><button class="team-chart-btn" id="teamHomeAtsBtn" onclick="setTeamMetric('home_ats')">HOME ATS</button><button class="team-chart-btn" id="teamAwayAtsBtn" onclick="setTeamMetric('away_ats')">AWAY ATS</button><button class="team-chart-btn" id="teamOuBtn" onclick="setTeamMetric('ou')">OVER %</button><button class="team-chart-btn active" id="teamFavBtn" onclick="showFavoriteTeams()">FAVORITES</button><button class="team-chart-btn" id="teamAllBtn" onclick="showAllTeams()">ALL 32</button><button class="team-chart-btn" id="teamOverlayBtn" onclick="toggleTeamOverlay()">+ MY PICKS</button></div><div class="team-chart-legend" id="teamChartLegend"></div><div class="chart-scroll"><svg id="teamPerformanceChart" viewBox="0 0 920 250" role="img" aria-label="NFL team weekly odds performance"></svg></div><div class="chart-note" id="teamChartNote">Cumulative team performance through each completed week. Pushes are recorded but excluded from percentages.</div></div></section></div></section>
@@ -662,7 +669,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-12-v89';
+const WTO_RELEASE='2026-10-12-v90';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -682,7 +689,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=89',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=90',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -953,7 +960,9 @@ function compactMatchupCard(g){
   const result=fin?`<span class="compact-read"><b>FINAL · ATS ${safeText(ats||'—')}</b>${totalResult==='push'?'Total pushed':totalResult?`${safeText(totalResult.toUpperCase())} hit`:'Total pending'}</span>`:quickRead;
   return `<button class="compact-game ${fav?'favorite-game':''} ${fin?'completed':''}" onclick="selectGame('${g.id}')" aria-label="Expand ${safeText(TEAM[g.away][0])} at ${safeText(TEAM[g.home][0])}"><span class="compact-main"><span class="compact-kickoff"><span>${fin?'FINAL':`${safeText(g.day)} · ${safeText(g.time)}`}</span><span class="compact-status">${fin?'RECAP':'MATCHUP'}</span></span><span class="compact-matchup"><span class="compact-team"><img src="${logo(g.away)}" alt="">${safeText(g.away)}${fin?` <b class="compact-score">${g.awayScore??'—'}</b>`:''}</span><span class="compact-at">AT</span><span class="compact-team"><img src="${logo(g.home)}" alt="">${safeText(g.home)}${fin?` <b class="compact-score">${g.homeScore??'—'}</b>`:''}</span></span><span class="compact-market">${market}</span>${result}${metadata?`<span class="compact-meta">${metadata}</span>`:''}</span><span class="compact-arrow"><svg class="row-hypocycloid" viewBox="500 0 500 100" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="row-arrow-${g.id}" gradientUnits="userSpaceOnUse" x1="500" y1="0" x2="1000" y2="0"><stop offset="0%" stop-color="#FFFFFF"></stop><stop offset="100%" stop-color="#003087"></stop></linearGradient></defs><path d="M500 0 C570 42 750 50 1000 50 C750 50 570 58 500 100 Z" fill="url(#row-arrow-${g.id})"></path></svg></span></button>`
 }
-function selectGame(id){selectedGameId=selectedGameId===id?'COLLAPSED':id;render();requestAnimationFrame(()=>schedule.scrollIntoView({behavior:'smooth',block:'start'}))}
+function focusTrackerSelection(){const nav=document.getElementById('trackerStickyNav');if(!nav)return;document.documentElement.style.setProperty('--tracker-nav-height',nav.getBoundingClientRect().height+'px');const chip=document.querySelector('.week-chip.active');if(chip){const strip=chip.parentElement;const left=chip.offsetLeft-(strip.clientWidth-chip.offsetWidth)/2;strip.scrollTo({left:Math.max(0,left),behavior:'smooth'})}schedule.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}
+addEventListener('DOMContentLoaded',()=>{const nav=document.getElementById('trackerStickyNav');if(nav)new ResizeObserver(()=>document.documentElement.style.setProperty('--tracker-nav-height',nav.getBoundingClientRect().height+'px')).observe(nav)});
+function selectGame(id){selectedGameId=selectedGameId===id?'COLLAPSED':id;render();requestAnimationFrame(focusTrackerSelection)}
 function render(){renderExecutive();const meta=WEEKS.find(w=>String(w.id)===String(current)),games=data[current]||[];gamesCount.textContent=games.length||'—';const finals=games.filter(g=>g.status==='final'),decided=finals.filter(gameWinner);finalCount.textContent=finals.length;const favWins=decided.filter(g=>gameWinner(g)===g.favorite).length;favCount.textContent=decided.length?`${favWins}–${decided.length-favWins}`:'—';const over=finals.filter(g=>resolvedTotalResult(g)==='over').length,under=finals.filter(g=>resolvedTotalResult(g)==='under').length;ouCount.textContent=finals.length?`${over}–${under}`:'—';updateRecords();document.querySelectorAll('.week-chip').forEach(b=>b.classList.toggle('active',String(b.dataset.week)===String(current)));if(!games.length){selectedGameId=null;schedule.innerHTML=`<div class="empty"><b>${meta.title} is ready.</b><br><br>Matchups will appear when the season file is updated.</div>`;return}if(selectedGameId!=='COLLAPSED'&&selectedGameId&&!games.some(g=>g.id===selectedGameId))selectedGameId=null;const selected=selectedGameId&&selectedGameId!=='COLLAPSED'?games.find(g=>g.id===selectedGameId):null,rest=(selected?games.filter(g=>g.id!==selectedGameId):games).slice().sort((a,b)=>(a.status==='final')-(b.status==='final'));let html='';if(selected){const fav=isFavorite(selected.away)||isFavorite(selected.home);html=`<section class="featured-wrap"><div class="featured-label">${fav?'★ FAVORITE MATCHUP':meta.title.toUpperCase()+' MATCHUP'}</div>${card(selected)}<button class="collapse-game" onclick="selectGame('${selected.id}')">COLLAPSE MATCHUP ↑</button></section>`}html+=`<section><div class="compact-heading">ALL ${meta.title.toUpperCase()} GAMES</div><div class="compact-list">${rest.map(compactMatchupCard).join('')}</div></section>`;schedule.innerHTML=html;bindFeaturedSwipe()}
 let featuredSwipeBusy=false;
 function swipeDecision(dx,dy,width,elapsed){return Math.abs(dx)>Math.abs(dy)*1.25&&(Math.abs(dx)>=Math.min(100,width*.22)||(Math.abs(dx)>=35&&Math.abs(dx)/Math.max(1,elapsed)>.5))}
@@ -1001,7 +1010,7 @@ function defaultWeekForDate(now=new Date()){
   const source=active.length?active:populated;
   return Math.max(...source.map(([week])=>Number(week)));
 }
-function choose(id){userSelectedWeek=true;current=/^\d+$/.test(id)?Number(id):id;selectedGameId=null;render();requestAnimationFrame(()=>schedule.scrollIntoView({behavior:'smooth',block:'start'}))}
+function choose(id){userSelectedWeek=true;current=/^\d+$/.test(id)?Number(id):id;selectedGameId=null;render();requestAnimationFrame(focusTrackerSelection)}
 let returnScroll=0;
 const espnEventCache={};
 function findGame(id){return Object.values(data).flat().find(g=>g.id===id)}
@@ -1043,7 +1052,7 @@ async function toggleDetailAccordion(gameId,kind){
 }
 function moreGameDataShell(g){return `<section class="more-data"><button class="more-data-toggle" aria-expanded="false" onclick="toggleMoreGameData('${g.id}')">MORE GAME DATA <span>＋</span></button><div class="more-data-panel"></div></section>`}
 async function toggleMoreGameData(id,retry=false){const g=findGame(id),wrap=detailView.querySelector('.more-data'),panel=wrap?.querySelector('.more-data-panel'),button=wrap?.querySelector('.more-data-toggle');if(!g||!panel||!button)return;if(panel.classList.contains('open')&&!retry){panel.classList.remove('open');button.setAttribute('aria-expanded','false');button.querySelector('span').textContent='＋';return}panel.classList.add('open');button.setAttribute('aria-expanded','true');button.querySelector('span').textContent='−';if(panel.dataset.loaded&&!retry)return;panel.innerHTML='<div class="detail-loading">Loading verified game data…</div>';await Promise.all([loadHistory(),advanced.futures?loadFutures():Promise.resolve()]);g.history=historicalMatchup(g.away,g.home);panel.innerHTML=`${lineMovementHtml(g)}${futuresHtml(g)}${historyHtml(g)}`;panel.dataset.loaded='true'}
-async function openGame(id){const g=findGame(id);if(!g)return;if(g.status!=='final'&&g.week>=5){current=g.week;selectedGameId=g.id;detailView.classList.remove('active');listView.classList.remove('hidden');render();requestAnimationFrame(()=>document.querySelector('.game-card')?.scrollIntoView({block:'start'}));return;}returnScroll=scrollY;listView.classList.add('hidden');detailView.classList.add('active');detailView.dataset.gameId=id;scrollTo(0,0);history.pushState({game:id},'',`#game-${id}`);const accordions=g.status==='final'?`<div class="detail-accordions">${detailAccordionHtml(g,'performers')}${detailAccordionHtml(g,'stats')}${detailAccordionHtml(g,'history')}</div>`:'';detailView.innerHTML=`<div class="detail-head"><button class="back-btn" onclick="closeGame()">&larr; BACK TO WEEK ${current}</button></div><div class="detail-body"><h1 class="detail-title">${g.status==='final'?'RECAP & STATS':'MATCHUP'}</h1><div class="detail-meta">${TEAM[g.away][0]} at ${TEAM[g.home][0]}</div>${detailScore(g)}${accordions}</div>`}
+async function openGame(id){const g=findGame(id);if(!g)return;if(g.status!=='final'&&g.week>=5){current=g.week;selectedGameId=g.id;detailView.classList.remove('active');listView.classList.remove('hidden');render();requestAnimationFrame(focusTrackerSelection);return;}returnScroll=scrollY;listView.classList.add('hidden');detailView.classList.add('active');detailView.dataset.gameId=id;scrollTo(0,0);history.pushState({game:id},'',`#game-${id}`);const accordions=g.status==='final'?`<div class="detail-accordions">${detailAccordionHtml(g,'performers')}${detailAccordionHtml(g,'stats')}${detailAccordionHtml(g,'history')}</div>`:'';detailView.innerHTML=`<div class="detail-head"><button class="back-btn" onclick="closeGame()">&larr; BACK TO WEEK ${current}</button></div><div class="detail-body"><h1 class="detail-title">${g.status==='final'?'RECAP & STATS':'MATCHUP'}</h1><div class="detail-meta">${TEAM[g.away][0]} at ${TEAM[g.home][0]}</div>${detailScore(g)}${accordions}</div>`}
 function teamSeasonRecord(team){
   const games=Object.values(data).flat().filter(g=>g.away===team||g.home===team);
   const record={games,su:{w:0,l:0,t:0},ats:{w:0,l:0,p:0},fav:{w:0,l:0,p:0},dog:{w:0,l:0,p:0},totals:{o:0,u:0,p:0},pf:0,pa:0,finals:0};
