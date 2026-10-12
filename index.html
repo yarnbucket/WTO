@@ -498,7 +498,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
 .team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
-</style><script src="./wto-team-trivia.js?v=93"></script><style>
+</style><script src="./wto-team-trivia.js?v=94"></script><style>
 .team-info-hero{display:grid;grid-template-columns:52px minmax(0,1fr);gap:6px 10px;padding:12px}
 .team-info-hero>img{grid-row:1;width:52px;height:52px;align-self:center}
 .team-info-copy{grid-column:2}.team-name-line{display:block}
@@ -669,7 +669,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-12-v93';
+const WTO_RELEASE='2026-10-12-v94';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -689,7 +689,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=93',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=94',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1083,9 +1083,10 @@ function matchupFieldMetersHtml(g,r){
  const rank=(team,key)=>{const n=valid?ratings.teams?.[team]?.[key]:null;return Number.isInteger(n)&&n>=1&&n<=32?n:null};
  const pairs=[[g.away,'passing_offense',g.home,'pass_defense','Pass'],[g.away,'rushing_offense',g.home,'run_defense','Run'],[g.home,'passing_offense',g.away,'pass_defense','Pass'],[g.home,'rushing_offense',g.away,'run_defense','Run']];
  let missing=false;
- const rows=pairs.map(([a,off,b,def,label])=>{const ar=rank(a,off),br=rank(b,def),ready=ar!=null&&br!=null;if(!ready)missing=true;const left=ready?(33-ar)/((33-ar)+(33-br))*100:0;
+ const rows=pairs.map(([a,off,b,def,label])=>{const ar=rank(a,off),br=rank(b,def),ready=ar!=null&&br!=null;if(!ready){missing=true;return ''}const left=ready?(33-ar)/((33-ar)+(33-br))*100:0;
  return '<div class="matchup-field-row"><div class="matchup-field-labels"><span>'+safeText(a)+' '+label+' '+(ar==null?'—':'#'+ar)+'</span><span>'+safeText(b)+' '+label+' D '+(br==null?'—':'#'+br)+'</span></div><div class="matchup-skinny-field" role="img" aria-label="'+safeText(a+' '+label+' offense versus '+b+' defense: '+(ready?'ranks '+ar+' and '+br:'ranks unavailable'))+'">'+(ready?'<i class="field-offense" style="width:'+left.toFixed(2)+'%"></i><i class="field-defense" style="width:'+(100-left).toFixed(2)+'%"></i>':'')+'<span class="field-yard-lines"></span></div></div>'});
- return '<div class="matchup-field-meters">'+rows.join('')+'<small>#1 best · Rank comparison, not win odds'+(missing?' · Ranks pending verification':' · Through Week '+ratings.through_week)+'</small></div>';
+ if(!rows.some(Boolean))return '';
+ return '<div class="matchup-field-meters">'+rows.join('')+'<small>#1 best · Rank comparison, not win odds'+(' · Through Week '+ratings.through_week)+'</small></div>';
 }
 
 function matchupWhyHtml(g){
