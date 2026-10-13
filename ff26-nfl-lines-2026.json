@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-10-13T18:40:30.318Z",
+  "updated_at": "2026-10-13T18:44:58.786Z",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -15736,6 +15736,42 @@
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872981",
               "verified_at": "2026-10-13T10:09:54.084327+00:00"
             }
+          ],
+          "opening_favorite": "JAX",
+          "opening_spread": -3.5,
+          "opening_total": 43,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "JAX",
+              "spread": -3.5,
+              "total": 43,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Game-day BetMGM prose explicitly says Jaguars opened -3.5 and total opened 43.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
           ]
         },
         {
@@ -16100,6 +16136,42 @@
               "value": 77,
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872982",
               "verified_at": "2026-10-13T10:09:54.037869+00:00"
+            }
+          ],
+          "opening_favorite": "CIN",
+          "opening_spread": -7.5,
+          "opening_total": 45.5,
+          "opening_provider": "DraftKings via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "CIN",
+              "spread": -7.5,
+              "total": 45.5,
+              "provider": "DraftKings via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Thursday DraftKings update says Cincinnati opened -7.5 and total declined from 45.5 opener; BetMGM prose has conflicting totals so use DraftKings.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
             }
           ]
         },
@@ -16467,6 +16539,42 @@
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872983",
               "verified_at": "2026-10-13T10:09:53.989035+00:00"
             }
+          ],
+          "opening_favorite": "NYJ",
+          "opening_spread": -1,
+          "opening_total": 40,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "NYJ",
+              "spread": -1,
+              "total": 40,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "BetMGM prose says Jets opened -1 and total 1.5 below 40 opener.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
           ]
         },
         {
@@ -16832,6 +16940,42 @@
               "value": 65,
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872984",
               "verified_at": "2026-10-13T10:09:58.576157+00:00"
+            }
+          ],
+          "opening_favorite": "HOU",
+          "opening_spread": -6.5,
+          "opening_total": 39.5,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "HOU",
+              "spread": -6.5,
+              "total": 39.5,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "BetMGM prose says Houston opened -6.5 and total down from 39.5 opener.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
             }
           ]
         },
@@ -17596,6 +17740,42 @@
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
               "verified_at": "2026-10-13T10:09:58.752487+00:00"
             }
+          ],
+          "opening_favorite": "NE",
+          "opening_spread": -3.5,
+          "opening_total": 45.5,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "NE",
+              "spread": -3.5,
+              "total": 45.5,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "BetMGM game-day update explicitly says spread and total match opening values.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
           ]
         },
         {
@@ -17962,6 +18142,42 @@
               "value": 79,
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987",
               "verified_at": "2026-10-13T10:09:58.664635+00:00"
+            }
+          ],
+          "opening_favorite": "MIN",
+          "opening_spread": -1.5,
+          "opening_total": 43.5,
+          "opening_provider": "DraftKings via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "MIN",
+              "spread": -1.5,
+              "total": 43.5,
+              "provider": "DraftKings via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "DraftKings prose explicitly identifies Minnesota -1.5 and 43.5 opening total.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
             }
           ]
         },
@@ -18336,6 +18552,42 @@
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
               "verified_at": "2026-10-13T10:09:58.637095+00:00"
             }
+          ],
+          "opening_favorite": "WAS",
+          "opening_spread": -2.5,
+          "opening_total": 43.5,
+          "opening_provider": "DraftKings via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "WAS",
+              "spread": -2.5,
+              "total": 43.5,
+              "provider": "DraftKings via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Thursday DraftKings prose identifies -2.5 spread opener and 43.5 total opener.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
           ]
         },
         {
@@ -18702,6 +18954,42 @@
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872989",
               "verified_at": "2026-10-13T10:09:58.580592+00:00"
             }
+          ],
+          "opening_favorite": "DEN",
+          "opening_spread": -3.5,
+          "opening_total": 43,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "DEN",
+              "spread": -3.5,
+              "total": 43,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "BetMGM prose explicitly says Denver -3.5 and total down from 43 opener.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
           ]
         },
         {
@@ -19054,6 +19342,42 @@
               "value": 143,
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
               "verified_at": "2026-10-13T10:09:58.700601+00:00"
+            }
+          ],
+          "opening_favorite": "CHI",
+          "opening_spread": -1.5,
+          "opening_total": 45.5,
+          "opening_provider": "DraftKings via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "CHI",
+              "spread": -1.5,
+              "total": 45.5,
+              "provider": "DraftKings via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Game-day DraftKings prose identifies spread matching -1.5 opener and total up from 45.5 opener.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
             }
           ]
         },
@@ -19426,6 +19750,42 @@
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
               "verified_at": "2026-10-13T10:09:58.532248+00:00"
             }
+          ],
+          "opening_favorite": "DET",
+          "opening_spread": -5.5,
+          "opening_total": 53,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "DET",
+              "spread": -5.5,
+              "total": 53,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "BetMGM prose explicitly says Detroit opened -5.5 and total opened 53.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
           ]
         },
         {
@@ -19791,6 +20151,42 @@
               "value": 113,
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
               "verified_at": "2026-10-13T10:09:58.605627+00:00"
+            }
+          ],
+          "opening_favorite": "SEA",
+          "opening_spread": -3,
+          "opening_total": 46.5,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "SEA",
+              "spread": -3,
+              "total": 46.5,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "BetMGM game-day prose says Seattle opened -3 and total up from 46.5 opener; generic header differs.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
             }
           ]
         },
@@ -20531,6 +20927,42 @@
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
               "verified_at": "2026-10-13T10:10:02.042620+00:00"
             }
+          ],
+          "opening_favorite": "LAR",
+          "opening_spread": -2.5,
+          "opening_total": 53.5,
+          "opening_provider": "DraftKings via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "LAR",
+              "spread": -2.5,
+              "total": 53.5,
+              "provider": "DraftKings via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "DraftKings Monday update explicitly says Los Angeles opened -2.5 and total opened 53.5.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
           ]
         }
       ],
@@ -20734,7 +21166,43 @@
           },
           "market_as_of": "2026-10-13T10:10:02.146039+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:02.146039+00:00"
+          "price_timestamp": "2026-10-13T10:10:02.146039+00:00",
+          "opening_favorite": "SEA",
+          "opening_spread": -2.5,
+          "opening_total": 42,
+          "opening_provider": "Borgata via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "SEA",
+              "spread": -2.5,
+              "total": 42,
+              "provider": "Borgata via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Opening update identifies Borgata opening Seattle -2.5; total nudged from 42.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-HOU-JAX",
@@ -20809,7 +21277,42 @@
           },
           "market_as_of": "2026-10-13T10:10:02.060491+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:02.060491+00:00"
+          "price_timestamp": "2026-10-13T10:10:02.060491+00:00",
+          "opening_favorite": "JAX",
+          "opening_spread": -2.5,
+          "opening_total": 42,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": -115,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "JAX",
+              "spread": -2.5,
+              "total": 42,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": -115,
+              "over_price": null,
+              "under_price": null,
+              "note": "Opening update identifies Jacksonville -2.5 (-115), total moved from 42.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-BAL-CLE",
@@ -20951,7 +21454,43 @@
           },
           "market_as_of": "2026-10-13T10:10:01.927676+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:01.927676+00:00"
+          "price_timestamp": "2026-10-13T10:10:01.927676+00:00",
+          "opening_favorite": "BAL",
+          "opening_spread": -4,
+          "opening_total": 41,
+          "opening_provider": "Borgata via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "BAL",
+              "spread": -4,
+              "total": 41,
+              "provider": "Borgata via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Opening spread/total list and Borgata opening update identify Baltimore -4 and total 41.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-CAR-PHI",
@@ -21093,7 +21632,43 @@
           },
           "market_as_of": "2026-10-13T10:10:01.921214+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:01.921214+00:00"
+          "price_timestamp": "2026-10-13T10:10:01.921214+00:00",
+          "opening_favorite": "PHI",
+          "opening_spread": -1.5,
+          "opening_total": 43.5,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "PHI",
+              "spread": -1.5,
+              "total": 43.5,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Opening update identifies Philadelphia -1.5; total dipped from 43.5.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-CHI-ATL",
@@ -21237,7 +21812,43 @@
           },
           "market_as_of": "2026-10-13T10:10:01.917691+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:01.917691+00:00"
+          "price_timestamp": "2026-10-13T10:10:01.917691+00:00",
+          "opening_favorite": "CHI",
+          "opening_spread": -1,
+          "opening_total": 47.5,
+          "opening_provider": "Borgata via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "CHI",
+              "spread": -1,
+              "total": 47.5,
+              "provider": "Borgata via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Opening spread/total list and Borgata opening update identify Chicago -1 and total 47.5.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-NO-NYG",
@@ -21379,7 +21990,43 @@
           },
           "market_as_of": "2026-10-13T10:10:01.936405+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:01.936405+00:00"
+          "price_timestamp": "2026-10-13T10:10:01.936405+00:00",
+          "opening_favorite": "NYG",
+          "opening_spread": -1.5,
+          "opening_total": 45.5,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "NYG",
+              "spread": -1.5,
+              "total": 45.5,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "BetMGM prose explicitly identifies Giants -1.5 and 45.5 total opener.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-NYJ-NE",
@@ -21521,7 +22168,43 @@
           },
           "market_as_of": "2026-10-13T10:10:01.969588+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:01.969588+00:00"
+          "price_timestamp": "2026-10-13T10:10:01.969588+00:00",
+          "opening_favorite": "NE",
+          "opening_spread": -7,
+          "opening_total": 43,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "NE",
+              "spread": -7,
+              "total": 43,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "BetMGM prose explicitly identifies Patriots -7 and total climbed from 43.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-PIT-TB",
@@ -21663,7 +22346,42 @@
           },
           "market_as_of": "2026-10-13T10:10:01.826222+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:01.826222+00:00"
+          "price_timestamp": "2026-10-13T10:10:01.826222+00:00",
+          "opening_favorite": "PIT",
+          "opening_spread": -3,
+          "opening_total": 40.5,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": -102,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "PIT",
+              "spread": -3,
+              "total": 40.5,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": -102,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Opening spread/total list with BetMGM prose identifies Pittsburgh -3 (-102) and total 40.5.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-TEN-IND",
@@ -21807,7 +22525,43 @@
           },
           "market_as_of": "2026-10-13T10:10:02.033834+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:02.033834+00:00"
+          "price_timestamp": "2026-10-13T10:10:02.033834+00:00",
+          "opening_favorite": "IND",
+          "opening_spread": -7,
+          "opening_total": 44.5,
+          "opening_provider": "BetMGM via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "IND",
+              "spread": -7,
+              "total": 44.5,
+              "provider": "BetMGM via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "BetMGM prose identifies Colts -7 and total inched from 44.5.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-ARI-LAR",
@@ -21949,7 +22703,43 @@
           },
           "market_as_of": "2026-10-13T10:10:05.062508+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:05.062508+00:00"
+          "price_timestamp": "2026-10-13T10:10:05.062508+00:00",
+          "opening_favorite": "LAR",
+          "opening_spread": -12.5,
+          "opening_total": 52.5,
+          "opening_provider": "DraftKings via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "LAR",
+              "spread": -12.5,
+              "total": 52.5,
+              "provider": "DraftKings via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "DraftKings prose explicitly identifies Rams -12.5 and 52.5 total opener.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-BUF-LV",
@@ -22091,7 +22881,43 @@
           },
           "market_as_of": "2026-10-13T10:10:05.151233+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:05.151233+00:00"
+          "price_timestamp": "2026-10-13T10:10:05.151233+00:00",
+          "opening_favorite": "BUF",
+          "opening_spread": -5.5,
+          "opening_total": 52.5,
+          "opening_provider": "DraftKings via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "BUF",
+              "spread": -5.5,
+              "total": 52.5,
+              "provider": "DraftKings via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "DraftKings prose explicitly identifies Buffalo -5.5 and total opened 52.5, distinct from Borgata.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-LAC-KC",
@@ -22232,6 +23058,42 @@
               "roof_checked_at": "2026-10-13T10:32:25.421083+00:00",
               "weather_impact": "no_factor",
               "attribution": "National Weather Service / weather.gov"
+            }
+          ],
+          "opening_favorite": "KC",
+          "opening_spread": -7.5,
+          "opening_total": 45.5,
+          "opening_provider": "Borgata via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "KC",
+              "spread": -7.5,
+              "total": 45.5,
+              "provider": "Borgata via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Borgata prose explicitly identifies Chiefs -7.5 with total 45.5.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
             }
           ]
         },
@@ -22375,7 +23237,43 @@
           },
           "market_as_of": "2026-10-13T10:10:05.122718+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:05.122718+00:00"
+          "price_timestamp": "2026-10-13T10:10:05.122718+00:00",
+          "opening_favorite": "DAL",
+          "opening_spread": -1,
+          "opening_total": 50,
+          "opening_provider": "Borgata via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "DAL",
+              "spread": -1,
+              "total": 50,
+              "provider": "Borgata via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Borgata prose explicitly identifies Dallas -1 with total 50.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         },
         {
           "game_id": "2026-W06-WAS-SF",
@@ -22517,7 +23415,43 @@
           },
           "market_as_of": "2026-10-13T10:10:05.092942+00:00",
           "price_provider": "DraftKings via ESPN",
-          "price_timestamp": "2026-10-13T10:10:05.092942+00:00"
+          "price_timestamp": "2026-10-13T10:10:05.092942+00:00",
+          "opening_favorite": "SF",
+          "opening_spread": -7.5,
+          "opening_total": 50.5,
+          "opening_provider": "Borgata via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:44:58.786Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "SF",
+              "spread": -7.5,
+              "total": 50.5,
+              "provider": "Borgata via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "verified_at": "2026-10-13T18:44:58.786Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "away_spread_price": null,
+              "home_spread_price": null,
+              "over_price": null,
+              "under_price": null,
+              "note": "Borgata prose explicitly identifies 49ers -7.5; total crept from 50.5.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "over price",
+                "under price",
+                "away spread price",
+                "home spread price"
+              ]
+            }
+          ]
         }
       ]
     },
