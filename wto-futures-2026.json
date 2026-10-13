@@ -5,10 +5,9 @@
   "description": "American futures odds are converted to implied probability and normalized within each market to remove sportsbook hold.",
   "source": {
     "provider": "DraftKings",
-    "displayed_by": "CBS Sports",
-    "source_updated_at": "2026-10-05"
+    "displayed_by": "VegasInsider"
   },
-  "updated_at": "2026-10-06T06:03:52-04:00",
+  "updated_at": "2026-10-13T10:20:43.311660+00:00",
   "snapshots": [
     {
       "captured_at": "2026-09-15T05:57:25-04:00",
@@ -914,6 +913,568 @@
         "NFC West"
       ],
       "note": "One consistent provider was used. Division futures were not present in the verified source and remain unavailable."
+    },
+    {
+      "week": 6,
+      "through_week": 5,
+      "captured_at": "2026-10-13T10:20:43.311660+00:00",
+      "provider": "DraftKings",
+      "source_host": "VegasInsider",
+      "source_urls": {
+        "super_bowl": "https://www.vegasinsider.com/nfl/odds/futures/",
+        "AFC": "https://www.vegasinsider.com/nfl/odds/afc-championship/",
+        "NFC": "https://www.vegasinsider.com/nfl/odds/nfc-championship/",
+        "AFC EAST": "https://www.vegasinsider.com/nfl/odds/afc-east/",
+        "AFC NORTH": "https://www.vegasinsider.com/nfl/odds/afc-north/",
+        "AFC SOUTH": "https://www.vegasinsider.com/nfl/odds/afc-south/",
+        "AFC WEST": "https://www.vegasinsider.com/nfl/odds/afc-west/",
+        "NFC EAST": "https://www.vegasinsider.com/nfl/odds/nfc-east/",
+        "NFC NORTH": "https://www.vegasinsider.com/nfl/odds/nfc-north/",
+        "NFC SOUTH": "https://www.vegasinsider.com/nfl/odds/nfc-south/",
+        "NFC WEST": "https://www.vegasinsider.com/nfl/odds/nfc-west/"
+      },
+      "markets": {
+        "super_bowl": {
+          "teams": {
+            "BUF": {
+              "american_odds": 670,
+              "implied_probability": 12.987013,
+              "normalized_probability": 10.598073
+            },
+            "LAR": {
+              "american_odds": 670,
+              "implied_probability": 12.987013,
+              "normalized_probability": 10.598073
+            },
+            "SF": {
+              "american_odds": 900,
+              "implied_probability": 10.0,
+              "normalized_probability": 8.160516
+            },
+            "BAL": {
+              "american_odds": 900,
+              "implied_probability": 10.0,
+              "normalized_probability": 8.160516
+            },
+            "SEA": {
+              "american_odds": 1000,
+              "implied_probability": 9.090909,
+              "normalized_probability": 7.418651
+            },
+            "KC": {
+              "american_odds": 1050,
+              "implied_probability": 8.695652,
+              "normalized_probability": 7.096101
+            },
+            "CIN": {
+              "american_odds": 1700,
+              "implied_probability": 5.555556,
+              "normalized_probability": 4.53362
+            },
+            "PHI": {
+              "american_odds": 1700,
+              "implied_probability": 5.555556,
+              "normalized_probability": 4.53362
+            },
+            "DET": {
+              "american_odds": 1900,
+              "implied_probability": 5.0,
+              "normalized_probability": 4.080258
+            },
+            "DEN": {
+              "american_odds": 2000,
+              "implied_probability": 4.761905,
+              "normalized_probability": 3.88596
+            },
+            "MIN": {
+              "american_odds": 2400,
+              "implied_probability": 4.0,
+              "normalized_probability": 3.264206
+            },
+            "CHI": {
+              "american_odds": 2400,
+              "implied_probability": 4.0,
+              "normalized_probability": 3.264206
+            },
+            "NE": {
+              "american_odds": 2400,
+              "implied_probability": 4.0,
+              "normalized_probability": 3.264206
+            },
+            "DAL": {
+              "american_odds": 2800,
+              "implied_probability": 3.448276,
+              "normalized_probability": 2.813971
+            },
+            "HOU": {
+              "american_odds": 3500,
+              "implied_probability": 2.777778,
+              "normalized_probability": 2.26681
+            },
+            "PIT": {
+              "american_odds": 5000,
+              "implied_probability": 1.960784,
+              "normalized_probability": 1.600101
+            },
+            "GB": {
+              "american_odds": 5500,
+              "implied_probability": 1.785714,
+              "normalized_probability": 1.457235
+            },
+            "LAC": {
+              "american_odds": 6500,
+              "implied_probability": 1.515152,
+              "normalized_probability": 1.236442
+            },
+            "IND": {
+              "american_odds": 7000,
+              "implied_probability": 1.408451,
+              "normalized_probability": 1.149369
+            },
+            "NO": {
+              "american_odds": 8000,
+              "implied_probability": 1.234568,
+              "normalized_probability": 1.007471
+            },
+            "WAS": {
+              "american_odds": 8000,
+              "implied_probability": 1.234568,
+              "normalized_probability": 1.007471
+            },
+            "LV": {
+              "american_odds": 9000,
+              "implied_probability": 1.098901,
+              "normalized_probability": 0.89676
+            },
+            "TB": {
+              "american_odds": 10000,
+              "implied_probability": 0.990099,
+              "normalized_probability": 0.807972
+            },
+            "CAR": {
+              "american_odds": 10000,
+              "implied_probability": 0.990099,
+              "normalized_probability": 0.807972
+            },
+            "ATL": {
+              "american_odds": 12000,
+              "implied_probability": 0.826446,
+              "normalized_probability": 0.674423
+            },
+            "NYG": {
+              "american_odds": 15000,
+              "implied_probability": 0.662252,
+              "normalized_probability": 0.540432
+            },
+            "NYJ": {
+              "american_odds": 20000,
+              "implied_probability": 0.497512,
+              "normalized_probability": 0.405995
+            },
+            "CLE": {
+              "american_odds": 20000,
+              "implied_probability": 0.497512,
+              "normalized_probability": 0.405995
+            },
+            "ARI": {
+              "american_odds": 30000,
+              "implied_probability": 0.332226,
+              "normalized_probability": 0.271114
+            },
+            "TEN": {
+              "american_odds": 50000,
+              "implied_probability": 0.199601,
+              "normalized_probability": 0.162885
+            },
+            "MIA": {
+              "american_odds": 100000,
+              "implied_probability": 0.0999,
+              "normalized_probability": 0.081524
+            },
+            "JAX": {
+              "american_odds": 2200,
+              "implied_probability": 4.347826,
+              "normalized_probability": 3.54805
+            }
+          }
+        },
+        "AFC": {
+          "teams": {
+            "BAL": {
+              "american_odds": 420,
+              "implied_probability": 19.230769,
+              "normalized_probability": 16.294369
+            },
+            "KC": {
+              "american_odds": 420,
+              "implied_probability": 19.230769,
+              "normalized_probability": 16.294369
+            },
+            "BUF": {
+              "american_odds": 420,
+              "implied_probability": 19.230769,
+              "normalized_probability": 16.294369
+            },
+            "NE": {
+              "american_odds": 680,
+              "implied_probability": 12.820513,
+              "normalized_probability": 10.862913
+            },
+            "CIN": {
+              "american_odds": 980,
+              "implied_probability": 9.259259,
+              "normalized_probability": 7.845437
+            },
+            "DEN": {
+              "american_odds": 1075,
+              "implied_probability": 8.510638,
+              "normalized_probability": 7.211125
+            },
+            "HOU": {
+              "american_odds": 2500,
+              "implied_probability": 3.846154,
+              "normalized_probability": 3.258874
+            },
+            "PIT": {
+              "american_odds": 3500,
+              "implied_probability": 2.777778,
+              "normalized_probability": 2.353631
+            },
+            "IND": {
+              "american_odds": 6900,
+              "implied_probability": 1.428571,
+              "normalized_probability": 1.210438
+            },
+            "LV": {
+              "american_odds": 8200,
+              "implied_probability": 1.204819,
+              "normalized_probability": 1.020852
+            },
+            "CLE": {
+              "american_odds": 13500,
+              "implied_probability": 0.735294,
+              "normalized_probability": 0.62302
+            },
+            "NYJ": {
+              "american_odds": 14000,
+              "implied_probability": 0.70922,
+              "normalized_probability": 0.600927
+            },
+            "TEN": {
+              "american_odds": 20000,
+              "implied_probability": 0.497512,
+              "normalized_probability": 0.421546
+            },
+            "LAC": {
+              "american_odds": 20000,
+              "implied_probability": 0.497512,
+              "normalized_probability": 0.421546
+            },
+            "MIA": {
+              "american_odds": 20000,
+              "implied_probability": 0.497512,
+              "normalized_probability": 0.421546
+            },
+            "JAX": {
+              "american_odds": 470,
+              "implied_probability": 17.54386,
+              "normalized_probability": 14.865039
+            }
+          }
+        },
+        "NFC": {
+          "teams": {
+            "SF": {
+              "american_odds": 235,
+              "implied_probability": 29.850746,
+              "normalized_probability": 25.362266
+            },
+            "LAR": {
+              "american_odds": 405,
+              "implied_probability": 19.80198,
+              "normalized_probability": 16.824473
+            },
+            "SEA": {
+              "american_odds": 610,
+              "implied_probability": 14.084507,
+              "normalized_probability": 11.966703
+            },
+            "MIN": {
+              "american_odds": 670,
+              "implied_probability": 12.987013,
+              "normalized_probability": 11.034233
+            },
+            "DET": {
+              "american_odds": 1250,
+              "implied_probability": 7.407407,
+              "normalized_probability": 6.293599
+            },
+            "CHI": {
+              "american_odds": 1325,
+              "implied_probability": 7.017544,
+              "normalized_probability": 5.962357
+            },
+            "GB": {
+              "american_odds": 1700,
+              "implied_probability": 5.555556,
+              "normalized_probability": 4.7202
+            },
+            "DAL": {
+              "american_odds": 2150,
+              "implied_probability": 4.444444,
+              "normalized_probability": 3.776159
+            },
+            "PHI": {
+              "american_odds": 2350,
+              "implied_probability": 4.081633,
+              "normalized_probability": 3.467902
+            },
+            "CAR": {
+              "american_odds": 2450,
+              "implied_probability": 3.921569,
+              "normalized_probability": 3.331906
+            },
+            "ATL": {
+              "american_odds": 2800,
+              "implied_probability": 3.448276,
+              "normalized_probability": 2.929779
+            },
+            "NYG": {
+              "american_odds": 5400,
+              "implied_probability": 1.818182,
+              "normalized_probability": 1.544793
+            },
+            "TB": {
+              "american_odds": 7200,
+              "implied_probability": 1.369863,
+              "normalized_probability": 1.163885
+            },
+            "WAS": {
+              "american_odds": 12000,
+              "implied_probability": 0.826446,
+              "normalized_probability": 0.702178
+            },
+            "NO": {
+              "american_odds": 17000,
+              "implied_probability": 0.584795,
+              "normalized_probability": 0.496863
+            },
+            "ARI": {
+              "american_odds": 20000,
+              "implied_probability": 0.497512,
+              "normalized_probability": 0.422704
+            }
+          }
+        },
+        "AFC East": {
+          "teams": {
+            "BUF": {
+              "american_odds": -340,
+              "implied_probability": 77.272727,
+              "normalized_probability": 71.148775
+            },
+            "NE": {
+              "american_odds": 325,
+              "implied_probability": 23.529412,
+              "normalized_probability": 21.664679
+            },
+            "NYJ": {
+              "american_odds": 1300,
+              "implied_probability": 7.142857,
+              "normalized_probability": 6.576777
+            },
+            "MIA": {
+              "american_odds": 15000,
+              "implied_probability": 0.662252,
+              "normalized_probability": 0.609768
+            }
+          }
+        },
+        "AFC North": {
+          "teams": {
+            "BAL": {
+              "american_odds": -120,
+              "implied_probability": 54.545455,
+              "normalized_probability": 49.834998
+            },
+            "CIN": {
+              "american_odds": 164,
+              "implied_probability": 37.878788,
+              "normalized_probability": 34.607637
+            },
+            "PIT": {
+              "american_odds": 750,
+              "implied_probability": 11.764706,
+              "normalized_probability": 10.748725
+            },
+            "CLE": {
+              "american_odds": 1800,
+              "implied_probability": 5.263158,
+              "normalized_probability": 4.80864
+            }
+          }
+        },
+        "AFC South": {
+          "teams": {
+            "HOU": {
+              "american_odds": 295,
+              "implied_probability": 25.316456,
+              "normalized_probability": 23.161886
+            },
+            "IND": {
+              "american_odds": 420,
+              "implied_probability": 19.230769,
+              "normalized_probability": 17.594124
+            },
+            "TEN": {
+              "american_odds": 1750,
+              "implied_probability": 5.405405,
+              "normalized_probability": 4.945375
+            },
+            "JAX": {
+              "american_odds": -146,
+              "implied_probability": 59.349593,
+              "normalized_probability": 54.298615
+            }
+          }
+        },
+        "AFC West": {
+          "teams": {
+            "KC": {
+              "american_odds": -160,
+              "implied_probability": 61.538462,
+              "normalized_probability": 55.705959
+            },
+            "DEN": {
+              "american_odds": 265,
+              "implied_probability": 27.39726,
+              "normalized_probability": 24.800598
+            },
+            "LV": {
+              "american_odds": 520,
+              "implied_probability": 16.129032,
+              "normalized_probability": 14.600352
+            },
+            "LAC": {
+              "american_odds": 1750,
+              "implied_probability": 5.405405,
+              "normalized_probability": 4.893091
+            }
+          }
+        },
+        "NFC East": {
+          "teams": {
+            "PHI": {
+              "american_odds": -125,
+              "implied_probability": 55.555556,
+              "normalized_probability": 50.960259
+            },
+            "DAL": {
+              "american_odds": 235,
+              "implied_probability": 29.850746,
+              "normalized_probability": 27.381631
+            },
+            "WAS": {
+              "american_odds": 700,
+              "implied_probability": 12.5,
+              "normalized_probability": 11.466058
+            },
+            "NYG": {
+              "american_odds": 800,
+              "implied_probability": 11.111111,
+              "normalized_probability": 10.192052
+            }
+          }
+        },
+        "NFC North": {
+          "teams": {
+            "MIN": {
+              "american_odds": 144,
+              "implied_probability": 40.983607,
+              "normalized_probability": 37.500806
+            },
+            "DET": {
+              "american_odds": 160,
+              "implied_probability": 38.461538,
+              "normalized_probability": 35.193063
+            },
+            "CHI": {
+              "american_odds": 390,
+              "implied_probability": 20.408163,
+              "normalized_probability": 18.67387
+            },
+            "GB": {
+              "american_odds": 960,
+              "implied_probability": 9.433962,
+              "normalized_probability": 8.632261
+            }
+          }
+        },
+        "NFC South": {
+          "teams": {
+            "NO": {
+              "american_odds": 134,
+              "implied_probability": 42.735043,
+              "normalized_probability": 39.237668
+            },
+            "CAR": {
+              "american_odds": 250,
+              "implied_probability": 28.571429,
+              "normalized_probability": 26.233184
+            },
+            "ATL": {
+              "american_odds": 350,
+              "implied_probability": 22.222222,
+              "normalized_probability": 20.403587
+            },
+            "TB": {
+              "american_odds": 550,
+              "implied_probability": 15.384615,
+              "normalized_probability": 14.12556
+            }
+          }
+        },
+        "NFC West": {
+          "teams": {
+            "SF": {
+              "american_odds": -105,
+              "implied_probability": 51.219512,
+              "normalized_probability": 46.740785
+            },
+            "SEA": {
+              "american_odds": 230,
+              "implied_probability": 30.30303,
+              "normalized_probability": 27.653278
+            },
+            "LAR": {
+              "american_odds": 265,
+              "implied_probability": 27.39726,
+              "normalized_probability": 25.001594
+            },
+            "ARI": {
+              "american_odds": 15000,
+              "implied_probability": 0.662252,
+              "normalized_probability": 0.604343
+            }
+          }
+        }
+      },
+      "unavailable_fields": [],
+      "line_type": "tuesday_snapshot",
+      "timestamp_note": "Actual retrieval times are recorded per source; captured_at is snapshot assembly time.",
+      "source_retrieved_at": {
+        "super_bowl": "2026-10-13T10:11:55.219999+00:00",
+        "AFC": "2026-10-13T10:14:13.911270+00:00",
+        "NFC": "2026-10-13T10:14:13.676367+00:00",
+        "AFC EAST": "2026-10-13T10:14:13.387320+00:00",
+        "AFC NORTH": "2026-10-13T10:14:13.529508+00:00",
+        "AFC SOUTH": "2026-10-13T10:14:13.858451+00:00",
+        "AFC WEST": "2026-10-13T10:14:13.873006+00:00",
+        "NFC EAST": "2026-10-13T10:14:13.838691+00:00",
+        "NFC NORTH": "2026-10-13T10:14:13.858633+00:00",
+        "NFC SOUTH": "2026-10-13T10:14:18.082270+00:00",
+        "NFC WEST": "2026-10-13T10:14:18.218318+00:00"
+      }
     }
   ],
   "teams": {
@@ -923,20 +1484,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": -110,
-          "probability": 46.726487
+          "american_odds": -340,
+          "probability": 71.148775,
+          "weekly_change": 24.422288
         },
         "conference": {
-          "american_odds": 460,
-          "probability": 15.39915
+          "american_odds": 420,
+          "probability": 16.294369,
+          "weekly_change": 0.895219
         },
         "super_bowl": {
-          "american_odds": 1000,
-          "probability": 7.440573
+          "american_odds": 670,
+          "probability": 10.598073,
+          "weekly_change": 3.1575
         }
       },
-      "probability": 7.440573,
-      "weekly_change": null
+      "probability": 10.598073,
+      "weekly_change": 3.1575
     },
     "MIA": {
       "team": "MIA",
@@ -944,20 +1508,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 3600,
-          "probability": 2.410949
+          "american_odds": 15000,
+          "probability": 0.609768,
+          "weekly_change": -1.801181
         },
         "conference": {
           "american_odds": 20000,
-          "probability": 0.429031
+          "probability": 0.421546,
+          "weekly_change": -0.007485
         },
         "super_bowl": {
-          "american_odds": 35000,
-          "probability": 0.23318
+          "american_odds": 100000,
+          "probability": 0.081524,
+          "weekly_change": -0.151656
         }
       },
-      "probability": 0.23318,
-      "weekly_change": null
+      "probability": 0.081524,
+      "weekly_change": -0.151656
     },
     "NE": {
       "team": "NE",
@@ -965,20 +1532,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 100,
-          "probability": 44.602556
+          "american_odds": 325,
+          "probability": 21.664679,
+          "weekly_change": -22.937877
         },
         "conference": {
-          "american_odds": 920,
-          "probability": 8.454435
+          "american_odds": 680,
+          "probability": 10.862913,
+          "weekly_change": 2.408478
         },
         "super_bowl": {
-          "american_odds": 1800,
-          "probability": 4.307701
+          "american_odds": 2400,
+          "probability": 3.264206,
+          "weekly_change": -1.043495
         }
       },
-      "probability": 4.307701,
-      "weekly_change": null
+      "probability": 3.264206,
+      "weekly_change": -1.043495
     },
     "NYJ": {
       "team": "NYJ",
@@ -986,20 +1556,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 1325,
-          "probability": 6.260008
+          "american_odds": 1300,
+          "probability": 6.576777,
+          "weekly_change": 0.316769
         },
         "conference": {
-          "american_odds": 11500,
-          "probability": 0.743407
+          "american_odds": 14000,
+          "probability": 0.600927,
+          "weekly_change": -0.14248
         },
         "super_bowl": {
           "american_odds": 20000,
-          "probability": 0.407195
+          "probability": 0.405995,
+          "weekly_change": -0.0012
         }
       },
-      "probability": 0.407195,
-      "weekly_change": null
+      "probability": 0.405995,
+      "weekly_change": -0.0012
     },
     "BAL": {
       "team": "BAL",
@@ -1007,20 +1580,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 102,
-          "probability": 45.70139
+          "american_odds": -120,
+          "probability": 49.834998,
+          "weekly_change": 4.133608
         },
         "conference": {
-          "american_odds": 380,
-          "probability": 17.965674
+          "american_odds": 420,
+          "probability": 16.294369,
+          "weekly_change": -1.671305
         },
         "super_bowl": {
-          "american_odds": 1000,
-          "probability": 7.440573
+          "american_odds": 900,
+          "probability": 8.160516,
+          "weekly_change": 0.719943
         }
       },
-      "probability": 7.440573,
-      "weekly_change": null
+      "probability": 8.160516,
+      "weekly_change": 0.719943
     },
     "CIN": {
       "team": "CIN",
@@ -1029,19 +1605,22 @@
       "markets": {
         "division": {
           "american_odds": 164,
-          "probability": 34.968488
+          "probability": 34.607637,
+          "weekly_change": -0.360851
         },
         "conference": {
-          "american_odds": 830,
-          "probability": 9.272606
+          "american_odds": 980,
+          "probability": 7.845437,
+          "weekly_change": -1.427169
         },
         "super_bowl": {
-          "american_odds": 1800,
-          "probability": 4.307701
+          "american_odds": 1700,
+          "probability": 4.53362,
+          "weekly_change": 0.225919
         }
       },
-      "probability": 4.307701,
-      "weekly_change": null
+      "probability": 4.53362,
+      "weekly_change": 0.225919
     },
     "CLE": {
       "team": "CLE",
@@ -1049,20 +1628,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 2100,
-          "probability": 4.196219
+          "american_odds": 1800,
+          "probability": 4.80864,
+          "weekly_change": 0.612421
         },
         "conference": {
-          "american_odds": 20000,
-          "probability": 0.429031
+          "american_odds": 13500,
+          "probability": 0.62302,
+          "weekly_change": 0.193989
         },
         "super_bowl": {
           "american_odds": 20000,
-          "probability": 0.407195
+          "probability": 0.405995,
+          "weekly_change": -0.0012
         }
       },
-      "probability": 0.407195,
-      "weekly_change": null
+      "probability": 0.405995,
+      "weekly_change": -0.0012
     },
     "PIT": {
       "team": "PIT",
@@ -1070,20 +1652,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 510,
-          "probability": 15.133903
+          "american_odds": 750,
+          "probability": 10.748725,
+          "weekly_change": -4.385178
         },
         "conference": {
-          "american_odds": 2500,
-          "probability": 3.31674
+          "american_odds": 3500,
+          "probability": 2.353631,
+          "weekly_change": -0.963109
         },
         "super_bowl": {
           "american_odds": 5000,
-          "probability": 1.604829
+          "probability": 1.600101,
+          "weekly_change": -0.004728
         }
       },
-      "probability": 1.604829,
-      "weekly_change": null
+      "probability": 1.600101,
+      "weekly_change": -0.004728
     },
     "HOU": {
       "team": "HOU",
@@ -1091,20 +1676,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 106,
-          "probability": 44.893022
+          "american_odds": 295,
+          "probability": 23.161886,
+          "weekly_change": -21.731136
         },
         "conference": {
-          "american_odds": 1000,
-          "probability": 7.839567
+          "american_odds": 2500,
+          "probability": 3.258874,
+          "weekly_change": -4.580693
         },
         "super_bowl": {
-          "american_odds": 1800,
-          "probability": 4.307701
+          "american_odds": 3500,
+          "probability": 2.26681,
+          "weekly_change": -2.040891
         }
       },
-      "probability": 4.307701,
-      "weekly_change": null
+      "probability": 2.26681,
+      "weekly_change": -2.040891
     },
     "IND": {
       "team": "IND",
@@ -1112,20 +1700,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 430,
-          "probability": 17.448987
+          "american_odds": 420,
+          "probability": 17.594124,
+          "weekly_change": 0.145137
         },
         "conference": {
-          "american_odds": 5000,
-          "probability": 1.690887
+          "american_odds": 6900,
+          "probability": 1.210438,
+          "weekly_change": -0.480449
         },
         "super_bowl": {
-          "american_odds": 6000,
-          "probability": 1.341743
+          "american_odds": 7000,
+          "probability": 1.149369,
+          "weekly_change": -0.192374
         }
       },
-      "probability": 1.341743,
-      "weekly_change": null
+      "probability": 1.149369,
+      "weekly_change": -0.192374
     },
     "JAX": {
       "team": "JAX",
@@ -1133,20 +1724,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 235,
-          "probability": 27.605858
+          "american_odds": -146,
+          "probability": 54.298615,
+          "weekly_change": 26.692757
         },
         "conference": {
-          "american_odds": 990,
-          "probability": 7.91149
+          "american_odds": 470,
+          "probability": 14.865039,
+          "weekly_change": 6.953549
         },
         "super_bowl": {
-          "american_odds": 3000,
-          "probability": 2.640203
+          "american_odds": 2200,
+          "probability": 3.54805,
+          "weekly_change": 0.907847
         }
       },
-      "probability": 2.640203,
-      "weekly_change": null
+      "probability": 3.54805,
+      "weekly_change": 0.907847
     },
     "TEN": {
       "team": "TEN",
@@ -1154,20 +1748,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 820,
-          "probability": 10.052133
+          "american_odds": 1750,
+          "probability": 4.945375,
+          "weekly_change": -5.106758
         },
         "conference": {
-          "american_odds": 16500,
-          "probability": 0.51949
+          "american_odds": 20000,
+          "probability": 0.421546,
+          "weekly_change": -0.097944
         },
         "super_bowl": {
-          "american_odds": 13000,
-          "probability": 0.624781
+          "american_odds": 50000,
+          "probability": 0.162885,
+          "weekly_change": -0.461896
         }
       },
-      "probability": 0.624781,
-      "weekly_change": null
+      "probability": 0.162885,
+      "weekly_change": -0.461896
     },
     "DEN": {
       "team": "DEN",
@@ -1175,20 +1772,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 210,
-          "probability": 29.720043
+          "american_odds": 265,
+          "probability": 24.800598,
+          "weekly_change": -4.919445
         },
         "conference": {
-          "american_odds": 1200,
-          "probability": 6.63348
+          "american_odds": 1075,
+          "probability": 7.211125,
+          "weekly_change": 0.577645
         },
         "super_bowl": {
           "american_odds": 2000,
-          "probability": 3.897443
+          "probability": 3.88596,
+          "weekly_change": -0.011483
         }
       },
-      "probability": 3.897443,
-      "weekly_change": null
+      "probability": 3.88596,
+      "weekly_change": -0.011483
     },
     "KC": {
       "team": "KC",
@@ -1196,20 +1796,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 170,
-          "probability": 34.123012
+          "american_odds": -160,
+          "probability": 55.705959,
+          "weekly_change": 21.582947
         },
         "conference": {
-          "american_odds": 560,
-          "probability": 13.065945
+          "american_odds": 420,
+          "probability": 16.294369,
+          "weekly_change": 3.228424
         },
         "super_bowl": {
-          "american_odds": 1600,
-          "probability": 4.814489
+          "american_odds": 1050,
+          "probability": 7.096101,
+          "weekly_change": 2.281612
         }
       },
-      "probability": 4.814489,
-      "weekly_change": null
+      "probability": 7.096101,
+      "weekly_change": 2.281612
     },
     "LAC": {
       "team": "LAC",
@@ -1217,20 +1820,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 190,
-          "probability": 31.769701
+          "american_odds": 1750,
+          "probability": 4.893091,
+          "weekly_change": -26.87661
         },
         "conference": {
-          "american_odds": 1475,
-          "probability": 5.475253
+          "american_odds": 20000,
+          "probability": 0.421546,
+          "weekly_change": -5.053707
         },
         "super_bowl": {
-          "american_odds": 1700,
-          "probability": 4.547018
+          "american_odds": 6500,
+          "probability": 1.236442,
+          "weekly_change": -3.310576
         }
       },
-      "probability": 4.547018,
-      "weekly_change": null
+      "probability": 1.236442,
+      "weekly_change": -3.310576
     },
     "LV": {
       "team": "LV",
@@ -1238,20 +1844,23 @@
       "conference": "AFC",
       "markets": {
         "division": {
-          "american_odds": 2000,
-          "probability": 4.387245
+          "american_odds": 520,
+          "probability": 14.600352,
+          "weekly_change": 10.213107
         },
         "conference": {
-          "american_odds": 10000,
-          "probability": 0.853814
+          "american_odds": 8200,
+          "probability": 1.020852,
+          "weekly_change": 0.167038
         },
         "super_bowl": {
-          "american_odds": 15000,
-          "probability": 0.542029
+          "american_odds": 9000,
+          "probability": 0.89676,
+          "weekly_change": 0.354731
         }
       },
-      "probability": 0.542029,
-      "weekly_change": null
+      "probability": 0.89676,
+      "weekly_change": 0.354731
     },
     "DAL": {
       "team": "DAL",
@@ -1259,20 +1868,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 184,
-          "probability": 32.355048
+          "american_odds": 235,
+          "probability": 27.381631,
+          "weekly_change": -4.973417
         },
         "conference": {
-          "american_odds": 1550,
-          "probability": 5.255122
+          "american_odds": 2150,
+          "probability": 3.776159,
+          "weekly_change": -1.478963
         },
         "super_bowl": {
-          "american_odds": 2500,
-          "probability": 3.147935
+          "american_odds": 2800,
+          "probability": 2.813971,
+          "weekly_change": -0.333964
         }
       },
-      "probability": 3.147935,
-      "weekly_change": null
+      "probability": 2.813971,
+      "weekly_change": -0.333964
     },
     "NYG": {
       "team": "NYG",
@@ -1280,20 +1892,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 600,
-          "probability": 13.126905
+          "american_odds": 800,
+          "probability": 10.192052,
+          "weekly_change": -2.934853
         },
         "conference": {
-          "american_odds": 3400,
-          "probability": 2.477415
+          "american_odds": 5400,
+          "probability": 1.544793,
+          "weekly_change": -0.932622
         },
         "super_bowl": {
-          "american_odds": 7000,
-          "probability": 1.152765
+          "american_odds": 15000,
+          "probability": 0.540432,
+          "weekly_change": -0.612333
         }
       },
-      "probability": 1.152765,
-      "weekly_change": null
+      "probability": 0.540432,
+      "weekly_change": -0.612333
     },
     "PHI": {
       "team": "PHI",
@@ -1301,20 +1916,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 122,
-          "probability": 41.391142
+          "american_odds": -125,
+          "probability": 50.960259,
+          "weekly_change": 9.569117
         },
         "conference": {
-          "american_odds": 710,
-          "probability": 10.704878
+          "american_odds": 2350,
+          "probability": 3.467902,
+          "weekly_change": -7.236976
         },
         "super_bowl": {
           "american_odds": 1700,
-          "probability": 4.547018
+          "probability": 4.53362,
+          "weekly_change": -0.013398
         }
       },
-      "probability": 4.547018,
-      "weekly_change": null
+      "probability": 4.53362,
+      "weekly_change": -0.013398
     },
     "WAS": {
       "team": "WAS",
@@ -1322,20 +1940,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 600,
-          "probability": 13.126905
+          "american_odds": 700,
+          "probability": 11.466058,
+          "weekly_change": -1.660847
         },
         "conference": {
-          "american_odds": 4900,
-          "probability": 1.73419
+          "american_odds": 12000,
+          "probability": 0.702178,
+          "weekly_change": -1.032012
         },
         "super_bowl": {
-          "american_odds": 6000,
-          "probability": 1.341743
+          "american_odds": 8000,
+          "probability": 1.007471,
+          "weekly_change": -0.334272
         }
       },
-      "probability": 1.341743,
-      "weekly_change": null
+      "probability": 1.007471,
+      "weekly_change": -0.334272
     },
     "CHI": {
       "team": "CHI",
@@ -1343,20 +1964,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 305,
-          "probability": 22.725892
+          "american_odds": 390,
+          "probability": 18.67387,
+          "weekly_change": -4.052022
         },
         "conference": {
-          "american_odds": 800,
-          "probability": 9.634391
+          "american_odds": 1325,
+          "probability": 5.962357,
+          "weekly_change": -3.672034
         },
         "super_bowl": {
           "american_odds": 2400,
-          "probability": 3.273852
+          "probability": 3.264206,
+          "weekly_change": -0.009646
         }
       },
-      "probability": 3.273852,
-      "weekly_change": null
+      "probability": 3.264206,
+      "weekly_change": -0.009646
     },
     "DET": {
       "team": "DET",
@@ -1364,20 +1988,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 175,
-          "probability": 33.46904
+          "american_odds": 160,
+          "probability": 35.193063,
+          "weekly_change": 1.724023
         },
         "conference": {
-          "american_odds": 860,
-          "probability": 9.032242
+          "american_odds": 1250,
+          "probability": 6.293599,
+          "weekly_change": -2.738643
         },
         "super_bowl": {
           "american_odds": 1900,
-          "probability": 4.092315
+          "probability": 4.080258,
+          "weekly_change": -0.012057
         }
       },
-      "probability": 4.092315,
-      "weekly_change": null
+      "probability": 4.080258,
+      "weekly_change": -0.012057
     },
     "GB": {
       "team": "GB",
@@ -1385,20 +2012,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 240,
-          "probability": 27.070548
+          "american_odds": 960,
+          "probability": 8.632261,
+          "weekly_change": -18.438287
         },
         "conference": {
-          "american_odds": 1275,
-          "probability": 6.306146
+          "american_odds": 1700,
+          "probability": 4.7202,
+          "weekly_change": -1.585946
         },
         "super_bowl": {
-          "american_odds": 2000,
-          "probability": 3.897443
+          "american_odds": 5500,
+          "probability": 1.457235,
+          "weekly_change": -2.440208
         }
       },
-      "probability": 3.897443,
-      "weekly_change": null
+      "probability": 1.457235,
+      "weekly_change": -2.440208
     },
     "MIN": {
       "team": "MIN",
@@ -1406,20 +2036,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 450,
-          "probability": 16.73452
+          "american_odds": 144,
+          "probability": 37.500806,
+          "weekly_change": 20.766286
         },
         "conference": {
-          "american_odds": 1700,
-          "probability": 4.817196
+          "american_odds": 670,
+          "probability": 11.034233,
+          "weekly_change": 6.217037
         },
         "super_bowl": {
-          "american_odds": 5000,
-          "probability": 1.604829
+          "american_odds": 2400,
+          "probability": 3.264206,
+          "weekly_change": 1.659377
         }
       },
-      "probability": 1.604829,
-      "weekly_change": null
+      "probability": 3.264206,
+      "weekly_change": 1.659377
     },
     "ATL": {
       "team": "ATL",
@@ -1427,20 +2060,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 400,
-          "probability": 18.472334
+          "american_odds": 350,
+          "probability": 20.403587,
+          "weekly_change": 1.931253
         },
         "conference": {
-          "american_odds": 7000,
-          "probability": 1.221261
+          "american_odds": 2800,
+          "probability": 2.929779,
+          "weekly_change": 1.708518
         },
         "super_bowl": {
-          "american_odds": 13000,
-          "probability": 0.624781
+          "american_odds": 12000,
+          "probability": 0.674423,
+          "weekly_change": 0.049642
         }
       },
-      "probability": 0.624781,
-      "weekly_change": null
+      "probability": 0.674423,
+      "weekly_change": 0.049642
     },
     "CAR": {
       "team": "CAR",
@@ -1448,20 +2084,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 350,
-          "probability": 20.524815
+          "american_odds": 250,
+          "probability": 26.233184,
+          "weekly_change": 5.708369
         },
         "conference": {
-          "american_odds": 7000,
-          "probability": 1.221261
+          "american_odds": 2450,
+          "probability": 3.331906,
+          "weekly_change": 2.110645
         },
         "super_bowl": {
-          "american_odds": 9000,
-          "probability": 0.89941
+          "american_odds": 10000,
+          "probability": 0.807972,
+          "weekly_change": -0.091438
         }
       },
-      "probability": 0.89941,
-      "weekly_change": null
+      "probability": 0.807972,
+      "weekly_change": -0.091438
     },
     "NO": {
       "team": "NO",
@@ -1469,20 +2108,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 255,
-          "probability": 26.017371
+          "american_odds": 134,
+          "probability": 39.237668,
+          "weekly_change": 13.220297
         },
         "conference": {
-          "american_odds": 4000,
-          "probability": 2.114866
+          "american_odds": 17000,
+          "probability": 0.496863,
+          "weekly_change": -1.618003
         },
         "super_bowl": {
-          "american_odds": 9000,
-          "probability": 0.89941
+          "american_odds": 8000,
+          "probability": 1.007471,
+          "weekly_change": 0.108061
         }
       },
-      "probability": 0.89941,
-      "weekly_change": null
+      "probability": 1.007471,
+      "weekly_change": 0.108061
     },
     "TB": {
       "team": "TB",
@@ -1490,20 +2132,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 164,
-          "probability": 34.98548
+          "american_odds": 550,
+          "probability": 14.12556,
+          "weekly_change": -20.85992
         },
         "conference": {
-          "american_odds": 2500,
-          "probability": 3.334982
+          "american_odds": 7200,
+          "probability": 1.163885,
+          "weekly_change": -2.171097
         },
         "super_bowl": {
-          "american_odds": 5500,
-          "probability": 1.461541
+          "american_odds": 10000,
+          "probability": 0.807972,
+          "weekly_change": -0.653569
         }
       },
-      "probability": 1.461541,
-      "weekly_change": null
+      "probability": 0.807972,
+      "weekly_change": -0.653569
     },
     "ARI": {
       "team": "ARI",
@@ -1511,20 +2156,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 10000,
-          "probability": 0.885133
+          "american_odds": 15000,
+          "probability": 0.604343,
+          "weekly_change": -0.28079
         },
         "conference": {
           "american_odds": 20000,
-          "probability": 0.43139
+          "probability": 0.422704,
+          "weekly_change": -0.008686
         },
         "super_bowl": {
-          "american_odds": 50000,
-          "probability": 0.163366
+          "american_odds": 30000,
+          "probability": 0.271114,
+          "weekly_change": 0.107748
         }
       },
-      "probability": 0.163366,
-      "weekly_change": null
+      "probability": 0.271114,
+      "weekly_change": 0.107748
     },
     "LAR": {
       "team": "LAR",
@@ -1532,20 +2180,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": -105,
-          "probability": 45.789462
+          "american_odds": 265,
+          "probability": 25.001594,
+          "weekly_change": -20.787868
         },
         "conference": {
-          "american_odds": 455,
-          "probability": 15.623336
+          "american_odds": 405,
+          "probability": 16.824473,
+          "weekly_change": 1.201137
         },
         "super_bowl": {
-          "american_odds": 500,
-          "probability": 13.641052
+          "american_odds": 670,
+          "probability": 10.598073,
+          "weekly_change": -3.042979
         }
       },
-      "probability": 13.641052,
-      "weekly_change": null
+      "probability": 10.598073,
+      "weekly_change": -3.042979
     },
     "SF": {
       "team": "SF",
@@ -1553,20 +2204,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 280,
-          "probability": 23.525914
+          "american_odds": -105,
+          "probability": 46.740785,
+          "weekly_change": 23.214871
         },
         "conference": {
-          "american_odds": 550,
-          "probability": 13.339925
+          "american_odds": 235,
+          "probability": 25.362266,
+          "weekly_change": 12.022341
         },
         "super_bowl": {
-          "american_odds": 1900,
-          "probability": 4.092315
+          "american_odds": 900,
+          "probability": 8.160516,
+          "weekly_change": 4.068201
         }
       },
-      "probability": 4.092315,
-      "weekly_change": null
+      "probability": 8.160516,
+      "weekly_change": 4.068201
     },
     "SEA": {
       "team": "SEA",
@@ -1574,20 +2228,23 @@
       "conference": "NFC",
       "markets": {
         "division": {
-          "american_odds": 200,
-          "probability": 29.799491
+          "american_odds": 230,
+          "probability": 27.653278,
+          "weekly_change": -2.146213
         },
         "conference": {
-          "american_odds": 580,
-          "probability": 12.751399
+          "american_odds": 610,
+          "probability": 11.966703,
+          "weekly_change": -0.784696
         },
         "super_bowl": {
-          "american_odds": 1200,
-          "probability": 6.29587
+          "american_odds": 1000,
+          "probability": 7.418651,
+          "weekly_change": 1.122781
         }
       },
-      "probability": 6.29587,
-      "weekly_change": null
+      "probability": 7.418651,
+      "weekly_change": 1.122781
     }
   }
 }
