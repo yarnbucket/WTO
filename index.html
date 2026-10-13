@@ -330,6 +330,7 @@ body[data-theme]:not([data-theme="classic"]) .summary-screen{background-color:va
 .trivia-reward-progress{display:flex;align-items:center;flex-wrap:wrap;gap:5px;font-size:13px;color:var(--gold,#ffcc32)}
 .team-standings-link{display:inline-block;color:var(--gold,#ffcd32);padding:4px 0;text-decoration:none}.team-standings-link:hover{text-decoration:underline}
 .wto-result{display:inline-block;margin-left:8px;padding:2px 7px;border:1px solid currentColor;font:12px 'Anton',sans-serif;letter-spacing:.5px;white-space:nowrap}.wto-result.hit{color:#3FD68A}.wto-result.miss{color:#E6534A}.wto-result.neutral{color:#B8C2BA}.wto-review-grade.hit b{color:#3FD68A}.wto-review-grade.miss b{color:#E6534A}
+.slip-pick-result.hit{color:#3FD68A;font-weight:700}.slip-pick-result.miss{color:#E6534A;font-weight:700}.slip-pick-result.neutral{color:#B8C2BA}
 </style>
 
 <style>
@@ -499,7 +500,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
 .team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
-</style><script src="./wto-team-trivia.js?v=105"></script><style>
+</style><script src="./wto-team-trivia.js?v=106"></script><style>
 .team-info-hero{display:grid;grid-template-columns:52px minmax(0,1fr);gap:6px 10px;padding:12px}
 .team-info-hero>img{grid-row:1;width:52px;height:52px;align-self:center}
 .team-info-copy{grid-column:2}.team-name-line{display:block}
@@ -659,7 +660,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-13-v105';
+const WTO_RELEASE='2026-10-13-v106';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -679,7 +680,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=105',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=106',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1375,7 +1376,7 @@ if(document.readyState==='loading'){
 })();
 </script>
 <script src="./wto-slip-lib.js?v=58"></script>
-<script src="./wto-slip.js?v=61"></script>
+<script src="./wto-slip.js?v=106"></script>
 
 <div class="wto-install-lightning" aria-hidden="true"><span></span></div>
 <aside id="wtoInstallBanner" class="wto-install-banner" aria-labelledby="wtoInstallTitle" hidden>
