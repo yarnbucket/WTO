@@ -498,7 +498,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
 .team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
-</style><script src="./wto-team-trivia.js?v=99"></script><style>
+</style><script src="./wto-team-trivia.js?v=100"></script><style>
 .team-info-hero{display:grid;grid-template-columns:52px minmax(0,1fr);gap:6px 10px;padding:12px}
 .team-info-hero>img{grid-row:1;width:52px;height:52px;align-self:center}
 .team-info-copy{grid-column:2}.team-name-line{display:block}
@@ -658,7 +658,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-13-v99';
+const WTO_RELEASE='2026-10-13-v100';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -678,7 +678,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=99',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=100',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1117,11 +1117,11 @@ function teamOutcomeSummary(g,team){
  if(!g)return '<div class="detail-loading">No game scheduled in this week.</div>';
  const r=latestPregameInsight(g.id),f=r?.factor_summary,read=r?.team_reads?.[team],opp=g.away===team?g.home:g.away;
  const evidence=(team===g.away?f?.evidence_for_away:f?.evidence_for_home)||[];
- const upside=read?.player_upside||'Player-specific upside has not been verified for this matchup.';
- const keys=read?.keys_to_compete||evidence[0]||f?.recent_form||'Matchup keys have not been verified yet.';
- const risk=read?.watch_out||f?.primary_risk||'Current injury and matchup risks remain unverified.';
+ const upside=read?.player_upside; const useful=x=>x&&!/unverified|unavailable|not.*verified|not.*confirmed/i.test(x);
+ const ratings=r?.matchup_ratings,valid=ratings?.season===2026&&ratings.through_week<g.week&&Date.parse(ratings.verified_at)<Date.parse(g.kickoff);const rank=(t,k)=>{const n=valid?ratings.teams?.[t]?.[k]:null;return Number.isInteger(n)&&n>=1&&n<=32?n:null};const pairs=[['Passing','passing_offense','pass_defense'],['Running','rushing_offense','run_defense']].map(([label,off,def])=>{const a=rank(team,off),b=rank(opp,def);return a&&b?'<li><b>'+label+':</b> '+safeText(team)+' #'+a+' '+(label==='Passing'?'passing':'rushing')+' offense vs. '+safeText(opp)+' #'+b+' '+(label==='Passing'?'pass':'run')+' defense.</li>':''}).join('');
+ const fullRisk=read?.watch_out||f?.primary_risk||'',risk=useful(fullRisk)&&!fullRisk.includes('ranks #')?fullRisk.split(';')[0].replace(/\.$/,'')+'.':null;
  const injuries=(r?.injuries||[]).filter(x=>x.team===team);const sourceLinks=(r?.sources||[]).filter(x=>/^https:\/\//.test(x.url||'')&&!/^verified-results$/i.test(x.id||'')&&!isWtoConsensusSource(x)&&!/scoresandodds\.com\/nfl\//i.test(x.url||''));const sources=[{provider:'ScoresAndOdds NFL matchup',url:scoresAndOddsMatchupUrl(g)},...sourceLinks];
- return `<div class="team-analysis-card"><span class="evidence-label">WTO MATCHUP READ</span><h3>${safeText(team)} ${g.home===team?'vs':'at'} ${safeText(opp)}</h3>${g.status==='final'?completedQuickReadHtml(g):matchupPredictionHeader(g)}<ul><li><b>Player upside:</b> ${safeText(upside)}</li><li><b>${read?.keys_to_compete||evidence.length?'Keys to compete':'Form context'}:</b> ${safeText(keys)}</li><li><b>Watch out:</b> ${safeText(risk)}</li></ul><details><summary>Current injuries &amp; verification</summary><p>${injuries.length?injuries.map(x=>`${safeText(x.player)} · ${safeText(x.position)} · ${safeText(x.status)}${x.impact?' — '+safeText(x.impact):''}`).join('<br>'):safeText(f?.quarterback?.detail||'No verified current injury report stored.')}</p><p>Selected week snapshot · Checked ${safeText(r?.verification_confirmation?.verified_at||r?.generated_at||'Unavailable')}</p>${sources.map(x=>`<p><a href="${safeText(x.url)}" target="_blank" rel="noopener">${safeText(x.provider||'Source')}</a></p>`).join('')}</details></div>`;
+ return `<div class="team-analysis-card"><span class="evidence-label">WTO MATCHUP READ</span><h3>${safeText(team)} ${g.home===team?'vs':'at'} ${safeText(opp)}</h3>${g.status==='final'?completedQuickReadHtml(g):''}<ul>${pairs}${useful(upside)?'<li><b>Player upside:</b> '+safeText(upside)+'</li>':''}${risk?'<li><b>Watch:</b> '+safeText(risk)+'</li>':''}</ul>${g.status!=='final'?matchupPredictionHeader(g).replace('PROJECTED SCORE','WTO PREDICTS'):''}<details><summary>More details</summary><p>${safeText(fullRisk)}</p><p>${injuries.length?injuries.map(x=>`${safeText(x.player)} · ${safeText(x.position)} · ${safeText(x.status)}${x.impact?' — '+safeText(x.impact):''}`).join('<br>'):safeText(f?.quarterback?.detail||'No verified current injury report stored.')}</p><p>Selected week snapshot · Checked ${safeText(r?.verification_confirmation?.verified_at||r?.generated_at||'Unavailable')}</p>${sources.map(x=>`<p><a href="${safeText(x.url)}" target="_blank" rel="noopener">${safeText(x.provider||'Source')}</a></p>`).join('')}</details></div>`;
 }
 function teamLeadersHtml(summary,team){
   const groups=[...(summary?.leaders||[]),...(summary?.header?.competitions?.[0]?.competitors||[])].filter(x=>(x.team?.abbreviation||x.abbreviation)===team);
@@ -1133,12 +1133,12 @@ async function loadTeamWeekPerformers(team,week,gameId){
   const target=detailView.querySelector('.team-week-performers');if(!target)return;
   const g=(data[week]||[]).find(x=>x.id===gameId);
   if(!g||g.status!=='final'){target.innerHTML='<div class="detail-loading">Top performers are not available yet.</div>';return}
-  try{const event=await getEspnEvent(g),summary=await fetch(`https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=${event.id}`).then(r=>{if(!r.ok)throw Error();return r.json()});if(detailView.dataset.team!==team||String(detailView.dataset.teamWeek)!==String(week))return;target.innerHTML=teamLeadersHtml(summary,team)}catch(e){if(detailView.dataset.team===team)target.innerHTML='<div class="detail-loading">Top performers are not available yet.</div>'}
+  try{const event=await getEspnEvent(g),summary=await fetch(`https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=${event.id}`).then(r=>{if(!r.ok)throw Error();return r.json()});if(detailView.dataset.team!==team||String(detailView.dataset.teamWeek)!==String(week))return;target.innerHTML=teamLeadersHtml(summary,team);target.closest(".detail-section").hidden=!target.querySelector(".top-performer")}catch(e){if(detailView.dataset.team===team)target.innerHTML='<div class="detail-loading">Top performers are not available yet.</div>'}
 }
 function renderTeamWeek(team,week){
   const slot=detailView.querySelector('.team-week-content');if(!slot)return;
   detailView.dataset.teamWeek=week;const g=(data[week]||[]).find(x=>x.away===team||x.home===team);
-  slot.innerHTML=`${teamTrendHtml(team,week)}${teamOutcomeSummary(g,team)}<div class="detail-section"><h2>Top Performers · Week ${week}</h2><div class="team-week-performers"><div class="detail-loading">Loading verified performers…</div></div></div>`;
+  slot.innerHTML=`${teamTrendHtml(team,week)}${teamOutcomeSummary(g,team)}${g?.status==='final'?`<div class="detail-section" hidden><h2>Top Performers · Week ${week}</h2><div class="team-week-performers"></div></div>`:''}`;
   loadTeamWeekPerformers(team,week,g?.id);
 }
 function changeTeamWeek(team,value){renderTeamWeek(team,Number(value))}
