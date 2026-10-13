@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-10-13T18:20:21.768Z",
+  "updated_at": "2026-10-13T18:40:30.318Z",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -17197,6 +17197,38 @@
               "value": 87,
               "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
               "verified_at": "2026-10-13T10:09:58.624750+00:00"
+            }
+          ],
+          "opening_favorite": "PIT",
+          "opening_spread": -2.5,
+          "opening_total": 44.5,
+          "opening_provider": "DraftKings via VegasInsider",
+          "opening_source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+          "opening_verified_at": "2026-10-13T18:40:30.318Z",
+          "opening_line_type": "explicit_sportsbook_open",
+          "opening_market_as_of": null,
+          "opening_away_spread_price": null,
+          "opening_home_spread_price": null,
+          "opening_over_price": null,
+          "opening_under_price": null,
+          "opening_verification_snapshots": [
+            {
+              "favorite": "PIT",
+              "spread": -2.5,
+              "total": 44.5,
+              "provider": "DraftKings via VegasInsider",
+              "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+              "verified_at": "2026-10-13T18:40:30.318Z",
+              "market_as_of": null,
+              "line_type": "explicit_sportsbook_open",
+              "note": "Thursday update explicitly identifies DraftKings opening spread -2.5 and total 44.5. Prices and exact opening timestamp not stated; source prose distinguishes other sportsbooks' opening totals.",
+              "unavailable_fields": [
+                "exact opening timestamp",
+                "away spread price",
+                "home spread price",
+                "over price",
+                "under price"
+              ]
             }
           ]
         },
