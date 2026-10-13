@@ -12,7 +12,7 @@
 <link rel="icon" href="./wto-icon-192.png" type="image/png" sizes="192x192">
 <link rel="icon" href="./wto-icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="./wto-apple-touch-icon-180.png" sizes="180x180">
-<title>FF26 NFL Season Lines</title>
+<title>2026 NFL REG. SEASON LINES</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Creepster&family=Black+Ops+One&family=Inter:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <style>
@@ -501,7 +501,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
 .team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
-</style><script src="./wto-team-trivia.js?v=107"></script><style>
+</style><script src="./wto-team-trivia.js?v=108"></script><style>
 .team-info-hero{display:grid;grid-template-columns:52px minmax(0,1fr);gap:6px 10px;padding:12px}
 .team-info-hero>img{grid-row:1;width:52px;height:52px;align-self:center}
 .team-info-copy{grid-column:2}.team-name-line{display:block}
@@ -564,7 +564,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
   <div class="marquee">
     <div class="masthead">
       <img class="wto-masthead-icon" src="./wto-icon-192.png" width="54" height="54" alt="WTO">
-      <div class="sub"><div class="title">FF26 NFL Season Lines</div></div>
+      <div class="sub"><div class="title">2026 NFL REG. SEASON LINES</div></div>
       <div class="head-actions"><button class="install-btn" id="installBtn" onclick="installWto()" aria-label="Install WTO app">INSTALL</button><button class="settings-btn" onclick="openSettings()" aria-label="Open advanced settings">⚙ SETTINGS</button><div class="updated"><span class="dot"></span><span id="updated">SEASON TRACKER</span></div></div>
     </div>
     <div class="week-strip" id="weekbar" aria-label="Select week"></div>
@@ -661,7 +661,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-13-v107';
+const WTO_RELEASE='2026-10-13-v108';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -681,7 +681,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=107',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=108',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1378,7 +1378,7 @@ if(document.readyState==='loading'){
 })();
 </script>
 <script src="./wto-slip-lib.js?v=58"></script>
-<script src="./wto-slip.js?v=107"></script>
+<script src="./wto-slip.js?v=108"></script>
 
 <div class="wto-install-lightning" aria-hidden="true"><span></span></div>
 <aside id="wtoInstallBanner" class="wto-install-banner" aria-labelledby="wtoInstallTitle" hidden>
