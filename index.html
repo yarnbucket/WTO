@@ -498,7 +498,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .team-trivia-body button[type=submit]{background:var(--gold,#ffcd32);color:#09180e}
 .team-trivia-body button:disabled{opacity:.5;cursor:default}.trivia-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .trivia-feedback{min-height:22px;line-height:1.45}.trivia-feedback a{color:#ffe09a}
-</style><script src="./wto-team-trivia.js?v=95"></script><style>
+</style><script src="./wto-team-trivia.js?v=96"></script><style>
 .team-info-hero{display:grid;grid-template-columns:52px minmax(0,1fr);gap:6px 10px;padding:12px}
 .team-info-hero>img{grid-row:1;width:52px;height:52px;align-self:center}
 .team-info-copy{grid-column:2}.team-name-line{display:block}
@@ -566,6 +566,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
     <p>In <strong>Settings</strong>, choose Classic, Vintage, Halloween, or Christmas. Pick Stadium or Trophy Room for the home background. Your picks stay saved when you change the look.</p>
     <p>Turn on <strong>Atmosphere</strong> for gentle weather effects in matchups with a usable forecast. It starts off.</p>
     <h3>KEEP UP WITH THE WEEK</h3>
+    <p>Don’t forget to visit past weeks! Open a finished game’s <strong>Recap & Stats</strong> to see what decided it and how the result compared with WTO’s prediction.</p>
     <p><strong>Tuesday · 6 AM:</strong> Review finished games and check the new week’s matchups and available lines.</p>
     <p><strong>Thursday · Noon:</strong> Check updated lines before the week’s games.</p>
     <p><strong>Sunday · 6 AM:</strong> Check pregame lines, injuries, and weather.</p>
@@ -679,7 +680,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-12-v95';
+const WTO_RELEASE='2026-10-12-v96';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -699,7 +700,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=95',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=96',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();

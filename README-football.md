@@ -46,6 +46,8 @@ Turn on **Atmosphere** for gentle weather effects in matchups with a usable fore
 
 ## Keep Up With the Week
 
+Don’t forget to visit past weeks! Open a finished game’s **Recap & Stats** to see what decided it and how the result compared with WTO’s prediction.
+
 **Tuesday · 6 AM:** Review finished games and check the new week’s matchups and available lines.
 
 **Thursday · Noon:** Check updated lines before the week’s games.
