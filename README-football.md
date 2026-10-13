@@ -1,63 +1,33 @@
 # What’s the Odds?
 
-## Your Weekly Football Guide
+Pick your games. Follow the action. See how you did.
 
-Pick your games. Read the matchup. Follow the results.
+## Make Your Picks
 
-## Pick Your Games
+Choose a winner, spread, or Over/Under. Tap **Add to My Slip** to save. Tap a highlighted choice to clear it, or the red × to remove a game. Your saved lines stay fixed.
 
-Tap the team or matchup you want to view. Choose a winner, a spread pick, or Over or Under. Then tap **Add to My Slip** to save your choices.
+## Know the Matchup
 
-A spread gives one team a points head start. Over or Under asks whether both teams will score more or less than the listed total. You can change a line before saving it.
+Open **More Insight** for the predicted score and **WHY**. Thin meters compare offense with defense: **#1 is best**, not a win chance. Missing ranks stay hidden.
 
-Tap a highlighted pick again to clear it. Use the red × on your pick sheet to remove a game. Saved lines stay fixed so you can see how your picks did.
+Visit past weeks! Open **Recap & Stats** to see what decided each game and how WTO’s prediction did.
 
-## See the Story Behind the Pick
+## Explore Your Team
 
-Open **More Insight** to see WTO’s predicted score and the **WHY** behind it. The matchup read uses short notes about passing, running, defense, injuries, and weather when those details are verified.
+**Team Info** has records, schedules, scoring graphs, and roster links. The main percentage fields show trends; **50% is midfield**.
 
-Skinny field meters compare one team’s offense with the other team’s defense. **#1 is the best rank.** These are rank comparisons, not chances of winning. Meters stay hidden when the needed ranks are missing.
+## Play Trivia
 
-## Follow Your Team
+Answer all ten questions to master a team. **Show Answer earns no credit.** Earn bronze at 1 team, silver at 6, a golden football at 16, and the trophy at 32. Quiz resets keep earned rewards.
 
-Open **Team Info** for the season record, schedule, and scoring graph. The graph shows points scored, points allowed, and any saved WTO forecasts.
+## Make It Yours
 
-The scoring margin shows how scoring compares with points allowed. A positive number means the team has outscored its opponents. A negative number means opponents have scored more.
+Try Classic, Vintage, Halloween, or Christmas in **Settings**. Choose a home background and optional weather effects. Picks and progress stay on this device.
 
-Tap the team name for its ESPN roster. Tap the division and rank for ESPN standings. The established year and mascot links let you explore team history.
+## Check Back
 
-## Read the Field
+**Tuesday, 6 AM:** Results and new matchups. **Thursday, noon:** Updated lines. **Sunday, 6 AM:** Lines, injuries, and weather. All times are Eastern. Predictions are estimates.
 
-The main percentage fields show how often teams go Over or Under and how often favorites or underdogs cover the spread. A higher percentage moves farther down the field. **50% is midfield.**
+## Stay Updated
 
-## Earn Your Trivia Rewards
-
-Open **Team Info → Team Trivia** for ten questions per team. Type your answers. Small spelling mistakes are okay when the answer is clear.
-
-**Show Answer does not earn credit.** Get all ten right to master a team. Master 1–5 teams for a bronze badge, 6–15 for silver, and 16–31 for a golden football. Master all 32 teams for the championship trophy.
-
-**Reset Quiz** lets you play that team again. It keeps earned rewards and mastered teams. Picks and quiz progress are saved on this device; they do not automatically move to another device.
-
-## Choose Your Game-Day Look
-
-In **Settings**, choose Classic, Vintage, Halloween, or Christmas. Pick Stadium or Trophy Room for the home background. Your picks stay saved when you change the look.
-
-Turn on **Atmosphere** for gentle weather effects in matchups with a usable forecast. It starts off.
-
-## Keep Up With the Week
-
-Don’t forget to visit past weeks! Open a finished game’s **Recap & Stats** to see what decided it and how the result compared with WTO’s prediction.
-
-**Tuesday · 6 AM:** Review finished games and check the new week’s matchups and available lines.
-
-**Thursday · Noon:** Check updated lines before the week’s games.
-
-**Sunday · 6 AM:** Check pregame lines, injuries, and weather.
-
-All times are Eastern. WTO forecasts are estimates, not promises. Results help us check what worked and what missed.
-
-## Get Updates Your Way
-
-At the bottom of **Settings**, tap **Update Now** to check for updates and reload. Your saved picks stay on the device.
-
-Turn off **Show update alerts** to hide future popups. WTO still checks for updates, and this device remembers your choice. **Check README** opens this guide inside the app.
+At the bottom of **Settings**, tap **Update Now**. Turn off **Show update alerts** to hide popups; update checks continue. Your saved picks stay with you.
