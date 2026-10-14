@@ -16,5 +16,6 @@
  function grade(p,g){if(!g||g.status!=='final')return 'PENDING';const a=num(g.awayScore??g.away_score),h=num(g.homeScore??g.home_score);if(a==null||h==null||!Number.isFinite(a)||!Number.isFinite(h))return 'PENDING';let delta;if(p.kind==='winner')delta=p.side===g.away?a-h:h-a;else if(p.kind==='spread')delta=(p.side===g.away?a-h:h-a)+p.line;else delta=(a+h-p.line)*(p.side==='over'?1:-1);return delta===0?'PUSH':delta>0?'WON':'LOST';}
  function select(picks,next){return [...picks.filter(p=>p.game_id!==next.game_id||p.kind!==next.kind),next]}
  function toggle(current,choice){return current===choice?null:choice}
- root.WTOSlip={save,grade,locked,market,select,toggle};
+ function accuracy(picks,find){const counts={won:0,lost:0,push:0,pending:0};for(const p of picks){const result=grade(p,find(p.game_id));counts[result==='WON'?'won':result==='LOST'?'lost':result==='PUSH'?'push':'pending']++;}const graded=counts.won+counts.lost;return {...counts,graded,percent:graded?Math.round(counts.won/graded*100):null};}
+ root.WTOSlip={save,grade,locked,market,select,toggle,accuracy};
 })(typeof globalThis!=='undefined'?globalThis:this);
