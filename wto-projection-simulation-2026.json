@@ -1,0 +1,5286 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "label": "Retrospective projection simulation",
+  "generated_at": "2026-10-14T12:34:21.934Z",
+  "model_version": "opponent-adjusted-points-v2",
+  "source_ledger_commit": "cbcc3415fa72bdcf90c8f3607e3f523d55f9fe70",
+  "source_url": "https://github.com/yarnbucket/WTO/blob/cbcc3415fa72bdcf90c8f3607e3f523d55f9fe70/ff26-nfl-lines-2026.json",
+  "method": {
+    "prior_games_only": true,
+    "within_week_results_excluded": true,
+    "shrinkage_pseudo_games": 2,
+    "opponent_adjustment_strength": 0.5,
+    "home_effect_per_team": 0.75,
+    "market_used_as_score_input": false,
+    "market_evaluation": "Reported opening market; never a claim that this simulated pick was placed or saved before kickoff.",
+    "simulation_parameters_selected_after_outcomes": true,
+    "live_predictions_modified": false
+  },
+  "limitations": [
+    "Week 1 unavailable without supported preseason baseline.",
+    "Current model applied retrospectively; this is not an untouched out-of-sample test of a model fixed before the season.",
+    "Historical injuries, weather, line health and player coverage are not reconstructed; scoring-only simulation.",
+    "No calibrated win, ATS or total probabilities. No causal conclusions from scoring alone."
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "games": [
+        {
+          "game_id": "2026-W01-NE-SEA",
+          "away": "NE",
+          "home": "SEA",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-SF-LAR",
+          "away": "SF",
+          "home": "LAR",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-ATL-PIT",
+          "away": "ATL",
+          "home": "PIT",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-BAL-IND",
+          "away": "BAL",
+          "home": "IND",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-BUF-HOU",
+          "away": "BUF",
+          "home": "HOU",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-CHI-CAR",
+          "away": "CHI",
+          "home": "CAR",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-CLE-JAX",
+          "away": "CLE",
+          "home": "JAX",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-NO-DET",
+          "away": "NO",
+          "home": "DET",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-NYJ-TEN",
+          "away": "NYJ",
+          "home": "TEN",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-TB-CIN",
+          "away": "TB",
+          "home": "CIN",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-ARI-LAC",
+          "away": "ARI",
+          "home": "LAC",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-GB-MIN",
+          "away": "GB",
+          "home": "MIN",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-MIA-LV",
+          "away": "MIA",
+          "home": "LV",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-WAS-PHI",
+          "away": "WAS",
+          "home": "PHI",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-DAL-NYG",
+          "away": "DAL",
+          "home": "NYG",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        },
+        {
+          "game_id": "2026-W01-DEN-KC",
+          "away": "DEN",
+          "home": "KC",
+          "projection": null,
+          "unavailable_reason": "No prior 2026 scoring history and no verified preseason point baseline."
+        }
+      ],
+      "summary": {
+        "games": 16,
+        "simulated": 0,
+        "mean_absolute_team_score_error": null,
+        "mean_actual_minus_projected": null,
+        "winner": {
+          "hits": 0,
+          "misses": 0,
+          "graded": 0
+        },
+        "ats": {
+          "hits": 0,
+          "misses": 0,
+          "graded": 0
+        },
+        "total": {
+          "hits": 0,
+          "misses": 0,
+          "graded": 0
+        }
+      }
+    },
+    {
+      "week": 2,
+      "games": [
+        {
+          "game_id": "2026-W02-DET-BUF",
+          "kickoff_et": "2026-09-17T20:15:00-04:00",
+          "away": "DET",
+          "home": "BUF",
+          "projection": {
+            "away_score": 28,
+            "home_score": 31,
+            "winner": "BUF"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 26.8125,
+              "defense": 26.479166666666668
+            },
+            "home": {
+              "games": 1,
+              "offense": 28.479166666666668,
+              "defense": 26.8125
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "BUF",
+            "spread": -3,
+            "total": 52.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "NO EDGE",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 31,
+            "home_score": 41,
+            "winner": "BUF",
+            "ats": "BUF",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": null,
+            "total_correct": true,
+            "away_error": 3,
+            "home_error": 10
+          }
+        },
+        {
+          "game_id": "2026-W02-PHI-TEN",
+          "kickoff_et": "2026-09-20T13:00:00-04:00",
+          "away": "PHI",
+          "home": "TEN",
+          "projection": {
+            "away_score": 23,
+            "home_score": 20,
+            "winner": "PHI"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 24.479166666666668,
+              "defense": 23.8125
+            },
+            "home": {
+              "games": 1,
+              "offense": 19.8125,
+              "defense": 24.145833333333332
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "PHI",
+            "spread": -4.5,
+            "total": 42.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "TEN",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 24,
+            "home_score": 20,
+            "winner": "PHI",
+            "ats": "TEN",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": true,
+            "away_error": 1,
+            "home_error": 0
+          }
+        },
+        {
+          "game_id": "2026-W02-PIT-NE",
+          "kickoff_et": "2026-09-20T13:00:00-04:00",
+          "away": "PIT",
+          "home": "NE",
+          "projection": {
+            "away_score": 18,
+            "home_score": 17,
+            "winner": "PIT"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 23.145833333333332,
+              "defense": 20.8125
+            },
+            "home": {
+              "games": 1,
+              "offense": 19.8125,
+              "defense": 20.8125
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "NE",
+            "spread": -4.5,
+            "total": 43.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "PIT",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 3,
+            "home_score": 20,
+            "winner": "NE",
+            "ats": "NE",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": true,
+            "away_error": -15,
+            "home_error": 3
+          }
+        },
+        {
+          "game_id": "2026-W02-MIN-CHI",
+          "kickoff_et": "2026-09-20T13:00:00-04:00",
+          "away": "MIN",
+          "home": "CHI",
+          "projection": {
+            "away_score": 33,
+            "home_score": 36,
+            "winner": "CHI"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 29.479166666666668,
+              "defense": 23.8125
+            },
+            "home": {
+              "games": 1,
+              "offense": 36.145833333333336,
+              "defense": 28.8125
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "CHI",
+            "spread": -3.5,
+            "total": 45.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "MIN",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 9,
+            "home_score": 3,
+            "winner": "MIN",
+            "ats": "MIN",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": -24,
+            "home_error": -33
+          }
+        },
+        {
+          "game_id": "2026-W02-CAR-ATL",
+          "kickoff_et": "2026-09-20T13:00:00-04:00",
+          "away": "CAR",
+          "home": "ATL",
+          "projection": {
+            "away_score": 26,
+            "home_score": 33,
+            "winner": "ATL"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 28.8125,
+              "defense": 36.145833333333336
+            },
+            "home": {
+              "games": 1,
+              "offense": 20.8125,
+              "defense": 23.145833333333332
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "ATL",
+            "spread": -1.5,
+            "total": 43.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "ATL",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 34,
+            "home_score": 3,
+            "winner": "CAR",
+            "ats": "CAR",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": 8,
+            "home_error": -30
+          }
+        },
+        {
+          "game_id": "2026-W02-GB-NYJ",
+          "kickoff_et": "2026-09-20T13:00:00-04:00",
+          "away": "GB",
+          "home": "NYJ",
+          "projection": {
+            "away_score": 18,
+            "home_score": 30,
+            "winner": "NYJ"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 23.8125,
+              "defense": 29.479166666666668
+            },
+            "home": {
+              "games": 1,
+              "offense": 24.145833333333332,
+              "defense": 19.8125
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "GB",
+            "spread": -6.5,
+            "total": 42.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "NYJ",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 20,
+            "home_score": 17,
+            "winner": "GB",
+            "ats": "NYJ",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": 2,
+            "home_error": -13
+          }
+        },
+        {
+          "game_id": "2026-W02-NO-BAL",
+          "kickoff_et": "2026-09-20T13:00:00-04:00",
+          "away": "NO",
+          "home": "BAL",
+          "projection": {
+            "away_score": 25,
+            "home_score": 33,
+            "winner": "BAL"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 26.479166666666668,
+              "defense": 26.8125
+            },
+            "home": {
+              "games": 1,
+              "offense": 30.145833333333332,
+              "defense": 24.145833333333332
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "BAL",
+            "spread": -7.5,
+            "total": 46.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "BAL",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 24,
+            "home_score": 17,
+            "winner": "NO",
+            "ats": "NO",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": -1,
+            "home_error": -16
+          }
+        },
+        {
+          "game_id": "2026-W02-CIN-HOU",
+          "kickoff_et": "2026-09-20T13:00:00-04:00",
+          "away": "CIN",
+          "home": "HOU",
+          "projection": {
+            "away_score": 30,
+            "home_score": 28,
+            "winner": "CIN"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 27.479166666666668,
+              "defense": 25.479166666666668
+            },
+            "home": {
+              "games": 1,
+              "offense": 26.8125,
+              "defense": 28.479166666666668
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "HOU",
+            "spread": -2.5,
+            "total": 46.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "CIN",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 20,
+            "home_score": 6,
+            "winner": "CIN",
+            "ats": "CIN",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": -10,
+            "home_error": -22
+          }
+        },
+        {
+          "game_id": "2026-W02-CLE-TB",
+          "kickoff_et": "2026-09-20T13:00:00-04:00",
+          "away": "CLE",
+          "home": "TB",
+          "projection": {
+            "away_score": 22,
+            "home_score": 29,
+            "winner": "TB"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 19.8125,
+              "defense": 27.8125
+            },
+            "home": {
+              "games": 1,
+              "offense": 25.479166666666668,
+              "defense": 27.479166666666668
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "TB",
+            "spread": -5.5,
+            "total": 42.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "TB",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 23,
+            "home_score": 19,
+            "winner": "CLE",
+            "ats": "CLE",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": 1,
+            "home_error": -10
+          }
+        },
+        {
+          "game_id": "2026-W02-JAX-DEN",
+          "kickoff_et": "2026-09-20T16:05:00-04:00",
+          "away": "JAX",
+          "home": "DEN",
+          "projection": {
+            "away_score": 29,
+            "home_score": 16,
+            "winner": "JAX"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 27.8125,
+              "defense": 19.8125
+            },
+            "home": {
+              "games": 1,
+              "offense": 19.8125,
+              "defense": 26.8125
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "DEN",
+            "spread": -2.5,
+            "total": 43.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "JAX",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 13,
+            "home_score": 20,
+            "winner": "DEN",
+            "ats": "DEN",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": -16,
+            "home_error": 4
+          }
+        },
+        {
+          "game_id": "2026-W02-LV-LAC",
+          "kickoff_et": "2026-09-20T16:05:00-04:00",
+          "away": "LV",
+          "home": "LAC",
+          "projection": {
+            "away_score": 25,
+            "home_score": 18,
+            "winner": "LV"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 25.479166666666668,
+              "defense": 20.8125
+            },
+            "home": {
+              "games": 1,
+              "offense": 21.145833333333332,
+              "defense": 25.145833333333332
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "LAC",
+            "spread": -8.5,
+            "total": 42.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "LV",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 26,
+            "home_score": 14,
+            "winner": "LV",
+            "ats": "LV",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": 1,
+            "home_error": -4
+          }
+        },
+        {
+          "game_id": "2026-W02-SEA-ARI",
+          "kickoff_et": "2026-09-20T16:25:00-04:00",
+          "away": "SEA",
+          "home": "ARI",
+          "projection": {
+            "away_score": 16,
+            "home_score": 21,
+            "winner": "ARI"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 20.8125,
+              "defense": 19.8125
+            },
+            "home": {
+              "games": 1,
+              "offense": 25.145833333333332,
+              "defense": 21.145833333333332
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "SEA",
+            "spread": -10,
+            "total": 44.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "ARI",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 31,
+            "home_score": 7,
+            "winner": "SEA",
+            "ats": "SEA",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": true,
+            "away_error": 15,
+            "home_error": -14
+          }
+        },
+        {
+          "game_id": "2026-W02-MIA-SF",
+          "kickoff_et": "2026-09-20T16:25:00-04:00",
+          "away": "MIA",
+          "home": "SF",
+          "projection": {
+            "away_score": 14,
+            "home_score": 27,
+            "winner": "SF"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 20.8125,
+              "defense": 25.479166666666668
+            },
+            "home": {
+              "games": 1,
+              "offense": 25.479166666666668,
+              "defense": 18.8125
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "SF",
+            "spread": -10.5,
+            "total": 46.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "SF",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 13,
+            "home_score": 35,
+            "winner": "SF",
+            "ats": "SF",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": -1,
+            "home_error": 8
+          }
+        },
+        {
+          "game_id": "2026-W02-WAS-DAL",
+          "kickoff_et": "2026-09-20T16:25:00-04:00",
+          "away": "WAS",
+          "home": "DAL",
+          "projection": {
+            "away_score": 24,
+            "home_score": 24,
+            "winner": "TIE"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 23.8125,
+              "defense": 24.479166666666668
+            },
+            "home": {
+              "games": 1,
+              "offense": 23.145833333333332,
+              "defense": 25.8125
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "DAL",
+            "spread": -4.5,
+            "total": 51.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "WAS",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 20,
+            "home_score": 37,
+            "winner": "DAL",
+            "ats": "DAL",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": null,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": -4,
+            "home_error": 13
+          }
+        },
+        {
+          "game_id": "2026-W02-IND-KC",
+          "kickoff_et": "2026-09-20T20:20:00-04:00",
+          "away": "IND",
+          "home": "KC",
+          "projection": {
+            "away_score": 18,
+            "home_score": 33,
+            "winner": "KC"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 24.145833333333332,
+              "defense": 30.145833333333332
+            },
+            "home": {
+              "games": 1,
+              "offense": 26.8125,
+              "defense": 19.8125
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "KC",
+            "spread": -5.5,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "KC",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 30,
+            "home_score": 33,
+            "winner": "KC",
+            "ats": "IND",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": false,
+            "total_correct": true,
+            "away_error": 12,
+            "home_error": 0
+          }
+        },
+        {
+          "game_id": "2026-W02-NYG-LAR",
+          "kickoff_et": "2026-09-21T20:15:00-04:00",
+          "away": "NYG",
+          "home": "LAR",
+          "projection": {
+            "away_score": 26,
+            "home_score": 18,
+            "winner": "NYG"
+          },
+          "model_audit": {
+            "league_points_per_team": 24.71875,
+            "away": {
+              "games": 1,
+              "offense": 25.8125,
+              "defense": 23.145833333333332
+            },
+            "home": {
+              "games": 1,
+              "offense": 18.8125,
+              "defense": 25.479166666666668
+            },
+            "home_effect": 0.75,
+            "through_week": 1,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC"
+            ]
+          },
+          "opening_market": {
+            "favorite": "LAR",
+            "spread": -8.5,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "NYG",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 6,
+            "home_score": 28,
+            "winner": "LAR",
+            "ats": "LAR",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": true,
+            "away_error": -20,
+            "home_error": 10
+          }
+        }
+      ],
+      "summary": {
+        "games": 16,
+        "simulated": 16,
+        "mean_absolute_team_score_error": 10.125,
+        "mean_actual_minus_projected": -4.4375,
+        "winner": {
+          "hits": 6,
+          "misses": 9,
+          "graded": 15
+        },
+        "ats": {
+          "hits": 6,
+          "misses": 9,
+          "graded": 15
+        },
+        "total": {
+          "hits": 6,
+          "misses": 10,
+          "graded": 16
+        }
+      }
+    },
+    {
+      "week": 3,
+      "games": [
+        {
+          "game_id": "2026-W03-ATL-GB",
+          "kickoff_et": "2026-09-24T20:15:00-04:00",
+          "away": "ATL",
+          "home": "GB",
+          "projection": {
+            "away_score": 15,
+            "home_score": 28,
+            "winner": "GB"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 12.395833333333332,
+              "defense": 25.145833333333336
+            },
+            "home": {
+              "games": 2,
+              "offense": 24.395833333333336,
+              "defense": 26.3125
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "GB",
+            "spread": -7.5,
+            "total": 46.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "GB",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 35,
+            "home_score": 14,
+            "winner": "ATL",
+            "ats": "ATL",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": 20,
+            "home_error": -14
+          }
+        },
+        {
+          "game_id": "2026-W03-SEA-WAS",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "away": "SEA",
+          "home": "WAS",
+          "projection": {
+            "away_score": 28,
+            "home_score": 15,
+            "winner": "SEA"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 24.5625,
+              "defense": 15.395833333333334
+            },
+            "home": {
+              "games": 2,
+              "offense": 21.479166666666668,
+              "defense": 26.5625
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "SEA",
+            "spread": -3.5,
+            "total": 46.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "SEA",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 31,
+            "home_score": 33,
+            "winner": "WAS",
+            "ats": "WAS",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": 3,
+            "home_error": 18
+          }
+        },
+        {
+          "game_id": "2026-W03-CIN-PIT",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "away": "CIN",
+          "home": "PIT",
+          "projection": {
+            "away_score": 22,
+            "home_score": 14,
+            "winner": "CIN"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 23.3125,
+              "defense": 19.0625
+            },
+            "home": {
+              "games": 2,
+              "offense": 16.8125,
+              "defense": 22.145833333333336
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "CIN",
+            "spread": -1.5,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "CIN",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 27,
+            "home_score": 30,
+            "winner": "PIT",
+            "ats": "PIT",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": 5,
+            "home_error": 16
+          }
+        },
+        {
+          "game_id": "2026-W03-NYJ-DET",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "away": "NYJ",
+          "home": "DET",
+          "projection": {
+            "away_score": 24,
+            "home_score": 24,
+            "winner": "TIE"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 19.729166666666664,
+              "defense": 18.979166666666668
+            },
+            "home": {
+              "games": 2,
+              "offense": 26.479166666666668,
+              "defense": 27.729166666666664
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "DET",
+            "spread": -9.5,
+            "total": 45.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "NYJ",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 24,
+            "home_score": 31,
+            "winner": "DET",
+            "ats": "NYJ",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": null,
+            "ats_correct": true,
+            "total_correct": true,
+            "away_error": 0,
+            "home_error": 7
+          }
+        },
+        {
+          "game_id": "2026-W03-TEN-NYG",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "away": "TEN",
+          "home": "NYG",
+          "projection": {
+            "away_score": 19,
+            "home_score": 21,
+            "winner": "NYG"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 18.979166666666668,
+              "defense": 23.3125
+            },
+            "home": {
+              "games": 2,
+              "offense": 19.5625,
+              "defense": 23.3125
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "NYG",
+            "spread": -3,
+            "total": 45.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "TEN",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 7,
+            "home_score": 12,
+            "winner": "NYG",
+            "ats": "NYG",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": false,
+            "total_correct": true,
+            "away_error": -12,
+            "home_error": -9
+          }
+        },
+        {
+          "game_id": "2026-W03-NE-JAX",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "away": "NE",
+          "home": "JAX",
+          "projection": {
+            "away_score": 17,
+            "home_score": 16,
+            "winner": "NE"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 20.8125,
+              "defense": 14.729166666666668
+            },
+            "home": {
+              "games": 2,
+              "offense": 22.5625,
+              "defense": 19.729166666666668
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "JAX",
+            "spread": -1.5,
+            "total": 45.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "NE",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 6,
+            "home_score": 35,
+            "winner": "JAX",
+            "ats": "JAX",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": true,
+            "away_error": -11,
+            "home_error": 19
+          }
+        },
+        {
+          "game_id": "2026-W03-KC-MIA",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "away": "KC",
+          "home": "MIA",
+          "projection": {
+            "away_score": 29,
+            "home_score": 19,
+            "winner": "KC"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 26.479166666666668,
+              "defense": 21.395833333333336
+            },
+            "home": {
+              "games": 2,
+              "offense": 19.729166666666668,
+              "defense": 26.0625
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "KC",
+            "spread": -7,
+            "total": 44.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "KC",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 24,
+            "home_score": 10,
+            "winner": "KC",
+            "ats": "KC",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": -5,
+            "home_error": -9
+          }
+        },
+        {
+          "game_id": "2026-W03-HOU-IND",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "away": "HOU",
+          "home": "IND",
+          "projection": {
+            "away_score": 26,
+            "home_score": 26,
+            "winner": "TIE"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 19.395833333333332,
+              "defense": 22.8125
+            },
+            "home": {
+              "games": 2,
+              "offense": 25.395833333333332,
+              "defense": 29.479166666666668
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "HOU",
+            "spread": -1.5,
+            "total": 45.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "IND",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 17,
+            "home_score": 19,
+            "winner": "IND",
+            "ats": "IND",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": null,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": -9,
+            "home_error": -7
+          }
+        },
+        {
+          "game_id": "2026-W03-CAR-CLE",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "away": "CAR",
+          "home": "CLE",
+          "projection": {
+            "away_score": 32,
+            "home_score": 26,
+            "winner": "CAR"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 30.3125,
+              "defense": 29.145833333333336
+            },
+            "home": {
+              "games": 2,
+              "offense": 18.8125,
+              "defense": 24.895833333333332
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "CAR",
+            "spread": -1.5,
+            "total": 39.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "CAR",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 18,
+            "home_score": 21,
+            "winner": "CLE",
+            "ats": "CLE",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": -14,
+            "home_error": -5
+          }
+        },
+        {
+          "game_id": "2026-W03-LAC-BUF",
+          "kickoff_et": "2026-09-27T13:00:00-04:00",
+          "away": "LAC",
+          "home": "BUF",
+          "projection": {
+            "away_score": 22,
+            "home_score": 33,
+            "winner": "BUF"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 18.3125,
+              "defense": 25.145833333333332
+            },
+            "home": {
+              "games": 2,
+              "offense": 30.0625,
+              "defense": 27.395833333333332
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "BUF",
+            "spread": -2.5,
+            "total": 48.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "BUF",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 16,
+            "home_score": 24,
+            "winner": "BUF",
+            "ats": "BUF",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": -6,
+            "home_error": -9
+          }
+        },
+        {
+          "game_id": "2026-W03-MIN-TB",
+          "kickoff_et": "2026-09-27T16:05:00-04:00",
+          "away": "MIN",
+          "home": "TB",
+          "projection": {
+            "away_score": 26,
+            "home_score": 16,
+            "winner": "MIN"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 22.479166666666668,
+              "defense": 14.645833333333332
+            },
+            "home": {
+              "games": 2,
+              "offense": 23.145833333333332,
+              "defense": 26.479166666666668
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "TB",
+            "spread": -1.5,
+            "total": 44.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "MIN",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 23,
+            "home_score": 16,
+            "winner": "MIN",
+            "ats": "MIN",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": true,
+            "away_error": -3,
+            "home_error": 0
+          }
+        },
+        {
+          "game_id": "2026-W03-ARI-SF",
+          "kickoff_et": "2026-09-27T16:05:00-04:00",
+          "away": "ARI",
+          "home": "SF",
+          "projection": {
+            "away_score": 14,
+            "home_score": 30,
+            "winner": "SF"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 20.229166666666668,
+              "defense": 23.979166666666668
+            },
+            "home": {
+              "games": 2,
+              "offense": 27.729166666666664,
+              "defense": 16.5625
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "SF",
+            "spread": -11.5,
+            "total": 46.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "SF",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 30,
+            "home_score": 36,
+            "winner": "SF",
+            "ats": "ARI",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": 16,
+            "home_error": 6
+          }
+        },
+        {
+          "game_id": "2026-W03-LV-NO",
+          "kickoff_et": "2026-09-27T16:25:00-04:00",
+          "away": "LV",
+          "home": "NO",
+          "projection": {
+            "away_score": 21,
+            "home_score": 21,
+            "winner": "TIE"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 23.145833333333336,
+              "defense": 19.479166666666668
+            },
+            "home": {
+              "games": 2,
+              "offense": 23.145833333333336,
+              "defense": 20.979166666666668
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "NO",
+            "spread": -3,
+            "total": 42.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "LV",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 35,
+            "home_score": 27,
+            "winner": "LV",
+            "ats": "LV",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": null,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": 14,
+            "home_error": 6
+          }
+        },
+        {
+          "game_id": "2026-W03-BAL-DAL",
+          "kickoff_et": "2026-09-27T16:25:00-04:00",
+          "away": "BAL",
+          "home": "DAL",
+          "projection": {
+            "away_score": 26,
+            "home_score": 25,
+            "winner": "BAL"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 24.145833333333332,
+              "defense": 21.729166666666664
+            },
+            "home": {
+              "games": 2,
+              "offense": 24.895833333333332,
+              "defense": 24.645833333333332
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "BAL",
+            "spread": -2.5,
+            "total": 50.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "DAL",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 34,
+            "home_score": 31,
+            "winner": "BAL",
+            "ats": "BAL",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": false,
+            "total_correct": true,
+            "away_error": 8,
+            "home_error": 6
+          }
+        },
+        {
+          "game_id": "2026-W03-LAR-DEN",
+          "kickoff_et": "2026-09-27T20:20:00-04:00",
+          "away": "LAR",
+          "home": "DEN",
+          "projection": {
+            "away_score": 18,
+            "home_score": 15,
+            "winner": "LAR"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 20.979166666666668,
+              "defense": 17.979166666666668
+            },
+            "home": {
+              "games": 2,
+              "offense": 19.145833333333332,
+              "defense": 20.395833333333332
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "LAR",
+            "spread": -2.5,
+            "total": 45.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "LAR",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 26,
+            "home_score": 30,
+            "winner": "DEN",
+            "ats": "DEN",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": 8,
+            "home_error": 15
+          }
+        },
+        {
+          "game_id": "2026-W03-PHI-CHI",
+          "kickoff_et": "2026-09-28T20:15:00-04:00",
+          "away": "PHI",
+          "home": "CHI",
+          "projection": {
+            "away_score": 19,
+            "home_score": 30,
+            "winner": "CHI"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.46875,
+            "away": {
+              "games": 2,
+              "offense": 21.979166666666668,
+              "defense": 22.979166666666668
+            },
+            "home": {
+              "games": 2,
+              "offense": 28.395833333333336,
+              "defense": 20.395833333333332
+            },
+            "home_effect": 0.75,
+            "through_week": 2,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR"
+            ]
+          },
+          "opening_market": {
+            "favorite": "CHI",
+            "spread": -1.5,
+            "total": 46.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "CHI",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 7,
+            "home_score": 27,
+            "winner": "CHI",
+            "ats": "CHI",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": -12,
+            "home_error": -3
+          }
+        }
+      ],
+      "summary": {
+        "games": 16,
+        "simulated": 16,
+        "mean_absolute_team_score_error": 9.21875,
+        "mean_actual_minus_projected": 1.21875,
+        "winner": {
+          "hits": 7,
+          "misses": 6,
+          "graded": 13
+        },
+        "ats": {
+          "hits": 7,
+          "misses": 9,
+          "graded": 16
+        },
+        "total": {
+          "hits": 5,
+          "misses": 11,
+          "graded": 16
+        }
+      }
+    },
+    {
+      "week": 4,
+      "games": [
+        {
+          "game_id": "2026-W04-PIT-CLE",
+          "kickoff_et": "2026-10-01T20:15:00-04:00",
+          "away": "PIT",
+          "home": "CLE",
+          "projection": {
+            "away_score": 19,
+            "home_score": 20,
+            "winner": "CLE"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 20.080208333333335,
+              "defense": 22.396875
+            },
+            "home": {
+              "games": 3,
+              "offense": 19.655208333333338,
+              "defense": 22.305208333333336
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "PIT",
+            "spread": -2.5,
+            "total": 40.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "CLE",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 24,
+            "home_score": 27,
+            "winner": "CLE",
+            "ats": "CLE",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": 5,
+            "home_error": 7
+          }
+        },
+        {
+          "game_id": "2026-W04-IND-WAS",
+          "kickoff_et": "2026-10-04T09:30:00-04:00",
+          "away": "IND",
+          "home": "WAS",
+          "projection": {
+            "away_score": 29,
+            "home_score": 29,
+            "winner": "TIE"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 23.796875,
+              "defense": 27.096875000000004
+            },
+            "home": {
+              "games": 3,
+              "offense": 24.605208333333337,
+              "defense": 28.005208333333336
+            },
+            "home_effect": 0,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "WAS",
+            "spread": -1.5,
+            "total": 48.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "IND",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 30,
+            "home_score": 13,
+            "winner": "IND",
+            "ats": "IND",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": null,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": 1,
+            "home_error": -16
+          }
+        },
+        {
+          "game_id": "2026-W04-ARI-NYG",
+          "kickoff_et": "2026-10-04T13:00:00-04:00",
+          "away": "ARI",
+          "home": "NYG",
+          "projection": {
+            "away_score": 20,
+            "home_score": 21,
+            "winner": "NYG"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 22.746875,
+              "defense": 25.38854166666667
+            },
+            "home": {
+              "games": 3,
+              "offense": 17.471875000000004,
+              "defense": 20.396875
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "NYG",
+            "spread": -7,
+            "total": 45.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "ARI",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 24,
+            "home_score": 36,
+            "winner": "NYG",
+            "ats": "NYG",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": 4,
+            "home_error": 15
+          }
+        },
+        {
+          "game_id": "2026-W04-DAL-HOU",
+          "kickoff_et": "2026-10-04T13:00:00-04:00",
+          "away": "DAL",
+          "home": "HOU",
+          "projection": {
+            "away_score": 26,
+            "home_score": 22,
+            "winner": "DAL"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 26.746875000000003,
+              "defense": 25.796875
+            },
+            "home": {
+              "games": 3,
+              "offense": 18.23854166666667,
+              "defense": 22.43854166666667
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "HOU",
+            "spread": -2.5,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "DAL",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 34,
+            "home_score": 30,
+            "winner": "DAL",
+            "ats": "DAL",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": true,
+            "away_error": 8,
+            "home_error": 8
+          }
+        },
+        {
+          "game_id": "2026-W04-GB-TB",
+          "kickoff_et": "2026-10-04T13:00:00-04:00",
+          "away": "GB",
+          "home": "TB",
+          "projection": {
+            "away_score": 23,
+            "home_score": 30,
+            "winner": "TB"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 21.305208333333333,
+              "defense": 29.096875
+            },
+            "home": {
+              "games": 3,
+              "offense": 22.546875,
+              "defense": 25.405208333333338
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "GB",
+            "spread": -1.5,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "TB",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 17,
+            "home_score": 14,
+            "winner": "GB",
+            "ats": "GB",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": -6,
+            "home_error": -16
+          }
+        },
+        {
+          "game_id": "2026-W04-JAX-CIN",
+          "kickoff_et": "2026-10-04T13:00:00-04:00",
+          "away": "JAX",
+          "home": "CIN",
+          "projection": {
+            "away_score": 26,
+            "home_score": 20,
+            "winner": "JAX"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 26.671875,
+              "defense": 17.305208333333333
+            },
+            "home": {
+              "games": 3,
+              "offense": 25.271875,
+              "defense": 23.038541666666667
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "CIN",
+            "spread": -2.5,
+            "total": 51.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "JAX",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 22,
+            "home_score": 17,
+            "winner": "JAX",
+            "ats": "JAX",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": true,
+            "away_error": -4,
+            "home_error": -3
+          }
+        },
+        {
+          "game_id": "2026-W04-LAR-PHI",
+          "kickoff_et": "2026-10-04T13:00:00-04:00",
+          "away": "LAR",
+          "home": "PHI",
+          "projection": {
+            "away_score": 22,
+            "home_score": 19,
+            "winner": "LAR"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 22.305208333333333,
+              "defense": 21.580208333333335
+            },
+            "home": {
+              "games": 3,
+              "offense": 19.646875,
+              "defense": 23.155208333333338
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "LAR",
+            "spread": -1.5,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "LAR",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 24,
+            "home_score": 20,
+            "winner": "LAR",
+            "ats": "LAR",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": true,
+            "away_error": 2,
+            "home_error": 1
+          }
+        },
+        {
+          "game_id": "2026-W04-NE-BUF",
+          "kickoff_et": "2026-10-04T13:00:00-04:00",
+          "away": "NE",
+          "home": "BUF",
+          "projection": {
+            "away_score": 20,
+            "home_score": 25,
+            "winner": "BUF"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 17.471875,
+              "defense": 18.430208333333336
+            },
+            "home": {
+              "games": 3,
+              "offense": 29.01354166666667,
+              "defense": 25.746875
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "BUF",
+            "spread": -3,
+            "total": 49.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "BUF",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 29,
+            "home_score": 26,
+            "winner": "NE",
+            "ats": "NE",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": 9,
+            "home_error": 1
+          }
+        },
+        {
+          "game_id": "2026-W04-NYJ-CHI",
+          "kickoff_et": "2026-10-04T13:00:00-04:00",
+          "away": "NYJ",
+          "home": "CHI",
+          "projection": {
+            "away_score": 15,
+            "home_score": 28,
+            "winner": "CHI"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 20.11354166666667,
+              "defense": 21.846875000000004
+            },
+            "home": {
+              "games": 3,
+              "offense": 28.321875000000002,
+              "defense": 18.705208333333335
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "CHI",
+            "spread": -8.5,
+            "total": 45.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "CHI",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 12,
+            "home_score": 23,
+            "winner": "CHI",
+            "ats": "CHI",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": true,
+            "away_error": -3,
+            "home_error": -5
+          }
+        },
+        {
+          "game_id": "2026-W04-TEN-BAL",
+          "kickoff_et": "2026-10-04T13:00:00-04:00",
+          "away": "TEN",
+          "home": "BAL",
+          "projection": {
+            "away_score": 16,
+            "home_score": 27,
+            "winner": "BAL"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 16.088541666666668,
+              "defense": 22.23854166666667
+            },
+            "home": {
+              "games": 3,
+              "offense": 26.421875,
+              "defense": 23.663541666666667
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "BAL",
+            "spread": -8.5,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "BAL",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 18,
+            "home_score": 24,
+            "winner": "BAL",
+            "ats": "TEN",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": false,
+            "total_correct": true,
+            "away_error": 2,
+            "home_error": -3
+          }
+        },
+        {
+          "game_id": "2026-W04-MIA-MIN",
+          "kickoff_et": "2026-10-04T16:05:00-04:00",
+          "away": "MIA",
+          "home": "MIN",
+          "projection": {
+            "away_score": 10,
+            "home_score": 25,
+            "winner": "MIN"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 17.13854166666667,
+              "defense": 24.221875000000004
+            },
+            "home": {
+              "games": 3,
+              "offense": 22.721875000000004,
+              "defense": 16.13854166666667
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "MIN",
+            "spread": -7.5,
+            "total": 43.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "MIN",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 10,
+            "home_score": 15,
+            "winner": "MIN",
+            "ats": "MIA",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": false,
+            "total_correct": true,
+            "away_error": 0,
+            "home_error": -10
+          }
+        },
+        {
+          "game_id": "2026-W04-DEN-SF",
+          "kickoff_et": "2026-10-04T16:25:00-04:00",
+          "away": "DEN",
+          "home": "SF",
+          "projection": {
+            "away_score": 20,
+            "home_score": 29,
+            "winner": "SF"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 23.146875,
+              "defense": 22.146875
+            },
+            "home": {
+              "games": 3,
+              "offense": 28.955208333333335,
+              "defense": 20.271875
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "SF",
+            "spread": -2.5,
+            "total": 46.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "SF",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 14,
+            "home_score": 24,
+            "winner": "SF",
+            "ats": "SF",
+            "total": "UNDER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": -6,
+            "home_error": -5
+          }
+        },
+        {
+          "game_id": "2026-W04-KC-LV",
+          "kickoff_et": "2026-10-04T16:25:00-04:00",
+          "away": "KC",
+          "home": "LV",
+          "projection": {
+            "away_score": 23,
+            "home_score": 24,
+            "winner": "LV"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 25.830208333333335,
+              "defense": 19.93854166666667
+            },
+            "home": {
+              "games": 3,
+              "offense": 25.913541666666667,
+              "defense": 21.196875000000002
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "KC",
+            "spread": -5.5,
+            "total": 43.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "LV",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 30,
+            "home_score": 27,
+            "winner": "KC",
+            "ats": "LV",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": true,
+            "total_correct": true,
+            "away_error": 7,
+            "home_error": 3
+          }
+        },
+        {
+          "game_id": "2026-W04-LAC-SEA",
+          "kickoff_et": "2026-10-04T16:25:00-04:00",
+          "away": "LAC",
+          "home": "SEA",
+          "projection": {
+            "away_score": 13,
+            "home_score": 24,
+            "winner": "SEA"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 16.61354166666667,
+              "defense": 22.721875000000004
+            },
+            "home": {
+              "games": 3,
+              "offense": 23.646875,
+              "defense": 19.68854166666667
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "SEA",
+            "spread": -3,
+            "total": 45.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "SEA",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 23,
+            "home_score": 30,
+            "winner": "SEA",
+            "ats": "SEA",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": false,
+            "away_error": 10,
+            "home_error": 6
+          }
+        },
+        {
+          "game_id": "2026-W04-DET-CAR",
+          "kickoff_et": "2026-10-04T20:20:00-04:00",
+          "away": "DET",
+          "home": "CAR",
+          "projection": {
+            "away_score": 31,
+            "home_score": 34,
+            "winner": "CAR"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 28.080208333333335,
+              "defense": 27.56354166666667
+            },
+            "home": {
+              "games": 3,
+              "offense": 28.36354166666667,
+              "defense": 26.83020833333333
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "DET",
+            "spread": -3,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "CAR",
+            "total_lean": "OVER"
+          },
+          "actual": {
+            "away_score": 26,
+            "home_score": 32,
+            "winner": "CAR",
+            "ats": "CAR",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": true,
+            "ats_correct": true,
+            "total_correct": true,
+            "away_error": -5,
+            "home_error": -2
+          }
+        },
+        {
+          "game_id": "2026-W04-ATL-NO",
+          "kickoff_et": "2026-10-05T20:15:00-04:00",
+          "away": "ATL",
+          "home": "NO",
+          "projection": {
+            "away_score": 17,
+            "home_score": 26,
+            "winner": "NO"
+          },
+          "model_audit": {
+            "league_points_per_team": 22.854166666666668,
+            "away": {
+              "games": 3,
+              "offense": 17.430208333333336,
+              "defense": 23.038541666666667
+            },
+            "home": {
+              "games": 3,
+              "offense": 24.971875000000004,
+              "defense": 23.538541666666667
+            },
+            "home_effect": 0.75,
+            "through_week": 3,
+            "input_game_ids": [
+              "2026-W01-NE-SEA",
+              "2026-W01-SF-LAR",
+              "2026-W01-ATL-PIT",
+              "2026-W01-BAL-IND",
+              "2026-W01-BUF-HOU",
+              "2026-W01-CHI-CAR",
+              "2026-W01-CLE-JAX",
+              "2026-W01-NO-DET",
+              "2026-W01-NYJ-TEN",
+              "2026-W01-TB-CIN",
+              "2026-W01-ARI-LAC",
+              "2026-W01-GB-MIN",
+              "2026-W01-MIA-LV",
+              "2026-W01-WAS-PHI",
+              "2026-W01-DAL-NYG",
+              "2026-W01-DEN-KC",
+              "2026-W02-DET-BUF",
+              "2026-W02-PHI-TEN",
+              "2026-W02-PIT-NE",
+              "2026-W02-MIN-CHI",
+              "2026-W02-CAR-ATL",
+              "2026-W02-GB-NYJ",
+              "2026-W02-NO-BAL",
+              "2026-W02-CIN-HOU",
+              "2026-W02-CLE-TB",
+              "2026-W02-JAX-DEN",
+              "2026-W02-LV-LAC",
+              "2026-W02-SEA-ARI",
+              "2026-W02-MIA-SF",
+              "2026-W02-WAS-DAL",
+              "2026-W02-IND-KC",
+              "2026-W02-NYG-LAR",
+              "2026-W03-ATL-GB",
+              "2026-W03-SEA-WAS",
+              "2026-W03-CIN-PIT",
+              "2026-W03-NYJ-DET",
+              "2026-W03-TEN-NYG",
+              "2026-W03-NE-JAX",
+              "2026-W03-KC-MIA",
+              "2026-W03-HOU-IND",
+              "2026-W03-CAR-CLE",
+              "2026-W03-LAC-BUF",
+              "2026-W03-MIN-TB",
+              "2026-W03-ARI-SF",
+              "2026-W03-LV-NO",
+              "2026-W03-BAL-DAL",
+              "2026-W03-LAR-DEN",
+              "2026-W03-PHI-CHI"
+            ]
+          },
+          "opening_market": {
+            "favorite": "NO",
+            "spread": -2.5,
+            "total": 45.5,
+            "provider": "ScoresAndOdds",
+            "source_url": "https://www.scoresandodds.com/nfl"
+          },
+          "directional_comparison": {
+            "ats_lean": "NO",
+            "total_lean": "UNDER"
+          },
+          "actual": {
+            "away_score": 45,
+            "home_score": 24,
+            "winner": "ATL",
+            "ats": "ATL",
+            "total": "OVER"
+          },
+          "evaluation": {
+            "winner_correct": false,
+            "ats_correct": false,
+            "total_correct": false,
+            "away_error": 28,
+            "home_error": -2
+          }
+        }
+      ],
+      "summary": {
+        "games": 16,
+        "simulated": 16,
+        "mean_absolute_team_score_error": 6.34375,
+        "mean_actual_minus_projected": 0.96875,
+        "winner": {
+          "hits": 11,
+          "misses": 4,
+          "graded": 15
+        },
+        "ats": {
+          "hits": 10,
+          "misses": 6,
+          "graded": 16
+        },
+        "total": {
+          "hits": 8,
+          "misses": 8,
+          "graded": 16
+        }
+      }
+    }
+  ],
+  "teams": {
+    "ARI": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-SEA-ARI",
+          "opponent": "SEA",
+          "projected_points": 21,
+          "actual_points": 7,
+          "error": -14
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-ARI-SF",
+          "opponent": "SF",
+          "projected_points": 14,
+          "actual_points": 30,
+          "error": 16
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-ARI-NYG",
+          "opponent": "NYG",
+          "projected_points": 20,
+          "actual_points": 24,
+          "error": 4
+        }
+      ],
+      "mean_error": 2,
+      "mean_absolute_error": 11.333333333333334
+    },
+    "ATL": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-CAR-ATL",
+          "opponent": "CAR",
+          "projected_points": 33,
+          "actual_points": 3,
+          "error": -30
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-ATL-GB",
+          "opponent": "GB",
+          "projected_points": 15,
+          "actual_points": 35,
+          "error": 20
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-ATL-NO",
+          "opponent": "NO",
+          "projected_points": 17,
+          "actual_points": 45,
+          "error": 28
+        }
+      ],
+      "mean_error": 6,
+      "mean_absolute_error": 26
+    },
+    "BAL": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-NO-BAL",
+          "opponent": "NO",
+          "projected_points": 33,
+          "actual_points": 17,
+          "error": -16
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-BAL-DAL",
+          "opponent": "DAL",
+          "projected_points": 26,
+          "actual_points": 34,
+          "error": 8
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-TEN-BAL",
+          "opponent": "TEN",
+          "projected_points": 27,
+          "actual_points": 24,
+          "error": -3
+        }
+      ],
+      "mean_error": -3.6666666666666665,
+      "mean_absolute_error": 9
+    },
+    "BUF": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-DET-BUF",
+          "opponent": "DET",
+          "projected_points": 31,
+          "actual_points": 41,
+          "error": 10
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LAC-BUF",
+          "opponent": "LAC",
+          "projected_points": 33,
+          "actual_points": 24,
+          "error": -9
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-NE-BUF",
+          "opponent": "NE",
+          "projected_points": 25,
+          "actual_points": 26,
+          "error": 1
+        }
+      ],
+      "mean_error": 0.6666666666666666,
+      "mean_absolute_error": 6.666666666666667
+    },
+    "CAR": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-CAR-ATL",
+          "opponent": "ATL",
+          "projected_points": 26,
+          "actual_points": 34,
+          "error": 8
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-CAR-CLE",
+          "opponent": "CLE",
+          "projected_points": 32,
+          "actual_points": 18,
+          "error": -14
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-DET-CAR",
+          "opponent": "DET",
+          "projected_points": 34,
+          "actual_points": 32,
+          "error": -2
+        }
+      ],
+      "mean_error": -2.6666666666666665,
+      "mean_absolute_error": 8
+    },
+    "CHI": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-MIN-CHI",
+          "opponent": "MIN",
+          "projected_points": 36,
+          "actual_points": 3,
+          "error": -33
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-PHI-CHI",
+          "opponent": "PHI",
+          "projected_points": 30,
+          "actual_points": 27,
+          "error": -3
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-NYJ-CHI",
+          "opponent": "NYJ",
+          "projected_points": 28,
+          "actual_points": 23,
+          "error": -5
+        }
+      ],
+      "mean_error": -13.666666666666666,
+      "mean_absolute_error": 13.666666666666666
+    },
+    "CIN": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-CIN-HOU",
+          "opponent": "HOU",
+          "projected_points": 30,
+          "actual_points": 20,
+          "error": -10
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-CIN-PIT",
+          "opponent": "PIT",
+          "projected_points": 22,
+          "actual_points": 27,
+          "error": 5
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-JAX-CIN",
+          "opponent": "JAX",
+          "projected_points": 20,
+          "actual_points": 17,
+          "error": -3
+        }
+      ],
+      "mean_error": -2.6666666666666665,
+      "mean_absolute_error": 6
+    },
+    "CLE": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-CLE-TB",
+          "opponent": "TB",
+          "projected_points": 22,
+          "actual_points": 23,
+          "error": 1
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-CAR-CLE",
+          "opponent": "CAR",
+          "projected_points": 26,
+          "actual_points": 21,
+          "error": -5
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-PIT-CLE",
+          "opponent": "PIT",
+          "projected_points": 20,
+          "actual_points": 27,
+          "error": 7
+        }
+      ],
+      "mean_error": 1,
+      "mean_absolute_error": 4.333333333333333
+    },
+    "DAL": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-WAS-DAL",
+          "opponent": "WAS",
+          "projected_points": 24,
+          "actual_points": 37,
+          "error": 13
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-BAL-DAL",
+          "opponent": "BAL",
+          "projected_points": 25,
+          "actual_points": 31,
+          "error": 6
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-DAL-HOU",
+          "opponent": "HOU",
+          "projected_points": 26,
+          "actual_points": 34,
+          "error": 8
+        }
+      ],
+      "mean_error": 9,
+      "mean_absolute_error": 9
+    },
+    "DEN": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-JAX-DEN",
+          "opponent": "JAX",
+          "projected_points": 16,
+          "actual_points": 20,
+          "error": 4
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LAR-DEN",
+          "opponent": "LAR",
+          "projected_points": 15,
+          "actual_points": 30,
+          "error": 15
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-DEN-SF",
+          "opponent": "SF",
+          "projected_points": 20,
+          "actual_points": 14,
+          "error": -6
+        }
+      ],
+      "mean_error": 4.333333333333333,
+      "mean_absolute_error": 8.333333333333334
+    },
+    "DET": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-DET-BUF",
+          "opponent": "BUF",
+          "projected_points": 28,
+          "actual_points": 31,
+          "error": 3
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-NYJ-DET",
+          "opponent": "NYJ",
+          "projected_points": 24,
+          "actual_points": 31,
+          "error": 7
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-DET-CAR",
+          "opponent": "CAR",
+          "projected_points": 31,
+          "actual_points": 26,
+          "error": -5
+        }
+      ],
+      "mean_error": 1.6666666666666667,
+      "mean_absolute_error": 5
+    },
+    "GB": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-GB-NYJ",
+          "opponent": "NYJ",
+          "projected_points": 18,
+          "actual_points": 20,
+          "error": 2
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-ATL-GB",
+          "opponent": "ATL",
+          "projected_points": 28,
+          "actual_points": 14,
+          "error": -14
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-GB-TB",
+          "opponent": "TB",
+          "projected_points": 23,
+          "actual_points": 17,
+          "error": -6
+        }
+      ],
+      "mean_error": -6,
+      "mean_absolute_error": 7.333333333333333
+    },
+    "HOU": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-CIN-HOU",
+          "opponent": "CIN",
+          "projected_points": 28,
+          "actual_points": 6,
+          "error": -22
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-HOU-IND",
+          "opponent": "IND",
+          "projected_points": 26,
+          "actual_points": 17,
+          "error": -9
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-DAL-HOU",
+          "opponent": "DAL",
+          "projected_points": 22,
+          "actual_points": 30,
+          "error": 8
+        }
+      ],
+      "mean_error": -7.666666666666667,
+      "mean_absolute_error": 13
+    },
+    "IND": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-IND-KC",
+          "opponent": "KC",
+          "projected_points": 18,
+          "actual_points": 30,
+          "error": 12
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-HOU-IND",
+          "opponent": "HOU",
+          "projected_points": 26,
+          "actual_points": 19,
+          "error": -7
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-IND-WAS",
+          "opponent": "WAS",
+          "projected_points": 29,
+          "actual_points": 30,
+          "error": 1
+        }
+      ],
+      "mean_error": 2,
+      "mean_absolute_error": 6.666666666666667
+    },
+    "JAX": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-JAX-DEN",
+          "opponent": "DEN",
+          "projected_points": 29,
+          "actual_points": 13,
+          "error": -16
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-NE-JAX",
+          "opponent": "NE",
+          "projected_points": 16,
+          "actual_points": 35,
+          "error": 19
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-JAX-CIN",
+          "opponent": "CIN",
+          "projected_points": 26,
+          "actual_points": 22,
+          "error": -4
+        }
+      ],
+      "mean_error": -0.3333333333333333,
+      "mean_absolute_error": 13
+    },
+    "KC": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-IND-KC",
+          "opponent": "IND",
+          "projected_points": 33,
+          "actual_points": 33,
+          "error": 0
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-KC-MIA",
+          "opponent": "MIA",
+          "projected_points": 29,
+          "actual_points": 24,
+          "error": -5
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-KC-LV",
+          "opponent": "LV",
+          "projected_points": 23,
+          "actual_points": 30,
+          "error": 7
+        }
+      ],
+      "mean_error": 0.6666666666666666,
+      "mean_absolute_error": 4
+    },
+    "LAC": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-LV-LAC",
+          "opponent": "LV",
+          "projected_points": 18,
+          "actual_points": 14,
+          "error": -4
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LAC-BUF",
+          "opponent": "BUF",
+          "projected_points": 22,
+          "actual_points": 16,
+          "error": -6
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-LAC-SEA",
+          "opponent": "SEA",
+          "projected_points": 13,
+          "actual_points": 23,
+          "error": 10
+        }
+      ],
+      "mean_error": 0,
+      "mean_absolute_error": 6.666666666666667
+    },
+    "LAR": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-NYG-LAR",
+          "opponent": "NYG",
+          "projected_points": 18,
+          "actual_points": 28,
+          "error": 10
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LAR-DEN",
+          "opponent": "DEN",
+          "projected_points": 18,
+          "actual_points": 26,
+          "error": 8
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-LAR-PHI",
+          "opponent": "PHI",
+          "projected_points": 22,
+          "actual_points": 24,
+          "error": 2
+        }
+      ],
+      "mean_error": 6.666666666666667,
+      "mean_absolute_error": 6.666666666666667
+    },
+    "LV": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-LV-LAC",
+          "opponent": "LAC",
+          "projected_points": 25,
+          "actual_points": 26,
+          "error": 1
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LV-NO",
+          "opponent": "NO",
+          "projected_points": 21,
+          "actual_points": 35,
+          "error": 14
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-KC-LV",
+          "opponent": "KC",
+          "projected_points": 24,
+          "actual_points": 27,
+          "error": 3
+        }
+      ],
+      "mean_error": 6,
+      "mean_absolute_error": 6
+    },
+    "MIA": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-MIA-SF",
+          "opponent": "SF",
+          "projected_points": 14,
+          "actual_points": 13,
+          "error": -1
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-KC-MIA",
+          "opponent": "KC",
+          "projected_points": 19,
+          "actual_points": 10,
+          "error": -9
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-MIA-MIN",
+          "opponent": "MIN",
+          "projected_points": 10,
+          "actual_points": 10,
+          "error": 0
+        }
+      ],
+      "mean_error": -3.3333333333333335,
+      "mean_absolute_error": 3.3333333333333335
+    },
+    "MIN": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-MIN-CHI",
+          "opponent": "CHI",
+          "projected_points": 33,
+          "actual_points": 9,
+          "error": -24
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-MIN-TB",
+          "opponent": "TB",
+          "projected_points": 26,
+          "actual_points": 23,
+          "error": -3
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-MIA-MIN",
+          "opponent": "MIA",
+          "projected_points": 25,
+          "actual_points": 15,
+          "error": -10
+        }
+      ],
+      "mean_error": -12.333333333333334,
+      "mean_absolute_error": 12.333333333333334
+    },
+    "NE": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-PIT-NE",
+          "opponent": "PIT",
+          "projected_points": 17,
+          "actual_points": 20,
+          "error": 3
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-NE-JAX",
+          "opponent": "JAX",
+          "projected_points": 17,
+          "actual_points": 6,
+          "error": -11
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-NE-BUF",
+          "opponent": "BUF",
+          "projected_points": 20,
+          "actual_points": 29,
+          "error": 9
+        }
+      ],
+      "mean_error": 0.3333333333333333,
+      "mean_absolute_error": 7.666666666666667
+    },
+    "NO": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-NO-BAL",
+          "opponent": "BAL",
+          "projected_points": 25,
+          "actual_points": 24,
+          "error": -1
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-LV-NO",
+          "opponent": "LV",
+          "projected_points": 21,
+          "actual_points": 27,
+          "error": 6
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-ATL-NO",
+          "opponent": "ATL",
+          "projected_points": 26,
+          "actual_points": 24,
+          "error": -2
+        }
+      ],
+      "mean_error": 1,
+      "mean_absolute_error": 3
+    },
+    "NYG": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-NYG-LAR",
+          "opponent": "LAR",
+          "projected_points": 26,
+          "actual_points": 6,
+          "error": -20
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-TEN-NYG",
+          "opponent": "TEN",
+          "projected_points": 21,
+          "actual_points": 12,
+          "error": -9
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-ARI-NYG",
+          "opponent": "ARI",
+          "projected_points": 21,
+          "actual_points": 36,
+          "error": 15
+        }
+      ],
+      "mean_error": -4.666666666666667,
+      "mean_absolute_error": 14.666666666666666
+    },
+    "NYJ": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-GB-NYJ",
+          "opponent": "GB",
+          "projected_points": 30,
+          "actual_points": 17,
+          "error": -13
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-NYJ-DET",
+          "opponent": "DET",
+          "projected_points": 24,
+          "actual_points": 24,
+          "error": 0
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-NYJ-CHI",
+          "opponent": "CHI",
+          "projected_points": 15,
+          "actual_points": 12,
+          "error": -3
+        }
+      ],
+      "mean_error": -5.333333333333333,
+      "mean_absolute_error": 5.333333333333333
+    },
+    "PHI": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-PHI-TEN",
+          "opponent": "TEN",
+          "projected_points": 23,
+          "actual_points": 24,
+          "error": 1
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-PHI-CHI",
+          "opponent": "CHI",
+          "projected_points": 19,
+          "actual_points": 7,
+          "error": -12
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-LAR-PHI",
+          "opponent": "LAR",
+          "projected_points": 19,
+          "actual_points": 20,
+          "error": 1
+        }
+      ],
+      "mean_error": -3.3333333333333335,
+      "mean_absolute_error": 4.666666666666667
+    },
+    "PIT": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-PIT-NE",
+          "opponent": "NE",
+          "projected_points": 18,
+          "actual_points": 3,
+          "error": -15
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-CIN-PIT",
+          "opponent": "CIN",
+          "projected_points": 14,
+          "actual_points": 30,
+          "error": 16
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-PIT-CLE",
+          "opponent": "CLE",
+          "projected_points": 19,
+          "actual_points": 24,
+          "error": 5
+        }
+      ],
+      "mean_error": 2,
+      "mean_absolute_error": 12
+    },
+    "SEA": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-SEA-ARI",
+          "opponent": "ARI",
+          "projected_points": 16,
+          "actual_points": 31,
+          "error": 15
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-SEA-WAS",
+          "opponent": "WAS",
+          "projected_points": 28,
+          "actual_points": 31,
+          "error": 3
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-LAC-SEA",
+          "opponent": "LAC",
+          "projected_points": 24,
+          "actual_points": 30,
+          "error": 6
+        }
+      ],
+      "mean_error": 8,
+      "mean_absolute_error": 8
+    },
+    "SF": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-MIA-SF",
+          "opponent": "MIA",
+          "projected_points": 27,
+          "actual_points": 35,
+          "error": 8
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-ARI-SF",
+          "opponent": "ARI",
+          "projected_points": 30,
+          "actual_points": 36,
+          "error": 6
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-DEN-SF",
+          "opponent": "DEN",
+          "projected_points": 29,
+          "actual_points": 24,
+          "error": -5
+        }
+      ],
+      "mean_error": 3,
+      "mean_absolute_error": 6.333333333333333
+    },
+    "TB": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-CLE-TB",
+          "opponent": "CLE",
+          "projected_points": 29,
+          "actual_points": 19,
+          "error": -10
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-MIN-TB",
+          "opponent": "MIN",
+          "projected_points": 16,
+          "actual_points": 16,
+          "error": 0
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-GB-TB",
+          "opponent": "GB",
+          "projected_points": 30,
+          "actual_points": 14,
+          "error": -16
+        }
+      ],
+      "mean_error": -8.666666666666666,
+      "mean_absolute_error": 8.666666666666666
+    },
+    "TEN": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-PHI-TEN",
+          "opponent": "PHI",
+          "projected_points": 20,
+          "actual_points": 20,
+          "error": 0
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-TEN-NYG",
+          "opponent": "NYG",
+          "projected_points": 19,
+          "actual_points": 7,
+          "error": -12
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-TEN-BAL",
+          "opponent": "BAL",
+          "projected_points": 16,
+          "actual_points": 18,
+          "error": 2
+        }
+      ],
+      "mean_error": -3.3333333333333335,
+      "mean_absolute_error": 4.666666666666667
+    },
+    "WAS": {
+      "history": [
+        {
+          "week": 2,
+          "game_id": "2026-W02-WAS-DAL",
+          "opponent": "DAL",
+          "projected_points": 24,
+          "actual_points": 20,
+          "error": -4
+        },
+        {
+          "week": 3,
+          "game_id": "2026-W03-SEA-WAS",
+          "opponent": "SEA",
+          "projected_points": 15,
+          "actual_points": 33,
+          "error": 18
+        },
+        {
+          "week": 4,
+          "game_id": "2026-W04-IND-WAS",
+          "opponent": "IND",
+          "projected_points": 29,
+          "actual_points": 13,
+          "error": -16
+        }
+      ],
+      "mean_error": -0.6666666666666666,
+      "mean_absolute_error": 12.666666666666666
+    }
+  }
+}
