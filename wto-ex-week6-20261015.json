@@ -1,0 +1,1301 @@
+{
+  "schema_version": 1,
+  "label": "WTO EX",
+  "model_version": "empirical-errors-v1",
+  "generated_at": "2026-10-15T19:35:45.215Z",
+  "week": 6,
+  "through_week": 5,
+  "method": "Add prior actual-minus-projected margin/total errors to this game's saved projected scores. Count winning, losing and push outcomes against the displayed line. Add one prior observation to each possible outcome (two for half-point lines, three for integer lines). Uncalibrated experimental estimates; no Week 6 outcomes used.",
+  "limitations": [
+    "Weeks 2–4 residuals come from a retrospective simulation whose parameters were selected after outcomes.",
+    "Week 5 uses archived pregame projections; small sample and changing personnel limit accuracy.",
+    "Market is used only as an evaluation threshold. No odds-derived win probabilities.",
+    "No automatic model tuning; versioned changes require supporting Tuesday review evidence."
+  ],
+  "training_residuals": [
+    {
+      "game_id": "2026-W02-DET-BUF",
+      "week": 2,
+      "margin_error": -7,
+      "total_error": 13,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-PHI-TEN",
+      "week": 2,
+      "margin_error": 1,
+      "total_error": 1,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-PIT-NE",
+      "week": 2,
+      "margin_error": -18,
+      "total_error": -12,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-MIN-CHI",
+      "week": 2,
+      "margin_error": 9,
+      "total_error": -57,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-CAR-ATL",
+      "week": 2,
+      "margin_error": 38,
+      "total_error": -22,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-GB-NYJ",
+      "week": 2,
+      "margin_error": 15,
+      "total_error": -11,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-NO-BAL",
+      "week": 2,
+      "margin_error": 15,
+      "total_error": -17,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-CIN-HOU",
+      "week": 2,
+      "margin_error": 12,
+      "total_error": -32,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-CLE-TB",
+      "week": 2,
+      "margin_error": 11,
+      "total_error": -9,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-JAX-DEN",
+      "week": 2,
+      "margin_error": -20,
+      "total_error": -12,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-LV-LAC",
+      "week": 2,
+      "margin_error": 5,
+      "total_error": -3,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-SEA-ARI",
+      "week": 2,
+      "margin_error": 29,
+      "total_error": 1,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-MIA-SF",
+      "week": 2,
+      "margin_error": -9,
+      "total_error": 7,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-WAS-DAL",
+      "week": 2,
+      "margin_error": -17,
+      "total_error": 9,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-IND-KC",
+      "week": 2,
+      "margin_error": 12,
+      "total_error": 12,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W02-NYG-LAR",
+      "week": 2,
+      "margin_error": -30,
+      "total_error": -10,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-ATL-GB",
+      "week": 3,
+      "margin_error": 34,
+      "total_error": 6,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-SEA-WAS",
+      "week": 3,
+      "margin_error": -15,
+      "total_error": 21,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-CIN-PIT",
+      "week": 3,
+      "margin_error": -11,
+      "total_error": 21,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-NYJ-DET",
+      "week": 3,
+      "margin_error": -7,
+      "total_error": 7,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-TEN-NYG",
+      "week": 3,
+      "margin_error": -3,
+      "total_error": -21,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-NE-JAX",
+      "week": 3,
+      "margin_error": -30,
+      "total_error": 8,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-KC-MIA",
+      "week": 3,
+      "margin_error": 4,
+      "total_error": -14,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-HOU-IND",
+      "week": 3,
+      "margin_error": -2,
+      "total_error": -16,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-CAR-CLE",
+      "week": 3,
+      "margin_error": -9,
+      "total_error": -19,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-LAC-BUF",
+      "week": 3,
+      "margin_error": 3,
+      "total_error": -15,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-MIN-TB",
+      "week": 3,
+      "margin_error": -3,
+      "total_error": -3,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-ARI-SF",
+      "week": 3,
+      "margin_error": 10,
+      "total_error": 22,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-LV-NO",
+      "week": 3,
+      "margin_error": 8,
+      "total_error": 20,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-BAL-DAL",
+      "week": 3,
+      "margin_error": 2,
+      "total_error": 14,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-LAR-DEN",
+      "week": 3,
+      "margin_error": -7,
+      "total_error": 23,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W03-PHI-CHI",
+      "week": 3,
+      "margin_error": -9,
+      "total_error": -15,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-PIT-CLE",
+      "week": 4,
+      "margin_error": -2,
+      "total_error": 12,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-IND-WAS",
+      "week": 4,
+      "margin_error": 17,
+      "total_error": -15,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-ARI-NYG",
+      "week": 4,
+      "margin_error": -11,
+      "total_error": 19,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-DAL-HOU",
+      "week": 4,
+      "margin_error": 0,
+      "total_error": 16,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-GB-TB",
+      "week": 4,
+      "margin_error": 10,
+      "total_error": -22,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-JAX-CIN",
+      "week": 4,
+      "margin_error": -1,
+      "total_error": -7,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-LAR-PHI",
+      "week": 4,
+      "margin_error": 1,
+      "total_error": 3,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-NE-BUF",
+      "week": 4,
+      "margin_error": 8,
+      "total_error": 10,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-NYJ-CHI",
+      "week": 4,
+      "margin_error": 2,
+      "total_error": -8,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-TEN-BAL",
+      "week": 4,
+      "margin_error": 5,
+      "total_error": -1,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-MIA-MIN",
+      "week": 4,
+      "margin_error": 10,
+      "total_error": -10,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-DEN-SF",
+      "week": 4,
+      "margin_error": -1,
+      "total_error": -11,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-KC-LV",
+      "week": 4,
+      "margin_error": 4,
+      "total_error": 10,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-LAC-SEA",
+      "week": 4,
+      "margin_error": 4,
+      "total_error": 16,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-DET-CAR",
+      "week": 4,
+      "margin_error": -3,
+      "total_error": -7,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W04-ATL-NO",
+      "week": 4,
+      "margin_error": 30,
+      "total_error": 26,
+      "type": "retrospective"
+    },
+    {
+      "game_id": "2026-W05-TB-DAL",
+      "week": 5,
+      "margin_error": 14,
+      "total_error": -14,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-TB-DAL-directional-trial-20261006T170506Z"
+    },
+    {
+      "game_id": "2026-W05-PHI-JAX",
+      "week": 5,
+      "margin_error": 11,
+      "total_error": -5,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-PHI-JAX-directional-trial-20261006T170506Z"
+    },
+    {
+      "game_id": "2026-W05-CIN-MIA",
+      "week": 5,
+      "margin_error": 0,
+      "total_error": 14,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-CIN-MIA-directional-trial-20261006T170506Z"
+    },
+    {
+      "game_id": "2026-W05-CLE-NYJ",
+      "week": 5,
+      "margin_error": -3,
+      "total_error": -11,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-CLE-NYJ-sunday-2026-10-11T100636602550+0000"
+    },
+    {
+      "game_id": "2026-W05-HOU-TEN",
+      "week": 5,
+      "margin_error": 23,
+      "total_error": -7,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-HOU-TEN-directional-trial-20261006T170506Z"
+    },
+    {
+      "game_id": "2026-W05-IND-PIT",
+      "week": 5,
+      "margin_error": -12,
+      "total_error": 10,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-IND-PIT-directional-trial-20261006T170506Z"
+    },
+    {
+      "game_id": "2026-W05-LV-NE",
+      "week": 5,
+      "margin_error": -31,
+      "total_error": 21,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-LV-NE-directional-trial-20261006T170506Z"
+    },
+    {
+      "game_id": "2026-W05-MIN-NO",
+      "week": 5,
+      "margin_error": 3,
+      "total_error": -9,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-MIN-NO-directional-trial-20261006T170506Z"
+    },
+    {
+      "game_id": "2026-W05-NYG-WAS",
+      "week": 5,
+      "margin_error": -4,
+      "total_error": 8,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-NYG-WAS-directional-trial-20261006T170506Z"
+    },
+    {
+      "game_id": "2026-W05-DEN-LAC",
+      "week": 5,
+      "margin_error": 2,
+      "total_error": 0,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-DEN-LAC-directional-trial-20261006T170506Z"
+    },
+    {
+      "game_id": "2026-W05-CHI-GB",
+      "week": 5,
+      "margin_error": -38,
+      "total_error": -8,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-CHI-GB-sunday-2026-10-11T100636602550+0000"
+    },
+    {
+      "game_id": "2026-W05-DET-ARI",
+      "week": 5,
+      "margin_error": 22,
+      "total_error": 6,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-DET-ARI-directional-trial-20261006T170506Z"
+    },
+    {
+      "game_id": "2026-W05-SF-SEA",
+      "week": 5,
+      "margin_error": -1,
+      "total_error": 15,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-SF-SEA-sunday-2026-10-11T100636602550+0000"
+    },
+    {
+      "game_id": "2026-W05-BAL-ATL",
+      "week": 5,
+      "margin_error": 5,
+      "total_error": 5,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-BAL-ATL-sunday-2026-10-11T100636602550+0000"
+    },
+    {
+      "game_id": "2026-W05-BUF-LAR",
+      "week": 5,
+      "margin_error": 4,
+      "total_error": 18,
+      "type": "archived_pregame",
+      "revision_id": "2026-W05-BUF-LAR-directional-trial-20261006T170506Z"
+    }
+  ],
+  "games": [
+    {
+      "game_id": "2026-W06-SEA-DEN",
+      "kickoff": "2026-10-15T20:15:00-04:00",
+      "away": "SEA",
+      "home": "DEN",
+      "projection_revision_id": "2026-W06-SEA-DEN-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "SEA",
+        "winner_side": "AWAY",
+        "away_score": 23,
+        "home_score": 20,
+        "projected_margin": 3,
+        "projected_total": 43,
+        "win_probability": 0.606
+      },
+      "market": {
+        "favorite": "SEA",
+        "spread": -2.5,
+        "total": 40.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": -2.5,
+          "home_line": 2.5,
+          "away": {
+            "probability": 0.5692307692307692,
+            "loss_probability": 0.4307692307692308,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.4307692307692308,
+            "loss_probability": 0.5692307692307692,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 40.5,
+          "over": {
+            "probability": 0.5230769230769231,
+            "loss_probability": 0.47692307692307695,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.47692307692307695,
+            "loss_probability": 0.5230769230769231,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-HOU-JAX",
+      "kickoff": "2026-10-18T09:30:00-04:00",
+      "away": "HOU",
+      "home": "JAX",
+      "projection_revision_id": "2026-W06-HOU-JAX-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "JAX",
+        "winner_side": "HOME",
+        "away_score": 15,
+        "home_score": 24,
+        "projected_margin": 9,
+        "projected_total": 39,
+        "win_probability": 0.75
+      },
+      "market": {
+        "favorite": "JAX",
+        "spread": -2.5,
+        "total": 42.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": 2.5,
+          "home_line": -2.5,
+          "away": {
+            "probability": 0.3230769230769231,
+            "loss_probability": 0.676923076923077,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.676923076923077,
+            "loss_probability": 0.3230769230769231,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 42.5,
+          "over": {
+            "probability": 0.4461538461538462,
+            "loss_probability": 0.5538461538461539,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.5538461538461539,
+            "loss_probability": 0.4461538461538462,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-BAL-CLE",
+      "kickoff": "2026-10-18T13:00:00-04:00",
+      "away": "BAL",
+      "home": "CLE",
+      "projection_revision_id": "2026-W06-BAL-CLE-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "BAL",
+        "winner_side": "AWAY",
+        "away_score": 25,
+        "home_score": 22,
+        "projected_margin": 3,
+        "projected_total": 47,
+        "win_probability": 0.606
+      },
+      "market": {
+        "favorite": "BAL",
+        "spread": -5.5,
+        "total": 42.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": -5.5,
+          "home_line": 5.5,
+          "away": {
+            "probability": 0.46153846153846156,
+            "loss_probability": 0.5384615384615384,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.5384615384615384,
+            "loss_probability": 0.46153846153846156,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 42.5,
+          "over": {
+            "probability": 0.5538461538461539,
+            "loss_probability": 0.4461538461538462,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.4461538461538462,
+            "loss_probability": 0.5538461538461539,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-CAR-PHI",
+      "kickoff": "2026-10-18T13:00:00-04:00",
+      "away": "CAR",
+      "home": "PHI",
+      "projection_revision_id": "2026-W06-CAR-PHI-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "CAR",
+        "winner_side": "AWAY",
+        "away_score": 28,
+        "home_score": 23,
+        "projected_margin": 5,
+        "projected_total": 51,
+        "win_probability": 0.671
+      },
+      "market": {
+        "favorite": "CAR",
+        "spread": -1.5,
+        "total": 40.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": -1.5,
+          "home_line": 1.5,
+          "away": {
+            "probability": 0.7076923076923077,
+            "loss_probability": 0.2923076923076923,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.2923076923076923,
+            "loss_probability": 0.7076923076923077,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 40.5,
+          "over": {
+            "probability": 0.7076923076923077,
+            "loss_probability": 0.2923076923076923,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.2923076923076923,
+            "loss_probability": 0.7076923076923077,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-CHI-ATL",
+      "kickoff": "2026-10-18T13:00:00-04:00",
+      "away": "CHI",
+      "home": "ATL",
+      "projection_revision_id": "2026-W06-CHI-ATL-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "CHI",
+        "winner_side": "AWAY",
+        "away_score": 24,
+        "home_score": 21,
+        "projected_margin": 3,
+        "projected_total": 45,
+        "win_probability": 0.606
+      },
+      "market": {
+        "favorite": "CHI",
+        "spread": -1.5,
+        "total": 51.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": -1.5,
+          "home_line": 1.5,
+          "away": {
+            "probability": 0.6153846153846154,
+            "loss_probability": 0.38461538461538464,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.38461538461538464,
+            "loss_probability": 0.6153846153846154,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 51.5,
+          "over": {
+            "probability": 0.4,
+            "loss_probability": 0.6,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.6,
+            "loss_probability": 0.4,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-NO-NYG",
+      "kickoff": "2026-10-18T13:00:00-04:00",
+      "away": "NO",
+      "home": "NYG",
+      "projection_revision_id": "2026-W06-NO-NYG-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "NYG",
+        "winner_side": "HOME",
+        "away_score": 22,
+        "home_score": 25,
+        "projected_margin": 3,
+        "projected_total": 47,
+        "win_probability": 0.606
+      },
+      "market": {
+        "favorite": "NO",
+        "spread": -1.5,
+        "total": 45.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": -1.5,
+          "home_line": 1.5,
+          "away": {
+            "probability": 0.36923076923076925,
+            "loss_probability": 0.6307692307692307,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.6307692307692307,
+            "loss_probability": 0.36923076923076925,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 45.5,
+          "over": {
+            "probability": 0.5230769230769231,
+            "loss_probability": 0.47692307692307695,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.47692307692307695,
+            "loss_probability": 0.5230769230769231,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-NYJ-NE",
+      "kickoff": "2026-10-18T13:00:00-04:00",
+      "away": "NYJ",
+      "home": "NE",
+      "projection_revision_id": "2026-W06-NYJ-NE-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "NE",
+        "winner_side": "HOME",
+        "away_score": 14,
+        "home_score": 21,
+        "projected_margin": 7,
+        "projected_total": 35,
+        "win_probability": 0.731
+      },
+      "market": {
+        "favorite": "NE",
+        "spread": -7.5,
+        "total": 43.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": 7.5,
+          "home_line": -7.5,
+          "away": {
+            "probability": 0.5692307692307692,
+            "loss_probability": 0.4307692307692308,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.4307692307692308,
+            "loss_probability": 0.5692307692307692,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 43.5,
+          "over": {
+            "probability": 0.3384615384615385,
+            "loss_probability": 0.6615384615384615,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.6615384615384615,
+            "loss_probability": 0.3384615384615385,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-PIT-TB",
+      "kickoff": "2026-10-18T13:00:00-04:00",
+      "away": "PIT",
+      "home": "TB",
+      "projection_revision_id": "2026-W06-PIT-TB-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "TIE",
+        "winner_side": "TIE",
+        "away_score": 21,
+        "home_score": 21,
+        "projected_margin": 0,
+        "projected_total": 42,
+        "win_probability": 0.5
+      },
+      "market": {
+        "favorite": "PIT",
+        "spread": -2.5,
+        "total": 39.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": -2.5,
+          "home_line": 2.5,
+          "away": {
+            "probability": 0.46153846153846156,
+            "loss_probability": 0.5384615384615384,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.5384615384615384,
+            "loss_probability": 0.46153846153846156,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 39.5,
+          "over": {
+            "probability": 0.5230769230769231,
+            "loss_probability": 0.47692307692307695,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.47692307692307695,
+            "loss_probability": 0.5230769230769231,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-TEN-IND",
+      "kickoff": "2026-10-18T13:00:00-04:00",
+      "away": "TEN",
+      "home": "IND",
+      "projection_revision_id": "2026-W06-TEN-IND-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "IND",
+        "winner_side": "HOME",
+        "away_score": 17,
+        "home_score": 25,
+        "projected_margin": 8,
+        "projected_total": 42,
+        "win_probability": 0.75
+      },
+      "market": {
+        "favorite": "IND",
+        "spread": -7,
+        "total": 44.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": 7,
+          "home_line": -7,
+          "away": {
+            "probability": 0.5,
+            "loss_probability": 0.45454545454545453,
+            "push_probability": 0.045454545454545456,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.45454545454545453,
+            "loss_probability": 0.5,
+            "push_probability": 0.045454545454545456,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 44.5,
+          "over": {
+            "probability": 0.46153846153846156,
+            "loss_probability": 0.5384615384615384,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.5384615384615384,
+            "loss_probability": 0.46153846153846156,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-ARI-LAR",
+      "kickoff": "2026-10-18T16:05:00-04:00",
+      "away": "ARI",
+      "home": "LAR",
+      "projection_revision_id": "2026-W06-ARI-LAR-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "LAR",
+        "winner_side": "HOME",
+        "away_score": 21,
+        "home_score": 31,
+        "projected_margin": 10,
+        "projected_total": 52,
+        "win_probability": 0.75
+      },
+      "market": {
+        "favorite": "LAR",
+        "spread": -12.5,
+        "total": 51.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": 12.5,
+          "home_line": -12.5,
+          "away": {
+            "probability": 0.6461538461538462,
+            "loss_probability": 0.35384615384615387,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.35384615384615387,
+            "loss_probability": 0.6461538461538462,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 51.5,
+          "over": {
+            "probability": 0.5076923076923077,
+            "loss_probability": 0.49230769230769234,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.49230769230769234,
+            "loss_probability": 0.5076923076923077,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-BUF-LV",
+      "kickoff": "2026-10-18T16:25:00-04:00",
+      "away": "BUF",
+      "home": "LV",
+      "projection_revision_id": "2026-W06-BUF-LV-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "BUF",
+        "winner_side": "AWAY",
+        "away_score": 33,
+        "home_score": 30,
+        "projected_margin": 3,
+        "projected_total": 63,
+        "win_probability": 0.606
+      },
+      "market": {
+        "favorite": "BUF",
+        "spread": -5.5,
+        "total": 53.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": -5.5,
+          "home_line": 5.5,
+          "away": {
+            "probability": 0.46153846153846156,
+            "loss_probability": 0.5384615384615384,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.5384615384615384,
+            "loss_probability": 0.46153846153846156,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 53.5,
+          "over": {
+            "probability": 0.676923076923077,
+            "loss_probability": 0.3230769230769231,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.3230769230769231,
+            "loss_probability": 0.676923076923077,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-LAC-KC",
+      "kickoff": "2026-10-18T16:25:00-04:00",
+      "away": "LAC",
+      "home": "KC",
+      "projection_revision_id": "2026-W06-LAC-KC-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "KC",
+        "winner_side": "HOME",
+        "away_score": 14,
+        "home_score": 29,
+        "projected_margin": 15,
+        "projected_total": 43,
+        "win_probability": 0.75
+      },
+      "market": {
+        "favorite": "KC",
+        "spread": -8.5,
+        "total": 42.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": 8.5,
+          "home_line": -8.5,
+          "away": {
+            "probability": 0.3230769230769231,
+            "loss_probability": 0.676923076923077,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.676923076923077,
+            "loss_probability": 0.3230769230769231,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 42.5,
+          "over": {
+            "probability": 0.5076923076923077,
+            "loss_probability": 0.49230769230769234,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.49230769230769234,
+            "loss_probability": 0.5076923076923077,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-DAL-GB",
+      "kickoff": "2026-10-18T20:20:00-04:00",
+      "away": "DAL",
+      "home": "GB",
+      "projection_revision_id": "2026-W06-DAL-GB-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "GB",
+        "winner_side": "HOME",
+        "away_score": 26,
+        "home_score": 27,
+        "projected_margin": 1,
+        "projected_total": 53,
+        "win_probability": 0.536
+      },
+      "market": {
+        "favorite": "GB",
+        "spread": -1.5,
+        "total": 53.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": 1.5,
+          "home_line": -1.5,
+          "away": {
+            "probability": 0.5692307692307692,
+            "loss_probability": 0.4307692307692308,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.4307692307692308,
+            "loss_probability": 0.5692307692307692,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 53.5,
+          "over": {
+            "probability": 0.49230769230769234,
+            "loss_probability": 0.5076923076923077,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.5076923076923077,
+            "loss_probability": 0.49230769230769234,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-WAS-SF",
+      "kickoff": "2026-10-19T20:15:00-04:00",
+      "away": "WAS",
+      "home": "SF",
+      "projection_revision_id": "2026-W06-WAS-SF-tuesday-baseline-202610131025363776560000",
+      "projection": {
+        "winner": "SF",
+        "winner_side": "HOME",
+        "away_score": 19,
+        "home_score": 34,
+        "projected_margin": 15,
+        "projected_total": 53,
+        "win_probability": 0.75
+      },
+      "market": {
+        "favorite": "SF",
+        "spread": -7.5,
+        "total": 50.5
+      },
+      "market_as_of": null,
+      "market_probabilities": {
+        "spread": {
+          "away_line": 7.5,
+          "home_line": -7.5,
+          "away": {
+            "probability": 0.3230769230769231,
+            "loss_probability": 0.676923076923077,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "home": {
+            "probability": 0.676923076923077,
+            "loss_probability": 0.3230769230769231,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        },
+        "total": {
+          "line": 50.5,
+          "over": {
+            "probability": 0.5230769230769231,
+            "loss_probability": 0.47692307692307695,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          },
+          "under": {
+            "probability": 0.47692307692307695,
+            "loss_probability": 0.5230769230769231,
+            "push_probability": 0,
+            "sample_size": 63,
+            "model_version": "empirical-errors-v1"
+          }
+        }
+      }
+    }
+  ]
+}
