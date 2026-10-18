@@ -1,0 +1,347 @@
+{
+  "checked_at": "2026-10-18T10:05:40.710695+00:00",
+  "base_commit": "ce847b630ad0d61139989af92a9f635679c0a364",
+  "candidate_files": [
+    "ff26-nfl-lines-2026.json",
+    "wto-game-insights-2026.json",
+    "wto-ex-week6-20261018.json",
+    "wto-slip.js snapshot reference/cache update only after release authorization"
+  ],
+  "publish_decision": "HOLD_LIVE_RELEASE",
+  "reason": "Material quarterback/availability changes cannot be responsibly reflected in independent scoring using an approved personnel response. Retain prior working live release and original predictions; staging is not publication. Required input report dates for some NFL aggregate rows remain unavailable. No formula, coefficients, calibration or frozen residual set changed.",
+  "results_added": [
+    "2026-W06-SEA-DEN"
+  ],
+  "markets": [
+    {
+      "game_id": "2026-W06-HOU-JAX",
+      "old_favorite": "JAX",
+      "old_spread": -2.5,
+      "old_total": 42.5,
+      "favorite": "JAX",
+      "spread": -2.5,
+      "total": 41.5,
+      "captured_at": "2026-10-18T09:58:01.709677+00:00",
+      "material_change": true
+    },
+    {
+      "game_id": "2026-W06-BAL-CLE",
+      "old_favorite": "BAL",
+      "old_spread": -5.5,
+      "old_total": 42.5,
+      "favorite": "BAL",
+      "spread": -3.0,
+      "total": 39.5,
+      "captured_at": "2026-10-18T09:58:01.752004+00:00",
+      "material_change": true
+    },
+    {
+      "game_id": "2026-W06-CAR-PHI",
+      "old_favorite": "CAR",
+      "old_spread": -1.5,
+      "old_total": 40.5,
+      "favorite": "CAR",
+      "spread": -3.0,
+      "total": 39.5,
+      "captured_at": "2026-10-18T09:58:01.761573+00:00",
+      "material_change": true
+    },
+    {
+      "game_id": "2026-W06-CHI-ATL",
+      "old_favorite": "CHI",
+      "old_spread": -1.5,
+      "old_total": 51.5,
+      "favorite": "CHI",
+      "spread": -1.5,
+      "total": 52.5,
+      "captured_at": "2026-10-18T09:58:01.748110+00:00",
+      "material_change": true
+    },
+    {
+      "game_id": "2026-W06-NO-NYG",
+      "old_favorite": "NO",
+      "old_spread": -1.5,
+      "old_total": 45.5,
+      "favorite": "NYG",
+      "spread": -1.5,
+      "total": 46.5,
+      "captured_at": "2026-10-18T09:58:01.714449+00:00",
+      "material_change": true
+    },
+    {
+      "game_id": "2026-W06-NYJ-NE",
+      "old_favorite": "NE",
+      "old_spread": -7.5,
+      "old_total": 43.5,
+      "favorite": "NE",
+      "spread": -7.5,
+      "total": 43.5,
+      "captured_at": "2026-10-18T09:58:01.769439+00:00",
+      "material_change": false
+    },
+    {
+      "game_id": "2026-W06-PIT-TB",
+      "old_favorite": "PIT",
+      "old_spread": -2.5,
+      "old_total": 39.5,
+      "favorite": "PIT",
+      "spread": -2.5,
+      "total": 38.5,
+      "captured_at": "2026-10-18T09:58:01.744803+00:00",
+      "material_change": true
+    },
+    {
+      "game_id": "2026-W06-TEN-IND",
+      "old_favorite": "IND",
+      "old_spread": -7,
+      "old_total": 44.5,
+      "favorite": "IND",
+      "spread": -6.5,
+      "total": 44.5,
+      "captured_at": "2026-10-18T09:58:01.728739+00:00",
+      "material_change": true
+    },
+    {
+      "game_id": "2026-W06-ARI-LAR",
+      "old_favorite": "LAR",
+      "old_spread": -12.5,
+      "old_total": 51.5,
+      "favorite": "LAR",
+      "spread": -12.5,
+      "total": 51.5,
+      "captured_at": "2026-10-18T09:58:01.692217+00:00",
+      "material_change": false
+    },
+    {
+      "game_id": "2026-W06-BUF-LV",
+      "old_favorite": "BUF",
+      "old_spread": -5.5,
+      "old_total": 53.5,
+      "favorite": "BUF",
+      "spread": -5.5,
+      "total": 53.5,
+      "captured_at": "2026-10-18T09:58:04.403235+00:00",
+      "material_change": false
+    },
+    {
+      "game_id": "2026-W06-LAC-KC",
+      "old_favorite": "KC",
+      "old_spread": -8.5,
+      "old_total": 42.5,
+      "favorite": "KC",
+      "spread": -7.5,
+      "total": 41.5,
+      "captured_at": "2026-10-18T09:58:04.462614+00:00",
+      "material_change": true
+    },
+    {
+      "game_id": "2026-W06-DAL-GB",
+      "old_favorite": "GB",
+      "old_spread": -1.5,
+      "old_total": 53.5,
+      "favorite": "GB",
+      "spread": -1.5,
+      "total": 53.5,
+      "captured_at": "2026-10-18T09:58:04.400416+00:00",
+      "material_change": false
+    }
+  ],
+  "weather": [
+    {
+      "game_id": "2026-W06-HOU-JAX",
+      "status": "international_unavailable"
+    },
+    {
+      "game_id": "2026-W06-BAL-CLE",
+      "condition": "sunny",
+      "impact": "no_factor",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:22.291144+00:00"
+    },
+    {
+      "game_id": "2026-W06-CAR-PHI",
+      "condition": "sunny",
+      "impact": "no_factor",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:22.337414+00:00"
+    },
+    {
+      "game_id": "2026-W06-CHI-ATL",
+      "condition": "sunny",
+      "impact": "unknown",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:22.314292+00:00"
+    },
+    {
+      "game_id": "2026-W06-NO-NYG",
+      "condition": "sunny",
+      "impact": "no_factor",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:22.335195+00:00"
+    },
+    {
+      "game_id": "2026-W06-NYJ-NE",
+      "condition": "sunny",
+      "impact": "no_factor",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:22.262838+00:00"
+    },
+    {
+      "game_id": "2026-W06-PIT-TB",
+      "condition": "sunny",
+      "impact": "no_factor",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:22.418686+00:00"
+    },
+    {
+      "game_id": "2026-W06-TEN-IND",
+      "condition": "sunny",
+      "impact": "unknown",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:22.297897+00:00"
+    },
+    {
+      "game_id": "2026-W06-ARI-LAR",
+      "condition": "sunny",
+      "impact": "no_factor",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:22.509011+00:00"
+    },
+    {
+      "game_id": "2026-W06-BUF-LV",
+      "condition": "sunny",
+      "impact": "no_factor",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:30.902802+00:00"
+    },
+    {
+      "game_id": "2026-W06-LAC-KC",
+      "condition": "sunny",
+      "impact": "no_factor",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:30.996076+00:00"
+    },
+    {
+      "game_id": "2026-W06-DAL-GB",
+      "condition": "clear",
+      "impact": "no_factor",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:27.385121+00:00"
+    },
+    {
+      "game_id": "2026-W06-WAS-SF",
+      "condition": "cloudy",
+      "impact": "no_factor",
+      "resolution": "hourly",
+      "checked_at": "2026-10-18T09:59:31.013928+00:00"
+    }
+  ],
+  "opening_coverage": {
+    "complete": 44,
+    "partial": 63,
+    "missing": 165
+  },
+  "unresolved_required_inputs": [
+    {
+      "game_id": "2026-W06-BAL-CLE",
+      "team": "BAL",
+      "player": "Lamar Jackson",
+      "field": "quarterback_availability_and_model_response",
+      "reported_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "report_date": "2026-10-16",
+      "source_url": "https://www.nfl.com/injuries/",
+      "reason": "Verified availability status requires assessment against unchanged scoring-only model; no approved player-level point adjustment or confirmed final active list. Existing forecast must not be called newly verified."
+    },
+    {
+      "game_id": "2026-W06-BAL-CLE",
+      "team": "CLE",
+      "player": "Dillon Gabriel",
+      "field": "quarterback_availability_and_model_response",
+      "reported_status": "Out",
+      "practice_status": "Full Participation in Practice",
+      "report_date": null,
+      "source_url": "https://www.nfl.com/injuries/",
+      "reason": "Verified availability status requires assessment against unchanged scoring-only model; no approved player-level point adjustment or confirmed final active list. Existing forecast must not be called newly verified."
+    },
+    {
+      "game_id": "2026-W06-CAR-PHI",
+      "team": "PHI",
+      "player": "Jalen Hurts",
+      "field": "quarterback_availability_and_model_response",
+      "reported_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "report_date": "2026-10-16",
+      "source_url": "https://www.nfl.com/injuries/",
+      "reason": "Verified availability status requires assessment against unchanged scoring-only model; no approved player-level point adjustment or confirmed final active list. Existing forecast must not be called newly verified."
+    },
+    {
+      "game_id": "2026-W06-CHI-ATL",
+      "team": "CHI",
+      "player": "Caleb Williams",
+      "field": "quarterback_availability_and_model_response",
+      "reported_status": "Questionable",
+      "practice_status": "Full Participation in Practice",
+      "report_date": "2026-10-16",
+      "source_url": "https://www.nfl.com/injuries/",
+      "reason": "Verified availability status requires assessment against unchanged scoring-only model; no approved player-level point adjustment or confirmed final active list. Existing forecast must not be called newly verified."
+    },
+    {
+      "game_id": "2026-W06-PIT-TB",
+      "team": "TB",
+      "player": "Baker Mayfield",
+      "field": "quarterback_availability_and_model_response",
+      "reported_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "report_date": "2026-10-16",
+      "source_url": "https://www.nfl.com/injuries/",
+      "reason": "Verified availability status requires assessment against unchanged scoring-only model; no approved player-level point adjustment or confirmed final active list. Existing forecast must not be called newly verified."
+    },
+    {
+      "game_id": "2026-W06-WAS-SF",
+      "team": "WAS",
+      "player": "Marcus Mariota",
+      "field": "quarterback_availability_and_model_response",
+      "reported_status": "Out",
+      "practice_status": "Did Not Participate In Practice",
+      "report_date": null,
+      "source_url": "https://www.nfl.com/injuries/",
+      "reason": "Verified availability status requires assessment against unchanged scoring-only model; no approved player-level point adjustment or confirmed final active list. Existing forecast must not be called newly verified."
+    }
+  ],
+  "optional_unavailable": [
+    "Wembley NWS forecast outside international coverage",
+    "game-specific ATL/IND roof status",
+    "unavailable archived consensus closing lines and prices",
+    "missing bookmaker opening provenance for historical partial rows",
+    "unposted future-week opening markets"
+  ],
+  "preserved": [
+    "all prior market/opening/weather snapshots",
+    "all historical pregame revisions",
+    "all frozen WTO EX residuals",
+    "all saved personal picks and UI files",
+    "fixed 2021–2025 history"
+  ],
+  "retry": "Carry unresolved issues to the next existing update; no new scheduled checks. User review required before material model-input handling or model changes.",
+  "validation": {
+    "structural_checks": "PASS",
+    "production_release_gate": "HOLD",
+    "checks_passed": [
+      "272 unique game IDs, all teams and kickoff instants unchanged",
+      "All earlier market/opening/weather snapshots byte-equivalent as JSON values",
+      "All prior opening values retained; new spread-only corroboration does not claim total provenance",
+      "Current quote signs, paired prices, provider, full-game scope and pre-kickoff retrieval times pass",
+      "NWS hourly periods contain verified kickoff; venue coordinates, indoor/roof semantics pass",
+      "All 80 final score, combined points, winner, ATS and O/U calculations pass",
+      "Every prior pregame revision unchanged; all remaining Week 6 matchups retain both saved projected scores",
+      "Forecast through-week scope remains 5 for Week 6; no target-week outcomes incorporated into pregame evidence",
+      "WTO EX version and all 63 residuals unchanged; each held candidate distribution sums to one",
+      "No saved-pick storage, UI, fixed 2021–2025 history, futures, weekly tracker or production model artifact modified",
+      "Live publication withheld because required current prediction inputs/review are unresolved; staging files only"
+    ],
+    "checked_at": "2026-10-18T10:05:42.354629+00:00",
+    "unresolved_required_count": 6,
+    "release_files_modified": []
+  }
+}

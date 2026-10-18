@@ -1,0 +1,773 @@
+{
+  "checked_at": "2026-10-18T10:05:40.710695+00:00",
+  "retrospective": {
+    "file": "wto-projection-simulation-2026.json",
+    "label": "Retrospective projection simulation",
+    "note": "Retrospectively selected scoring-only simulation, not an untouched out-of-sample test or saved historical forecasts. No production parameter changes."
+  },
+  "prospective": {
+    "4": {
+      "games": 16,
+      "team_score_mae": 5.71875,
+      "actual_minus_projected_bias": 0.90625,
+      "winner": {
+        "hits": 10,
+        "eligible": 14
+      },
+      "ats": {
+        "hits": 12,
+        "eligible": 14
+      },
+      "total": {
+        "hits": 4,
+        "eligible": 8
+      },
+      "rows": [
+        {
+          "game_id": "2026-W04-PIT-CLE",
+          "revision_id": "2026-W04-PIT-CLE-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "PIT",
+            "spread": -2.5,
+            "total": 38.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "CLE",
+            "total_lean": "NO EDGE",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": 4,
+          "home_error": 7,
+          "winner_hit": null,
+          "ats_hit": true,
+          "total_hit": null
+        },
+        {
+          "game_id": "2026-W04-IND-WAS",
+          "revision_id": "2026-W04-IND-WAS-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "IND",
+            "spread": -3.5,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "WAS",
+            "total_lean": "OVER",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": 3,
+          "home_error": -15,
+          "winner_hit": false,
+          "ats_hit": false,
+          "total_hit": false
+        },
+        {
+          "game_id": "2026-W04-ARI-NYG",
+          "revision_id": "2026-W04-ARI-NYG-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "ARI",
+            "spread": -1.5,
+            "total": 44.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "NYG",
+            "total_lean": "UNDER",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": 4,
+          "home_error": 15,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": false
+        },
+        {
+          "game_id": "2026-W04-DAL-HOU",
+          "revision_id": "2026-W04-DAL-HOU-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "HOU",
+            "spread": -2.5,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "DAL",
+            "total_lean": "OVER",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": 8,
+          "home_error": 6,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W04-GB-TB",
+          "revision_id": "2026-W04-GB-TB-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "GB",
+            "spread": -3.5,
+            "total": 39.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "TB",
+            "total_lean": "OVER",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": -6,
+          "home_error": -11,
+          "winner_hit": false,
+          "ats_hit": true,
+          "total_hit": false
+        },
+        {
+          "game_id": "2026-W04-JAX-CIN",
+          "revision_id": "2026-W04-JAX-CIN-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "CIN",
+            "spread": -2.5,
+            "total": 51.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "JAX",
+            "total_lean": "UNDER",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": -1,
+          "home_error": -4,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W04-LAR-PHI",
+          "revision_id": "2026-W04-LAR-PHI-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "LAR",
+            "spread": -2.5,
+            "total": 44.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "PHI",
+            "total_lean": "UNDER",
+            "hype_check": "FAIR"
+          },
+          "away_error": 3,
+          "home_error": 0,
+          "winner_hit": true,
+          "ats_hit": false,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W04-NE-BUF",
+          "revision_id": "2026-W04-NE-BUF-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "BUF",
+            "spread": -7,
+            "total": 48.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "NE",
+            "total_lean": "UNDER",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": 8,
+          "home_error": 2,
+          "winner_hit": false,
+          "ats_hit": true,
+          "total_hit": false
+        },
+        {
+          "game_id": "2026-W04-NYJ-CHI",
+          "revision_id": "2026-W04-NYJ-CHI-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "CHI",
+            "spread": -3,
+            "total": 43.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "NO EDGE",
+            "total_lean": "NO EDGE",
+            "hype_check": "FAIR"
+          },
+          "away_error": -9,
+          "home_error": -1,
+          "winner_hit": true,
+          "ats_hit": null,
+          "total_hit": null
+        },
+        {
+          "game_id": "2026-W04-TEN-BAL",
+          "revision_id": "2026-W04-TEN-BAL-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "BAL",
+            "spread": -11.5,
+            "total": 43.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "TEN",
+            "total_lean": "NO EDGE",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": -3,
+          "home_error": 0,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": null
+        },
+        {
+          "game_id": "2026-W04-MIA-MIN",
+          "revision_id": "2026-W04-MIA-MIN-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "MIN",
+            "spread": -10.5,
+            "total": 38.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "MIA",
+            "total_lean": "NO EDGE",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": -7,
+          "home_error": -7,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": null
+        },
+        {
+          "game_id": "2026-W04-DEN-SF",
+          "revision_id": "2026-W04-DEN-SF-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "SF",
+            "spread": -3,
+            "total": 46.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "SF",
+            "total_lean": "NO EDGE",
+            "hype_check": "FAIR"
+          },
+          "away_error": -7,
+          "home_error": -2,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": null
+        },
+        {
+          "game_id": "2026-W04-KC-LV",
+          "revision_id": "2026-W04-KC-LV-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "KC",
+            "spread": -4.5,
+            "total": 47.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "LV",
+            "total_lean": "NO EDGE",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": 7,
+          "home_error": 4,
+          "winner_hit": null,
+          "ats_hit": true,
+          "total_hit": null
+        },
+        {
+          "game_id": "2026-W04-LAC-SEA",
+          "revision_id": "2026-W04-LAC-SEA-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "SEA",
+            "spread": -7,
+            "total": 42.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "LAC",
+            "total_lean": "NO EDGE",
+            "hype_check": "FAIR"
+          },
+          "away_error": 5,
+          "home_error": 7,
+          "winner_hit": true,
+          "ats_hit": null,
+          "total_hit": null
+        },
+        {
+          "game_id": "2026-W04-DET-CAR",
+          "revision_id": "2026-W04-DET-CAR-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "DET",
+            "spread": -3.5,
+            "total": 50.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "CAR",
+            "total_lean": "OVER",
+            "hype_check": "OVERVALUED"
+          },
+          "away_error": -4,
+          "home_error": 1,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W04-ATL-NO",
+          "revision_id": "2026-W04-ATL-NO-editorial-20260930T104600-0400",
+          "generated_at": "2026-09-30T10:46:00-04:00",
+          "saved_market": {
+            "favorite": "NO",
+            "spread": -3,
+            "total": 48.5,
+            "provider": "ScoresAndOdds",
+            "market_as_of": "2026-09-29T05:58:07-04:00",
+            "ats_lean": "ATL",
+            "total_lean": "NO EDGE",
+            "hype_check": "FAIR"
+          },
+          "away_error": 22,
+          "home_error": 0,
+          "winner_hit": false,
+          "ats_hit": true,
+          "total_hit": null
+        }
+      ]
+    },
+    "5": {
+      "games": 15,
+      "team_score_mae": 7.766666666666667,
+      "actual_minus_projected_bias": 1.4333333333333333,
+      "winner": {
+        "hits": 8,
+        "eligible": 12
+      },
+      "ats": {
+        "hits": 7,
+        "eligible": 14
+      },
+      "total": {
+        "hits": 9,
+        "eligible": 15
+      },
+      "rows": [
+        {
+          "game_id": "2026-W05-TB-DAL",
+          "revision_id": "2026-W05-TB-DAL-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "DAL",
+            "spread": -8,
+            "total": 47.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "TB",
+            "total_lean": "OVER",
+            "hype_check": "FAIR",
+            "spread_edge_points": -2,
+            "total_edge_points": 6.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": 0,
+          "home_error": -14,
+          "winner_hit": false,
+          "ats_hit": true,
+          "total_hit": false
+        },
+        {
+          "game_id": "2026-W05-PHI-JAX",
+          "revision_id": "2026-W05-PHI-JAX-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "JAX",
+            "spread": -6.5,
+            "total": 42.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "JAX",
+            "total_lean": "UNDER",
+            "hype_check": "UNDERVALUED",
+            "spread_edge_points": 6.5,
+            "total_edge_points": -1.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": 3,
+          "home_error": -8,
+          "winner_hit": true,
+          "ats_hit": false,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W05-CIN-MIA",
+          "revision_id": "2026-W05-CIN-MIA-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "CIN",
+            "spread": -7,
+            "total": 42.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "NO EDGE",
+            "total_lean": "UNDER",
+            "hype_check": "FAIR",
+            "spread_edge_points": 0,
+            "total_edge_points": -1.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": 7,
+          "home_error": 7,
+          "winner_hit": true,
+          "ats_hit": null,
+          "total_hit": false
+        },
+        {
+          "game_id": "2026-W05-CLE-NYJ",
+          "revision_id": "2026-W05-CLE-NYJ-sunday-2026-10-11T100636602550+0000",
+          "generated_at": "2026-10-11T10:06:36.602550+00:00",
+          "saved_market": {
+            "favorite": "NYJ",
+            "spread": -2.5,
+            "total": 39.5,
+            "provider": "DraftKings via ESPN",
+            "market_as_of": "2026-10-11T10:03:30.174062+00:00",
+            "ats_lean": "CLE",
+            "total_lean": "OVER",
+            "hype_check": "FAIR",
+            "spread_edge_points": -0.5,
+            "total_edge_points": 0.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": -7,
+          "home_error": -4,
+          "winner_hit": true,
+          "ats_hit": false,
+          "total_hit": false
+        },
+        {
+          "game_id": "2026-W05-HOU-TEN",
+          "revision_id": "2026-W05-HOU-TEN-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "HOU",
+            "spread": -6.5,
+            "total": 39.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "TEN",
+            "total_lean": "UNDER",
+            "hype_check": "OVERVALUED",
+            "spread_edge_points": -6.5,
+            "total_edge_points": -3.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": 8,
+          "home_error": -15,
+          "winner_hit": null,
+          "ats_hit": false,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W05-IND-PIT",
+          "revision_id": "2026-W05-IND-PIT-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "PIT",
+            "spread": -1.5,
+            "total": 44.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "IND",
+            "total_lean": "OVER",
+            "hype_check": "FAIR",
+            "spread_edge_points": -1.5,
+            "total_edge_points": 1.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": -1,
+          "home_error": 11,
+          "winner_hit": null,
+          "ats_hit": false,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W05-LV-NE",
+          "revision_id": "2026-W05-LV-NE-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "NE",
+            "spread": -3.5,
+            "total": 45.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "LV",
+            "total_lean": "UNDER",
+            "hype_check": "OVERVALUED",
+            "spread_edge_points": -6.5,
+            "total_edge_points": -4.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": -5,
+          "home_error": 26,
+          "winner_hit": false,
+          "ats_hit": false,
+          "total_hit": false
+        },
+        {
+          "game_id": "2026-W05-MIN-NO",
+          "revision_id": "2026-W05-MIN-NO-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "MIN",
+            "spread": -1.5,
+            "total": 42.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "MIN",
+            "total_lean": "OVER",
+            "hype_check": "UNDERVALUED",
+            "spread_edge_points": 5.5,
+            "total_edge_points": 2.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": -3,
+          "home_error": -6,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": false
+        },
+        {
+          "game_id": "2026-W05-NYG-WAS",
+          "revision_id": "2026-W05-NYG-WAS-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "WAS",
+            "spread": -3,
+            "total": 43.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "NYG",
+            "total_lean": "OVER",
+            "hype_check": "OVERVALUED",
+            "spread_edge_points": -7,
+            "total_edge_points": 2.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": 2,
+          "home_error": 6,
+          "winner_hit": null,
+          "ats_hit": true,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W05-DEN-LAC",
+          "revision_id": "2026-W05-DEN-LAC-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "DEN",
+            "spread": -3.5,
+            "total": 42.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "DEN",
+            "total_lean": "UNDER",
+            "hype_check": "FAIR",
+            "spread_edge_points": 0.5,
+            "total_edge_points": -2.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": 1,
+          "home_error": -1,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W05-CHI-GB",
+          "revision_id": "2026-W05-CHI-GB-sunday-2026-10-11T100636602550+0000",
+          "generated_at": "2026-10-11T10:06:36.602550+00:00",
+          "saved_market": {
+            "favorite": "CHI",
+            "spread": -1.5,
+            "total": 46.5,
+            "provider": "DraftKings via ESPN",
+            "market_as_of": "2026-10-11T10:03:32.862026+00:00",
+            "ats_lean": "CHI",
+            "total_lean": "UNDER",
+            "hype_check": "UNDERVALUED",
+            "spread_edge_points": 12.5,
+            "total_edge_points": -0.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": -23,
+          "home_error": 15,
+          "winner_hit": false,
+          "ats_hit": false,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W05-DET-ARI",
+          "revision_id": "2026-W05-DET-ARI-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "DET",
+            "spread": -4.5,
+            "total": 54.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "ARI",
+            "total_lean": "OVER",
+            "hype_check": "FAIR",
+            "spread_edge_points": -2.5,
+            "total_edge_points": 5.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": 14,
+          "home_error": -8,
+          "winner_hit": true,
+          "ats_hit": false,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W05-SF-SEA",
+          "revision_id": "2026-W05-SF-SEA-sunday-2026-10-11T100636602550+0000",
+          "generated_at": "2026-10-11T10:06:36.602550+00:00",
+          "saved_market": {
+            "favorite": "SEA",
+            "spread": -3,
+            "total": 45.5,
+            "provider": "DraftKings via ESPN",
+            "market_as_of": "2026-10-11T10:03:32.858026+00:00",
+            "ats_lean": "SF",
+            "total_lean": "OVER",
+            "hype_check": "OVERVALUED",
+            "spread_edge_points": -7,
+            "total_edge_points": 0.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": 7,
+          "home_error": 8,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W05-BAL-ATL",
+          "revision_id": "2026-W05-BAL-ATL-sunday-2026-10-11T100636602550+0000",
+          "generated_at": "2026-10-11T10:06:36.602550+00:00",
+          "saved_market": {
+            "favorite": "ATL",
+            "spread": -3,
+            "total": 43.5,
+            "provider": "DraftKings via ESPN",
+            "market_as_of": "2026-10-11T10:03:32.899147+00:00",
+            "ats_lean": "BAL",
+            "total_lean": "OVER",
+            "hype_check": "FAIR",
+            "spread_edge_points": -5,
+            "total_edge_points": 4.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": 5,
+          "home_error": 0,
+          "winner_hit": true,
+          "ats_hit": true,
+          "total_hit": true
+        },
+        {
+          "game_id": "2026-W05-BUF-LAR",
+          "revision_id": "2026-W05-BUF-LAR-directional-trial-20261006T170506Z",
+          "generated_at": "2026-10-06T17:05:06Z",
+          "saved_market": {
+            "favorite": "LAR",
+            "spread": -2.5,
+            "total": 54.5,
+            "provider": "CBS Sports consensus",
+            "market_as_of": "2026-10-06T06:03:52-04:00",
+            "ats_lean": "BUF",
+            "total_lean": "UNDER",
+            "hype_check": "FAIR",
+            "spread_edge_points": -1.5,
+            "total_edge_points": -1.5,
+            "call_type": "directional_trial",
+            "value_note": "Point difference from stored market; not calibrated expected betting return."
+          },
+          "away_error": 11,
+          "home_error": 7,
+          "winner_hit": false,
+          "ats_hit": true,
+          "total_hit": false
+        }
+      ]
+    },
+    "6": {
+      "games": 1,
+      "team_score_mae": 6.0,
+      "actual_minus_projected_bias": -6.0,
+      "winner": {
+        "hits": 0,
+        "eligible": 1
+      },
+      "ats": {
+        "hits": 0,
+        "eligible": 0
+      },
+      "total": {
+        "hits": 0,
+        "eligible": 0
+      },
+      "rows": [
+        {
+          "game_id": "2026-W06-SEA-DEN",
+          "revision_id": "2026-W06-SEA-DEN-tuesday-baseline-202610131025363776560000",
+          "generated_at": "2026-10-13T10:40:27.509451+00:00",
+          "saved_market": {
+            "favorite": "SEA",
+            "spread": -3.0,
+            "total": 40.5,
+            "provider": "DraftKings via ESPN",
+            "market_as_of": "2026-10-13T10:10:02.146039+00:00",
+            "ats_lean": "NO EDGE",
+            "total_lean": "NO EDGE",
+            "hype_check": "UNAVAILABLE",
+            "call_type": "provisional_model_comparison",
+            "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+            "spread_edge_points": 0.0,
+            "total_edge_points": 2.5
+          },
+          "away_error": -9,
+          "home_error": -3,
+          "winner_hit": false,
+          "ats_hit": null,
+          "total_hit": null
+        }
+      ]
+    }
+  },
+  "shadow_agreement": "Not evaluable: no separately versioned approved shadow candidate; no streak advanced.",
+  "recommendation": "No confidence increase or model change. Week 6 has only one completed game; quarterback changes and Seattle turnover/pass-protection issues require review, not outcome-fitted coefficients."
+}
