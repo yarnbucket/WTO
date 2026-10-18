@@ -1,0 +1,49 @@
+{
+  "base_commit": "38fc1b4428a077bda65805c5026d1e6779f098b6",
+  "validated_at": "2026-10-18T11:58:38.167Z",
+  "release_scope": "verified_sea_den_result_only",
+  "decision": "PUBLISH_VALIDATED_RESULT_ONLY",
+  "root_cause": "The earlier run held the completed result together with unrelated upcoming-game model-input review. Published ledger remained scheduled/null.",
+  "game_id": "2026-W06-SEA-DEN",
+  "result": {
+    "away": "SEA",
+    "away_score": 14,
+    "home": "DEN",
+    "home_score": 17,
+    "status": "final",
+    "overtime": true,
+    "combined_points": 31,
+    "ats_winner": "DEN",
+    "total_result": "under"
+  },
+  "grading": {
+    "type": "latest_verified_pregame_snapshot",
+    "favorite": "SEA",
+    "spread": -2.5,
+    "total": 40.5,
+    "market_as_of": "2026-10-15T16:04:15.295559+00:00",
+    "label": "Last Verified"
+  },
+  "checks_passed": [
+    "Fresh ESPN and official Seattle source agree on SEA 14, DEN 17, Final/OT",
+    "Only Seattle–Denver result fields and postgame review changed; other 271 games unchanged",
+    "All pregame predictions and original timestamps unchanged",
+    "All opening/current/weather snapshots preserved; missing closing fields remain null",
+    "All 32 team score aggregates match final ledger; only SEA and DEN team records updated",
+    "Actual app ledger mapping and WTOUI yield final 14–17, OT, DEN ATS, 31 points, Last Verified"
+  ],
+  "unrelated_holds": "All upcoming-game evidence candidates and WTO EX candidate remain held; no model changes or future-game refresh included.",
+  "changed_files": [
+    "ff26-nfl-lines-2026.json",
+    "wto-game-insights-2026.json",
+    "wto-team-betting-2026.json"
+  ],
+  "source_urls": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+    "https://www.seahawks.com/news/rapid-reactions-seahawks-late-game-comeback-falls-short-in-17-14-overtime-loss-to-broncos",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995"
+  ],
+  "optional_unavailable": [
+    "Verified archived consensus closing spread/total and associated prices remain unavailable; preserved Last Verified fallback."
+  ]
+}

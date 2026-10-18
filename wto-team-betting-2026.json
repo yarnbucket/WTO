@@ -3,7 +3,7 @@
   "season": 2026,
   "title": "WTO Team Betting Tracker",
   "source_of_truth": "ff26-nfl-lines-2026.json",
-  "generated_at": "2026-10-13T10:39:11.395172+00:00",
+  "generated_at": "2026-10-18T11:58:38.167Z",
   "methodology": {
     "ats": "Team win/loss/push is derived from the verified game ATS winner. Favorite spreads are stored from the favorite perspective as negative numbers.",
     "totals": "The game Over/Under result is applied equally to both participating teams.",
@@ -2277,12 +2277,12 @@
       "team": "DEN",
       "name": "Denver Broncos",
       "straight_up": {
-        "wins": 3,
+        "wins": 4,
         "losses": 2,
         "ties": 0
       },
       "ats": {
-        "wins": 3,
+        "wins": 4,
         "losses": 2,
         "pushes": 0
       },
@@ -2292,12 +2292,12 @@
         "pushes": 0
       },
       "underdog_ats": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "pushes": 0
       },
       "home_ats": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "pushes": 0
       },
@@ -2308,12 +2308,12 @@
       },
       "totals": {
         "overs": 1,
-        "unders": 4,
+        "unders": 5,
         "pushes": 0
       },
-      "points_for": 97,
-      "points_against": 111,
-      "final_games": 5,
+      "points_for": 114,
+      "points_against": 125,
+      "final_games": 6,
       "games": [
         {
           "game_id": "2026-W01-DEN-KC",
@@ -2524,10 +2524,52 @@
             "verified_causes": [],
             "evidence_note": "Denver took control after stopping a Chargers fourth-down try, then benefited from late Los Angeles turnovers. The Broncos won despite converting just one of 12 third downs. WTO’s saved DEN 22–18 LAC forecast was accurate: winner right, ats right, total right."
           }
+        },
+        {
+          "game_id": "2026-W06-SEA-DEN",
+          "kickoff_et": "2026-10-15T20:15:00-04:00",
+          "status": "final",
+          "opening_favorite": "SEA",
+          "opening_spread": -2.5,
+          "opening_total": 42,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "SEA",
+          "grading_spread": -2.5,
+          "grading_total": 40.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-10-15T16:04:15.295559+00:00",
+          "combined_points": 31,
+          "total_result": "under",
+          "verified_at": "2026-10-18T11:58:38.167Z",
+          "week": 6,
+          "opponent": "SEA",
+          "venue": "home",
+          "score_for": 17,
+          "score_against": 14,
+          "straight_up_result": "win",
+          "market_role": "underdog",
+          "ats_result": "win",
+          "overtime": true,
+          "scorigami": false,
+          "expected_vs_final": {
+            "opening_role": "underdog",
+            "closing_role": null,
+            "grading_role": "underdog",
+            "favorite_flipped": null,
+            "spread_movement_points": null,
+            "ats_margin": 5.5,
+            "points_vs_grading_total": -9.5,
+            "final_outcome": "DEN 17, SEA 14; win; under",
+            "interpretation": "Last Verified pregame market; archived consensus closing market unverified.",
+            "verified_causes": [],
+            "evidence_note": "Denver survived by forcing three Seattle turnovers and allowing just one touchdown, despite gaining only 168 yards. Seattle threw 51 times and took five sacks; its overtime interception set up the winning field goal. WTO’s saved SEA 23–20 DEN forecast missed the winner and overestimated both offenses."
+          }
         }
       ],
-      "average_points_for": 19.4,
-      "average_points_against": 22.2
+      "average_points_for": 19,
+      "average_points_against": 20.833
     },
     "DET": {
       "team": "DET",
@@ -3294,7 +3336,7 @@
           }
         }
       ],
-      "average_points_for": 22.0,
+      "average_points_for": 22,
       "average_points_against": 22.4
     },
     "IND": {
@@ -3807,7 +3849,7 @@
         }
       ],
       "average_points_for": 24.6,
-      "average_points_against": 14.0
+      "average_points_against": 14
     },
     "KC": {
       "team": "KC",
@@ -4789,7 +4831,7 @@
         }
       ],
       "average_points_for": 23.8,
-      "average_points_against": 24.0
+      "average_points_against": 24
     },
     "MIA": {
       "team": "MIA",
@@ -5044,7 +5086,7 @@
           }
         }
       ],
-      "average_points_for": 14.0,
+      "average_points_for": 14,
       "average_points_against": 26.4
     },
     "MIN": {
@@ -5556,7 +5598,7 @@
           }
         }
       ],
-      "average_points_for": 22.0,
+      "average_points_for": 22,
       "average_points_against": 18.8
     },
     "NO": {
@@ -7100,17 +7142,17 @@
       "name": "Seattle Seahawks",
       "straight_up": {
         "wins": 3,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
       "ats": {
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "pushes": 2
       },
       "favorite_ats": {
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "pushes": 2
       },
       "underdog_ats": {
@@ -7125,17 +7167,17 @@
       },
       "away_ats": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "pushes": 0
       },
       "totals": {
         "overs": 3,
-        "unders": 2,
+        "unders": 3,
         "pushes": 0
       },
-      "points_for": 134,
-      "points_against": 105,
-      "final_games": 5,
+      "points_for": 148,
+      "points_against": 122,
+      "final_games": 6,
       "games": [
         {
           "game_id": "2026-W01-NE-SEA",
@@ -7346,10 +7388,52 @@
             "verified_causes": [],
             "evidence_note": "San Francisco’s late drives produced a touchdown and the winning field goal. The 49ers finished all three red-zone trips with touchdowns in a game with seven combined turnovers. WTO’s saved SF 25–21 SEA forecast was accurate: winner right, ats right, total right."
           }
+        },
+        {
+          "game_id": "2026-W06-SEA-DEN",
+          "kickoff_et": "2026-10-15T20:15:00-04:00",
+          "status": "final",
+          "opening_favorite": "SEA",
+          "opening_spread": -2.5,
+          "opening_total": 42,
+          "closing_favorite": null,
+          "closing_spread": null,
+          "closing_total": null,
+          "grading_favorite": "SEA",
+          "grading_spread": -2.5,
+          "grading_total": 40.5,
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "grading_market_as_of": "2026-10-15T16:04:15.295559+00:00",
+          "combined_points": 31,
+          "total_result": "under",
+          "verified_at": "2026-10-18T11:58:38.167Z",
+          "week": 6,
+          "opponent": "DEN",
+          "venue": "away",
+          "score_for": 14,
+          "score_against": 17,
+          "straight_up_result": "loss",
+          "market_role": "favorite",
+          "ats_result": "loss",
+          "overtime": true,
+          "scorigami": false,
+          "expected_vs_final": {
+            "opening_role": "favorite",
+            "closing_role": null,
+            "grading_role": "favorite",
+            "favorite_flipped": null,
+            "spread_movement_points": null,
+            "ats_margin": -5.5,
+            "points_vs_grading_total": -9.5,
+            "final_outcome": "SEA 14, DEN 17; loss; under",
+            "interpretation": "Last Verified pregame market; archived consensus closing market unverified.",
+            "verified_causes": [],
+            "evidence_note": "Denver survived by forcing three Seattle turnovers and allowing just one touchdown, despite gaining only 168 yards. Seattle threw 51 times and took five sacks; its overtime interception set up the winning field goal. WTO’s saved SEA 23–20 DEN forecast missed the winner and overestimated both offenses."
+          }
         }
       ],
-      "average_points_for": 26.8,
-      "average_points_against": 21.0
+      "average_points_for": 24.667,
+      "average_points_against": 20.333
     },
     "TB": {
       "team": "TB",
@@ -7604,7 +7688,7 @@
           }
         }
       ],
-      "average_points_for": 20.0,
+      "average_points_for": 20,
       "average_points_against": 22.4
     },
     "TEN": {
@@ -8116,7 +8200,7 @@
           }
         }
       ],
-      "average_points_for": 23.0,
+      "average_points_for": 23,
       "average_points_against": 29.8
     }
   }

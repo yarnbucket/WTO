@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-10-15T16:08:44.837Z",
+  "updated_at": "2026-10-18T11:58:38.167Z",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -22593,9 +22593,9 @@
           "schedule_detail": "Thu, October 15th at 8:15 PM EDT",
           "away": "SEA",
           "home": "DEN",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 14,
+          "home_score": 17,
           "market_favorite": "SEA",
           "market_spread": -2.5,
           "market_total": 40.5,
@@ -22606,10 +22606,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "DEN",
+          "ats_winner": "DEN",
+          "total_result": "under",
+          "combined_points": 31,
           "market_snapshots": [
             {
               "captured_at": "2026-10-13T10:10:02.146039+00:00",
@@ -22823,7 +22823,196 @@
                 "home spread price"
               ]
             }
-          ]
+          ],
+          "verified_at": "2026-10-18T11:58:38.167Z",
+          "went_to_overtime": true,
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+              "verified_at": "2026-10-18T09:58:01.825213+00:00"
+            },
+            {
+              "provider": "Seattle Seahawks official",
+              "url": "https://www.seahawks.com/news/rapid-reactions-seahawks-late-game-comeback-falls-short-in-17-14-overtime-loss-to-broncos",
+              "verified_at": "2026-10-18T10:00:05.499154+00:00"
+            },
+            {
+              "provider": "ESPN result recheck",
+              "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+              "verified_at": "2026-10-18T11:57:55.928314+00:00"
+            }
+          ],
+          "box_score": {
+            "provider": "ESPN",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "verified_at": "2026-10-18T09:58:01.825213+00:00",
+            "away": {
+              "team": "SEA",
+              "first_downs": 24,
+              "total_yards": 353,
+              "passing_yards": 240,
+              "rushing_yards": 113,
+              "rushing_attempts": 26,
+              "turnovers": 3,
+              "total_plays": 82,
+              "interceptions": 2,
+              "fumbles_lost": 1,
+              "passing_completions": 27,
+              "passing_attempts": 51,
+              "sacks_allowed": 5,
+              "sack_yards_lost": 38,
+              "gross_passing_yards": 278,
+              "third_down": "7-17",
+              "fourth_down": "1-1",
+              "red_zone": "1-2",
+              "possession": "35:38",
+              "penalties": "7-75"
+            },
+            "home": {
+              "team": "DEN",
+              "first_downs": 13,
+              "total_yards": 168,
+              "passing_yards": 94,
+              "rushing_yards": 74,
+              "rushing_attempts": 28,
+              "turnovers": 0,
+              "total_plays": 57,
+              "interceptions": 0,
+              "fumbles_lost": 0,
+              "passing_completions": 17,
+              "passing_attempts": 27,
+              "sacks_allowed": 2,
+              "sack_yards_lost": 13,
+              "gross_passing_yards": 107,
+              "third_down": "3-14",
+              "fourth_down": "1-1",
+              "red_zone": "2-2",
+              "possession": "29:29",
+              "penalties": "8-42"
+            }
+          },
+          "grading_favorite": "SEA",
+          "grading_spread": -2.5,
+          "grading_total": 40.5,
+          "grading_provider": "DraftKings via ESPN",
+          "grading_market_as_of": "2026-10-15T16:04:15.295559+00:00",
+          "grading_verified_at": "2026-10-18T10:05:40.710695+00:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "closing_unavailable": {
+            "checked_at": "2026-10-18T10:05:40.710695+00:00",
+            "reason": "ESPN final-event current/close keys do not establish consensus closing status. VegasInsider and CBS archives do not explicitly identify an authenticated consensus close. StatMuse query results conflict (SEA -2.5 versus -1.5); no incompatible markets averaged. Latest verified pregame snapshot used only for grading.",
+            "attempted_sources": [
+              "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+              "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+              "https://www.cbssports.com/nfl/odds/2026/regular/week-6/",
+              "https://www.statmuse.com/nfl/ask/nfl-thursday-night-football-scores-and-betting-spreads"
+            ]
+          },
+          "closing_followups": [
+            {
+              "checked_at": "2026-10-18T10:05:40.710695+00:00",
+              "attempted_sources": [
+                "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+                "https://www.cbssports.com/nfl/odds/2026/regular/week-6/"
+              ],
+              "unavailable_fields": [
+                "closing_spread",
+                "closing_total",
+                "closing_away_spread_price",
+                "closing_home_spread_price",
+                "closing_over_price",
+                "closing_under_price"
+              ],
+              "reason": "Weekly archive rechecked; generic Final/table quotes and glossary descriptions do not identify missing field-specific consensus closing evidence. Preserved every stored closing value, missing prices as null and existing Last Verified grading. Retry unresolved fields next existing update."
+            }
+          ],
+          "postgame_summary": "Denver survived by forcing three Seattle turnovers and allowing just one touchdown, despite gaining only 168 yards. Seattle threw 51 times and took five sacks; its overtime interception set up the winning field goal. WTO’s saved SEA 23–20 DEN forecast missed the winner and overestimated both offenses.",
+          "postgame_evidence": {
+            "providers": [
+              "ESPN",
+              "Seattle Seahawks official"
+            ],
+            "source_urls": [
+              "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+              "https://www.seahawks.com/news/rapid-reactions-seahawks-late-game-comeback-falls-short-in-17-14-overtime-loss-to-broncos"
+            ],
+            "verified_at": "2026-10-18T10:05:40.710695+00:00",
+            "scope": "this_game_only",
+            "metrics": {
+              "away": {
+                "team": "SEA",
+                "first_downs": 24,
+                "total_yards": 353,
+                "passing_yards": 240,
+                "rushing_yards": 113,
+                "rushing_attempts": 26,
+                "turnovers": 3,
+                "total_plays": 82,
+                "interceptions": 2,
+                "fumbles_lost": 1,
+                "passing_completions": 27,
+                "passing_attempts": 51,
+                "sacks_allowed": 5,
+                "sack_yards_lost": 38,
+                "gross_passing_yards": 278,
+                "third_down": "7-17",
+                "fourth_down": "1-1",
+                "red_zone": "1-2",
+                "possession": "35:38",
+                "penalties": "7-75"
+              },
+              "home": {
+                "team": "DEN",
+                "first_downs": 13,
+                "total_yards": 168,
+                "passing_yards": 94,
+                "rushing_yards": 74,
+                "rushing_attempts": 28,
+                "turnovers": 0,
+                "total_plays": 57,
+                "interceptions": 0,
+                "fumbles_lost": 0,
+                "passing_completions": 17,
+                "passing_attempts": 27,
+                "sacks_allowed": 2,
+                "sack_yards_lost": 13,
+                "gross_passing_yards": 107,
+                "third_down": "3-14",
+                "fourth_down": "1-1",
+                "red_zone": "2-2",
+                "possession": "29:29",
+                "penalties": "8-42"
+              }
+            },
+            "prediction_revision_id": "2026-W06-SEA-DEN-tuesday-baseline-202610131025363776560000",
+            "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+            "expected_scores": {
+              "winner": "SEA",
+              "winner_side": "AWAY",
+              "away_score": 23,
+              "home_score": 20,
+              "projected_margin": 3,
+              "projected_total": 43,
+              "win_probability": 0.606
+            },
+            "comparison": {
+              "winner": false,
+              "ats": null,
+              "total": null
+            },
+            "grade": "Missed",
+            "interpretation": "Three turnovers and five sacks helped prevent Seattle’s yardage advantage from translating into enough points. Saved NO EDGE calls receive no hit credit."
+          },
+          "scorigami": false,
+          "scorigami_verification": {
+            "provider": "NFL Scorigami",
+            "source_url": "https://nflscorigami.com/data",
+            "verified_at": "2026-10-18T10:00:04.615440+00:00",
+            "first_occurrence_date": "1933-11-26T05:00:00.000Z",
+            "first_occurrence_source_url": "https://www.pro-football-reference.com/boxscores/193311260chi.htm",
+            "is_scorigami": false
+          }
         },
         {
           "game_id": "2026-W06-HOU-JAX",
