@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-19T12:54:57.904Z",
+  "base_commit": "218ec03cecd3dc28d95aee43eb2cc0dabb703531",
+  "scope": "PWA installation audit",
+  "findings_fixed": [
+    "iOS guidance contrast on gold banner",
+    "Android banner dismissal recorded only after accepted install or explicit dismissal; canceled/failed native prompts may retry",
+    "Service worker cleanup restricted to WTO shell caches",
+    "Precache local script versions aligned and core season/leader/EX resources included",
+    "Manifest display name corrected; existing start_url and scope preserved"
+  ],
+  "checks_passed": [
+    "iPhone guidance/dismissal",
+    "iPad desktop detection",
+    "Installed/dismissed suppression",
+    "Android acceptance",
+    "Android cancel/retry",
+    "Native prompt failure recovery",
+    "Unsupported/no-prompt suppression",
+    "Other apps' caches preserved",
+    "All local script/cache URLs match",
+    "Scripts and manifest parse"
+  ],
+  "live_resources_verified": [
+    "HTTPS app page",
+    "manifest and service worker HTTP 200",
+    "192x192 and 512x512 regular icons",
+    "180x180 Apple touch icon",
+    "512x512 maskable icon",
+    "newly cached season, leaders, futures, EX module/snapshot and pick-slip URLs"
+  ],
+  "limitations": [
+    "Behavior tested with browser API fixtures, not installation on a physical iPhone or Android device.",
+    "iOS still requires manual Share / Add to Home Screen confirmation."
+  ]
+}

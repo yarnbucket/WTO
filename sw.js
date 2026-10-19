@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v119-trivia-rewards';
+const CACHE = 'wto-shell-v120-trivia-rewards';
 
 const SHELL = [
   './',
@@ -16,9 +16,14 @@ const SHELL = [
   './wto-team-betting-2026.json',
   './wto-game-insights-2026.json',
   './wto-ui-lib.js',
+  './ff26-nfl-lines-2026.json',
+  './wto-player-leaders-2026.json',
+  './wto-futures-2026.json',
+  './wto-ex.js?v=1',
+  './wto-ex-week6-20261015.json',
   './wto-division-read.js?v=58',
   './wto-slip-lib.js?v=117',
-  './wto-slip.js?v=117',
+  './wto-slip.js?v=120',
   './wto-slip.css?v=58'
 ];
 
@@ -34,7 +39,7 @@ self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys()
       .then(keys => Promise.all(
-        keys.filter(key => key !== CACHE).map(key => caches.delete(key))
+        keys.filter(key => key.startsWith('wto-shell-') && key !== CACHE).map(key => caches.delete(key))
       ))
       .then(() => self.clients.claim())
   );

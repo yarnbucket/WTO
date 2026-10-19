@@ -559,7 +559,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .meter-fill-reveal{transform-box:view-box;transform-origin:0 0;animation:wtoMeterFill 1.1s cubic-bezier(.22,.61,.36,1) var(--meter-fill-delay,0s) both}
 @keyframes wtoMeterFill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 @media(prefers-reduced-motion:reduce){.meter-fill-reveal{animation:none;transform:none}}
-</style><style>.wto-ios-install-steps{margin:14px 0;padding-left:22px;font:14px/1.5 Arial,sans-serif;color:#fff}.wto-ios-install-steps li+li{margin-top:8px}.wto-ios-install-steps strong{color:#ffc72c}</style></head>
+</style><style>.wto-ios-install-steps{margin:14px 0;padding-left:22px;font:14px/1.5 Arial,sans-serif;color:#07120b}.wto-ios-install-steps li+li{margin-top:8px}.wto-ios-install-steps strong{color:#07120b}</style></head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
 
@@ -701,9 +701,9 @@ const WEEKS=Array.from({length:18},(_,i)=>({id:i+1,label:`W${i+1}`,title:`Week $
 let deferredInstallPrompt=null;
 addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event;installBtn.classList.add('show');window.showWtoInstallBanner?.()});
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
-async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
+async function installWto(){if(!deferredInstallPrompt)return null;const prompt=deferredInstallPrompt;deferredInstallPrompt=null;installBtn.classList.remove('show');await prompt.prompt();const choice=await prompt.userChoice;return choice?.outcome??null}
 
-const WTO_RELEASE='2026-10-19-v119';
+const WTO_RELEASE='2026-10-19-v120';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -1424,7 +1424,7 @@ if(document.readyState==='loading'){
 </script>
 <script src="./wto-slip-lib.js?v=117"></script>
 <script src="./wto-ex.js?v=1"></script>
-<script src="./wto-slip.js?v=119"></script>
+<script src="./wto-slip.js?v=120"></script>
 
 <div class="wto-install-lightning" aria-hidden="true"><span></span></div>
 <aside id="wtoInstallBanner" class="wto-install-banner" aria-labelledby="wtoInstallTitle" hidden>
@@ -1472,8 +1472,13 @@ if(document.readyState==='loading'){
       return;
     }
     if(!deferredInstallPrompt)return;
-    finish();
-    await installWto();
+    install.disabled=true;
+    try{
+      const outcome=await installWto();
+      if(outcome==='accepted')finish();
+      else{banner.hidden=true;shown=false;}
+    }catch(error){banner.hidden=true;shown=false;}
+    finally{install.disabled=false;}
   };
   addEventListener('appinstalled',()=>{banner.hidden=true;seen=true;try{localStorage.setItem(key,'1')}catch(e){}});
   if(mobile&&!standalone())setTimeout(()=>{ready=true;window.showWtoInstallBanner()},3000);
