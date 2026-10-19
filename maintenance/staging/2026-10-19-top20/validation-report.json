@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-10-19T20:10:35.398Z",
+  "base_commit": "43e9244469428b3fe108edf50006cc8919aad81a",
+  "changed_files": [
+    "index.html",
+    "sw.js",
+    "wto-player-leaders-2026.json"
+  ],
+  "publish_decision": "publish",
+  "checks_passed": [
+    "79/79 completed regular-season games through Week 5 match ledger teams, week, scores; no preseason",
+    "32 team rosters plus 5 athlete profiles verify every position",
+    "Individual rushing/receiving totals reconcile to all 158 team boxes",
+    "Five immutable cumulative through-week statistical snapshots; 40 players each",
+    "AFC and NFC each render 5 QB/RB/TE/WR sorted by category yards; ties share rank",
+    "Week selection never uses a later snapshot",
+    "All pre-existing player leader snapshots unchanged",
+    "No odds, results, team rankings, predictions, models or personal picks changed",
+    "Inline JavaScript syntax parses; service-worker cache release bumped"
+  ],
+  "optional_gaps": [
+    "Week 6 remains incomplete before Monday's final game; selected Week 6 shows the latest completed Week 5 statistics."
+  ],
+  "source_count": 116
+}
