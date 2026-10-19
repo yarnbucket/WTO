@@ -671,13 +671,30 @@ function teamLeagueTotals(games,scope='LEAGUE'){
 }
 function normalizeTopPlayer(item){const labels={passing_yards:'PASSING',rushing_yards:'RUSHING',receiving_yards:'RECEIVING',scoring:'SCORING',points:'SCORING'};return {category:labels[item.category]||String(item.category||'TOP PLAYER').replaceAll('_',' ').toUpperCase(),player:item.player||'Unavailable'}}
 function playerScopeLeaders(scope,week=current){const eligible=playerLeaderSnapshots.filter(s=>Number(s.through_week)<=Number(week)).sort((a,b)=>Number(b.through_week)-Number(a.through_week)),snapshot=eligible[0];return {week:snapshot?.through_week||week,players:(snapshot?.scopes?.[scope]||[]).map(normalizeTopPlayer)}}
+function esc(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function scopeStandingsRows(scope,throughWeek=current){
+ const rows=summaryScopeTeams(scope).map(team=>({team,w:0,l:0,t:0,played:0,rate:null,rank:null})),byTeam=new Map(rows.map(r=>[r.team,r]));
+ for(const g of Object.values(data).flat()){
+  if(g.status!=='final'||Number(g.week)>Number(throughWeek)||g.awayScore==null||g.homeScore==null)continue;
+  const away=Number(g.awayScore),home=Number(g.homeScore);if(!Number.isFinite(away)||!Number.isFinite(home))continue;
+  for(const [team,own,other] of [[g.away,away,home],[g.home,home,away]]){const r=byTeam.get(team);if(!r)continue;r.played++;if(own>other)r.w++;else if(own<other)r.l++;else r.t++;}
+ }
+ rows.forEach(r=>{if(r.played)r.rate=(r.w+r.t/2)/r.played});
+ rows.sort((a,b)=>(b.rate??-1)-(a.rate??-1)||a.team.localeCompare(b.team));
+ let last=null,rank=0;rows.forEach((r,i)=>{if(r.rate===null)return;if(last===null||Math.abs(r.rate-last)>1e-12)rank=i+1;r.rank=rank;last=r.rate;});return rows;
+}
+function scopeStandingsHtml(scope){
+ if(!isSummaryGroupScope(scope))return '';
+ const rows=scopeStandingsRows(scope);
+ return '<div class="detail-section"><h2>Team Rankings</h2><p>Through Week '+current+' · Win percentage</p><table class="scope-standings" style="width:100%;border-collapse:collapse;font-size:clamp(13px,3.6vw,18px)"><thead><tr><th scope="col">Rank</th><th scope="col" style="text-align:left">Team</th><th scope="col">W–L–T</th><th scope="col">Win %</th></tr></thead><tbody>'+rows.map(r=>'<tr style="border-top:1px solid var(--field-line)"><td style="padding:10px 4px;text-align:center">'+(r.rank??'—')+'</td><th scope="row" style="padding:10px 4px;text-align:left;white-space:nowrap">'+esc(r.team)+'</th><td style="padding:10px 4px;text-align:center;white-space:nowrap">'+r.w+'–'+r.l+'–'+r.t+'</td><td style="padding:10px 4px;text-align:center">'+(r.rate===null?'—':(r.rate*100).toFixed(1)+'%')+'</td></tr>').join('')+'</tbody></table><small>Ties count as half a win. Equal win percentages share a rank; NFL tiebreakers are not applied.</small></div>';
+}
 function scopeTopPlayersHtml(scope,week=current){const result=playerScopeLeaders(scope,week);if(!result.players.length)return '<div class="top-player-pending">PLAYER LEADERS UNAVAILABLE</div>';return '<div class="top-player-grid">'+result.players.map(p=>'<article class="top-player-card"><span>'+esc(p.category)+'</span><strong>'+esc(p.player)+'</strong></article>').join('')+'</div>'}
 function divisionComparisonHtml(scope){
  if(!isSummaryGroupScope(scope))return '';
  const scopes=scope.startsWith('DIVISION_')?[scope]:['EAST','NORTH','SOUTH','WEST'].map(d=>'DIVISION_'+scope.split('_')[1]+'_'+d),games=Object.values(data).flat();
  return '<div class="detail-section"><h2>Expected vs. Actual</h2>'+scopes.map(d=>{const r=WTODivision.compare(games,summaryScopeTeams(d),current),record=x=>x.team+' '+x.w+'–'+x.l+(x.t?'–'+x.t:'');return '<article style="padding:12px 0;border-bottom:1px solid var(--field-line)"><strong style="color:var(--gold)">'+esc(summaryScopeLabel(d))+'</strong><p>Preseason: '+r.favorites.map(t=>esc(t)+' · '+WTODivision.baseline[t].toFixed(1)+' projected wins').join(' / ')+'</p><p>Now: '+(r.leaders.length?r.leaders.map(record).join(' / '):'No completed games')+(r.leaders.length>1?' · tied by record':r.gamesAhead!=null?' · '+r.gamesAhead+' games ahead':'')+'</p><p>'+r.reads.map(esc).join('<br>')+'</p><small>Through Week '+r.throughWeek+' · Record leaders; official tiebreaks not applied.</small></article>'}).join('')+'<p><a href="'+WTODivision.source+'" target="_blank" rel="noopener">ESPN Mike Clay · preseason baseline September 9, 2026</a></p><small>WTO interpretation of season win rate versus projected wins ÷ 17. Opponent win rate excludes games against the featured team and counts each matchup. Early-season context, not betting value.</small></div>';
 }
-function openScopeInfo(scope){const result=playerScopeLeaders(scope,current);returnScroll=scrollY;listView.classList.add('hidden');detailView.classList.add('active');delete detailView.dataset.gameId;delete detailView.dataset.team;detailView.dataset.scope=scope;history.pushState({scope},'',`#scope-${scope}`);scrollTo(0,0);detailView.innerHTML=`<div class="detail-head"><button class="back-btn" onclick="closeTeamInfo()">&larr; BACK TO SUMMARY</button></div><div class="detail-body"><div class="scope-info-hero"><span>INFO</span><h1>${esc(summaryScopeLabel(scope))}</h1><p>Verified leaders through Week ${result.week}</p></div>${divisionComparisonHtml(scope)}<div class="detail-section"><h2>Top Players</h2>${scopeTopPlayersHtml(scope,current)}</div></div>`}
+function openScopeInfo(scope){const result=playerScopeLeaders(scope,current);returnScroll=scrollY;listView.classList.add('hidden');detailView.classList.add('active');delete detailView.dataset.gameId;delete detailView.dataset.team;detailView.dataset.scope=scope;history.pushState({scope},'',`#scope-${scope}`);scrollTo(0,0);detailView.innerHTML=`<div class="detail-head"><button class="back-btn" onclick="closeTeamInfo()">&larr; BACK TO SUMMARY</button></div><div class="detail-body"><div class="scope-info-hero"><span>INFO</span><h1>${esc(summaryScopeLabel(scope))}</h1><p>Verified leaders through Week ${result.week}</p></div>${scopeStandingsHtml(scope)}${divisionComparisonHtml(scope)}<div class="detail-section"><h2>Top Players</h2>${scopeTopPlayersHtml(scope,current)}</div></div>`}
 let firstExecutiveRender=true;
 function renderExecutive(fillDelay=0){
   summaryMeters.style.setProperty("--meter-fill-delay",(firstExecutiveRender?5:fillDelay)+"s");firstExecutiveRender=false;
@@ -703,7 +720,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return null;const prompt=deferredInstallPrompt;deferredInstallPrompt=null;installBtn.classList.remove('show');await prompt.prompt();const choice=await prompt.userChoice;return choice?.outcome??null}
 
-const WTO_RELEASE='2026-10-19-v121';
+const WTO_RELEASE='2026-10-19-v122';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -723,7 +740,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=121',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=122',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
