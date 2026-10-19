@@ -703,7 +703,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return null;const prompt=deferredInstallPrompt;deferredInstallPrompt=null;installBtn.classList.remove('show');await prompt.prompt();const choice=await prompt.userChoice;return choice?.outcome??null}
 
-const WTO_RELEASE='2026-10-19-v120';
+const WTO_RELEASE='2026-10-19-v121';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -723,7 +723,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=117',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=121',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1540,5 +1540,6 @@ if(document.readyState==='loading'){
   apply();
 })();
 </script>
+<script src="./wto-halloween.js?v=121"></script>
 </body>
 </html>
