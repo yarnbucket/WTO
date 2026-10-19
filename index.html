@@ -559,7 +559,7 @@ body[data-theme]:not([data-theme="classic"]) .settings-panel{background-color:rg
 .meter-fill-reveal{transform-box:view-box;transform-origin:0 0;animation:wtoMeterFill 1.1s cubic-bezier(.22,.61,.36,1) var(--meter-fill-delay,0s) both}
 @keyframes wtoMeterFill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 @media(prefers-reduced-motion:reduce){.meter-fill-reveal{animation:none;transform:none}}
-</style></head>
+</style><style>.wto-ios-install-steps{margin:14px 0;padding-left:22px;font:14px/1.5 Arial,sans-serif;color:#fff}.wto-ios-install-steps li+li{margin-top:8px}.wto-ios-install-steps strong{color:#ffc72c}</style></head>
 <body>
 <svg class="wto-svg-defs" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden"><defs><filter id="wtoChalkLine" x="-8%" y="-20%" width="116%" height="140%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="1" seed="26" result="chalkNoise"></feTurbulence><feDisplacementMap in="SourceGraphic" in2="chalkNoise" scale=".7" xChannelSelector="R" yChannelSelector="G" result="roughLine"></feDisplacementMap><feGaussianBlur in="roughLine" stdDeviation=".28" result="chalkDust"></feGaussianBlur><feMerge><feMergeNode in="chalkDust"></feMergeNode><feMergeNode in="roughLine"></feMergeNode></feMerge></filter></defs></svg>
 
@@ -703,7 +703,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;installBtn.classList.remove('show')}
 
-const WTO_RELEASE='2026-10-14-v118';
+const WTO_RELEASE='2026-10-19-v119';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -1429,6 +1429,12 @@ if(document.readyState==='loading'){
 <div class="wto-install-lightning" aria-hidden="true"><span></span></div>
 <aside id="wtoInstallBanner" class="wto-install-banner" aria-labelledby="wtoInstallTitle" hidden>
   <div class="install-intro"><img src="./wto-icon-192.png" alt=""><div><h2 id="wtoInstallTitle">TAKE WTO WITH YOU</h2><p id="wtoInstallText">Matchups, odds, and your picks—one tap away.</p></div></div>
+  <ol id="wtoIosInstallSteps" class="wto-ios-install-steps" hidden aria-label="Install WTO on iPhone or iPad">
+    <li>Open WTO in <strong>Safari</strong>. If you opened this link inside another app, open it in Safari first.</li>
+    <li>Tap <strong>Share</strong> (the square with an upward arrow). You may need to open the browser menu first.</li>
+    <li>Choose <strong>Add to Home Screen</strong>.</li>
+    <li>Leave <strong>Open as Web App</strong> on, if shown, then tap <strong>Add</strong>.</li>
+  </ol>
   <div class="wto-install-actions"><button type="button" id="wtoBannerInstall">↓ INSTALL</button><button type="button" id="wtoBannerDismiss">NOT NOW</button></div>
 </aside>
 <script>
@@ -1440,16 +1446,31 @@ if(document.readyState==='loading'){
   const standalone=()=>window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
   const ios=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
   const mobile=ios||/Android/.test(navigator.userAgent);
+  const steps=document.getElementById('wtoIosInstallSteps');
+  let stepsShown=false;
+  if(ios){
+    document.getElementById('wtoInstallText').textContent='Add the WTO icon to your Home Screen.';
+    install.textContent='SHOW STEPS';
+    install.setAttribute('aria-controls','wtoIosInstallSteps');
+    install.setAttribute('aria-expanded','false');
+  }
   let shown=false,ready=false,seen=false;
   try{seen=localStorage.getItem(key)==='1'}catch(e){}
   window.showWtoInstallBanner=function(){
-    if(!ready||seen||shown||standalone()||!deferredInstallPrompt)return;
+    if(!ready||seen||shown||standalone()||(!ios&&!deferredInstallPrompt))return;
     shown=true;
     banner.hidden=false;
   };
   const finish=()=>{banner.hidden=true;seen=true;try{localStorage.setItem(key,'1')}catch(e){}};
   dismiss.onclick=finish;
   install.onclick=async()=>{
+    if(ios){
+      if(stepsShown){finish();return;}
+      stepsShown=true;steps.hidden=false;
+      install.textContent='GOT IT';
+      install.setAttribute('aria-expanded','true');
+      return;
+    }
     if(!deferredInstallPrompt)return;
     finish();
     await installWto();
