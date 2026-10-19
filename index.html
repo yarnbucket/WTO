@@ -746,7 +746,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return null;const prompt=deferredInstallPrompt;deferredInstallPrompt=null;installBtn.classList.remove('show');await prompt.prompt();const choice=await prompt.userChoice;return choice?.outcome??null}
 
-const WTO_RELEASE='2026-10-19-v124';
+const WTO_RELEASE='2026-10-19-v125';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -766,7 +766,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=124',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=125',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -933,10 +933,11 @@ function kickoffWeather(g){
   const roof=homeVenue?wtoWeatherVenues?.teams?.[g.home]?.roof_type:(w?.venue_roof_type||null);
   const roofProof=w&&w.kickoff===g.kickoff&&/^https:\/\//.test(w.roof_source_url||'')&&Number.isFinite(Date.parse(w.roof_checked_at));
   const closed=roof==='retractable'&&roofProof&&w.roof_status==='closed';
-  if(roof==='fixed_enclosed'||closed)return {condition:'indoors',label:'🏟️ Weather no factor',detail:closed?'Game-specific roof closure verified.':'Enclosed fixed-roof venue; outdoor weather does not affect field conditions.',url:closed?w.roof_source_url:undefined,checked:closed?w.roof_checked_at:undefined};
+  if(roof==='fixed_enclosed'||closed)return {condition:'indoors',label:'DOME',detail:closed?'Game-specific roof closure verified.':'Enclosed fixed-roof venue; outdoor weather does not affect field conditions.',url:closed?w.roof_source_url:undefined,checked:closed?w.roof_checked_at:undefined};
+  if(roof==='retractable'&&roofProof&&w.roof_status==='open')return {condition:sourced&&allowed.includes(w.condition)?w.condition:'unavailable',label:'OPEN DOME',detail:'Game-specific roof opening verified.'+(sourced?' '+(w.detail||''):''),url:w.roof_source_url,checked:w.roof_checked_at};
   const roofed=['fixed_enclosed','retractable','fixed_canopy_open_air'].includes(roof);
   const material=sourced&&w.weather_impact==='material'&&(roof==='fixed_canopy_open_air'||(roof==='retractable'&&roofProof&&w.roof_status==='open'));
-  if(roofed&&!material)return {condition:'indoors',label:'🏟️ Weather no factor',detail:'Roofed venue default. Weather impact is shown only after verification during a scheduled update.'};
+  if(roofed&&!material)return {condition:'indoors',label:'ROOFED',detail:roof==='fixed_canopy_open_air'?'Fixed canopy with open sides; this venue is not an enclosed dome.':'Retractable-roof venue; game-specific open or closed status is not established.'};
   const roofNote=roof==='retractable'?(roofProof&&w.roof_status==='open'?'Roof open':''):roof==='fixed_canopy_open_air'?'Roof canopy · Open-air':'';
   const suffix=roofNote?' · '+roofNote:'';
   if(!sourced||!allowed.includes(w.condition))return {condition:'unavailable',label:'☁️ Forecast',detail:g.kickoff_time_tbd||!Number.isFinite(Date.parse(g.kickoff))?'Game date or kickoff time is TBD.':'No verified forecast covering this kickoff is stored yet.'};

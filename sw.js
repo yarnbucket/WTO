@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v124-compact-weather';
+const CACHE = 'wto-shell-v125-dome-labels';
 
 const SHELL = [
   './',
