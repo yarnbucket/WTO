@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v125-dome-labels';
+const CACHE = 'wto-shell-v126-dragon-mouth';
 
 const SHELL = [
   './',
