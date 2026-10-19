@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v122-scope-rankings';
+const CACHE = 'wto-shell-v123-dragon-intro';
 
 const SHELL = [
   './',
