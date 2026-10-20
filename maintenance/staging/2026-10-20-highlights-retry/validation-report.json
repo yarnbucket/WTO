@@ -1,0 +1,115 @@
+{
+  "checked_at": "2026-10-20T04:13:07.836439+00:00",
+  "base_commit": "8914f4b0faeb399a256156b420caa48aac54dfaf",
+  "purpose": "User-authorized one-time Week 6 results/highlights retry",
+  "publish_decision": "PUBLISH_VALIDATED_RESULTS_AND_HIGHLIGHTS",
+  "proposed_changed_files": [
+    "ff26-nfl-lines-2026.json",
+    "wto-game-insights-2026.json",
+    "wto-team-betting-2026.json",
+    "wto-weekly-highlights-2026.json"
+  ],
+  "results_repaired": [
+    "2026-W06-HOU-JAX",
+    "2026-W06-BAL-CLE",
+    "2026-W06-CAR-PHI",
+    "2026-W06-CHI-ATL",
+    "2026-W06-NO-NYG",
+    "2026-W06-NYJ-NE",
+    "2026-W06-PIT-TB",
+    "2026-W06-TEN-IND",
+    "2026-W06-ARI-LAR",
+    "2026-W06-BUF-LV",
+    "2026-W06-LAC-KC",
+    "2026-W06-DAL-GB",
+    "2026-W06-WAS-SF"
+  ],
+  "complete_week6_games": 14,
+  "weekly_summary": {
+    "final_games": 14,
+    "scheduled_games": 14,
+    "favorite_wins": 9,
+    "underdog_wins": 5,
+    "straight_up_ties": 0,
+    "favorite_ats_wins": 6,
+    "underdog_ats_wins": 8,
+    "ats_pushes": 0,
+    "overs": 7,
+    "unders": 7,
+    "total_pushes": 0,
+    "market_basis": "Last Verified saved pregame checkpoints; verified consensus closes unavailable.",
+    "verified_at": "2026-10-20T04:13:07.836439+00:00"
+  },
+  "unresolved_required_inputs": [],
+  "optional_unavailable": {
+    "closing_markets": {
+      "game_ids": [
+        "2026-W06-SEA-DEN",
+        "2026-W06-HOU-JAX",
+        "2026-W06-BAL-CLE",
+        "2026-W06-CAR-PHI",
+        "2026-W06-CHI-ATL",
+        "2026-W06-NO-NYG",
+        "2026-W06-NYJ-NE",
+        "2026-W06-PIT-TB",
+        "2026-W06-TEN-IND",
+        "2026-W06-ARI-LAR",
+        "2026-W06-BUF-LV",
+        "2026-W06-LAC-KC",
+        "2026-W06-DAL-GB",
+        "2026-W06-WAS-SF"
+      ],
+      "fields": [
+        "closing_favorite",
+        "closing_spread",
+        "closing_total",
+        "closing_away_spread_price",
+        "closing_home_spread_price",
+        "closing_over_price",
+        "closing_under_price"
+      ],
+      "reason": "No source-explicit compatible consensus closing quote authenticated. Saved verified pregame snapshots are used only in grading fields, visibly Last Verified.",
+      "attempted_source_urls": [
+        "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+        "https://www.cbssports.com/nfl/odds/2026/regular/week-6/",
+        "https://www.vegasinsider.com/nfl/odds/las-vegas/?week=6&season=2026"
+      ],
+      "checked_at": "2026-10-20T04:13:07.836439+00:00"
+    }
+  },
+  "carry_forward_to_tuesday": [
+    "Retry unresolved source-explicit consensus closing lines/prices; preserve all saved quotes.",
+    "Complete the existing full Tuesday workflow including cumulative conference leaders and immutable spread tracker; this retry does not replace those duties.",
+    "Reuse maintenance/evidence/2026-week6-highlights-retry.json game/player evidence before fetching duplicate boxes."
+  ],
+  "preserved": [
+    "all pregame prediction revisions/model versions",
+    "all market/opening/weather histories",
+    "all finalized earlier highlight weeks",
+    "all prior team game-history rows",
+    "all saved picks and UI code",
+    "all production/shadow models and frozen residual distributions"
+  ],
+  "results_source_urls": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008"
+  ],
+  "validation": {
+    "passed": true,
+    "checks": 8,
+    "validated_at": "2026-10-20T04:13:08.361Z",
+    "scope": "Data-only release; UI, personal picks, model formula/training and prior immutable records unchanged."
+  }
+}

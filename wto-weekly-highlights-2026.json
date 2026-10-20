@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "season": 2026,
-  "updated_at": "2026-10-20T00:59:44.978086+00:00",
+  "updated_at": "2026-10-20T04:13:07.836439+00:00",
   "methodology": "Weekly individual game statistics, not cumulative season totals; top five QB by gross passing yards, RB by rushing yards, WR and TE separately by receiving yards. Positions verified using ESPN 2026 rosters/athlete profiles. Upsets are outright wins by underdogs using stored verified closing markets or separately identified Last Verified grading markets; ties, pick-em, favorite wins and cover-only results excluded. Market gaps disclosed. Recaps reuse saved verified box scores without claiming unsupported causes.",
   "weeks": [
     {
@@ -134,7 +134,7 @@
               "rushingAttempts": 24,
               "rushingYards": 144,
               "rushingTouchdowns": 3,
-              "yards_per_carry": 6.0
+              "yards_per_carry": 6
             },
             "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
             "market_independent": true,
@@ -378,7 +378,7 @@
           "provider": "PFF",
           "market_as_of": null,
           "market_verified_at": "2026-09-15T05:57:25-04:00",
-          "summary": "NYG won 28\u201320; its offense gained 394 yards against DAL, compared with 244 the other way.",
+          "summary": "NYG won 28–20; its offense gained 394 yards against DAL, compared with 244 the other way.",
           "source_urls": [
             "https://www.pff.com/nfl/scores/2026/1/dallas-cowboys_at_new-york-giants_30608",
             "https://www.espn.com/nfl/schedule",
@@ -1016,7 +1016,7 @@
               "rushingAttempts": 20,
               "rushingYards": 99,
               "rushingTouchdowns": 2,
-              "yards_per_carry": 5.0
+              "yards_per_carry": 5
             },
             "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
             "market_independent": true,
@@ -1301,7 +1301,7 @@
           "provider": "DraftKings via ESPN",
           "market_as_of": null,
           "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
-          "summary": "CLE won 21\u201318; its offense gained 259 yards against CAR, compared with 360 the other way.",
+          "summary": "CLE won 21–18; its offense gained 259 yards against CAR, compared with 360 the other way.",
           "source_urls": [
             "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872949",
             "https://www.reuters.com/sports/nfl-roundup-marcus-mariota-commanders-stun-seahawks--flm-2026-09-28/",
@@ -1320,7 +1320,7 @@
           "provider": "DraftKings via ESPN",
           "market_as_of": null,
           "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
-          "summary": "IND won 19\u201317; its offense gained 300 yards against HOU, compared with 223 the other way.",
+          "summary": "IND won 19–17; its offense gained 300 yards against HOU, compared with 223 the other way.",
           "source_urls": [
             "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872951",
             "https://www.reuters.com/sports/nfl-roundup-marcus-mariota-commanders-stun-seahawks--flm-2026-09-28/",
@@ -1467,7 +1467,7 @@
               "rushingAttempts": 22,
               "rushingYards": 177,
               "rushingTouchdowns": 2,
-              "yards_per_carry": 8.0
+              "yards_per_carry": 8
             },
             "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
             "market_independent": true,
@@ -1705,7 +1705,7 @@
           "provider": "DraftKings via ESPN",
           "market_as_of": null,
           "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
-          "summary": "Maye delivered late; Buffalo couldn\u2019t finish defensively.",
+          "summary": "Maye delivered late; Buffalo couldn’t finish defensively.",
           "source_urls": [
             "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872971",
             "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
@@ -1724,7 +1724,7 @@
           "provider": "DraftKings via ESPN",
           "market_as_of": null,
           "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
-          "summary": "McMillan exposed Detroit\u2019s coverage; Carolina finished drives better.",
+          "summary": "McMillan exposed Detroit’s coverage; Carolina finished drives better.",
           "source_urls": [
             "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
             "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
@@ -1743,7 +1743,7 @@
           "provider": "DraftKings via ESPN",
           "market_as_of": null,
           "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
-          "summary": "Lamb overwhelmed Houston\u2019s coverage; Dallas scored repeatedly after halftime.",
+          "summary": "Lamb overwhelmed Houston’s coverage; Dallas scored repeatedly after halftime.",
           "source_urls": [
             "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
             "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
@@ -1762,7 +1762,7 @@
           "provider": "DraftKings via ESPN",
           "market_as_of": null,
           "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
-          "summary": "Banks ended Arizona\u2019s comeback with a decisive interception return.",
+          "summary": "Banks ended Arizona’s comeback with a decisive interception return.",
           "source_urls": [
             "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
             "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
@@ -1963,7 +1963,7 @@
               "rushingAttempts": 25,
               "rushingYards": 151,
               "rushingTouchdowns": 2,
-              "yards_per_carry": 6.0
+              "yards_per_carry": 6
             },
             "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
             "market_independent": true,
@@ -2287,129 +2287,256 @@
     },
     {
       "week": 6,
-      "status": "in_progress",
+      "status": "final",
       "scheduled_games": 14,
-      "final_games": 1,
+      "final_games": 14,
       "player_coverage": {
-        "verified_box_scores": 1,
-        "missing_game_ids": []
+        "verified_box_scores": 14,
+        "missing_game_ids": [],
+        "missing_positions": [],
+        "category_totals_reconciled": true
       },
       "players": {
         "QB": [
           {
-            "player_id": "3912547",
-            "player": "Sam Darnold",
-            "team": "SEA",
+            "player_id": "14880",
+            "player": "Kirk Cousins",
+            "team": "LV",
             "position": "QB",
-            "game_id": "2026-W06-SEA-DEN",
+            "game_id": "2026-W06-BUF-LV",
             "stats": {
-              "passingYards": 278,
-              "passingTouchdowns": 0,
-              "interceptions": 2
+              "passingYards": 313,
+              "passingTouchdowns": 2,
+              "interceptions": 1,
+              "completions": 23,
+              "passingAttempts": 41
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+            "verified_at": "2026-10-20T04:06:59.713889+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026",
+              "verified_at": "2026-10-19T20:07:56.831900+00:00"
+            },
             "market_independent": true,
             "rank": 1
           },
           {
-            "player_id": "4426338",
-            "player": "Bo Nix",
-            "team": "DEN",
+            "player_id": "4432577",
+            "player": "C.J. Stroud",
+            "team": "HOU",
             "position": "QB",
-            "game_id": "2026-W06-SEA-DEN",
+            "game_id": "2026-W06-HOU-JAX",
             "stats": {
-              "passingYards": 107,
-              "passingTouchdowns": 0,
-              "interceptions": 0
+              "passingYards": 312,
+              "passingTouchdowns": 3,
+              "interceptions": 1,
+              "completions": 24,
+              "passingAttempts": 34
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
-            "market_independent": true,
-            "rank": 2
-          }
-        ],
-        "RB": [
-          {
-            "player_id": "4887558",
-            "player": "Emanuel Wilson",
-            "team": "SEA",
-            "position": "RB",
-            "game_id": "2026-W06-SEA-DEN",
-            "stats": {
-              "rushingAttempts": 14,
-              "rushingYards": 52,
-              "rushingTouchdowns": 0,
-              "yards_per_carry": 3.7
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+            "verified_at": "2026-10-20T04:06:59.838512+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.210434+00:00"
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
-            "market_independent": true,
-            "rank": 1
-          },
-          {
-            "player_id": "4241985",
-            "player": "J.K. Dobbins",
-            "team": "DEN",
-            "position": "RB",
-            "game_id": "2026-W06-SEA-DEN",
-            "stats": {
-              "rushingAttempts": 17,
-              "rushingYards": 41,
-              "rushingTouchdowns": 1,
-              "yards_per_carry": 2.4
-            },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
             "market_independent": true,
             "rank": 2
           },
           {
-            "player_id": "4568490",
-            "player": "RJ Harvey",
-            "team": "DEN",
-            "position": "RB",
-            "game_id": "2026-W06-SEA-DEN",
+            "player_id": "4360310",
+            "player": "Trevor Lawrence",
+            "team": "JAX",
+            "position": "QB",
+            "game_id": "2026-W06-HOU-JAX",
             "stats": {
-              "rushingAttempts": 6,
-              "rushingYards": 25,
-              "rushingTouchdowns": 1,
-              "yards_per_carry": 4.2
+              "passingYards": 306,
+              "passingTouchdowns": 4,
+              "interceptions": 1,
+              "completions": 24,
+              "passingAttempts": 41
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+            "verified_at": "2026-10-20T04:06:59.838512+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.157894+00:00"
+            },
             "market_independent": true,
             "rank": 3
           },
           {
-            "player_id": "4429835",
-            "player": "George Holani",
-            "team": "SEA",
-            "position": "RB",
-            "game_id": "2026-W06-SEA-DEN",
+            "player_id": "4431611",
+            "player": "Caleb Williams",
+            "team": "CHI",
+            "position": "QB",
+            "game_id": "2026-W06-CHI-ATL",
             "stats": {
-              "rushingAttempts": 5,
-              "rushingYards": 20,
-              "rushingTouchdowns": 1,
-              "yards_per_carry": 4.0
+              "passingYards": 305,
+              "passingTouchdowns": 1,
+              "interceptions": 0,
+              "completions": 30,
+              "passingAttempts": 36
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+            "verified_at": "2026-10-20T04:06:59.853268+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026",
+              "verified_at": "2026-10-19T20:07:56.885599+00:00"
+            },
             "market_independent": true,
             "rank": 4
           },
           {
-            "player_id": "4035693",
-            "player": "Velus Jones Jr.",
-            "team": "SEA",
-            "position": "RB",
-            "game_id": "2026-W06-SEA-DEN",
+            "player_id": "4426348",
+            "player": "Jayden Daniels",
+            "team": "WAS",
+            "position": "QB",
+            "game_id": "2026-W06-WAS-SF",
             "stats": {
-              "rushingAttempts": 4,
-              "rushingYards": 20,
-              "rushingTouchdowns": 0,
-              "yards_per_carry": 5.0
+              "passingYards": 300,
+              "passingTouchdowns": 2,
+              "interceptions": 0,
+              "completions": 29,
+              "passingAttempts": 40
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008",
+            "verified_at": "2026-10-20T04:07:02.804049+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.093087+00:00"
+            },
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "RB": [
+          {
+            "player_id": "4567048",
+            "player": "Kenneth Walker III",
+            "team": "KC",
+            "position": "RB",
+            "game_id": "2026-W06-LAC-KC",
+            "stats": {
+              "rushingAttempts": 19,
+              "rushingYards": 128,
+              "rushingTouchdowns": 2,
+              "yards_per_carry": 6.7
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
+            "verified_at": "2026-10-20T04:06:59.819087+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026",
+              "verified_at": "2026-10-19T20:07:56.937144+00:00"
+            },
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4241416",
+            "player": "Chuba Hubbard",
+            "team": "CAR",
+            "position": "RB",
+            "game_id": "2026-W06-CAR-PHI",
+            "stats": {
+              "rushingAttempts": 28,
+              "rushingYards": 120,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 4.3
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998",
+            "verified_at": "2026-10-20T04:06:59.828590+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.052540+00:00"
+            },
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4379399",
+            "player": "James Cook III",
+            "team": "BUF",
+            "position": "RB",
+            "game_id": "2026-W06-BUF-LV",
+            "stats": {
+              "rushingAttempts": 22,
+              "rushingYards": 95,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 4.3
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+            "verified_at": "2026-10-20T04:06:59.713889+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026",
+              "verified_at": "2026-10-19T20:07:52.318139+00:00"
+            },
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4242335",
+            "player": "Jonathan Taylor",
+            "team": "IND",
+            "position": "RB",
+            "game_id": "2026-W06-TEN-IND",
+            "stats": {
+              "rushingAttempts": 21,
+              "rushingYards": 94,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 4.5
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003",
+            "verified_at": "2026-10-20T04:06:59.701476+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026",
+              "verified_at": "2026-10-19T20:07:56.912263+00:00"
+            },
             "market_independent": true,
             "rank": 4
+          },
+          {
+            "player_id": "4427728",
+            "player": "Bam Knight",
+            "team": "ARI",
+            "position": "RB",
+            "game_id": "2026-W06-ARI-LAR",
+            "stats": {
+              "rushingAttempts": 15,
+              "rushingYards": 80,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 5.3
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004",
+            "verified_at": "2026-10-20T04:06:59.752391+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.073580+00:00"
+            },
+            "market_independent": true,
+            "rank": 5
           }
         ],
         "WR": [
+          {
+            "player_id": "4595348",
+            "player": "Malik Nabers",
+            "team": "NYG",
+            "position": "WR",
+            "game_id": "2026-W06-NO-NYG",
+            "stats": {
+              "receptions": 12,
+              "receivingYards": 165,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+            "verified_at": "2026-10-20T04:06:59.897205+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.176987+00:00"
+            },
+            "market_independent": true,
+            "rank": 1
+          },
           {
             "player_id": "4430878",
             "player": "Jaxon Smith-Njigba",
@@ -2422,119 +2549,255 @@
               "receivingTouchdowns": 0
             },
             "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
-            "market_independent": true,
-            "rank": 1
-          },
-          {
-            "player_id": "4032473",
-            "player": "Rashid Shaheed",
-            "team": "SEA",
-            "position": "WR",
-            "game_id": "2026-W06-SEA-DEN",
-            "stats": {
-              "receptions": 5,
-              "receivingYards": 66,
-              "receivingTouchdowns": 0
+            "verified_at": "2026-10-20T04:06:59.864934+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.062186+00:00"
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
             "market_independent": true,
             "rank": 2
           },
           {
-            "player_id": "2977187",
-            "player": "Cooper Kupp",
-            "team": "SEA",
+            "player_id": "4586312",
+            "player": "Jaylin Noel",
+            "team": "HOU",
             "position": "WR",
-            "game_id": "2026-W06-SEA-DEN",
+            "game_id": "2026-W06-HOU-JAX",
             "stats": {
-              "receptions": 5,
-              "receivingYards": 50,
-              "receivingTouchdowns": 0
+              "receptions": 4,
+              "receivingYards": 107,
+              "receivingTouchdowns": 1
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+            "verified_at": "2026-10-20T04:06:59.838512+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.210434+00:00"
+            },
             "market_independent": true,
             "rank": 3
           },
           {
-            "player_id": "4372016",
-            "player": "Jaylen Waddle",
-            "team": "DEN",
+            "player_id": "4701936",
+            "player": "Matthew Golden",
+            "team": "GB",
             "position": "WR",
-            "game_id": "2026-W06-SEA-DEN",
+            "game_id": "2026-W06-DAL-GB",
             "stats": {
-              "receptions": 4,
-              "receivingYards": 24,
-              "receivingTouchdowns": 0
+              "receptions": 6,
+              "receivingYards": 104,
+              "receivingTouchdowns": 1
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007",
+            "verified_at": "2026-10-20T04:07:02.896726+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026",
+              "verified_at": "2026-10-19T20:07:56.907763+00:00"
+            },
             "market_independent": true,
             "rank": 4
           },
           {
-            "player_id": "3128429",
-            "player": "Courtland Sutton",
-            "team": "DEN",
+            "player_id": "4723820",
+            "player": "Omar Cooper Jr.",
+            "team": "NYJ",
             "position": "WR",
-            "game_id": "2026-W06-SEA-DEN",
+            "game_id": "2026-W06-NYJ-NE",
             "stats": {
-              "receptions": 2,
-              "receivingYards": 19,
-              "receivingTouchdowns": 0
+              "receptions": 6,
+              "receivingYards": 103,
+              "receivingTouchdowns": 1
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001",
+            "verified_at": "2026-10-20T04:06:59.732486+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.143966+00:00"
+            },
             "market_independent": true,
             "rank": 5
           }
         ],
         "TE": [
           {
-            "player_id": "4576297",
-            "player": "AJ Barner",
-            "team": "SEA",
+            "player_id": "4361050",
+            "player": "Isaiah Likely",
+            "team": "NYG",
             "position": "TE",
-            "game_id": "2026-W06-SEA-DEN",
+            "game_id": "2026-W06-NO-NYG",
             "stats": {
-              "receptions": 3,
-              "receivingYards": 16,
-              "receivingTouchdowns": 0
+              "receptions": 6,
+              "receivingYards": 99,
+              "receivingTouchdowns": 1
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+            "verified_at": "2026-10-20T04:06:59.897205+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.176987+00:00"
+            },
             "market_independent": true,
             "rank": 1
           },
           {
-            "player_id": "3051876",
-            "player": "Evan Engram",
-            "team": "DEN",
+            "player_id": "4429086",
+            "player": "Michael Mayer",
+            "team": "LV",
             "position": "TE",
-            "game_id": "2026-W06-SEA-DEN",
+            "game_id": "2026-W06-BUF-LV",
             "stats": {
-              "receptions": 2,
-              "receivingYards": 13,
+              "receptions": 7,
+              "receivingYards": 95,
               "receivingTouchdowns": 0
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+            "verified_at": "2026-10-20T04:06:59.713889+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026",
+              "verified_at": "2026-10-19T20:07:56.831900+00:00"
+            },
             "market_independent": true,
             "rank": 2
           },
           {
-            "player_id": "2975863",
-            "player": "Eric Saubert",
-            "team": "SEA",
+            "player_id": "4432665",
+            "player": "Brock Bowers",
+            "team": "LV",
             "position": "TE",
-            "game_id": "2026-W06-SEA-DEN",
+            "game_id": "2026-W06-BUF-LV",
             "stats": {
-              "receptions": 0,
-              "receivingYards": 0,
+              "receptions": 4,
+              "receivingYards": 70,
               "receivingTouchdowns": 0
             },
-            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+            "verified_at": "2026-10-20T04:06:59.713889+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026",
+              "verified_at": "2026-10-19T20:07:56.831900+00:00"
+            },
             "market_independent": true,
             "rank": 3
+          },
+          {
+            "player_id": "4360635",
+            "player": "Chig Okonkwo",
+            "team": "WAS",
+            "position": "TE",
+            "game_id": "2026-W06-WAS-SF",
+            "stats": {
+              "receptions": 7,
+              "receivingYards": 69,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008",
+            "verified_at": "2026-10-20T04:07:02.804049+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.093087+00:00"
+            },
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "3040151",
+            "player": "George Kittle",
+            "team": "SF",
+            "position": "TE",
+            "game_id": "2026-W06-WAS-SF",
+            "stats": {
+              "receptions": 5,
+              "receivingYards": 69,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008",
+            "verified_at": "2026-10-20T04:07:02.804049+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026",
+              "verified_at": "2026-10-19T20:08:01.013844+00:00"
+            },
+            "market_independent": true,
+            "rank": 4
           }
         ]
       },
       "upsets": [
+        {
+          "game_id": "2026-W06-ARI-LAR",
+          "winner": "ARI",
+          "favorite": "LAR",
+          "underdog_spread": 12.5,
+          "winner_score": 18,
+          "loser_score": 16,
+          "line_type": "latest_verified_pregame_snapshot",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": "2026-10-15T16:04:18.879456+00:00",
+          "market_verified_at": "2026-10-20T04:13:07.836439+00:00",
+          "summary": "Arizona won on Chad Ryland’s sixth field goal, a 43-yarder as time expired.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261018&limit=100",
+            "https://www.nfl.com/schedules/2026/by-week/week-6"
+          ],
+          "verified_at": "2026-10-20T04:06:59.752391+00:00"
+        },
+        {
+          "game_id": "2026-W06-TEN-IND",
+          "winner": "TEN",
+          "favorite": "IND",
+          "underdog_spread": 7,
+          "winner_score": 26,
+          "loser_score": 20,
+          "line_type": "latest_verified_pregame_snapshot",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": "2026-10-15T16:04:18.836830+00:00",
+          "market_verified_at": "2026-10-20T04:13:07.836439+00:00",
+          "summary": "Tennessee’s blocked-punt return touchdown and three takeaways helped overcome a 399–186 deficit in total yards.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261018&limit=100",
+            "https://www.nfl.com/schedules/2026/by-week/week-6"
+          ],
+          "verified_at": "2026-10-20T04:06:59.701476+00:00"
+        },
+        {
+          "game_id": "2026-W06-BAL-CLE",
+          "winner": "CLE",
+          "favorite": "BAL",
+          "underdog_spread": 5.5,
+          "winner_score": 13,
+          "loser_score": 10,
+          "line_type": "latest_verified_pregame_snapshot",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": "2026-10-15T16:04:15.308916+00:00",
+          "market_verified_at": "2026-10-20T04:13:07.836439+00:00",
+          "summary": "Cleveland won on Andre Szmyt’s 37-yard field goal after holding Baltimore to 235 yards.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261018&limit=100",
+            "https://www.nfl.com/schedules/2026/by-week/week-6"
+          ],
+          "verified_at": "2026-10-20T04:06:59.806692+00:00"
+        },
+        {
+          "game_id": "2026-W06-HOU-JAX",
+          "winner": "HOU",
+          "favorite": "JAX",
+          "underdog_spread": 2.5,
+          "winner_score": 34,
+          "loser_score": 31,
+          "line_type": "latest_verified_pregame_snapshot",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": "2026-10-15T16:04:15.236070+00:00",
+          "market_verified_at": "2026-10-20T04:13:07.836439+00:00",
+          "summary": "Houston won on Ka’imi Fairbairn’s 49-yard field goal after C.J.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261018&limit=100",
+            "https://www.nfl.com/schedules/2026/by-week/week-6"
+          ],
+          "verified_at": "2026-10-20T04:06:59.838512+00:00"
+        },
         {
           "game_id": "2026-W06-SEA-DEN",
           "winner": "DEN",
@@ -2546,19 +2809,32 @@
           "provider": "DraftKings via ESPN",
           "market_as_of": "2026-10-15T16:04:15.295559+00:00",
           "market_verified_at": "2026-10-18T10:05:40.710695+00:00",
-          "summary": "DEN finished plus-3 in turnover margin against SEA.",
+          "summary": "Denver survived by forcing three Seattle turnovers and allowing just one touchdown, despite gaining only 168 yards.",
           "source_urls": [
             "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
             "https://www.seahawks.com/news/rapid-reactions-seahawks-late-game-comeback-falls-short-in-17-14-overtime-loss-to-broncos"
           ],
-          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+          "verified_at": "2026-10-18T11:58:38.167Z"
         }
       ],
       "upset_market_unavailable_game_ids": [],
       "source_urls": [
-        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995"
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008"
       ],
-      "verified_at": "2026-10-20T00:59:44.978086+00:00"
+      "verified_at": "2026-10-20T04:13:07.836439+00:00"
     },
     {
       "week": 7,

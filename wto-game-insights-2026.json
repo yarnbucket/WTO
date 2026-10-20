@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "season": 2026,
   "model_version": "week4-trial-v1",
-  "updated_at": "2026-10-18T11:58:38.167Z",
+  "updated_at": "2026-10-20T04:13:07.836439+00:00",
   "methodology": {
     "projection": "Opponent-adjusted independent offensive/defensive scoring rates with two-game shrinkage; market is only compared afterward. Unresolved material personnel uncertainty holds betting calls.",
     "market_use": "Market is comparison only, never a projection input.",
@@ -18783,7 +18783,126 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-HOU-JAX-tuesday-baseline-202610131025363776560000",
+            "grade": "Missed",
+            "postgame_summary": "Houston won on Ka’imi Fairbairn’s 49-yard field goal after C.J. Stroud threw three touchdown passes. The Texans gained 312 passing yards without allowing a sack against Jacksonville. WTO’s saved HOU 15–24 JAX forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996"
+              ],
+              "verified_at": "2026-10-20T04:06:59.838512+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "HOU",
+                  "first_downs": 23,
+                  "total_yards": 426,
+                  "passing_yards": 312,
+                  "rushing_yards": 114,
+                  "rushing_attempts": 25,
+                  "turnovers": 1,
+                  "total_plays": 59,
+                  "interceptions": 1,
+                  "fumbles_lost": 0,
+                  "passing_completions": 24,
+                  "passing_attempts": 34,
+                  "sacks_allowed": 0,
+                  "sack_yards_lost": 0,
+                  "gross_passing_yards": 312,
+                  "third_down": "5-11",
+                  "fourth_down": "0-0",
+                  "red_zone": "3-5",
+                  "possession": "29:37",
+                  "penalties": "6-40"
+                },
+                "home": {
+                  "team": "JAX",
+                  "first_downs": 24,
+                  "total_yards": 412,
+                  "passing_yards": 306,
+                  "rushing_yards": 106,
+                  "rushing_attempts": 27,
+                  "turnovers": 1,
+                  "total_plays": 68,
+                  "interceptions": 1,
+                  "fumbles_lost": 0,
+                  "passing_completions": 24,
+                  "passing_attempts": 41,
+                  "sacks_allowed": 0,
+                  "sack_yards_lost": 0,
+                  "gross_passing_yards": 306,
+                  "third_down": "7-12",
+                  "fourth_down": "0-1",
+                  "red_zone": "3-4",
+                  "possession": "30:23",
+                  "penalties": "6-66"
+                }
+              },
+              "scoring_plays": [
+                "Foster Moreau 6 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+                "Bhayshul Tuten 27 Yd pass from Trevor Lawrence (Cam Little Kick)",
+                "Ka'imi Fairbairn 25 Yd Field Goal",
+                "Bhayshul Tuten 2 Yd pass from Trevor Lawrence (Cam Little Kick)",
+                "Foster Moreau 1 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+                "Jaylin Noel 13 Yd pass from C.J. Stroud (Ka'imi Fairbairn Kick)",
+                "Nate Boerkircher 1 Yd pass from Trevor Lawrence (Cam Little Kick)",
+                "Jawhar Jordan 25 Yd Rush (Ka'imi Fairbairn Kick)",
+                "Travis Hunter 7 Yd pass from Trevor Lawrence (Cam Little Kick)",
+                "Cam Little 60 Yd Field Goal",
+                "Ka'imi Fairbairn 49 Yd Field Goal "
+              ],
+              "prediction_revision_id": "2026-W06-HOU-JAX-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "JAX",
+                "winner_side": "HOME",
+                "away_score": 15,
+                "home_score": 24,
+                "projected_margin": 9,
+                "projected_total": 39,
+                "win_probability": 0.75
+              },
+              "prediction_market": {
+                "favorite": "JAX",
+                "spread": -3,
+                "total": 42.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:02.060491+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": 6,
+                "total_edge_points": -3.5
+              },
+              "comparison": {
+                "winner": false,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Missed",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "Houston won on Ka’imi Fairbairn’s 49-yard field goal after C.J. Stroud threw three touchdown passes. The Texans gained 312 passing yards without allowing a sack against Jacksonville.",
+              "weakness_exposed": "Houston won on Ka’imi Fairbairn’s 49-yard field goal after C.J. Stroud threw three touchdown passes. The Texans gained 312 passing yards without allowing a sack against Jacksonville. WTO’s saved HOU 15–24 JAX forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+                "verified_at": "2026-10-20T04:06:59.838512+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-BAL-CLE",
@@ -19254,7 +19373,120 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-BAL-CLE-tuesday-baseline-202610131025363776560000",
+            "grade": "Missed",
+            "postgame_summary": "Cleveland won on Andre Szmyt’s 37-yard field goal after holding Baltimore to 235 yards. The Browns allowed no turnovers while the Ravens lost a fumble in a game with little room for mistakes. WTO’s saved BAL 25–22 CLE forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997"
+              ],
+              "verified_at": "2026-10-20T04:06:59.806692+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "BAL",
+                  "first_downs": 13,
+                  "total_yards": 235,
+                  "passing_yards": 148,
+                  "rushing_yards": 87,
+                  "rushing_attempts": 23,
+                  "turnovers": 1,
+                  "total_plays": 57,
+                  "interceptions": 0,
+                  "fumbles_lost": 1,
+                  "passing_completions": 19,
+                  "passing_attempts": 31,
+                  "sacks_allowed": 3,
+                  "sack_yards_lost": 17,
+                  "gross_passing_yards": 165,
+                  "third_down": "6-16",
+                  "fourth_down": "1-1",
+                  "red_zone": "1-2",
+                  "possession": "28:07",
+                  "penalties": "6-29"
+                },
+                "home": {
+                  "team": "CLE",
+                  "first_downs": 14,
+                  "total_yards": 237,
+                  "passing_yards": 144,
+                  "rushing_yards": 93,
+                  "rushing_attempts": 29,
+                  "turnovers": 0,
+                  "total_plays": 60,
+                  "interceptions": 0,
+                  "fumbles_lost": 0,
+                  "passing_completions": 16,
+                  "passing_attempts": 26,
+                  "sacks_allowed": 5,
+                  "sack_yards_lost": 20,
+                  "gross_passing_yards": 164,
+                  "third_down": "5-16",
+                  "fourth_down": "1-1",
+                  "red_zone": "1-2",
+                  "possession": "31:53",
+                  "penalties": "6-45"
+                }
+              },
+              "scoring_plays": [
+                "Josh Cuevas 2 Yd pass from Tyler Huntley (Tyler Loop Kick)",
+                "Tyler Loop 34 Yd Field Goal",
+                "Andre Szmyt 48 Yd Field Goal ",
+                "Audric Estime 2 Yd Rush (Andre Szmyt Kick)",
+                "Andre Szmyt 37 Yd Field Goal "
+              ],
+              "prediction_revision_id": "2026-W06-BAL-CLE-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "BAL",
+                "winner_side": "AWAY",
+                "away_score": 25,
+                "home_score": 22,
+                "projected_margin": 3,
+                "projected_total": 47,
+                "win_probability": 0.606
+              },
+              "prediction_market": {
+                "favorite": "BAL",
+                "spread": -4.5,
+                "total": 40.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:01.927676+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": -1.5,
+                "total_edge_points": 6.5
+              },
+              "comparison": {
+                "winner": false,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Missed",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "Cleveland won on Andre Szmyt’s 37-yard field goal after holding Baltimore to 235 yards. The Browns allowed no turnovers while the Ravens lost a fumble in a game with little room for mistakes.",
+              "weakness_exposed": "Cleveland won on Andre Szmyt’s 37-yard field goal after holding Baltimore to 235 yards. The Browns allowed no turnovers while the Ravens lost a fumble in a game with little room for mistakes. WTO’s saved BAL 25–22 CLE forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997",
+                "verified_at": "2026-10-20T04:06:59.806692+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-CAR-PHI",
@@ -19722,7 +19954,122 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-CAR-PHI-tuesday-baseline-202610131025363776560000",
+            "grade": "Accurate",
+            "postgame_summary": "Carolina held Philadelphia to 35 rushing yards and finished three of four red-zone trips with touchdowns. Bryce Young’s two touchdown passes helped turn the Panthers’ 399-yard day into a win. WTO’s saved CAR 28–23 PHI forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998"
+              ],
+              "verified_at": "2026-10-20T04:06:59.828590+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "CAR",
+                  "first_downs": 25,
+                  "total_yards": 399,
+                  "passing_yards": 273,
+                  "rushing_yards": 126,
+                  "rushing_attempts": 33,
+                  "turnovers": 0,
+                  "total_plays": 74,
+                  "interceptions": 0,
+                  "fumbles_lost": 0,
+                  "passing_completions": 20,
+                  "passing_attempts": 39,
+                  "sacks_allowed": 2,
+                  "sack_yards_lost": 8,
+                  "gross_passing_yards": 281,
+                  "third_down": "7-17",
+                  "fourth_down": "1-1",
+                  "red_zone": "3-4",
+                  "possession": "34:48",
+                  "penalties": "13-149"
+                },
+                "home": {
+                  "team": "PHI",
+                  "first_downs": 17,
+                  "total_yards": 222,
+                  "passing_yards": 187,
+                  "rushing_yards": 35,
+                  "rushing_attempts": 13,
+                  "turnovers": 0,
+                  "total_plays": 61,
+                  "interceptions": 0,
+                  "fumbles_lost": 0,
+                  "passing_completions": 26,
+                  "passing_attempts": 45,
+                  "sacks_allowed": 3,
+                  "sack_yards_lost": 28,
+                  "gross_passing_yards": 215,
+                  "third_down": "6-15",
+                  "fourth_down": "0-1",
+                  "red_zone": "2-2",
+                  "possession": "25:12",
+                  "penalties": "11-84"
+                }
+              },
+              "scoring_plays": [
+                "Ryan Fitzgerald 47 Yd Field Goal",
+                "Tommy Tremble 12 Yd pass from Bryce Young (Ryan Fitzgerald Kick)",
+                "Dameon Pierce 2 Yd Rush (Jake Elliott Kick)",
+                "Ryan Fitzgerald 52 Yd Field Goal",
+                "Chuba Hubbard 1 Yd Rush (Two-Point Pass Conversion Failed)",
+                "DeVonta Smith 19 Yd pass from Tanner McKee (Jake Elliott Kick)",
+                "Tommy Tremble 19 Yd pass from Bryce Young (Ryan Fitzgerald PAT failed)"
+              ],
+              "prediction_revision_id": "2026-W06-CAR-PHI-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "CAR",
+                "winner_side": "AWAY",
+                "away_score": 28,
+                "home_score": 23,
+                "projected_margin": 5,
+                "projected_total": 51,
+                "win_probability": 0.671
+              },
+              "prediction_market": {
+                "favorite": "PHI",
+                "spread": -1.5,
+                "total": 41.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:01.921214+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": -6.5,
+                "total_edge_points": 9.5
+              },
+              "comparison": {
+                "winner": true,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Accurate",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "Carolina held Philadelphia to 35 rushing yards and finished three of four red-zone trips with touchdowns. Bryce Young’s two touchdown passes helped turn the Panthers’ 399-yard day into a win.",
+              "weakness_exposed": "Carolina held Philadelphia to 35 rushing yards and finished three of four red-zone trips with touchdowns. Bryce Young’s two touchdown passes helped turn the Panthers’ 399-yard day into a win. WTO’s saved CAR 28–23 PHI forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998",
+                "verified_at": "2026-10-20T04:06:59.828590+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-CHI-ATL",
@@ -20193,7 +20540,123 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-CHI-ATL-tuesday-baseline-202610131025363776560000",
+            "grade": "Accurate",
+            "postgame_summary": "Chicago took advantage of three Atlanta fumbles and finished four of five red-zone trips with touchdowns. The Bears held the ball for 40:08 and converted nine of 17 third downs. WTO’s saved CHI 24–21 ATL forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999"
+              ],
+              "verified_at": "2026-10-20T04:06:59.853268+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "CHI",
+                  "first_downs": 20,
+                  "total_yards": 368,
+                  "passing_yards": 270,
+                  "rushing_yards": 98,
+                  "rushing_attempts": 33,
+                  "turnovers": 1,
+                  "total_plays": 73,
+                  "interceptions": 0,
+                  "fumbles_lost": 1,
+                  "passing_completions": 30,
+                  "passing_attempts": 36,
+                  "sacks_allowed": 4,
+                  "sack_yards_lost": 35,
+                  "gross_passing_yards": 305,
+                  "third_down": "9-17",
+                  "fourth_down": "0-0",
+                  "red_zone": "4-5",
+                  "possession": "40:08",
+                  "penalties": "12-133"
+                },
+                "home": {
+                  "team": "ATL",
+                  "first_downs": 13,
+                  "total_yards": 257,
+                  "passing_yards": 194,
+                  "rushing_yards": 63,
+                  "rushing_attempts": 12,
+                  "turnovers": 3,
+                  "total_plays": 50,
+                  "interceptions": 0,
+                  "fumbles_lost": 3,
+                  "passing_completions": 19,
+                  "passing_attempts": 33,
+                  "sacks_allowed": 5,
+                  "sack_yards_lost": 31,
+                  "gross_passing_yards": 225,
+                  "third_down": "3-12",
+                  "fourth_down": "0-3",
+                  "red_zone": "3-3",
+                  "possession": "19:52",
+                  "penalties": "4-31"
+                }
+              },
+              "scoring_plays": [
+                "Colston Loveland 14 Yd pass from Caleb Williams (Cairo Santos Kick)",
+                "D'Andre Swift 4 Yd Rush (Cairo Santos Kick)",
+                "Jahan Dotson 13 Yd pass from Michael Penix Jr. (Nick Folk Kick)",
+                "D'Andre Swift 2 Yd Rush (Cairo Santos Kick)",
+                "Roschon Johnson 4 Yd Rush (Cairo Santos Kick)",
+                "Cairo Santos 50 Yd Field Goal",
+                "Kyle Pitts Sr. 10 Yd pass from Michael Penix Jr. (Michael Penix Jr. Pass to Zachariah Branch for Two-Point Conversion)",
+                "Kyle Pitts Sr. 5 Yd pass from Michael Penix Jr. (Michael Penix Jr. Pass to Drake London for Two-Point Conversion)"
+              ],
+              "prediction_revision_id": "2026-W06-CHI-ATL-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "CHI",
+                "winner_side": "AWAY",
+                "away_score": 24,
+                "home_score": 21,
+                "projected_margin": 3,
+                "projected_total": 45,
+                "win_probability": 0.606
+              },
+              "prediction_market": {
+                "favorite": "CHI",
+                "spread": -3,
+                "total": 49.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:01.917691+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": 0,
+                "total_edge_points": -4.5
+              },
+              "comparison": {
+                "winner": true,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Accurate",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "Chicago took advantage of three Atlanta fumbles and finished four of five red-zone trips with touchdowns. The Bears held the ball for 40:08 and converted nine of 17 third downs.",
+              "weakness_exposed": "Chicago took advantage of three Atlanta fumbles and finished four of five red-zone trips with touchdowns. The Bears held the ball for 40:08 and converted nine of 17 third downs. WTO’s saved CHI 24–21 ATL forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+                "verified_at": "2026-10-20T04:06:59.853268+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-NO-NYG",
@@ -20664,7 +21127,126 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-NO-NYG-tuesday-baseline-202610131025363776560000",
+            "grade": "Missed",
+            "postgame_summary": "New Orleans overcame New York’s yardage edge by forcing four turnovers and rushing for 175 yards. The Saints scored touchdowns on all three red-zone trips while the Giants finished two of four. WTO’s saved NO 22–25 NYG forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000"
+              ],
+              "verified_at": "2026-10-20T04:06:59.897205+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "NO",
+                  "first_downs": 18,
+                  "total_yards": 319,
+                  "passing_yards": 144,
+                  "rushing_yards": 175,
+                  "rushing_attempts": 38,
+                  "turnovers": 1,
+                  "total_plays": 68,
+                  "interceptions": 0,
+                  "fumbles_lost": 1,
+                  "passing_completions": 16,
+                  "passing_attempts": 30,
+                  "sacks_allowed": 0,
+                  "sack_yards_lost": 0,
+                  "gross_passing_yards": 144,
+                  "third_down": "4-15",
+                  "fourth_down": "1-1",
+                  "red_zone": "3-3",
+                  "possession": "31:02",
+                  "penalties": "7-52"
+                },
+                "home": {
+                  "team": "NYG",
+                  "first_downs": 23,
+                  "total_yards": 461,
+                  "passing_yards": 377,
+                  "rushing_yards": 84,
+                  "rushing_attempts": 20,
+                  "turnovers": 4,
+                  "total_plays": 72,
+                  "interceptions": 3,
+                  "fumbles_lost": 1,
+                  "passing_completions": 25,
+                  "passing_attempts": 47,
+                  "sacks_allowed": 5,
+                  "sack_yards_lost": 18,
+                  "gross_passing_yards": 395,
+                  "third_down": "4-14",
+                  "fourth_down": "1-2",
+                  "red_zone": "2-4",
+                  "possession": "28:58",
+                  "penalties": "10-73"
+                }
+              },
+              "scoring_plays": [
+                "Tyrone Tracy Jr. 17 Yd pass from Jameis Winston (Dominic Zvada Kick)",
+                "Dominic Zvada 34 Yd Field Goal",
+                "Daniel Carlson 58 Yd Field Goal",
+                "Bryce Lance 2 Yd pass from Tyler Shough (Daniel Carlson Kick)",
+                "Alvin Kamara 31 Yd pass from Tyler Shough (Daniel Carlson Kick)",
+                "Tyler Shough 1 Yd Rush (Daniel Carlson Kick)",
+                "Daniel Carlson 51 Yd Field Goal",
+                "Chris Olave 18 Yd pass from Tyler Shough (Daniel Carlson Kick)",
+                "Tyrone Tracy Jr. 5 Yd Rush (J.J. McCarthy Pass to Isaiah Likely for Two-Point Conversion)",
+                "Isaiah Likely 24 Yd pass from J.J. McCarthy (Two-Point Pass Conversion Failed)",
+                "Dominic Zvada 41 Yd Field Goal"
+              ],
+              "prediction_revision_id": "2026-W06-NO-NYG-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "NYG",
+                "winner_side": "HOME",
+                "away_score": 22,
+                "home_score": 25,
+                "projected_margin": 3,
+                "projected_total": 47,
+                "win_probability": 0.606
+              },
+              "prediction_market": {
+                "favorite": "NYG",
+                "spread": -1.5,
+                "total": 45.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:01.936405+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": 1.5,
+                "total_edge_points": 1.5
+              },
+              "comparison": {
+                "winner": false,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Missed",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "New Orleans overcame New York’s yardage edge by forcing four turnovers and rushing for 175 yards. The Saints scored touchdowns on all three red-zone trips while the Giants finished two of four.",
+              "weakness_exposed": "New Orleans overcame New York’s yardage edge by forcing four turnovers and rushing for 175 yards. The Saints scored touchdowns on all three red-zone trips while the Giants finished two of four. WTO’s saved NO 22–25 NYG forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+                "verified_at": "2026-10-20T04:06:59.897205+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-NYJ-NE",
@@ -21135,7 +21717,125 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-NYJ-NE-tuesday-baseline-202610131025363776560000",
+            "grade": "Accurate",
+            "postgame_summary": "New England got three touchdown passes from Drake Maye while keeping the Jets out of the end zone on all three red-zone trips. The Patriots added 148 rushing yards and held off New York’s late push. WTO’s saved NYJ 14–21 NE forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001"
+              ],
+              "verified_at": "2026-10-20T04:06:59.732486+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "NYJ",
+                  "first_downs": 21,
+                  "total_yards": 324,
+                  "passing_yards": 227,
+                  "rushing_yards": 97,
+                  "rushing_attempts": 27,
+                  "turnovers": 1,
+                  "total_plays": 60,
+                  "interceptions": 1,
+                  "fumbles_lost": 0,
+                  "passing_completions": 20,
+                  "passing_attempts": 30,
+                  "sacks_allowed": 3,
+                  "sack_yards_lost": 25,
+                  "gross_passing_yards": 252,
+                  "third_down": "3-10",
+                  "fourth_down": "0-2",
+                  "red_zone": "0-3",
+                  "possession": "30:03",
+                  "penalties": "5-35"
+                },
+                "home": {
+                  "team": "NE",
+                  "first_downs": 22,
+                  "total_yards": 383,
+                  "passing_yards": 235,
+                  "rushing_yards": 148,
+                  "rushing_attempts": 36,
+                  "turnovers": 2,
+                  "total_plays": 68,
+                  "interceptions": 0,
+                  "fumbles_lost": 2,
+                  "passing_completions": 18,
+                  "passing_attempts": 32,
+                  "sacks_allowed": 0,
+                  "sack_yards_lost": 0,
+                  "gross_passing_yards": 235,
+                  "third_down": "8-15",
+                  "fourth_down": "1-2",
+                  "red_zone": "2-4",
+                  "possession": "29:57",
+                  "penalties": "5-57"
+                }
+              },
+              "scoring_plays": [
+                "Jason Sanders 42 Yd Field Goal",
+                "Romeo Doubs 42 Yd pass from Drake Maye (Andy Borregales Kick)",
+                "Andy Borregales 32 Yd Field Goal ",
+                "DeMario Douglas 9 Yd pass from Drake Maye (Andy Borregales Kick)",
+                "Omar Cooper Jr. 48 Yd pass from Geno Smith (Jason Sanders Kick)",
+                "Jason Sanders 36 Yd Field Goal",
+                "Hunter Henry 7 Yd pass from Drake Maye (Andy Borregales PAT Failed)",
+                "Jason Sanders 40 Yd Field Goal ",
+                "Andy Borregales 27 Yd Field Goal",
+                "Jason Sanders 36 Yd Field Goal"
+              ],
+              "prediction_revision_id": "2026-W06-NYJ-NE-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "NE",
+                "winner_side": "HOME",
+                "away_score": 14,
+                "home_score": 21,
+                "projected_margin": 7,
+                "projected_total": 35,
+                "win_probability": 0.731
+              },
+              "prediction_market": {
+                "favorite": "NE",
+                "spread": -7.5,
+                "total": 43.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:01.969588+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": -0.5,
+                "total_edge_points": -8.5
+              },
+              "comparison": {
+                "winner": true,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Accurate",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "New England got three touchdown passes from Drake Maye while keeping the Jets out of the end zone on all three red-zone trips. The Patriots added 148 rushing yards and held off New York’s late push.",
+              "weakness_exposed": "New England got three touchdown passes from Drake Maye while keeping the Jets out of the end zone on all three red-zone trips. The Patriots added 148 rushing yards and held off New York’s late push. WTO’s saved NYJ 14–21 NE forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001",
+                "verified_at": "2026-10-20T04:06:59.732486+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-PIT-TB",
@@ -21606,7 +22306,126 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-PIT-TB-tuesday-baseline-202610131025363776560000",
+            "grade": "Missed",
+            "postgame_summary": "Pittsburgh rallied behind Aaron Rodgers’ late touchdown passes and won in overtime on a six-yard throw to Germie Bernard. The Steelers held Tampa Bay to 224 yards and intercepted two passes. WTO’s saved PIT 21–21 TB forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002"
+              ],
+              "verified_at": "2026-10-20T04:06:59.796845+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "PIT",
+                  "first_downs": 22,
+                  "total_yards": 300,
+                  "passing_yards": 211,
+                  "rushing_yards": 89,
+                  "rushing_attempts": 22,
+                  "turnovers": 1,
+                  "total_plays": 76,
+                  "interceptions": 1,
+                  "fumbles_lost": 0,
+                  "passing_completions": 33,
+                  "passing_attempts": 49,
+                  "sacks_allowed": 5,
+                  "sack_yards_lost": 42,
+                  "gross_passing_yards": 253,
+                  "third_down": "5-15",
+                  "fourth_down": "0-1",
+                  "red_zone": "2-4",
+                  "possession": "38:36",
+                  "penalties": "5-62"
+                },
+                "home": {
+                  "team": "TB",
+                  "first_downs": 17,
+                  "total_yards": 224,
+                  "passing_yards": 122,
+                  "rushing_yards": 102,
+                  "rushing_attempts": 25,
+                  "turnovers": 2,
+                  "total_plays": 73,
+                  "interceptions": 2,
+                  "fumbles_lost": 0,
+                  "passing_completions": 22,
+                  "passing_attempts": 43,
+                  "sacks_allowed": 5,
+                  "sack_yards_lost": 42,
+                  "gross_passing_yards": 164,
+                  "third_down": "6-19",
+                  "fourth_down": "1-2",
+                  "red_zone": "1-2",
+                  "possession": "31:24",
+                  "penalties": "4-38"
+                }
+              },
+              "scoring_plays": [
+                "Chase McLaughlin 43 Yd Field Goal",
+                "Emeka Egbuka 2 Yd pass from Jalon Daniels (Chase McLaughlin Kick)",
+                "Chase McLaughlin 47 Yd Field Goal",
+                "Chris Boswell 52 Yd Field Goal",
+                "Chase McLaughlin 33 Yd Field Goal",
+                "Darnell Washington 5 Yd pass from Aaron Rodgers (Chris Boswell Kick)",
+                "Chris Boswell 39 Yd Field Goal ",
+                "Chris Boswell 58 Yd Field Goal",
+                "Chris Boswell 20 Yd Field Goal",
+                "Chase McLaughlin 53 Yd Field Goal",
+                "Germie Bernard 6 Yd pass from Aaron Rodgers (Chris Boswell Kick)"
+              ],
+              "prediction_revision_id": "2026-W06-PIT-TB-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "TIE",
+                "winner_side": "TIE",
+                "away_score": 21,
+                "home_score": 21,
+                "projected_margin": 0,
+                "projected_total": 42,
+                "win_probability": 0.5
+              },
+              "prediction_market": {
+                "favorite": "PIT",
+                "spread": -3,
+                "total": 40.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:01.826222+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": -3,
+                "total_edge_points": 1.5
+              },
+              "comparison": {
+                "winner": false,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Missed",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "Pittsburgh rallied behind Aaron Rodgers’ late touchdown passes and won in overtime on a six-yard throw to Germie Bernard. The Steelers held Tampa Bay to 224 yards and intercepted two passes.",
+              "weakness_exposed": "Pittsburgh rallied behind Aaron Rodgers’ late touchdown passes and won in overtime on a six-yard throw to Germie Bernard. The Steelers held Tampa Bay to 224 yards and intercepted two passes. WTO’s saved PIT 21–21 TB forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002",
+                "verified_at": "2026-10-20T04:06:59.796845+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-TEN-IND",
@@ -22077,7 +22896,125 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-TEN-IND-tuesday-baseline-202610131025363776560000",
+            "grade": "Missed",
+            "postgame_summary": "Tennessee’s blocked-punt return touchdown and three takeaways helped overcome a 399–186 deficit in total yards. The Titans also sacked Indianapolis six times on the way to their first win. WTO’s saved TEN 17–25 IND forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003"
+              ],
+              "verified_at": "2026-10-20T04:06:59.701476+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "TEN",
+                  "first_downs": 11,
+                  "total_yards": 186,
+                  "passing_yards": 102,
+                  "rushing_yards": 84,
+                  "rushing_attempts": 23,
+                  "turnovers": 1,
+                  "total_plays": 45,
+                  "interceptions": 1,
+                  "fumbles_lost": 0,
+                  "passing_completions": 11,
+                  "passing_attempts": 22,
+                  "sacks_allowed": 0,
+                  "sack_yards_lost": 0,
+                  "gross_passing_yards": 102,
+                  "third_down": "3-10",
+                  "fourth_down": "0-0",
+                  "red_zone": "1-2",
+                  "possession": "21:28",
+                  "penalties": "8-54"
+                },
+                "home": {
+                  "team": "IND",
+                  "first_downs": 24,
+                  "total_yards": 399,
+                  "passing_yards": 234,
+                  "rushing_yards": 165,
+                  "rushing_attempts": 30,
+                  "turnovers": 3,
+                  "total_plays": 78,
+                  "interceptions": 2,
+                  "fumbles_lost": 1,
+                  "passing_completions": 22,
+                  "passing_attempts": 42,
+                  "sacks_allowed": 6,
+                  "sack_yards_lost": 35,
+                  "gross_passing_yards": 269,
+                  "third_down": "7-15",
+                  "fourth_down": "1-3",
+                  "red_zone": "2-4",
+                  "possession": "38:32",
+                  "penalties": "5-61"
+                }
+              },
+              "scoring_plays": [
+                "Mo Alie-Cox 1 Yd pass from Daniel Jones (Spencer Shrader Kick)",
+                "Spencer Shrader 23 Yd Field Goal",
+                "Spencer Shrader 47 Yd Field Goal",
+                "Joey Slye 29 Yd Field Goal ",
+                "Joey Slye 56 Yd Field Goal",
+                "Carnell Tate 8 Yd pass from Cam Ward (Joey Slye Kick)",
+                "Oluwafemi Oladejo 14 Yd return of blocked punt (J.Slye kick)",
+                "Jonathan Taylor 4 Yd Rush (Spencer Shrader Kick)",
+                "Joey Slye 49 Yd Field Goal",
+                "Joey Slye 44 Yd Field Goal"
+              ],
+              "prediction_revision_id": "2026-W06-TEN-IND-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "IND",
+                "winner_side": "HOME",
+                "away_score": 17,
+                "home_score": 25,
+                "projected_margin": 8,
+                "projected_total": 42,
+                "win_probability": 0.75
+              },
+              "prediction_market": {
+                "favorite": "IND",
+                "spread": -7,
+                "total": 44.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:02.033834+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": 1,
+                "total_edge_points": -2.5
+              },
+              "comparison": {
+                "winner": false,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Missed",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "Tennessee’s blocked-punt return touchdown and three takeaways helped overcome a 399–186 deficit in total yards. The Titans also sacked Indianapolis six times on the way to their first win.",
+              "weakness_exposed": "Tennessee’s blocked-punt return touchdown and three takeaways helped overcome a 399–186 deficit in total yards. The Titans also sacked Indianapolis six times on the way to their first win. WTO’s saved TEN 17–25 IND forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003",
+                "verified_at": "2026-10-20T04:06:59.701476+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-ARI-LAR",
@@ -22548,7 +23485,124 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-ARI-LAR-tuesday-baseline-202610131025363776560000",
+            "grade": "Missed",
+            "postgame_summary": "Arizona won on Chad Ryland’s sixth field goal, a 43-yarder as time expired. The Cardinals went without a red-zone touchdown but held the Rams to 286 yards and two failed fourth-down tries. WTO’s saved ARI 21–31 LAR forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004"
+              ],
+              "verified_at": "2026-10-20T04:06:59.752391+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "ARI",
+                  "first_downs": 22,
+                  "total_yards": 338,
+                  "passing_yards": 218,
+                  "rushing_yards": 120,
+                  "rushing_attempts": 35,
+                  "turnovers": 1,
+                  "total_plays": 70,
+                  "interceptions": 1,
+                  "fumbles_lost": 0,
+                  "passing_completions": 24,
+                  "passing_attempts": 35,
+                  "sacks_allowed": 0,
+                  "sack_yards_lost": 0,
+                  "gross_passing_yards": 218,
+                  "third_down": "5-15",
+                  "fourth_down": "0-0",
+                  "red_zone": "0-5",
+                  "possession": "34:52",
+                  "penalties": "5-51"
+                },
+                "home": {
+                  "team": "LAR",
+                  "first_downs": 19,
+                  "total_yards": 286,
+                  "passing_yards": 194,
+                  "rushing_yards": 92,
+                  "rushing_attempts": 20,
+                  "turnovers": 1,
+                  "total_plays": 56,
+                  "interceptions": 0,
+                  "fumbles_lost": 1,
+                  "passing_completions": 25,
+                  "passing_attempts": 33,
+                  "sacks_allowed": 3,
+                  "sack_yards_lost": 28,
+                  "gross_passing_yards": 222,
+                  "third_down": "4-10",
+                  "fourth_down": "0-2",
+                  "red_zone": "2-4",
+                  "possession": "25:08",
+                  "penalties": "4-31"
+                }
+              },
+              "scoring_plays": [
+                "Blake Grupe 44 Yd Field Goal",
+                "Chad Ryland 34 Yd Field Goal",
+                "Chad Ryland 30 Yd Field Goal",
+                "Blake Corum 15 Yd pass from Matthew Stafford (Two-Point Pass Conversion Failed)",
+                "Chad Ryland 22 Yd Field Goal",
+                "Chad Ryland 38 Yd Field Goal",
+                "Chad Ryland 27 Yd Field Goal ",
+                "Colby Parkinson 6 Yd pass from Matthew Stafford (Ethan Evans Kick)",
+                "Chad Ryland 43 Yd Field Goal"
+              ],
+              "prediction_revision_id": "2026-W06-ARI-LAR-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "LAR",
+                "winner_side": "HOME",
+                "away_score": 21,
+                "home_score": 31,
+                "projected_margin": 10,
+                "projected_total": 52,
+                "win_probability": 0.75
+              },
+              "prediction_market": {
+                "favorite": "LAR",
+                "spread": -13.5,
+                "total": 52.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:05.062508+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": -3.5,
+                "total_edge_points": -0.5
+              },
+              "comparison": {
+                "winner": false,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Missed",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "Arizona won on Chad Ryland’s sixth field goal, a 43-yarder as time expired. The Cardinals went without a red-zone touchdown but held the Rams to 286 yards and two failed fourth-down tries.",
+              "weakness_exposed": "Arizona won on Chad Ryland’s sixth field goal, a 43-yarder as time expired. The Cardinals went without a red-zone touchdown but held the Rams to 286 yards and two failed fourth-down tries. WTO’s saved ARI 21–31 LAR forecast missed the winner; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004",
+                "verified_at": "2026-10-20T04:06:59.752391+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-BUF-LV",
@@ -23019,7 +24073,128 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-BUF-LV-tuesday-baseline-202610131025363776560000",
+            "grade": "Accurate",
+            "postgame_summary": "Buffalo protected the ball and got two touchdown passes from Josh Allen to hold off Las Vegas. The Bills finished three of five red-zone trips with touchdowns, compared with two of five for the Raiders. WTO’s saved BUF 33–30 LV forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005"
+              ],
+              "verified_at": "2026-10-20T04:06:59.713889+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "BUF",
+                  "first_downs": 23,
+                  "total_yards": 345,
+                  "passing_yards": 242,
+                  "rushing_yards": 103,
+                  "rushing_attempts": 29,
+                  "turnovers": 0,
+                  "total_plays": 64,
+                  "interceptions": 0,
+                  "fumbles_lost": 0,
+                  "passing_completions": 23,
+                  "passing_attempts": 33,
+                  "sacks_allowed": 2,
+                  "sack_yards_lost": 13,
+                  "gross_passing_yards": 255,
+                  "third_down": "4-11",
+                  "fourth_down": "0-0",
+                  "red_zone": "3-5",
+                  "possession": "31:48",
+                  "penalties": "8-77"
+                },
+                "home": {
+                  "team": "LV",
+                  "first_downs": 25,
+                  "total_yards": 378,
+                  "passing_yards": 313,
+                  "rushing_yards": 65,
+                  "rushing_attempts": 20,
+                  "turnovers": 1,
+                  "total_plays": 61,
+                  "interceptions": 1,
+                  "fumbles_lost": 0,
+                  "passing_completions": 23,
+                  "passing_attempts": 41,
+                  "sacks_allowed": 0,
+                  "sack_yards_lost": 0,
+                  "gross_passing_yards": 313,
+                  "third_down": "7-12",
+                  "fourth_down": "0-0",
+                  "red_zone": "2-5",
+                  "possession": "28:12",
+                  "penalties": "7-62"
+                }
+              },
+              "scoring_plays": [
+                "Tyler Bass 44 Yd Field Goal",
+                "Ashton Jeanty 1 Yd Rush (Matt Gay Kick)",
+                "Tyler Bass 28 Yd Field Goal",
+                "Khalil Shakir 9 Yd pass from Josh Allen (Tyler Bass Kick)",
+                "Matt Gay 35 Yd Field Goal",
+                "Matt Gay 27 Yd Field Goal ",
+                "Tyler Bass 47 Yd Field Goal",
+                "Keon Coleman 12 Yd pass from Josh Allen (Tyler Bass Kick)",
+                "Matt Gay 23 Yd Field Goal",
+                "Tre Tucker 11 Yd pass from Kirk Cousins (Matt Gay Kick)",
+                "James Cook III 3 Yd Rush (Tyler Bass Kick)",
+                "Tyler Bass 38 Yd Field Goal",
+                "Tre Tucker 44 Yd pass from Kirk Cousins (Matt Gay Kick)"
+              ],
+              "prediction_revision_id": "2026-W06-BUF-LV-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "BUF",
+                "winner_side": "AWAY",
+                "away_score": 33,
+                "home_score": 30,
+                "projected_margin": 3,
+                "projected_total": 63,
+                "win_probability": 0.606
+              },
+              "prediction_market": {
+                "favorite": "BUF",
+                "spread": -6,
+                "total": 53.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:05.151233+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": -3,
+                "total_edge_points": 9.5
+              },
+              "comparison": {
+                "winner": true,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Accurate",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "Buffalo protected the ball and got two touchdown passes from Josh Allen to hold off Las Vegas. The Bills finished three of five red-zone trips with touchdowns, compared with two of five for the Raiders.",
+              "weakness_exposed": "Buffalo protected the ball and got two touchdown passes from Josh Allen to hold off Las Vegas. The Bills finished three of five red-zone trips with touchdowns, compared with two of five for the Raiders. WTO’s saved BUF 33–30 LV forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+                "verified_at": "2026-10-20T04:06:59.713889+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-LAC-KC",
@@ -23487,7 +24662,122 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-LAC-KC-tuesday-baseline-202610131025363776560000",
+            "grade": "Accurate",
+            "postgame_summary": "Kansas City got two rushing touchdowns from Kenneth Walker III and outgained Los Angeles 422–259. The Chiefs kept the Chargers without a touchdown on all three red-zone trips. WTO’s saved LAC 14–29 KC forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006"
+              ],
+              "verified_at": "2026-10-20T04:06:59.819087+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "LAC",
+                  "first_downs": 15,
+                  "total_yards": 259,
+                  "passing_yards": 186,
+                  "rushing_yards": 73,
+                  "rushing_attempts": 22,
+                  "turnovers": 2,
+                  "total_plays": 63,
+                  "interceptions": 1,
+                  "fumbles_lost": 1,
+                  "passing_completions": 22,
+                  "passing_attempts": 37,
+                  "sacks_allowed": 4,
+                  "sack_yards_lost": 18,
+                  "gross_passing_yards": 204,
+                  "third_down": "5-16",
+                  "fourth_down": "0-3",
+                  "red_zone": "0-3",
+                  "possession": "29:34",
+                  "penalties": "7-59"
+                },
+                "home": {
+                  "team": "KC",
+                  "first_downs": 22,
+                  "total_yards": 422,
+                  "passing_yards": 272,
+                  "rushing_yards": 150,
+                  "rushing_attempts": 27,
+                  "turnovers": 2,
+                  "total_plays": 57,
+                  "interceptions": 1,
+                  "fumbles_lost": 1,
+                  "passing_completions": 23,
+                  "passing_attempts": 30,
+                  "sacks_allowed": 0,
+                  "sack_yards_lost": 0,
+                  "gross_passing_yards": 272,
+                  "third_down": "3-10",
+                  "fourth_down": "0-1",
+                  "red_zone": "1-4",
+                  "possession": "30:26",
+                  "penalties": "8-89"
+                }
+              },
+              "scoring_plays": [
+                "Harrison Butker 44 Yd Field Goal",
+                "Kenneth Walker III 33 Yd Rush (Harrison Butker PAT Failed)",
+                "Cameron Dicker 23 Yd Field Goal",
+                "Kenneth Walker III 2 Yd Rush (Harrison Butker Kick)",
+                "Harrison Butker 50 Yd Field Goal",
+                "Cameron Dicker 30 Yd Field Goal ",
+                "Harrison Butker 30 Yd Field Goal"
+              ],
+              "prediction_revision_id": "2026-W06-LAC-KC-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "KC",
+                "winner_side": "HOME",
+                "away_score": 14,
+                "home_score": 29,
+                "projected_margin": 15,
+                "projected_total": 43,
+                "win_probability": 0.75
+              },
+              "prediction_market": {
+                "favorite": "KC",
+                "spread": -8.5,
+                "total": 42.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:05.138870+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": 6.5,
+                "total_edge_points": 0.5
+              },
+              "comparison": {
+                "winner": true,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Accurate",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "Kansas City got two rushing touchdowns from Kenneth Walker III and outgained Los Angeles 422–259. The Chiefs kept the Chargers without a touchdown on all three red-zone trips.",
+              "weakness_exposed": "Kansas City got two rushing touchdowns from Kenneth Walker III and outgained Los Angeles 422–259. The Chiefs kept the Chargers without a touchdown on all three red-zone trips. WTO’s saved LAC 14–29 KC forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
+                "verified_at": "2026-10-20T04:06:59.819087+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-DAL-GB",
@@ -23958,7 +25248,122 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-DAL-GB-tuesday-baseline-202610131025363776560000",
+            "grade": "Accurate",
+            "postgame_summary": "Green Bay intercepted Dallas twice and kept drives alive by converting 11 of 18 third downs. Jordan Love supplied a passing touchdown and a rushing score in the Packers’ win. WTO’s saved DAL 26–27 GB forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007"
+              ],
+              "verified_at": "2026-10-20T04:07:02.896726+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "DAL",
+                  "first_downs": 24,
+                  "total_yards": 303,
+                  "passing_yards": 255,
+                  "rushing_yards": 48,
+                  "rushing_attempts": 15,
+                  "turnovers": 2,
+                  "total_plays": 70,
+                  "interceptions": 2,
+                  "fumbles_lost": 0,
+                  "passing_completions": 34,
+                  "passing_attempts": 54,
+                  "sacks_allowed": 1,
+                  "sack_yards_lost": 3,
+                  "gross_passing_yards": 258,
+                  "third_down": "5-13",
+                  "fourth_down": "2-4",
+                  "red_zone": "2-4",
+                  "possession": "29:09",
+                  "penalties": "11-108"
+                },
+                "home": {
+                  "team": "GB",
+                  "first_downs": 20,
+                  "total_yards": 318,
+                  "passing_yards": 261,
+                  "rushing_yards": 57,
+                  "rushing_attempts": 26,
+                  "turnovers": 1,
+                  "total_plays": 70,
+                  "interceptions": 1,
+                  "fumbles_lost": 0,
+                  "passing_completions": 23,
+                  "passing_attempts": 41,
+                  "sacks_allowed": 3,
+                  "sack_yards_lost": 15,
+                  "gross_passing_yards": 276,
+                  "third_down": "11-18",
+                  "fourth_down": "1-1",
+                  "red_zone": "2-4",
+                  "possession": "30:51",
+                  "penalties": "11-96"
+                }
+              },
+              "scoring_plays": [
+                "Matthew Golden 9 Yd pass from Jordan Love (Trey Smack Kick)",
+                "Trey Smack 25 Yd Field Goal",
+                "Jordan Love 1 Yd Rush (Trey Smack Kick)",
+                "Javonte Williams 1 Yd Rush (Brandon Aubrey Kick)",
+                "Trey Smack 44 Yd Field Goal",
+                "Trey Smack 29 Yd Field Goal",
+                "Ryan Flournoy 6 Yd pass from Dak Prescott (Two-Point Pass Conversion Failed)"
+              ],
+              "prediction_revision_id": "2026-W06-DAL-GB-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "GB",
+                "winner_side": "HOME",
+                "away_score": 26,
+                "home_score": 27,
+                "projected_margin": 1,
+                "projected_total": 53,
+                "win_probability": 0.536
+              },
+              "prediction_market": {
+                "favorite": "GB",
+                "spread": -1.5,
+                "total": 52.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:05.122718+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": -0.5,
+                "total_edge_points": 0.5
+              },
+              "comparison": {
+                "winner": true,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Accurate",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "Green Bay intercepted Dallas twice and kept drives alive by converting 11 of 18 third downs. Jordan Love supplied a passing touchdown and a rushing score in the Packers’ win.",
+              "weakness_exposed": "Green Bay intercepted Dallas twice and kept drives alive by converting 11 of 18 third downs. Jordan Love supplied a passing touchdown and a rushing score in the Packers’ win. WTO’s saved DAL 26–27 GB forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007",
+                "verified_at": "2026-10-20T04:07:02.896726+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W06-WAS-SF",
@@ -24429,7 +25834,122 @@
                 }
               ]
             }
-          ]
+          ],
+          "postgame_review": {
+            "generated_at": "2026-10-20T04:13:07.836439+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W06-WAS-SF-tuesday-baseline-202610131025363776560000",
+            "grade": "Accurate",
+            "postgame_summary": "San Francisco built its lead with three red-zone touchdowns and held off Washington’s comeback. The 49ers finished with 126 rushing yards and four sacks against the Commanders. WTO’s saved WAS 19–34 SF forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008"
+              ],
+              "verified_at": "2026-10-20T04:07:02.804049+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "WAS",
+                  "first_downs": 19,
+                  "total_yards": 314,
+                  "passing_yards": 261,
+                  "rushing_yards": 53,
+                  "rushing_attempts": 17,
+                  "turnovers": 0,
+                  "total_plays": 61,
+                  "interceptions": 0,
+                  "fumbles_lost": 0,
+                  "passing_completions": 29,
+                  "passing_attempts": 40,
+                  "sacks_allowed": 4,
+                  "sack_yards_lost": 39,
+                  "gross_passing_yards": 300,
+                  "third_down": "3-12",
+                  "fourth_down": "1-3",
+                  "red_zone": "2-4",
+                  "possession": "30:15",
+                  "penalties": "7-66"
+                },
+                "home": {
+                  "team": "SF",
+                  "first_downs": 20,
+                  "total_yards": 375,
+                  "passing_yards": 249,
+                  "rushing_yards": 126,
+                  "rushing_attempts": 29,
+                  "turnovers": 1,
+                  "total_plays": 60,
+                  "interceptions": 0,
+                  "fumbles_lost": 1,
+                  "passing_completions": 21,
+                  "passing_attempts": 29,
+                  "sacks_allowed": 2,
+                  "sack_yards_lost": 15,
+                  "gross_passing_yards": 264,
+                  "third_down": "7-14",
+                  "fourth_down": "2-2",
+                  "red_zone": "3-4",
+                  "possession": "29:45",
+                  "penalties": "11-88"
+                }
+              },
+              "scoring_plays": [
+                "George Kittle 11 Yd pass from Brock Purdy (Eddy Pineiro Kick)",
+                "Drew Stevens 51 Yd Field Goal",
+                "Christian McCaffrey 1 Yd Rush (Eddy Pineiro PAT Failed)",
+                "Christian McCaffrey 1 Yd Rush (Eddy Pineiro Kick)",
+                "Eddy Pineiro 33 Yd Field Goal",
+                "Stefon Diggs 1 Yd pass from Jayden Daniels (Drew Stevens Kick)",
+                "Rachaad White 9 Yd pass from Jayden Daniels (Drew Stevens Kick)"
+              ],
+              "prediction_revision_id": "2026-W06-WAS-SF-tuesday-baseline-202610131025363776560000",
+              "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+              "expected_scores": {
+                "winner": "SF",
+                "winner_side": "HOME",
+                "away_score": 19,
+                "home_score": 34,
+                "projected_margin": 15,
+                "projected_total": 53,
+                "win_probability": 0.75
+              },
+              "prediction_market": {
+                "favorite": "SF",
+                "spread": -7.5,
+                "total": 50.5,
+                "provider": "DraftKings via ESPN",
+                "market_as_of": "2026-10-13T10:10:05.092942+00:00",
+                "ats_lean": "NO EDGE",
+                "total_lean": "NO EDGE",
+                "hype_check": "UNAVAILABLE",
+                "call_type": "provisional_model_comparison",
+                "availability_note": "Week 5 directional trial has ended; unresolved Week 6 availability holds actionable betting calls.",
+                "spread_edge_points": 7.5,
+                "total_edge_points": 2.5
+              },
+              "comparison": {
+                "winner": true,
+                "ats": null,
+                "total": null
+              },
+              "grade": "Accurate",
+              "interpretation": "Concise football interpretation of verified single-game box scores and scoring plays; no causal claim about unverified drops or assignments."
+            },
+            "bullets": {
+              "deciding_factor": "San Francisco built its lead with three red-zone touchdowns and held off Washington’s comeback. The 49ers finished with 126 rushing yards and four sacks against the Commanders.",
+              "weakness_exposed": "San Francisco built its lead with three red-zone touchdowns and held off Washington’s comeback. The 49ers finished with 126 rushing yards and four sacks against the Commanders. WTO’s saved WAS 19–34 SF forecast got the winner right; its NO EDGE ATS and total calls receive no hit credit."
+            },
+            "evidence": [
+              {
+                "provider": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008",
+                "verified_at": "2026-10-20T04:07:02.804049+00:00"
+              }
+            ]
+          }
         }
       ]
     }
