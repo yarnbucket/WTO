@@ -1,0 +1,7 @@
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';
+const html=fs.readFileSync('league-top20/index.html','utf8'),start=html.indexOf('function conferenceTopPlayersHtml('),end=html.indexOf('function divisionComparisonHtml(',start);
+const data=JSON.parse(fs.readFileSync('league-top20/base/wto-player-leaders-2026.json'));
+const groups=data.conference_position_snapshots.at(-1).scopes.CONFERENCE_AFC;
+const ctx={positionLeaderSnapshots:data.conference_position_snapshots,leaguePositionLeaderSnapshots:[{season:2026,through_week:6,verified_at:'2026-10-20T10:07:00Z',scopes:{LEAGUE:groups}}],esc:s=>String(s),playerScopeLeaders:()=>({players:[{category:'passing',player:'Old card'},{category:'rushing',player:'Old card'},{category:'receiving',player:'Old card'}]})};vm.createContext(ctx);vm.runInContext(html.slice(start,end),ctx);
+const league=ctx.scopeTopPlayersHtml('LEAGUE',7);assert.equal((league.match(/<tbody>/g)||[]).length,4,'league should render four positional tables');assert.equal((league.match(/<tr><td>/g)||[]).length,20,'league should show exactly20 players');assert(!league.includes('top-player-card'),'old cards removed');assert(league.includes('Cumulative stats through Week 6'));
+assert(!ctx.scopeTopPlayersHtml('LEAGUE',5).includes('<tbody>'),'no future snapshot leakage');assert.equal((ctx.scopeTopPlayersHtml('CONFERENCE_AFC',7).match(/<tr><td>/g)||[]).length,20,'conference preserved');console.log('PASS league20, historical cutoff and conference regression');

@@ -1,0 +1,55 @@
+{
+  "base_commit": "9f2539ac31a9488b77317227d5cc5f3717b1b723",
+  "verified_at": "2026-10-20T12:21:46.411853+00:00",
+  "source": "93 saved verified ESPN final boxes + verified roster/profile positions",
+  "league_snapshots": [
+    {
+      "through_week": 1,
+      "games": 16,
+      "players": 20
+    },
+    {
+      "through_week": 2,
+      "games": 32,
+      "players": 20
+    },
+    {
+      "through_week": 3,
+      "games": 48,
+      "players": 20
+    },
+    {
+      "through_week": 4,
+      "games": 64,
+      "players": 20
+    },
+    {
+      "through_week": 5,
+      "games": 79,
+      "players": 20
+    },
+    {
+      "through_week": 6,
+      "games": 93,
+      "players": 20
+    }
+  ],
+  "prior_conference_snapshots_preserved": true,
+  "prior_legacy_snapshots_preserved": true,
+  "outcome": "PASS_RELEASE_AUTHORIZED",
+  "scope": "League Top20 only; odds, results, models, personal picks unchanged",
+  "checks": [
+    "Every prior legacy and conference snapshot preserved verbatim",
+    "Six historical week cutoffs, complete box coverage, positions, exactly20 unique positional rows per week, tie ranking and cumulative ratios verified",
+    "Renderer regression:league20, no future snapshot leakage, conferences retained",
+    "Same existing responsive positional-table CSS reused unchanged; full visual browser check unavailable because browser download returned truncated archives"
+  ],
+  "validated_at": "2026-10-20T12:23:31.425409+00:00",
+  "visual_check": "unavailable_browser_binary_download_failed",
+  "changed_files": [
+    "index.html",
+    "sw.js",
+    "wto-player-leaders-2026.json",
+    "maintenance/player-leaders-top20.md"
+  ]
+}

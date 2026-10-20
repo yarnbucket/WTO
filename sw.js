@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v128-weekly-highlights';
+const CACHE = 'wto-shell-v129-league-top20';
 
 const SHELL = [
   './',
