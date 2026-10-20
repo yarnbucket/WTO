@@ -1,0 +1,42 @@
+{
+  "verified_at": "2026-10-20T10:07:46.964593+00:00",
+  "pass": true,
+  "verified_games": 93,
+  "complete_positions": true,
+  "multi_team_players": {
+    "4432708": {
+      "teams": [
+        "ARI",
+        "HOU"
+      ],
+      "review": "Attribution verified from individual game team IDs. Conference/division totals include only statistics earned for teams in that scope; league sums all teams. No current-team reassignment of earlier statistics.",
+      "game_ids": [
+        "2026-W01-ARI-LAC",
+        "2026-W02-SEA-ARI",
+        "2026-W03-ARI-SF",
+        "2026-W04-ARI-NYG",
+        "2026-W06-HOU-JAX"
+      ],
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872943",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996"
+      ]
+    }
+  },
+  "prior_legacy_snapshots_unchanged": true,
+  "prior_top20_snapshots_unchanged": true,
+  "new_top20_rows": 40,
+  "unavailable_fields": [
+    {
+      "field": "scoring",
+      "reason": "Official complete scoring leaderboard returned HTTP 500. Do not infer scoring leaders from yards, touchdowns alone or incomplete kicking/two-point records.",
+      "attempted_sources": [
+        "https://www.nfl.com/stats/player-stats/category/scoring/2026/reg/all/scoringtotalpoints/desc"
+      ],
+      "checked_at": "2026-10-20T10:05:10.535922+00:00"
+    }
+  ]
+}

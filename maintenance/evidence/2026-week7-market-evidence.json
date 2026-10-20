@@ -1,0 +1,3781 @@
+{
+  "verified_at": "2026-10-20T10:13:42.215325+00:00",
+  "season": 2026,
+  "week": 7,
+  "current": [
+    {
+      "game_id": "2026-W07-NE-CHI",
+      "kickoff_et": "2026-10-22T20:15:00-04:00",
+      "away": "NE",
+      "home": "CHI",
+      "favorite": "CHI",
+      "favorite_spread": -3,
+      "total": 50.5,
+      "away_spread": 3,
+      "home_spread": -3,
+      "away_spread_price": -115,
+      "home_spread_price": -105,
+      "over_price": -115,
+      "under_price": -105,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+      "retrieved_at": "2026-10-20T10:00:00.404790+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.404790+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.404790+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.404790+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-PIT-NO",
+      "kickoff_et": "2026-10-25T09:30:00-04:00",
+      "away": "PIT",
+      "home": "NO",
+      "favorite": "PIT",
+      "favorite_spread": -3.5,
+      "total": 44.5,
+      "away_spread": -3.5,
+      "home_spread": 3.5,
+      "away_spread_price": -102,
+      "home_spread_price": -118,
+      "over_price": -105,
+      "under_price": -115,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+      "retrieved_at": "2026-10-20T10:00:00.429175+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.429175+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.429175+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.429175+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-CIN-BAL",
+      "kickoff_et": "2026-10-25T13:00:00-04:00",
+      "away": "CIN",
+      "home": "BAL",
+      "favorite": "BAL",
+      "favorite_spread": -2.5,
+      "total": 51.5,
+      "away_spread": 2.5,
+      "home_spread": -2.5,
+      "away_spread_price": -102,
+      "home_spread_price": -118,
+      "over_price": -105,
+      "under_price": -115,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+      "retrieved_at": "2026-10-20T10:00:00.368392+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.368392+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.368392+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.368392+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-CLE-TEN",
+      "kickoff_et": "2026-10-25T13:00:00-04:00",
+      "away": "CLE",
+      "home": "TEN",
+      "favorite": "CLE",
+      "favorite_spread": -1.5,
+      "total": 38.5,
+      "away_spread": -1.5,
+      "home_spread": 1.5,
+      "away_spread_price": -115,
+      "home_spread_price": -105,
+      "over_price": -108,
+      "under_price": -112,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+      "retrieved_at": "2026-10-20T10:00:00.400781+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.400781+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.400781+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.400781+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-IND-MIN",
+      "kickoff_et": "2026-10-25T13:00:00-04:00",
+      "away": "IND",
+      "home": "MIN",
+      "favorite": "MIN",
+      "favorite_spread": -6.5,
+      "total": 41.5,
+      "away_spread": 6.5,
+      "home_spread": -6.5,
+      "away_spread_price": -112,
+      "home_spread_price": -108,
+      "over_price": -110,
+      "under_price": -110,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+      "retrieved_at": "2026-10-20T10:00:00.357505+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.357505+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.357505+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.357505+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-MIA-NYJ",
+      "kickoff_et": "2026-10-25T13:00:00-04:00",
+      "away": "MIA",
+      "home": "NYJ",
+      "favorite": "NYJ",
+      "favorite_spread": -4.5,
+      "total": 38.5,
+      "away_spread": 4.5,
+      "home_spread": -4.5,
+      "away_spread_price": -102,
+      "home_spread_price": -118,
+      "over_price": -115,
+      "under_price": -105,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+      "retrieved_at": "2026-10-20T10:00:00.420303+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.420303+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.420303+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.420303+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-NYG-HOU",
+      "kickoff_et": "2026-10-25T13:00:00-04:00",
+      "away": "NYG",
+      "home": "HOU",
+      "favorite": "HOU",
+      "favorite_spread": -10,
+      "total": 42.5,
+      "away_spread": 10,
+      "home_spread": -10,
+      "away_spread_price": -112,
+      "home_spread_price": -108,
+      "over_price": -118,
+      "under_price": -102,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+      "retrieved_at": "2026-10-20T10:00:00.409995+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.409995+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.409995+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.409995+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-SF-ATL",
+      "kickoff_et": "2026-10-25T13:00:00-04:00",
+      "away": "SF",
+      "home": "ATL",
+      "favorite": "SF",
+      "favorite_spread": -3.5,
+      "total": 49.5,
+      "away_spread": -3.5,
+      "home_spread": 3.5,
+      "away_spread_price": -115,
+      "home_spread_price": -105,
+      "over_price": -110,
+      "under_price": -110,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+      "retrieved_at": "2026-10-20T10:00:00.397155+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.397155+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.397155+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.397155+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-TB-CAR",
+      "kickoff_et": "2026-10-25T13:00:00-04:00",
+      "away": "TB",
+      "home": "CAR",
+      "favorite": "CAR",
+      "favorite_spread": -3.5,
+      "total": 44.5,
+      "away_spread": 3.5,
+      "home_spread": -3.5,
+      "away_spread_price": -115,
+      "home_spread_price": -105,
+      "over_price": -110,
+      "under_price": -110,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+      "retrieved_at": "2026-10-20T10:00:00.469029+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.469029+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.469029+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.469029+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-DEN-ARI",
+      "kickoff_et": "2026-10-25T16:05:00-04:00",
+      "away": "DEN",
+      "home": "ARI",
+      "favorite": "DEN",
+      "favorite_spread": -4.5,
+      "total": 43.5,
+      "away_spread": -4.5,
+      "home_spread": 4.5,
+      "away_spread_price": -110,
+      "home_spread_price": -110,
+      "over_price": -115,
+      "under_price": -105,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+      "retrieved_at": "2026-10-20T10:00:00.329876+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.329876+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.329876+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.329876+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-GB-DET",
+      "kickoff_et": "2026-10-25T16:25:00-04:00",
+      "away": "GB",
+      "home": "DET",
+      "favorite": "DET",
+      "favorite_spread": -3,
+      "total": 53.5,
+      "away_spread": 3,
+      "home_spread": -3,
+      "away_spread_price": -115,
+      "home_spread_price": -105,
+      "over_price": -110,
+      "under_price": -110,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+      "retrieved_at": "2026-10-20T10:00:00.445478+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.445478+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.445478+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.445478+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-LAR-LV",
+      "kickoff_et": "2026-10-25T16:25:00-04:00",
+      "away": "LAR",
+      "home": "LV",
+      "favorite": "LAR",
+      "favorite_spread": -4.5,
+      "total": 47.5,
+      "away_spread": -4.5,
+      "home_spread": 4.5,
+      "away_spread_price": -105,
+      "home_spread_price": -115,
+      "over_price": -110,
+      "under_price": -110,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+      "retrieved_at": "2026-10-20T10:00:00.440596+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.440596+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.440596+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.440596+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-KC-SEA",
+      "kickoff_et": "2026-10-25T20:20:00-04:00",
+      "away": "KC",
+      "home": "SEA",
+      "favorite": "SEA",
+      "favorite_spread": -2.5,
+      "total": 42.5,
+      "away_spread": 2.5,
+      "home_spread": -2.5,
+      "away_spread_price": -110,
+      "home_spread_price": -110,
+      "over_price": -110,
+      "under_price": -110,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+      "retrieved_at": "2026-10-20T10:00:00.373327+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.373327+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.373327+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.373327+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    },
+    {
+      "game_id": "2026-W07-DAL-PHI",
+      "kickoff_et": "2026-10-26T20:15:00-04:00",
+      "away": "DAL",
+      "home": "PHI",
+      "favorite": "DAL",
+      "favorite_spread": -4.5,
+      "total": 44.5,
+      "away_spread": -4.5,
+      "home_spread": 4.5,
+      "away_spread_price": -112,
+      "home_spread_price": -108,
+      "over_price": -110,
+      "under_price": -110,
+      "provider": "DraftKings via ESPN",
+      "provider_name_as_reported": "Draft Kings",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+      "retrieved_at": "2026-10-20T10:00:00.424329+00:00",
+      "provider_timestamp": null,
+      "captured_at": "2026-10-20T10:00:00.424329+00:00",
+      "spread_captured_at": "2026-10-20T10:00:00.424329+00:00",
+      "total_captured_at": "2026-10-20T10:00:00.424329+00:00",
+      "line_type": "market_snapshot",
+      "label": "Tuesday checkpoint",
+      "market_scope": "full_game",
+      "source_field_note": "Source close key is the current pregame quote, not an authenticated closing market. Timestamp is actual retrieval; provider quote timestamp unavailable."
+    }
+  ],
+  "opening_audit": {
+    "checked_at": "2026-10-20T10:13:42.215325+00:00",
+    "complete": [
+      "2026-W01-NE-SEA",
+      "2026-W01-SF-LAR",
+      "2026-W01-ATL-PIT",
+      "2026-W01-BAL-IND",
+      "2026-W01-BUF-HOU",
+      "2026-W01-CHI-CAR",
+      "2026-W01-CLE-JAX",
+      "2026-W01-NO-DET",
+      "2026-W01-NYJ-TEN",
+      "2026-W01-TB-CIN",
+      "2026-W01-ARI-LAC",
+      "2026-W01-GB-MIN",
+      "2026-W01-MIA-LV",
+      "2026-W01-WAS-PHI",
+      "2026-W01-DAL-NYG",
+      "2026-W01-DEN-KC",
+      "2026-W02-DET-BUF",
+      "2026-W02-PHI-TEN",
+      "2026-W02-PIT-NE",
+      "2026-W02-MIN-CHI",
+      "2026-W02-CAR-ATL",
+      "2026-W02-GB-NYJ",
+      "2026-W02-NO-BAL",
+      "2026-W02-CIN-HOU",
+      "2026-W02-CLE-TB",
+      "2026-W02-JAX-DEN",
+      "2026-W02-LV-LAC",
+      "2026-W02-SEA-ARI",
+      "2026-W02-MIA-SF",
+      "2026-W02-WAS-DAL",
+      "2026-W02-IND-KC",
+      "2026-W02-NYG-LAR",
+      "2026-W03-ATL-GB",
+      "2026-W03-SEA-WAS",
+      "2026-W03-CIN-PIT",
+      "2026-W03-NYJ-DET",
+      "2026-W03-TEN-NYG",
+      "2026-W03-NE-JAX",
+      "2026-W03-KC-MIA",
+      "2026-W03-HOU-IND",
+      "2026-W03-CAR-CLE",
+      "2026-W03-LAC-BUF",
+      "2026-W03-MIN-TB",
+      "2026-W03-ARI-SF",
+      "2026-W03-LV-NO",
+      "2026-W03-BAL-DAL",
+      "2026-W03-LAR-DEN",
+      "2026-W03-PHI-CHI",
+      "2026-W04-PIT-CLE",
+      "2026-W04-IND-WAS",
+      "2026-W04-ARI-NYG",
+      "2026-W04-DAL-HOU",
+      "2026-W04-GB-TB",
+      "2026-W04-JAX-CIN",
+      "2026-W04-LAR-PHI",
+      "2026-W04-NE-BUF",
+      "2026-W04-NYJ-CHI",
+      "2026-W04-TEN-BAL",
+      "2026-W04-MIA-MIN",
+      "2026-W04-DEN-SF",
+      "2026-W04-KC-LV",
+      "2026-W04-LAC-SEA",
+      "2026-W04-DET-CAR",
+      "2026-W04-ATL-NO",
+      "2026-W05-TB-DAL",
+      "2026-W05-PHI-JAX",
+      "2026-W05-CIN-MIA",
+      "2026-W05-CLE-NYJ",
+      "2026-W05-HOU-TEN",
+      "2026-W05-IND-PIT",
+      "2026-W05-LV-NE",
+      "2026-W05-MIN-NO",
+      "2026-W05-NYG-WAS",
+      "2026-W05-DEN-LAC",
+      "2026-W05-CHI-GB",
+      "2026-W05-DET-ARI",
+      "2026-W05-SF-SEA",
+      "2026-W05-BAL-ATL",
+      "2026-W05-BUF-LAR",
+      "2026-W06-SEA-DEN",
+      "2026-W06-HOU-JAX",
+      "2026-W06-BAL-CLE",
+      "2026-W06-CAR-PHI",
+      "2026-W06-CHI-ATL",
+      "2026-W06-NO-NYG",
+      "2026-W06-NYJ-NE",
+      "2026-W06-PIT-TB",
+      "2026-W06-TEN-IND",
+      "2026-W06-ARI-LAR",
+      "2026-W06-BUF-LV",
+      "2026-W06-LAC-KC",
+      "2026-W06-DAL-GB",
+      "2026-W06-WAS-SF",
+      "2026-W07-NE-CHI",
+      "2026-W07-PIT-NO",
+      "2026-W07-CIN-BAL",
+      "2026-W07-CLE-TEN",
+      "2026-W07-IND-MIN",
+      "2026-W07-MIA-NYJ",
+      "2026-W07-NYG-HOU",
+      "2026-W07-SF-ATL",
+      "2026-W07-TB-CAR",
+      "2026-W07-DEN-ARI",
+      "2026-W07-GB-DET",
+      "2026-W07-LAR-LV",
+      "2026-W07-KC-SEA",
+      "2026-W07-DAL-PHI"
+    ],
+    "partial": [],
+    "missing": [
+      "2026-W08-CAR-GB",
+      "2026-W08-ARI-DAL",
+      "2026-W08-ATL-TB",
+      "2026-W08-BAL-BUF",
+      "2026-W08-CLE-PIT",
+      "2026-W08-IND-JAX",
+      "2026-W08-LV-NYJ",
+      "2026-W08-MIN-DET",
+      "2026-W08-TEN-CIN",
+      "2026-W08-LAC-LAR",
+      "2026-W08-KC-DEN",
+      "2026-W08-NE-MIA",
+      "2026-W08-PHI-WAS",
+      "2026-W08-CHI-SEA",
+      "2026-W09-JAX-BAL",
+      "2026-W09-CIN-ATL",
+      "2026-W09-CLE-NO",
+      "2026-W09-DAL-IND",
+      "2026-W09-DEN-CAR",
+      "2026-W09-DET-MIA",
+      "2026-W09-LAR-WAS",
+      "2026-W09-NYG-PHI",
+      "2026-W09-NYJ-KC",
+      "2026-W09-HOU-LAC",
+      "2026-W09-LV-SF",
+      "2026-W09-ARI-SEA",
+      "2026-W09-GB-NE",
+      "2026-W09-TB-CHI",
+      "2026-W09-BUF-MIN",
+      "2026-W10-WAS-NYG",
+      "2026-W10-NE-DET",
+      "2026-W10-BUF-NYJ",
+      "2026-W10-CAR-NO",
+      "2026-W10-HOU-CLE",
+      "2026-W10-JAX-TEN",
+      "2026-W10-KC-ATL",
+      "2026-W10-MIA-IND",
+      "2026-W10-MIN-GB",
+      "2026-W10-LAR-ARI",
+      "2026-W10-SEA-LV",
+      "2026-W10-SF-DAL",
+      "2026-W10-PIT-CIN",
+      "2026-W10-LAC-BAL",
+      "2026-W11-IND-HOU",
+      "2026-W11-ARI-KC",
+      "2026-W11-BAL-CAR",
+      "2026-W11-JAX-NYG",
+      "2026-W11-MIA-BUF",
+      "2026-W11-NO-CHI",
+      "2026-W11-TB-DET",
+      "2026-W11-TEN-DAL",
+      "2026-W11-NYJ-LAC",
+      "2026-W11-LV-DEN",
+      "2026-W11-PIT-PHI",
+      "2026-W11-MIN-SF",
+      "2026-W11-CIN-WAS",
+      "2026-W12-GB-LAR",
+      "2026-W12-CHI-DET",
+      "2026-W12-PHI-DAL",
+      "2026-W12-KC-BUF",
+      "2026-W12-DEN-PIT",
+      "2026-W12-ATL-MIN",
+      "2026-W12-BAL-HOU",
+      "2026-W12-LV-CLE",
+      "2026-W12-NO-CIN",
+      "2026-W12-NYG-IND",
+      "2026-W12-NYJ-MIA",
+      "2026-W12-TEN-JAX",
+      "2026-W12-SEA-SF",
+      "2026-W12-WAS-ARI",
+      "2026-W12-NE-LAC",
+      "2026-W12-CAR-TB",
+      "2026-W13-KC-LAR",
+      "2026-W13-SF-NYG",
+      "2026-W13-CIN-CLE",
+      "2026-W13-DET-ATL",
+      "2026-W13-GB-NO",
+      "2026-W13-JAX-CHI",
+      "2026-W13-LAC-TB",
+      "2026-W13-WAS-TEN",
+      "2026-W13-MIA-DEN",
+      "2026-W13-PHI-ARI",
+      "2026-W13-BUF-NE",
+      "2026-W13-CAR-MIN",
+      "2026-W13-HOU-PIT",
+      "2026-W13-DAL-SEA",
+      "2026-W14-MIN-NE",
+      "2026-W14-ATL-CLE",
+      "2026-W14-CHI-MIA",
+      "2026-W14-DEN-NYJ",
+      "2026-W14-HOU-WAS",
+      "2026-W14-IND-PHI",
+      "2026-W14-NO-CAR",
+      "2026-W14-TB-BAL",
+      "2026-W14-TEN-DET",
+      "2026-W14-LAC-LV",
+      "2026-W14-KC-CIN",
+      "2026-W14-LAR-SF",
+      "2026-W14-NYG-SEA",
+      "2026-W14-BUF-GB",
+      "2026-W14-PIT-JAX",
+      "2026-W15-SF-LAC",
+      "2026-W15-SEA-PHI",
+      "2026-W15-CHI-BUF",
+      "2026-W15-ATL-WAS",
+      "2026-W15-BAL-PIT",
+      "2026-W15-CIN-CAR",
+      "2026-W15-CLE-NYG",
+      "2026-W15-IND-TEN",
+      "2026-W15-JAX-HOU",
+      "2026-W15-MIA-GB",
+      "2026-W15-NO-TB",
+      "2026-W15-NYJ-ARI",
+      "2026-W15-DAL-LAR",
+      "2026-W15-DEN-LV",
+      "2026-W15-DET-MIN",
+      "2026-W15-NE-KC",
+      "2026-W16-HOU-PHI",
+      "2026-W16-GB-CHI",
+      "2026-W16-BUF-DEN",
+      "2026-W16-LAR-SEA",
+      "2026-W16-CAR-PIT",
+      "2026-W16-CIN-IND",
+      "2026-W16-TB-ATL",
+      "2026-W16-WAS-MIN",
+      "2026-W16-ARI-NO",
+      "2026-W16-CLE-BAL",
+      "2026-W16-LAC-MIA",
+      "2026-W16-NE-NYJ",
+      "2026-W16-TEN-LV",
+      "2026-W16-SF-KC",
+      "2026-W16-JAX-DAL",
+      "2026-W16-NYG-DET",
+      "2026-W17-BAL-CIN",
+      "2026-W17-DEN-NE",
+      "2026-W17-KC-LAC",
+      "2026-W17-LAR-TB",
+      "2026-W17-WAS-JAX",
+      "2026-W17-BUF-MIA",
+      "2026-W17-IND-CLE",
+      "2026-W17-MIN-NYJ",
+      "2026-W17-NO-ATL",
+      "2026-W17-NYG-DAL",
+      "2026-W17-PIT-TEN",
+      "2026-W17-SEA-CAR",
+      "2026-W17-LV-ARI",
+      "2026-W17-DET-CHI",
+      "2026-W17-PHI-SF",
+      "2026-W17-HOU-GB",
+      "2026-W18-ATL-CAR",
+      "2026-W18-CHI-MIN",
+      "2026-W18-CLE-CIN",
+      "2026-W18-DAL-WAS",
+      "2026-W18-DET-GB",
+      "2026-W18-JAX-IND",
+      "2026-W18-LV-KC",
+      "2026-W18-LAC-DEN",
+      "2026-W18-MIA-NE",
+      "2026-W18-NYJ-BUF",
+      "2026-W18-PHI-NYG",
+      "2026-W18-PIT-BAL",
+      "2026-W18-SF-ARI",
+      "2026-W18-SEA-LAR",
+      "2026-W18-TB-NO",
+      "2026-W18-TEN-HOU"
+    ],
+    "unresolved_fields": [
+      {
+        "game_id": "2026-W08-CAR-GB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-ARI-DAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-ATL-TB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-BAL-BUF",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-CLE-PIT",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-IND-JAX",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-LV-NYJ",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-MIN-DET",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-TEN-CIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-LAC-LAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-KC-DEN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-NE-MIA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-PHI-WAS",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W08-CHI-SEA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-JAX-BAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-CIN-ATL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-CLE-NO",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-DAL-IND",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-DEN-CAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-DET-MIA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-LAR-WAS",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-NYG-PHI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-NYJ-KC",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-HOU-LAC",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-LV-SF",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-ARI-SEA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-GB-NE",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-TB-CHI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W09-BUF-MIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-WAS-NYG",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-NE-DET",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-BUF-NYJ",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-CAR-NO",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-HOU-CLE",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-JAX-TEN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-KC-ATL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-MIA-IND",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-MIN-GB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-LAR-ARI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-SEA-LV",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-SF-DAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-PIT-CIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W10-LAC-BAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-IND-HOU",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-ARI-KC",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-BAL-CAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-JAX-NYG",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-MIA-BUF",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-NO-CHI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-TB-DET",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-TEN-DAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-NYJ-LAC",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-LV-DEN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-PIT-PHI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-MIN-SF",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W11-CIN-WAS",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-GB-LAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-CHI-DET",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-PHI-DAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-KC-BUF",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-DEN-PIT",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-ATL-MIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-BAL-HOU",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-LV-CLE",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-NO-CIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-NYG-IND",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-NYJ-MIA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-TEN-JAX",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-SEA-SF",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-WAS-ARI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-NE-LAC",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W12-CAR-TB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-KC-LAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-SF-NYG",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-CIN-CLE",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-DET-ATL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-GB-NO",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-JAX-CHI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-LAC-TB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-WAS-TEN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-MIA-DEN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-PHI-ARI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-BUF-NE",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-CAR-MIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-HOU-PIT",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W13-DAL-SEA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-MIN-NE",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-ATL-CLE",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-CHI-MIA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-DEN-NYJ",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-HOU-WAS",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-IND-PHI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-NO-CAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-TB-BAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-TEN-DET",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-LAC-LV",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-KC-CIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-LAR-SF",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-NYG-SEA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-BUF-GB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W14-PIT-JAX",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-SF-LAC",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-SEA-PHI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-CHI-BUF",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-ATL-WAS",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-BAL-PIT",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-CIN-CAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-CLE-NYG",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-IND-TEN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-JAX-HOU",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-MIA-GB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-NO-TB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-NYJ-ARI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-DAL-LAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-DEN-LV",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-DET-MIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W15-NE-KC",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-HOU-PHI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-GB-CHI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-BUF-DEN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-LAR-SEA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-CAR-PIT",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-CIN-IND",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-TB-ATL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-WAS-MIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-ARI-NO",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-CLE-BAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-LAC-MIA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-NE-NYJ",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-TEN-LV",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-SF-KC",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-JAX-DAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W16-NYG-DET",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-BAL-CIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-DEN-NE",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-KC-LAC",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-LAR-TB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-WAS-JAX",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-BUF-MIA",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-IND-CLE",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-MIN-NYJ",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-NO-ATL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-NYG-DAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-PIT-TEN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-SEA-CAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-LV-ARI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-DET-CHI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-PHI-SF",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W17-HOU-GB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-ATL-CAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-CHI-MIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-CLE-CIN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-DAL-WAS",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-DET-GB",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-JAX-IND",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-LV-KC",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-LAC-DEN",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-MIA-NE",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-NYJ-BUF",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-PHI-NYG",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-PIT-BAL",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-SF-ARI",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-SEA-LAR",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-TB-NO",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      },
+      {
+        "game_id": "2026-W18-TEN-HOU",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00",
+        "unavailable_fields": [
+          "opening_spread",
+          "opening_total",
+          "opening_provider",
+          "opening_source_url",
+          "opening_line_type",
+          "opening_verified_at"
+        ],
+        "attempted_source_urls": [],
+        "reason": "No compatible source-explicit opener authenticated. Future-week unposted/unchecked markets remain in this deduplicated carry-forward worklist; current collection scope Week 7."
+      }
+    ],
+    "opening_conflicts": [],
+    "source_response_cache": [
+      {
+        "source_url": "https://www.vegasinsider.com/nfl/nfl-week-1-odds-2026/",
+        "retrieved_at": "2026-10-20T10:00:00.451419+00:00",
+        "scope": "all applicable games in this weekly archive"
+      },
+      {
+        "source_url": "https://www.vegasinsider.com/nfl/nfl-week-2-odds-2026/",
+        "retrieved_at": "2026-10-20T10:00:05.289446+00:00",
+        "scope": "all applicable games in this weekly archive"
+      },
+      {
+        "source_url": "https://www.vegasinsider.com/nfl/nfl-week-3-odds-2026/",
+        "retrieved_at": "2026-10-20T10:00:05.859753+00:00",
+        "scope": "all applicable games in this weekly archive"
+      },
+      {
+        "source_url": "https://www.vegasinsider.com/nfl/nfl-week-4-odds-2026/",
+        "retrieved_at": "2026-10-20T10:00:05.624990+00:00",
+        "scope": "all applicable games in this weekly archive"
+      },
+      {
+        "source_url": "https://www.vegasinsider.com/nfl/nfl-week-5-odds-2026/",
+        "retrieved_at": "2026-10-20T10:00:05.835574+00:00",
+        "scope": "all applicable games in this weekly archive"
+      },
+      {
+        "source_url": "https://www.vegasinsider.com/nfl/nfl-week-6-odds-2026/",
+        "retrieved_at": "2026-10-20T10:00:05.360325+00:00",
+        "scope": "all applicable games in this weekly archive"
+      },
+      {
+        "source_url": "https://www.vegasinsider.com/nfl/nfl-week-7-odds-2026/",
+        "retrieved_at": "2026-10-20T10:03:08.011238+00:00",
+        "scope": "all applicable games in this weekly archive"
+      }
+    ],
+    "selection_changes": [
+      {
+        "game_id": "2026-W01-NE-SEA",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872656",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-SF-LAR",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872657",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-ATL-PIT",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872658",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-BAL-IND",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-BUF-HOU",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872660",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-CHI-CAR",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-CLE-JAX",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872922",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-NO-DET",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-NYJ-TEN",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872924",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-TB-CIN",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872925",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-ARI-LAC",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-GB-MIN",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872927",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-MIA-LV",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872928",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-WAS-PHI",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872929",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W01-DAL-NYG",
+        "previous_provider": "VegasInsider",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872930",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-DET-BUF",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-PHI-TEN",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872939",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-PIT-NE",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872946",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-MIN-CHI",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872937",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-CAR-ATL",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872933",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-GB-NYJ",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872936",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-NO-BAL",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872938",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-CIN-HOU",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-CLE-TB",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872935",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-JAX-DEN",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872940",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-LV-LAC",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872941",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-SEA-ARI",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872943",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-MIA-SF",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872942",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-WAS-DAL",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872944",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-IND-KC",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W02-NYG-LAR",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872947",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-ATL-GB",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-SEA-WAS",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-CIN-PIT",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872950",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-NYJ-DET",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-TEN-NYG",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872956",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-NE-JAX",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872957",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-KC-MIA",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872952",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-HOU-IND",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872951",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-CAR-CLE",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872949",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-LAC-BUF",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872953",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-MIN-TB",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872959",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-ARI-SF",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-LV-NO",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-BAL-DAL",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872960",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-LAR-DEN",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W03-PHI-CHI",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-PIT-CLE",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-IND-WAS",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872965",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-ARI-NYG",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-DAL-HOU",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-GB-TB",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872968",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-JAX-CIN",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-LAR-PHI",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872970",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-NE-BUF",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872971",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-NYJ-CHI",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872972",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-TEN-BAL",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872973",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-MIA-MIN",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872974",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-DEN-SF",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872975",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-KC-LV",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-LAC-SEA",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872977",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-DET-CAR",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      },
+      {
+        "game_id": "2026-W04-ATL-NO",
+        "previous_provider": "ScoresAndOdds",
+        "selected_provider": "DraftKings via ESPN",
+        "reason": "Named DraftKings source explicitly labels these open quotes. Earlier numeric values had no verified opening definition/time or identified sportsbook; preserved as a separate immutable legacy observation. No earlier verified opener is replaced.",
+        "same_book_conflict": false,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872979",
+        "checked_at": "2026-10-20T10:13:42.215325+00:00"
+      }
+    ]
+  },
+  "verified_venues": {
+    "2026-W07-NE-CHI": {
+      "stadium": "Soldier Field",
+      "latitude": 41.862366,
+      "longitude": -87.617256,
+      "coordinates_source_url": "https://www.latlong.net/place/soldier-field-chicago-il-usa-31809.html",
+      "coordinates_verified_at": "2026-10-20T10:04:20.261924+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+      "venue_verified_at": "2026-10-20T10:00:00.404790+00:00",
+      "venue_roof_type": "open",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "CHI",
+      "venue_timezone": "America/Chicago"
+    },
+    "2026-W07-PIT-NO": {
+      "stadium": "Stade de France",
+      "latitude": 48.918,
+      "longitude": 2.351,
+      "venue_timezone": "Europe/Paris",
+      "coordinates_source_url": "https://www.stadefrance.com/en/practical-information/how-to-get-there",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+      "venue_verified_at": "2026-10-20T10:00:00.429175+00:00",
+      "venue_roof_type": "open",
+      "neutral_site": true,
+      "country": "France",
+      "unavailable_reason": "Actual venue is Stade de France, Saint-Denis, France, outside National Weather Service coverage. No nominal New Orleans forecast substituted."
+    },
+    "2026-W07-CIN-BAL": {
+      "stadium": "M&T Bank Stadium",
+      "latitude": 39.278088,
+      "longitude": -76.623322,
+      "coordinates_source_url": "https://www.latlong.net/place/m-t-bank-stadium-md-usa-32132.html",
+      "coordinates_verified_at": "2026-10-20T10:04:20.264162+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+      "venue_verified_at": "2026-10-20T10:00:00.368392+00:00",
+      "venue_roof_type": "open",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "BAL",
+      "venue_timezone": "America/New_York"
+    },
+    "2026-W07-CLE-TEN": {
+      "stadium": "Nissan Stadium",
+      "latitude": 36.1664774,
+      "longitude": -86.7712938,
+      "coordinates_source_url": "https://forecast.weather.gov/MapClick.php?lat=36.1664774&lon=-86.7712938",
+      "coordinates_verified_at": "2026-10-20T10:04:20.265333+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+      "venue_verified_at": "2026-10-20T10:00:00.400781+00:00",
+      "venue_roof_type": "open",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "TEN",
+      "venue_timezone": "America/Chicago"
+    },
+    "2026-W07-IND-MIN": {
+      "stadium": "U.S. Bank Stadium",
+      "latitude": 44.973774,
+      "longitude": -93.258736,
+      "coordinates_source_url": "https://www.latlong.net/place/u-s-bank-stadium-mn-usa-32130.html",
+      "coordinates_verified_at": "2026-10-20T10:04:20.266409+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+      "venue_verified_at": "2026-10-20T10:00:00.357505+00:00",
+      "venue_roof_type": "fixed_enclosed",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "MIN",
+      "venue_timezone": "America/Chicago"
+    },
+    "2026-W07-MIA-NYJ": {
+      "stadium": "MetLife Stadium",
+      "latitude": 40.813507465,
+      "longitude": -74.074342406,
+      "coordinates_source_url": "https://forecast.weather.gov/MapClick.php?lat=40.813507465&lon=-74.074342406",
+      "coordinates_verified_at": "2026-10-20T10:04:20.267838+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+      "venue_verified_at": "2026-10-20T10:00:00.420303+00:00",
+      "venue_roof_type": "open",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "NYJ",
+      "venue_timezone": "America/New_York"
+    },
+    "2026-W07-NYG-HOU": {
+      "stadium": "Reliant Stadium",
+      "latitude": 29.68486,
+      "longitude": -95.411667,
+      "coordinates_source_url": "https://www.latlong.net/place/nrg-stadium-tx-usa-32131.html",
+      "coordinates_verified_at": "2026-10-20T10:04:20.268735+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+      "venue_verified_at": "2026-10-20T10:00:00.409995+00:00",
+      "venue_roof_type": "retractable",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "HOU",
+      "venue_timezone": "America/Chicago"
+    },
+    "2026-W07-SF-ATL": {
+      "stadium": "Mercedes-Benz Stadium",
+      "latitude": 33.7555052,
+      "longitude": -84.4008484,
+      "coordinates_source_url": "https://api.weather.gov/gridpoints/FFC/50,87/forecast/hourly",
+      "coordinates_verified_at": "2026-10-20T10:04:20.271084+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+      "venue_verified_at": "2026-10-20T10:00:00.397155+00:00",
+      "venue_roof_type": "retractable",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "ATL",
+      "venue_timezone": "America/New_York"
+    },
+    "2026-W07-TB-CAR": {
+      "stadium": "Bank of America Stadium",
+      "latitude": 35.225845,
+      "longitude": -80.853607,
+      "coordinates_source_url": "https://www.latlong.net/place/bank-of-america-stadium-in-charlotte-home-of-carolina-panthers-31953.html",
+      "coordinates_verified_at": "2026-10-20T10:04:20.272051+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+      "venue_verified_at": "2026-10-20T10:00:00.469029+00:00",
+      "venue_roof_type": "open",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "CAR",
+      "venue_timezone": "America/New_York"
+    },
+    "2026-W07-DEN-ARI": {
+      "stadium": "State Farm Stadium",
+      "latitude": 33.5277555,
+      "longitude": -112.2625948,
+      "coordinates_source_url": "https://forecast.weather.gov/MapClick.php?lat=33.5277555&lon=-112.2625948",
+      "coordinates_verified_at": "2026-10-20T10:04:20.273420+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+      "venue_verified_at": "2026-10-20T10:00:00.329876+00:00",
+      "venue_roof_type": "retractable",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "ARI",
+      "venue_timezone": "America/Phoenix"
+    },
+    "2026-W07-GB-DET": {
+      "stadium": "Ford Field",
+      "latitude": 42.340115,
+      "longitude": -83.046341,
+      "coordinates_source_url": "https://www.latlong.net/place/ford-field-detroit-mi-usa-31808.html",
+      "coordinates_verified_at": "2026-10-20T10:04:20.274597+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+      "venue_verified_at": "2026-10-20T10:00:00.445478+00:00",
+      "venue_roof_type": "fixed_enclosed",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "DET",
+      "venue_timezone": "America/Detroit"
+    },
+    "2026-W07-LAR-LV": {
+      "stadium": "Allegiant Stadium",
+      "latitude": 36.090794,
+      "longitude": -115.183952,
+      "coordinates_source_url": "https://www.latlong.net/place/allegiant-stadium-nevada-home-of-the-las-vegas-raiders-31810.html",
+      "coordinates_verified_at": "2026-10-20T10:04:20.275753+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+      "venue_verified_at": "2026-10-20T10:00:00.440596+00:00",
+      "venue_roof_type": "fixed_enclosed",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "LV",
+      "venue_timezone": "America/Los_Angeles"
+    },
+    "2026-W07-KC-SEA": {
+      "stadium": "Lumen Field",
+      "latitude": 47.5951513,
+      "longitude": -122.3316259,
+      "coordinates_source_url": "https://forecast.weather.gov/MapClick.php?lat=47.5951513&lon=-122.3316259",
+      "coordinates_verified_at": "2026-10-20T10:04:20.276647+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+      "venue_verified_at": "2026-10-20T10:00:00.373327+00:00",
+      "venue_roof_type": "open",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "SEA",
+      "venue_timezone": "America/Los_Angeles"
+    },
+    "2026-W07-DAL-PHI": {
+      "stadium": "Lincoln Financial Field",
+      "latitude": 39.90084,
+      "longitude": -75.16747,
+      "coordinates_source_url": "https://mapcarta.com/21464102",
+      "coordinates_verified_at": "2026-10-20T10:04:20.277670+00:00",
+      "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+      "venue_verified_at": "2026-10-20T10:00:00.424329+00:00",
+      "venue_roof_type": "open",
+      "neutral_site": false,
+      "country": "USA",
+      "home": "PHI",
+      "venue_timezone": "America/New_York"
+    }
+  }
+}

@@ -1,0 +1,1264 @@
+{
+  "season": 2026,
+  "week": 6,
+  "reviewed_at": "2026-10-20T10:18:41.106Z",
+  "approved_model_version": "opponent-adjusted-points-v2",
+  "approved_EX_version": "empirical-errors-v1",
+  "frozen_residual_count": 63,
+  "review_scope": "Genuinely saved pre-kickoff Week 6 forecasts only; no retrospective simulation counted as an untouched test.",
+  "production": {
+    "winner_hits": 7,
+    "winner_calls": 14,
+    "tie_forecasts": 1,
+    "directional_probability_games": 13,
+    "team_score_mae": 6.821428571428571,
+    "actual_minus_projected_bias": -1.6071428571428572,
+    "ATS": {
+      "eligible": 0,
+      "hits": 0,
+      "NO_EDGE": 14
+    },
+    "total": {
+      "eligible": 0,
+      "hits": 0,
+      "NO_EDGE": 14
+    },
+    "naive_home_winner_hits": 6,
+    "winner_market_comparator": "Unavailable: no compatible paired pre-cutoff moneylines stored; spread values are not probabilities.",
+    "winner_probability_metrics": {
+      "eligible": 13,
+      "tie_forecasts_excluded": 1,
+      "accuracy": 0.5384615384615384,
+      "log_loss": 0.758935384791972,
+      "brier": 0.27850600000000003,
+      "reliability": [
+        {
+          "lower": 0,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_correct_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.4,
+          "n": 0,
+          "mean_probability": null,
+          "observed_correct_rate": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.6,
+          "n": 1,
+          "mean_probability": 0.536,
+          "observed_correct_rate": 1
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.8,
+          "n": 12,
+          "mean_probability": 0.6818333333333334,
+          "observed_correct_rate": 0.5
+        },
+        {
+          "lower": 0.8,
+          "upper": 1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_correct_rate": null
+        }
+      ]
+    }
+  },
+  "experimental": {
+    "ATS": {
+      "eligible_games": 14,
+      "missing_or_unmatched_markets": 0,
+      "pushes": 0,
+      "decisive_games": 14,
+      "selected_side_hits": 8,
+      "conditional_log_loss": 0.701425887666662,
+      "conditional_brier": 0.2538300910671398,
+      "market_no_vig_log_loss": 0.6990364662543204,
+      "naive_half_log_loss": 0.6931471805599453,
+      "multiclass_log_loss": 0.7047487459262971,
+      "reliability": [
+        {
+          "lower": 0,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_win_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.4,
+          "n": 4,
+          "mean_probability": 0.3346153846153846,
+          "observed_win_rate": 0.75
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.6,
+          "n": 7,
+          "mean_probability": 0.5165881737310308,
+          "observed_win_rate": 0.42857142857142855
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.8,
+          "n": 3,
+          "mean_probability": 0.6564102564102564,
+          "observed_win_rate": 1
+        },
+        {
+          "lower": 0.8,
+          "upper": 1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_win_rate": null
+        }
+      ]
+    },
+    "total": {
+      "eligible_games": 14,
+      "missing_or_unmatched_markets": 0,
+      "pushes": 0,
+      "decisive_games": 14,
+      "selected_side_hits": 4,
+      "conditional_log_loss": 0.7770850219407691,
+      "conditional_brier": 0.29044801352493665,
+      "market_no_vig_log_loss": 0.6965085990364114,
+      "naive_half_log_loss": 0.6931471805599453,
+      "multiclass_log_loss": 0.777085021940769,
+      "reliability": [
+        {
+          "lower": 0,
+          "upper": 0.2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_win_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.4,
+          "n": 1,
+          "mean_probability": 0.3384615384615385,
+          "observed_win_rate": 1
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.6,
+          "n": 11,
+          "mean_probability": 0.4965034965034965,
+          "observed_win_rate": 0.45454545454545453
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.8,
+          "n": 2,
+          "mean_probability": 0.6923076923076923,
+          "observed_win_rate": 0.5
+        },
+        {
+          "lower": 0.8,
+          "upper": 1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_win_rate": null
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "game_id": "2026-W06-SEA-DEN",
+      "prediction_revision_id": "2026-W06-SEA-DEN-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "SEA",
+        "winner_side": "AWAY",
+        "away_score": 23,
+        "home_score": 20,
+        "projected_margin": 3,
+        "projected_total": 43,
+        "win_probability": 0.606
+      },
+      "actual": {
+        "away": 14,
+        "home": 17,
+        "winner": "DEN"
+      },
+      "away_error": -9,
+      "home_error": -3,
+      "winner_correct": false,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.606,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:15.295559+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "SEA",
+          "line": -2.5,
+          "outcome": "loss",
+          "win_probability": 0.5692307692307692,
+          "loss_probability": 0.4307692307692308,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.8421827597204331,
+          "multiclass_brier": 0.6480473372781065,
+          "conditional_win_probability": 0.5692307692307692,
+          "actual_win": 0,
+          "conditional_log_loss": 0.8421827597204331,
+          "conditional_brier": 0.32402366863905324,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5043297540699688,
+          "market_no_vig_log_loss": 0.7018444001064842,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 40.5,
+          "outcome": "loss",
+          "win_probability": 0.5230769230769231,
+          "loss_probability": 0.47692307692307695,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.7404000654104909,
+          "multiclass_brier": 0.5472189349112425,
+          "conditional_win_probability": 0.5230769230769231,
+          "actual_win": 0,
+          "conditional_log_loss": 0.740400065410491,
+          "conditional_brier": 0.2736094674556213,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5108342361863488,
+          "market_no_vig_log_loss": 0.715053861645812,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-HOU-JAX",
+      "prediction_revision_id": "2026-W06-HOU-JAX-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "JAX",
+        "winner_side": "HOME",
+        "away_score": 15,
+        "home_score": 24,
+        "projected_margin": 9,
+        "projected_total": 39,
+        "win_probability": 0.75
+      },
+      "actual": {
+        "away": 34,
+        "home": 31,
+        "winner": "HOU"
+      },
+      "away_error": 19,
+      "home_error": 7,
+      "winner_correct": false,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.75,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:15.236070+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "HOU",
+          "line": 2.5,
+          "outcome": "win",
+          "win_probability": 0.3230769230769231,
+          "loss_probability": 0.676923076923077,
+          "push_probability": 0,
+          "multiclass_log_loss": 1.129864832172214,
+          "multiclass_brier": 0.916449704142012,
+          "conditional_win_probability": 0.3230769230769231,
+          "actual_win": 1,
+          "conditional_log_loss": 1.129864832172214,
+          "conditional_brier": 0.458224852071006,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.4891657638136511,
+          "market_no_vig_log_loss": 0.7150538616458121,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 42.5,
+          "outcome": "win",
+          "win_probability": 0.4461538461538462,
+          "loss_probability": 0.5538461538461539,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.807091439909163,
+          "multiclass_brier": 0.6134911242603551,
+          "conditional_win_probability": 0.4461538461538462,
+          "actual_win": 1,
+          "conditional_log_loss": 0.807091439909163,
+          "conditional_brier": 0.30674556213017756,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5043297540699688,
+          "market_no_vig_log_loss": 0.6845249509063038,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-BAL-CLE",
+      "prediction_revision_id": "2026-W06-BAL-CLE-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "BAL",
+        "winner_side": "AWAY",
+        "away_score": 25,
+        "home_score": 22,
+        "projected_margin": 3,
+        "projected_total": 47,
+        "win_probability": 0.606
+      },
+      "actual": {
+        "away": 10,
+        "home": 13,
+        "winner": "CLE"
+      },
+      "away_error": -15,
+      "home_error": -9,
+      "winner_correct": false,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.606,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:15.308916+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "BAL",
+          "line": -5.5,
+          "outcome": "loss",
+          "win_probability": 0.46153846153846156,
+          "loss_probability": 0.5384615384615384,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.6190392084062235,
+          "multiclass_brier": 0.42603550295857995,
+          "conditional_win_probability": 0.46153846153846156,
+          "actual_win": 0,
+          "conditional_log_loss": 0.6190392084062235,
+          "conditional_brier": 0.21301775147928997,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.4891657638136511,
+          "market_no_vig_log_loss": 0.6717101324293399,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 42.5,
+          "outcome": "loss",
+          "win_probability": 0.5538461538461539,
+          "loss_probability": 0.4461538461538462,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.807091439909163,
+          "multiclass_brier": 0.6134911242603551,
+          "conditional_win_probability": 0.5538461538461539,
+          "actual_win": 0,
+          "conditional_log_loss": 0.8070914399091631,
+          "conditional_brier": 0.30674556213017756,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5173641257162701,
+          "market_no_vig_log_loss": 0.7284927931131481,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-CAR-PHI",
+      "prediction_revision_id": "2026-W06-CAR-PHI-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "CAR",
+        "winner_side": "AWAY",
+        "away_score": 28,
+        "home_score": 23,
+        "projected_margin": 5,
+        "projected_total": 51,
+        "win_probability": 0.671
+      },
+      "actual": {
+        "away": 25,
+        "home": 14,
+        "winner": "CAR"
+      },
+      "away_error": -3,
+      "home_error": -9,
+      "winner_correct": true,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.671,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:15.276005+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "CAR",
+          "line": -1.5,
+          "outcome": "win",
+          "win_probability": 0.7076923076923077,
+          "loss_probability": 0.2923076923076923,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.34574587340654206,
+          "multiclass_brier": 0.17088757396449702,
+          "conditional_win_probability": 0.7076923076923077,
+          "actual_win": 1,
+          "conditional_log_loss": 0.34574587340654206,
+          "conditional_brier": 0.0854437869822485,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.4826358742837298,
+          "market_no_vig_log_loss": 0.7284927931131483,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 40.5,
+          "outcome": "loss",
+          "win_probability": 0.7076923076923077,
+          "loss_probability": 0.2923076923076923,
+          "push_probability": 0,
+          "multiclass_log_loss": 1.2299482907291965,
+          "multiclass_brier": 1.0016568047337278,
+          "conditional_win_probability": 0.7076923076923077,
+          "actual_win": 0,
+          "conditional_log_loss": 1.2299482907291968,
+          "conditional_brier": 0.500828402366864,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.4826358742837298,
+          "market_no_vig_log_loss": 0.6590083473196388,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-CHI-ATL",
+      "prediction_revision_id": "2026-W06-CHI-ATL-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "CHI",
+        "winner_side": "AWAY",
+        "away_score": 24,
+        "home_score": 21,
+        "projected_margin": 3,
+        "projected_total": 45,
+        "win_probability": 0.606
+      },
+      "actual": {
+        "away": 31,
+        "home": 23,
+        "winner": "CHI"
+      },
+      "away_error": 7,
+      "home_error": 2,
+      "winner_correct": true,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.606,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:15.277632+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "CHI",
+          "line": -1.5,
+          "outcome": "win",
+          "win_probability": 0.6153846153846154,
+          "loss_probability": 0.38461538461538464,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.48550781578170077,
+          "multiclass_brier": 0.29585798816568043,
+          "conditional_win_probability": 0.6153846153846154,
+          "actual_win": 1,
+          "conditional_log_loss": 0.48550781578170077,
+          "conditional_brier": 0.14792899408284022,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.4826358742837298,
+          "market_no_vig_log_loss": 0.7284927931131483,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 51.5,
+          "outcome": "win",
+          "win_probability": 0.4,
+          "loss_probability": 0.6,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.916290731874155,
+          "multiclass_brier": 0.72,
+          "conditional_win_probability": 0.4,
+          "actual_win": 1,
+          "conditional_log_loss": 0.916290731874155,
+          "conditional_brier": 0.36,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.4826358742837298,
+          "market_no_vig_log_loss": 0.7284927931131483,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-NO-NYG",
+      "prediction_revision_id": "2026-W06-NO-NYG-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "NYG",
+        "winner_side": "HOME",
+        "away_score": 22,
+        "home_score": 25,
+        "projected_margin": 3,
+        "projected_total": 47,
+        "win_probability": 0.606
+      },
+      "actual": {
+        "away": 34,
+        "home": 27,
+        "winner": "NO"
+      },
+      "away_error": 12,
+      "home_error": 2,
+      "winner_correct": false,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.606,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:15.259524+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "NO",
+          "line": -1.5,
+          "outcome": "win",
+          "win_probability": 0.36923076923076925,
+          "loss_probability": 0.6307692307692307,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.9963334395476915,
+          "multiclass_brier": 0.7957396449704142,
+          "conditional_win_probability": 0.36923076923076925,
+          "actual_win": 1,
+          "conditional_log_loss": 0.9963334395476915,
+          "conditional_brier": 0.3978698224852071,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.4782608695652174,
+          "market_no_vig_log_loss": 0.7375989431307791,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 45.5,
+          "outcome": "win",
+          "win_probability": 0.5230769230769231,
+          "loss_probability": 0.47692307692307695,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.6480267452794757,
+          "multiclass_brier": 0.4549112426035503,
+          "conditional_win_probability": 0.5230769230769231,
+          "actual_win": 1,
+          "conditional_log_loss": 0.6480267452794757,
+          "conditional_brier": 0.22745562130177513,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.5043297540699688,
+          "market_no_vig_log_loss": 0.6845249509063038,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-NYJ-NE",
+      "prediction_revision_id": "2026-W06-NYJ-NE-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "NE",
+        "winner_side": "HOME",
+        "away_score": 14,
+        "home_score": 21,
+        "projected_margin": 7,
+        "projected_total": 35,
+        "win_probability": 0.731
+      },
+      "actual": {
+        "away": 19,
+        "home": 26,
+        "winner": "NE"
+      },
+      "away_error": 5,
+      "home_error": 5,
+      "winner_correct": true,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.731,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:15.292182+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "NYJ",
+          "line": 7.5,
+          "outcome": "win",
+          "win_probability": 0.5692307692307692,
+          "loss_probability": 0.4307692307692308,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.5634693572514127,
+          "multiclass_brier": 0.3711242603550296,
+          "conditional_win_probability": 0.5692307692307692,
+          "actual_win": 1,
+          "conditional_log_loss": 0.5634693572514127,
+          "conditional_brier": 0.1855621301775148,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.5108342361863488,
+          "market_no_vig_log_loss": 0.6717101324293401,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 43.5,
+          "outcome": "win",
+          "win_probability": 0.3384615384615385,
+          "loss_probability": 0.6615384615384615,
+          "push_probability": 0,
+          "multiclass_log_loss": 1.0833448165373212,
+          "multiclass_brier": 0.875266272189349,
+          "conditional_win_probability": 0.3384615384615385,
+          "actual_win": 1,
+          "conditional_log_loss": 1.0833448165373212,
+          "conditional_brier": 0.4376331360946745,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5043297540699688,
+          "market_no_vig_log_loss": 0.6845249509063038,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-PIT-TB",
+      "prediction_revision_id": "2026-W06-PIT-TB-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "TIE",
+        "winner_side": "TIE",
+        "away_score": 21,
+        "home_score": 21,
+        "projected_margin": 0,
+        "projected_total": 42,
+        "win_probability": 0.5
+      },
+      "actual": {
+        "away": 26,
+        "home": 19,
+        "winner": "PIT"
+      },
+      "away_error": 5,
+      "home_error": -2,
+      "winner_correct": false,
+      "winner_probability_eligible": false,
+      "winner_probability": 0.5,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:18.821417+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "PIT",
+          "line": -2.5,
+          "outcome": "win",
+          "win_probability": 0.46153846153846156,
+          "loss_probability": 0.5384615384615384,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.7731898882334817,
+          "multiclass_brier": 0.5798816568047337,
+          "conditional_win_probability": 0.46153846153846156,
+          "actual_win": 1,
+          "conditional_log_loss": 0.7731898882334817,
+          "conditional_brier": 0.28994082840236685,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5108342361863488,
+          "market_no_vig_log_loss": 0.6717101324293401,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 39.5,
+          "outcome": "win",
+          "win_probability": 0.5230769230769231,
+          "loss_probability": 0.47692307692307695,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.6480267452794757,
+          "multiclass_brier": 0.4549112426035503,
+          "conditional_win_probability": 0.5230769230769231,
+          "actual_win": 1,
+          "conditional_log_loss": 0.6480267452794757,
+          "conditional_brier": 0.22745562130177513,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.4956702459300312,
+          "market_no_vig_log_loss": 0.7018444001064842,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-TEN-IND",
+      "prediction_revision_id": "2026-W06-TEN-IND-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "IND",
+        "winner_side": "HOME",
+        "away_score": 17,
+        "home_score": 25,
+        "projected_margin": 8,
+        "projected_total": 42,
+        "win_probability": 0.75
+      },
+      "actual": {
+        "away": 26,
+        "home": 20,
+        "winner": "TEN"
+      },
+      "away_error": 9,
+      "home_error": -5,
+      "winner_correct": false,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.75,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:18.836830+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "TEN",
+          "line": 7,
+          "outcome": "win",
+          "win_probability": 0.5,
+          "loss_probability": 0.45454545454545453,
+          "push_probability": 0.045454545454545456,
+          "multiclass_log_loss": 0.6931471805599453,
+          "multiclass_brier": 0.4586776859504132,
+          "conditional_win_probability": 0.5238095238095238,
+          "actual_win": 1,
+          "conditional_log_loss": 0.6466271649250523,
+          "conditional_brier": 0.22675736961451246,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.5108342361863488,
+          "market_no_vig_log_loss": 0.6717101324293401,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 44.5,
+          "outcome": "win",
+          "win_probability": 0.46153846153846156,
+          "loss_probability": 0.5384615384615384,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.7731898882334817,
+          "multiclass_brier": 0.5798816568047337,
+          "conditional_win_probability": 0.46153846153846156,
+          "actual_win": 1,
+          "conditional_log_loss": 0.7731898882334817,
+          "conditional_brier": 0.28994082840236685,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5043297540699688,
+          "market_no_vig_log_loss": 0.6845249509063038,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-ARI-LAR",
+      "prediction_revision_id": "2026-W06-ARI-LAR-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "LAR",
+        "winner_side": "HOME",
+        "away_score": 21,
+        "home_score": 31,
+        "projected_margin": 10,
+        "projected_total": 52,
+        "win_probability": 0.75
+      },
+      "actual": {
+        "away": 18,
+        "home": 16,
+        "winner": "ARI"
+      },
+      "away_error": -3,
+      "home_error": -15,
+      "winner_correct": false,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.75,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:18.879456+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "ARI",
+          "line": 12.5,
+          "outcome": "win",
+          "win_probability": 0.6461538461538462,
+          "loss_probability": 0.35384615384615387,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.4367176516122687,
+          "multiclass_brier": 0.25041420118343194,
+          "conditional_win_probability": 0.6461538461538462,
+          "actual_win": 1,
+          "conditional_log_loss": 0.4367176516122687,
+          "conditional_brier": 0.12520710059171594,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.4956702459300312,
+          "market_no_vig_log_loss": 0.7018444001064842,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 51.5,
+          "outcome": "loss",
+          "win_probability": 0.5076923076923077,
+          "loss_probability": 0.49230769230769234,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.7086513670959105,
+          "multiclass_brier": 0.5155029585798816,
+          "conditional_win_probability": 0.5076923076923077,
+          "actual_win": 0,
+          "conditional_log_loss": 0.7086513670959105,
+          "conditional_brier": 0.2577514792899408,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5,
+          "market_no_vig_log_loss": 0.6931471805599453,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-BUF-LV",
+      "prediction_revision_id": "2026-W06-BUF-LV-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "BUF",
+        "winner_side": "AWAY",
+        "away_score": 33,
+        "home_score": 30,
+        "projected_margin": 3,
+        "projected_total": 63,
+        "win_probability": 0.606
+      },
+      "actual": {
+        "away": 33,
+        "home": 30,
+        "winner": "BUF"
+      },
+      "away_error": 0,
+      "home_error": 0,
+      "winner_correct": true,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.606,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:18.796852+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "BUF",
+          "line": -5.5,
+          "outcome": "loss",
+          "win_probability": 0.46153846153846156,
+          "loss_probability": 0.5384615384615384,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.6190392084062235,
+          "multiclass_brier": 0.42603550295857995,
+          "conditional_win_probability": 0.46153846153846156,
+          "actual_win": 0,
+          "conditional_log_loss": 0.6190392084062235,
+          "conditional_brier": 0.21301775147928997,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.4891657638136511,
+          "market_no_vig_log_loss": 0.6717101324293399,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 53.5,
+          "outcome": "win",
+          "win_probability": 0.676923076923077,
+          "loss_probability": 0.3230769230769231,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.3901976359773759,
+          "multiclass_brier": 0.20875739644970415,
+          "conditional_win_probability": 0.676923076923077,
+          "actual_win": 1,
+          "conditional_log_loss": 0.3901976359773759,
+          "conditional_brier": 0.10437869822485205,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.5,
+          "market_no_vig_log_loss": 0.6931471805599453,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-LAC-KC",
+      "prediction_revision_id": "2026-W06-LAC-KC-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "KC",
+        "winner_side": "HOME",
+        "away_score": 14,
+        "home_score": 29,
+        "projected_margin": 15,
+        "projected_total": 43,
+        "win_probability": 0.75
+      },
+      "actual": {
+        "away": 6,
+        "home": 22,
+        "winner": "KC"
+      },
+      "away_error": -8,
+      "home_error": -7,
+      "winner_correct": true,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.75,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:18.798090+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "LAC",
+          "line": 8.5,
+          "outcome": "loss",
+          "win_probability": 0.3230769230769231,
+          "loss_probability": 0.676923076923077,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.3901976359773759,
+          "multiclass_brier": 0.20875739644970415,
+          "conditional_win_probability": 0.3230769230769231,
+          "actual_win": 0,
+          "conditional_log_loss": 0.3901976359773759,
+          "conditional_brier": 0.10437869822485209,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.5108342361863488,
+          "market_no_vig_log_loss": 0.715053861645812,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 42.5,
+          "outcome": "loss",
+          "win_probability": 0.5076923076923077,
+          "loss_probability": 0.49230769230769234,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.7086513670959105,
+          "multiclass_brier": 0.5155029585798816,
+          "conditional_win_probability": 0.5076923076923077,
+          "actual_win": 0,
+          "conditional_log_loss": 0.7086513670959105,
+          "conditional_brier": 0.2577514792899408,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.4956702459300312,
+          "market_no_vig_log_loss": 0.6845249509063038,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-DAL-GB",
+      "prediction_revision_id": "2026-W06-DAL-GB-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "GB",
+        "winner_side": "HOME",
+        "away_score": 26,
+        "home_score": 27,
+        "projected_margin": 1,
+        "projected_total": 53,
+        "win_probability": 0.536
+      },
+      "actual": {
+        "away": 13,
+        "home": 23,
+        "winner": "GB"
+      },
+      "away_error": -13,
+      "home_error": -4,
+      "winner_correct": true,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.536,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:18.843835+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "DAL",
+          "line": 1.5,
+          "outcome": "loss",
+          "win_probability": 0.5692307692307692,
+          "loss_probability": 0.4307692307692308,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.8421827597204331,
+          "multiclass_brier": 0.6480473372781065,
+          "conditional_win_probability": 0.5692307692307692,
+          "actual_win": 0,
+          "conditional_log_loss": 0.8421827597204331,
+          "conditional_brier": 0.32402366863905324,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5108342361863488,
+          "market_no_vig_log_loss": 0.715053861645812,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 53.5,
+          "outcome": "loss",
+          "win_probability": 0.49230769230769234,
+          "loss_probability": 0.5076923076923077,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.6778797084291569,
+          "multiclass_brier": 0.48473372781065094,
+          "conditional_win_probability": 0.49230769230769234,
+          "actual_win": 0,
+          "conditional_log_loss": 0.6778797084291569,
+          "conditional_brier": 0.24236686390532547,
+          "selected_side_hit": true,
+          "market_no_vig_conditional_probability": 0.4891657638136511,
+          "market_no_vig_log_loss": 0.6717101324293399,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    },
+    {
+      "game_id": "2026-W06-WAS-SF",
+      "prediction_revision_id": "2026-W06-WAS-SF-tuesday-baseline-202610131025363776560000",
+      "prediction_generated_at": "2026-10-13T10:40:27.509451+00:00",
+      "saved_projection": {
+        "winner": "SF",
+        "winner_side": "HOME",
+        "away_score": 19,
+        "home_score": 34,
+        "projected_margin": 15,
+        "projected_total": 53,
+        "win_probability": 0.75
+      },
+      "actual": {
+        "away": 17,
+        "home": 23,
+        "winner": "SF"
+      },
+      "away_error": -2,
+      "home_error": -11,
+      "winner_correct": true,
+      "winner_probability_eligible": true,
+      "winner_probability": 0.75,
+      "model_ats_lean": "NO EDGE",
+      "model_total_lean": "NO EDGE",
+      "model_ats_hit": null,
+      "model_total_hit": null,
+      "frozen_snapshot": "wto-ex-week6-20261015.json",
+      "experimental_generated_at": "2026-10-15T19:35:45.215Z",
+      "market_provenance": {
+        "provider": "DraftKings via ESPN",
+        "market_as_of": "2026-10-15T16:04:18.850732+00:00",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008",
+        "resolution": "Exact saved full-game line and total match at/before experimental generation; original snapshot left unchanged."
+      },
+      "experimental": {
+        "ATS": {
+          "side": "WAS",
+          "line": 7.5,
+          "outcome": "win",
+          "win_probability": 0.3230769230769231,
+          "loss_probability": 0.676923076923077,
+          "push_probability": 0,
+          "multiclass_log_loss": 1.129864832172214,
+          "multiclass_brier": 0.916449704142012,
+          "conditional_win_probability": 0.3230769230769231,
+          "actual_win": 1,
+          "conditional_log_loss": 1.129864832172214,
+          "conditional_brier": 0.458224852071006,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5043297540699688,
+          "market_no_vig_log_loss": 0.6845249509063038,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        },
+        "total": {
+          "side": "OVER",
+          "line": 50.5,
+          "outcome": "loss",
+          "win_probability": 0.5230769230769231,
+          "loss_probability": 0.47692307692307695,
+          "push_probability": 0,
+          "multiclass_log_loss": 0.7404000654104909,
+          "multiclass_brier": 0.5472189349112425,
+          "conditional_win_probability": 0.5230769230769231,
+          "actual_win": 0,
+          "conditional_log_loss": 0.740400065410491,
+          "conditional_brier": 0.2736094674556213,
+          "selected_side_hit": false,
+          "market_no_vig_conditional_probability": 0.5217391304347826,
+          "market_no_vig_log_loss": 0.7375989431307791,
+          "naive_half_log_loss": 0.6931471805599453,
+          "quote_available_at_prediction_cutoff": true
+        }
+      }
+    }
+  ],
+  "training_changes": "None. The frozen 63 residuals and all production formulas/configurations remain unchanged. Week 6 residuals are review evidence only and were not appended to training.",
+  "limitations": [
+    "14 completed games is a small sample, not sufficient for confidence promotion.",
+    "Original EX per-game market_as_of is null; eligibility resolved only through exact matching saved prior quote.",
+    "Paired market prices normalize reciprocal American odds; spread/total prices are conditional on no push. Model compared on conditional decisive outcomes; pushes reported separately with multiclass scores.",
+    "No shadow candidate currently exists; agreement is not evaluable."
+  ],
+  "agreement_review": {
+    "candidate_version": null,
+    "eligible_pairs": {
+      "winner": 0,
+      "ATS": 0,
+      "total": 0
+    },
+    "within_2_points": null,
+    "within_3_points": null,
+    "streaks": {
+      "winner": 0,
+      "ATS": 0,
+      "total": 0
+    },
+    "status": "not_evaluable_no_shadow_candidate",
+    "week_qualifies": false
+  },
+  "decision": "Retain approved production model and frozen residual set. No confidence increase, retraining, calibration or promotion. Resolve required inputs before releasing new numerical outputs."
+}

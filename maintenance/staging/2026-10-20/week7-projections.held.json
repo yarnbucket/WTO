@@ -1,0 +1,689 @@
+{
+  "generated_at": "2026-10-20T10:18:41.106Z",
+  "season": 2026,
+  "week": 7,
+  "through_week": 6,
+  "publication_status": "HOLD_NOT_PRODUCTION",
+  "approved_model_sha256": "b28576f6249ba6a2eacd39542e2f84b4661dca84260ad2eaff5a81b4fa65e7c6",
+  "formula_changed": false,
+  "market_used_as_input": false,
+  "games": [
+    {
+      "game_id": "2026-W07-NE-CHI",
+      "kickoff": "2026-10-22T20:15:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "CHI",
+        "away_score": 20,
+        "home_score": 22,
+        "projected_margin": 2,
+        "projected_total": 42,
+        "win_probability": 0.571
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 6,
+          "pf": 22.771505376344088,
+          "pa": 19.896505376344088,
+          "offense": 23.004608294930875,
+          "defense": 18.6534178187404,
+          "opponents": [
+            "SEA",
+            "PIT",
+            "JAX",
+            "BUF",
+            "LV",
+            "NYJ"
+          ]
+        },
+        "home": {
+          "count": 6,
+          "pf": 24.521505376344088,
+          "pa": 20.646505376344088,
+          "offense": 25.50194145758662,
+          "defense": 20.876941457586618,
+          "opponents": [
+            "CAR",
+            "MIN",
+            "PHI",
+            "NYJ",
+            "GB",
+            "ATL"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 20.04552824714115,
+        "home_points": 21.81933777095068
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-PIT-NO",
+      "kickoff": "2026-10-25T09:30:00-04:00",
+      "status": "blocked_neutral_site_rule",
+      "projection": null,
+      "reason": "Approved function hardcodes neutral PHI-JAX only; no rule change made."
+    },
+    {
+      "game_id": "2026-W07-CIN-BAL",
+      "kickoff": "2026-10-25T13:00:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "BAL",
+        "away_score": 24,
+        "home_score": 25,
+        "projected_margin": 1,
+        "projected_total": 49,
+        "win_probability": 0.536
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 5,
+          "pf": 24.881720430107528,
+          "pa": 22.167434715821816,
+          "offense": 25.390604198668715,
+          "defense": 22.83584229390681,
+          "opponents": [
+            "TB",
+            "HOU",
+            "PIT",
+            "JAX",
+            "MIA"
+          ]
+        },
+        "home": {
+          "count": 6,
+          "pf": 25.271505376344088,
+          "pa": 22.271505376344088,
+          "offense": 24.59984639016897,
+          "defense": 22.814132104454686,
+          "opponents": [
+            "IND",
+            "NO",
+            "DAL",
+            "TEN",
+            "ATL",
+            "CLE"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 24.368714797747057,
+        "home_points": 25.099667178699438
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-CLE-TEN",
+      "kickoff": "2026-10-25T13:00:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "CLE",
+        "away_score": 18,
+        "home_score": 14,
+        "projected_margin": 4,
+        "projected_total": 32,
+        "win_probability": 0.639
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 6,
+          "pf": 19.021505376344088,
+          "pa": 21.021505376344088,
+          "offense": 19.3415685270524,
+          "defense": 20.56379074927462,
+          "opponents": [
+            "JAX",
+            "TB",
+            "CAR",
+            "PIT",
+            "NYJ",
+            "BAL"
+          ]
+        },
+        "home": {
+          "count": 6,
+          "pf": 16.271505376344088,
+          "pa": 21.896505376344088,
+          "offense": 15.540322580645162,
+          "defense": 22.177227342549923,
+          "opponents": [
+            "NYJ",
+            "PHI",
+            "NYG",
+            "BAL",
+            "HOU",
+            "IND"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 17.682774364225978,
+        "home_points": 13.768091824543438
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-IND-MIN",
+      "kickoff": "2026-10-25T13:00:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "MIN",
+        "away_score": 16,
+        "home_score": 26,
+        "projected_margin": 10,
+        "projected_total": 42,
+        "win_probability": 0.75
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 6,
+          "pf": 23.771505376344088,
+          "pa": 26.271505376344088,
+          "offense": 24.164981225465098,
+          "defense": 26.72450503498891,
+          "opponents": [
+            "BAL",
+            "KC",
+            "HOU",
+            "WAS",
+            "PIT",
+            "TEN"
+          ]
+        },
+        "home": {
+          "count": 5,
+          "pf": 22.167434715821816,
+          "pa": 15.738863287250384,
+          "offense": 21.695366103430622,
+          "defense": 15.81679467485919,
+          "opponents": [
+            "GB",
+            "CHI",
+            "TB",
+            "MIA",
+            "NO"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 16.145754394947943,
+        "home_points": 26.083849633043187
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-MIA-NYJ",
+      "kickoff": "2026-10-25T13:00:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "NYJ",
+        "away_score": 15,
+        "home_score": 22,
+        "projected_margin": 7,
+        "projected_total": 37,
+        "win_probability": 0.731
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 5,
+          "pf": 16.59600614439324,
+          "pa": 25.4531490015361,
+          "offense": 17.463594470046083,
+          "defense": 24.294546850998465,
+          "opponents": [
+            "LV",
+            "SF",
+            "KC",
+            "MIN",
+            "CIN"
+          ]
+        },
+        "home": {
+          "count": 6,
+          "pf": 19.771505376344088,
+          "pa": 21.021505376344088,
+          "offense": 20.01220344768732,
+          "defense": 21.232441542925415,
+          "opponents": [
+            "TEN",
+            "GB",
+            "DET",
+            "CHI",
+            "CLE",
+            "NE"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 14.860014507595153,
+        "home_points": 21.97072879330944
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-NYG-HOU",
+      "kickoff": "2026-10-25T13:00:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "HOU",
+        "away_score": 21,
+        "home_score": 25,
+        "projected_margin": 4,
+        "projected_total": 46,
+        "win_probability": 0.639
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 6,
+          "pf": 22.771505376344088,
+          "pa": 23.271505376344088,
+          "offense": 21.2784178187404,
+          "defense": 23.897465437788018,
+          "opponents": [
+            "DAL",
+            "LAR",
+            "TEN",
+            "ARI",
+            "WAS",
+            "NO"
+          ]
+        },
+        "home": {
+          "count": 6,
+          "pf": 23.771505376344088,
+          "pa": 23.646505376344088,
+          "offense": 23.482441542925415,
+          "defense": 23.073711384195256,
+          "opponents": [
+            "BUF",
+            "CIN",
+            "IND",
+            "DAL",
+            "TEN",
+            "JAX"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 20.516107697559313,
+        "home_points": 25.04388547533709
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-SF-ATL",
+      "kickoff": "2026-10-25T13:00:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "SF",
+        "away_score": 28,
+        "home_score": 21,
+        "projected_margin": 7,
+        "projected_total": 49,
+        "win_probability": 0.731
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 6,
+          "pf": 27.896505376344088,
+          "pa": 19.521505376344088,
+          "offense": 27.6431558286397,
+          "defense": 20.240378050861924,
+          "opponents": [
+            "LAR",
+            "MIA",
+            "ARI",
+            "DEN",
+            "SEA",
+            "WAS"
+          ]
+        },
+        "home": {
+          "count": 6,
+          "pf": 23.521505376344088,
+          "pa": 24.896505376344088,
+          "offense": 23.54394947943335,
+          "defense": 24.315774876258747,
+          "opponents": [
+            "PIT",
+            "CAR",
+            "GB",
+            "NO",
+            "BAL",
+            "CHI"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 28.122909199522102,
+        "home_points": 21.44830602491893
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-TB-CAR",
+      "kickoff": "2026-10-25T13:00:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "CAR",
+        "away_score": 22,
+        "home_score": 29,
+        "projected_margin": 7,
+        "projected_total": 51,
+        "win_probability": 0.731
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 6,
+          "pf": 20.646505376344088,
+          "pa": 23.021505376344088,
+          "offense": 21.450354155999317,
+          "defense": 23.34321129885646,
+          "opponents": [
+            "CIN",
+            "CLE",
+            "MIN",
+            "GB",
+            "DAL",
+            "PIT"
+          ]
+        },
+        "home": {
+          "count": 5,
+          "pf": 27.4531490015361,
+          "pa": 24.167434715821816,
+          "offense": 27.697747055811572,
+          "defense": 24.188223246287766,
+          "opponents": [
+            "CHI",
+            "ATL",
+            "CLE",
+            "DET",
+            "PHI"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 21.80255589691074,
+        "home_points": 28.704936849291688
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-DEN-ARI",
+      "kickoff": "2026-10-25T16:05:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "DEN",
+        "away_score": 25,
+        "home_score": 20,
+        "projected_margin": 5,
+        "projected_total": 45,
+        "win_probability": 0.671
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 6,
+          "pf": 20.021505376344088,
+          "pa": 21.396505376344088,
+          "offense": 20.958632019115893,
+          "defense": 20.774108209592082,
+          "opponents": [
+            "KC",
+            "JAX",
+            "LAR",
+            "SF",
+            "LAC",
+            "SEA"
+          ]
+        },
+        "home": {
+          "count": 6,
+          "pf": 21.521505376344088,
+          "pa": 28.021505376344088,
+          "offense": 21.291965352449225,
+          "defense": 27.93879074927462,
+          "opponents": [
+            "LAC",
+            "SEA",
+            "SF",
+            "NYG",
+            "DET",
+            "LAR"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 25.06140126301417,
+        "home_points": 19.730052056664963
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-GB-DET",
+      "kickoff": "2026-10-25T16:25:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "DET",
+        "away_score": 26,
+        "home_score": 28,
+        "projected_margin": 2,
+        "projected_total": 54,
+        "win_probability": 0.571
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 6,
+          "pf": 21.646505376344088,
+          "pa": 21.396505376344088,
+          "offense": 22.240378050861924,
+          "defense": 21.57767963816351,
+          "opponents": [
+            "MIN",
+            "NYJ",
+            "ATL",
+            "TB",
+            "CHI",
+            "DAL"
+          ]
+        },
+        "home": {
+          "count": 5,
+          "pf": 30.02457757296467,
+          "pa": 27.738863287250386,
+          "offense": 29.242985151049666,
+          "defense": 27.24536610343062,
+          "opponents": [
+            "NO",
+            "BUF",
+            "NYJ",
+            "CAR",
+            "ARI"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 25.6497226489162,
+        "home_points": 28.48464328383683
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-LAR-LV",
+      "kickoff": "2026-10-25T16:25:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "LV",
+        "away_score": 25,
+        "home_score": 26,
+        "projected_margin": 1,
+        "projected_total": 51,
+        "win_probability": 0.536
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 6,
+          "pf": 22.646505376344088,
+          "pa": 23.021505376344088,
+          "offense": 22.248655913978496,
+          "defense": 22.71889400921659,
+          "opponents": [
+            "SF",
+            "NYG",
+            "DEN",
+            "PHI",
+            "BUF",
+            "ARI"
+          ]
+        },
+        "home": {
+          "count": 6,
+          "pf": 26.021505376344088,
+          "pa": 26.021505376344088,
+          "offense": 25.835274790919954,
+          "defense": 26.335274790919954,
+          "opponents": [
+            "MIA",
+            "LAC",
+            "NO",
+            "KC",
+            "NE",
+            "BUF"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 24.747909199522105,
+        "home_points": 26.2181472947602
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-KC-SEA",
+      "kickoff": "2026-10-25T20:20:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "KC",
+        "away_score": 24,
+        "home_score": 21,
+        "projected_margin": 3,
+        "projected_total": 45,
+        "win_probability": 0.606
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 5,
+          "pf": 26.596006144393243,
+          "pa": 18.4531490015361,
+          "offense": 25.988223246287763,
+          "defense": 19.34536610343062,
+          "opponents": [
+            "DEN",
+            "IND",
+            "MIA",
+            "LV",
+            "LAC"
+          ]
+        },
+        "home": {
+          "count": 6,
+          "pf": 24.271505376344088,
+          "pa": 21.021505376344088,
+          "offense": 24.171274961597543,
+          "defense": 21.492703533026116,
+          "opponents": [
+            "NE",
+            "ARI",
+            "WAS",
+            "LAC",
+            "SF",
+            "DEN"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 23.644905273937535,
+        "home_points": 21.18061955965182
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    },
+    {
+      "game_id": "2026-W07-DAL-PHI",
+      "kickoff": "2026-10-26T20:15:00-04:00",
+      "generated_at": "2026-10-20T10:18:41.106Z",
+      "projection": {
+        "winner": "DAL",
+        "away_score": 24,
+        "home_score": 23,
+        "projected_margin": 1,
+        "projected_total": 47,
+        "win_probability": 0.536
+      },
+      "status": "held_not_published",
+      "source_model": "scripts/wto-points-model.mjs",
+      "through_week": 6,
+      "model_audit": {
+        "away": {
+          "count": 6,
+          "pf": 24.646505376344088,
+          "pa": 25.646505376344088,
+          "offense": 24.570084485407065,
+          "defense": 26.09389400921659,
+          "opponents": [
+            "NYG",
+            "WAS",
+            "BAL",
+            "HOU",
+            "TB",
+            "GB"
+          ]
+        },
+        "home": {
+          "count": 6,
+          "pf": 19.021505376344088,
+          "pa": 22.896505376344088,
+          "offense": 18.875298685782557,
+          "defense": 22.905060590544462,
+          "opponents": [
+            "WAS",
+            "TEN",
+            "CHI",
+            "LAR",
+            "JAX",
+            "CAR"
+          ]
+        },
+        "league": 23.086021505376344,
+        "away_points": 23.639123570575183,
+        "home_points": 22.633171189622804
+      },
+      "reason": "Required current availability/context checks unresolved; not an operative forecast."
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "verified_at": "2026-10-20T10:18:41.106Z",
+  "through_week": 6,
+  "source": "ff26-nfl-lines-2026.json",
+  "baseline_unchanged": true,
+  "baseline_source": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
+  "comparisons": {
+    "NFC West": {
+      "leaders": [
+        {
+          "team": "SF",
+          "w": 6,
+          "l": 0,
+          "t": 0,
+          "pf": 177,
+          "pa": 110,
+          "played": 6
+        }
+      ],
+      "favorites": [
+        "LAR"
+      ],
+      "gamesAhead": 3,
+      "reads": [
+        "SF: exceeding expectations — +67 scoring margin; opponents 43% wins outside this matchup."
+      ],
+      "throughWeek": 6
+    },
+    "NFC": {
+      "leaders": [
+        {
+          "team": "MIN",
+          "w": 5,
+          "l": 0,
+          "t": 0,
+          "pf": 109,
+          "pa": 64,
+          "played": 5
+        },
+        {
+          "team": "SF",
+          "w": 6,
+          "l": 0,
+          "t": 0,
+          "pf": 177,
+          "pa": 110,
+          "played": 6
+        }
+      ],
+      "favorites": [
+        "LAR"
+      ],
+      "gamesAhead": 1.5,
+      "reads": [
+        "MIN: exceeding expectations — +45 scoring margin; opponents 46% wins outside this matchup.",
+        "SF: exceeding expectations — +67 scoring margin; opponents 43% wins outside this matchup."
+      ],
+      "throughWeek": 6
+    },
+    "NFC South": {
+      "leaders": [
+        {
+          "team": "CAR",
+          "w": 3,
+          "l": 2,
+          "t": 0,
+          "pf": 146,
+          "pa": 123,
+          "played": 5
+        }
+      ],
+      "favorites": [
+        "TB"
+      ],
+      "gamesAhead": 1.5,
+      "reads": [
+        "CAR: exceeding expectations — +23 scoring margin; opponents 54% wins outside this matchup."
+      ],
+      "throughWeek": 6
+    },
+    "AFC North": {
+      "leaders": [
+        {
+          "team": "BAL",
+          "w": 4,
+          "l": 2,
+          "t": 0,
+          "pf": 156,
+          "pa": 132,
+          "played": 6
+        },
+        {
+          "team": "CLE",
+          "w": 4,
+          "l": 2,
+          "t": 0,
+          "pf": 106,
+          "pa": 122,
+          "played": 6
+        },
+        {
+          "team": "PIT",
+          "w": 4,
+          "l": 2,
+          "t": 0,
+          "pf": 137,
+          "pa": 128,
+          "played": 6
+        }
+      ],
+      "favorites": [
+        "BAL"
+      ],
+      "gamesAhead": 0.5,
+      "reads": [
+        "BAL: on track — +24 scoring margin; opponents 37% wins outside this matchup.",
+        "CLE: exceeding expectations — -16 scoring margin; opponents 55% wins outside this matchup.",
+        "PIT: exceeding expectations — +9 scoring margin; opponents 48% wins outside this matchup."
+      ],
+      "throughWeek": 6
+    },
+    "AFC": {
+      "leaders": [
+        {
+          "team": "KC",
+          "w": 5,
+          "l": 0,
+          "t": 0,
+          "pf": 140,
+          "pa": 83,
+          "played": 5
+        }
+      ],
+      "favorites": [
+        "BAL"
+      ],
+      "gamesAhead": 0.5,
+      "reads": [
+        "KC: exceeding expectations — +57 scoring margin; opponents 38% wins outside this matchup."
+      ],
+      "throughWeek": 6
+    },
+    "AFC East": {
+      "leaders": [
+        {
+          "team": "BUF",
+          "w": 5,
+          "l": 1,
+          "t": 0,
+          "pf": 197,
+          "pa": 171,
+          "played": 6
+        }
+      ],
+      "favorites": [
+        "BUF",
+        "NE"
+      ],
+      "gamesAhead": 1,
+      "reads": [
+        "BUF: exceeding expectations — +26 scoring margin; opponents 45% wins outside this matchup."
+      ],
+      "throughWeek": 6
+    },
+    "NFC North": {
+      "leaders": [
+        {
+          "team": "MIN",
+          "w": 5,
+          "l": 0,
+          "t": 0,
+          "pf": 109,
+          "pa": 64,
+          "played": 5
+        }
+      ],
+      "favorites": [
+        "DET"
+      ],
+      "gamesAhead": 1.5,
+      "reads": [
+        "MIN: exceeding expectations — +45 scoring margin; opponents 46% wins outside this matchup."
+      ],
+      "throughWeek": 6
+    },
+    "NFC East": {
+      "leaders": [
+        {
+          "team": "NYG",
+          "w": 3,
+          "l": 2,
+          "t": 1,
+          "pf": 136,
+          "pa": 140,
+          "played": 6
+        }
+      ],
+      "favorites": [
+        "PHI"
+      ],
+      "gamesAhead": 1.5,
+      "reads": [
+        "NYG: on track — -4 scoring margin; opponents 27% wins outside this matchup."
+      ],
+      "throughWeek": 6
+    },
+    "AFC West": {
+      "leaders": [
+        {
+          "team": "KC",
+          "w": 5,
+          "l": 0,
+          "t": 0,
+          "pf": 140,
+          "pa": 83,
+          "played": 5
+        }
+      ],
+      "favorites": [
+        "DEN"
+      ],
+      "gamesAhead": 1.5,
+      "reads": [
+        "KC: exceeding expectations — +57 scoring margin; opponents 38% wins outside this matchup."
+      ],
+      "throughWeek": 6
+    },
+    "AFC South": {
+      "leaders": [
+        {
+          "team": "JAX",
+          "w": 4,
+          "l": 2,
+          "t": 0,
+          "pf": 154,
+          "pa": 104,
+          "played": 6
+        }
+      ],
+      "favorites": [
+        "HOU"
+      ],
+      "gamesAhead": 2,
+      "reads": [
+        "JAX: exceeding expectations — +50 scoring margin; opponents 59% wins outside this matchup."
+      ],
+      "throughWeek": 6
+    }
+  }
+}

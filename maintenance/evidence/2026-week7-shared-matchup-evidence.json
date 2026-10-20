@@ -1,0 +1,4485 @@
+{
+  "season": 2026,
+  "through_week": 6,
+  "verified_at": "2026-10-20T10:16:48.610880+00:00",
+  "metric_definitions": {
+    "passing_offense": "Gross passing yards / pass attempts; sack losses added back to net passing yards. Sacks are excluded from both yards and attempts. Higher is better.",
+    "pass_defense": "Opponent gross passing yards / opponent pass attempts; sack losses added back, sacks excluded from numerator and denominator. Lower allowed efficiency is better.",
+    "rushing_offense": "Rushing yards / rushing carries including all official team rushing attempts. Higher is better.",
+    "run_defense": "Opponent rushing yards / opponent rushing attempts. Lower allowed efficiency is better.",
+    "ties": "Exact unrounded rational efficiencies use shared competition ranks; ordinal strips use 33-rank, not probabilities."
+  },
+  "team_profiles": {
+    "ARI": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1335,
+        "passing_attempts": 235,
+        "rushing_yards": 578,
+        "rushing_attempts": 157,
+        "sacks_allowed": 12,
+        "turnovers": 6
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1484,
+        "passing_attempts": 172,
+        "rushing_yards": 725,
+        "rushing_attempts": 164,
+        "sacks_allowed": 14,
+        "turnovers": 8
+      },
+      "efficiency_values": {
+        "passing_offense": 5.680851063829787,
+        "rushing_offense": 3.6815286624203822,
+        "pass_defense": 8.627906976744185,
+        "run_defense": 4.420731707317073
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-DET-ARI",
+            "2026-W06-ARI-LAR"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-ARI-LAC",
+            "2026-W02-SEA-ARI",
+            "2026-W03-ARI-SF",
+            "2026-W04-ARI-NYG"
+          ],
+          "recent_value": 6.228915662650603,
+          "earlier_value": 5.381578947368421,
+          "difference": 0.8473367152821814
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-DET-ARI",
+            "2026-W06-ARI-LAR"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-ARI-LAC",
+            "2026-W02-SEA-ARI",
+            "2026-W03-ARI-SF",
+            "2026-W04-ARI-NYG"
+          ],
+          "recent_value": 3.3207547169811322,
+          "earlier_value": 3.8653846153846154,
+          "difference": -0.5446298984034832
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872943",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004"
+      ],
+      "league_ranks": {
+        "passing_offense": 30,
+        "rushing_offense": 24,
+        "pass_defense": 32,
+        "run_defense": 23
+      }
+    },
+    "ATL": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1266,
+        "passing_attempts": 167,
+        "rushing_yards": 897,
+        "rushing_attempts": 177,
+        "sacks_allowed": 16,
+        "turnovers": 12
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1612,
+        "passing_attempts": 246,
+        "rushing_yards": 499,
+        "rushing_attempts": 139,
+        "sacks_allowed": 15,
+        "turnovers": 5
+      },
+      "efficiency_values": {
+        "passing_offense": 7.580838323353293,
+        "rushing_offense": 5.067796610169491,
+        "pass_defense": 6.5528455284552845,
+        "run_defense": 3.5899280575539567
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-BAL-ATL",
+            "2026-W06-CHI-ATL"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-ATL-PIT",
+            "2026-W02-CAR-ATL",
+            "2026-W03-ATL-GB",
+            "2026-W04-ATL-NO"
+          ],
+          "recent_value": 7.338235294117647,
+          "earlier_value": 7.747474747474747,
+          "difference": -0.40923945335710066
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-BAL-ATL",
+            "2026-W06-CHI-ATL"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-ATL-PIT",
+            "2026-W02-CAR-ATL",
+            "2026-W03-ATL-GB",
+            "2026-W04-ATL-NO"
+          ],
+          "recent_value": 4.552631578947368,
+          "earlier_value": 5.2086330935251794,
+          "difference": -0.6560015145778113
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872658",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872933",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872979",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999"
+      ],
+      "league_ranks": {
+        "passing_offense": 10,
+        "rushing_offense": 3,
+        "pass_defense": 11,
+        "run_defense": 6
+      }
+    },
+    "BAL": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1396,
+        "passing_attempts": 168,
+        "rushing_yards": 909,
+        "rushing_attempts": 185,
+        "sacks_allowed": 14,
+        "turnovers": 4
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1354,
+        "passing_attempts": 197,
+        "rushing_yards": 603,
+        "rushing_attempts": 158,
+        "sacks_allowed": 15,
+        "turnovers": 6
+      },
+      "efficiency_values": {
+        "passing_offense": 8.30952380952381,
+        "rushing_offense": 4.9135135135135135,
+        "pass_defense": 6.873096446700508,
+        "run_defense": 3.8164556962025316
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-BAL-ATL",
+            "2026-W06-BAL-CLE"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-BAL-IND",
+            "2026-W02-NO-BAL",
+            "2026-W03-BAL-DAL",
+            "2026-W04-TEN-BAL"
+          ],
+          "recent_value": 5.809523809523809,
+          "earlier_value": 9.80952380952381,
+          "difference": -4.000000000000001
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-BAL-ATL",
+            "2026-W06-BAL-CLE"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-BAL-IND",
+            "2026-W02-NO-BAL",
+            "2026-W03-BAL-DAL",
+            "2026-W04-TEN-BAL"
+          ],
+          "recent_value": 5.086206896551724,
+          "earlier_value": 4.834645669291339,
+          "difference": 0.2515612272603853
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872938",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872960",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872973",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997"
+      ],
+      "league_ranks": {
+        "passing_offense": 3,
+        "rushing_offense": 4,
+        "pass_defense": 15,
+        "run_defense": 9
+      }
+    },
+    "BUF": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1504,
+        "passing_attempts": 171,
+        "rushing_yards": 893,
+        "rushing_attempts": 176,
+        "sacks_allowed": 12,
+        "turnovers": 9
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1792,
+        "passing_attempts": 242,
+        "rushing_yards": 606,
+        "rushing_attempts": 158,
+        "sacks_allowed": 11,
+        "turnovers": 6
+      },
+      "efficiency_values": {
+        "passing_offense": 8.7953216374269,
+        "rushing_offense": 5.073863636363637,
+        "pass_defense": 7.404958677685951,
+        "run_defense": 3.8354430379746836
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-BUF-LAR",
+            "2026-W06-BUF-LV"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-BUF-HOU",
+            "2026-W02-DET-BUF",
+            "2026-W03-LAC-BUF",
+            "2026-W04-NE-BUF"
+          ],
+          "recent_value": 8.942307692307692,
+          "earlier_value": 8.731092436974789,
+          "difference": 0.21121525533290253
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-BUF-LAR",
+            "2026-W06-BUF-LV"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-BUF-HOU",
+            "2026-W02-DET-BUF",
+            "2026-W03-LAC-BUF",
+            "2026-W04-NE-BUF"
+          ],
+          "recent_value": 5.106060606060606,
+          "earlier_value": 5.054545454545455,
+          "difference": 0.051515151515151736
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872660",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872953",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872971",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005"
+      ],
+      "league_ranks": {
+        "passing_offense": 1,
+        "rushing_offense": 2,
+        "pass_defense": 21,
+        "run_defense": 10
+      }
+    },
+    "CAR": {
+      "games": 5,
+      "offense_totals": {
+        "gross_passing_yards": 1549,
+        "passing_attempts": 202,
+        "rushing_yards": 544,
+        "rushing_attempts": 128,
+        "sacks_allowed": 12,
+        "turnovers": 4
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1185,
+        "passing_attempts": 189,
+        "rushing_yards": 661,
+        "rushing_attempts": 129,
+        "sacks_allowed": 11,
+        "turnovers": 7
+      },
+      "efficiency_values": {
+        "passing_offense": 7.6683168316831685,
+        "rushing_offense": 4.25,
+        "pass_defense": 6.26984126984127,
+        "run_defense": 5.124031007751938
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W04-DET-CAR",
+            "2026-W06-CAR-PHI"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-CHI-CAR",
+            "2026-W02-CAR-ATL",
+            "2026-W03-CAR-CLE"
+          ],
+          "recent_value": 7.625,
+          "earlier_value": 7.69672131147541,
+          "difference": -0.07172131147541005
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W04-DET-CAR",
+            "2026-W06-CAR-PHI"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-CHI-CAR",
+            "2026-W02-CAR-ATL",
+            "2026-W03-CAR-CLE"
+          ],
+          "recent_value": 4.147540983606557,
+          "earlier_value": 4.343283582089552,
+          "difference": -0.1957425984829948
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872933",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872949",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998"
+      ],
+      "league_ranks": {
+        "passing_offense": 9,
+        "rushing_offense": 13,
+        "pass_defense": 7,
+        "run_defense": 32
+      }
+    },
+    "CHI": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1476,
+        "passing_attempts": 208,
+        "rushing_yards": 964,
+        "rushing_attempts": 216,
+        "sacks_allowed": 15,
+        "turnovers": 11
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1368,
+        "passing_attempts": 163,
+        "rushing_yards": 543,
+        "rushing_attempts": 121,
+        "sacks_allowed": 17,
+        "turnovers": 9
+      },
+      "efficiency_values": {
+        "passing_offense": 7.096153846153846,
+        "rushing_offense": 4.462962962962963,
+        "pass_defense": 8.392638036809815,
+        "run_defense": 4.487603305785124
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-CHI-GB",
+            "2026-W06-CHI-ATL"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-CHI-CAR",
+            "2026-W02-MIN-CHI",
+            "2026-W03-PHI-CHI",
+            "2026-W04-NYJ-CHI"
+          ],
+          "recent_value": 6.578947368421052,
+          "earlier_value": 7.393939393939394,
+          "difference": -0.8149920255183414
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-CHI-GB",
+            "2026-W06-CHI-ATL"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-CHI-CAR",
+            "2026-W02-MIN-CHI",
+            "2026-W03-PHI-CHI",
+            "2026-W04-NYJ-CHI"
+          ],
+          "recent_value": 3.1403508771929824,
+          "earlier_value": 4.937106918238993,
+          "difference": -1.7967560410460108
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872937",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872972",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999"
+      ],
+      "league_ranks": {
+        "passing_offense": 17,
+        "rushing_offense": 11,
+        "pass_defense": 31,
+        "run_defense": 24
+      }
+    },
+    "CIN": {
+      "games": 5,
+      "offense_totals": {
+        "gross_passing_yards": 1361,
+        "passing_attempts": 189,
+        "rushing_yards": 414,
+        "rushing_attempts": 114,
+        "sacks_allowed": 9,
+        "turnovers": 6
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1225,
+        "passing_attempts": 168,
+        "rushing_yards": 615,
+        "rushing_attempts": 122,
+        "sacks_allowed": 17,
+        "turnovers": 8
+      },
+      "efficiency_values": {
+        "passing_offense": 7.201058201058201,
+        "rushing_offense": 3.6315789473684212,
+        "pass_defense": 7.291666666666667,
+        "run_defense": 5.040983606557377
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W04-JAX-CIN",
+            "2026-W05-CIN-MIA"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-TB-CIN",
+            "2026-W02-CIN-HOU",
+            "2026-W03-CIN-PIT"
+          ],
+          "recent_value": 7.186046511627907,
+          "earlier_value": 7.213592233009709,
+          "difference": -0.027545721381801336
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W04-JAX-CIN",
+            "2026-W05-CIN-MIA"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-TB-CIN",
+            "2026-W02-CIN-HOU",
+            "2026-W03-CIN-PIT"
+          ],
+          "recent_value": 3.0434782608695654,
+          "earlier_value": 4.029411764705882,
+          "difference": -0.9859335038363168
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872925",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872950",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872982"
+      ],
+      "league_ranks": {
+        "passing_offense": 15,
+        "rushing_offense": 27,
+        "pass_defense": 19,
+        "run_defense": 30
+      }
+    },
+    "CLE": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1174,
+        "passing_attempts": 175,
+        "rushing_yards": 564,
+        "rushing_attempts": 155,
+        "sacks_allowed": 24,
+        "turnovers": 7
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1364,
+        "passing_attempts": 206,
+        "rushing_yards": 674,
+        "rushing_attempts": 154,
+        "sacks_allowed": 19,
+        "turnovers": 7
+      },
+      "efficiency_values": {
+        "passing_offense": 6.708571428571428,
+        "rushing_offense": 3.638709677419355,
+        "pass_defense": 6.621359223300971,
+        "run_defense": 4.376623376623376
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-CLE-NYJ",
+            "2026-W06-BAL-CLE"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-CLE-JAX",
+            "2026-W02-CLE-TB",
+            "2026-W03-CAR-CLE",
+            "2026-W04-PIT-CLE"
+          ],
+          "recent_value": 5.406779661016949,
+          "earlier_value": 7.370689655172414,
+          "difference": -1.9639099941554647
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-CLE-NYJ",
+            "2026-W06-BAL-CLE"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-CLE-JAX",
+            "2026-W02-CLE-TB",
+            "2026-W03-CAR-CLE",
+            "2026-W04-PIT-CLE"
+          ],
+          "recent_value": 3.5660377358490565,
+          "earlier_value": 3.676470588235294,
+          "difference": -0.11043285238623746
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872922",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872935",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872949",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872983",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997"
+      ],
+      "league_ranks": {
+        "passing_offense": 19,
+        "rushing_offense": 26,
+        "pass_defense": 12,
+        "run_defense": 22
+      }
+    },
+    "DAL": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1639,
+        "passing_attempts": 246,
+        "rushing_yards": 456,
+        "rushing_attempts": 122,
+        "sacks_allowed": 7,
+        "turnovers": 7
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1435,
+        "passing_attempts": 181,
+        "rushing_yards": 899,
+        "rushing_attempts": 191,
+        "sacks_allowed": 8,
+        "turnovers": 3
+      },
+      "efficiency_values": {
+        "passing_offense": 6.662601626016261,
+        "rushing_offense": 3.737704918032787,
+        "pass_defense": 7.928176795580111,
+        "run_defense": 4.706806282722513
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-TB-DAL",
+            "2026-W06-DAL-GB"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-DAL-NYG",
+            "2026-W02-WAS-DAL",
+            "2026-W03-BAL-DAL",
+            "2026-W04-DAL-HOU"
+          ],
+          "recent_value": 5.979166666666667,
+          "earlier_value": 7.1,
+          "difference": -1.1208333333333327
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-TB-DAL",
+            "2026-W06-DAL-GB"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-DAL-NYG",
+            "2026-W02-WAS-DAL",
+            "2026-W03-BAL-DAL",
+            "2026-W04-DAL-HOU"
+          ],
+          "recent_value": 3.5,
+          "earlier_value": 3.8085106382978724,
+          "difference": -0.3085106382978724
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872930",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872944",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872960",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007"
+      ],
+      "league_ranks": {
+        "passing_offense": 21,
+        "rushing_offense": 23,
+        "pass_defense": 29,
+        "run_defense": 26
+      }
+    },
+    "DEN": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1049,
+        "passing_attempts": 189,
+        "rushing_yards": 505,
+        "rushing_attempts": 147,
+        "sacks_allowed": 8,
+        "turnovers": 6
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1380,
+        "passing_attempts": 216,
+        "rushing_yards": 839,
+        "rushing_attempts": 180,
+        "sacks_allowed": 18,
+        "turnovers": 10
+      },
+      "efficiency_values": {
+        "passing_offense": 5.550264550264551,
+        "rushing_offense": 3.435374149659864,
+        "pass_defense": 6.388888888888889,
+        "run_defense": 4.661111111111111
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-DEN-LAC",
+            "2026-W06-SEA-DEN"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-DEN-KC",
+            "2026-W02-JAX-DEN",
+            "2026-W03-LAR-DEN",
+            "2026-W04-DEN-SF"
+          ],
+          "recent_value": 4.2592592592592595,
+          "earlier_value": 6.066666666666666,
+          "difference": -1.807407407407407
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-DEN-LAC",
+            "2026-W06-SEA-DEN"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-DEN-KC",
+            "2026-W02-JAX-DEN",
+            "2026-W03-LAR-DEN",
+            "2026-W04-DEN-SF"
+          ],
+          "recent_value": 3.1578947368421053,
+          "earlier_value": 3.611111111111111,
+          "difference": -0.45321637426900585
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872931",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872940",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872975",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872989",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995"
+      ],
+      "league_ranks": {
+        "passing_offense": 32,
+        "rushing_offense": 30,
+        "pass_defense": 10,
+        "run_defense": 25
+      }
+    },
+    "DET": {
+      "games": 5,
+      "offense_totals": {
+        "gross_passing_yards": 1485,
+        "passing_attempts": 191,
+        "rushing_yards": 571,
+        "rushing_attempts": 130,
+        "sacks_allowed": 11,
+        "turnovers": 1
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1607,
+        "passing_attempts": 213,
+        "rushing_yards": 535,
+        "rushing_attempts": 126,
+        "sacks_allowed": 20,
+        "turnovers": 5
+      },
+      "efficiency_values": {
+        "passing_offense": 7.774869109947644,
+        "rushing_offense": 4.392307692307693,
+        "pass_defense": 7.544600938967136,
+        "run_defense": 4.246031746031746
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W04-DET-CAR",
+            "2026-W05-DET-ARI"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NO-DET",
+            "2026-W02-DET-BUF",
+            "2026-W03-NYJ-DET"
+          ],
+          "recent_value": 8.329268292682928,
+          "earlier_value": 7.3577981651376145,
+          "difference": 0.971470127545313
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W04-DET-CAR",
+            "2026-W05-DET-ARI"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NO-DET",
+            "2026-W02-DET-BUF",
+            "2026-W03-NYJ-DET"
+          ],
+          "recent_value": 4.446808510638298,
+          "earlier_value": 4.36144578313253,
+          "difference": 0.08536272750576757
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991"
+      ],
+      "league_ranks": {
+        "passing_offense": 8,
+        "rushing_offense": 12,
+        "pass_defense": 23,
+        "run_defense": 20
+      }
+    },
+    "GB": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1684,
+        "passing_attempts": 226,
+        "rushing_yards": 359,
+        "rushing_attempts": 125,
+        "sacks_allowed": 13,
+        "turnovers": 7
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1255,
+        "passing_attempts": 211,
+        "rushing_yards": 686,
+        "rushing_attempts": 172,
+        "sacks_allowed": 15,
+        "turnovers": 11
+      },
+      "efficiency_values": {
+        "passing_offense": 7.451327433628318,
+        "rushing_offense": 2.872,
+        "pass_defense": 5.947867298578199,
+        "run_defense": 3.988372093023256
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-CHI-GB",
+            "2026-W06-DAL-GB"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-GB-MIN",
+            "2026-W02-GB-NYJ",
+            "2026-W03-ATL-GB",
+            "2026-W04-GB-TB"
+          ],
+          "recent_value": 8.930555555555555,
+          "earlier_value": 6.759740259740259,
+          "difference": 2.170815295815296
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-CHI-GB",
+            "2026-W06-DAL-GB"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-GB-MIN",
+            "2026-W02-GB-NYJ",
+            "2026-W03-ATL-GB",
+            "2026-W04-GB-TB"
+          ],
+          "recent_value": 2.4423076923076925,
+          "earlier_value": 3.1780821917808217,
+          "difference": -0.7357744994731292
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872927",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872936",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872968",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007"
+      ],
+      "league_ranks": {
+        "passing_offense": 12,
+        "rushing_offense": 32,
+        "pass_defense": 3,
+        "run_defense": 14
+      }
+    },
+    "HOU": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1714,
+        "passing_attempts": 220,
+        "rushing_yards": 509,
+        "rushing_attempts": 142,
+        "sacks_allowed": 14,
+        "turnovers": 3
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1587,
+        "passing_attempts": 218,
+        "rushing_yards": 498,
+        "rushing_attempts": 145,
+        "sacks_allowed": 18,
+        "turnovers": 6
+      },
+      "efficiency_values": {
+        "passing_offense": 7.790909090909091,
+        "rushing_offense": 3.584507042253521,
+        "pass_defense": 7.279816513761468,
+        "run_defense": 3.43448275862069
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-HOU-TEN",
+            "2026-W06-HOU-JAX"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-BUF-HOU",
+            "2026-W02-CIN-HOU",
+            "2026-W03-HOU-IND",
+            "2026-W04-DAL-HOU"
+          ],
+          "recent_value": 8.426470588235293,
+          "earlier_value": 7.506578947368421,
+          "difference": 0.9198916408668723
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-HOU-TEN",
+            "2026-W06-HOU-JAX"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-BUF-HOU",
+            "2026-W02-CIN-HOU",
+            "2026-W03-HOU-IND",
+            "2026-W04-DAL-HOU"
+          ],
+          "recent_value": 3.7115384615384617,
+          "earlier_value": 3.511111111111111,
+          "difference": 0.2004273504273506
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872660",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872951",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872984",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996"
+      ],
+      "league_ranks": {
+        "passing_offense": 7,
+        "rushing_offense": 29,
+        "pass_defense": 18,
+        "run_defense": 3
+      }
+    },
+    "IND": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1290,
+        "passing_attempts": 218,
+        "rushing_yards": 669,
+        "rushing_attempts": 167,
+        "sacks_allowed": 15,
+        "turnovers": 11
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1442,
+        "passing_attempts": 189,
+        "rushing_yards": 735,
+        "rushing_attempts": 154,
+        "sacks_allowed": 10,
+        "turnovers": 3
+      },
+      "efficiency_values": {
+        "passing_offense": 5.91743119266055,
+        "rushing_offense": 4.005988023952096,
+        "pass_defense": 7.62962962962963,
+        "run_defense": 4.7727272727272725
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-IND-PIT",
+            "2026-W06-TEN-IND"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-BAL-IND",
+            "2026-W02-IND-KC",
+            "2026-W03-HOU-IND",
+            "2026-W04-IND-WAS"
+          ],
+          "recent_value": 6.232558139534884,
+          "earlier_value": 5.712121212121212,
+          "difference": 0.5204369274136722
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-IND-PIT",
+            "2026-W06-TEN-IND"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-BAL-IND",
+            "2026-W02-IND-KC",
+            "2026-W03-HOU-IND",
+            "2026-W04-IND-WAS"
+          ],
+          "recent_value": 4.277777777777778,
+          "earlier_value": 3.8761061946902653,
+          "difference": 0.4016715830875124
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872951",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872965",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003"
+      ],
+      "league_ranks": {
+        "passing_offense": 27,
+        "rushing_offense": 17,
+        "pass_defense": 25,
+        "run_defense": 27
+      }
+    },
+    "JAX": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1480,
+        "passing_attempts": 184,
+        "rushing_yards": 677,
+        "rushing_attempts": 167,
+        "sacks_allowed": 10,
+        "turnovers": 4
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1698,
+        "passing_attempts": 212,
+        "rushing_yards": 433,
+        "rushing_attempts": 134,
+        "sacks_allowed": 11,
+        "turnovers": 9
+      },
+      "efficiency_values": {
+        "passing_offense": 8.043478260869565,
+        "rushing_offense": 4.053892215568863,
+        "pass_defense": 8.00943396226415,
+        "run_defense": 3.2313432835820897
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-PHI-JAX",
+            "2026-W06-HOU-JAX"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-CLE-JAX",
+            "2026-W02-JAX-DEN",
+            "2026-W03-NE-JAX",
+            "2026-W04-JAX-CIN"
+          ],
+          "recent_value": 7.9625,
+          "earlier_value": 8.10576923076923,
+          "difference": -0.1432692307692296
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-PHI-JAX",
+            "2026-W06-HOU-JAX"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-CLE-JAX",
+            "2026-W02-JAX-DEN",
+            "2026-W03-NE-JAX",
+            "2026-W04-JAX-CIN"
+          ],
+          "recent_value": 3.8518518518518516,
+          "earlier_value": 4.150442477876106,
+          "difference": -0.2985906260242541
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872922",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872940",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872957",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872981",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996"
+      ],
+      "league_ranks": {
+        "passing_offense": 5,
+        "rushing_offense": 16,
+        "pass_defense": 30,
+        "run_defense": 1
+      }
+    },
+    "KC": {
+      "games": 5,
+      "offense_totals": {
+        "gross_passing_yards": 1309,
+        "passing_attempts": 158,
+        "rushing_yards": 799,
+        "rushing_attempts": 145,
+        "sacks_allowed": 6,
+        "turnovers": 4
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1120,
+        "passing_attempts": 184,
+        "rushing_yards": 444,
+        "rushing_attempts": 126,
+        "sacks_allowed": 8,
+        "turnovers": 9
+      },
+      "efficiency_values": {
+        "passing_offense": 8.284810126582279,
+        "rushing_offense": 5.510344827586207,
+        "pass_defense": 6.086956521739131,
+        "run_defense": 3.5238095238095237
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W04-KC-LV",
+            "2026-W06-LAC-KC"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-DEN-KC",
+            "2026-W02-IND-KC",
+            "2026-W03-KC-MIA"
+          ],
+          "recent_value": 8.283333333333333,
+          "earlier_value": 8.285714285714286,
+          "difference": -0.0023809523809532607
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W04-KC-LV",
+            "2026-W06-LAC-KC"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-DEN-KC",
+            "2026-W02-IND-KC",
+            "2026-W03-KC-MIA"
+          ],
+          "recent_value": 6.39622641509434,
+          "earlier_value": 5,
+          "difference": 1.3962264150943398
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872931",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872952",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006"
+      ],
+      "league_ranks": {
+        "passing_offense": 4,
+        "rushing_offense": 1,
+        "pass_defense": 4,
+        "run_defense": 5
+      }
+    },
+    "LAC": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1141,
+        "passing_attempts": 181,
+        "rushing_yards": 714,
+        "rushing_attempts": 169,
+        "sacks_allowed": 21,
+        "turnovers": 15
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1297,
+        "passing_attempts": 171,
+        "rushing_yards": 743,
+        "rushing_attempts": 185,
+        "sacks_allowed": 11,
+        "turnovers": 10
+      },
+      "efficiency_values": {
+        "passing_offense": 6.303867403314917,
+        "rushing_offense": 4.224852071005917,
+        "pass_defense": 7.584795321637427,
+        "run_defense": 4.0162162162162165
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-DEN-LAC",
+            "2026-W06-LAC-KC"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-ARI-LAC",
+            "2026-W02-LV-LAC",
+            "2026-W03-LAC-BUF",
+            "2026-W04-LAC-SEA"
+          ],
+          "recent_value": 5.327868852459017,
+          "earlier_value": 6.8,
+          "difference": -1.472131147540983
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-DEN-LAC",
+            "2026-W06-LAC-KC"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-ARI-LAC",
+            "2026-W02-LV-LAC",
+            "2026-W03-LAC-BUF",
+            "2026-W04-LAC-SEA"
+          ],
+          "recent_value": 4.071428571428571,
+          "earlier_value": 4.300884955752212,
+          "difference": -0.22945638432364124
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872941",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872953",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872977",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872989",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006"
+      ],
+      "league_ranks": {
+        "passing_offense": 25,
+        "rushing_offense": 14,
+        "pass_defense": 24,
+        "run_defense": 17
+      }
+    },
+    "LAR": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1807,
+        "passing_attempts": 252,
+        "rushing_yards": 676,
+        "rushing_attempts": 148,
+        "sacks_allowed": 10,
+        "turnovers": 9
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1043,
+        "passing_attempts": 181,
+        "rushing_yards": 762,
+        "rushing_attempts": 175,
+        "sacks_allowed": 8,
+        "turnovers": 6
+      },
+      "efficiency_values": {
+        "passing_offense": 7.170634920634921,
+        "rushing_offense": 4.5675675675675675,
+        "pass_defense": 5.762430939226519,
+        "run_defense": 4.354285714285714
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-BUF-LAR",
+            "2026-W06-ARI-LAR"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-SF-LAR",
+            "2026-W02-NYG-LAR",
+            "2026-W03-LAR-DEN",
+            "2026-W04-LAR-PHI"
+          ],
+          "recent_value": 6.954022988505747,
+          "earlier_value": 7.284848484848485,
+          "difference": -0.3308254963427384
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-BUF-LAR",
+            "2026-W06-ARI-LAR"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-SF-LAR",
+            "2026-W02-NYG-LAR",
+            "2026-W03-LAR-DEN",
+            "2026-W04-LAR-PHI"
+          ],
+          "recent_value": 3.9302325581395348,
+          "earlier_value": 4.828571428571428,
+          "difference": -0.8983388704318935
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872657",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872947",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872970",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004"
+      ],
+      "league_ranks": {
+        "passing_offense": 16,
+        "rushing_offense": 9,
+        "pass_defense": 2,
+        "run_defense": 21
+      }
+    },
+    "LV": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1630,
+        "passing_attempts": 221,
+        "rushing_yards": 475,
+        "rushing_attempts": 157,
+        "sacks_allowed": 8,
+        "turnovers": 8
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1521,
+        "passing_attempts": 193,
+        "rushing_yards": 806,
+        "rushing_attempts": 164,
+        "sacks_allowed": 15,
+        "turnovers": 10
+      },
+      "efficiency_values": {
+        "passing_offense": 7.375565610859729,
+        "rushing_offense": 3.0254777070063694,
+        "pass_defense": 7.880829015544041,
+        "run_defense": 4.914634146341464
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-LV-NE",
+            "2026-W06-BUF-LV"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-MIA-LV",
+            "2026-W02-LV-LAC",
+            "2026-W03-LV-NO",
+            "2026-W04-KC-LV"
+          ],
+          "recent_value": 7.8441558441558445,
+          "earlier_value": 7.125,
+          "difference": 0.7191558441558445
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-LV-NE",
+            "2026-W06-BUF-LV"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-MIA-LV",
+            "2026-W02-LV-LAC",
+            "2026-W03-LV-NO",
+            "2026-W04-KC-LV"
+          ],
+          "recent_value": 2.710526315789474,
+          "earlier_value": 3.1260504201680672,
+          "difference": -0.41552410437859333
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872928",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872941",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005"
+      ],
+      "league_ranks": {
+        "passing_offense": 14,
+        "rushing_offense": 31,
+        "pass_defense": 28,
+        "run_defense": 29
+      }
+    },
+    "MIA": {
+      "games": 5,
+      "offense_totals": {
+        "gross_passing_yards": 849,
+        "passing_attempts": 130,
+        "rushing_yards": 633,
+        "rushing_attempts": 130,
+        "sacks_allowed": 14,
+        "turnovers": 8
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1130,
+        "passing_attempts": 145,
+        "rushing_yards": 553,
+        "rushing_attempts": 151,
+        "sacks_allowed": 4,
+        "turnovers": 4
+      },
+      "efficiency_values": {
+        "passing_offense": 6.530769230769231,
+        "rushing_offense": 4.869230769230769,
+        "pass_defense": 7.793103448275862,
+        "run_defense": 3.662251655629139
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W04-MIA-MIN",
+            "2026-W05-CIN-MIA"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-MIA-LV",
+            "2026-W02-MIA-SF",
+            "2026-W03-KC-MIA"
+          ],
+          "recent_value": 5.045454545454546,
+          "earlier_value": 7.290697674418604,
+          "difference": -2.2452431289640584
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W04-MIA-MIN",
+            "2026-W05-CIN-MIA"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-MIA-LV",
+            "2026-W02-MIA-SF",
+            "2026-W03-KC-MIA"
+          ],
+          "recent_value": 6.5,
+          "earlier_value": 3.782051282051282,
+          "difference": 2.717948717948718
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872928",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872942",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872952",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872974",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872982"
+      ],
+      "league_ranks": {
+        "passing_offense": 22,
+        "rushing_offense": 5,
+        "pass_defense": 27,
+        "run_defense": 8
+      }
+    },
+    "MIN": {
+      "games": 5,
+      "offense_totals": {
+        "gross_passing_yards": 938,
+        "passing_attempts": 140,
+        "rushing_yards": 580,
+        "rushing_attempts": 152,
+        "sacks_allowed": 15,
+        "turnovers": 4
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 977,
+        "passing_attempts": 156,
+        "rushing_yards": 433,
+        "rushing_attempts": 108,
+        "sacks_allowed": 17,
+        "turnovers": 10
+      },
+      "efficiency_values": {
+        "passing_offense": 6.7,
+        "rushing_offense": 3.8157894736842106,
+        "pass_defense": 6.262820512820513,
+        "run_defense": 4.0092592592592595
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W04-MIA-MIN",
+            "2026-W05-MIN-NO"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-GB-MIN",
+            "2026-W02-MIN-CHI",
+            "2026-W03-MIN-TB"
+          ],
+          "recent_value": 7.104477611940299,
+          "earlier_value": 6.328767123287672,
+          "difference": 0.7757104886526269
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W04-MIA-MIN",
+            "2026-W05-MIN-NO"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-GB-MIN",
+            "2026-W02-MIN-CHI",
+            "2026-W03-MIN-TB"
+          ],
+          "recent_value": 4.119402985074627,
+          "earlier_value": 3.5764705882352943,
+          "difference": 0.5429323968393329
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872927",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872937",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872959",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872974",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987"
+      ],
+      "league_ranks": {
+        "passing_offense": 20,
+        "rushing_offense": 19,
+        "pass_defense": 6,
+        "run_defense": 16
+      }
+    },
+    "NE": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1509,
+        "passing_attempts": 189,
+        "rushing_yards": 784,
+        "rushing_attempts": 187,
+        "sacks_allowed": 11,
+        "turnovers": 13
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1365,
+        "passing_attempts": 192,
+        "rushing_yards": 551,
+        "rushing_attempts": 140,
+        "sacks_allowed": 14,
+        "turnovers": 7
+      },
+      "efficiency_values": {
+        "passing_offense": 7.984126984126984,
+        "rushing_offense": 4.192513368983957,
+        "pass_defense": 7.109375,
+        "run_defense": 3.9357142857142855
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-LV-NE",
+            "2026-W06-NYJ-NE"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NE-SEA",
+            "2026-W02-PIT-NE",
+            "2026-W03-NE-JAX",
+            "2026-W04-NE-BUF"
+          ],
+          "recent_value": 9.227272727272727,
+          "earlier_value": 7.317073170731708,
+          "difference": 1.910199556541019
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-LV-NE",
+            "2026-W06-NYJ-NE"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NE-SEA",
+            "2026-W02-PIT-NE",
+            "2026-W03-NE-JAX",
+            "2026-W04-NE-BUF"
+          ],
+          "recent_value": 4.6716417910447765,
+          "earlier_value": 3.925,
+          "difference": 0.7466417910447767
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872656",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872946",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872957",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872971",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001"
+      ],
+      "league_ranks": {
+        "passing_offense": 6,
+        "rushing_offense": 15,
+        "pass_defense": 17,
+        "run_defense": 12
+      }
+    },
+    "NO": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1443,
+        "passing_attempts": 235,
+        "rushing_yards": 584,
+        "rushing_attempts": 154,
+        "sacks_allowed": 13,
+        "turnovers": 12
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1536,
+        "passing_attempts": 200,
+        "rushing_yards": 828,
+        "rushing_attempts": 173,
+        "sacks_allowed": 15,
+        "turnovers": 9
+      },
+      "efficiency_values": {
+        "passing_offense": 6.140425531914894,
+        "rushing_offense": 3.792207792207792,
+        "pass_defense": 7.68,
+        "run_defense": 4.786127167630058
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-MIN-NO",
+            "2026-W06-NO-NYG"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NO-DET",
+            "2026-W02-NO-BAL",
+            "2026-W03-LV-NO",
+            "2026-W04-ATL-NO"
+          ],
+          "recent_value": 4.363636363636363,
+          "earlier_value": 6.683333333333334,
+          "difference": -2.3196969696969703
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-MIN-NO",
+            "2026-W06-NO-NYG"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NO-DET",
+            "2026-W02-NO-BAL",
+            "2026-W03-LV-NO",
+            "2026-W04-ATL-NO"
+          ],
+          "recent_value": 4.181818181818182,
+          "earlier_value": 3.5757575757575757,
+          "difference": 0.606060606060606
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872938",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872979",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000"
+      ],
+      "league_ranks": {
+        "passing_offense": 26,
+        "rushing_offense": 21,
+        "pass_defense": 26,
+        "run_defense": 28
+      }
+    },
+    "NYG": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1450,
+        "passing_attempts": 213,
+        "rushing_yards": 629,
+        "rushing_attempts": 167,
+        "sacks_allowed": 18,
+        "turnovers": 11
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1192,
+        "passing_attempts": 191,
+        "rushing_yards": 813,
+        "rushing_attempts": 161,
+        "sacks_allowed": 8,
+        "turnovers": 9
+      },
+      "efficiency_values": {
+        "passing_offense": 6.807511737089202,
+        "rushing_offense": 3.7664670658682633,
+        "pass_defense": 6.2408376963350785,
+        "run_defense": 5.049689440993789
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-NYG-WAS",
+            "2026-W06-NO-NYG"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-DAL-NYG",
+            "2026-W02-NYG-LAR",
+            "2026-W03-TEN-NYG",
+            "2026-W04-ARI-NYG"
+          ],
+          "recent_value": 7.138613861386139,
+          "earlier_value": 6.508928571428571,
+          "difference": 0.6296852899575676
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-NYG-WAS",
+            "2026-W06-NO-NYG"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-DAL-NYG",
+            "2026-W02-NYG-LAR",
+            "2026-W03-TEN-NYG",
+            "2026-W04-ARI-NYG"
+          ],
+          "recent_value": 3.8958333333333335,
+          "earlier_value": 3.7142857142857144,
+          "difference": 0.18154761904761907
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872930",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872947",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872956",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000"
+      ],
+      "league_ranks": {
+        "passing_offense": 18,
+        "rushing_offense": 22,
+        "pass_defense": 5,
+        "run_defense": 31
+      }
+    },
+    "NYJ": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1336,
+        "passing_attempts": 177,
+        "rushing_yards": 567,
+        "rushing_attempts": 158,
+        "sacks_allowed": 19,
+        "turnovers": 4
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1212,
+        "passing_attempts": 192,
+        "rushing_yards": 738,
+        "rushing_attempts": 176,
+        "sacks_allowed": 17,
+        "turnovers": 8
+      },
+      "efficiency_values": {
+        "passing_offense": 7.548022598870056,
+        "rushing_offense": 3.588607594936709,
+        "pass_defense": 6.3125,
+        "run_defense": 4.193181818181818
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-CLE-NYJ",
+            "2026-W06-NYJ-NE"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NYJ-TEN",
+            "2026-W02-GB-NYJ",
+            "2026-W03-NYJ-DET",
+            "2026-W04-NYJ-CHI"
+          ],
+          "recent_value": 7.233333333333333,
+          "earlier_value": 7.7094017094017095,
+          "difference": -0.47606837606837615
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-CLE-NYJ",
+            "2026-W06-NYJ-NE"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NYJ-TEN",
+            "2026-W02-GB-NYJ",
+            "2026-W03-NYJ-DET",
+            "2026-W04-NYJ-CHI"
+          ],
+          "recent_value": 3.9152542372881354,
+          "earlier_value": 3.393939393939394,
+          "difference": 0.5213148433487413
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872924",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872936",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872972",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872983",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001"
+      ],
+      "league_ranks": {
+        "passing_offense": 11,
+        "rushing_offense": 28,
+        "pass_defense": 8,
+        "run_defense": 19
+      }
+    },
+    "PHI": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1148,
+        "passing_attempts": 200,
+        "rushing_yards": 493,
+        "rushing_attempts": 134,
+        "sacks_allowed": 16,
+        "turnovers": 5
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1523,
+        "passing_attempts": 217,
+        "rushing_yards": 716,
+        "rushing_attempts": 181,
+        "sacks_allowed": 8,
+        "turnovers": 3
+      },
+      "efficiency_values": {
+        "passing_offense": 5.74,
+        "rushing_offense": 3.6791044776119404,
+        "pass_defense": 7.018433179723503,
+        "run_defense": 3.955801104972376
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-PHI-JAX",
+            "2026-W06-CAR-PHI"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-WAS-PHI",
+            "2026-W02-PHI-TEN",
+            "2026-W03-PHI-CHI",
+            "2026-W04-LAR-PHI"
+          ],
+          "recent_value": 5.117647058823529,
+          "earlier_value": 6.2,
+          "difference": -1.0823529411764712
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-PHI-JAX",
+            "2026-W06-CAR-PHI"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-WAS-PHI",
+            "2026-W02-PHI-TEN",
+            "2026-W03-PHI-CHI",
+            "2026-W04-LAR-PHI"
+          ],
+          "recent_value": 1.8387096774193548,
+          "earlier_value": 4.233009708737864,
+          "difference": -2.394300031318509
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872929",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872939",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872970",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872981",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998"
+      ],
+      "league_ranks": {
+        "passing_offense": 29,
+        "rushing_offense": 25,
+        "pass_defense": 16,
+        "run_defense": 13
+      }
+    },
+    "PIT": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1487,
+        "passing_attempts": 235,
+        "rushing_yards": 595,
+        "rushing_attempts": 130,
+        "sacks_allowed": 19,
+        "turnovers": 7
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1332,
+        "passing_attempts": 201,
+        "rushing_yards": 619,
+        "rushing_attempts": 153,
+        "sacks_allowed": 16,
+        "turnovers": 10
+      },
+      "efficiency_values": {
+        "passing_offense": 6.327659574468085,
+        "rushing_offense": 4.576923076923077,
+        "pass_defense": 6.626865671641791,
+        "run_defense": 4.045751633986928
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-IND-PIT",
+            "2026-W06-PIT-TB"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-ATL-PIT",
+            "2026-W02-PIT-NE",
+            "2026-W03-CIN-PIT",
+            "2026-W04-PIT-CLE"
+          ],
+          "recent_value": 6.1,
+          "earlier_value": 6.445161290322581,
+          "difference": -0.34516129032258114
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-IND-PIT",
+            "2026-W06-PIT-TB"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-ATL-PIT",
+            "2026-W02-PIT-NE",
+            "2026-W03-CIN-PIT",
+            "2026-W04-PIT-CLE"
+          ],
+          "recent_value": 4.909090909090909,
+          "earlier_value": 4.406976744186046,
+          "difference": 0.5021141649048628
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872658",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872946",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872950",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002"
+      ],
+      "league_ranks": {
+        "passing_offense": 24,
+        "rushing_offense": 8,
+        "pass_defense": 13,
+        "run_defense": 18
+      }
+    },
+    "SEA": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1469,
+        "passing_attempts": 198,
+        "rushing_yards": 643,
+        "rushing_attempts": 165,
+        "sacks_allowed": 16,
+        "turnovers": 12
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 941,
+        "passing_attempts": 180,
+        "rushing_yards": 576,
+        "rushing_attempts": 164,
+        "sacks_allowed": 16,
+        "turnovers": 11
+      },
+      "efficiency_values": {
+        "passing_offense": 7.41919191919192,
+        "rushing_offense": 3.896969696969697,
+        "pass_defense": 5.227777777777778,
+        "run_defense": 3.5121951219512195
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-SF-SEA",
+            "2026-W06-SEA-DEN"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NE-SEA",
+            "2026-W02-SEA-ARI",
+            "2026-W03-SEA-WAS",
+            "2026-W04-LAC-SEA"
+          ],
+          "recent_value": 5.9125,
+          "earlier_value": 8.440677966101696,
+          "difference": -2.528177966101696
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-SF-SEA",
+            "2026-W06-SEA-DEN"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NE-SEA",
+            "2026-W02-SEA-ARI",
+            "2026-W03-SEA-WAS",
+            "2026-W04-LAC-SEA"
+          ],
+          "recent_value": 3.8846153846153846,
+          "earlier_value": 3.9026548672566372,
+          "difference": -0.018039482641252658
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872656",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872943",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872977",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995"
+      ],
+      "league_ranks": {
+        "passing_offense": 13,
+        "rushing_offense": 18,
+        "pass_defense": 1,
+        "run_defense": 4
+      }
+    },
+    "SF": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1460,
+        "passing_attempts": 171,
+        "rushing_yards": 769,
+        "rushing_attempts": 168,
+        "sacks_allowed": 5,
+        "turnovers": 6
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1354,
+        "passing_attempts": 214,
+        "rushing_yards": 541,
+        "rushing_attempts": 150,
+        "sacks_allowed": 15,
+        "turnovers": 7
+      },
+      "efficiency_values": {
+        "passing_offense": 8.538011695906432,
+        "rushing_offense": 4.5773809523809526,
+        "pass_defense": 6.327102803738318,
+        "run_defense": 3.6066666666666665
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-SF-SEA",
+            "2026-W06-WAS-SF"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-SF-LAR",
+            "2026-W02-MIA-SF",
+            "2026-W03-ARI-SF",
+            "2026-W04-DEN-SF"
+          ],
+          "recent_value": 7.810344827586207,
+          "earlier_value": 8.91150442477876,
+          "difference": -1.1011595971925532
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-SF-SEA",
+            "2026-W06-WAS-SF"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-SF-LAR",
+            "2026-W02-MIA-SF",
+            "2026-W03-ARI-SF",
+            "2026-W04-DEN-SF"
+          ],
+          "recent_value": 4.150943396226415,
+          "earlier_value": 4.773913043478261,
+          "difference": -0.6229696472518462
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872657",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872942",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872975",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008"
+      ],
+      "league_ranks": {
+        "passing_offense": 2,
+        "rushing_offense": 7,
+        "pass_defense": 9,
+        "run_defense": 7
+      }
+    },
+    "TB": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1116,
+        "passing_attempts": 194,
+        "rushing_yards": 767,
+        "rushing_attempts": 161,
+        "sacks_allowed": 22,
+        "turnovers": 11
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1426,
+        "passing_attempts": 215,
+        "rushing_yards": 453,
+        "rushing_attempts": 133,
+        "sacks_allowed": 11,
+        "turnovers": 8
+      },
+      "efficiency_values": {
+        "passing_offense": 5.752577319587629,
+        "rushing_offense": 4.763975155279503,
+        "pass_defense": 6.632558139534884,
+        "run_defense": 3.406015037593985
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-TB-DAL",
+            "2026-W06-PIT-TB"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-TB-CIN",
+            "2026-W02-CLE-TB",
+            "2026-W03-MIN-TB",
+            "2026-W04-GB-TB"
+          ],
+          "recent_value": 5.1911764705882355,
+          "earlier_value": 6.055555555555555,
+          "difference": -0.8643790849673199
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-TB-DAL",
+            "2026-W06-PIT-TB"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-TB-CIN",
+            "2026-W02-CLE-TB",
+            "2026-W03-MIN-TB",
+            "2026-W04-GB-TB"
+          ],
+          "recent_value": 5.359375,
+          "earlier_value": 4.371134020618556,
+          "difference": 0.9882409793814437
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872925",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872935",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872959",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872968",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002"
+      ],
+      "league_ranks": {
+        "passing_offense": 28,
+        "rushing_offense": 6,
+        "pass_defense": 14,
+        "run_defense": 2
+      }
+    },
+    "TEN": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 998,
+        "passing_attempts": 177,
+        "rushing_yards": 497,
+        "rushing_attempts": 131,
+        "sacks_allowed": 10,
+        "turnovers": 8
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1412,
+        "passing_attempts": 188,
+        "rushing_yards": 735,
+        "rushing_attempts": 191,
+        "sacks_allowed": 16,
+        "turnovers": 5
+      },
+      "efficiency_values": {
+        "passing_offense": 5.638418079096045,
+        "rushing_offense": 3.7938931297709924,
+        "pass_defense": 7.51063829787234,
+        "run_defense": 3.8481675392670156
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-HOU-TEN",
+            "2026-W06-TEN-IND"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NYJ-TEN",
+            "2026-W02-PHI-TEN",
+            "2026-W03-TEN-NYG",
+            "2026-W04-TEN-BAL"
+          ],
+          "recent_value": 4.689655172413793,
+          "earlier_value": 6.100840336134453,
+          "difference": -1.4111851637206607
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-HOU-TEN",
+            "2026-W06-TEN-IND"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-NYJ-TEN",
+            "2026-W02-PHI-TEN",
+            "2026-W03-TEN-NYG",
+            "2026-W04-TEN-BAL"
+          ],
+          "recent_value": 3.4390243902439024,
+          "earlier_value": 3.9555555555555557,
+          "difference": -0.5165311653116533
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872924",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872939",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872956",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872973",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872984",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003"
+      ],
+      "league_ranks": {
+        "passing_offense": 31,
+        "rushing_offense": 20,
+        "pass_defense": 22,
+        "run_defense": 11
+      }
+    },
+    "WAS": {
+      "games": 6,
+      "offense_totals": {
+        "gross_passing_yards": 1285,
+        "passing_attempts": 202,
+        "rushing_yards": 751,
+        "rushing_attempts": 165,
+        "sacks_allowed": 14,
+        "turnovers": 2
+      },
+      "defense_allowed_totals": {
+        "gross_passing_yards": 1608,
+        "passing_attempts": 219,
+        "rushing_yards": 603,
+        "rushing_attempts": 151,
+        "sacks_allowed": 11,
+        "turnovers": 8
+      },
+      "efficiency_values": {
+        "passing_offense": 6.361386138613861,
+        "rushing_offense": 4.551515151515152,
+        "pass_defense": 7.342465753424658,
+        "run_defense": 3.993377483443709
+      },
+      "trends": {
+        "passing": {
+          "metric": "gross yards per pass attempt, sacks excluded",
+          "recent_game_ids": [
+            "2026-W05-NYG-WAS",
+            "2026-W06-WAS-SF"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-WAS-PHI",
+            "2026-W02-WAS-DAL",
+            "2026-W03-SEA-WAS",
+            "2026-W04-IND-WAS"
+          ],
+          "recent_value": 7.676923076923077,
+          "earlier_value": 5.737226277372263,
+          "difference": 1.9396967995508145
+        },
+        "rushing": {
+          "metric": "rushing yards per carry",
+          "recent_game_ids": [
+            "2026-W05-NYG-WAS",
+            "2026-W06-WAS-SF"
+          ],
+          "earlier_game_ids": [
+            "2026-W01-WAS-PHI",
+            "2026-W02-WAS-DAL",
+            "2026-W03-SEA-WAS",
+            "2026-W04-IND-WAS"
+          ],
+          "recent_value": 5.425531914893617,
+          "earlier_value": 4.203389830508475,
+          "difference": 1.2221420843851423
+        }
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872929",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872944",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872965",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008"
+      ],
+      "league_ranks": {
+        "passing_offense": 23,
+        "rushing_offense": 10,
+        "pass_defense": 20,
+        "run_defense": 15
+      }
+    }
+  },
+  "official_availability_sources": {
+    "bal-qb": {
+      "source_url": "https://www.baltimoreravens.com/news/jesse-minter-lamar-jackson-ankle-still-day-day-monday-week-7-injuries-rashod-bateman-cam-jurgens-trey-hendrickson-tyler-loop-critical-misses",
+      "report_date": "2026-10-19T21:38:31.944Z",
+      "checked_at": "2026-10-20T10:02:42.480629+00:00"
+    },
+    "tb-qb": {
+      "source_url": "https://www.buccaneers.com/news/bucs-will-evaluate-baker-mayfield-in-practice-wednesday-potential-return",
+      "report_date": "2026-10-19T20:00:00Z",
+      "checked_at": "2026-10-20T10:02:42.564333+00:00"
+    },
+    "phi-qb": {
+      "source_url": "https://www.philadelphiaeagles.com/news/statement-from-the-philadelphia-eagles-on-qb-jalen-hurts",
+      "report_date": "2026-10-15T17:00:00Z",
+      "checked_at": "2026-10-20T10:02:42.237017+00:00"
+    },
+    "nyg-qb": {
+      "source_url": "https://www.nfl.com/news/giants-john-harbaugh-week-7-qb1-decision-between-jameis-winston-j-j-mccarthy",
+      "report_date": "2026-10-19T20:25:55.145Z",
+      "checked_at": "2026-10-20T10:02:42.606372+00:00"
+    }
+  },
+  "injuries": {
+    "CHI": [
+      {
+        "team": "CHI",
+        "player": "Anthony Johnson Jr.",
+        "position": "S",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T09:01Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "verified_at": "2026-10-20T10:00:00.404790+00:00"
+      },
+      {
+        "team": "CHI",
+        "player": "Jonah Jackson",
+        "position": "G",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T02:39Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "verified_at": "2026-10-20T10:00:00.404790+00:00"
+      },
+      {
+        "team": "CHI",
+        "player": "T.J. Edwards",
+        "position": "LB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T00:21Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "verified_at": "2026-10-20T10:00:00.404790+00:00"
+      },
+      {
+        "team": "CHI",
+        "player": "Jack Sanborn",
+        "position": "LB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T00:14Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "verified_at": "2026-10-20T10:00:00.404790+00:00"
+      },
+      {
+        "team": "CHI",
+        "player": "Kyle Monangai",
+        "position": "RB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T00:05Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "verified_at": "2026-10-20T10:00:00.404790+00:00"
+      },
+      {
+        "team": "CHI",
+        "player": "T.J. Edwards",
+        "position": "LB",
+        "injury": "Hamstring",
+        "reported_status": "DNP",
+        "practice_status": "DNP",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "CHI",
+        "player": "Jonah Jackson",
+        "position": "OL",
+        "injury": "Hip / Quadricep",
+        "reported_status": "DNP",
+        "practice_status": "DNP",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "CHI",
+        "player": "Kyle Monangai",
+        "position": "RB",
+        "injury": "Thumb/Toe",
+        "reported_status": "DNP",
+        "practice_status": "DNP",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "CHI",
+        "player": "Jack Sanborn",
+        "position": "LB",
+        "injury": "Concussion",
+        "reported_status": "DNP",
+        "practice_status": "DNP",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "CHI",
+        "player": "Keyshaun Elliott",
+        "position": "LB",
+        "injury": "Quadricep",
+        "reported_status": "FULL",
+        "practice_status": "FULL",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "CHI",
+        "player": "Tyrique Stevenson Sr.",
+        "position": "DB",
+        "injury": "Hip",
+        "reported_status": "FULL",
+        "practice_status": "FULL",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      }
+    ],
+    "NE": [
+      {
+        "team": "NE",
+        "player": "Carlton Davis III",
+        "position": "CB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T00:32Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "verified_at": "2026-10-20T10:00:00.404790+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "A.J. Brown",
+        "position": "WR",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T00:12Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "verified_at": "2026-10-20T10:00:00.404790+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Romeo Doubs",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T23:53Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "verified_at": "2026-10-20T10:00:00.404790+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Karon Prunty",
+        "position": "CB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:09Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "verified_at": "2026-10-20T10:00:00.404790+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Channing Canada",
+        "position": "CB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:09Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "verified_at": "2026-10-20T10:00:00.404790+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Andy Borregales",
+        "position": "K",
+        "injury": "Personal",
+        "reported_status": "DNP",
+        "practice_status": "DNP",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Ben Brown",
+        "position": "OL",
+        "injury": "Knee",
+        "reported_status": "DNP",
+        "practice_status": "DNP",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Carlton Davis III",
+        "position": "CB",
+        "injury": "Neck",
+        "reported_status": "DNP",
+        "practice_status": "DNP",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Joshua Farmer",
+        "position": "DT",
+        "injury": "Personal",
+        "reported_status": "DNP",
+        "practice_status": "DNP",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Alijah Vera-Tucker",
+        "position": "G",
+        "injury": "Hamstring",
+        "reported_status": "DNP",
+        "practice_status": "DNP",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "A.J. Brown",
+        "position": "WR",
+        "injury": "Ankle",
+        "reported_status": "LIMITED",
+        "practice_status": "LIMITED",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Channing Canada",
+        "position": "CB",
+        "injury": "Hamstring",
+        "reported_status": "LIMITED",
+        "practice_status": "LIMITED",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Morgan Moses",
+        "position": "T",
+        "injury": "Foot",
+        "reported_status": "LIMITED",
+        "practice_status": "LIMITED",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Karon Prunty",
+        "position": "CB",
+        "injury": "Hamstring",
+        "reported_status": "LIMITED",
+        "practice_status": "LIMITED",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Marcus Bryant",
+        "position": "T",
+        "injury": "Ankle",
+        "reported_status": "FULL",
+        "practice_status": "FULL",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Kevin Byard III",
+        "position": "S",
+        "injury": "Chest",
+        "reported_status": "FULL",
+        "practice_status": "FULL",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Will Campbell",
+        "position": "T",
+        "injury": "Knee",
+        "reported_status": "FULL",
+        "practice_status": "FULL",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Christian Elliss",
+        "position": "LB",
+        "injury": "Chest",
+        "reported_status": "FULL",
+        "practice_status": "FULL",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "TreVeyon Henderson",
+        "position": "RB",
+        "injury": "Ankle",
+        "reported_status": "FULL",
+        "practice_status": "FULL",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Dre’Mont Jones",
+        "position": "LB",
+        "injury": "Shoulder",
+        "reported_status": "FULL",
+        "practice_status": "FULL",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Drake Maye",
+        "position": "QB",
+        "injury": "Right Shoulder",
+        "reported_status": "FULL",
+        "practice_status": "FULL",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      },
+      {
+        "team": "NE",
+        "player": "Craig Woodson",
+        "position": "S",
+        "injury": "Shoulder",
+        "reported_status": "FULL",
+        "practice_status": "FULL",
+        "game_status": null,
+        "report_type": "official estimated walkthrough participation",
+        "report_date": "2026-10-19",
+        "impact": "Participation estimate only; no final game designation or assumed scoring penalty.",
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "verified_at": "2026-10-20T10:03:06.196913+00:00"
+      }
+    ],
+    "NO": [
+      {
+        "team": "NO",
+        "player": "Cesar Ruiz",
+        "position": "G",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T00:17Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "verified_at": "2026-10-20T10:00:00.429175+00:00"
+      },
+      {
+        "team": "NO",
+        "player": "Nathan Shepherd",
+        "position": "DT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:09Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "verified_at": "2026-10-20T10:00:00.429175+00:00"
+      },
+      {
+        "team": "NO",
+        "player": "Anfernee Jennings",
+        "position": "LB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:09Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "verified_at": "2026-10-20T10:00:00.429175+00:00"
+      },
+      {
+        "team": "NO",
+        "player": "Kaden Elliss",
+        "position": "LB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:09Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "verified_at": "2026-10-20T10:00:00.429175+00:00"
+      },
+      {
+        "team": "NO",
+        "player": "Jordyn Tyson",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T13:19Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "verified_at": "2026-10-20T10:00:00.429175+00:00"
+      }
+    ],
+    "PIT": [
+      {
+        "team": "PIT",
+        "player": "Ben Skowronek",
+        "position": "WR",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:15Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "verified_at": "2026-10-20T10:00:00.429175+00:00"
+      },
+      {
+        "team": "PIT",
+        "player": "Brandin Echols",
+        "position": "CB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T19:07Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "verified_at": "2026-10-20T10:00:00.429175+00:00"
+      },
+      {
+        "team": "PIT",
+        "player": "Roman Wilson",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-17T19:27Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "verified_at": "2026-10-20T10:00:00.429175+00:00"
+      },
+      {
+        "team": "PIT",
+        "player": "DeShon Elliott",
+        "position": "S",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-17T01:42Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "verified_at": "2026-10-20T10:00:00.429175+00:00"
+      },
+      {
+        "team": "PIT",
+        "player": "Michael Pittman Jr.",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-10T19:52Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "verified_at": "2026-10-20T10:00:00.429175+00:00"
+      }
+    ],
+    "BAL": [
+      {
+        "team": "BAL",
+        "player": "Rashod Bateman",
+        "position": "WR",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T19:16Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "verified_at": "2026-10-20T10:00:00.368392+00:00"
+      },
+      {
+        "team": "BAL",
+        "player": "Lamar Jackson",
+        "position": "QB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T19:08Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "verified_at": "2026-10-20T10:00:00.368392+00:00"
+      },
+      {
+        "team": "BAL",
+        "player": "Broderick Washington Jr.",
+        "position": "DT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:22Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "verified_at": "2026-10-20T10:00:00.368392+00:00"
+      },
+      {
+        "team": "BAL",
+        "player": "Cam Jurgens",
+        "position": "C",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:22Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "verified_at": "2026-10-20T10:00:00.368392+00:00"
+      },
+      {
+        "team": "BAL",
+        "player": "Matt Hibner",
+        "position": "TE",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:22Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "verified_at": "2026-10-20T10:00:00.368392+00:00"
+      }
+    ],
+    "CIN": [
+      {
+        "team": "CIN",
+        "player": "Tanner Hudson",
+        "position": "TE",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T23:18Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "verified_at": "2026-10-20T10:00:00.368392+00:00"
+      },
+      {
+        "team": "CIN",
+        "player": "Colbie Young",
+        "position": "WR",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "verified_at": "2026-10-20T10:00:00.368392+00:00"
+      },
+      {
+        "team": "CIN",
+        "player": "Kyle Dugger",
+        "position": "S",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "verified_at": "2026-10-20T10:00:00.368392+00:00"
+      },
+      {
+        "team": "CIN",
+        "player": "Swayze Bozeman",
+        "position": "LB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-12T21:04Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "verified_at": "2026-10-20T10:00:00.368392+00:00"
+      },
+      {
+        "team": "CIN",
+        "player": "Jalen Davis",
+        "position": "CB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-09-29T23:16Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "verified_at": "2026-10-20T10:00:00.368392+00:00"
+      }
+    ],
+    "TEN": [
+      {
+        "team": "TEN",
+        "player": "Kevin Winston Jr.",
+        "position": "S",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:18Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "verified_at": "2026-10-20T10:00:00.400781+00:00"
+      },
+      {
+        "team": "TEN",
+        "player": "Jordan Elliott",
+        "position": "DT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:18Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "verified_at": "2026-10-20T10:00:00.400781+00:00"
+      },
+      {
+        "team": "TEN",
+        "player": "Tony Adams",
+        "position": "S",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T17:59Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "verified_at": "2026-10-20T10:00:00.400781+00:00"
+      },
+      {
+        "team": "TEN",
+        "player": "Jackson Slater",
+        "position": "G",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-09-30T01:02Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "verified_at": "2026-10-20T10:00:00.400781+00:00"
+      },
+      {
+        "team": "TEN",
+        "player": "Fernando Carmona",
+        "position": "G",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-09-30T00:57Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "verified_at": "2026-10-20T10:00:00.400781+00:00"
+      }
+    ],
+    "CLE": [
+      {
+        "team": "CLE",
+        "player": "Teven Jenkins",
+        "position": "G",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:30Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "verified_at": "2026-10-20T10:00:00.400781+00:00"
+      },
+      {
+        "team": "CLE",
+        "player": "Quinshon Judkins",
+        "position": "RB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:30Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "verified_at": "2026-10-20T10:00:00.400781+00:00"
+      },
+      {
+        "team": "CLE",
+        "player": "Mason Graham",
+        "position": "DT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:30Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "verified_at": "2026-10-20T10:00:00.400781+00:00"
+      },
+      {
+        "team": "CLE",
+        "player": "Mike Hall Jr.",
+        "position": "DT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:30Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "verified_at": "2026-10-20T10:00:00.400781+00:00"
+      },
+      {
+        "team": "CLE",
+        "player": "Justin Jefferson",
+        "position": "LB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T19:28Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "verified_at": "2026-10-20T10:00:00.400781+00:00"
+      }
+    ],
+    "MIN": [
+      {
+        "team": "MIN",
+        "player": "Jordan Mason",
+        "position": "RB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T21:24Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "verified_at": "2026-10-20T10:00:00.357505+00:00"
+      },
+      {
+        "team": "MIN",
+        "player": "Christian Darrisaw",
+        "position": "OT",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "verified_at": "2026-10-20T10:00:00.357505+00:00"
+      },
+      {
+        "team": "MIN",
+        "player": "Charles Demmings",
+        "position": "CB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "verified_at": "2026-10-20T10:00:00.357505+00:00"
+      },
+      {
+        "team": "MIN",
+        "player": "Jordan Addison",
+        "position": "WR",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "verified_at": "2026-10-20T10:00:00.357505+00:00"
+      },
+      {
+        "team": "MIN",
+        "player": "T.J. Hockenson",
+        "position": "TE",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-11T17:42Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "verified_at": "2026-10-20T10:00:00.357505+00:00"
+      }
+    ],
+    "IND": [
+      {
+        "team": "IND",
+        "player": "Alec Pierce",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T18:32Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "verified_at": "2026-10-20T10:00:00.357505+00:00"
+      },
+      {
+        "team": "IND",
+        "player": "Sauce Gardner",
+        "position": "CB",
+        "reported_status": "Doubtful",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:48Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "verified_at": "2026-10-20T10:00:00.357505+00:00"
+      },
+      {
+        "team": "IND",
+        "player": "Tyler Warren",
+        "position": "TE",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:41Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "verified_at": "2026-10-20T10:00:00.357505+00:00"
+      },
+      {
+        "team": "IND",
+        "player": "Jaylon Carlies",
+        "position": "LB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:41Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "verified_at": "2026-10-20T10:00:00.357505+00:00"
+      },
+      {
+        "team": "IND",
+        "player": "Ashton Dulin",
+        "position": "WR",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:41Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "verified_at": "2026-10-20T10:00:00.357505+00:00"
+      }
+    ],
+    "NYJ": [
+      {
+        "team": "NYJ",
+        "player": "Adonai Mitchell",
+        "position": "WR",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:12Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "verified_at": "2026-10-20T10:00:00.420303+00:00"
+      },
+      {
+        "team": "NYJ",
+        "player": "Joseph Ossai",
+        "position": "DE",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:12Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "verified_at": "2026-10-20T10:00:00.420303+00:00"
+      },
+      {
+        "team": "NYJ",
+        "player": "Dylan Parham",
+        "position": "G",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:12Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "verified_at": "2026-10-20T10:00:00.420303+00:00"
+      },
+      {
+        "team": "NYJ",
+        "player": "Breece Hall",
+        "position": "RB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:12Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "verified_at": "2026-10-20T10:00:00.420303+00:00"
+      },
+      {
+        "team": "NYJ",
+        "player": "Kiko Mauigoa",
+        "position": "LB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T17:37Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "verified_at": "2026-10-20T10:00:00.420303+00:00"
+      }
+    ],
+    "MIA": [
+      {
+        "team": "MIA",
+        "player": "Jonah Savaiinaea",
+        "position": "G",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T00:18Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "verified_at": "2026-10-20T10:00:00.420303+00:00"
+      },
+      {
+        "team": "MIA",
+        "player": "Caleb Douglas",
+        "position": "WR",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T14:44Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "verified_at": "2026-10-20T10:00:00.420303+00:00"
+      },
+      {
+        "team": "MIA",
+        "player": "Reese Taylor",
+        "position": "CB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "verified_at": "2026-10-20T10:00:00.420303+00:00"
+      },
+      {
+        "team": "MIA",
+        "player": "Justin Joly",
+        "position": "TE",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "verified_at": "2026-10-20T10:00:00.420303+00:00"
+      },
+      {
+        "team": "MIA",
+        "player": "Robert Beal Jr.",
+        "position": "DE",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "verified_at": "2026-10-20T10:00:00.420303+00:00"
+      }
+    ],
+    "HOU": [
+      {
+        "team": "HOU",
+        "player": "Tank Dell",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T19:45Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "verified_at": "2026-10-20T10:00:00.409995+00:00"
+      },
+      {
+        "team": "HOU",
+        "player": "Jalen Pitre",
+        "position": "S",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:40Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "verified_at": "2026-10-20T10:00:00.409995+00:00"
+      },
+      {
+        "team": "HOU",
+        "player": "David Montgomery",
+        "position": "RB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:40Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "verified_at": "2026-10-20T10:00:00.409995+00:00"
+      },
+      {
+        "team": "HOU",
+        "player": "Reed Blankenship",
+        "position": "S",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T15:33Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "verified_at": "2026-10-20T10:00:00.409995+00:00"
+      },
+      {
+        "team": "HOU",
+        "player": "Jaylin Smith",
+        "position": "CB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-07T00:29Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "verified_at": "2026-10-20T10:00:00.409995+00:00"
+      }
+    ],
+    "NYG": [
+      {
+        "team": "NYG",
+        "player": "Jermaine Eluemunor",
+        "position": "OT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T09:01Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "verified_at": "2026-10-20T10:00:00.409995+00:00"
+      },
+      {
+        "team": "NYG",
+        "player": "Theo Johnson",
+        "position": "TE",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "verified_at": "2026-10-20T10:00:00.409995+00:00"
+      },
+      {
+        "team": "NYG",
+        "player": "Tyler Nubin",
+        "position": "S",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "verified_at": "2026-10-20T10:00:00.409995+00:00"
+      },
+      {
+        "team": "NYG",
+        "player": "Colton Hood",
+        "position": "CB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "verified_at": "2026-10-20T10:00:00.409995+00:00"
+      },
+      {
+        "team": "NYG",
+        "player": "Tremaine Edmunds",
+        "position": "LB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T21:47Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "verified_at": "2026-10-20T10:00:00.409995+00:00"
+      }
+    ],
+    "ATL": [
+      {
+        "team": "ATL",
+        "player": "C.J. Henderson",
+        "position": "CB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:20Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "verified_at": "2026-10-20T10:00:00.397155+00:00"
+      },
+      {
+        "team": "ATL",
+        "player": "Kendal Daniels",
+        "position": "LB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T19:51Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "verified_at": "2026-10-20T10:00:00.397155+00:00"
+      },
+      {
+        "team": "ATL",
+        "player": "Billy Bowman Jr.",
+        "position": "CB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T19:38Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "verified_at": "2026-10-20T10:00:00.397155+00:00"
+      },
+      {
+        "team": "ATL",
+        "player": "Divine Deablo",
+        "position": "LB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T18:07Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "verified_at": "2026-10-20T10:00:00.397155+00:00"
+      },
+      {
+        "team": "ATL",
+        "player": "Yasir Abdullah",
+        "position": "LB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-11T03:43Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "verified_at": "2026-10-20T10:00:00.397155+00:00"
+      }
+    ],
+    "SF": [
+      {
+        "team": "SF",
+        "player": "Mike Evans",
+        "position": "WR",
+        "reported_status": "Doubtful",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T03:40Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "verified_at": "2026-10-20T10:00:00.397155+00:00"
+      },
+      {
+        "team": "SF",
+        "player": "Luke Gifford",
+        "position": "LB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T02:08Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "verified_at": "2026-10-20T10:00:00.397155+00:00"
+      },
+      {
+        "team": "SF",
+        "player": "Garret Wallow",
+        "position": "LB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T22:56Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "verified_at": "2026-10-20T10:00:00.397155+00:00"
+      },
+      {
+        "team": "SF",
+        "player": "Kurtis Rourke",
+        "position": "QB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T22:56Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "verified_at": "2026-10-20T10:00:00.397155+00:00"
+      },
+      {
+        "team": "SF",
+        "player": "Deebo Samuel Sr.",
+        "position": "WR",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T22:56Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "verified_at": "2026-10-20T10:00:00.397155+00:00"
+      }
+    ],
+    "CAR": [
+      {
+        "team": "CAR",
+        "player": "AJ Dillon",
+        "position": "RB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:27Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "verified_at": "2026-10-20T10:00:00.469029+00:00"
+      },
+      {
+        "team": "CAR",
+        "player": "Thomas Incoom",
+        "position": "LB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T19:20Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "verified_at": "2026-10-20T10:00:00.469029+00:00"
+      },
+      {
+        "team": "CAR",
+        "player": "Monroe Freeling",
+        "position": "OT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T16:35Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "verified_at": "2026-10-20T10:00:00.469029+00:00"
+      },
+      {
+        "team": "CAR",
+        "player": "Jonathon Brooks",
+        "position": "RB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-15T18:28Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "verified_at": "2026-10-20T10:00:00.469029+00:00"
+      },
+      {
+        "team": "CAR",
+        "player": "Cam Jackson",
+        "position": "DT",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-14T01:16Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "verified_at": "2026-10-20T10:00:00.469029+00:00"
+      }
+    ],
+    "TB": [
+      {
+        "team": "TB",
+        "player": "Antoine Winfield Jr.",
+        "position": "S",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:18Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "verified_at": "2026-10-20T10:00:00.469029+00:00"
+      },
+      {
+        "team": "TB",
+        "player": "Sean Tucker",
+        "position": "RB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:18Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "verified_at": "2026-10-20T10:00:00.469029+00:00"
+      },
+      {
+        "team": "TB",
+        "player": "Benjamin Morrison",
+        "position": "CB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:18Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "verified_at": "2026-10-20T10:00:00.469029+00:00"
+      },
+      {
+        "team": "TB",
+        "player": "Baker Mayfield",
+        "position": "QB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:41Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "verified_at": "2026-10-20T10:00:00.469029+00:00"
+      },
+      {
+        "team": "TB",
+        "player": "David Sills V",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-17T01:18Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "verified_at": "2026-10-20T10:00:00.469029+00:00"
+      }
+    ],
+    "ARI": [
+      {
+        "team": "ARI",
+        "player": "Jeremiyah Love",
+        "position": "RB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T23:21Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "verified_at": "2026-10-20T10:00:00.329876+00:00"
+      },
+      {
+        "team": "ARI",
+        "player": "Wydett Williams Jr.",
+        "position": "S",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:19Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "verified_at": "2026-10-20T10:00:00.329876+00:00"
+      },
+      {
+        "team": "ARI",
+        "player": "Andrew Wingard",
+        "position": "S",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:19Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "verified_at": "2026-10-20T10:00:00.329876+00:00"
+      },
+      {
+        "team": "ARI",
+        "player": "James Conner",
+        "position": "RB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T19:00Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "verified_at": "2026-10-20T10:00:00.329876+00:00"
+      },
+      {
+        "team": "ARI",
+        "player": "Isaiah Adams",
+        "position": "G",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-11T03:58Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "verified_at": "2026-10-20T10:00:00.329876+00:00"
+      }
+    ],
+    "DEN": [
+      {
+        "team": "DEN",
+        "player": "Pat Surtain II",
+        "position": "CB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:33Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "verified_at": "2026-10-20T10:00:00.329876+00:00"
+      },
+      {
+        "team": "DEN",
+        "player": "Talanoa Hufanga",
+        "position": "S",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:33Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "verified_at": "2026-10-20T10:00:00.329876+00:00"
+      },
+      {
+        "team": "DEN",
+        "player": "Tyler Badie",
+        "position": "RB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-16T01:30Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "verified_at": "2026-10-20T10:00:00.329876+00:00"
+      },
+      {
+        "team": "DEN",
+        "player": "Pat Bryant",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-09T21:47Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "verified_at": "2026-10-20T10:00:00.329876+00:00"
+      },
+      {
+        "team": "DEN",
+        "player": "Jonah Coleman",
+        "position": "RB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-09-26T20:36Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "verified_at": "2026-10-20T10:00:00.329876+00:00"
+      }
+    ],
+    "DET": [
+      {
+        "team": "DET",
+        "player": "Ben Bartch",
+        "position": "G",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-17T04:09Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "verified_at": "2026-10-20T10:00:00.445478+00:00"
+      },
+      {
+        "team": "DET",
+        "player": "Devin White",
+        "position": "LB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-17T02:00Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "verified_at": "2026-10-20T10:00:00.445478+00:00"
+      },
+      {
+        "team": "DET",
+        "player": "Tom Kennedy",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-17T01:51Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "verified_at": "2026-10-20T10:00:00.445478+00:00"
+      },
+      {
+        "team": "DET",
+        "player": "Rock Ya-Sin",
+        "position": "CB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T17:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "verified_at": "2026-10-20T10:00:00.445478+00:00"
+      },
+      {
+        "team": "DET",
+        "player": "Cade Mays",
+        "position": "C",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-10T02:36Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "verified_at": "2026-10-20T10:00:00.445478+00:00"
+      }
+    ],
+    "GB": [
+      {
+        "team": "GB",
+        "player": "Micah Parsons",
+        "position": "DE",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T21:14Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "verified_at": "2026-10-20T10:00:00.445478+00:00"
+      },
+      {
+        "team": "GB",
+        "player": "Benjamin St-Juste",
+        "position": "CB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:36Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "verified_at": "2026-10-20T10:00:00.445478+00:00"
+      },
+      {
+        "team": "GB",
+        "player": "Brandon Cisse",
+        "position": "CB",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T03:36Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "verified_at": "2026-10-20T10:00:00.445478+00:00"
+      },
+      {
+        "team": "GB",
+        "player": "Aaron Banks",
+        "position": "G",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T23:11Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "verified_at": "2026-10-20T10:00:00.445478+00:00"
+      },
+      {
+        "team": "GB",
+        "player": "Jonathan Ford",
+        "position": "DT",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T02:56Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "verified_at": "2026-10-20T10:00:00.445478+00:00"
+      }
+    ],
+    "LV": [
+      {
+        "team": "LV",
+        "player": "Tonka Hemingway",
+        "position": "DT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:46Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "verified_at": "2026-10-20T10:00:00.440596+00:00"
+      },
+      {
+        "team": "LV",
+        "player": "Carter Runyon",
+        "position": "TE",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-17T02:53Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "verified_at": "2026-10-20T10:00:00.440596+00:00"
+      },
+      {
+        "team": "LV",
+        "player": "Dont'e Thornton Jr.",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-16T22:08Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "verified_at": "2026-10-20T10:00:00.440596+00:00"
+      },
+      {
+        "team": "LV",
+        "player": "Jack Bech",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-09-29T22:27Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "verified_at": "2026-10-20T10:00:00.440596+00:00"
+      },
+      {
+        "team": "LV",
+        "player": "Keyron Crawford",
+        "position": "DE",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-08-31T00:50Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "verified_at": "2026-10-20T10:00:00.440596+00:00"
+      }
+    ],
+    "LAR": [
+      {
+        "team": "LAR",
+        "player": "Poona Ford",
+        "position": "DT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T00:00Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "verified_at": "2026-10-20T10:00:00.440596+00:00"
+      },
+      {
+        "team": "LAR",
+        "player": "Blake Grupe",
+        "position": "PK",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T22:01Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "verified_at": "2026-10-20T10:00:00.440596+00:00"
+      },
+      {
+        "team": "LAR",
+        "player": "Kobie Turner",
+        "position": "DE",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T21:57Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "verified_at": "2026-10-20T10:00:00.440596+00:00"
+      },
+      {
+        "team": "LAR",
+        "player": "Myles Garrett",
+        "position": "DE",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T21:45Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "verified_at": "2026-10-20T10:00:00.440596+00:00"
+      },
+      {
+        "team": "LAR",
+        "player": "Davante Adams",
+        "position": "WR",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T21:31Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "verified_at": "2026-10-20T10:00:00.440596+00:00"
+      }
+    ],
+    "SEA": [
+      {
+        "team": "SEA",
+        "player": "Anthony Bradford",
+        "position": "G",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T00:34Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "verified_at": "2026-10-20T10:00:00.373327+00:00"
+      },
+      {
+        "team": "SEA",
+        "player": "Elijah Arroyo",
+        "position": "TE",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T23:21Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "verified_at": "2026-10-20T10:00:00.373327+00:00"
+      },
+      {
+        "team": "SEA",
+        "player": "Zach Charbonnet",
+        "position": "RB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T23:10Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "verified_at": "2026-10-20T10:00:00.373327+00:00"
+      },
+      {
+        "team": "SEA",
+        "player": "Chazz Surratt",
+        "position": "LB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:16Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "verified_at": "2026-10-20T10:00:00.373327+00:00"
+      },
+      {
+        "team": "SEA",
+        "player": "Drake Thomas",
+        "position": "LB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:16Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "verified_at": "2026-10-20T10:00:00.373327+00:00"
+      }
+    ],
+    "KC": [
+      {
+        "team": "KC",
+        "player": "Rashee Rice",
+        "position": "WR",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:45Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "verified_at": "2026-10-20T10:00:00.373327+00:00"
+      },
+      {
+        "team": "KC",
+        "player": "Josh Simmons",
+        "position": "OT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:45Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "verified_at": "2026-10-20T10:00:00.373327+00:00"
+      },
+      {
+        "team": "KC",
+        "player": "Jaylon Moore",
+        "position": "OT",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-18T22:41Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "verified_at": "2026-10-20T10:00:00.373327+00:00"
+      },
+      {
+        "team": "KC",
+        "player": "Tyquan Thornton",
+        "position": "WR",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-13T18:29Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "verified_at": "2026-10-20T10:00:00.373327+00:00"
+      },
+      {
+        "team": "KC",
+        "player": "Cooper McDonald",
+        "position": "LB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-09-17T00:38Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "verified_at": "2026-10-20T10:00:00.373327+00:00"
+      }
+    ],
+    "PHI": [
+      {
+        "team": "PHI",
+        "player": "AJ Epenesa",
+        "position": "DE",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:14Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "verified_at": "2026-10-20T10:00:00.424329+00:00"
+      },
+      {
+        "team": "PHI",
+        "player": "Jalyx Hunt",
+        "position": "LB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:14Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "verified_at": "2026-10-20T10:00:00.424329+00:00"
+      },
+      {
+        "team": "PHI",
+        "player": "Saquon Barkley",
+        "position": "RB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:14Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "verified_at": "2026-10-20T10:00:00.424329+00:00"
+      },
+      {
+        "team": "PHI",
+        "player": "Michael Carter II",
+        "position": "CB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T17:14Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "verified_at": "2026-10-20T10:00:00.424329+00:00"
+      },
+      {
+        "team": "PHI",
+        "player": "Jalen Hurts",
+        "position": "QB",
+        "reported_status": "Injured Reserve",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T14:18Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "verified_at": "2026-10-20T10:00:00.424329+00:00"
+      }
+    ],
+    "DAL": [
+      {
+        "team": "DAL",
+        "player": "KaVontae Turpin",
+        "position": "WR",
+        "reported_status": "Questionable",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-20T00:07Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "verified_at": "2026-10-20T10:00:00.424329+00:00"
+      },
+      {
+        "team": "DAL",
+        "player": "Dee Winters",
+        "position": "LB",
+        "reported_status": "Doubtful",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T23:31Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "verified_at": "2026-10-20T10:00:00.424329+00:00"
+      },
+      {
+        "team": "DAL",
+        "player": "DeMarvion Overshown",
+        "position": "LB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T23:29Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "verified_at": "2026-10-20T10:00:00.424329+00:00"
+      },
+      {
+        "team": "DAL",
+        "player": "Drew Shelton",
+        "position": "OT",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:31Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "verified_at": "2026-10-20T10:00:00.424329+00:00"
+      },
+      {
+        "team": "DAL",
+        "player": "Cobie Durant",
+        "position": "CB",
+        "reported_status": "Out",
+        "practice_status": null,
+        "report_type": "ESPN dated reported injury status; not a Week 7 final designation",
+        "report_date": "2026-10-19T16:31Z",
+        "impact": "Game-specific role and scoring effect not verified; no automatic point adjustment.",
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "verified_at": "2026-10-20T10:00:00.424329+00:00"
+      }
+    ]
+  },
+  "scope_warnings": [
+    {
+      "source_url": "https://www.nfl.com/injuries/league/2026/reg7",
+      "checked_at": "2026-10-20T10:00:15.444212+00:00",
+      "reason": "Returned SEA–DEN and other Week 6 matchup tables, not a valid complete Week 7 participation report. Retained as attempted evidence only."
+    }
+  ],
+  "required_input_issues": [
+    {
+      "game_id": "2026-W07-PIT-NO",
+      "field": "neutral_site_model_rule",
+      "reason": "Approved projectMatchup hardcodes neutral PHI–JAX only. It would apply a 0.75-point nominal-home effect to neutral Stade de France. No formula/rule change authorized; proposed score withheld.",
+      "source_file": "scripts/wto-points-model.mjs",
+      "actual_venue_source": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011"
+    },
+    {
+      "game_id": "2026-W07-CIN-BAL",
+      "field": "quarterback_availability_and_model_response",
+      "reason": "Official October 19 report says Lamar Jackson remains day-to-day; ESPN Out is a reported list status, not a verified Week 7 ruling.",
+      "source": {
+        "source_url": "https://www.baltimoreravens.com/news/jesse-minter-lamar-jackson-ankle-still-day-day-monday-week-7-injuries-rashod-bateman-cam-jurgens-trey-hendrickson-tyler-loop-critical-misses",
+        "report_date": "2026-10-19T21:38:31.944Z",
+        "checked_at": "2026-10-20T10:02:42.480629+00:00"
+      }
+    },
+    {
+      "game_id": "2026-W07-TB-CAR",
+      "field": "quarterback_availability_and_model_response",
+      "reason": "Official October 19 report says Baker Mayfield will be evaluated in Wednesday practice; ESPN Out must not be represented as a final Week 7 designation.",
+      "source": {
+        "source_url": "https://www.buccaneers.com/news/bucs-will-evaluate-baker-mayfield-in-practice-wednesday-potential-return",
+        "report_date": "2026-10-19T20:00:00Z",
+        "checked_at": "2026-10-20T10:02:42.564333+00:00"
+      }
+    },
+    {
+      "game_id": "2026-W07-NYG-HOU",
+      "field": "starting_quarterback",
+      "reason": "Official NFL October 19 report says the Giants have not named Winston or McCarthy as Week 7 starter.",
+      "source": {
+        "source_url": "https://www.nfl.com/news/giants-john-harbaugh-week-7-qb1-decision-between-jameis-winston-j-j-mccarthy",
+        "report_date": "2026-10-19T20:25:55.145Z",
+        "checked_at": "2026-10-20T10:02:42.606372+00:00"
+      }
+    },
+    {
+      "game_id": "2026-W07-DAL-PHI",
+      "field": "quarterback_model_response_and_kickoff_forecast",
+      "reason": "Hurts is reported on injured reserve and current quarterback evidence must be assessed; no approved player-specific score response. NWS forecast does not yet cover Monday kickoff.",
+      "source": {
+        "source_url": "https://www.philadelphiaeagles.com/news/statement-from-the-philadelphia-eagles-on-qb-jalen-hurts",
+        "report_date": "2026-10-15T17:00:00Z",
+        "checked_at": "2026-10-20T10:02:42.237017+00:00"
+      }
+    },
+    {
+      "game_id": "2026-W07-NE-CHI",
+      "field": "offensive_line_and_key_player_availability",
+      "reason": "Official October 19 walkthrough estimate lists Patriots guards Brown/Vera-Tucker DNP and Moses LIMITED; A.J. Brown LIMITED. Final role/availability and approved model response unresolved.",
+      "source": {
+        "source_url": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+        "report_date": "2026-10-19",
+        "checked_at": "2026-10-20T10:03:06.196913+00:00"
+      }
+    }
+  ],
+  "generic_required_input_issue": {
+    "field": "complete_current_availability_and_scheme_context",
+    "reason": "Current dated ESPN status observations are stored; the official NFL reg7 endpoint still serves prior-week game/report rows. Complete current official report dates, role confirmations and supported scheme/personnel model response remain unresolved. Publish factual evidence/status only and retain proposed numerical forecasts in staging."
+  },
+  "release_policy": "Publish verified factual readings and explicit unavailable forecast statuses. All numerical scoring/EX candidates remain outside production pending required input review; no production model changed."
+}
