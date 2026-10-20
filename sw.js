@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v127-conference-top20';
+const CACHE = 'wto-shell-v128-weekly-highlights';
 
 const SHELL = [
   './',
@@ -19,6 +19,7 @@ const SHELL = [
   './wto-ui-lib.js',
   './ff26-nfl-lines-2026.json',
   './wto-player-leaders-2026.json',
+  './wto-weekly-highlights-2026.json',
   './wto-futures-2026.json',
   './wto-ex.js?v=1',
   './wto-ex-week6-20261015.json',

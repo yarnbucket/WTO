@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-10-20T01:00:58.494Z",
+  "base_commit": "e6593d982bb3050a28c11c977c277b6471182f2d",
+  "decision": "publish",
+  "files": [
+    "index.html",
+    "sw.js",
+    "wto-weekly-highlights-2026.json"
+  ],
+  "checks_passed": [
+    "Weekly player performances use single-game boxes, not cumulative leader totals",
+    "All 80 saved final games matched by ID, week, teams, scores; 79 complete Weeks 1–5 and one Week 6 game",
+    "Weekly top five QB/RB/WR/TE sorted by category yards; positions use verified saved ESPN roster/profile evidence",
+    "30 outright underdog wins; ties, pick-em, favorite wins excluded; sorted largest spread first",
+    "Stored closing fields used when present; separate pregame grading fields labeled Last Verified",
+    "Selected week isolated; unfinished weeks marked in progress",
+    "Live odds, ledger results, predictions, model artifacts and personal picks unchanged",
+    "Existing inline scripts parse"
+  ],
+  "limitations": [
+    "Week 6 reflects the currently published ledger's one verified final; remaining results stay provisional until the scheduled repair/wrap-up.",
+    "Historical closing-market provenance is reused from the published ledger; unavailable exact market timestamps remain null.",
+    "Recaps describe verified box-score evidence and do not assume a proven cause when insufficient."
+  ]
+}

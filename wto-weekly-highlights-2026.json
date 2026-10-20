@@ -1,0 +1,2804 @@
+{
+  "schema_version": "1.0",
+  "season": 2026,
+  "updated_at": "2026-10-20T00:59:44.978086+00:00",
+  "methodology": "Weekly individual game statistics, not cumulative season totals; top five QB by gross passing yards, RB by rushing yards, WR and TE separately by receiving yards. Positions verified using ESPN 2026 rosters/athlete profiles. Upsets are outright wins by underdogs using stored verified closing markets or separately identified Last Verified grading markets; ties, pick-em, favorite wins and cover-only results excluded. Market gaps disclosed. Recaps reuse saved verified box scores without claiming unsupported causes.",
+  "weeks": [
+    {
+      "week": 1,
+      "status": "final",
+      "scheduled_games": 16,
+      "final_games": 16,
+      "player_coverage": {
+        "verified_box_scores": 16,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [
+          {
+            "player_id": "4360689",
+            "player": "Tyler Shough",
+            "team": "NO",
+            "position": "QB",
+            "game_id": "2026-W01-NO-DET",
+            "stats": {
+              "passingYards": 410,
+              "passingTouchdowns": 3,
+              "interceptions": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4036378",
+            "player": "Jordan Love",
+            "team": "GB",
+            "position": "QB",
+            "game_id": "2026-W01-GB-MIN",
+            "stats": {
+              "passingYards": 387,
+              "passingTouchdowns": 2,
+              "interceptions": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872927",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4685720",
+            "player": "Bryce Young",
+            "team": "CAR",
+            "position": "QB",
+            "game_id": "2026-W01-CHI-CAR",
+            "stats": {
+              "passingYards": 361,
+              "passingTouchdowns": 3,
+              "interceptions": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "3918298",
+            "player": "Josh Allen",
+            "team": "BUF",
+            "position": "QB",
+            "game_id": "2026-W01-BUF-HOU",
+            "stats": {
+              "passingYards": 334,
+              "passingTouchdowns": 2,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872660",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "3916387",
+            "player": "Lamar Jackson",
+            "team": "BAL",
+            "position": "QB",
+            "game_id": "2026-W01-BAL-IND",
+            "stats": {
+              "passingYards": 324,
+              "passingTouchdowns": 1,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "RB": [
+          {
+            "player_id": "4567048",
+            "player": "Kenneth Walker III",
+            "team": "KC",
+            "position": "RB",
+            "game_id": "2026-W01-DEN-KC",
+            "stats": {
+              "rushingAttempts": 23,
+              "rushingYards": 173,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 7.5
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872931",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4429795",
+            "player": "Jahmyr Gibbs",
+            "team": "DET",
+            "position": "RB",
+            "game_id": "2026-W01-NO-DET",
+            "stats": {
+              "rushingAttempts": 29,
+              "rushingYards": 156,
+              "rushingTouchdowns": 2,
+              "yards_per_carry": 5.4
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "3043078",
+            "player": "Derrick Henry",
+            "team": "BAL",
+            "position": "RB",
+            "game_id": "2026-W01-BAL-IND",
+            "stats": {
+              "rushingAttempts": 24,
+              "rushingYards": 144,
+              "rushingTouchdowns": 3,
+              "yards_per_carry": 6.0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4259545",
+            "player": "D'Andre Swift",
+            "team": "CHI",
+            "position": "RB",
+            "game_id": "2026-W01-CHI-CAR",
+            "stats": {
+              "rushingAttempts": 18,
+              "rushingYards": 124,
+              "rushingTouchdowns": 3,
+              "yards_per_carry": 6.9
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4890973",
+            "player": "Ashton Jeanty",
+            "team": "LV",
+            "position": "RB",
+            "game_id": "2026-W01-MIA-LV",
+            "stats": {
+              "rushingAttempts": 23,
+              "rushingYards": 102,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 4.4
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872928",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "WR": [
+          {
+            "player_id": "4361370",
+            "player": "Chris Olave",
+            "team": "NO",
+            "position": "WR",
+            "game_id": "2026-W01-NO-DET",
+            "stats": {
+              "receptions": 10,
+              "receivingYards": 182,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4429615",
+            "player": "Zay Flowers",
+            "team": "BAL",
+            "position": "WR",
+            "game_id": "2026-W01-BAL-IND",
+            "stats": {
+              "receptions": 5,
+              "receivingYards": 150,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4248528",
+            "player": "Christian Watson",
+            "team": "GB",
+            "position": "WR",
+            "game_id": "2026-W01-GB-MIN",
+            "stats": {
+              "receptions": 6,
+              "receivingYards": 147,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872927",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4695883",
+            "player": "Jalen Coker",
+            "team": "CAR",
+            "position": "WR",
+            "game_id": "2026-W01-CHI-CAR",
+            "stats": {
+              "receptions": 8,
+              "receivingYards": 138,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4430878",
+            "player": "Jaxon Smith-Njigba",
+            "team": "SEA",
+            "position": "WR",
+            "game_id": "2026-W01-NE-SEA",
+            "stats": {
+              "receptions": 8,
+              "receivingYards": 122,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872656",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "TE": [
+          {
+            "player_id": "4385690",
+            "player": "Dalton Kincaid",
+            "team": "BUF",
+            "position": "TE",
+            "game_id": "2026-W01-BUF-HOU",
+            "stats": {
+              "receptions": 5,
+              "receivingYards": 130,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872660",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4361307",
+            "player": "Trey McBride",
+            "team": "ARI",
+            "position": "TE",
+            "game_id": "2026-W01-ARI-LAC",
+            "stats": {
+              "receptions": 9,
+              "receivingYards": 95,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4361050",
+            "player": "Isaiah Likely",
+            "team": "NYG",
+            "position": "TE",
+            "game_id": "2026-W01-DAL-NYG",
+            "stats": {
+              "receptions": 8,
+              "receivingYards": 78,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872930",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "3116164",
+            "player": "Mike Gesicki",
+            "team": "CIN",
+            "position": "TE",
+            "game_id": "2026-W01-TB-CIN",
+            "stats": {
+              "receptions": 5,
+              "receivingYards": 78,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872925",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "3121023",
+            "player": "Dallas Goedert",
+            "team": "PHI",
+            "position": "TE",
+            "game_id": "2026-W01-WAS-PHI",
+            "stats": {
+              "receptions": 4,
+              "receivingYards": 77,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872929",
+            "market_independent": true,
+            "rank": 5
+          }
+        ]
+      },
+      "upsets": [
+        {
+          "game_id": "2026-W01-ARI-LAC",
+          "winner": "ARI",
+          "favorite": "LAC",
+          "underdog_spread": 8.5,
+          "winner_score": 26,
+          "loser_score": 14,
+          "line_type": "closing",
+          "provider": "Final score verified across ESPN and Sleeper; ScoresAndOdds postgame matchup record lists LAC -8.5 and total 47.5. ARI covered and the game went under.",
+          "market_as_of": null,
+          "market_verified_at": null,
+          "summary": "ARI finished plus-2 in turnover margin against LAC.",
+          "source_urls": [
+            "https://www.espn.com/nfl/schedule",
+            "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W01-SF-LAR",
+          "winner": "SF",
+          "favorite": "LAR",
+          "underdog_spread": 3.5,
+          "winner_score": 27,
+          "loser_score": 7,
+          "line_type": "closing",
+          "provider": "VegasInsider consensus close; ESPN/NFL final score",
+          "market_as_of": null,
+          "market_verified_at": null,
+          "summary": "SF finished plus-1 in turnover margin against LAR.",
+          "source_urls": [
+            "https://www.espn.com/nfl/game/_/gameId/401872657/49ers-rams",
+            "https://www.cbssports.com/nfl/gametracker/boxscore/NFL_20260910_SF@LAR/",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872657"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W01-DAL-NYG",
+          "winner": "NYG",
+          "favorite": "DAL",
+          "underdog_spread": 3,
+          "winner_score": 28,
+          "loser_score": 20,
+          "line_type": "closing",
+          "provider": "PFF",
+          "market_as_of": null,
+          "market_verified_at": "2026-09-15T05:57:25-04:00",
+          "summary": "NYG won 28\u201320; its offense gained 394 yards against DAL, compared with 244 the other way.",
+          "source_urls": [
+            "https://www.pff.com/nfl/scores/2026/1/dallas-cowboys_at_new-york-giants_30608",
+            "https://www.espn.com/nfl/schedule",
+            "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872930"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W01-NYJ-TEN",
+          "winner": "NYJ",
+          "favorite": "TEN",
+          "underdog_spread": 1.5,
+          "winner_score": 23,
+          "loser_score": 10,
+          "line_type": "closing",
+          "provider": "Final score verified across ESPN and Sleeper; ScoresAndOdds postgame matchup record lists TEN -1.5 and total 39.5. NYJ covered and the game went under.",
+          "market_as_of": null,
+          "market_verified_at": null,
+          "summary": "NYJ finished plus-1 in turnover margin against TEN.",
+          "source_urls": [
+            "https://www.espn.com/nfl/schedule",
+            "https://sleeper.com/nfl/scores/dal-cowboys-nyg-giants-2026-09-13",
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872924"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        }
+      ],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872656",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872657",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872658",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872660",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872922",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872924",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872925",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872927",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872928",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872929",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872930",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872931"
+      ],
+      "verified_at": "2026-10-20T00:59:44.978086+00:00"
+    },
+    {
+      "week": 2,
+      "status": "final",
+      "scheduled_games": 16,
+      "final_games": 16,
+      "player_coverage": {
+        "verified_box_scores": 16,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [
+          {
+            "player_id": "3139477",
+            "player": "Patrick Mahomes",
+            "team": "KC",
+            "position": "QB",
+            "game_id": "2026-W02-IND-KC",
+            "stats": {
+              "passingYards": 382,
+              "passingTouchdowns": 3,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4432577",
+            "player": "C.J. Stroud",
+            "team": "HOU",
+            "position": "QB",
+            "game_id": "2026-W02-CIN-HOU",
+            "stats": {
+              "passingYards": 353,
+              "passingTouchdowns": 0,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "3046779",
+            "player": "Jared Goff",
+            "team": "DET",
+            "position": "QB",
+            "game_id": "2026-W02-DET-BUF",
+            "stats": {
+              "passingYards": 327,
+              "passingTouchdowns": 4,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "12483",
+            "player": "Matthew Stafford",
+            "team": "LAR",
+            "position": "QB",
+            "game_id": "2026-W02-NYG-LAR",
+            "stats": {
+              "passingYards": 327,
+              "passingTouchdowns": 4,
+              "interceptions": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872947",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4426338",
+            "player": "Bo Nix",
+            "team": "DEN",
+            "position": "QB",
+            "game_id": "2026-W02-JAX-DEN",
+            "stats": {
+              "passingYards": 288,
+              "passingTouchdowns": 1,
+              "interceptions": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872940",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "RB": [
+          {
+            "player_id": "4379399",
+            "player": "James Cook III",
+            "team": "BUF",
+            "position": "RB",
+            "game_id": "2026-W02-DET-BUF",
+            "stats": {
+              "rushingAttempts": 21,
+              "rushingYards": 135,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 6.4
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4567048",
+            "player": "Kenneth Walker III",
+            "team": "KC",
+            "position": "RB",
+            "game_id": "2026-W02-IND-KC",
+            "stats": {
+              "rushingAttempts": 24,
+              "rushingYards": 117,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 4.9
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "3042519",
+            "player": "Aaron Jones Sr.",
+            "team": "MIN",
+            "position": "RB",
+            "game_id": "2026-W02-MIN-CHI",
+            "stats": {
+              "rushingAttempts": 23,
+              "rushingYards": 105,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 4.6
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872937",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4685382",
+            "player": "Omarion Hampton",
+            "team": "LAC",
+            "position": "RB",
+            "game_id": "2026-W02-LV-LAC",
+            "stats": {
+              "rushingAttempts": 23,
+              "rushingYards": 94,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 4.1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872941",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4887558",
+            "player": "Emanuel Wilson",
+            "team": "SEA",
+            "position": "RB",
+            "game_id": "2026-W02-SEA-ARI",
+            "stats": {
+              "rushingAttempts": 21,
+              "rushingYards": 92,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 4.4
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872943",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "WR": [
+          {
+            "player_id": "16800",
+            "player": "Davante Adams",
+            "team": "LAR",
+            "position": "WR",
+            "game_id": "2026-W02-NYG-LAR",
+            "stats": {
+              "receptions": 8,
+              "receivingYards": 195,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872947",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4430878",
+            "player": "Jaxon Smith-Njigba",
+            "team": "SEA",
+            "position": "WR",
+            "game_id": "2026-W02-SEA-ARI",
+            "stats": {
+              "receptions": 9,
+              "receivingYards": 155,
+              "receivingTouchdowns": 3
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872943",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4241389",
+            "player": "CeeDee Lamb",
+            "team": "DAL",
+            "position": "WR",
+            "game_id": "2026-W02-WAS-DAL",
+            "stats": {
+              "receptions": 8,
+              "receivingYards": 153,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872944",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4374302",
+            "player": "Amon-Ra St. Brown",
+            "team": "DET",
+            "position": "WR",
+            "game_id": "2026-W02-DET-BUF",
+            "stats": {
+              "receptions": 9,
+              "receivingYards": 142,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4372016",
+            "player": "Jaylen Waddle",
+            "team": "DEN",
+            "position": "WR",
+            "game_id": "2026-W02-JAX-DEN",
+            "stats": {
+              "receptions": 8,
+              "receivingYards": 138,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872940",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "TE": [
+          {
+            "player_id": "3117256",
+            "player": "Dalton Schultz",
+            "team": "HOU",
+            "position": "TE",
+            "game_id": "2026-W02-CIN-HOU",
+            "stats": {
+              "receptions": 12,
+              "receivingYards": 140,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "15847",
+            "player": "Travis Kelce",
+            "team": "KC",
+            "position": "TE",
+            "game_id": "2026-W02-IND-KC",
+            "stats": {
+              "receptions": 9,
+              "receivingYards": 101,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4385690",
+            "player": "Dalton Kincaid",
+            "team": "BUF",
+            "position": "TE",
+            "game_id": "2026-W02-DET-BUF",
+            "stats": {
+              "receptions": 7,
+              "receivingYards": 95,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "3040151",
+            "player": "George Kittle",
+            "team": "SF",
+            "position": "TE",
+            "game_id": "2026-W02-MIA-SF",
+            "stats": {
+              "receptions": 4,
+              "receivingYards": 80,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872942",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "3929645",
+            "player": "Juwan Johnson",
+            "team": "NO",
+            "position": "TE",
+            "game_id": "2026-W02-NO-BAL",
+            "stats": {
+              "receptions": 4,
+              "receivingYards": 66,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872938",
+            "market_independent": true,
+            "rank": 5
+          }
+        ]
+      },
+      "upsets": [
+        {
+          "game_id": "2026-W02-CLE-TB",
+          "winner": "CLE",
+          "favorite": "TB",
+          "underdog_spread": 8.5,
+          "winner_score": 23,
+          "loser_score": 19,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "CLE finished plus-1 in turnover margin against TB.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872935",
+            "https://www.skysports.com/nfl/news/13544294/nfl-fixtures-and-schedule-2026-uk-times-for-2026-regular-season-games-and-post-season-playoffs-on-road-to-super-bowl-lxi",
+            "https://www.patspulpit.com/new-england-patriots-opinion/137543/patriots-rooting-guide-nfl-week-2-2026"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W02-NO-BAL",
+          "winner": "NO",
+          "favorite": "BAL",
+          "underdog_spread": 8.5,
+          "winner_score": 24,
+          "loser_score": 17,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "NO finished plus-1 in turnover margin against BAL.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872938",
+            "https://www.skysports.com/nfl/news/13544294/nfl-fixtures-and-schedule-2026-uk-times-for-2026-regular-season-games-and-post-season-playoffs-on-road-to-super-bowl-lxi",
+            "https://www.patspulpit.com/new-england-patriots-opinion/137543/patriots-rooting-guide-nfl-week-2-2026"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W02-LV-LAC",
+          "winner": "LV",
+          "favorite": "LAC",
+          "underdog_spread": 6.5,
+          "winner_score": 26,
+          "loser_score": 14,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "LV finished plus-2 in turnover margin against LAC.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872941",
+            "https://www.skysports.com/nfl/news/13544294/nfl-fixtures-and-schedule-2026-uk-times-for-2026-regular-season-games-and-post-season-playoffs-on-road-to-super-bowl-lxi",
+            "https://www.patspulpit.com/new-england-patriots-opinion/137543/patriots-rooting-guide-nfl-week-2-2026"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W02-MIN-CHI",
+          "winner": "MIN",
+          "favorite": "CHI",
+          "underdog_spread": 4.5,
+          "winner_score": 9,
+          "loser_score": 3,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "MIN finished plus-2 in turnover margin against CHI.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872937",
+            "https://www.skysports.com/nfl/news/13544294/nfl-fixtures-and-schedule-2026-uk-times-for-2026-regular-season-games-and-post-season-playoffs-on-road-to-super-bowl-lxi",
+            "https://www.patspulpit.com/new-england-patriots-opinion/137543/patriots-rooting-guide-nfl-week-2-2026"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W02-CIN-HOU",
+          "winner": "CIN",
+          "favorite": "HOU",
+          "underdog_spread": 3,
+          "winner_score": 20,
+          "loser_score": 6,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "CIN recorded 4 sacks against HOU.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+            "https://www.skysports.com/nfl/news/13544294/nfl-fixtures-and-schedule-2026-uk-times-for-2026-regular-season-games-and-post-season-playoffs-on-road-to-super-bowl-lxi",
+            "https://www.patspulpit.com/new-england-patriots-opinion/137543/patriots-rooting-guide-nfl-week-2-2026"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        }
+      ],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872933",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872935",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872936",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872937",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872938",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872939",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872940",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872941",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872942",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872943",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872944",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872946",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872947"
+      ],
+      "verified_at": "2026-10-20T00:59:44.978086+00:00"
+    },
+    {
+      "week": 3,
+      "status": "final",
+      "scheduled_games": 16,
+      "final_games": 16,
+      "player_coverage": {
+        "verified_box_scores": 16,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [
+          {
+            "player_id": "12483",
+            "player": "Matthew Stafford",
+            "team": "LAR",
+            "position": "QB",
+            "game_id": "2026-W03-LAR-DEN",
+            "stats": {
+              "passingYards": 390,
+              "passingTouchdowns": 2,
+              "interceptions": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "3912547",
+            "player": "Sam Darnold",
+            "team": "SEA",
+            "position": "QB",
+            "game_id": "2026-W03-SEA-WAS",
+            "stats": {
+              "passingYards": 379,
+              "passingTouchdowns": 4,
+              "interceptions": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "15864",
+            "player": "Geno Smith",
+            "team": "NYJ",
+            "position": "QB",
+            "game_id": "2026-W03-NYJ-DET",
+            "stats": {
+              "passingYards": 321,
+              "passingTouchdowns": 3,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4036378",
+            "player": "Jordan Love",
+            "team": "GB",
+            "position": "QB",
+            "game_id": "2026-W03-ATL-GB",
+            "stats": {
+              "passingYards": 312,
+              "passingTouchdowns": 2,
+              "interceptions": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4361741",
+            "player": "Brock Purdy",
+            "team": "SF",
+            "position": "QB",
+            "game_id": "2026-W03-ARI-SF",
+            "stats": {
+              "passingYards": 297,
+              "passingTouchdowns": 4,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "RB": [
+          {
+            "player_id": "4430807",
+            "player": "Bijan Robinson",
+            "team": "ATL",
+            "position": "RB",
+            "game_id": "2026-W03-ATL-GB",
+            "stats": {
+              "rushingAttempts": 29,
+              "rushingYards": 194,
+              "rushingTouchdowns": 2,
+              "yards_per_carry": 6.7
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4379399",
+            "player": "James Cook III",
+            "team": "BUF",
+            "position": "RB",
+            "game_id": "2026-W03-LAC-BUF",
+            "stats": {
+              "rushingAttempts": 24,
+              "rushingYards": 154,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 6.4
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872953",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4569987",
+            "player": "Jaylen Warren",
+            "team": "PIT",
+            "position": "RB",
+            "game_id": "2026-W03-CIN-PIT",
+            "stats": {
+              "rushingAttempts": 17,
+              "rushingYards": 127,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 7.5
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872950",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4429795",
+            "player": "Jahmyr Gibbs",
+            "team": "DET",
+            "position": "RB",
+            "game_id": "2026-W03-NYJ-DET",
+            "stats": {
+              "rushingAttempts": 20,
+              "rushingYards": 99,
+              "rushingTouchdowns": 2,
+              "yards_per_carry": 5.0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4361579",
+            "player": "Javonte Williams",
+            "team": "DAL",
+            "position": "RB",
+            "game_id": "2026-W03-BAL-DAL",
+            "stats": {
+              "rushingAttempts": 19,
+              "rushingYards": 98,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 5.2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872960",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "WR": [
+          {
+            "player_id": "4426502",
+            "player": "Drake London",
+            "team": "ATL",
+            "position": "WR",
+            "game_id": "2026-W03-ATL-GB",
+            "stats": {
+              "receptions": 9,
+              "receivingYards": 194,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "16800",
+            "player": "Davante Adams",
+            "team": "LAR",
+            "position": "WR",
+            "game_id": "2026-W03-LAR-DEN",
+            "stats": {
+              "receptions": 7,
+              "receivingYards": 137,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4430878",
+            "player": "Jaxon Smith-Njigba",
+            "team": "SEA",
+            "position": "WR",
+            "game_id": "2026-W03-SEA-WAS",
+            "stats": {
+              "receptions": 10,
+              "receivingYards": 128,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4241389",
+            "player": "CeeDee Lamb",
+            "team": "DAL",
+            "position": "WR",
+            "game_id": "2026-W03-BAL-DAL",
+            "stats": {
+              "receptions": 7,
+              "receivingYards": 112,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872960",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4361370",
+            "player": "Chris Olave",
+            "team": "NO",
+            "position": "WR",
+            "game_id": "2026-W03-LV-NO",
+            "stats": {
+              "receptions": 9,
+              "receivingYards": 107,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "TE": [
+          {
+            "player_id": "4432665",
+            "player": "Brock Bowers",
+            "team": "LV",
+            "position": "TE",
+            "game_id": "2026-W03-LV-NO",
+            "stats": {
+              "receptions": 10,
+              "receivingYards": 116,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "5083315",
+            "player": "Kenyon Sadiq",
+            "team": "NYJ",
+            "position": "TE",
+            "game_id": "2026-W03-NYJ-DET",
+            "stats": {
+              "receptions": 7,
+              "receivingYards": 105,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "3040151",
+            "player": "George Kittle",
+            "team": "SF",
+            "position": "TE",
+            "game_id": "2026-W03-ARI-SF",
+            "stats": {
+              "receptions": 6,
+              "receivingYards": 82,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4361307",
+            "player": "Trey McBride",
+            "team": "ARI",
+            "position": "TE",
+            "game_id": "2026-W03-ARI-SF",
+            "stats": {
+              "receptions": 9,
+              "receivingYards": 75,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4576297",
+            "player": "AJ Barner",
+            "team": "SEA",
+            "position": "TE",
+            "game_id": "2026-W03-SEA-WAS",
+            "stats": {
+              "receptions": 5,
+              "receivingYards": 69,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+            "market_independent": true,
+            "rank": 5
+          }
+        ]
+      },
+      "upsets": [
+        {
+          "game_id": "2026-W03-SEA-WAS",
+          "winner": "WAS",
+          "favorite": "SEA",
+          "underdog_spread": 8.5,
+          "winner_score": 33,
+          "loser_score": 31,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "WAS finished plus-3 in turnover margin against SEA.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+            "https://www.reuters.com/sports/nfl-roundup-marcus-mariota-commanders-stun-seahawks--flm-2026-09-28/",
+            "https://www.scoresandodds.com/nfl"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W03-ATL-GB",
+          "winner": "ATL",
+          "favorite": "GB",
+          "underdog_spread": 4.5,
+          "winner_score": 35,
+          "loser_score": 14,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "ATL gained 242 rushing yards on 41 carries against GB.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+            "https://www.nfl.com/games/falcons-at-packers-2026-reg-3",
+            "https://www.scoresandodds.com/nfl/falcons-vs-packers"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W03-CIN-PIT",
+          "winner": "PIT",
+          "favorite": "CIN",
+          "underdog_spread": 3.5,
+          "winner_score": 30,
+          "loser_score": 27,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "PIT finished plus-1 in turnover margin against CIN.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872950",
+            "https://www.reuters.com/sports/nfl-roundup-marcus-mariota-commanders-stun-seahawks--flm-2026-09-28/",
+            "https://www.scoresandodds.com/nfl"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W03-LV-NO",
+          "winner": "LV",
+          "favorite": "NO",
+          "underdog_spread": 3.5,
+          "winner_score": 35,
+          "loser_score": 27,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "LV finished plus-3 in turnover margin against NO.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+            "https://www.reuters.com/sports/nfl-roundup-marcus-mariota-commanders-stun-seahawks--flm-2026-09-28/",
+            "https://www.scoresandodds.com/nfl"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W03-PHI-CHI",
+          "winner": "CHI",
+          "favorite": "PHI",
+          "underdog_spread": 3,
+          "winner_score": 27,
+          "loser_score": 7,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "CHI finished plus-3 in turnover margin against PHI.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963",
+            "https://www.reuters.com/sports/nfl/third-string-qb-case-keenum-guides-bears-blowout-eagles--flm-2026-09-29/",
+            "https://www.scoresandodds.com/nfl"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W03-CAR-CLE",
+          "winner": "CLE",
+          "favorite": "CAR",
+          "underdog_spread": 2.5,
+          "winner_score": 21,
+          "loser_score": 18,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "CLE won 21\u201318; its offense gained 259 yards against CAR, compared with 360 the other way.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872949",
+            "https://www.reuters.com/sports/nfl-roundup-marcus-mariota-commanders-stun-seahawks--flm-2026-09-28/",
+            "https://www.scoresandodds.com/nfl"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W03-HOU-IND",
+          "winner": "IND",
+          "favorite": "HOU",
+          "underdog_spread": 1.5,
+          "winner_score": 19,
+          "loser_score": 17,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "IND won 19\u201317; its offense gained 300 yards against HOU, compared with 223 the other way.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872951",
+            "https://www.reuters.com/sports/nfl-roundup-marcus-mariota-commanders-stun-seahawks--flm-2026-09-28/",
+            "https://www.scoresandodds.com/nfl"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W03-MIN-TB",
+          "winner": "MIN",
+          "favorite": "TB",
+          "underdog_spread": 1.5,
+          "winner_score": 23,
+          "loser_score": 16,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:09:17.981682+00:00",
+          "summary": "MIN finished plus-1 in turnover margin against TB.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872959",
+            "https://www.reuters.com/sports/nfl-roundup-marcus-mariota-commanders-stun-seahawks--flm-2026-09-28/",
+            "https://www.scoresandodds.com/nfl"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        }
+      ],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872949",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872950",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872951",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872952",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872953",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872956",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872957",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872959",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872960",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963"
+      ],
+      "verified_at": "2026-10-20T00:59:44.978086+00:00"
+    },
+    {
+      "week": 4,
+      "status": "final",
+      "scheduled_games": 16,
+      "final_games": 16,
+      "player_coverage": {
+        "verified_box_scores": 16,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [
+          {
+            "player_id": "3915511",
+            "player": "Joe Burrow",
+            "team": "CIN",
+            "position": "QB",
+            "game_id": "2026-W04-JAX-CIN",
+            "stats": {
+              "passingYards": 428,
+              "passingTouchdowns": 1,
+              "interceptions": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "3046779",
+            "player": "Jared Goff",
+            "team": "DET",
+            "position": "QB",
+            "game_id": "2026-W04-DET-CAR",
+            "stats": {
+              "passingYards": 412,
+              "passingTouchdowns": 1,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "14880",
+            "player": "Kirk Cousins",
+            "team": "LV",
+            "position": "QB",
+            "game_id": "2026-W04-KC-LV",
+            "stats": {
+              "passingYards": 365,
+              "passingTouchdowns": 2,
+              "interceptions": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4432577",
+            "player": "C.J. Stroud",
+            "team": "HOU",
+            "position": "QB",
+            "game_id": "2026-W04-DAL-HOU",
+            "stats": {
+              "passingYards": 347,
+              "passingTouchdowns": 2,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "2577417",
+            "player": "Dak Prescott",
+            "team": "DAL",
+            "position": "QB",
+            "game_id": "2026-W04-DAL-HOU",
+            "stats": {
+              "passingYards": 335,
+              "passingTouchdowns": 1,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "RB": [
+          {
+            "player_id": "4567048",
+            "player": "Kenneth Walker III",
+            "team": "KC",
+            "position": "RB",
+            "game_id": "2026-W04-KC-LV",
+            "stats": {
+              "rushingAttempts": 22,
+              "rushingYards": 177,
+              "rushingTouchdowns": 2,
+              "yards_per_carry": 8.0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4608686",
+            "player": "Kyle Monangai",
+            "team": "CHI",
+            "position": "RB",
+            "game_id": "2026-W04-NYJ-CHI",
+            "stats": {
+              "rushingAttempts": 30,
+              "rushingYards": 146,
+              "rushingTouchdowns": 2,
+              "yards_per_carry": 4.9
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872972",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4430807",
+            "player": "Bijan Robinson",
+            "team": "ATL",
+            "position": "RB",
+            "game_id": "2026-W04-ATL-NO",
+            "stats": {
+              "rushingAttempts": 19,
+              "rushingYards": 145,
+              "rushingTouchdowns": 2,
+              "yards_per_carry": 7.6
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872979",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4241416",
+            "player": "Chuba Hubbard",
+            "team": "CAR",
+            "position": "RB",
+            "game_id": "2026-W04-DET-CAR",
+            "stats": {
+              "rushingAttempts": 20,
+              "rushingYards": 122,
+              "rushingTouchdowns": 2,
+              "yards_per_carry": 6.1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4711533",
+            "player": "Ollie Gordon II",
+            "team": "MIA",
+            "position": "RB",
+            "game_id": "2026-W04-MIA-MIN",
+            "stats": {
+              "rushingAttempts": 9,
+              "rushingYards": 100,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 11.1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872974",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "WR": [
+          {
+            "player_id": "4685472",
+            "player": "Tetairoa McMillan",
+            "team": "CAR",
+            "position": "WR",
+            "game_id": "2026-W04-DET-CAR",
+            "stats": {
+              "receptions": 14,
+              "receivingYards": 192,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4241389",
+            "player": "CeeDee Lamb",
+            "team": "DAL",
+            "position": "WR",
+            "game_id": "2026-W04-DAL-HOU",
+            "stats": {
+              "receptions": 17,
+              "receivingYards": 189,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4239993",
+            "player": "Tee Higgins",
+            "team": "CIN",
+            "position": "WR",
+            "game_id": "2026-W04-JAX-CIN",
+            "stats": {
+              "receptions": 11,
+              "receivingYards": 157,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4871023",
+            "player": "Carnell Tate",
+            "team": "TEN",
+            "position": "WR",
+            "game_id": "2026-W04-TEN-BAL",
+            "stats": {
+              "receptions": 9,
+              "receivingYards": 145,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872973",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4426515",
+            "player": "Puka Nacua",
+            "team": "LAR",
+            "position": "WR",
+            "game_id": "2026-W04-LAR-PHI",
+            "stats": {
+              "receptions": 9,
+              "receivingYards": 125,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872970",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "TE": [
+          {
+            "player_id": "4036133",
+            "player": "T.J. Hockenson",
+            "team": "MIN",
+            "position": "TE",
+            "game_id": "2026-W04-MIA-MIN",
+            "stats": {
+              "receptions": 13,
+              "receivingYards": 119,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872974",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4430539",
+            "player": "Brenton Strange",
+            "team": "JAX",
+            "position": "TE",
+            "game_id": "2026-W04-JAX-CIN",
+            "stats": {
+              "receptions": 7,
+              "receivingYards": 95,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4432665",
+            "player": "Brock Bowers",
+            "team": "LV",
+            "position": "TE",
+            "game_id": "2026-W04-KC-LV",
+            "stats": {
+              "receptions": 6,
+              "receivingYards": 86,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4430027",
+            "player": "Sam LaPorta",
+            "team": "DET",
+            "position": "TE",
+            "game_id": "2026-W04-DET-CAR",
+            "stats": {
+              "receptions": 8,
+              "receivingYards": 84,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4429086",
+            "player": "Michael Mayer",
+            "team": "LV",
+            "position": "TE",
+            "game_id": "2026-W04-KC-LV",
+            "stats": {
+              "receptions": 8,
+              "receivingYards": 82,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+            "market_independent": true,
+            "rank": 5
+          }
+        ]
+      },
+      "upsets": [
+        {
+          "game_id": "2026-W04-NE-BUF",
+          "winner": "NE",
+          "favorite": "BUF",
+          "underdog_spread": 7,
+          "winner_score": 29,
+          "loser_score": 26,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
+          "summary": "Maye delivered late; Buffalo couldn\u2019t finish defensively.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872971",
+            "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+            "https://www.nfl.com/schedules/2026/REG4/"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W04-DET-CAR",
+          "winner": "CAR",
+          "favorite": "DET",
+          "underdog_spread": 3.5,
+          "winner_score": 32,
+          "loser_score": 26,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
+          "summary": "McMillan exposed Detroit\u2019s coverage; Carolina finished drives better.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+            "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+            "https://www.nfl.com/schedules/2026/REG4/"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W04-DAL-HOU",
+          "winner": "DAL",
+          "favorite": "HOU",
+          "underdog_spread": 3,
+          "winner_score": 34,
+          "loser_score": 30,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
+          "summary": "Lamb overwhelmed Houston\u2019s coverage; Dallas scored repeatedly after halftime.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+            "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+            "https://www.nfl.com/schedules/2026/REG4/"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W04-ARI-NYG",
+          "winner": "NYG",
+          "favorite": "ARI",
+          "underdog_spread": 2.5,
+          "winner_score": 36,
+          "loser_score": 24,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
+          "summary": "Banks ended Arizona\u2019s comeback with a decisive interception return.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
+            "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+            "https://www.nfl.com/schedules/2026/REG4/"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W04-JAX-CIN",
+          "winner": "JAX",
+          "favorite": "CIN",
+          "underdog_spread": 2.5,
+          "winner_score": 22,
+          "loser_score": 17,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
+          "summary": "JAX finished plus-2 in turnover margin against CIN.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+            "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+            "https://www.nfl.com/schedules/2026/REG4/"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W04-PIT-CLE",
+          "winner": "CLE",
+          "favorite": "PIT",
+          "underdog_spread": 2.5,
+          "winner_score": 27,
+          "loser_score": 24,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
+          "summary": "CLE recorded 5 sacks against PIT.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+            "https://www.reuters.com/sports/nfl/browns-blow-11-point-lead-rally-past-steelers--flm-2026-10-02/",
+            "https://www.behindthesteelcurtain.com/pittsburgh-steelers-analysis/175650/steelers-allow-five-sacks-on-aaron-rodgers-fall-to-browns-27-24-tj-watt"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W04-ATL-NO",
+          "winner": "ATL",
+          "favorite": "NO",
+          "underdog_spread": 1.5,
+          "winner_score": 45,
+          "loser_score": 24,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:08:37.440332+00:00",
+          "summary": "ATL finished plus-1 in turnover margin against NO.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872979",
+            "https://www.cbssports.com/nfl/scoreboard/2026/regular/4/",
+            "https://www.nfl.com/schedules/2026/REG4/"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        }
+      ],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872965",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872968",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872970",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872971",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872972",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872973",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872974",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872975",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872977",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872979"
+      ],
+      "verified_at": "2026-10-20T00:59:44.978086+00:00"
+    },
+    {
+      "week": 5,
+      "status": "final",
+      "scheduled_games": 15,
+      "final_games": 15,
+      "player_coverage": {
+        "verified_box_scores": 15,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [
+          {
+            "player_id": "12483",
+            "player": "Matthew Stafford",
+            "team": "LAR",
+            "position": "QB",
+            "game_id": "2026-W05-BUF-LAR",
+            "stats": {
+              "passingYards": 383,
+              "passingTouchdowns": 3,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4431452",
+            "player": "Drake Maye",
+            "team": "NE",
+            "position": "QB",
+            "game_id": "2026-W05-LV-NE",
+            "stats": {
+              "passingYards": 374,
+              "passingTouchdowns": 4,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4036378",
+            "player": "Jordan Love",
+            "team": "GB",
+            "position": "QB",
+            "game_id": "2026-W05-CHI-GB",
+            "stats": {
+              "passingYards": 367,
+              "passingTouchdowns": 2,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4360310",
+            "player": "Trevor Lawrence",
+            "team": "JAX",
+            "position": "QB",
+            "game_id": "2026-W05-PHI-JAX",
+            "stats": {
+              "passingYards": 331,
+              "passingTouchdowns": 2,
+              "interceptions": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872981",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "2969939",
+            "player": "Jameis Winston",
+            "team": "NYG",
+            "position": "QB",
+            "game_id": "2026-W05-NYG-WAS",
+            "stats": {
+              "passingYards": 326,
+              "passingTouchdowns": 3,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "RB": [
+          {
+            "player_id": "4596448",
+            "player": "Bucky Irving",
+            "team": "TB",
+            "position": "RB",
+            "game_id": "2026-W05-TB-DAL",
+            "stats": {
+              "rushingAttempts": 21,
+              "rushingYards": 165,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 7.9
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4429795",
+            "player": "Jahmyr Gibbs",
+            "team": "DET",
+            "position": "RB",
+            "game_id": "2026-W05-DET-ARI",
+            "stats": {
+              "rushingAttempts": 25,
+              "rushingYards": 151,
+              "rushingTouchdowns": 2,
+              "yards_per_carry": 6.0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4685247",
+            "player": "Braelon Allen",
+            "team": "NYJ",
+            "position": "RB",
+            "game_id": "2026-W05-CLE-NYJ",
+            "stats": {
+              "rushingAttempts": 24,
+              "rushingYards": 116,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 4.8
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872983",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "3042519",
+            "player": "Aaron Jones Sr.",
+            "team": "MIN",
+            "position": "RB",
+            "game_id": "2026-W05-MIN-NO",
+            "stats": {
+              "rushingAttempts": 25,
+              "rushingYards": 113,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 4.5
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4379399",
+            "player": "James Cook III",
+            "team": "BUF",
+            "position": "RB",
+            "game_id": "2026-W05-BUF-LAR",
+            "stats": {
+              "rushingAttempts": 25,
+              "rushingYards": 111,
+              "rushingTouchdowns": 2,
+              "yards_per_carry": 4.4
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "WR": [
+          {
+            "player_id": "4248528",
+            "player": "Christian Watson",
+            "team": "GB",
+            "position": "WR",
+            "game_id": "2026-W05-CHI-GB",
+            "stats": {
+              "receptions": 6,
+              "receivingYards": 143,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4426515",
+            "player": "Puka Nacua",
+            "team": "LAR",
+            "position": "WR",
+            "game_id": "2026-W05-BUF-LAR",
+            "stats": {
+              "receptions": 17,
+              "receivingYards": 138,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4426354",
+            "player": "George Pickens",
+            "team": "DAL",
+            "position": "WR",
+            "game_id": "2026-W05-TB-DAL",
+            "stats": {
+              "receptions": 9,
+              "receivingYards": 130,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4432620",
+            "player": "Parker Washington",
+            "team": "JAX",
+            "position": "WR",
+            "game_id": "2026-W05-PHI-JAX",
+            "stats": {
+              "receptions": 6,
+              "receivingYards": 124,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872981",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4701936",
+            "player": "Matthew Golden",
+            "team": "GB",
+            "position": "WR",
+            "game_id": "2026-W05-CHI-GB",
+            "stats": {
+              "receptions": 6,
+              "receivingYards": 123,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "TE": [
+          {
+            "player_id": "4432665",
+            "player": "Brock Bowers",
+            "team": "LV",
+            "position": "TE",
+            "game_id": "2026-W05-LV-NE",
+            "stats": {
+              "receptions": 8,
+              "receivingYards": 110,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4361050",
+            "player": "Isaiah Likely",
+            "team": "NYG",
+            "position": "TE",
+            "game_id": "2026-W05-NYG-WAS",
+            "stats": {
+              "receptions": 11,
+              "receivingYards": 94,
+              "receivingTouchdowns": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4430027",
+            "player": "Sam LaPorta",
+            "team": "DET",
+            "position": "TE",
+            "game_id": "2026-W05-DET-ARI",
+            "stats": {
+              "receptions": 5,
+              "receivingYards": 88,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "2573401",
+            "player": "Tyler Higbee",
+            "team": "LAR",
+            "position": "TE",
+            "game_id": "2026-W05-BUF-LAR",
+            "stats": {
+              "receptions": 5,
+              "receivingYards": 83,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4431459",
+            "player": "Tyler Warren",
+            "team": "IND",
+            "position": "TE",
+            "game_id": "2026-W05-IND-PIT",
+            "stats": {
+              "receptions": 7,
+              "receivingYards": 83,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+            "market_independent": true,
+            "rank": 4
+          }
+        ]
+      },
+      "upsets": [
+        {
+          "game_id": "2026-W05-TB-DAL",
+          "winner": "TB",
+          "favorite": "DAL",
+          "underdog_spread": 8.5,
+          "winner_score": 24,
+          "loser_score": 16,
+          "line_type": "closing",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": null,
+          "market_verified_at": "2026-10-11T10:06:36.602550+00:00",
+          "summary": "TB finished plus-3 in turnover margin against DAL.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+            "https://www.nfl.com/news/2026-nfl-season-week-5-what-we-learned-from-sunday-s-games"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W05-BAL-ATL",
+          "winner": "BAL",
+          "favorite": "ATL",
+          "underdog_spread": 3,
+          "winner_score": 30,
+          "loser_score": 23,
+          "line_type": "latest_verified_pregame_snapshot",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": "2026-10-11T10:03:32.899147+00:00",
+          "market_verified_at": "2026-10-13T10:16:47.397437+00:00",
+          "summary": "BAL gained 208 rushing yards on 35 carries against ATL.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993",
+            "https://www.nfl.com/news/2026-nfl-season-week-5-what-we-learned-from-sunday-s-games"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W05-BUF-LAR",
+          "winner": "BUF",
+          "favorite": "LAR",
+          "underdog_spread": 3,
+          "winner_score": 37,
+          "loser_score": 34,
+          "line_type": "latest_verified_pregame_snapshot",
+          "provider": "CBS Sports",
+          "market_as_of": "2026-10-08T12:07:07-04:00",
+          "market_verified_at": "2026-10-13T10:16:47.397437+00:00",
+          "summary": "BUF gained 234 rushing yards on 37 carries against LAR.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+            "https://www.buffalobills.com/news/bills-37-rams-34-final-score-recap-highlights"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W05-SF-SEA",
+          "winner": "SF",
+          "favorite": "SEA",
+          "underdog_spread": 3,
+          "winner_score": 32,
+          "loser_score": 29,
+          "line_type": "latest_verified_pregame_snapshot",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": "2026-10-11T10:03:32.858026+00:00",
+          "market_verified_at": "2026-10-13T10:16:47.397437+00:00",
+          "summary": "SF finished plus-1 in turnover margin against SEA.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+            "https://www.nfl.com/news/2026-nfl-season-week-5-what-we-learned-from-sunday-s-games"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        },
+        {
+          "game_id": "2026-W05-CHI-GB",
+          "winner": "GB",
+          "favorite": "CHI",
+          "underdog_spread": 1.5,
+          "winner_score": 31,
+          "loser_score": 7,
+          "line_type": "latest_verified_pregame_snapshot",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": "2026-10-11T10:03:32.862026+00:00",
+          "market_verified_at": "2026-10-13T10:16:47.397437+00:00",
+          "summary": "GB finished plus-5 in turnover margin against CHI.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+            "https://www.nfl.com/news/2026-nfl-season-week-5-what-we-learned-from-sunday-s-games"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        }
+      ],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872981",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872982",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872983",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872984",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872989",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994"
+      ],
+      "verified_at": "2026-10-20T00:59:44.978086+00:00"
+    },
+    {
+      "week": 6,
+      "status": "in_progress",
+      "scheduled_games": 14,
+      "final_games": 1,
+      "player_coverage": {
+        "verified_box_scores": 1,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [
+          {
+            "player_id": "3912547",
+            "player": "Sam Darnold",
+            "team": "SEA",
+            "position": "QB",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "passingYards": 278,
+              "passingTouchdowns": 0,
+              "interceptions": 2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4426338",
+            "player": "Bo Nix",
+            "team": "DEN",
+            "position": "QB",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "passingYards": 107,
+              "passingTouchdowns": 0,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 2
+          }
+        ],
+        "RB": [
+          {
+            "player_id": "4887558",
+            "player": "Emanuel Wilson",
+            "team": "SEA",
+            "position": "RB",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "rushingAttempts": 14,
+              "rushingYards": 52,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 3.7
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4241985",
+            "player": "J.K. Dobbins",
+            "team": "DEN",
+            "position": "RB",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "rushingAttempts": 17,
+              "rushingYards": 41,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 2.4
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4568490",
+            "player": "RJ Harvey",
+            "team": "DEN",
+            "position": "RB",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "rushingAttempts": 6,
+              "rushingYards": 25,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 4.2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4429835",
+            "player": "George Holani",
+            "team": "SEA",
+            "position": "RB",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "rushingAttempts": 5,
+              "rushingYards": 20,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 4.0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4035693",
+            "player": "Velus Jones Jr.",
+            "team": "SEA",
+            "position": "RB",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "rushingAttempts": 4,
+              "rushingYards": 20,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 5.0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 4
+          }
+        ],
+        "WR": [
+          {
+            "player_id": "4430878",
+            "player": "Jaxon Smith-Njigba",
+            "team": "SEA",
+            "position": "WR",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "receptions": 12,
+              "receivingYards": 134,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4032473",
+            "player": "Rashid Shaheed",
+            "team": "SEA",
+            "position": "WR",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "receptions": 5,
+              "receivingYards": 66,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "2977187",
+            "player": "Cooper Kupp",
+            "team": "SEA",
+            "position": "WR",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "receptions": 5,
+              "receivingYards": 50,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4372016",
+            "player": "Jaylen Waddle",
+            "team": "DEN",
+            "position": "WR",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "receptions": 4,
+              "receivingYards": 24,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "3128429",
+            "player": "Courtland Sutton",
+            "team": "DEN",
+            "position": "WR",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "receptions": 2,
+              "receivingYards": 19,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "TE": [
+          {
+            "player_id": "4576297",
+            "player": "AJ Barner",
+            "team": "SEA",
+            "position": "TE",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "receptions": 3,
+              "receivingYards": 16,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "3051876",
+            "player": "Evan Engram",
+            "team": "DEN",
+            "position": "TE",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "receptions": 2,
+              "receivingYards": 13,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "2975863",
+            "player": "Eric Saubert",
+            "team": "SEA",
+            "position": "TE",
+            "game_id": "2026-W06-SEA-DEN",
+            "stats": {
+              "receptions": 0,
+              "receivingYards": 0,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "market_independent": true,
+            "rank": 3
+          }
+        ]
+      },
+      "upsets": [
+        {
+          "game_id": "2026-W06-SEA-DEN",
+          "winner": "DEN",
+          "favorite": "SEA",
+          "underdog_spread": 2.5,
+          "winner_score": 17,
+          "loser_score": 14,
+          "line_type": "latest_verified_pregame_snapshot",
+          "provider": "DraftKings via ESPN",
+          "market_as_of": "2026-10-15T16:04:15.295559+00:00",
+          "market_verified_at": "2026-10-18T10:05:40.710695+00:00",
+          "summary": "DEN finished plus-3 in turnover margin against SEA.",
+          "source_urls": [
+            "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+            "https://www.seahawks.com/news/rapid-reactions-seahawks-late-game-comeback-falls-short-in-17-14-overtime-loss-to-broncos"
+          ],
+          "verified_at": "2026-10-20T00:59:44.978086+00:00"
+        }
+      ],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995"
+      ],
+      "verified_at": "2026-10-20T00:59:44.978086+00:00"
+    },
+    {
+      "week": 7,
+      "status": "in_progress",
+      "scheduled_games": 14,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 8,
+      "status": "in_progress",
+      "scheduled_games": 14,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 9,
+      "status": "in_progress",
+      "scheduled_games": 15,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 10,
+      "status": "in_progress",
+      "scheduled_games": 14,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 11,
+      "status": "in_progress",
+      "scheduled_games": 13,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 12,
+      "status": "in_progress",
+      "scheduled_games": 16,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 13,
+      "status": "in_progress",
+      "scheduled_games": 14,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 14,
+      "status": "in_progress",
+      "scheduled_games": 15,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 15,
+      "status": "in_progress",
+      "scheduled_games": 16,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 16,
+      "status": "in_progress",
+      "scheduled_games": 16,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 17,
+      "status": "in_progress",
+      "scheduled_games": 16,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    },
+    {
+      "week": 18,
+      "status": "in_progress",
+      "scheduled_games": 16,
+      "final_games": 0,
+      "player_coverage": {
+        "verified_box_scores": 0,
+        "missing_game_ids": []
+      },
+      "players": {
+        "QB": [],
+        "RB": [],
+        "WR": [],
+        "TE": []
+      },
+      "upsets": [],
+      "upset_market_unavailable_game_ids": [],
+      "source_urls": [],
+      "verified_at": null
+    }
+  ]
+}
