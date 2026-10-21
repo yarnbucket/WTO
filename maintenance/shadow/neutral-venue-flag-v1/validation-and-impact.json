@@ -1,0 +1,89 @@
+{
+  "candidate_version": "opponent-adjusted-points-v2-neutral-venue-flag-shadow-v1",
+  "generated_at": "2026-10-21T15:27:45.294Z",
+  "publication_status": "SHADOW_ONLY_NOT_PRODUCTION",
+  "base_commit": "289d1af2ca4d342128e7146c707a1796e06e3c71",
+  "ledger_blob_sha": "61c3fc551e6d50017ae4692b2a9bbfa52b6a7e95",
+  "approved_model_sha256": "b28576f6249ba6a2eacd39542e2f84b4661dca84260ad2eaff5a81b4fa65e7c6",
+  "candidate_model_sha256": "50c1cc023672f8ae0d1b69e926a496168c55e5d2e8138b2c7830628ab4962757",
+  "scope": "Only venue classification/home-field handling changed; fixed0.75 adjustment, all scoring weights, training distributions and calibration unchanged.",
+  "game": {
+    "game_id": "2026-W07-PIT-NO",
+    "kickoff": "2026-10-25T09:30:00-04:00",
+    "away": "PIT",
+    "home": "NO",
+    "venue": "Stade de France",
+    "neutral_site": true,
+    "venue_source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011"
+  },
+  "through_week": 6,
+  "completed_games": 93,
+  "approved_before": {
+    "away_score": 26.598758320532514,
+    "home_score": 24.481694828469024,
+    "away_rounded": 27,
+    "home_rounded": 24,
+    "away_margin": 2.1170634920634903,
+    "total": 51.08045314900154,
+    "winner": "PIT"
+  },
+  "shadow_after": {
+    "away_score": 27.348758320532514,
+    "home_score": 23.731694828469024,
+    "away_rounded": 27,
+    "home_rounded": 24,
+    "away_margin": 3.6170634920634903,
+    "total": 51.08045314900154,
+    "winner": "PIT"
+  },
+  "effect": {
+    "away_points": 0.75,
+    "home_points": -0.75,
+    "away_margin": 1.5,
+    "total": 0
+  },
+  "market": {
+    "favorite": "PIT",
+    "spread": -3.5,
+    "total": 44.5,
+    "provider": "DraftKings via ESPN",
+    "as_of": "2026-10-20T10:00:00.429175+00:00",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+    "note": "Saved verified October20 market, not newly refreshed live odds. Independent model points do not use market inputs."
+  },
+  "shadow_market_comparison": {
+    "away_points_above_spread_threshold": 0.11706349206349032,
+    "total_difference": 6.580453149001542,
+    "note": "Unrounded point comparison only; not calibrated win/ATS/total probabilities or expected returns."
+  },
+  "regression": {
+    "ordinary_home_games": 13,
+    "ordinary_home_predictions_identical": true,
+    "verified_former_neutral_case_pass": true,
+    "ordinary_PHI_JAX_case_pass": true,
+    "unknown_or_nonboolean_flag_rejected": true,
+    "syntax_pass": true
+  },
+  "limitations": [
+    "Shadow mathematical baseline from verified results through Week6; current lineup/injury inputs have not been refreshed for this isolated venue-rule experiment.",
+    "This does not resolve other availability/context gaps or authorize production forecasts automatically.",
+    "Unknown neutral-site flags are rejected rather than assumed home games; calling workflows must verify and pass a boolean flag.",
+    "No untouched accuracy or calibration improvement is claimed from this mechanical correction; no candidate promotion or production model change."
+  ],
+  "approval": {
+    "approved": "Prepare and test the neutral-site correction and review projected-score impact only.",
+    "production_promotion": "PENDING_EXPLICIT_USER_APPROVAL"
+  },
+  "rollback": {
+    "target": "scripts/wto-points-model.mjs remains unchanged",
+    "approved_artifact_sha256": "b28576f6249ba6a2eacd39542e2f84b4661dca84260ad2eaff5a81b4fa65e7c6",
+    "readiness": "Approved model copy retained alongside shadow candidate; before any promotion verify current production hash against this target and preserve current release. Related published histories, EX residuals and personal picks unchanged."
+  },
+  "promotion_review_criteria": [
+    "All focused venue regression and syntax checks must pass.",
+    "Every applicable caller must supply verified game-specific neutral_site boolean; missing/unverified flags must remain unavailable.",
+    "Only the neutral flag classification and explicit missing-flag guard may differ from approved code; no numerical coefficients/calibration/training changes.",
+    "Review before/after score impact and exact data cutoff with the user.",
+    "Preserve approved production artifact and release rollback target, revalidate latest main and obtain explicit promotion approval."
+  ]
+}

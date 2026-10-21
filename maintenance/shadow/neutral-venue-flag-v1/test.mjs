@@ -1,0 +1,12 @@
+import {projectMatchup as candidate} from './candidate.mjs';
+import {projectMatchup as approved} from './approved.mjs';
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const ledger=JSON.parse(fs.readFileSync(process.env.WTO_LEDGER_PATH||new URL('../../../ff26-nfl-lines-2026.json',import.meta.url)));
+const finals=ledger.weeks.filter(w=>w.week<=6).flatMap(w=>w.games).filter(g=>g.status==='final');
+const upcoming=ledger.weeks.find(w=>w.week===7).games;const neutral=upcoming.find(g=>g.away==='PIT'&&g.home==='NO');assert.equal(neutral.neutral_site,true);
+const before=approved(neutral,finals),after=candidate(neutral,finals);assert(Math.abs(after.away_points-before.away_points-.75)<1e-12,'verified neutral must remove away home-field deduction');assert(Math.abs(after.home_points-before.home_points+.75)<1e-12,'verified neutral must remove nominal-home bonus');
+for(const g of upcoming.filter(g=>g.neutral_site===false))assert.deepEqual(candidate(g,finals),approved(g,finals),'ordinary home venue unchanged '+g.game_id);
+const phi={away:'PHI',home:'JAX',neutral_site:true};assert.deepEqual(candidate(phi,finals),approved(phi,finals),'formerly hardcoded neutral case remains correct when venue verified neutral');
+const ordinaryPhi={...phi,neutral_site:false};const home=candidate(ordinaryPhi,finals),n=candidate(phi,finals);assert(Math.abs(home.away_points-n.away_points+.75)<1e-12);assert(Math.abs(home.home_points-n.home_points-.75)<1e-12);
+for(const bad of [undefined,null,'true','false',0,1])assert.throws(()=>candidate({...neutral,neutral_site:bad},finals),/Verified neutral_site flag required/,'unknown venue must not be guessed');
+console.log('PASS: neutral correction;13 ordinary home games identical;old hardcoded neutral verified;ordinary PHI-JAX no longer falsely neutral;unverified venue flags rejected');
