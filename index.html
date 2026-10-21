@@ -770,7 +770,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return null;const prompt=deferredInstallPrompt;deferredInstallPrompt=null;installBtn.classList.remove('show');await prompt.prompt();const choice=await prompt.userChoice;return choice?.outcome??null}
 
-const WTO_RELEASE='2026-10-20-v129';
+const WTO_RELEASE='2026-10-21-v130';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -790,7 +790,7 @@ if('serviceWorker' in navigator){
  navigator.serviceWorker.addEventListener('controllerchange',()=>showWtoUpdateNotice(true));
  addEventListener('load',async()=>{
   try{
-   const registration=await navigator.serviceWorker.register('./sw.js?v=129',{updateViaCache:'none'});
+   const registration=await navigator.serviceWorker.register('./sw.js?v=130',{updateViaCache:'none'});
    const check=()=>registration.update().catch(()=>{});
    document.addEventListener('visibilitychange',()=>{if(!document.hidden)check()});
    addEventListener('online',check);check();
@@ -1078,7 +1078,7 @@ function card(g){const fin=g.status==='final',winner=fin?(gameWinner(g)||'TIE'):
 function compactMatchupCard(g){
   const fav=isFavorite(g.away)||isFavorite(g.home),fin=g.status==='final',ats=resolvedAts(g),totalResult=resolvedTotalResult(g),revision=fin?null:latestPregameInsight(g.id),read=revision?WTOUI.compactRead(g,revision):null,weather=revision?WTOUI.weatherView(revision):{visible:false},saved=WTOUI.pickSummary(g,picks,advancedPicks);
   const market=fin?`<span><small>${safeText(g.lineLabel||'RESULT')}</small>${safeText(g.favorite||'—')} ${g.spread==null?'—':signed(g.spread)}</span><span><small>FINAL TOTAL</small>${g.combinedPoints??combinedTotal(g)??'—'} · ${safeText(totalResult?.toUpperCase()||'—')}</span>`:`<span><small>CURRENT SPREAD</small>${safeText(g.favorite||'—')} ${g.spread==null?'—':signed(g.spread)}</span><span><small>CURRENT TOTAL</small>O/U ${g.total??'—'}</span>`;
-  const quickRead=read?`<span class="compact-read"><b>WTO READ · ${safeText(read.confidence)}</b>${safeText(read.edge)} · ${safeText(read.game_script)}${read.watch?` · Watch: ${safeText(read.watch)}`:''}</span>`:'';
+  const quickRead=(!read||read.confidence==='UNAVAILABLE')?'<span class="compact-read"><b>WTO READ · UNAVAILABLE</b></span>':read?`<span class="compact-read"><b>WTO READ · ${safeText(read.confidence)}</b>${safeText(read.edge)} · ${safeText(read.game_script)}${read.watch?` · Watch: ${safeText(read.watch)}`:''}</span>`:'';
   const pickValues=[saved.winner?`WIN ${safeText(saved.winner)}`:'',saved.ats?`ATS ${safeText(saved.ats)}`:'',saved.total?`O/U ${safeText(String(saved.total).toUpperCase())}`:''].filter(Boolean).join(' · ');
   const metadata=`${weather.visible?`<span class="weather-chip">WEATHER · ${safeText(weather.text)}</span>`:''}${saved.saved?`<span class="pick-chip">PICKS SAVED · ${pickValues}</span>`:''}`;
   const result=fin?`<span class="compact-read"><b>FINAL · ATS ${safeText(ats||'—')}</b>${totalResult==='push'?'Total pushed':totalResult?`${safeText(totalResult.toUpperCase())} hit`:'Total pending'}</span>`:quickRead;
