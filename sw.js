@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v130-unavailable-card';
+const CACHE = 'wto-shell-v131-injury-role-abbreviations';
 
 const SHELL = [
   './',
