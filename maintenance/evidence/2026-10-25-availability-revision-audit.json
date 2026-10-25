@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-10-25T11:16:26.015681+00:00",
+  "revisions": [
+    {
+      "game_id": "2026-W07-PIT-NO",
+      "revision_id": "2026-W07-PIT-NO-sunday-evidence-202610251116260156810000",
+      "projection_available": false,
+      "verified_roles": 23,
+      "reported_questionable": 4
+    },
+    {
+      "game_id": "2026-W07-CIN-BAL",
+      "revision_id": "2026-W07-CIN-BAL-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 21,
+      "reported_questionable": 1
+    },
+    {
+      "game_id": "2026-W07-CLE-TEN",
+      "revision_id": "2026-W07-CLE-TEN-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 25,
+      "reported_questionable": 7
+    },
+    {
+      "game_id": "2026-W07-IND-MIN",
+      "revision_id": "2026-W07-IND-MIN-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 31,
+      "reported_questionable": 3
+    },
+    {
+      "game_id": "2026-W07-MIA-NYJ",
+      "revision_id": "2026-W07-MIA-NYJ-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 23,
+      "reported_questionable": 5
+    },
+    {
+      "game_id": "2026-W07-NYG-HOU",
+      "revision_id": "2026-W07-NYG-HOU-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 31,
+      "reported_questionable": 5
+    },
+    {
+      "game_id": "2026-W07-SF-ATL",
+      "revision_id": "2026-W07-SF-ATL-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 29,
+      "reported_questionable": 11
+    },
+    {
+      "game_id": "2026-W07-TB-CAR",
+      "revision_id": "2026-W07-TB-CAR-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 27,
+      "reported_questionable": 3
+    },
+    {
+      "game_id": "2026-W07-DEN-ARI",
+      "revision_id": "2026-W07-DEN-ARI-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 19,
+      "reported_questionable": 6
+    },
+    {
+      "game_id": "2026-W07-GB-DET",
+      "revision_id": "2026-W07-GB-DET-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 19,
+      "reported_questionable": 6
+    },
+    {
+      "game_id": "2026-W07-LAR-LV",
+      "revision_id": "2026-W07-LAR-LV-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 21,
+      "reported_questionable": 4
+    },
+    {
+      "game_id": "2026-W07-KC-SEA",
+      "revision_id": "2026-W07-KC-SEA-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 24,
+      "reported_questionable": 7
+    },
+    {
+      "game_id": "2026-W07-DAL-PHI",
+      "revision_id": "2026-W07-DAL-PHI-sunday-evidence-202610251116260156810000",
+      "projection_available": true,
+      "verified_roles": 37,
+      "reported_questionable": 9
+    }
+  ],
+  "role_gaps": [],
+  "projection_policy": "Preserved approved numerical baseline; injury evidence does not invent score adjustments. Neutral candidate not promoted."
+}

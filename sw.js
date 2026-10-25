@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v131-injury-role-abbreviations';
+const CACHE = 'wto-shell-v132-sunday-markets';
 
 const SHELL = [
   './',

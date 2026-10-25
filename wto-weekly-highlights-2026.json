@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "season": 2026,
-  "updated_at": "2026-10-20T04:13:07.836439+00:00",
+  "updated_at": "2026-10-25T11:12:56.919303+00:00",
   "methodology": "Weekly individual game statistics, not cumulative season totals; top five QB by gross passing yards, RB by rushing yards, WR and TE separately by receiving yards. Positions verified using ESPN 2026 rosters/athlete profiles. Upsets are outright wins by underdogs using stored verified closing markets or separately identified Last Verified grading markets; ties, pick-em, favorite wins and cover-only results excluded. Market gaps disclosed. Recaps reuse saved verified box scores without claiming unsupported causes.",
   "weeks": [
     {
@@ -2840,21 +2840,339 @@
       "week": 7,
       "status": "in_progress",
       "scheduled_games": 14,
-      "final_games": 0,
+      "final_games": 1,
       "player_coverage": {
-        "verified_box_scores": 0,
-        "missing_game_ids": []
+        "verified_box_scores": 1,
+        "missing_game_ids": [],
+        "missing_positions": [],
+        "category_totals_reconciled": true,
+        "scope": "Only completed games so far; remaining13 games unfinished. Fewer than5 players per position retained when that is all verified finals provide."
       },
       "players": {
-        "QB": [],
-        "RB": [],
-        "WR": [],
-        "TE": []
+        "QB": [
+          {
+            "player_id": "4431452",
+            "player": "Drake Maye",
+            "position": "QB",
+            "team": "NE",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "passingYards": 321,
+              "passingTouchdowns": 2,
+              "interceptions": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4431611",
+            "player": "Caleb Williams",
+            "position": "QB",
+            "team": "CHI",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "passingYards": 308,
+              "passingTouchdowns": 2,
+              "interceptions": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 2
+          }
+        ],
+        "RB": [
+          {
+            "player_id": "4259545",
+            "player": "D'Andre Swift",
+            "position": "RB",
+            "team": "CHI",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "rushingAttempts": 22,
+              "rushingYards": 78,
+              "rushingTouchdowns": 1,
+              "yards_per_carry": 3.5
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4569173",
+            "player": "Rhamondre Stevenson",
+            "position": "RB",
+            "team": "NE",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "rushingAttempts": 6,
+              "rushingYards": 22,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 3.7
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4431431",
+            "player": "Corey Kiner",
+            "position": "RB",
+            "team": "NE",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "rushingAttempts": 4,
+              "rushingYards": 13,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 3.2
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4426386",
+            "player": "Roschon Johnson",
+            "position": "RB",
+            "team": "CHI",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "rushingAttempts": 2,
+              "rushingYards": 13,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 6.5
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4432710",
+            "player": "TreVeyon Henderson",
+            "position": "RB",
+            "team": "NE",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "rushingAttempts": 3,
+              "rushingYards": 9,
+              "rushingTouchdowns": 0,
+              "yards_per_carry": 3
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "WR": [
+          {
+            "player_id": "4685278",
+            "player": "Luther Burden III",
+            "position": "WR",
+            "team": "CHI",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "receptions": 4,
+              "receivingYards": 130,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4431299",
+            "player": "Rome Odunze",
+            "position": "WR",
+            "team": "CHI",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "receptions": 4,
+              "receivingYards": 69,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4047646",
+            "player": "A.J. Brown",
+            "position": "WR",
+            "team": "NE",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "receptions": 3,
+              "receivingYards": 48,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4427095",
+            "player": "DeMario Douglas",
+            "position": "WR",
+            "team": "NE",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "receptions": 3,
+              "receivingYards": 23,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 4
+          },
+          {
+            "player_id": "4695193",
+            "player": "Efton Chism III",
+            "position": "WR",
+            "team": "NE",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "receptions": 1,
+              "receivingYards": 16,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 5
+          }
+        ],
+        "TE": [
+          {
+            "player_id": "3046439",
+            "player": "Hunter Henry",
+            "position": "TE",
+            "team": "NE",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "receptions": 7,
+              "receivingYards": 71,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 1
+          },
+          {
+            "player_id": "4723086",
+            "player": "Colston Loveland",
+            "position": "TE",
+            "team": "CHI",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "receptions": 7,
+              "receivingYards": 69,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 2
+          },
+          {
+            "player_id": "4831959",
+            "player": "Eli Raridon",
+            "position": "TE",
+            "team": "NE",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "receptions": 3,
+              "receivingYards": 56,
+              "receivingTouchdowns": 1
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 3
+          },
+          {
+            "player_id": "4258595",
+            "player": "Cole Kmet",
+            "position": "TE",
+            "team": "CHI",
+            "game_id": "2026-W07-NE-CHI",
+            "stats": {
+              "receptions": 3,
+              "receivingYards": 28,
+              "receivingTouchdowns": 0
+            },
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+            "verified_at": "2026-10-25T11:09:47.732749+00:00",
+            "position_evidence": {
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026"
+            },
+            "market_independent": true,
+            "rank": 4
+          }
+        ]
       },
       "upsets": [],
       "upset_market_unavailable_game_ids": [],
-      "source_urls": [],
-      "verified_at": null
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010"
+      ],
+      "verified_at": "2026-10-25T11:12:56.919303+00:00"
     },
     {
       "week": 8,

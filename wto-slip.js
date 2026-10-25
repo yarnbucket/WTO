@@ -14,7 +14,7 @@
  function pickConflict(g,d){if(!d.winner||!d.spread)return '';const raw=d[d.spread===g.away?'away':'home'];const line=raw==null||raw===''?null:Number(raw);if(d.winner!==d.spread&&Number.isFinite(line)&&line<=0)return 'These picks can’t win together. '+d.winner+' to win conflicts with '+d.spread+' '+sign(line)+'. Track them as separate single picks.';if(d.winner===d.spread&&Number.isFinite(line)&&line<0)return 'Same-game picks: '+d.spread+' '+sign(line)+' already requires '+d.winner+' to win. Not a standard parlay; same-game parlay availability depends on your sportsbook. Track separately.';return '';}
  function submitted(g,d){const ps=saved.filter(p=>p.game_id===g.id);return ps.length>0&&['winner','spread','total'].every(kind=>{const p=ps.find(x=>x.kind===kind);if(!d[kind])return !p;return p?.side===d[kind]&&(kind==='winner'||Number(p.line)===Number(kind==='total'?d.totalLine:d[d[kind]===g.away?'away':'home']))})}
  let exSnapshot=null;
- Promise.all(['./wto-ex-week6-20261015.json','./wto-ex-week7-20261022.json'].map(url=>fetch(url).then(r=>{if(!r.ok)throw Error('WTO EX unavailable');return r.json()}))).then(records=>{exSnapshot={...records[1],games:records.flatMap(x=>x.games)};render()}).catch(()=>{});
+ Promise.all(['./wto-ex-week6-20261015.json','./wto-ex-week7-20261022.json','./wto-ex-week7-20261025.json'].map(url=>fetch(url).then(r=>{if(!r.ok)throw Error('WTO EX unavailable');return r.json()}))).then(records=>{exSnapshot={...records[records.length-1],games:[...new Map(records.flatMap(x=>x.games).map(g=>[g.game_id,g])).values()]};render()}).catch(()=>{});
  function marketPct(g,d,r,type,side){
   const line=type==='spread'?d[side===g.away?'away':'home']:d.totalLine;
   const result=window.WTOEX?.estimate(exSnapshot,g.id,type,side,line);
