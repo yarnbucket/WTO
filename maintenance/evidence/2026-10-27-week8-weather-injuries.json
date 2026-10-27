@@ -1,0 +1,294 @@
+{
+  "base_commit": "a3ad8dc539cbe3dcd9a7181cb364f6f76f7952ba",
+  "generated_at": "2026-10-27T10:27:17.591391+00:00",
+  "weather": [
+    {
+      "game_id": "2026-W08-CAR-GB",
+      "condition": "clear",
+      "resolution": "hourly",
+      "impact": "no_factor"
+    },
+    {
+      "game_id": "2026-W08-ARI-DAL",
+      "condition": "sunny",
+      "resolution": "hourly",
+      "impact": "unknown"
+    },
+    {
+      "game_id": "2026-W08-ATL-TB",
+      "condition": "storm",
+      "resolution": "hourly",
+      "impact": "material"
+    },
+    {
+      "game_id": "2026-W08-BAL-BUF",
+      "condition": "rain",
+      "resolution": "hourly",
+      "impact": "material"
+    },
+    {
+      "game_id": "2026-W08-CLE-PIT",
+      "condition": "rain",
+      "resolution": "hourly",
+      "impact": "material"
+    },
+    {
+      "game_id": "2026-W08-IND-JAX",
+      "condition": "storm",
+      "resolution": "hourly",
+      "impact": "material"
+    },
+    {
+      "game_id": "2026-W08-LV-NYJ",
+      "condition": "cloudy",
+      "resolution": "hourly",
+      "impact": "no_factor"
+    },
+    {
+      "game_id": "2026-W08-MIN-DET",
+      "condition": "rain",
+      "resolution": "hourly",
+      "impact": "no_factor"
+    },
+    {
+      "game_id": "2026-W08-TEN-CIN",
+      "condition": "rain",
+      "resolution": "hourly",
+      "impact": "material"
+    },
+    {
+      "game_id": "2026-W08-LAC-LAR",
+      "condition": "rain",
+      "resolution": "hourly",
+      "impact": "no_factor"
+    },
+    {
+      "game_id": "2026-W08-KC-DEN",
+      "condition": "rain",
+      "resolution": "hourly",
+      "impact": "material"
+    },
+    {
+      "game_id": "2026-W08-NE-MIA",
+      "condition": "storm",
+      "resolution": "hourly",
+      "impact": "material"
+    },
+    {
+      "game_id": "2026-W08-PHI-WAS",
+      "condition": "rain",
+      "resolution": "hourly",
+      "impact": "material"
+    },
+    {
+      "game_id": "2026-W08-CHI-SEA",
+      "condition": "sunny",
+      "resolution": "day_night",
+      "impact": "no_factor"
+    }
+  ],
+  "weather_gaps": [],
+  "official_injury_report": {
+    "url": "https://www.nfl.com/injuries/league/2026/reg8",
+    "retrieved_at": "2026-10-27T10:07:23.761559+00:00",
+    "status": "mismatched_week7_content_not_used"
+  },
+  "projections": [
+    {
+      "game_id": "2026-W08-CAR-GB",
+      "revision_id": "2026-W08-CAR-GB-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "GB",
+        "winner_side": "HOME",
+        "away_score": 22,
+        "home_score": 26,
+        "projected_margin": 4,
+        "projected_total": 48,
+        "win_probability": 0.639,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-ARI-DAL",
+      "revision_id": "2026-W08-ARI-DAL-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "DAL",
+        "winner_side": "HOME",
+        "away_score": 23,
+        "home_score": 32,
+        "projected_margin": 9,
+        "projected_total": 55,
+        "win_probability": 0.75,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-ATL-TB",
+      "revision_id": "2026-W08-ATL-TB-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "TB",
+        "winner_side": "HOME",
+        "away_score": 22,
+        "home_score": 26,
+        "projected_margin": 4,
+        "projected_total": 48,
+        "win_probability": 0.639,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-BAL-BUF",
+      "revision_id": "2026-W08-BAL-BUF-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "BUF",
+        "winner_side": "HOME",
+        "away_score": 27,
+        "home_score": 32,
+        "projected_margin": 5,
+        "projected_total": 59,
+        "win_probability": 0.671,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-CLE-PIT",
+      "revision_id": "2026-W08-CLE-PIT-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "PIT",
+        "winner_side": "HOME",
+        "away_score": 17,
+        "home_score": 21,
+        "projected_margin": 4,
+        "projected_total": 38,
+        "win_probability": 0.639,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-IND-JAX",
+      "revision_id": "2026-W08-IND-JAX-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "JAX",
+        "winner_side": "HOME",
+        "away_score": 18,
+        "home_score": 29,
+        "projected_margin": 11,
+        "projected_total": 47,
+        "win_probability": 0.75,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-LV-NYJ",
+      "revision_id": "2026-W08-LV-NYJ-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "NYJ",
+        "winner_side": "HOME",
+        "away_score": 24,
+        "home_score": 26,
+        "projected_margin": 2,
+        "projected_total": 50,
+        "win_probability": 0.571,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-MIN-DET",
+      "revision_id": "2026-W08-MIN-DET-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "MIN",
+        "winner_side": "AWAY",
+        "away_score": 24,
+        "home_score": 21,
+        "projected_margin": 3,
+        "projected_total": 45,
+        "win_probability": 0.606,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-TEN-CIN",
+      "revision_id": "2026-W08-TEN-CIN-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "CIN",
+        "winner_side": "HOME",
+        "away_score": 14,
+        "home_score": 28,
+        "projected_margin": 14,
+        "projected_total": 42,
+        "win_probability": 0.75,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-LAC-LAR",
+      "revision_id": "2026-W08-LAC-LAR-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "LAR",
+        "winner_side": "HOME",
+        "away_score": 15,
+        "home_score": 25,
+        "projected_margin": 10,
+        "projected_total": 40,
+        "win_probability": 0.75,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-KC-DEN",
+      "revision_id": "2026-W08-KC-DEN-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "KC",
+        "winner_side": "AWAY",
+        "away_score": 20,
+        "home_score": 19,
+        "projected_margin": 1,
+        "projected_total": 39,
+        "win_probability": 0.536,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-NE-MIA",
+      "revision_id": "2026-W08-NE-MIA-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "NE",
+        "winner_side": "AWAY",
+        "away_score": 25,
+        "home_score": 17,
+        "projected_margin": 8,
+        "projected_total": 42,
+        "win_probability": 0.75,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-PHI-WAS",
+      "revision_id": "2026-W08-PHI-WAS-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "WAS",
+        "winner_side": "HOME",
+        "away_score": 22,
+        "home_score": 24,
+        "projected_margin": 2,
+        "projected_total": 46,
+        "win_probability": 0.571,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    },
+    {
+      "game_id": "2026-W08-CHI-SEA",
+      "revision_id": "2026-W08-CHI-SEA-tuesday-baseline-20261027T102717591391+0000",
+      "projection": {
+        "winner": "SEA",
+        "winner_side": "HOME",
+        "away_score": 21,
+        "home_score": 23,
+        "projected_margin": 2,
+        "projected_total": 44,
+        "win_probability": 0.571,
+        "estimate_label": "Conditional best-available baseline"
+      }
+    }
+  ]
+}

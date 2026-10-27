@@ -1,0 +1,108 @@
+{
+  "base_commit": "a3ad8dc539cbe3dcd9a7181cb364f6f76f7952ba",
+  "checked_at": "2026-10-27T10:28:42.662783+00:00",
+  "proposed_changed_files": [
+    "ff26-nfl-lines-2026.json",
+    "wto-game-insights-2026.json",
+    "wto-team-betting-2026.json",
+    "wto-weekly-spread-tracker-2026.json",
+    "wto-futures-2026.json",
+    "wto-player-leaders-2026.json",
+    "wto-weekly-highlights-2026.json",
+    "wto-ex-week8-20261027.json",
+    "wto-slip.js",
+    "index.html",
+    "sw.js",
+    "maintenance/staging/2026-10-27/candidate-records.json",
+    "maintenance/staging/2026-10-27/validation-report.json",
+    "maintenance/evidence/2026-10-27-week7-results-week8-markets.json",
+    "maintenance/evidence/2026-10-27-week8-weather-injuries.json",
+    "maintenance/evidence/2026-10-27-market-coverage-audit.json",
+    "maintenance/reviews/2026-10-27-week7-model-review.json"
+  ],
+  "checks_passed": [
+    "JSON parsing for every candidate",
+    "schedule game IDs, teams and kickoff timestamps unchanged and Week 8 matched fresh schedule",
+    "107 final-game score, combined-points, winner, ATS and total calculations",
+    "Week 7 complete 14-of-14 result and box-score coverage",
+    "all 32 team records rebuilt solely from the final ledger",
+    "Week 7 tracker finalized while original Tuesday snapshot remained immutable",
+    "Week 8 single-provider Tuesday snapshot contains 14 games and verified side prices",
+    "121 source-explicit openers preserved; immutable opening/current/weather histories retained",
+    "14 Week 8 approved-model projections reproduced by production module with market excluded from score inputs",
+    "13 official NWS hourly periods and one labeled day/night fallback contain the respective kickoff; fixed/retractable/canopy handling validated",
+    "legacy, AFC, NFC, division and league leader histories preserved; new through-Week-7 lists have five QB/RB/WR/TE rows per required scope",
+    "Week 7 highlights finalized from all 14 boxes with 20 single-game leaders and four outright upsets",
+    "11 complete DraftKings futures markets normalized independently",
+    "Week 8 WTO EX covers 14 games with unchanged 63 residuals and probability sums equal one",
+    "saved picks storage logic unchanged; UI Last Verified mapping retained",
+    "approved production point model file/hash unchanged",
+    "service-worker/release/client snapshot references updated together"
+  ],
+  "unresolved_optional_fields": [
+    {
+      "field": "Week 7 closing markets",
+      "scope": "14 games",
+      "reason": "No source-explicit compatible closing definition and complete field/price provenance authenticated. All games use separately stored Last Verified pregame grading lines."
+    },
+    {
+      "field": "historical closing backfill",
+      "scope": "58 completed games retain at least one unavailable closing field",
+      "reason": "Shared weekly VegasInsider and CBS archives checked; incompatible/generic final values were not relabeled as closing."
+    },
+    {
+      "field": "Week 8 official NFL practice/game designations",
+      "reason": "At retrieval the official reg8 URL still served Week 7 matchups. Conditional baselines use dated ESPN observations; Thursday/Sunday recheck remains in existing workflow."
+    },
+    {
+      "field": "provider quote timestamps",
+      "reason": "DraftKings generation timestamps were not exposed; exact retrieval timestamps are stored and provider_timestamp remains null."
+    },
+    {
+      "field": "retractable roof status",
+      "scope": "ARI at DAL",
+      "reason": "No game-specific official roof decision available; unknown retained internally under approved display policy."
+    },
+    {
+      "field": "Scorigami",
+      "reason": "No primary verification captured; no score was inferred as Scorigami."
+    },
+    {
+      "field": "legacy scoring leaders",
+      "reason": "Complete primary scoring coverage was not verified; scoring leader remains unavailable rather than inferred."
+    },
+    {
+      "field": "future opening markets",
+      "scope": "151 Weeks 9-18 games",
+      "reason": "Not yet source-explicitly available; retained on deduplicated carry-forward worklist."
+    },
+    {
+      "field": "production-shadow probability agreement",
+      "reason": "No matched shadow probabilities exist; status remains not evaluable and no streak advances."
+    }
+  ],
+  "required_blockers": [],
+  "model_changes": false,
+  "training_changes": false,
+  "publish_decision": "PUBLISH",
+  "release_reason": "All related authorized data refreshes passed validation against the pinned base. Remaining fields are explicitly allowed early-week or archival gaps and do not invalidate scores, current markets or unchanged-model baselines.",
+  "summary": {
+    "repaired_results": 13,
+    "week7": {
+      "favorites_won": 10,
+      "underdogs_won": 4,
+      "ats_favorites": 8,
+      "ats_underdogs": 6,
+      "ats_pushes": 0,
+      "overs": 9,
+      "unders": 5,
+      "total_pushes": 0,
+      "missing_markets": 0
+    },
+    "week8_markets": 14,
+    "week8_projections": 14,
+    "weather": 14,
+    "upsets": 4,
+    "futures_changes": 32
+  }
+}

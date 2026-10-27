@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-27T10:27:17.883555+00:00",
+  "closing_followup_games": 58,
+  "opening_coverage": {
+    "complete": 121,
+    "partial": 0,
+    "missing": 151
+  },
+  "unresolved_closing_fields": 356
+}

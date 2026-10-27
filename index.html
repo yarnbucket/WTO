@@ -770,7 +770,7 @@ addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredIn
 addEventListener('appinstalled',()=>{deferredInstallPrompt=null;installBtn.classList.remove('show')});
 async function installWto(){if(!deferredInstallPrompt)return null;const prompt=deferredInstallPrompt;deferredInstallPrompt=null;installBtn.classList.remove('show');await prompt.prompt();const choice=await prompt.userChoice;return choice?.outcome??null}
 
-const WTO_RELEASE='2026-10-25-v132';
+const WTO_RELEASE='2026-10-27-v133';
 let wtoUpdateReady=false;
 function wtoUpdateAlertsEnabled(){try{return localStorage.getItem('wto-update-alerts')!=='off'}catch(e){return true}}
 function syncWtoUpdateSettings(){const b=document.getElementById('updateAlertsSwitch');if(b){const on=wtoUpdateAlertsEnabled();b.classList.toggle('on',on);b.setAttribute('aria-pressed',String(on))}const status=document.getElementById('settingsUpdateStatus');if(status)status.textContent=wtoUpdateReady?'A new version is ready. Tap Update Now.':''}
@@ -1522,7 +1522,7 @@ if(document.readyState==='loading'){
 </script>
 <script src="./wto-slip-lib.js?v=117"></script>
 <script src="./wto-ex.js?v=1"></script>
-<script src="./wto-slip.js?v=123"></script>
+<script src="./wto-slip.js?v=124"></script>
 
 <div class="wto-install-lightning" aria-hidden="true"><span></span></div>
 <aside id="wtoInstallBanner" class="wto-install-banner" aria-labelledby="wtoInstallTitle" hidden>

@@ -1,0 +1,436 @@
+{
+  "season": 2026,
+  "week": 7,
+  "reviewed_at": "2026-10-27T10:27:18.300Z",
+  "approved_model_version": "opponent-adjusted-points-v2",
+  "approved_EX_version": "empirical-errors-v1",
+  "frozen_residual_count": 63,
+  "review_scope": "Only immutable pre-kickoff Week 7 estimates; PIT-NO excluded because no supported production projection/EX record existed.",
+  "production": {
+    "winner_hits": 6,
+    "winner_calls": 13,
+    "winner_accuracy": 0.46153846153846156
+  },
+  "experimental": {
+    "ATS": {
+      "eligible": 13,
+      "decisive": 13,
+      "hits": 4,
+      "pushes": 0,
+      "accuracy": 0.3076923076923077,
+      "multiclass_log_loss": 0.8351053883714391,
+      "multiclass_brier": 0.6082681325607631
+    },
+    "total": {
+      "eligible": 13,
+      "decisive": 13,
+      "hits": 8,
+      "pushes": 0,
+      "accuracy": 0.6153846153846154,
+      "multiclass_log_loss": 0.6997846664467429,
+      "multiclass_brier": 0.505562130177515
+    }
+  },
+  "rows": [
+    {
+      "game_id": "2026-W07-NE-CHI",
+      "actual": {
+        "away": 24,
+        "home": 30,
+        "winner": "CHI"
+      },
+      "production_revision_id": "2026-W07-NE-CHI-thursday-best-available-202610221609512875610000",
+      "production_winner": "CHI",
+      "winner_correct": true,
+      "spread": {
+        "selected": "NE",
+        "actual": "CHI",
+        "hit": false,
+        "outcome": "loss",
+        "multiclass_log_loss": 0.9707789171582248,
+        "multiclass_brier": 0.7038567493112947
+      },
+      "total": {
+        "selected": "UNDER",
+        "actual": "OVER",
+        "hit": false,
+        "outcome": "win",
+        "multiclass_log_loss": 1.0833448165373212,
+        "multiclass_brier": 0.875266272189349
+      },
+      "market_as_of": "2026-10-22T16:04:23.225609+00:00"
+    },
+    {
+      "game_id": "2026-W07-CIN-BAL",
+      "actual": {
+        "away": 35,
+        "home": 13,
+        "winner": "CIN"
+      },
+      "production_revision_id": "2026-W07-CIN-BAL-sunday-evidence-202610251116260156810000",
+      "production_winner": "BAL",
+      "winner_correct": false,
+      "spread": {
+        "selected": "BAL",
+        "actual": "CIN",
+        "hit": false,
+        "outcome": "win",
+        "multiclass_log_loss": 1.0116009116784799,
+        "multiclass_brier": 0.7249770431588612
+      },
+      "total": {
+        "selected": "OVER",
+        "actual": "OVER",
+        "hit": true,
+        "outcome": "win",
+        "multiclass_log_loss": 0.6480267452794757,
+        "multiclass_brier": 0.4549112426035503
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:47.746056+00:00"
+    },
+    {
+      "game_id": "2026-W07-CLE-TEN",
+      "actual": {
+        "away": 27,
+        "home": 24,
+        "winner": "CLE"
+      },
+      "production_revision_id": "2026-W07-CLE-TEN-sunday-evidence-202610251116260156810000",
+      "production_winner": "CLE",
+      "winner_correct": true,
+      "spread": {
+        "selected": "CLE",
+        "actual": "CLE",
+        "hit": true,
+        "outcome": "win",
+        "multiclass_log_loss": 0.4367176516122687,
+        "multiclass_brier": 0.25041420118343194
+      },
+      "total": {
+        "selected": "UNDER",
+        "actual": "OVER",
+        "hit": false,
+        "outcome": "win",
+        "multiclass_log_loss": 0.807091439909163,
+        "multiclass_brier": 0.6134911242603551
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:47.750676+00:00"
+    },
+    {
+      "game_id": "2026-W07-IND-MIN",
+      "actual": {
+        "away": 10,
+        "home": 16,
+        "winner": "MIN"
+      },
+      "production_revision_id": "2026-W07-IND-MIN-sunday-evidence-202610251116260156810000",
+      "production_winner": "MIN",
+      "winner_correct": true,
+      "spread": {
+        "selected": "MIN",
+        "actual": "IND",
+        "hit": false,
+        "outcome": "win",
+        "multiclass_log_loss": 0.8421827597204331,
+        "multiclass_brier": 0.6480473372781065
+      },
+      "total": {
+        "selected": "OVER",
+        "actual": "UNDER",
+        "hit": false,
+        "outcome": "loss",
+        "multiclass_log_loss": 0.7086513670959105,
+        "multiclass_brier": 0.5155029585798816
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:47.761269+00:00"
+    },
+    {
+      "game_id": "2026-W07-MIA-NYJ",
+      "actual": {
+        "away": 28,
+        "home": 25,
+        "winner": "MIA"
+      },
+      "production_revision_id": "2026-W07-MIA-NYJ-sunday-evidence-202610251116260156810000",
+      "production_winner": "NYJ",
+      "winner_correct": false,
+      "spread": {
+        "selected": "NYJ",
+        "actual": "MIA",
+        "hit": false,
+        "outcome": "win",
+        "multiclass_log_loss": 0.7731898882334817,
+        "multiclass_brier": 0.5798816568047337
+      },
+      "total": {
+        "selected": "UNDER",
+        "actual": "OVER",
+        "hit": false,
+        "outcome": "win",
+        "multiclass_log_loss": 0.7731898882334817,
+        "multiclass_brier": 0.5798816568047337
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:47.744719+00:00"
+    },
+    {
+      "game_id": "2026-W07-NYG-HOU",
+      "actual": {
+        "away": 27,
+        "home": 21,
+        "winner": "NYG"
+      },
+      "production_revision_id": "2026-W07-NYG-HOU-sunday-evidence-202610251116260156810000",
+      "production_winner": "HOU",
+      "winner_correct": false,
+      "spread": {
+        "selected": "NYG",
+        "actual": "NYG",
+        "hit": true,
+        "outcome": "win",
+        "multiclass_log_loss": 0.32423966818557853,
+        "multiclass_brier": 0.15337278106508878
+      },
+      "total": {
+        "selected": "OVER",
+        "actual": "OVER",
+        "hit": true,
+        "outcome": "win",
+        "multiclass_log_loss": 0.5908683314395271,
+        "multiclass_brier": 0.3981065088757396
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:47.711676+00:00"
+    },
+    {
+      "game_id": "2026-W07-SF-ATL",
+      "actual": {
+        "away": 20,
+        "home": 29,
+        "winner": "ATL"
+      },
+      "production_revision_id": "2026-W07-SF-ATL-sunday-evidence-202610251116260156810000",
+      "production_winner": "SF",
+      "winner_correct": false,
+      "spread": {
+        "selected": "SF",
+        "actual": "ATL",
+        "hit": false,
+        "outcome": "loss",
+        "multiclass_log_loss": 1.2840155119994723,
+        "multiclass_brier": 1.045680473372781
+      },
+      "total": {
+        "selected": "UNDER",
+        "actual": "UNDER",
+        "hit": true,
+        "outcome": "loss",
+        "multiclass_log_loss": 0.6190392084062235,
+        "multiclass_brier": 0.42603550295857995
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:47.787663+00:00"
+    },
+    {
+      "game_id": "2026-W07-TB-CAR",
+      "actual": {
+        "away": 43,
+        "home": 13,
+        "winner": "TB"
+      },
+      "production_revision_id": "2026-W07-TB-CAR-sunday-evidence-202610251116260156810000",
+      "production_winner": "CAR",
+      "winner_correct": false,
+      "spread": {
+        "selected": "CAR",
+        "actual": "TB",
+        "hit": false,
+        "outcome": "win",
+        "multiclass_log_loss": 1.0116009116784799,
+        "multiclass_brier": 0.7249770431588612
+      },
+      "total": {
+        "selected": "OVER",
+        "actual": "OVER",
+        "hit": true,
+        "outcome": "win",
+        "multiclass_log_loss": 0.5634693572514127,
+        "multiclass_brier": 0.3711242603550296
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:47.754076+00:00"
+    },
+    {
+      "game_id": "2026-W07-DEN-ARI",
+      "actual": {
+        "away": 30,
+        "home": 16,
+        "winner": "DEN"
+      },
+      "production_revision_id": "2026-W07-DEN-ARI-sunday-evidence-202610251116260156810000",
+      "production_winner": "DEN",
+      "winner_correct": true,
+      "spread": {
+        "selected": "DEN",
+        "actual": "DEN",
+        "hit": true,
+        "outcome": "win",
+        "multiclass_log_loss": 0.5634693572514127,
+        "multiclass_brier": 0.3711242603550296
+      },
+      "total": {
+        "selected": "OVER",
+        "actual": "OVER",
+        "hit": true,
+        "outcome": "win",
+        "multiclass_log_loss": 0.6480267452794757,
+        "multiclass_brier": 0.4549112426035503
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:47.666889+00:00"
+    },
+    {
+      "game_id": "2026-W07-GB-DET",
+      "actual": {
+        "away": 17,
+        "home": 20,
+        "winner": "DET"
+      },
+      "production_revision_id": "2026-W07-GB-DET-sunday-evidence-202610251116260156810000",
+      "production_winner": "DET",
+      "winner_correct": true,
+      "spread": {
+        "selected": "GB",
+        "actual": "GB",
+        "hit": true,
+        "outcome": "win",
+        "multiclass_log_loss": 0.48550781578170077,
+        "multiclass_brier": 0.29585798816568043
+      },
+      "total": {
+        "selected": "UNDER",
+        "actual": "UNDER",
+        "hit": true,
+        "outcome": "loss",
+        "multiclass_log_loss": 0.6190392084062235,
+        "multiclass_brier": 0.42603550295857995
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:47.757455+00:00"
+    },
+    {
+      "game_id": "2026-W07-LAR-LV",
+      "actual": {
+        "away": 35,
+        "home": 21,
+        "winner": "LAR"
+      },
+      "production_revision_id": "2026-W07-LAR-LV-sunday-evidence-202610251116260156810000",
+      "production_winner": "LV",
+      "winner_correct": false,
+      "spread": {
+        "selected": "LV",
+        "actual": "LAR",
+        "hit": false,
+        "outcome": "win",
+        "multiclass_log_loss": 1.0116009116784799,
+        "multiclass_brier": 0.7249770431588612
+      },
+      "total": {
+        "selected": "OVER",
+        "actual": "OVER",
+        "hit": true,
+        "outcome": "win",
+        "multiclass_log_loss": 0.6480267452794757,
+        "multiclass_brier": 0.4549112426035503
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:47.715355+00:00"
+    },
+    {
+      "game_id": "2026-W07-KC-SEA",
+      "actual": {
+        "away": 3,
+        "home": 20,
+        "winner": "SEA"
+      },
+      "production_revision_id": "2026-W07-KC-SEA-sunday-evidence-202610251116260156810000",
+      "production_winner": "KC",
+      "winner_correct": false,
+      "spread": {
+        "selected": "KC",
+        "actual": "SEA",
+        "hit": false,
+        "outcome": "loss",
+        "multiclass_log_loss": 1.2992829841302609,
+        "multiclass_brier": 1.036271808999082
+      },
+      "total": {
+        "selected": "OVER",
+        "actual": "UNDER",
+        "hit": false,
+        "outcome": "loss",
+        "multiclass_log_loss": 0.7404000654104909,
+        "multiclass_brier": 0.5472189349112425
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-25T11:09:49.852143+00:00"
+    },
+    {
+      "game_id": "2026-W07-DAL-PHI",
+      "actual": {
+        "away": 38,
+        "home": 21,
+        "winner": "DAL"
+      },
+      "production_revision_id": "2026-W07-DAL-PHI-sunday-evidence-202610251116260156810000",
+      "production_winner": "DAL",
+      "winner_correct": true,
+      "spread": {
+        "selected": "PHI",
+        "actual": "DAL",
+        "hit": false,
+        "outcome": "win",
+        "multiclass_log_loss": 0.8421827597204331,
+        "multiclass_brier": 0.6480473372781065
+      },
+      "total": {
+        "selected": "OVER",
+        "actual": "OVER",
+        "hit": true,
+        "outcome": "win",
+        "multiclass_log_loss": 0.6480267452794757,
+        "multiclass_brier": 0.4549112426035503
+      },
+      "snapshot_generated_at": "2026-10-25T11:16:26.015681+00:00",
+      "market_as_of": "2026-10-22T16:04:25.697141+00:00"
+    }
+  ],
+  "training_changes": "None. Frozen 63 residuals and production formulas remain unchanged; Week 7 outcomes were not appended.",
+  "limitations": [
+    "Thirteen eligible games; PIT-NO unsupported and excluded.",
+    "Small prospective sample; no confidence or promotion claim.",
+    "No separately calibrated shadow probabilities exist at matched targets and lines, so agreement tolerance is not evaluable."
+  ],
+  "agreement_review": {
+    "candidate_version": "neutral-venue-flag-v1",
+    "eligible_pairs": {
+      "winner": 0,
+      "ATS": 0,
+      "total": 0
+    },
+    "within_2_points": null,
+    "within_3_points": null,
+    "streaks": {
+      "winner": 0,
+      "ATS": 0,
+      "total": 0
+    },
+    "status": "not_evaluable_no_matched_shadow_probabilities",
+    "week_qualifies": false
+  },
+  "decision": "Retain approved production model and frozen residual set. No retraining, calibration, formula change or promotion."
+}
