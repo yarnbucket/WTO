@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "season": 2026,
   "model_version": "week4-trial-v1",
-  "updated_at": "2026-10-27T10:27:17.591391+00:00",
+  "updated_at": "2026-11-01T11:49:06.721723+00:00",
   "methodology": {
     "projection": "Opponent-adjusted independent offensive/defensive scoring rates with two-game shrinkage; market is only compared afterward. Unresolved material personnel uncertainty holds betting calls.",
     "market_use": "Market is comparison only, never a projection input.",
@@ -57806,7 +57806,62 @@
               "why_changed": "Scheduled weekly baseline; market is comparison evidence only and does not set projected scores."
             }
           ],
-          "postgame_review": null
+          "postgame_review": {
+            "generated_at": "2026-11-01T11:49:06.721723+00:00",
+            "analysis_type": "verified_postgame",
+            "prediction_revision_id": "2026-W08-CAR-GB-tuesday-baseline-20261027T102717591391+0000",
+            "grade": "Partially Accurate",
+            "postgame_summary": "Green Bay beat Carolina 27–19. WTO projected GB to win 26–22.",
+            "postgame_evidence": {
+              "providers": [
+                "ESPN",
+                "NFL"
+              ],
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+                "https://www.nfl.com/schedules/2026/by-week/week-8"
+              ],
+              "verified_at": "2026-11-01T11:49:06.721723+00:00",
+              "scope": "this_game_only",
+              "metrics": {
+                "away": {
+                  "team": "CAR",
+                  "total_yards": 258,
+                  "rushing_yards": 82,
+                  "turnovers": 2,
+                  "third_down": "5-18",
+                  "red_zone": "1-2"
+                },
+                "home": {
+                  "team": "GB",
+                  "total_yards": 354,
+                  "rushing_yards": 66,
+                  "turnovers": 3,
+                  "third_down": "9-16",
+                  "red_zone": "3-3"
+                }
+              },
+              "prediction_revision_id": "2026-W08-CAR-GB-tuesday-baseline-20261027T102717591391+0000",
+              "expected_scores": {
+                "winner": "GB",
+                "winner_side": "HOME",
+                "away_score": 22,
+                "home_score": 26,
+                "projected_margin": 4,
+                "projected_total": 48,
+                "win_probability": 0.639,
+                "estimate_label": "Conditional best-available baseline"
+              },
+              "note": "Box score alone does not establish a decisive cause."
+            },
+            "evidence": [
+              {
+                "label": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+                "checked_at": "2026-11-01T11:48:31.983448+00:00"
+              }
+            ]
+          }
         },
         {
           "game_id": "2026-W08-ARI-DAL",

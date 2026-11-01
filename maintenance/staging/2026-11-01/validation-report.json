@@ -1,0 +1,23 @@
+{
+  "base_commit": "95f9723e2233a171c9d4f928817ff779c94d41cf",
+  "checked_at": "2026-11-01T11:49:27.430899+00:00",
+  "files": [
+    "ff26-nfl-lines-2026.json",
+    "wto-game-insights-2026.json"
+  ],
+  "passed": [
+    "JSON",
+    "matchups and kickoff",
+    "all existing opening/current/weather histories and forecast revisions",
+    "12 provider quotes, side signs, kickoff cutoff and retrieval times",
+    "CAR\u2013GB final score, calculations and Last Verified label"
+  ],
+  "optional_or_held": [
+    "No source-explicit consensus closing line captured for CAR\u2013GB",
+    "provider quote creation times unavailable",
+    "Sunday kickoff weather and latest injury-status refresh not completed; prior forecasts and prediction revisions retained",
+    "Week 8 remains provisional until all games finish",
+    "historical opening and closing audits incomplete"
+  ],
+  "decision": "publish independently validated result and current markets; hold unsupported dependent refreshes"
+}
