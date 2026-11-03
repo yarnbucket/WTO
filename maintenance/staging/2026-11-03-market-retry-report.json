@@ -1,0 +1,17 @@
+{
+  "base_commit": "f463e702b7e789c2e67c02796a1a9100e0e8d8bc",
+  "decision": "publish independently verified current markets; hold dependent wrap-up",
+  "checked_at": "2026-11-03T13:12:26.183657+00:00",
+  "verified": {
+    "week9_games": 14,
+    "source": "DraftKings via ESPN",
+    "opening_closing_labels": "current only",
+    "prior_market_histories": "preserved"
+  },
+  "held": [
+    "Week 8 ledger result repair and derived team standings, highlights, leaders and spread comparison pending complete staged validation",
+    "Week 9 predictions, weather, futures and official injury reports not yet verified",
+    "provider quote creation time unavailable",
+    "LV at SF kickoff mismatch: ledger 4:05 PM ET versus NFL and ESPN 4:25 PM ET; related schedule, projections and weather require coordinated repair"
+  ]
+}
