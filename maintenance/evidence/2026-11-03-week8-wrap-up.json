@@ -1,0 +1,32 @@
+{
+  "verified_at": "2026-11-03T15:07:44.884145+00:00",
+  "week": 8,
+  "finals_source_urls": [
+    "https://www.nfl.com/schedules/2026/by-week/week-8",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=8&limit=1000"
+  ],
+  "box_score_source_urls": [
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873027",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873028",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873031",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873032",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873033",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873034",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873035",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873036"
+  ],
+  "scorigami_source_urls": [
+    "https://weather.football/scorigami/2026-week-8",
+    "https://www.cbssports.com/nfl/news/bengals-wild-overtime-win-ends-scorigami/"
+  ],
+  "closing_attempted_sources": [
+    "https://www.vegasinsider.com/nfl/nfl-week-8-odds-2026/"
+  ],
+  "result": "14 finals verified; ARI-DAL and TEN-CIN overtime; TEN-CIN 43-36 verified Scorigami; all grading markets Last Verified."
+}

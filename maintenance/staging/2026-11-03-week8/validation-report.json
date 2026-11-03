@@ -1,0 +1,53 @@
+{
+  "base_commit": "564470f2746d78cf12d3659dab721b6e30fe2824",
+  "checked_at": "2026-11-03T15:07:44.884145+00:00",
+  "proposed_changed_files": [
+    "ff26-nfl-lines-2026.json",
+    "wto-game-insights-2026.json",
+    "wto-team-betting-2026.json",
+    "wto-weekly-spread-tracker-2026.json",
+    "wto-weekly-highlights-2026.json",
+    "wto-player-leaders-2026.json",
+    "maintenance/evidence/2026-11-03-week8-wrap-up.json",
+    "maintenance/staging/2026-11-03-week8/candidate-records.json",
+    "maintenance/staging/2026-11-03-week8/validation-report.json"
+  ],
+  "checks_passed": [
+    "14/14 Week 8 ESPN final scores matched ESPN weekly scoreboard and official NFL schedule",
+    "all combined points, winners, ATS and total grades recalculated",
+    "all 14 games have separate Last Verified grading spread and total; source-explicit closing fields remain null",
+    "121 final games reconciled into 32 team records; points-for equals points-against",
+    "Week 8 Tuesday snapshot preserved byte-for-byte and comparison finalized",
+    "Week 8 highlights contain five verified QB/RB/WR/TE entries and four verified outright upsets",
+    "league/AFC/NFC positional leader snapshots contain five verified players per position through Week 8",
+    "all prior market/opening/weather snapshots and prediction revisions preserved",
+    "all prior tracker, finalized highlights and leader snapshots preserved",
+    "saved-pick storage regression tests passed"
+  ],
+  "unresolved_optional_fields": [
+    {
+      "field": "source-explicit Week 8 closing markets and prices",
+      "effect": "closing_* fields remain null; grading uses separately labeled Last Verified stored pregame snapshots",
+      "attempted_sources": [
+        "ESPN game summaries",
+        "https://www.vegasinsider.com/nfl/nfl-week-8-odds-2026/"
+      ]
+    },
+    {
+      "field": "exact provider quote creation times for Last Verified markets",
+      "effect": "stored actual retrieval timestamps retained; provider timestamp remains null"
+    }
+  ],
+  "preexisting_validation_debt": [
+    {
+      "check": "tests/wto-insights.test.mjs service worker cache version",
+      "result": "one preexisting stale assertion expects wto-shell-v55 while current base is wto-shell-v134-picks-protection; no service-worker file changed"
+    },
+    {
+      "check": "scripts/validate-wto-insights.mjs",
+      "result": "48 preexisting Week 4/6/model validation errors remain; zero Week 8 missing-postgame errors after candidate update"
+    }
+  ],
+  "publish_decision": "publish",
+  "reason": "All Week 8 required results, boxes, derived records, tracker, highlights and leader dependencies validated. Optional closing-market gaps are explicitly permitted by Last Verified fallback policy."
+}

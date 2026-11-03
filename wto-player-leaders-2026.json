@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "season": 2026,
-  "updated_at": "2026-10-27T10:27:16.975305+00:00",
+  "updated_at": "2026-11-03T15:06:17.577789+00:00",
   "description": "Immutable cumulative player-leader snapshots, isolated from odds, results, and team-ranking data.",
   "snapshots": [
     {
@@ -6024,6 +6024,845 @@
           ]
         }
       }
+    },
+    {
+      "snapshot_id": "2026-through-week-8-20261103T150617.577789+0000",
+      "season": 2026,
+      "through_week": 8,
+      "verified_at": "2026-11-03T15:06:17.577789+00:00",
+      "methodology": "Cumulative ESPN final regular-season game boxes through Week 8; yardage rankings with competition ties.",
+      "ranking_metrics": {
+        "QB": "gross passing yards",
+        "RB": "rushing yards",
+        "TE": "receiving yards",
+        "WR": "receiving yards"
+      },
+      "coverage": {
+        "scheduled_games": 121,
+        "final_games": 121,
+        "complete": true,
+        "missing_game_ids": []
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872656",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872657",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872658",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872660",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872922",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872924",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872925",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872927",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872928",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872929",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872930",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872931",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872939",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872946",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872937",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872933",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872936",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872938",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872935",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872940",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872941",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872943",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872942",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872944",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872947",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872950",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872956",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872957",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872952",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872951",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872949",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872953",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872959",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872960",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872965",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872968",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872970",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872971",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872972",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872973",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872974",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872975",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872977",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872979",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872981",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872982",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872983",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872984",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872989",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873027",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873028",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873031",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873032",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873033",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873034",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873035",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873036"
+      ],
+      "position_source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/16/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/4/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026"
+      ],
+      "scope": "conference",
+      "scopes": {
+        "CONFERENCE_AFC": {
+          "QB": [
+            {
+              "player_id": "14880",
+              "player": "Kirk Cousins",
+              "team": "LV",
+              "teams": [
+                "LV"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 180,
+                "passingAttempts": 283,
+                "passingYards": 2124,
+                "passingTouchdowns": 19,
+                "interceptions": 5,
+                "completion_pct": 63.6
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "3915511",
+              "player": "Joe Burrow",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 195,
+                "passingAttempts": 267,
+                "passingYards": 2115,
+                "passingTouchdowns": 20,
+                "interceptions": 6,
+                "completion_pct": 73.0
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4431452",
+              "player": "Drake Maye",
+              "team": "NE",
+              "teams": [
+                "NE"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 157,
+                "passingAttempts": 234,
+                "passingYards": 1983,
+                "passingTouchdowns": 15,
+                "interceptions": 8,
+                "completion_pct": 67.1
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "15864",
+              "player": "Geno Smith",
+              "team": "NYJ",
+              "teams": [
+                "NYJ"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 165,
+                "passingAttempts": 239,
+                "passingYards": 1913,
+                "passingTouchdowns": 12,
+                "interceptions": 3,
+                "completion_pct": 69.0
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "8439",
+              "player": "Aaron Rodgers",
+              "team": "PIT",
+              "teams": [
+                "PIT"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 175,
+                "passingAttempts": 288,
+                "passingYards": 1871,
+                "passingTouchdowns": 13,
+                "interceptions": 6,
+                "completion_pct": 60.8
+              },
+              "rank": 5
+            }
+          ],
+          "RB": [
+            {
+              "player_id": "4567048",
+              "player": "Kenneth Walker III",
+              "team": "KC",
+              "teams": [
+                "KC"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 141,
+                "rushingYards": 770,
+                "rushingTouchdowns": 6,
+                "yards_per_carry": 5.5
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4379399",
+              "player": "James Cook III",
+              "team": "BUF",
+              "teams": [
+                "BUF"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 138,
+                "rushingYards": 707,
+                "rushingTouchdowns": 7,
+                "yards_per_carry": 5.1
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4569987",
+              "player": "Jaylen Warren",
+              "team": "PIT",
+              "teams": [
+                "PIT"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 119,
+                "rushingYards": 704,
+                "rushingTouchdowns": 2,
+                "yards_per_carry": 5.9
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "3043078",
+              "player": "Derrick Henry",
+              "team": "BAL",
+              "teams": [
+                "BAL"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 158,
+                "rushingYards": 632,
+                "rushingTouchdowns": 8,
+                "yards_per_carry": 4.0
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4242335",
+              "player": "Jonathan Taylor",
+              "team": "IND",
+              "teams": [
+                "IND"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 148,
+                "rushingYards": 610,
+                "rushingTouchdowns": 8,
+                "yards_per_carry": 4.1
+              },
+              "rank": 5
+            }
+          ],
+          "TE": [
+            {
+              "player_id": "4432665",
+              "player": "Brock Bowers",
+              "team": "LV",
+              "teams": [
+                "LV"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 41,
+                "receivingYards": 547,
+                "receivingTouchdowns": 5
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "5083076",
+              "player": "Harold Fannin Jr.",
+              "team": "CLE",
+              "teams": [
+                "CLE"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 35,
+                "receivingYards": 411,
+                "receivingTouchdowns": 3
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "15847",
+              "player": "Travis Kelce",
+              "team": "KC",
+              "teams": [
+                "KC"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 29,
+                "receivingYards": 410,
+                "receivingTouchdowns": 2
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4385690",
+              "player": "Dalton Kincaid",
+              "team": "BUF",
+              "teams": [
+                "BUF"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 27,
+                "receivingYards": 401,
+                "receivingTouchdowns": 2
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4429086",
+              "player": "Michael Mayer",
+              "team": "LV",
+              "teams": [
+                "LV"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 36,
+                "receivingYards": 351,
+                "receivingTouchdowns": 1
+              },
+              "rank": 5
+            }
+          ],
+          "WR": [
+            {
+              "player_id": "4239993",
+              "player": "Tee Higgins",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 43,
+                "receivingYards": 726,
+                "receivingTouchdowns": 4
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4429615",
+              "player": "Zay Flowers",
+              "team": "BAL",
+              "teams": [
+                "BAL"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 40,
+                "receivingYards": 608,
+                "receivingTouchdowns": 3
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4569618",
+              "player": "Garrett Wilson",
+              "team": "NYJ",
+              "teams": [
+                "NYJ"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 43,
+                "receivingYards": 527,
+                "receivingTouchdowns": 3
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4362628",
+              "player": "Ja'Marr Chase",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 43,
+                "receivingYards": 492,
+                "receivingTouchdowns": 6
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4428718",
+              "player": "Tre Tucker",
+              "team": "LV",
+              "teams": [
+                "LV"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 29,
+                "receivingYards": 474,
+                "receivingTouchdowns": 4
+              },
+              "rank": 5
+            }
+          ]
+        },
+        "CONFERENCE_NFC": {
+          "QB": [
+            {
+              "player_id": "4036378",
+              "player": "Jordan Love",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 192,
+                "passingAttempts": 312,
+                "passingYards": 2246,
+                "passingTouchdowns": 16,
+                "interceptions": 6,
+                "completion_pct": 61.5
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "12483",
+              "player": "Matthew Stafford",
+              "team": "LAR",
+              "teams": [
+                "LAR"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 204,
+                "passingAttempts": 303,
+                "passingYards": 2146,
+                "passingTouchdowns": 15,
+                "interceptions": 8,
+                "completion_pct": 67.3
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "2577417",
+              "player": "Dak Prescott",
+              "team": "DAL",
+              "teams": [
+                "DAL"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 197,
+                "passingAttempts": 302,
+                "passingYards": 2046,
+                "passingTouchdowns": 14,
+                "interceptions": 5,
+                "completion_pct": 65.2
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "3046779",
+              "player": "Jared Goff",
+              "team": "DET",
+              "teams": [
+                "DET"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 168,
+                "passingAttempts": 248,
+                "passingYards": 1964,
+                "passingTouchdowns": 15,
+                "interceptions": 1,
+                "completion_pct": 67.7
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4685720",
+              "player": "Bryce Young",
+              "team": "CAR",
+              "teams": [
+                "CAR"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 158,
+                "passingAttempts": 269,
+                "passingYards": 1921,
+                "passingTouchdowns": 13,
+                "interceptions": 5,
+                "completion_pct": 58.7
+              },
+              "rank": 5
+            }
+          ],
+          "RB": [
+            {
+              "player_id": "4430807",
+              "player": "Bijan Robinson",
+              "team": "ATL",
+              "teams": [
+                "ATL"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 150,
+                "rushingYards": 780,
+                "rushingTouchdowns": 4,
+                "yards_per_carry": 5.2
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4429795",
+              "player": "Jahmyr Gibbs",
+              "team": "DET",
+              "teams": [
+                "DET"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 157,
+                "rushingYards": 773,
+                "rushingTouchdowns": 8,
+                "yards_per_carry": 4.9
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4596448",
+              "player": "Bucky Irving",
+              "team": "TB",
+              "teams": [
+                "TB"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 147,
+                "rushingYards": 728,
+                "rushingTouchdowns": 5,
+                "yards_per_carry": 5.0
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4430737",
+              "player": "Kyren Williams",
+              "team": "LAR",
+              "teams": [
+                "LAR"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 112,
+                "rushingYards": 548,
+                "rushingTouchdowns": 6,
+                "yards_per_carry": 4.9
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4259545",
+              "player": "D'Andre Swift",
+              "team": "CHI",
+              "teams": [
+                "CHI"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 143,
+                "rushingYards": 545,
+                "rushingTouchdowns": 10,
+                "yards_per_carry": 3.8
+              },
+              "rank": 5
+            }
+          ],
+          "TE": [
+            {
+              "player_id": "4361307",
+              "player": "Trey McBride",
+              "team": "ARI",
+              "teams": [
+                "ARI"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 66,
+                "receivingYards": 544,
+                "receivingTouchdowns": 5
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "3040151",
+              "player": "George Kittle",
+              "team": "SF",
+              "teams": [
+                "SF"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 34,
+                "receivingYards": 425,
+                "receivingTouchdowns": 5
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4361050",
+              "player": "Isaiah Likely",
+              "team": "NYG",
+              "teams": [
+                "NYG"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 41,
+                "receivingYards": 395,
+                "receivingTouchdowns": 5
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4430027",
+              "player": "Sam LaPorta",
+              "team": "DET",
+              "teams": [
+                "DET"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 31,
+                "receivingYards": 367,
+                "receivingTouchdowns": 3
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4572680",
+              "player": "Tucker Kraft",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 35,
+                "receivingYards": 350,
+                "receivingTouchdowns": 3
+              },
+              "rank": 5
+            }
+          ],
+          "WR": [
+            {
+              "player_id": "4430878",
+              "player": "Jaxon Smith-Njigba",
+              "team": "SEA",
+              "teams": [
+                "SEA"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 64,
+                "receivingYards": 985,
+                "receivingTouchdowns": 9
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4241389",
+              "player": "CeeDee Lamb",
+              "team": "DAL",
+              "teams": [
+                "DAL"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 60,
+                "receivingYards": 709,
+                "receivingTouchdowns": 6
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4248528",
+              "player": "Christian Watson",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 42,
+                "receivingYards": 708,
+                "receivingTouchdowns": 6
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4361370",
+              "player": "Chris Olave",
+              "team": "NO",
+              "teams": [
+                "NO"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 49,
+                "receivingYards": 636,
+                "receivingTouchdowns": 2
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4426502",
+              "player": "Drake London",
+              "team": "ATL",
+              "teams": [
+                "ATL"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 39,
+                "receivingYards": 624,
+                "receivingTouchdowns": 1
+              },
+              "rank": 5
+            }
+          ]
+        }
+      }
     }
   ],
   "league_position_snapshots": [
@@ -6033,7 +6872,7 @@
       "through_week": 1,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -6443,7 +7282,7 @@
       "through_week": 2,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -6869,7 +7708,7 @@
       "through_week": 3,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -7311,7 +8150,7 @@
       "through_week": 4,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -7769,7 +8608,7 @@
       "through_week": 5,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -8242,7 +9081,7 @@
       "through_week": 6,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -8737,7 +9576,7 @@
       "through_week": 7,
       "verified_at": "2026-10-27T10:27:16.975305+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -9252,6 +10091,515 @@
                 "receivingYards": 608,
                 "receivingTouchdowns": 3
               }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "snapshot_id": "2026-through-week-8-20261103T150617.577789+0000",
+      "season": 2026,
+      "through_week": 8,
+      "verified_at": "2026-11-03T15:06:17.577789+00:00",
+      "methodology": "Cumulative ESPN final regular-season game boxes through Week 8; yardage rankings with competition ties.",
+      "ranking_metrics": {
+        "QB": "gross passing yards",
+        "RB": "rushing yards",
+        "TE": "receiving yards",
+        "WR": "receiving yards"
+      },
+      "coverage": {
+        "scheduled_games": 121,
+        "final_games": 121,
+        "complete": true,
+        "missing_game_ids": []
+      },
+      "source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872656",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872657",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872658",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872660",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872922",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872924",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872925",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872927",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872928",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872929",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872930",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872931",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872939",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872946",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872937",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872933",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872936",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872938",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872935",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872940",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872941",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872943",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872942",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872944",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872947",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872950",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872956",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872957",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872952",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872951",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872949",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872953",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872959",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872960",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872965",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872968",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872970",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872971",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872972",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872973",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872974",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872975",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872977",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872979",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872981",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872982",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872983",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872984",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872989",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873027",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873028",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873031",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873032",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873033",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873034",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873035",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873036"
+      ],
+      "position_source_urls": [
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/16/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/4/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026",
+        "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026"
+      ],
+      "scope": "league",
+      "scopes": {
+        "LEAGUE": {
+          "QB": [
+            {
+              "player_id": "4036378",
+              "player": "Jordan Love",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 192,
+                "passingAttempts": 312,
+                "passingYards": 2246,
+                "passingTouchdowns": 16,
+                "interceptions": 6,
+                "completion_pct": 61.5
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "12483",
+              "player": "Matthew Stafford",
+              "team": "LAR",
+              "teams": [
+                "LAR"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 204,
+                "passingAttempts": 303,
+                "passingYards": 2146,
+                "passingTouchdowns": 15,
+                "interceptions": 8,
+                "completion_pct": 67.3
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "14880",
+              "player": "Kirk Cousins",
+              "team": "LV",
+              "teams": [
+                "LV"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 180,
+                "passingAttempts": 283,
+                "passingYards": 2124,
+                "passingTouchdowns": 19,
+                "interceptions": 5,
+                "completion_pct": 63.6
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "3915511",
+              "player": "Joe Burrow",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 195,
+                "passingAttempts": 267,
+                "passingYards": 2115,
+                "passingTouchdowns": 20,
+                "interceptions": 6,
+                "completion_pct": 73.0
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "2577417",
+              "player": "Dak Prescott",
+              "team": "DAL",
+              "teams": [
+                "DAL"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 197,
+                "passingAttempts": 302,
+                "passingYards": 2046,
+                "passingTouchdowns": 14,
+                "interceptions": 5,
+                "completion_pct": 65.2
+              },
+              "rank": 5
+            }
+          ],
+          "RB": [
+            {
+              "player_id": "4430807",
+              "player": "Bijan Robinson",
+              "team": "ATL",
+              "teams": [
+                "ATL"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 150,
+                "rushingYards": 780,
+                "rushingTouchdowns": 4,
+                "yards_per_carry": 5.2
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4429795",
+              "player": "Jahmyr Gibbs",
+              "team": "DET",
+              "teams": [
+                "DET"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 157,
+                "rushingYards": 773,
+                "rushingTouchdowns": 8,
+                "yards_per_carry": 4.9
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4567048",
+              "player": "Kenneth Walker III",
+              "team": "KC",
+              "teams": [
+                "KC"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 141,
+                "rushingYards": 770,
+                "rushingTouchdowns": 6,
+                "yards_per_carry": 5.5
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4596448",
+              "player": "Bucky Irving",
+              "team": "TB",
+              "teams": [
+                "TB"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 147,
+                "rushingYards": 728,
+                "rushingTouchdowns": 5,
+                "yards_per_carry": 5.0
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4379399",
+              "player": "James Cook III",
+              "team": "BUF",
+              "teams": [
+                "BUF"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 138,
+                "rushingYards": 707,
+                "rushingTouchdowns": 7,
+                "yards_per_carry": 5.1
+              },
+              "rank": 5
+            }
+          ],
+          "TE": [
+            {
+              "player_id": "4432665",
+              "player": "Brock Bowers",
+              "team": "LV",
+              "teams": [
+                "LV"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 41,
+                "receivingYards": 547,
+                "receivingTouchdowns": 5
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4361307",
+              "player": "Trey McBride",
+              "team": "ARI",
+              "teams": [
+                "ARI"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 66,
+                "receivingYards": 544,
+                "receivingTouchdowns": 5
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "3040151",
+              "player": "George Kittle",
+              "team": "SF",
+              "teams": [
+                "SF"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 34,
+                "receivingYards": 425,
+                "receivingTouchdowns": 5
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "5083076",
+              "player": "Harold Fannin Jr.",
+              "team": "CLE",
+              "teams": [
+                "CLE"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 35,
+                "receivingYards": 411,
+                "receivingTouchdowns": 3
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "15847",
+              "player": "Travis Kelce",
+              "team": "KC",
+              "teams": [
+                "KC"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 29,
+                "receivingYards": 410,
+                "receivingTouchdowns": 2
+              },
+              "rank": 5
+            }
+          ],
+          "WR": [
+            {
+              "player_id": "4430878",
+              "player": "Jaxon Smith-Njigba",
+              "team": "SEA",
+              "teams": [
+                "SEA"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 64,
+                "receivingYards": 985,
+                "receivingTouchdowns": 9
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4239993",
+              "player": "Tee Higgins",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 43,
+                "receivingYards": 726,
+                "receivingTouchdowns": 4
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4241389",
+              "player": "CeeDee Lamb",
+              "team": "DAL",
+              "teams": [
+                "DAL"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 60,
+                "receivingYards": 709,
+                "receivingTouchdowns": 6
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4248528",
+              "player": "Christian Watson",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 42,
+                "receivingYards": 708,
+                "receivingTouchdowns": 6
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4361370",
+              "player": "Chris Olave",
+              "team": "NO",
+              "teams": [
+                "NO"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 49,
+                "receivingYards": 636,
+                "receivingTouchdowns": 2
+              },
+              "rank": 5
             }
           ]
         }

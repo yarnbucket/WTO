@@ -1,0 +1,51 @@
+{
+  "base_commit": "564470f2746d78cf12d3659dab721b6e30fe2824",
+  "candidate_files": {
+    "ff26-nfl-lines-2026.json": {
+      "sha256": "b8ad45fa58d1bbe5e6e144ce2147059d8c55f541f48541b2cea7590e98930531",
+      "bytes": 2872983
+    },
+    "wto-game-insights-2026.json": {
+      "sha256": "4514f0d4a8127a4dc948bedb79c13e20b7ab8008fa2aa2c3eabb79c318daaf59",
+      "bytes": 3546207
+    },
+    "wto-team-betting-2026.json": {
+      "sha256": "059190a6beb5f7e2becb46d1da096e10df52017f22e4a7a8ebd71b5b4c10b188",
+      "bytes": 549868
+    },
+    "wto-weekly-spread-tracker-2026.json": {
+      "sha256": "19808eb5ffdd24b58a178ec210da91d4f840ee364cad21f45f375e2ca34db0c6",
+      "bytes": 155518
+    },
+    "wto-weekly-highlights-2026.json": {
+      "sha256": "2cfcbb64414e643dab4b96e28f163f7060bd26094793d3b90e29afade9a2688d",
+      "bytes": 157321
+    },
+    "wto-player-leaders-2026.json": {
+      "sha256": "31bee6f5ff4635a84c2429604558dcc2a21bed6d6f3744fc90acd7be4ecd0134",
+      "bytes": 443129
+    }
+  },
+  "week8": {
+    "finals": 14,
+    "favorites_su": "10-4",
+    "favorites_ats": "8-6-0",
+    "totals": "6 over, 8 under, 0 push",
+    "closing_markets": 0,
+    "last_verified_markets": 14,
+    "upsets": [
+      "ARI +7",
+      "CHI +3",
+      "LV +1.5",
+      "DEN +1.5"
+    ]
+  },
+  "immutable_checks": {
+    "market_opening_weather_snapshots": "passed",
+    "prediction_revisions": "passed",
+    "prior_tracker_weeks": "passed",
+    "prior_highlights": "passed",
+    "prior_leader_snapshots": "passed"
+  },
+  "saved_pick_files_changed": false
+}
