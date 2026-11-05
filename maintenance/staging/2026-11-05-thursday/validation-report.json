@@ -1,0 +1,581 @@
+{
+  "schema_version": "wto-thursday-validation-v1",
+  "generated_at": "2026-11-05T17:07:33Z",
+  "base_commit": "8c36a23dc490ee9fc179b7ea24b799767a7ce56d",
+  "season": 2026,
+  "week": 9,
+  "proposed_changed_files": [
+    "maintenance/staging/2026-11-05-thursday/candidate-records.json",
+    "maintenance/staging/2026-11-05-thursday/validation-report.json"
+  ],
+  "live_changed_files": [],
+  "publish_decision": "HOLD_LIVE_RELEASE_SAVE_STAGING_ONLY",
+  "decision_reason": "Required source verification could not be completed: all 15 ESPN summary endpoints and the weekly opener archive endpoints were inaccessible through the available web reader; the direct DraftKings page exposed no live quote table. A secondary DraftKings board is saved as evidence, not silently substituted into the live ledger. Its LV/SF kickoff conflicts with the official NFL schedule. Missing side prices alone are allowed nulls and are not the release-blocking reason. Optional forecast/availability gaps do not invalidate an independent scoring baseline; numerical candidates are retained separately pending complete release validation.",
+  "source_scope": {
+    "primary_provider": "DraftKings via ESPN",
+    "primary_current_quote_status": "unavailable_to_this_run",
+    "fallback_provider": "DraftKings",
+    "fallback_collector": "AgentBets.ai via The Odds API",
+    "fallback_source_url": "https://agentbets.ai/odds/draftkings/nfl",
+    "fallback_board_updated_at": "2026-11-05T16:00:00Z",
+    "fallback_retrieved_at": "2026-11-05T17:02:42Z",
+    "native_market_timestamp_available": false
+  },
+  "checks_passed": [
+    "Candidate JSON round-trip parsing",
+    "All 15 current-week games included; 15 unique ledger IDs and saved ESPN IDs",
+    "All candidate timestamps are before kickoff",
+    "Favorite-perspective negative spreads; mirrored away/home spread signs",
+    "Valid numeric totals and American prices; unavailable away spread prices explicitly null",
+    "One named sportsbook for every staged quote; collector separately identified",
+    "Current quotes labelled market_snapshot, never Open or Close",
+    "All 272 scheduled games included in opening coverage audit; 122 verified complete openers excluded from source retry worklist",
+    "Official NFL current-week matchup and venue checks; Madrid venue kept separate from Atlanta",
+    "Archived 63-error training set retained byte-for-byte at object level; no target-week residuals",
+    "Approved scoring model reproduces existing CAR/GB Week 8 baseline 22–26; 121 prior games used for staged Week 9 scores",
+    "No Vegas market input or injury point penalty used in point forecasts",
+    "13 staged WTO EX distributions pass probability-sum checks using unchanged wto-ex.js",
+    "Opening UI mapping reads opening_spread/opening_total directly",
+    "No invented NWS weather, local night, roof closure, role label or report date",
+    "No live files selected for modification, preserving every prior snapshot, published prediction, result and browser pick-storage implementation"
+  ],
+  "unresolved_required": [
+    {
+      "fields": [
+        "current_quote_source_verification"
+      ],
+      "games": [
+        "2026-W09-JAX-BAL",
+        "2026-W09-CIN-ATL",
+        "2026-W09-DEN-CAR",
+        "2026-W09-CLE-NO",
+        "2026-W09-DAL-IND",
+        "2026-W09-DET-MIA",
+        "2026-W09-NYJ-KC",
+        "2026-W09-LAR-WAS",
+        "2026-W09-NYG-PHI",
+        "2026-W09-HOU-LAC",
+        "2026-W09-LV-SF",
+        "2026-W09-ARI-SEA",
+        "2026-W09-GB-NE",
+        "2026-W09-TB-CHI",
+        "2026-W09-BUF-MIN"
+      ],
+      "attempts": [
+        {
+          "game_id": "2026-W09-JAX-BAL",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+          "checked_at": "2026-11-05T17:01:56Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-CIN-ATL",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873038",
+          "checked_at": "2026-11-05T17:01:56Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-CLE-NO",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873039",
+          "checked_at": "2026-11-05T17:01:56Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-DAL-IND",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873040",
+          "checked_at": "2026-11-05T17:01:56Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-DEN-CAR",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873041",
+          "checked_at": "2026-11-05T17:01:56Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-DET-MIA",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873042",
+          "checked_at": "2026-11-05T17:01:56Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-LAR-WAS",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873043",
+          "checked_at": "2026-11-05T17:01:56Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-NYG-PHI",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873044",
+          "checked_at": "2026-11-05T17:01:56Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-NYJ-KC",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873045",
+          "checked_at": "2026-11-05T17:01:57Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-HOU-LAC",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873046",
+          "checked_at": "2026-11-05T17:01:57Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-LV-SF",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873047",
+          "checked_at": "2026-11-05T17:01:57Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-ARI-SEA",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873048",
+          "checked_at": "2026-11-05T17:01:57Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-GB-NE",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873049",
+          "checked_at": "2026-11-05T17:01:57Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-TB-CHI",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
+          "checked_at": "2026-11-05T17:01:57Z",
+          "result": "not accessible via web reader"
+        },
+        {
+          "game_id": "2026-W09-BUF-MIN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873051",
+          "checked_at": "2026-11-05T17:01:57Z",
+          "result": "not accessible via web reader"
+        }
+      ],
+      "effect": "No current snapshot selected into published ledger in this run."
+    },
+    {
+      "fields": [
+        "market_game_kickoff_mapping"
+      ],
+      "game_id": "2026-W09-LV-SF",
+      "official_kickoff": "2026-11-08T16:25:00-05:00",
+      "observed_source_kickoff": "Nov 8, 4:05 PM EST",
+      "official_source_url": "https://www.nfl.com/schedules/2026/reg9/",
+      "effect": "Staged quote remains unselected; dependent WTO EX omitted."
+    },
+    {
+      "fields": [
+        "approved_neutral_site_model_handling"
+      ],
+      "game_id": "2026-W09-CIN-ATL",
+      "venue": "Bernabeu, Madrid",
+      "source_url": "https://www.nfl.com/games/bengals-at-falcons-2026-reg-9",
+      "effect": "Numerical projection and WTO EX unavailable; unchanged production model has a PHI/JAX-only neutral exemption. No formula correction or promotion attempted."
+    }
+  ],
+  "optional_unavailable": [
+    {
+      "fields": [
+        "away_spread_price"
+      ],
+      "games": [
+        "2026-W09-JAX-BAL",
+        "2026-W09-CIN-ATL",
+        "2026-W09-DEN-CAR",
+        "2026-W09-CLE-NO",
+        "2026-W09-DAL-IND",
+        "2026-W09-DET-MIA",
+        "2026-W09-NYJ-KC",
+        "2026-W09-LAR-WAS",
+        "2026-W09-NYG-PHI",
+        "2026-W09-HOU-LAC",
+        "2026-W09-LV-SF",
+        "2026-W09-ARI-SEA",
+        "2026-W09-GB-NE",
+        "2026-W09-TB-CHI",
+        "2026-W09-BUF-MIN"
+      ],
+      "value": null,
+      "reason": "Fallback board exposes only home spread price. No opposite-side price inferred."
+    },
+    {
+      "fields": [
+        "provider_timestamp"
+      ],
+      "games": [
+        "2026-W09-JAX-BAL",
+        "2026-W09-CIN-ATL",
+        "2026-W09-DEN-CAR",
+        "2026-W09-CLE-NO",
+        "2026-W09-DAL-IND",
+        "2026-W09-DET-MIA",
+        "2026-W09-NYJ-KC",
+        "2026-W09-LAR-WAS",
+        "2026-W09-NYG-PHI",
+        "2026-W09-HOU-LAC",
+        "2026-W09-LV-SF",
+        "2026-W09-ARI-SEA",
+        "2026-W09-GB-NE",
+        "2026-W09-TB-CHI",
+        "2026-W09-BUF-MIN"
+      ],
+      "value": null,
+      "reason": "Board refresh time is known; native per-market sportsbook update time is not exposed."
+    },
+    {
+      "fields": [
+        "kickoff_weather"
+      ],
+      "games": [
+        "2026-W09-JAX-BAL",
+        "2026-W09-CIN-ATL",
+        "2026-W09-CLE-NO",
+        "2026-W09-DAL-IND",
+        "2026-W09-DEN-CAR",
+        "2026-W09-DET-MIA",
+        "2026-W09-LAR-WAS",
+        "2026-W09-NYG-PHI",
+        "2026-W09-NYJ-KC",
+        "2026-W09-HOU-LAC",
+        "2026-W09-LV-SF",
+        "2026-W09-ARI-SEA",
+        "2026-W09-GB-NE",
+        "2026-W09-TB-CHI",
+        "2026-W09-BUF-MIN"
+      ],
+      "value": null,
+      "reason": "14 domestic point lookups inaccessible; CIN/ATL is outside NWS coverage. No forecast observation appended or substituted."
+    },
+    {
+      "fields": [
+        "quarterback_report_date"
+      ],
+      "value": null,
+      "reason": "Official Week 9 aggregate was retrieved but lacks exact report issuance dates. Practice participation and final game statuses are stored separately; absent designation is not Active."
+    },
+    {
+      "fields": [
+        "injury_role"
+      ],
+      "reason": "No current official depth/snap source verified; role fields omitted."
+    },
+    {
+      "fields": [
+        "roof_status"
+      ],
+      "game_id": "2026-W09-DAL-IND",
+      "status": "unknown",
+      "source_url": "https://www.colts.com/game-day/regular-season-game-4",
+      "source_text": "Roof: TBD",
+      "effect": "Unknown retained internally; no roof closure inferred."
+    }
+  ],
+  "opening_coverage": {
+    "complete": 122,
+    "partial": 0,
+    "missing": 150,
+    "all_through_week8_complete": true,
+    "retry_weeks": [
+      {
+        "week": 9,
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=9&limit=1000",
+        "checked_at": "2026-11-05T17:02:08Z",
+        "result": "not accessible via web reader"
+      },
+      {
+        "week": 10,
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=10&limit=1000",
+        "checked_at": "2026-11-05T17:02:08Z",
+        "result": "not accessible via web reader"
+      },
+      {
+        "week": 11,
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=11&limit=1000",
+        "checked_at": "2026-11-05T17:02:08Z",
+        "result": "not accessible via web reader"
+      },
+      {
+        "week": 12,
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=12&limit=1000",
+        "checked_at": "2026-11-05T17:02:08Z",
+        "result": "not accessible via web reader"
+      },
+      {
+        "week": 13,
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=13&limit=1000",
+        "checked_at": "2026-11-05T17:02:08Z",
+        "result": "not accessible via web reader"
+      },
+      {
+        "week": 14,
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=14&limit=1000",
+        "checked_at": "2026-11-05T17:02:08Z",
+        "result": "not accessible via web reader"
+      },
+      {
+        "week": 15,
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=15&limit=1000",
+        "checked_at": "2026-11-05T17:02:08Z",
+        "result": "not accessible via web reader"
+      },
+      {
+        "week": 16,
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=16&limit=1000",
+        "checked_at": "2026-11-05T17:02:08Z",
+        "result": "not accessible via web reader"
+      },
+      {
+        "week": 17,
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=17&limit=1000",
+        "checked_at": "2026-11-05T17:02:09Z",
+        "result": "not accessible via web reader"
+      },
+      {
+        "week": 18,
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=18&limit=1000",
+        "checked_at": "2026-11-05T17:02:09Z",
+        "result": "not accessible via web reader"
+      }
+    ],
+    "saved_verified_openers_re_fetched": 0
+  },
+  "forecast_policy": {
+    "provider": "National Weather Service",
+    "attribution": "weather.gov",
+    "verified_current_forecasts": 0,
+    "unavailable": 15,
+    "international": 1,
+    "indoor_classification_is_not_a_forecast": true,
+    "attempted_point_checks": 14,
+    "source_failures_are_tool_access_failures_not_claimed_NWS_outages": true
+  },
+  "prediction_status": {
+    "staged_baselines": 14,
+    "staged_ex_estimates": 13,
+    "published": 0,
+    "approved_model_blob_sha": "426eb12c12b36806e56deccddb124ddba3e947fb",
+    "training_residual_count": 63,
+    "formula_changed": false,
+    "residual_distribution_changed": false,
+    "published_snapshot_pointer_changed": false,
+    "shadow_agreement_review": "Not evaluated; Tuesday completed-week duty, no new candidate model promoted."
+  },
+  "material_changes_observed_not_published": [
+    {
+      "game_id": "2026-W09-JAX-BAL",
+      "previous": {
+        "favorite": "JAX",
+        "spread": -8.5,
+        "total": 42.5,
+        "as_of": "2026-11-03T13:11:22.603245+00:00",
+        "provider": "DraftKings via ESPN"
+      },
+      "staged": {
+        "favorite": "JAX",
+        "spread": -10,
+        "total": 39.5,
+        "source_updated_at": "2026-11-05T16:00:00Z",
+        "captured_at": "2026-11-05T17:02:42Z",
+        "provider": "DraftKings",
+        "collector": "AgentBets.ai via The Odds API"
+      },
+      "material_point_change": true,
+      "published": false
+    },
+    {
+      "game_id": "2026-W09-DEN-CAR",
+      "previous": {
+        "favorite": "DEN",
+        "spread": -3,
+        "total": 43.5,
+        "as_of": "2026-11-03T13:11:25.935030+00:00",
+        "provider": "DraftKings via ESPN"
+      },
+      "staged": {
+        "favorite": "DEN",
+        "spread": -2.5,
+        "total": 44.5,
+        "source_updated_at": "2026-11-05T16:00:00Z",
+        "captured_at": "2026-11-05T17:02:42Z",
+        "provider": "DraftKings",
+        "collector": "AgentBets.ai via The Odds API"
+      },
+      "material_point_change": true,
+      "published": false
+    },
+    {
+      "game_id": "2026-W09-CLE-NO",
+      "previous": {
+        "favorite": "NO",
+        "spread": -2.5,
+        "total": 43.5,
+        "as_of": "2026-11-03T13:11:26.059074+00:00",
+        "provider": "DraftKings via ESPN"
+      },
+      "staged": {
+        "favorite": "NO",
+        "spread": -3,
+        "total": 42.5,
+        "source_updated_at": "2026-11-05T16:00:00Z",
+        "captured_at": "2026-11-05T17:02:42Z",
+        "provider": "DraftKings",
+        "collector": "AgentBets.ai via The Odds API"
+      },
+      "material_point_change": true,
+      "published": false
+    },
+    {
+      "game_id": "2026-W09-DAL-IND",
+      "previous": {
+        "favorite": "DAL",
+        "spread": -6,
+        "total": 51.5,
+        "as_of": "2026-11-03T13:11:25.922989+00:00",
+        "provider": "DraftKings via ESPN"
+      },
+      "staged": {
+        "favorite": "DAL",
+        "spread": -5.5,
+        "total": 51.5,
+        "source_updated_at": "2026-11-05T16:00:00Z",
+        "captured_at": "2026-11-05T17:02:42Z",
+        "provider": "DraftKings",
+        "collector": "AgentBets.ai via The Odds API"
+      },
+      "material_point_change": true,
+      "published": false
+    },
+    {
+      "game_id": "2026-W09-NYJ-KC",
+      "previous": {
+        "favorite": "KC",
+        "spread": -9.5,
+        "total": 46.5,
+        "as_of": "2026-11-03T13:11:25.959476+00:00",
+        "provider": "DraftKings via ESPN"
+      },
+      "staged": {
+        "favorite": "KC",
+        "spread": -10,
+        "total": 47.5,
+        "source_updated_at": "2026-11-05T16:00:00Z",
+        "captured_at": "2026-11-05T17:02:42Z",
+        "provider": "DraftKings",
+        "collector": "AgentBets.ai via The Odds API"
+      },
+      "material_point_change": true,
+      "published": false
+    },
+    {
+      "game_id": "2026-W09-LAR-WAS",
+      "previous": {
+        "favorite": "LAR",
+        "spread": -5.5,
+        "total": 47.5,
+        "as_of": "2026-11-03T13:11:25.917511+00:00",
+        "provider": "DraftKings via ESPN"
+      },
+      "staged": {
+        "favorite": "LAR",
+        "spread": -4.5,
+        "total": 48.5,
+        "source_updated_at": "2026-11-05T16:00:00Z",
+        "captured_at": "2026-11-05T17:02:42Z",
+        "provider": "DraftKings",
+        "collector": "AgentBets.ai via The Odds API"
+      },
+      "material_point_change": true,
+      "published": false
+    },
+    {
+      "game_id": "2026-W09-NYG-PHI",
+      "previous": {
+        "favorite": "NYG",
+        "spread": -3.5,
+        "total": 40.5,
+        "as_of": "2026-11-03T13:11:25.818193+00:00",
+        "provider": "DraftKings via ESPN"
+      },
+      "staged": {
+        "favorite": "NYG",
+        "spread": -3.5,
+        "total": 38.5,
+        "source_updated_at": "2026-11-05T16:00:00Z",
+        "captured_at": "2026-11-05T17:02:42Z",
+        "provider": "DraftKings",
+        "collector": "AgentBets.ai via The Odds API"
+      },
+      "material_point_change": true,
+      "published": false
+    },
+    {
+      "game_id": "2026-W09-ARI-SEA",
+      "previous": {
+        "favorite": "SEA",
+        "spread": -11.5,
+        "total": 44.5,
+        "as_of": "2026-11-03T13:11:25.846904+00:00",
+        "provider": "DraftKings via ESPN"
+      },
+      "staged": {
+        "favorite": "SEA",
+        "spread": -8.5,
+        "total": 39.5,
+        "source_updated_at": "2026-11-05T16:00:00Z",
+        "captured_at": "2026-11-05T17:02:42Z",
+        "provider": "DraftKings",
+        "collector": "AgentBets.ai via The Odds API"
+      },
+      "material_point_change": true,
+      "published": false
+    },
+    {
+      "game_id": "2026-W09-GB-NE",
+      "previous": {
+        "favorite": "NE",
+        "spread": -3,
+        "total": 46.5,
+        "as_of": "2026-11-03T13:11:25.911168+00:00",
+        "provider": "DraftKings via ESPN"
+      },
+      "staged": {
+        "favorite": "NE",
+        "spread": -3.5,
+        "total": 45.5,
+        "source_updated_at": "2026-11-05T16:00:00Z",
+        "captured_at": "2026-11-05T17:02:42Z",
+        "provider": "DraftKings",
+        "collector": "AgentBets.ai via The Odds API"
+      },
+      "material_point_change": true,
+      "published": false
+    },
+    {
+      "game_id": "2026-W09-TB-CHI",
+      "previous": {
+        "favorite": "CHI",
+        "spread": -6,
+        "total": 46.5,
+        "as_of": "2026-11-03T13:11:25.843409+00:00",
+        "provider": "DraftKings via ESPN"
+      },
+      "staged": {
+        "favorite": "CHI",
+        "spread": -6,
+        "total": 47.5,
+        "source_updated_at": "2026-11-05T16:00:00Z",
+        "captured_at": "2026-11-05T17:02:42Z",
+        "provider": "DraftKings",
+        "collector": "AgentBets.ai via The Odds API"
+      },
+      "material_point_change": true,
+      "published": false
+    }
+  ],
+  "next_action": "Retry unresolved source verification and opening fields during the next existing update. If the source chain can be verified, validate and select the staged observations per game; retain any unresolved game independently. No extra run or schedule change created.",
+  "local_runtime": "Unavailable in this run. Data arithmetic, JSON and consistency checks executed directly in JavaScript; repository CLI test suite was not run.",
+  "validation_errors": [],
+  "rollback_target": "8c36a23dc490ee9fc179b7ea24b799767a7ce56d"
+}
