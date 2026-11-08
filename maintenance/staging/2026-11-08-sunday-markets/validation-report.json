@@ -1,0 +1,279 @@
+{
+  "base_commit": "2144011eea4c7a222024dd7a02033b4e1fee7d49",
+  "decision": "publish independently verified Sunday current markets",
+  "source": "DraftKings via ESPN individual game summary",
+  "games": [
+    {
+      "game_id": "2026-W09-CIN-ATL",
+      "before": [
+        "CIN",
+        -3.0,
+        52.5
+      ],
+      "after": [
+        "CIN",
+        -3.0,
+        52.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.080047+00:00",
+      "prices": {
+        "away_spread_price": -120.0,
+        "home_spread_price": 100.0,
+        "over_price": -105.0,
+        "under_price": -115.0
+      }
+    },
+    {
+      "game_id": "2026-W09-CLE-NO",
+      "before": [
+        "NO",
+        -2.5,
+        43.5
+      ],
+      "after": [
+        "NO",
+        -3.0,
+        42.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.062232+00:00",
+      "prices": {
+        "away_spread_price": 100.0,
+        "home_spread_price": -120.0,
+        "over_price": -108.0,
+        "under_price": -112.0
+      }
+    },
+    {
+      "game_id": "2026-W09-DAL-IND",
+      "before": [
+        "DAL",
+        -6.0,
+        51.5
+      ],
+      "after": [
+        "DAL",
+        -5.5,
+        51.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.073476+00:00",
+      "prices": {
+        "away_spread_price": -105.0,
+        "home_spread_price": -115.0,
+        "over_price": -112.0,
+        "under_price": -108.0
+      }
+    },
+    {
+      "game_id": "2026-W09-DEN-CAR",
+      "before": [
+        "DEN",
+        -3.0,
+        43.5
+      ],
+      "after": [
+        "DEN",
+        -2.5,
+        44.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.137177+00:00",
+      "prices": {
+        "away_spread_price": -120.0,
+        "home_spread_price": 100.0,
+        "over_price": -108.0,
+        "under_price": -112.0
+      }
+    },
+    {
+      "game_id": "2026-W09-DET-MIA",
+      "before": [
+        "DET",
+        -7.0,
+        50.5
+      ],
+      "after": [
+        "DET",
+        -6.5,
+        49.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.105756+00:00",
+      "prices": {
+        "away_spread_price": -112.0,
+        "home_spread_price": -108.0,
+        "over_price": -122.0,
+        "under_price": 102.0
+      }
+    },
+    {
+      "game_id": "2026-W09-LAR-WAS",
+      "before": [
+        "LAR",
+        -5.5,
+        47.5
+      ],
+      "after": [
+        "LAR",
+        -4.5,
+        47.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.100141+00:00",
+      "prices": {
+        "away_spread_price": -120.0,
+        "home_spread_price": 100.0,
+        "over_price": -112.0,
+        "under_price": -108.0
+      }
+    },
+    {
+      "game_id": "2026-W09-NYG-PHI",
+      "before": [
+        "NYG",
+        -3.5,
+        40.5
+      ],
+      "after": [
+        "NYG",
+        -3.0,
+        38.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.108767+00:00",
+      "prices": {
+        "away_spread_price": -120.0,
+        "home_spread_price": 100.0,
+        "over_price": -112.0,
+        "under_price": -108.0
+      }
+    },
+    {
+      "game_id": "2026-W09-NYJ-KC",
+      "before": [
+        "KC",
+        -9.5,
+        46.5
+      ],
+      "after": [
+        "KC",
+        -9.5,
+        48.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.097651+00:00",
+      "prices": {
+        "away_spread_price": -105.0,
+        "home_spread_price": -115.0,
+        "over_price": -102.0,
+        "under_price": -118.0
+      }
+    },
+    {
+      "game_id": "2026-W09-HOU-LAC",
+      "before": [
+        "HOU",
+        -4.5,
+        40.5
+      ],
+      "after": [
+        "HOU",
+        -5.5,
+        40.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.089295+00:00",
+      "prices": {
+        "away_spread_price": -112.0,
+        "home_spread_price": -108.0,
+        "over_price": -110.0,
+        "under_price": -110.0
+      }
+    },
+    {
+      "game_id": "2026-W09-LV-SF",
+      "before": [
+        "SF",
+        -10.0,
+        52.5
+      ],
+      "after": [
+        "SF",
+        -9.5,
+        51.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.103033+00:00",
+      "prices": {
+        "away_spread_price": -105.0,
+        "home_spread_price": -115.0,
+        "over_price": -120.0,
+        "under_price": 100.0
+      }
+    },
+    {
+      "game_id": "2026-W09-ARI-SEA",
+      "before": [
+        "SEA",
+        -11.5,
+        44.5
+      ],
+      "after": [
+        "SEA",
+        -8.5,
+        39.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.116020+00:00",
+      "prices": {
+        "away_spread_price": -110.0,
+        "home_spread_price": -110.0,
+        "over_price": -112.0,
+        "under_price": -108.0
+      }
+    },
+    {
+      "game_id": "2026-W09-GB-NE",
+      "before": [
+        "NE",
+        -3.0,
+        46.5
+      ],
+      "after": [
+        "NE",
+        -3.0,
+        44.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.122760+00:00",
+      "prices": {
+        "away_spread_price": -108.0,
+        "home_spread_price": -112.0,
+        "over_price": -112.0,
+        "under_price": -108.0
+      }
+    },
+    {
+      "game_id": "2026-W09-TB-CHI",
+      "before": [
+        "CHI",
+        -6.0,
+        46.5
+      ],
+      "after": [
+        "CHI",
+        -6.0,
+        47.5
+      ],
+      "captured_at": "2026-11-08T13:04:42.113803+00:00",
+      "prices": {
+        "away_spread_price": -108.0,
+        "home_spread_price": -112.0,
+        "over_price": -108.0,
+        "under_price": -112.0
+      }
+    }
+  ],
+  "passed": [
+    "13 unique game IDs and team identities",
+    "all source kickoff instants agree and quotes retrieved pregame",
+    "full game spread signs and totals",
+    "all four prices captured from source",
+    "prior snapshots and openers unchanged",
+    "saved picks and prediction files unchanged"
+  ],
+  "unavailable": [
+    "provider quote generation timestamps not provided",
+    "weather, updated projections and matchup profiles not included; remain outstanding"
+  ]
+}
