@@ -1,0 +1,16 @@
+{
+  "base_commit": "d8af4da1903fccf21755836a05e785209955b606",
+  "checked_at": "2026-11-08T12:57:51.757441+00:00",
+  "decision": "publish independently verified result repair",
+  "checks": [
+    "official NFL and ESPN final 33-10",
+    "ATS JAX 33-8.5 > 10",
+    "43 over stored 42.5",
+    "pregame market snapshots preserved",
+    "no predictions or picks changed"
+  ],
+  "unresolved": [
+    "consensus closing market and prices",
+    "today markets, weather and matchup profiles require further verification"
+  ]
+}
