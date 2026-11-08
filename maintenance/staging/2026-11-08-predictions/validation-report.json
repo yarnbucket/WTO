@@ -1,0 +1,28 @@
+{
+  "base_commit": "f15bf104a8f10e1f129a83f97c4424a5f9a5c22c",
+  "checked_at": "2026-11-08T13:12:17.491989+00:00",
+  "decision": "publish independent conditional forecasts for 13 future games",
+  "files": {
+    "wto-game-insights-2026.json": "3351ec6cf957e31e90ef61724281c7f5267e046de7cde358091be33a33246630",
+    "wto-ex-week9-20261108.json": "c59a8ceb978477158f3a08de85a879fb5de9c4f771e7f493a6eecb2e6689b902",
+    "wto-slip.js": "bd55258eae008e334dc105b3a3e1c7e574aab54193f2866dccf9dc9610386cd0",
+    "index.html": "c7f2d5a455035891fd01997bd631037161faa2eb545ef6d2c95400884bd930fe"
+  },
+  "passed": [
+    "13 forecasts reproduce unchanged approved scoring model from 121 prior-week games",
+    "generated before kickoff using current timestamp",
+    "markets excluded from score calculation",
+    "same approved 63 WTO EX residuals; probabilities sum to one",
+    "prior revisions and saved picks preserved",
+    "31 saved-pick and UI tests passed"
+  ],
+  "unavailable": [
+    "CIN-ATL Madrid neutral-site support requires approved model correction",
+    "JAX-BAL kickoff passed; no backdated published forecast",
+    "official current QB designations, matchup efficiency profiles and weather not fully verified; confidence low, no numerical injury/weather adjustment"
+  ],
+  "source_urls": [
+    "https://www.nfl.com/schedules/2026/by-week/week-9",
+    "https://www.espn.com/nfl/odds"
+  ]
+}
