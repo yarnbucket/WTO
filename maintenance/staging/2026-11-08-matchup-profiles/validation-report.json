@@ -1,0 +1,30 @@
+{
+  "base_commit": "296f62b8505f66c02bb3002b708aa35f0acf7330",
+  "checked_at": "2026-11-08T13:18:55.676116+00:00",
+  "decision": "publish verified descriptive matchup evidence",
+  "changed_files": {
+    "index.html": "3eaa88e3ddb11f40bd7f21d9808b7b04cde014e190390d7bcd315094ad69250e",
+    "wto-game-insights-2026.json": "00049af4a50bc03e2d9f3ac465ccba09ffaece6a03e92038bff6941365fe2b95"
+  },
+  "checks": [
+    "121 ESPN regular-season final box scores matched ledger game IDs, teams and scores",
+    "all 32 teams covered through Week 8",
+    "passing net yards divided by pass attempts plus sacks; rushing yards per carry on both offense and defense",
+    "14 not-yet-started Week 9 matchups have one shared time-stamped pregame evidence snapshot",
+    "profile selection requires matching game and strictly prior week plus pre-kickoff timestamp",
+    "existing historical prediction revisions, saved picks, model and market files unchanged",
+    "all inline scripts parse; 24 UI and pick-storage tests passed",
+    "direct rendering test: shared matchup, team filter, historical week and kickoff cutoff passed"
+  ],
+  "optional_unavailable": [
+    "opponent-adjusted efficiency comparisons",
+    "material individual player matchup and up-to-date official injuries",
+    "kickoff weather"
+  ],
+  "limitations": [
+    "small season-to-date samples",
+    "rank comparisons are descriptive, not betting probabilities",
+    "Madrid model forecast remains unavailable under existing neutral-site rule"
+  ],
+  "preexisting_test_issue": "Two pre-existing wto-matchup-read assertions fail identically on base: legacy team-read text and obsolete service-worker v55 guard. Remaining 10 pass."
+}

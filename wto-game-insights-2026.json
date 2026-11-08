@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "season": 2026,
   "model_version": "week4-trial-v1",
-  "updated_at": "2026-11-08T13:11:48.844Z",
+  "updated_at": "2026-11-08T13:18:04.623156+00:00",
   "methodology": {
     "projection": "Opponent-adjusted independent offensive/defensive scoring rates with two-game shrinkage; market is only compared afterward. Unresolved material personnel uncertainty holds betting calls.",
     "market_use": "Market is comparison only, never a projection input.",
@@ -67535,7 +67535,74 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-CLE-NO",
+              "kickoff": "2026-11-08T13:00:00-05:00",
+              "teams": {
+                "CLE": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 5.73,
+                  "passing_defense_net_yards_per_dropback_allowed": 5.56,
+                  "rushing_offense_yards_per_carry": 3.92,
+                  "rushing_defense_yards_per_carry_allowed": 4.68,
+                  "turnovers_per_game": 1.38,
+                  "points_per_game": 17.38,
+                  "points_allowed_per_game": 21.62
+                },
+                "NO": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 5.58,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.58,
+                  "rushing_offense_yards_per_carry": 3.52,
+                  "rushing_defense_yards_per_carry_allowed": 4.81,
+                  "turnovers_per_game": 1.86,
+                  "points_per_game": 23.14,
+                  "points_allowed_per_game": 27.71
+                }
+              },
+              "sentences": [
+                "CLE gains 5.73 net passing yards per dropback; NO allows 6.58.",
+                "CLE runs for 3.92 yards per carry; NO allows 4.81.",
+                "NO gains 5.58 net passing yards per dropback; CLE allows 5.56.",
+                "NO runs for 3.52 yards per carry; CLE allows 4.68."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872922",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872935",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872938",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872949",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872964",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872979",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872983",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872997",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873011",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873013",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873027"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-DAL-IND",
@@ -67926,7 +67993,75 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-DAL-IND",
+              "kickoff": "2026-11-08T13:00:00-05:00",
+              "teams": {
+                "DAL": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 6.34,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.72,
+                  "rushing_offense_yards_per_carry": 3.78,
+                  "rushing_defense_yards_per_carry_allowed": 5.03,
+                  "turnovers_per_game": 0.88,
+                  "points_per_game": 27.38,
+                  "points_allowed_per_game": 26.62
+                },
+                "IND": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 4.77,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.89,
+                  "rushing_offense_yards_per_carry": 4.12,
+                  "rushing_defense_yards_per_carry_allowed": 4.88,
+                  "turnovers_per_game": 1.88,
+                  "points_per_game": 20.12,
+                  "points_allowed_per_game": 27.75
+                }
+              },
+              "sentences": [
+                "DAL gains 6.34 net passing yards per dropback; IND allows 6.89.",
+                "DAL runs for 3.78 yards per carry; IND allows 4.88.",
+                "IND gains 4.77 net passing yards per dropback; DAL allows 6.72.",
+                "IND runs for 4.12 yards per carry; DAL allows 5.03."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872659",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872930",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872944",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872951",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872960",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872965",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872985",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873003",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873028"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-DEN-CAR",
@@ -68316,7 +68451,74 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-DEN-CAR",
+              "kickoff": "2026-11-08T13:00:00-05:00",
+              "teams": {
+                "DEN": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 5.55,
+                  "passing_defense_net_yards_per_dropback_allowed": 5.55,
+                  "rushing_offense_yards_per_carry": 3.78,
+                  "rushing_defense_yards_per_carry_allowed": 4.49,
+                  "turnovers_per_game": 0.75,
+                  "points_per_game": 21.5,
+                  "points_allowed_per_game": 20.62
+                },
+                "CAR": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 6.17,
+                  "passing_defense_net_yards_per_dropback_allowed": 5.8,
+                  "rushing_offense_yards_per_carry": 4.22,
+                  "rushing_defense_yards_per_carry_allowed": 4.83,
+                  "turnovers_per_game": 1.43,
+                  "points_per_game": 25.43,
+                  "points_allowed_per_game": 27.57
+                }
+              },
+              "sentences": [
+                "DEN gains 5.55 net passing yards per dropback; CAR allows 5.80.",
+                "DEN runs for 3.78 yards per carry; CAR allows 4.83.",
+                "CAR gains 6.17 net passing yards per dropback; DEN allows 5.55.",
+                "CAR runs for 4.22 yards per carry; DEN allows 4.49."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872931",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872933",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872940",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872949",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872975",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872989",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873033"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-DET-MIA",
@@ -68705,7 +68907,73 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-DET-MIA",
+              "kickoff": "2026-11-08T13:00:00-05:00",
+              "teams": {
+                "DET": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 7.0,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.23,
+                  "rushing_offense_yards_per_carry": 4.55,
+                  "rushing_defense_yards_per_carry_allowed": 4.15,
+                  "turnovers_per_game": 0.57,
+                  "points_per_game": 29.0,
+                  "points_allowed_per_game": 25.71
+                },
+                "MIA": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 5.72,
+                  "passing_defense_net_yards_per_dropback_allowed": 7.58,
+                  "rushing_offense_yards_per_carry": 4.45,
+                  "rushing_defense_yards_per_carry_allowed": 3.81,
+                  "turnovers_per_game": 1.29,
+                  "points_per_game": 16.71,
+                  "points_allowed_per_game": 25.86
+                }
+              },
+              "sentences": [
+                "DET gains 7.00 net passing yards per dropback; MIA allows 7.58.",
+                "DET runs for 4.55 yards per carry; MIA allows 3.81.",
+                "MIA gains 5.72 net passing yards per dropback; DET allows 6.23.",
+                "MIA runs for 4.45 yards per carry; DET allows 4.15."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872923",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872928",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872942",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872952",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872974",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872978",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872982",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873034"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-LAR-WAS",
@@ -69095,7 +69363,74 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-LAR-WAS",
+              "kickoff": "2026-11-08T13:00:00-05:00",
+              "teams": {
+                "LAR": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 6.51,
+                  "passing_defense_net_yards_per_dropback_allowed": 5.69,
+                  "rushing_offense_yards_per_carry": 4.71,
+                  "rushing_defense_yards_per_carry_allowed": 4.03,
+                  "turnovers_per_game": 1.5,
+                  "points_per_game": 24.25,
+                  "points_allowed_per_game": 21.0
+                },
+                "WAS": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 5.68,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.32,
+                  "rushing_offense_yards_per_carry": 4.64,
+                  "rushing_defense_yards_per_carry_allowed": 3.86,
+                  "turnovers_per_game": 0.43,
+                  "points_per_game": 22.71,
+                  "points_allowed_per_game": 26.0
+                }
+              },
+              "sentences": [
+                "LAR gains 6.51 net passing yards per dropback; WAS allows 6.32.",
+                "LAR runs for 4.71 yards per carry; WAS allows 3.86.",
+                "WAS gains 5.68 net passing yards per dropback; LAR allows 5.69.",
+                "WAS runs for 4.64 yards per carry; LAR allows 4.03."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872657",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872929",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872944",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872947",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872962",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872965",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872970",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873032",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873035"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-NYG-PHI",
@@ -69485,7 +69820,74 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-NYG-PHI",
+              "kickoff": "2026-11-08T13:00:00-05:00",
+              "teams": {
+                "NYG": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 6.13,
+                  "passing_defense_net_yards_per_dropback_allowed": 5.68,
+                  "rushing_offense_yards_per_carry": 4.06,
+                  "rushing_defense_yards_per_carry_allowed": 4.82,
+                  "turnovers_per_game": 1.57,
+                  "points_per_game": 23.29,
+                  "points_allowed_per_game": 23.0
+                },
+                "PHI": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 4.85,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.65,
+                  "rushing_offense_yards_per_carry": 3.75,
+                  "rushing_defense_yards_per_carry_allowed": 4.31,
+                  "turnovers_per_game": 1.0,
+                  "points_per_game": 17.12,
+                  "points_allowed_per_game": 25.25
+                }
+              },
+              "sentences": [
+                "NYG gains 6.13 net passing yards per dropback; PHI allows 6.65.",
+                "NYG runs for 4.06 yards per carry; PHI allows 4.31.",
+                "PHI gains 4.85 net passing yards per dropback; NYG allows 5.68.",
+                "PHI runs for 3.75 yards per carry; NYG allows 4.82."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872929",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872930",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872939",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872947",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872956",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872970",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872981",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872988",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872998",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873000",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873009",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873035"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-NYJ-KC",
@@ -69875,7 +70277,74 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-NYJ-KC",
+              "kickoff": "2026-11-08T13:00:00-05:00",
+              "teams": {
+                "NYJ": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 6.56,
+                  "passing_defense_net_yards_per_dropback_allowed": 5.99,
+                  "rushing_offense_yards_per_carry": 4.08,
+                  "rushing_defense_yards_per_carry_allowed": 3.96,
+                  "turnovers_per_game": 0.75,
+                  "points_per_game": 21.25,
+                  "points_allowed_per_game": 23.5
+                },
+                "KC": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 7.23,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.17,
+                  "rushing_offense_yards_per_carry": 5.08,
+                  "rushing_defense_yards_per_carry_allowed": 3.55,
+                  "turnovers_per_game": 0.71,
+                  "points_per_game": 23.86,
+                  "points_allowed_per_game": 18.71
+                }
+              },
+              "sentences": [
+                "NYJ gains 6.56 net passing yards per dropback; KC allows 6.17.",
+                "NYJ runs for 4.08 yards per carry; KC allows 3.55.",
+                "KC gains 7.23 net passing yards per dropback; NYJ allows 5.99.",
+                "KC runs for 5.08 yards per carry; NYJ allows 3.96."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872924",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872931",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872936",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872945",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872952",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872954",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872972",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872983",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873015",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873033"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-HOU-LAC",
@@ -70264,7 +70733,73 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-HOU-LAC",
+              "kickoff": "2026-11-08T16:05:00-05:00",
+              "teams": {
+                "HOU": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 6.75,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.4,
+                  "rushing_offense_yards_per_carry": 3.55,
+                  "rushing_defense_yards_per_carry_allowed": 3.83,
+                  "turnovers_per_game": 0.43,
+                  "points_per_game": 23.57,
+                  "points_allowed_per_game": 24.29
+                },
+                "LAC": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 5.25,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.68,
+                  "rushing_offense_yards_per_carry": 4.01,
+                  "rushing_defense_yards_per_carry_allowed": 4.11,
+                  "turnovers_per_game": 2.43,
+                  "points_per_game": 14.14,
+                  "points_allowed_per_game": 25.0
+                }
+              },
+              "sentences": [
+                "HOU gains 6.75 net passing yards per dropback; LAC allows 6.68.",
+                "HOU runs for 3.55 yards per carry; LAC allows 4.11.",
+                "LAC gains 5.25 net passing yards per dropback; HOU allows 6.40.",
+                "LAC runs for 4.01 yards per carry; HOU allows 3.83."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872660",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872941",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872951",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872953",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872967",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872977",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872984",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872989",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873006",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873016",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873032"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-LV-SF",
@@ -70654,7 +71189,74 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-LV-SF",
+              "kickoff": "2026-11-08T16:25:00-05:00",
+              "teams": {
+                "LV": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 7.0,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.93,
+                  "rushing_offense_yards_per_carry": 2.99,
+                  "rushing_defense_yards_per_carry_allowed": 5.11,
+                  "turnovers_per_game": 1.0,
+                  "points_per_game": 27.62,
+                  "points_allowed_per_game": 28.75
+                },
+                "SF": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 7.83,
+                  "passing_defense_net_yards_per_dropback_allowed": 5.6,
+                  "rushing_offense_yards_per_carry": 4.67,
+                  "rushing_defense_yards_per_carry_allowed": 3.48,
+                  "turnovers_per_game": 1.43,
+                  "points_per_game": 28.14,
+                  "points_allowed_per_game": 19.86
+                }
+              },
+              "sentences": [
+                "LV gains 7.00 net passing yards per dropback; SF allows 5.60.",
+                "LV runs for 2.99 yards per carry; SF allows 3.48.",
+                "SF gains 7.83 net passing yards per dropback; LV allows 6.93.",
+                "SF runs for 4.67 yards per carry; LV allows 5.11."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872657",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872928",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872941",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872942",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872961",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872975",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872976",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873008",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873021",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873029"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-ARI-SEA",
@@ -71045,7 +71647,74 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-ARI-SEA",
+              "kickoff": "2026-11-08T16:25:00-05:00",
+              "teams": {
+                "ARI": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 5.13,
+                  "passing_defense_net_yards_per_dropback_allowed": 7.08,
+                  "rushing_offense_yards_per_carry": 4.2,
+                  "rushing_defense_yards_per_carry_allowed": 4.27,
+                  "turnovers_per_game": 1.0,
+                  "points_per_game": 21.88,
+                  "points_allowed_per_game": 29.75
+                },
+                "SEA": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 6.37,
+                  "passing_defense_net_yards_per_dropback_allowed": 4.71,
+                  "rushing_offense_yards_per_carry": 3.9,
+                  "rushing_defense_yards_per_carry_allowed": 3.5,
+                  "turnovers_per_game": 1.75,
+                  "points_per_game": 23.12,
+                  "points_allowed_per_game": 19.88
+                }
+              },
+              "sentences": [
+                "ARI gains 5.13 net passing yards per dropback; SEA allows 4.71.",
+                "ARI runs for 4.20 yards per carry; SEA allows 3.50.",
+                "SEA gains 6.37 net passing yards per dropback; ARI allows 7.08.",
+                "SEA runs for 3.90 yards per carry; ARI allows 4.27."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872656",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872926",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872943",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872955",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872958",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872966",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872977",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872992",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872995",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873004",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873019",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873022",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873024",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873036"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-GB-NE",
@@ -71436,7 +72105,75 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-GB-NE",
+              "kickoff": "2026-11-08T16:25:00-05:00",
+              "teams": {
+                "GB": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 6.65,
+                  "passing_defense_net_yards_per_dropback_allowed": 5.33,
+                  "rushing_offense_yards_per_carry": 2.85,
+                  "rushing_defense_yards_per_carry_allowed": 3.89,
+                  "turnovers_per_game": 1.38,
+                  "points_per_game": 21.38,
+                  "points_allowed_per_game": 20.5
+                },
+                "NE": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 7.63,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.23,
+                  "rushing_offense_yards_per_carry": 4.1,
+                  "rushing_defense_yards_per_carry_allowed": 3.84,
+                  "turnovers_per_game": 1.88,
+                  "points_per_game": 23.0,
+                  "points_allowed_per_game": 20.25
+                }
+              },
+              "sentences": [
+                "GB gains 6.65 net passing yards per dropback; NE allows 6.23.",
+                "GB runs for 2.85 yards per carry; NE allows 3.84.",
+                "NE gains 7.63 net passing yards per dropback; GB allows 5.33.",
+                "NE runs for 4.10 yards per carry; GB allows 3.89."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872656",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872927",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872936",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872946",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872957",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872968",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872971",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872986",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873001",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873007",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873020",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873023",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873034"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-TB-CHI",
@@ -71827,7 +72564,75 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-TB-CHI",
+              "kickoff": "2026-11-08T20:20:00-05:00",
+              "teams": {
+                "TB": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 4.55,
+                  "passing_defense_net_yards_per_dropback_allowed": 5.76,
+                  "rushing_offense_yards_per_carry": 5.07,
+                  "rushing_defense_yards_per_carry_allowed": 3.58,
+                  "turnovers_per_game": 1.5,
+                  "points_per_game": 22.25,
+                  "points_allowed_per_game": 18.88
+                },
+                "CHI": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 6.44,
+                  "passing_defense_net_yards_per_dropback_allowed": 7.01,
+                  "rushing_offense_yards_per_carry": 4.29,
+                  "rushing_defense_yards_per_carry_allowed": 4.42,
+                  "turnovers_per_game": 1.5,
+                  "points_per_game": 26.75,
+                  "points_allowed_per_game": 20.0
+                }
+              },
+              "sentences": [
+                "TB gains 4.55 net passing yards per dropback; CHI allows 7.01.",
+                "TB runs for 5.07 yards per carry; CHI allows 4.42.",
+                "CHI gains 6.44 net passing yards per dropback; TB allows 5.76.",
+                "CHI runs for 4.29 yards per carry; TB allows 3.58."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872661",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872925",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872935",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872937",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872959",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872963",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872968",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872972",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872990",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873002",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873010",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873018",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873036"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         },
         {
           "game_id": "2026-W09-BUF-MIN",
@@ -72105,7 +72910,145 @@
               "why_changed": "The independently calculated scoring baseline had previously been held together with source-unverified market observations."
             }
           ],
-          "postgame_review": null
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-BUF-MIN",
+              "kickoff": "2026-11-09T20:15:00-05:00",
+              "teams": {
+                "BUF": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 7.86,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.3,
+                  "rushing_offense_yards_per_carry": 4.79,
+                  "rushing_defense_yards_per_carry_allowed": 3.85,
+                  "turnovers_per_game": 1.57,
+                  "points_per_game": 33.29,
+                  "points_allowed_per_game": 25.86
+                },
+                "MIN": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 5.42,
+                  "passing_defense_net_yards_per_dropback_allowed": 4.75,
+                  "rushing_offense_yards_per_carry": 4.01,
+                  "rushing_defense_yards_per_carry_allowed": 4.54,
+                  "turnovers_per_game": 0.71,
+                  "points_per_game": 20.0,
+                  "points_allowed_per_game": 13.29
+                }
+              },
+              "sentences": [
+                "BUF gains 7.86 net passing yards per dropback; MIN allows 4.75.",
+                "BUF runs for 4.79 yards per carry; MIN allows 4.54.",
+                "MIN gains 5.42 net passing yards per dropback; BUF allows 6.30.",
+                "MIN runs for 4.01 yards per carry; BUF allows 3.85."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872660",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872927",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872932",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872937",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872953",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872959",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872971",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872974",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872987",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872994",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873005",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873014",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873026",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873030"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
+        },
+        {
+          "game_id": "2026-W09-CIN-ATL",
+          "revisions": [],
+          "postgame_review": null,
+          "matchup_evidence_snapshots": [
+            {
+              "generated_at": "2026-11-08T13:18:04.623156+00:00",
+              "verified_at": "2026-11-08T13:18:04.623156+00:00",
+              "season": 2026,
+              "through_week": 8,
+              "game_id": "2026-W09-CIN-ATL",
+              "kickoff": "2026-11-08T09:30:00-05:00",
+              "teams": {
+                "CIN": {
+                  "games": 7,
+                  "passing_offense_net_yards_per_dropback": 7.21,
+                  "passing_defense_net_yards_per_dropback_allowed": 6.28,
+                  "rushing_offense_yards_per_carry": 3.67,
+                  "rushing_defense_yards_per_carry_allowed": 4.84,
+                  "turnovers_per_game": 1.43,
+                  "points_per_game": 29.43,
+                  "points_allowed_per_game": 22.57
+                },
+                "ATL": {
+                  "games": 8,
+                  "passing_offense_net_yards_per_dropback": 6.25,
+                  "passing_defense_net_yards_per_dropback_allowed": 5.82,
+                  "rushing_offense_yards_per_carry": 4.61,
+                  "rushing_defense_yards_per_carry_allowed": 4.34,
+                  "turnovers_per_game": 2.0,
+                  "points_per_game": 21.38,
+                  "points_allowed_per_game": 23.62
+                }
+              },
+              "sentences": [
+                "CIN gains 7.21 net passing yards per dropback; ATL allows 5.82.",
+                "CIN runs for 3.67 yards per carry; ATL allows 4.34.",
+                "ATL gains 6.25 net passing yards per dropback; CIN allows 6.28.",
+                "ATL runs for 4.61 yards per carry; CIN allows 4.84."
+              ],
+              "definitions": {
+                "passing": "Net passing yards divided by pass attempts plus sacks; sacks included consistently for offense and defense.",
+                "rushing": "Rushing yards divided by rushing attempts.",
+                "turnovers": "Offensive turnovers per game."
+              },
+              "source_provider": "ESPN game box scores",
+              "source_urls": [
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872658",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872925",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872933",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872934",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872948",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872950",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872969",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872979",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872982",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872993",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872999",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873012",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873017",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873025",
+                "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873031"
+              ],
+              "unavailable_fields": [
+                "Opponent-adjusted efficiency",
+                "current verified individual player roles",
+                "verified kickoff weather"
+              ],
+              "limitations": "Season-to-date averages through Week 8; opponent quality and player availability vary. These comparisons are descriptive, not betting probabilities."
+            }
+          ]
         }
       ]
     }
