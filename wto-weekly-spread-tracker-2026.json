@@ -3806,7 +3806,216 @@
         "finalized_at": "2026-11-03T15:07:19.277763+00:00",
         "comparison_note": "Source-explicit closing markets remain null when unavailable. Last Verified grading uses only the latest stored verified pregame market."
       }
+    },
+    {
+      "week": 10,
+      "season_type": "REG",
+      "tuesday_snapshot": {
+        "captured_at": "2026-11-10T11:04:20.247620+00:00",
+        "provider": "DraftKings via ESPN",
+        "source_urls": [
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873055",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873056",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873057",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873058",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873059",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873060",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873061",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873062",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873063",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873064",
+          "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065"
+        ],
+        "games": [
+          {
+            "game_id": "2026-W10-WAS-NYG",
+            "kickoff_et": "2026-11-12T20:15:00-05:00",
+            "away": "WAS",
+            "home": "NYG",
+            "favorite": "NYG",
+            "favorite_spread": -2.5,
+            "away_spread_price": -110.0,
+            "home_spread_price": -110.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:13.801437+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052"
+          },
+          {
+            "game_id": "2026-W10-NE-DET",
+            "kickoff_et": "2026-11-15T09:30:00-05:00",
+            "away": "NE",
+            "home": "DET",
+            "favorite": "DET",
+            "favorite_spread": -2.5,
+            "away_spread_price": 100.0,
+            "home_spread_price": -120.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:19.843668+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053"
+          },
+          {
+            "game_id": "2026-W10-BUF-NYJ",
+            "kickoff_et": "2026-11-15T13:00:00-05:00",
+            "away": "BUF",
+            "home": "NYJ",
+            "favorite": "BUF",
+            "favorite_spread": -8.5,
+            "away_spread_price": -110.0,
+            "home_spread_price": -110.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:19.657104+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054"
+          },
+          {
+            "game_id": "2026-W10-CAR-NO",
+            "kickoff_et": "2026-11-15T13:00:00-05:00",
+            "away": "CAR",
+            "home": "NO",
+            "favorite": "NO",
+            "favorite_spread": -1.5,
+            "away_spread_price": -115.0,
+            "home_spread_price": -105.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:19.871959+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873055"
+          },
+          {
+            "game_id": "2026-W10-HOU-CLE",
+            "kickoff_et": "2026-11-15T13:00:00-05:00",
+            "away": "HOU",
+            "home": "CLE",
+            "favorite": "HOU",
+            "favorite_spread": -4.5,
+            "away_spread_price": -115.0,
+            "home_spread_price": -105.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:19.651006+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873056"
+          },
+          {
+            "game_id": "2026-W10-JAX-TEN",
+            "kickoff_et": "2026-11-15T13:00:00-05:00",
+            "away": "JAX",
+            "home": "TEN",
+            "favorite": "JAX",
+            "favorite_spread": -10.5,
+            "away_spread_price": -108.0,
+            "home_spread_price": -112.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:19.780588+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873057"
+          },
+          {
+            "game_id": "2026-W10-KC-ATL",
+            "kickoff_et": "2026-11-15T13:00:00-05:00",
+            "away": "KC",
+            "home": "ATL",
+            "favorite": "KC",
+            "favorite_spread": -3.5,
+            "away_spread_price": -102.0,
+            "home_spread_price": -118.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:19.824120+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873058"
+          },
+          {
+            "game_id": "2026-W10-MIA-IND",
+            "kickoff_et": "2026-11-15T13:00:00-05:00",
+            "away": "MIA",
+            "home": "IND",
+            "favorite": "IND",
+            "favorite_spread": -2.5,
+            "away_spread_price": -110.0,
+            "home_spread_price": -110.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:19.787041+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873059"
+          },
+          {
+            "game_id": "2026-W10-MIN-GB",
+            "kickoff_et": "2026-11-15T13:00:00-05:00",
+            "away": "MIN",
+            "home": "GB",
+            "favorite": "GB",
+            "favorite_spread": -4.5,
+            "away_spread_price": -110.0,
+            "home_spread_price": -110.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:20.017787+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873060"
+          },
+          {
+            "game_id": "2026-W10-LAR-ARI",
+            "kickoff_et": "2026-11-15T16:05:00-05:00",
+            "away": "LAR",
+            "home": "ARI",
+            "favorite": "LAR",
+            "favorite_spread": -9.5,
+            "away_spread_price": -112.0,
+            "home_spread_price": -108.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:19.897716+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873061"
+          },
+          {
+            "game_id": "2026-W10-SEA-LV",
+            "kickoff_et": "2026-11-15T16:05:00-05:00",
+            "away": "SEA",
+            "home": "LV",
+            "favorite": "SEA",
+            "favorite_spread": -3.5,
+            "away_spread_price": -102.0,
+            "home_spread_price": -118.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:19.734431+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873062"
+          },
+          {
+            "game_id": "2026-W10-SF-DAL",
+            "kickoff_et": "2026-11-15T16:25:00-05:00",
+            "away": "SF",
+            "home": "DAL",
+            "favorite": "SF",
+            "favorite_spread": -3.5,
+            "away_spread_price": -112.0,
+            "home_spread_price": -108.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:20.079875+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873063"
+          },
+          {
+            "game_id": "2026-W10-PIT-CIN",
+            "kickoff_et": "2026-11-15T20:20:00-05:00",
+            "away": "PIT",
+            "home": "CIN",
+            "favorite": "CIN",
+            "favorite_spread": -3.5,
+            "away_spread_price": -110.0,
+            "home_spread_price": -110.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:19.640158+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873064"
+          },
+          {
+            "game_id": "2026-W10-LAC-BAL",
+            "kickoff_et": "2026-11-16T20:15:00-05:00",
+            "away": "LAC",
+            "home": "BAL",
+            "favorite": "BAL",
+            "favorite_spread": -5.5,
+            "away_spread_price": -112.0,
+            "home_spread_price": -108.0,
+            "provider": "DraftKings via ESPN",
+            "captured_at": "2026-11-10T11:04:20.247620+00:00",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065"
+          }
+        ]
+      },
+      "following_tuesday_comparison": null
     }
   ],
-  "updated_at": "2026-11-03T15:07:19.277763+00:00"
+  "updated_at": "2026-11-10T11:04:20.247620+00:00"
 }

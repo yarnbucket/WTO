@@ -1,0 +1,18 @@
+{
+  "base_commit": "8531e2d410d4ae0b2f87871e5024e0891b3b312b",
+  "decision": "publish independently verified Week 10 markets",
+  "source": "DraftKings via ESPN",
+  "checked_at": "2026-11-10T11:04:20.247620+00:00",
+  "checks": [
+    "14 unique schedule IDs, teams, kickoff instants matched ESPN",
+    "favorite-perspective sign and mirrored spreads validated",
+    "all historical market snapshots preserved",
+    "one sportsbook; actual per-game retrieval timestamps",
+    "Tuesday snapshot kept separate from opening and closing"
+  ],
+  "unresolved": [
+    "Provider quote creation time unavailable",
+    "Week 9 wrap-up remains pending independent validation",
+    "Week 10 predictions, matchup evidence, futures and weather remain pending"
+  ]
+}

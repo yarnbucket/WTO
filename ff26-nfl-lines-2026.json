@@ -3,7 +3,7 @@
   "season": 2026,
   "league": "NFL",
   "timezone": "America/New_York",
-  "updated_at": "2026-11-08T13:04:42.137177+00:00",
+  "updated_at": "2026-11-10T11:04:20.247620+00:00",
   "tracking_rules": {
     "spread_standard": "favorite-perspective",
     "pending_lines_are": "market_snapshot",
@@ -49677,13 +49677,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "NYG",
+          "market_spread": -2.5,
+          "market_total": 42.5,
+          "away_spread_price": -110.0,
+          "home_spread_price": -110.0,
+          "over_price": -105.0,
+          "under_price": -115.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -49691,7 +49691,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "NYG",
+              "favorite_spread": -2.5,
+              "total": 42.5,
+              "away_spread": 2.5,
+              "home_spread": -2.5,
+              "away_spread_price": -110.0,
+              "home_spread_price": -110.0,
+              "over_price": -105.0,
+              "under_price": -115.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+              "captured_at": "2026-11-10T11:04:13.801437+00:00",
+              "retrieved_at": "2026-11-10T11:04:13.801437+00:00",
+              "spread_captured_at": "2026-11-10T11:04:13.801437+00:00",
+              "total_captured_at": "2026-11-10T11:04:13.801437+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -49749,7 +49772,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:13.801437+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:13.801437+00:00"
         },
         {
           "game_id": "2026-W10-NE-DET",
@@ -49761,13 +49787,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "DET",
+          "market_spread": -2.5,
+          "market_total": 51.5,
+          "away_spread_price": 100.0,
+          "home_spread_price": -120.0,
+          "over_price": 100.0,
+          "under_price": -120.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -49775,7 +49801,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "DET",
+              "favorite_spread": -2.5,
+              "total": 51.5,
+              "away_spread": 2.5,
+              "home_spread": -2.5,
+              "away_spread_price": 100.0,
+              "home_spread_price": -120.0,
+              "over_price": 100.0,
+              "under_price": -120.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053",
+              "captured_at": "2026-11-10T11:04:19.843668+00:00",
+              "retrieved_at": "2026-11-10T11:04:19.843668+00:00",
+              "spread_captured_at": "2026-11-10T11:04:19.843668+00:00",
+              "total_captured_at": "2026-11-10T11:04:19.843668+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -49833,7 +49882,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:19.843668+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:19.843668+00:00"
         },
         {
           "game_id": "2026-W10-BUF-NYJ",
@@ -49845,13 +49897,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "BUF",
+          "market_spread": -8.5,
+          "market_total": 50.5,
+          "away_spread_price": -110.0,
+          "home_spread_price": -110.0,
+          "over_price": -105.0,
+          "under_price": -115.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -49859,7 +49911,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "BUF",
+              "favorite_spread": -8.5,
+              "total": 50.5,
+              "away_spread": -8.5,
+              "home_spread": 8.5,
+              "away_spread_price": -110.0,
+              "home_spread_price": -110.0,
+              "over_price": -105.0,
+              "under_price": -115.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054",
+              "captured_at": "2026-11-10T11:04:19.657104+00:00",
+              "retrieved_at": "2026-11-10T11:04:19.657104+00:00",
+              "spread_captured_at": "2026-11-10T11:04:19.657104+00:00",
+              "total_captured_at": "2026-11-10T11:04:19.657104+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -49917,7 +49992,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:19.657104+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:19.657104+00:00"
         },
         {
           "game_id": "2026-W10-CAR-NO",
@@ -49929,13 +50007,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "NO",
+          "market_spread": -1.5,
+          "market_total": 47.5,
+          "away_spread_price": -115.0,
+          "home_spread_price": -105.0,
+          "over_price": -115.0,
+          "under_price": -105.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -49943,7 +50021,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "NO",
+              "favorite_spread": -1.5,
+              "total": 47.5,
+              "away_spread": 1.5,
+              "home_spread": -1.5,
+              "away_spread_price": -115.0,
+              "home_spread_price": -105.0,
+              "over_price": -115.0,
+              "under_price": -105.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873055",
+              "captured_at": "2026-11-10T11:04:19.871959+00:00",
+              "retrieved_at": "2026-11-10T11:04:19.871959+00:00",
+              "spread_captured_at": "2026-11-10T11:04:19.871959+00:00",
+              "total_captured_at": "2026-11-10T11:04:19.871959+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50001,7 +50102,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:19.871959+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:19.871959+00:00"
         },
         {
           "game_id": "2026-W10-HOU-CLE",
@@ -50013,13 +50117,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "HOU",
+          "market_spread": -4.5,
+          "market_total": 39.5,
+          "away_spread_price": -115.0,
+          "home_spread_price": -105.0,
+          "over_price": -112.0,
+          "under_price": -108.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -50027,7 +50131,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "HOU",
+              "favorite_spread": -4.5,
+              "total": 39.5,
+              "away_spread": -4.5,
+              "home_spread": 4.5,
+              "away_spread_price": -115.0,
+              "home_spread_price": -105.0,
+              "over_price": -112.0,
+              "under_price": -108.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873056",
+              "captured_at": "2026-11-10T11:04:19.651006+00:00",
+              "retrieved_at": "2026-11-10T11:04:19.651006+00:00",
+              "spread_captured_at": "2026-11-10T11:04:19.651006+00:00",
+              "total_captured_at": "2026-11-10T11:04:19.651006+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50085,7 +50212,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:19.651006+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:19.651006+00:00"
         },
         {
           "game_id": "2026-W10-JAX-TEN",
@@ -50097,13 +50227,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "JAX",
+          "market_spread": -10.5,
+          "market_total": 46.5,
+          "away_spread_price": -108.0,
+          "home_spread_price": -112.0,
+          "over_price": -112.0,
+          "under_price": -108.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -50111,7 +50241,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "JAX",
+              "favorite_spread": -10.5,
+              "total": 46.5,
+              "away_spread": -10.5,
+              "home_spread": 10.5,
+              "away_spread_price": -108.0,
+              "home_spread_price": -112.0,
+              "over_price": -112.0,
+              "under_price": -108.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873057",
+              "captured_at": "2026-11-10T11:04:19.780588+00:00",
+              "retrieved_at": "2026-11-10T11:04:19.780588+00:00",
+              "spread_captured_at": "2026-11-10T11:04:19.780588+00:00",
+              "total_captured_at": "2026-11-10T11:04:19.780588+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50169,7 +50322,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:19.780588+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:19.780588+00:00"
         },
         {
           "game_id": "2026-W10-KC-ATL",
@@ -50181,13 +50337,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "KC",
+          "market_spread": -3.5,
+          "market_total": 45.5,
+          "away_spread_price": -102.0,
+          "home_spread_price": -118.0,
+          "over_price": -105.0,
+          "under_price": -115.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -50195,7 +50351,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "KC",
+              "favorite_spread": -3.5,
+              "total": 45.5,
+              "away_spread": -3.5,
+              "home_spread": 3.5,
+              "away_spread_price": -102.0,
+              "home_spread_price": -118.0,
+              "over_price": -105.0,
+              "under_price": -115.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873058",
+              "captured_at": "2026-11-10T11:04:19.824120+00:00",
+              "retrieved_at": "2026-11-10T11:04:19.824120+00:00",
+              "spread_captured_at": "2026-11-10T11:04:19.824120+00:00",
+              "total_captured_at": "2026-11-10T11:04:19.824120+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50253,7 +50432,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:19.824120+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:19.824120+00:00"
         },
         {
           "game_id": "2026-W10-MIA-IND",
@@ -50265,13 +50447,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "IND",
+          "market_spread": -2.5,
+          "market_total": 40.5,
+          "away_spread_price": -110.0,
+          "home_spread_price": -110.0,
+          "over_price": -108.0,
+          "under_price": -112.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -50279,7 +50461,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "IND",
+              "favorite_spread": -2.5,
+              "total": 40.5,
+              "away_spread": 2.5,
+              "home_spread": -2.5,
+              "away_spread_price": -110.0,
+              "home_spread_price": -110.0,
+              "over_price": -108.0,
+              "under_price": -112.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873059",
+              "captured_at": "2026-11-10T11:04:19.787041+00:00",
+              "retrieved_at": "2026-11-10T11:04:19.787041+00:00",
+              "spread_captured_at": "2026-11-10T11:04:19.787041+00:00",
+              "total_captured_at": "2026-11-10T11:04:19.787041+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50337,7 +50542,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:19.787041+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:19.787041+00:00"
         },
         {
           "game_id": "2026-W10-MIN-GB",
@@ -50349,13 +50557,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "GB",
+          "market_spread": -4.5,
+          "market_total": 41.5,
+          "away_spread_price": -110.0,
+          "home_spread_price": -110.0,
+          "over_price": -110.0,
+          "under_price": -110.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -50363,7 +50571,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "GB",
+              "favorite_spread": -4.5,
+              "total": 41.5,
+              "away_spread": 4.5,
+              "home_spread": -4.5,
+              "away_spread_price": -110.0,
+              "home_spread_price": -110.0,
+              "over_price": -110.0,
+              "under_price": -110.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873060",
+              "captured_at": "2026-11-10T11:04:20.017787+00:00",
+              "retrieved_at": "2026-11-10T11:04:20.017787+00:00",
+              "spread_captured_at": "2026-11-10T11:04:20.017787+00:00",
+              "total_captured_at": "2026-11-10T11:04:20.017787+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50421,7 +50652,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:20.017787+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:20.017787+00:00"
         },
         {
           "game_id": "2026-W10-LAR-ARI",
@@ -50433,13 +50667,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "LAR",
+          "market_spread": -9.5,
+          "market_total": 40.5,
+          "away_spread_price": -112.0,
+          "home_spread_price": -108.0,
+          "over_price": -105.0,
+          "under_price": -115.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -50447,7 +50681,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "LAR",
+              "favorite_spread": -9.5,
+              "total": 40.5,
+              "away_spread": -9.5,
+              "home_spread": 9.5,
+              "away_spread_price": -112.0,
+              "home_spread_price": -108.0,
+              "over_price": -105.0,
+              "under_price": -115.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873061",
+              "captured_at": "2026-11-10T11:04:19.897716+00:00",
+              "retrieved_at": "2026-11-10T11:04:19.897716+00:00",
+              "spread_captured_at": "2026-11-10T11:04:19.897716+00:00",
+              "total_captured_at": "2026-11-10T11:04:19.897716+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50505,7 +50762,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:19.897716+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:19.897716+00:00"
         },
         {
           "game_id": "2026-W10-SEA-LV",
@@ -50517,13 +50777,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "SEA",
+          "market_spread": -3.5,
+          "market_total": 43.5,
+          "away_spread_price": -102.0,
+          "home_spread_price": -118.0,
+          "over_price": -108.0,
+          "under_price": -112.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -50531,7 +50791,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "SEA",
+              "favorite_spread": -3.5,
+              "total": 43.5,
+              "away_spread": -3.5,
+              "home_spread": 3.5,
+              "away_spread_price": -102.0,
+              "home_spread_price": -118.0,
+              "over_price": -108.0,
+              "under_price": -112.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873062",
+              "captured_at": "2026-11-10T11:04:19.734431+00:00",
+              "retrieved_at": "2026-11-10T11:04:19.734431+00:00",
+              "spread_captured_at": "2026-11-10T11:04:19.734431+00:00",
+              "total_captured_at": "2026-11-10T11:04:19.734431+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50589,7 +50872,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:19.734431+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:19.734431+00:00"
         },
         {
           "game_id": "2026-W10-SF-DAL",
@@ -50601,13 +50887,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "SF",
+          "market_spread": -3.5,
+          "market_total": 55.5,
+          "away_spread_price": -112.0,
+          "home_spread_price": -108.0,
+          "over_price": -110.0,
+          "under_price": -110.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -50615,7 +50901,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "SF",
+              "favorite_spread": -3.5,
+              "total": 55.5,
+              "away_spread": -3.5,
+              "home_spread": 3.5,
+              "away_spread_price": -112.0,
+              "home_spread_price": -108.0,
+              "over_price": -110.0,
+              "under_price": -110.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873063",
+              "captured_at": "2026-11-10T11:04:20.079875+00:00",
+              "retrieved_at": "2026-11-10T11:04:20.079875+00:00",
+              "spread_captured_at": "2026-11-10T11:04:20.079875+00:00",
+              "total_captured_at": "2026-11-10T11:04:20.079875+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50673,7 +50982,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:20.079875+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:20.079875+00:00"
         },
         {
           "game_id": "2026-W10-PIT-CIN",
@@ -50685,13 +50997,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "CIN",
+          "market_spread": -3.5,
+          "market_total": 48.5,
+          "away_spread_price": -110.0,
+          "home_spread_price": -110.0,
+          "over_price": -108.0,
+          "under_price": -112.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -50699,7 +51011,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "CIN",
+              "favorite_spread": -3.5,
+              "total": 48.5,
+              "away_spread": 3.5,
+              "home_spread": -3.5,
+              "away_spread_price": -110.0,
+              "home_spread_price": -110.0,
+              "over_price": -108.0,
+              "under_price": -112.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873064",
+              "captured_at": "2026-11-10T11:04:19.640158+00:00",
+              "retrieved_at": "2026-11-10T11:04:19.640158+00:00",
+              "spread_captured_at": "2026-11-10T11:04:19.640158+00:00",
+              "total_captured_at": "2026-11-10T11:04:19.640158+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50757,7 +51092,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:19.640158+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:19.640158+00:00"
         },
         {
           "game_id": "2026-W10-LAC-BAL",
@@ -50769,13 +51107,13 @@
           "status": "scheduled",
           "away_score": null,
           "home_score": null,
-          "market_favorite": null,
-          "market_spread": null,
-          "market_total": null,
-          "away_spread_price": null,
-          "home_spread_price": null,
-          "over_price": null,
-          "under_price": null,
+          "market_favorite": "BAL",
+          "market_spread": -5.5,
+          "market_total": 38.5,
+          "away_spread_price": -112.0,
+          "home_spread_price": -108.0,
+          "over_price": -110.0,
+          "under_price": -110.0,
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
@@ -50783,7 +51121,30 @@
           "ats_winner": null,
           "total_result": null,
           "combined_points": null,
-          "market_snapshots": [],
+          "market_snapshots": [
+            {
+              "favorite": "BAL",
+              "favorite_spread": -5.5,
+              "total": 38.5,
+              "away_spread": 5.5,
+              "home_spread": -5.5,
+              "away_spread_price": -112.0,
+              "home_spread_price": -108.0,
+              "over_price": -110.0,
+              "under_price": -110.0,
+              "provider": "DraftKings via ESPN",
+              "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065",
+              "captured_at": "2026-11-10T11:04:20.247620+00:00",
+              "retrieved_at": "2026-11-10T11:04:20.247620+00:00",
+              "spread_captured_at": "2026-11-10T11:04:20.247620+00:00",
+              "total_captured_at": "2026-11-10T11:04:20.247620+00:00",
+              "provider_timestamp": null,
+              "line_type": "market_snapshot",
+              "market_scope": "full_game",
+              "label": "Tuesday checkpoint",
+              "source_field_note": "ESPN pregame close fields are current quotes, not a verified closing market."
+            }
+          ],
           "season_type": "REG",
           "source_note": "Official regular-season matchup populated; scores and betting markets will be added only when verified.",
           "schedule_provider": "NFL / ESPN schedule feed",
@@ -50841,7 +51202,10 @@
                 "opening_line_type"
               ]
             }
-          ]
+          ],
+          "market_as_of": "2026-11-10T11:04:20.247620+00:00",
+          "price_provider": "DraftKings via ESPN",
+          "price_timestamp": "2026-11-10T11:04:20.247620+00:00"
         }
       ]
     },
