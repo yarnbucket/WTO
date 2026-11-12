@@ -1,0 +1,200 @@
+{
+  "base_commit": "892a881ce0a6b57225a112fb32d7aa389b6949f9",
+  "decision": "Publish verified markets, opening records and weather independently; hold unsupported dependent outputs",
+  "checked_at": "2026-11-12T16:59:56.274981+00:00",
+  "provider": "DraftKings via ESPN",
+  "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2026&seasontype=2&week=10&limit=1000",
+  "proposed_changed_files": [
+    "ff26-nfl-lines-2026.json",
+    "maintenance/staging/2026-11-12-thursday/candidate-records.json",
+    "maintenance/staging/2026-11-12-thursday/validation-report.json",
+    "wto-game-insights-2026.json",
+    "wto-ex-week10-20261112.json",
+    "index.html",
+    "wto-slip.js",
+    "sw.js"
+  ],
+  "market_changes": [
+    [
+      "2026-W10-WAS-NYG",
+      [
+        "NYG",
+        -2.5,
+        42.5
+      ],
+      [
+        "NYG",
+        -2.5,
+        40.5
+      ],
+      []
+    ],
+    [
+      "2026-W10-CAR-NO",
+      [
+        "NO",
+        -1.5,
+        47.5
+      ],
+      [
+        "NO",
+        -2.5,
+        48.5
+      ],
+      []
+    ],
+    [
+      "2026-W10-HOU-CLE",
+      [
+        "HOU",
+        -4.5,
+        39.5
+      ],
+      [
+        "HOU",
+        -4.5,
+        40.5
+      ],
+      []
+    ],
+    [
+      "2026-W10-KC-ATL",
+      [
+        "KC",
+        -3.5,
+        45.5
+      ],
+      [
+        "KC",
+        -3,
+        46.5
+      ],
+      []
+    ],
+    [
+      "2026-W10-MIA-IND",
+      [
+        "IND",
+        -2.5,
+        40.5
+      ],
+      [
+        "IND",
+        -3.5,
+        38.5
+      ],
+      []
+    ],
+    [
+      "2026-W10-MIN-GB",
+      [
+        "GB",
+        -4.5,
+        41.5
+      ],
+      [
+        "GB",
+        -3,
+        42.5
+      ],
+      []
+    ],
+    [
+      "2026-W10-LAR-ARI",
+      [
+        "LAR",
+        -9.5,
+        40.5
+      ],
+      [
+        "LAR",
+        -9.5,
+        39.5
+      ],
+      []
+    ],
+    [
+      "2026-W10-SEA-LV",
+      [
+        "SEA",
+        -3.5,
+        43.5
+      ],
+      [
+        "SEA",
+        -6.5,
+        40.5
+      ],
+      []
+    ],
+    [
+      "2026-W10-PIT-CIN",
+      [
+        "CIN",
+        -3.5,
+        48.5
+      ],
+      [
+        "CIN",
+        -3.5,
+        49.5
+      ],
+      []
+    ],
+    [
+      "2026-W10-LAC-BAL",
+      [
+        "BAL",
+        -5.5,
+        38.5
+      ],
+      [
+        "BAL",
+        -4.5,
+        38.5
+      ],
+      []
+    ]
+  ],
+  "market_holds": [],
+  "weather_coverage": 13,
+  "weather_gaps": [
+    {
+      "game_id": "2026-W10-NE-DET",
+      "stadium": "FC Bayern Munich Stadium",
+      "kickoff": "2026-11-15T09:30:00-05:00",
+      "checked_at": "2026-11-12T16:59:56.388283+00:00",
+      "attempted_source_urls": [],
+      "provider": "National Weather Service",
+      "reason": "Munich, Germany is outside NWS coverage"
+    }
+  ],
+  "opening_counts": {
+    "complete": 147,
+    "partial": 0,
+    "missing": 125
+  },
+  "unresolved": [
+    "Native sportsbook quote times not exposed; retrieval recorded.",
+    "Retractable game roof status remains unknown unless confirmed; no inferred closure.",
+    "Official NFL injury table covers 26 teams with 11 QB rows; report dates and final participation not inferred.",
+    "NE–DET in Munich: outside NWS coverage and unsupported by approved neutral-site scoring logic."
+  ],
+  "checks": [
+    "ESPN week and full slate IDs",
+    "per-game teams, kickoff, pregame status",
+    "mirrored spreads and paired totals; American prices or null",
+    "immutable history prefixes, results and closing fields",
+    "opening UI mapping",
+    "JSON serialization",
+    "Approved points model hash and unchanged 63 WTO EX residuals",
+    "136 finalized prior-week scoring inputs; Week 9 ESPN scores used as model inputs only",
+    "All new insight revisions and WTO EX probability sums validated",
+    "Service worker and index agree on slip version and all EX snapshots",
+    "Full insight validator errors exactly match base; no new errors",
+    "All Week 10 markets and NWS kickoff intervals verified"
+  ],
+  "existing_validation_gaps": [
+    "49 existing insight validator errors unchanged from base. Legacy slip test asserts obsolete service-worker version."
+  ]
+}
