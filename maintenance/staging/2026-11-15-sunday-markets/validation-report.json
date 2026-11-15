@@ -1,0 +1,200 @@
+{
+  "base_commit": "cd130ab191d865f865697eaa7c0c7cd9f6bb897f",
+  "decision": "publish independently verified current markets",
+  "checked_at": "2026-11-15T11:00:07.181667+00:00",
+  "provider": "DraftKings via ESPN",
+  "changes": [
+    {
+      "game_id": "2026-W10-NE-DET",
+      "before": [
+        "DET",
+        -2.5,
+        51.5
+      ],
+      "after": [
+        "DET",
+        -2.5,
+        49.5
+      ],
+      "captured_at": "2026-11-15T11:00:07.006557+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053"
+    },
+    {
+      "game_id": "2026-W10-BUF-NYJ",
+      "before": [
+        "BUF",
+        -8.5,
+        50.5
+      ],
+      "after": [
+        "BUF",
+        -8.5,
+        51.5
+      ],
+      "captured_at": "2026-11-15T11:00:06.971114+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054"
+    },
+    {
+      "game_id": "2026-W10-CAR-NO",
+      "before": [
+        "NO",
+        -2.5,
+        48.5
+      ],
+      "after": [
+        "NO",
+        -1.5,
+        48.5
+      ],
+      "captured_at": "2026-11-15T11:00:07.141353+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873055"
+    },
+    {
+      "game_id": "2026-W10-HOU-CLE",
+      "before": [
+        "HOU",
+        -4.5,
+        40.5
+      ],
+      "after": [
+        "HOU",
+        -4.5,
+        40.5
+      ],
+      "captured_at": "2026-11-15T11:00:07.110914+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873056"
+    },
+    {
+      "game_id": "2026-W10-JAX-TEN",
+      "before": [
+        "JAX",
+        -10.5,
+        46.5
+      ],
+      "after": [
+        "JAX",
+        -10.5,
+        46.5
+      ],
+      "captured_at": "2026-11-15T11:00:07.098082+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873057"
+    },
+    {
+      "game_id": "2026-W10-KC-ATL",
+      "before": [
+        "KC",
+        -3.0,
+        46.5
+      ],
+      "after": [
+        "KC",
+        -3.0,
+        47.5
+      ],
+      "captured_at": "2026-11-15T11:00:07.012276+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873058"
+    },
+    {
+      "game_id": "2026-W10-MIA-IND",
+      "before": [
+        "IND",
+        -3.5,
+        38.5
+      ],
+      "after": [
+        "IND",
+        -4.5,
+        37.5
+      ],
+      "captured_at": "2026-11-15T11:00:07.122480+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873059"
+    },
+    {
+      "game_id": "2026-W10-MIN-GB",
+      "before": [
+        "GB",
+        -3.0,
+        42.5
+      ],
+      "after": [
+        "GB",
+        -2.5,
+        42.5
+      ],
+      "captured_at": "2026-11-15T11:00:07.050820+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873060"
+    },
+    {
+      "game_id": "2026-W10-LAR-ARI",
+      "before": [
+        "LAR",
+        -9.5,
+        39.5
+      ],
+      "after": [
+        "LAR",
+        -9.5,
+        38.5
+      ],
+      "captured_at": "2026-11-15T11:00:07.146981+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873061"
+    },
+    {
+      "game_id": "2026-W10-SEA-LV",
+      "before": [
+        "SEA",
+        -6.5,
+        40.5
+      ],
+      "after": [
+        "SEA",
+        -6.5,
+        40.5
+      ],
+      "captured_at": "2026-11-15T11:00:07.181667+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873062"
+    },
+    {
+      "game_id": "2026-W10-SF-DAL",
+      "before": [
+        "SF",
+        -3.5,
+        55.5
+      ],
+      "after": [
+        "SF",
+        -4.5,
+        55.5
+      ],
+      "captured_at": "2026-11-15T11:00:07.018624+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873063"
+    },
+    {
+      "game_id": "2026-W10-PIT-CIN",
+      "before": [
+        "CIN",
+        -3.5,
+        49.5
+      ],
+      "after": [
+        "CIN",
+        -3.5,
+        49.5
+      ],
+      "captured_at": "2026-11-15T11:00:06.993700+00:00",
+      "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873064"
+    }
+  ],
+  "checks": [
+    "12 game IDs, teams and kickoffs matched ESPN",
+    "full-game mirrored spreads, totals and source prices verified",
+    "actual retrieval timestamps before kickoff",
+    "prior market and opening histories preserved",
+    "saved pick and prediction files unchanged"
+  ],
+  "unavailable": [
+    "provider quote generation timestamps",
+    "Week 9 results remain staged pending dependent wrap-up",
+    "Week 10 Thursday result and Sunday prediction follow-up require additional validation"
+  ]
+}
