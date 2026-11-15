@@ -1,0 +1,15 @@
+{
+  "base_commit": "8aec3bca95747e13a84fe847623b6409d0f46f41",
+  "checked_at": "2026-11-15T11:01:25.733063+00:00",
+  "decision": "publish independent final-game result",
+  "checks": [
+    "NFL and ESPN agree WAS 24 NYG 21",
+    "ATS NYG 21-2.5 < WAS 24",
+    "45 points over 40.5",
+    "prior predictions and market histories preserved"
+  ],
+  "unresolved": [
+    "closing consensus and prices not verified; ESPN checked; continue approved archives",
+    "Week 9 14 overdue nonfinal records still require wrap-up"
+  ]
+}

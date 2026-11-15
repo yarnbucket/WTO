@@ -49674,9 +49674,9 @@
           "schedule_detail": "Thu, November 12th at 8:15 PM EST",
           "away": "WAS",
           "home": "NYG",
-          "status": "scheduled",
-          "away_score": null,
-          "home_score": null,
+          "status": "final",
+          "away_score": 24,
+          "home_score": 21,
           "market_favorite": "NYG",
           "market_spread": -2.5,
           "market_total": 40.5,
@@ -49687,10 +49687,10 @@
           "closing_favorite": null,
           "closing_spread": null,
           "closing_total": null,
-          "straight_up_winner": null,
-          "ats_winner": null,
-          "total_result": null,
-          "combined_points": null,
+          "straight_up_winner": "WAS",
+          "ats_winner": "WAS",
+          "total_result": "over",
+          "combined_points": 45,
           "market_snapshots": [
             {
               "favorite": "NYG",
@@ -49892,7 +49892,95 @@
               "weather_impact": "material",
               "attribution": "National Weather Service / weather.gov"
             }
-          ]
+          ],
+          "verified_at": "2026-11-15T11:01:25.733063+00:00",
+          "grading_favorite": "NYG",
+          "grading_spread": -2.5,
+          "grading_total": 40.5,
+          "grading_provider": "DraftKings via ESPN",
+          "grading_market_as_of": "2026-11-12T16:59:56.274981+00:00",
+          "grading_verified_at": "2026-11-15T11:01:25.733063+00:00",
+          "grading_line_type": "latest_verified_pregame_snapshot",
+          "result_sources": [
+            {
+              "provider": "ESPN",
+              "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+              "verified_at": "2026-11-15T11:01:25.733063+00:00"
+            },
+            {
+              "provider": "NFL",
+              "url": "https://www.nfl.com/schedules/2026/by-team/new-york-giants",
+              "verified_at": "2026-11-15T11:01:25.733063+00:00"
+            }
+          ],
+          "box_score": {
+            "provider": "ESPN",
+            "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+            "verified_at": "2026-11-15T11:01:25.733063+00:00",
+            "away": {
+              "team": "WAS",
+              "total_yards": 340,
+              "rushing_yards": 105,
+              "turnovers": 2,
+              "third_down": "7-14",
+              "red_zone": "1-1"
+            },
+            "home": {
+              "team": "NYG",
+              "total_yards": 399,
+              "rushing_yards": 116,
+              "turnovers": 2,
+              "third_down": "4-12",
+              "red_zone": "2-4"
+            }
+          },
+          "postgame_summary": "Washington rallied on Jayden Daniels\u2019 touchdown pass to Stefon Diggs with 57 seconds left to beat New York 24\u201321. WTO had projected the Giants to win 25\u201320.",
+          "postgame_evidence": {
+            "providers": [
+              "ESPN",
+              "NFL"
+            ],
+            "source_urls": [
+              "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+              "https://www.nfl.com/schedules/2026/by-team/new-york-giants",
+              "https://www.cbssports.com/nfl/gametracker/recap/NFL_20261112_WAS%40NYG/"
+            ],
+            "verified_at": "2026-11-15T11:01:25.733063+00:00",
+            "scope": "this_game_only",
+            "metrics": {
+              "away": {
+                "team": "WAS",
+                "total_yards": 340,
+                "rushing_yards": 105,
+                "turnovers": 2,
+                "third_down": "7-14",
+                "red_zone": "1-1"
+              },
+              "home": {
+                "team": "NYG",
+                "total_yards": 399,
+                "rushing_yards": 116,
+                "turnovers": 2,
+                "third_down": "4-12",
+                "red_zone": "2-4"
+              }
+            },
+            "prediction_revision_id": null,
+            "note": "Washington scored the winning touchdown with 57 seconds left; WTO had projected New York to win."
+          },
+          "closing_unavailable": {
+            "checked_at": "2026-11-15T11:01:25.733063+00:00",
+            "attempted_sources": [
+              "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052"
+            ],
+            "unavailable_fields": [
+              "closing_favorite",
+              "closing_spread",
+              "closing_total",
+              "closing_prices"
+            ],
+            "reason": "ESPN summary did not establish a verified consensus closing market; archived sources require follow-up. Last Verified pregame snapshot used for grading."
+          }
         },
         {
           "game_id": "2026-W10-NE-DET",
