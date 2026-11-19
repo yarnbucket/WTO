@@ -1,0 +1,162 @@
+{
+  "base_commit": "c43a2792ec3e7108d802547c55c396af48e0caf7",
+  "generated_at": "2026-11-19T16:58:17.742979+00:00",
+  "provider": "DraftKings via ESPN",
+  "captured_at": "2026-11-19T16:58:13.064732+00:00",
+  "market_changes": [
+    {
+      "game_id": "2026-W11-IND-HOU",
+      "before": {
+        "market_favorite": "HOU",
+        "market_spread": -11.5,
+        "market_total": 44.5
+      },
+      "after": {
+        "market_favorite": "HOU",
+        "market_spread": -12.5,
+        "market_total": 43.5
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W11-ARI-KC",
+      "before": {
+        "market_favorite": "KC",
+        "market_spread": -16.5,
+        "market_total": 41.5
+      },
+      "after": {
+        "market_favorite": "KC",
+        "market_spread": -15.5,
+        "market_total": 40.5
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W11-MIA-BUF",
+      "before": {
+        "market_favorite": "BUF",
+        "market_spread": -16.5,
+        "market_total": 45.5
+      },
+      "after": {
+        "market_favorite": "BUF",
+        "market_spread": -16.5,
+        "market_total": 44.5
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W11-NO-CHI",
+      "before": {
+        "market_favorite": "CHI",
+        "market_spread": -11.5,
+        "market_total": 49.5
+      },
+      "after": {
+        "market_favorite": "CHI",
+        "market_spread": -11.5,
+        "market_total": 48.5
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W11-TB-DET",
+      "before": {
+        "market_favorite": "DET",
+        "market_spread": -6.5,
+        "market_total": 46.5
+      },
+      "after": {
+        "market_favorite": "DET",
+        "market_spread": -7,
+        "market_total": 43.5
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W11-NYJ-LAC",
+      "before": {
+        "market_favorite": "LAC",
+        "market_spread": -3,
+        "market_total": 40.5
+      },
+      "after": {
+        "market_favorite": "LAC",
+        "market_spread": -3,
+        "market_total": 41.5
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W11-PIT-PHI",
+      "before": {
+        "market_favorite": "PIT",
+        "market_spread": -4.5,
+        "market_total": 38.5
+      },
+      "after": {
+        "market_favorite": "PIT",
+        "market_spread": -4.5,
+        "market_total": 37.5
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W11-CIN-WAS",
+      "before": {
+        "market_favorite": "CIN",
+        "market_spread": -6.5,
+        "market_total": 52.5
+      },
+      "after": {
+        "market_favorite": "CIN",
+        "market_spread": -6.5,
+        "market_total": 53.5
+      },
+      "unavailable_fields": []
+    }
+  ],
+  "market_holds": [],
+  "opening_counts": {
+    "complete": 162,
+    "partial": 0,
+    "missing": 110
+  },
+  "weather": "Skipped by November 17 Sunday-only override; all existing weather and roof fields preserved",
+  "decision": "publish independently validated records",
+  "checks": [
+    "Week 11 full slate IDs/teams/kickoffs and pregame state",
+    "Single named sportsbook; spread sides mirror; total pairs agree",
+    "Previous market/opening snapshots exact prefixes",
+    "All weather, roof, results and closing fields unchanged",
+    "Verified saved openers not refetched or modified",
+    "13 new revisions validate; legacy full-validator errors exactly unchanged",
+    "150 completed prior-week scores only; no target outcomes",
+    "Production model hash and frozen 63 residuals unchanged",
+    "WTO EX probabilities sum to one; original snapshots preserved",
+    "Final release check: all stored weather/roof fields, results, closing records and immutable prefixes unchanged"
+  ],
+  "predictions": {
+    "supported": 13,
+    "prior_inputs": 150,
+    "approved_model_sha256": "b28576f6249ba6a2eacd39542e2f84b4661dca84260ad2eaff5a81b4fa65e7c6",
+    "residuals": 63,
+    "model_changed": false
+  },
+  "unresolved": [
+    "Per-row official injury report dates not exposed; null retained.",
+    "Final availability not inferred from practice observations.",
+    "Bookmaker-native quote timestamps not supplied; retrieval timestamp recorded."
+  ],
+  "proposed_changed_files": [
+    "ff26-nfl-lines-2026.json",
+    "wto-game-insights-2026.json",
+    "wto-ex-week11-20261119.json",
+    "wto-slip.js",
+    "index.html",
+    "sw.js",
+    "maintenance/staging/2026-11-19-thursday/candidate-records.json",
+    "maintenance/staging/2026-11-19-thursday/validation-report.json"
+  ]
+}
