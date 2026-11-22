@@ -1,0 +1,41 @@
+{
+  "base_commit": "8404a87073724256ea2bbe4f92fcb09ddcfebc40",
+  "generated_at": "2026-11-22T11:09:36.540449+00:00",
+  "proposed_files": [
+    "ff26-nfl-lines-2026.json",
+    "wto-game-insights-2026.json",
+    "wto-team-betting-2026.json",
+    "wto-ex-week11-20261122.json",
+    "wto-slip.js",
+    "sw.js",
+    "maintenance/reviews/2026-11-22-week11-sunday-report.json"
+  ],
+  "checks": [
+    "JSON serializable",
+    "JSON serializable",
+    "JSON serializable",
+    "JSON serializable",
+    "JSON serializable",
+    "11 Sunday games have paired spread/total prices",
+    "All prior market/weather snapshots preserved",
+    "All saved prediction revisions remain pre-kickoff",
+    "IND-HOU closing fields remain null; Last Verified fallback used",
+    "CIN-MIA ATS push corrected consistently"
+  ],
+  "unresolved": [
+    "Provider-native quote timestamps for ESPN/DraftKings full-game markets",
+    "Final official 90-minute inactive lists",
+    "NWS forecast for Mexico City international game",
+    "Game-specific official AT&T Stadium roof status",
+    "Fully current Sunday player-prop board for every requested player/market",
+    "Complete era-comparable H2H set for all games",
+    "Verified consensus closing market for IND-HOU"
+  ],
+  "publish_decision": "publish authorized independently validated odds, result repair, weather, evidence refresh, WTO EX threshold refresh, and CIN-MIA push correction; no model formula change",
+  "repository_validator": {
+    "live_baseline_errors": 49,
+    "candidate_errors": 49,
+    "new_errors": 0,
+    "note": "Existing repository validator failures are unchanged by this candidate; candidate introduced no new errors."
+  }
+}
