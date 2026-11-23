@@ -23,3 +23,16 @@ test("frozen audit summary retains Week 6 provenance and exact report totals",as
  assert.deepEqual(totals(d.weeks,"total"),[39,39]);
  assert.equal(d.pending.length,1);
 });
+
+test("disagreement tracker is sourced from the archived paired audit and respects provenance",async()=>{
+ const d=JSON.parse(await readFile(new URL("wto-audit-disagreements-2026.json",root),"utf8"));
+ assert.equal(d.schema_version,1);
+ assert.equal(d.disagreements.length,7);
+ assert.equal(d.disagreements.filter(x=>x.provenance==="legacy_untimestamped").length,1);
+ assert.equal(d.disagreements.filter(x=>x.aiResult==="win").length,1);
+ assert.equal(d.disagreements.filter(x=>x.marketResult==="win").length,6);
+ const html=await readFile(new URL("wto-audit.html",root),"utf8");
+ assert.match(html,/id="weeklycards"/);
+ assert.match(html,/wto-audit-disagreements-2026\.json/);
+ assert.match(html,/filter\.value/);
+});
