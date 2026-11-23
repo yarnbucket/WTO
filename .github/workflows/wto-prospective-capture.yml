@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'incoming/wto-ex-week*.json'
+      - 'wto-ex-week*.json'
       - 'scripts/wto-publish-and-lock.mjs'
       - 'scripts/wto-prospective-grade-policy.mjs'
       - 'tests/wto-publish-and-lock.test.mjs'
