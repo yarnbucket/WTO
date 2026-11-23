@@ -9,7 +9,7 @@ test("locks original graded future game with hash",()=>{
  assert.equal(d.frozen.length,1);assert.equal(d.frozen[0].snapshot.games[0].projection.confidence_grade,"A");assert.equal(d.frozen[0].sha256.length,64);
 });
 test("never manufactures absent confidence grades",()=>{
- const d=captureFromArchives(archive(game(undefined)),now);
+ const d=captureFromArchives(archive(game(null)),now);
  assert.equal(d.frozen.length,0);assert.equal(d.skipped[0].reason,"original_grade_unavailable");
 });
 test("rejects past kickoff and invalid pregame timestamps",()=>{
