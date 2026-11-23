@@ -7,12 +7,15 @@ import {gradeAtPublication} from "./wto-prospective-grade-policy.mjs";
 import {freezeSnapshot} from "./wto-prospective-snapshot.mjs";
 import {pathToFileURL} from "node:url";
 export function processIncoming(entries,now=new Date()){
- const published=[],rejected=[];
+ const published=[],rejected=[],historical=[];
  for(const {name,archive} of entries){
   try{
    if(!/^wto-ex-week\d+-\d{8}\.json$/.test(name))throw Error("Unexpected source filename");
    if(!Number.isInteger(archive.week)||!Number.isInteger(archive.season??2026))throw Error("Missing week or season");
    if(!Array.isArray(archive.games)||!archive.games.length)throw Error("No games");
+   const future=archive.games.filter(g=>Number.isFinite(Date.parse(g.kickoff))&&Date.parse(g.kickoff)>now.getTime());
+   if(!future.length){historical.push({name,week:archive.week,game_count:archive.games.length,reason:"all_kickoffs_passed"});continue;}
+   if(future.length!==archive.games.length)throw Error("Mixed past and future games: publish a future-only archive");
    // Only accept original archive timestamps: never backdate the publication time.
    const graded=gradeAtPublication(archive,now.toISOString());
    for(const g of graded.games){
@@ -29,7 +32,7 @@ export function processIncoming(entries,now=new Date()){
    published.push({name,graded,snapshot});
   }catch(e){rejected.push({name,reason:e.message});}
  }
- return {published,rejected};
+ return {published,rejected,historical};
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
  const root=new URL("../",import.meta.url),incoming=new URL("../incoming/",import.meta.url),out=new URL("../reports/prospective/",import.meta.url);
@@ -44,6 +47,6 @@ if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
   await writeFile(new URL("published-"+id+".json",out),JSON.stringify(x.graded,null,2)+"\n",{flag:"wx"});
   await writeFile(new URL("locked-"+id+".json",out),JSON.stringify(x.snapshot,null,2)+"\n",{flag:"wx"});
  }
- await writeFile(new URL("publisher-status.json",out),JSON.stringify({checked_at:new Date().toISOString(),sources:entries.length,published:result.published.map(x=>({source:x.name,week:x.graded.week,game_count:x.graded.games.length,sha256:x.snapshot.sha256})),rejected:result.rejected},null,2)+"\n");
- console.log("Phase 2B bridge: "+result.published.length+" published/locked; "+result.rejected.length+" rejected; "+entries.length+" source files");
+ await writeFile(new URL("publisher-status.json",out),JSON.stringify({checked_at:new Date().toISOString(),sources:entries.length,published:result.published.map(x=>({source:x.name,week:x.graded.week,game_count:x.graded.games.length,sha256:x.snapshot.sha256})),rejected:result.rejected,historical:result.historical},null,2)+"\n");
+ console.log("Phase 2B bridge: "+result.published.length+" published/locked; "+result.rejected.length+" rejected; "+result.historical.length+" historical; "+entries.length+" source files");
 }
