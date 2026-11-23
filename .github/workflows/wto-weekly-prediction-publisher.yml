@@ -1,0 +1,60 @@
+name: WTO weekly predictor publisher
+on:
+  workflow_dispatch:
+    inputs:
+      source_file:
+        description: Original pregame WTO prediction archive already present in this repository
+        type: string
+        required: true
+  push:
+    paths:
+      - 'wto-ex-week*.json'
+permissions:
+  contents: read
+concurrency:
+  group: wto-original-publisher
+  cancel-in-progress: false
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Select one original weekly source produced by WTO
+        id: original
+        env:
+          MANUAL_SOURCE: ${{ inputs.source_file }}
+          BEFORE_SHA: ${{ github.event.before }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            SOURCE="$MANUAL_SOURCE"
+          else
+            SOURCE="$(git diff --name-only --diff-filter=AM "$BEFORE_SHA" "$GITHUB_SHA" -- ':(glob)wto-ex-week*.json')"
+            if [[ "$SOURCE" == *$'\n'* ]]; then
+              echo "::error::Multiple original weekly archives changed; publish one source file per producer run"
+              exit 1
+            fi
+          fi
+          if [[ ! "$SOURCE" =~ ^wto-ex-week(0?[1-9]|1[0-8])-[0-9]{8}\.json$ ]]; then
+            echo "::error::No single valid original weekly source file was supplied"
+            exit 1
+          fi
+          test -f "$SOURCE"
+          echo "source=$SOURCE" >> "$GITHUB_OUTPUT"
+      - name: Verify and package immutable original producer output
+        env:
+          ORIGINAL_SOURCE: ${{ steps.original.outputs.source }}
+        run: node scripts/wto-phase2e-package.mjs "$ORIGINAL_SOURCE" "$GITHUB_RUN_ID" "$RUNNER_TEMP/wto-phase2e-producer"
+      - name: Upload original predictor artifact for automatic Phase 2E handoff
+        uses: actions/upload-artifact@v7
+        with:
+          name: wto-original-predictions-${{ github.run_id }}
+          path: ${{ runner.temp }}/wto-phase2e-producer/
+          if-no-files-found: error
+          retention-days: 90
