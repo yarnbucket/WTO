@@ -36,7 +36,8 @@ export function gradeArchive(archive, scoreboard) {
   for(const g of archive.games??[]){
     const s=scoreboard.get(g.away+"-"+g.home);
     if(!s) {rows.push({week:archive.week,gameId:g.game_id,issue:"missing_verified_final"});continue;}
-    const projectedAt=g.projection_generated_at??archive.generated_at;\n    const marketAt=g.market_as_of;
+    const projectedAt=g.projection_generated_at??archive.generated_at;
+    const marketAt=g.market_as_of;
     if(!projectedAt || !marketAt || !Number.isFinite(Date.parse(projectedAt)) || !Number.isFinite(Date.parse(marketAt)) || Date.parse(projectedAt)>=Date.parse(g.kickoff) || Date.parse(marketAt)>=Date.parse(g.kickoff)){
       rows.push({week:archive.week,gameId:g.game_id,issue:"prediction_not_verified_pregame"});continue;
     }
@@ -61,7 +62,8 @@ export function gradeArchive(archive, scoreboard) {
 }
 export function reportMarkdown(rows) {
   const weeks=[...new Set(rows.map(r=>r.week))].sort((a,b)=>a-b);
-  const lines=["# WTO historical audit — archived experimental model","",\n    "Weeks 6–10 are the original historical baseline. Week 11 is a separate Sunday archive cohort, not the manual poster-board picks. Do not combine cohorts to claim a single continuous model record.","",
+  const lines=["# WTO historical audit — archived experimental model","",
+    "Weeks 6–10 are the original historical baseline. Week 11 is a separate Sunday archive cohort, not the manual poster-board picks. Do not combine cohorts to claim a single continuous model record.","",
     "Original pregame projections and lines; completed ESPN finals only. Abstentions and pushes are excluded from win-rate denominators.","",
     "| Week | Final games | AI winners | Market favorites | AI ATS | AI totals |","|---|---:|---:|---:|---:|---:|"];
   for(const w of weeks){
