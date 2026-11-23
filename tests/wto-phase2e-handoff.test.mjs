@@ -74,11 +74,14 @@ test("rejects fabricated, missing, or future-dated model provenance",()=>{
 });
 test("historical games cannot be reconstructed, even from an otherwise well-formed original source",()=>{
  const a=original();a.games[0].kickoff="2026-11-23T13:00:00-05:00";
+ a.games[0].projection_generated_at="2026-11-20T10:00:00Z";
+ a.games[0].market_as_of="2026-11-20T09:59:00Z";
  assert.throws(()=>validateOriginalPublisherExport(a,filename,when),/No original pre-kickoff games/);
 });
 test("mixed sources retain historical games without grading; at least one future game required",()=>{
  const a=original();
  a.games.push({...a.games[0],game_id:"2026-W12-ARI-KC",away:"ARI",home:"KC",kickoff:"2026-11-23T13:00:00-05:00",
+  projection_generated_at:"2026-11-20T10:00:00Z",market_as_of:"2026-11-20T09:59:00Z",
   projection:{winner:"KC",win_probability:0.63},market:{favorite:"KC",spread:-7,total:44}});
  const s=validateOriginalPublisherExport(a,filename,when);
  assert.equal(s.eligible,1);
