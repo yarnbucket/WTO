@@ -1,0 +1,37 @@
+name: WTO Phase 2D verified postgame scoring
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'archive/prospective/**'
+      - 'scripts/wto-prospective-score.mjs'
+      - 'tests/wto-prospective-score.test.mjs'
+      - '.github/workflows/wto-prospective-score.yml'
+  schedule:
+    # Postgame windows: after Sunday, Monday and Thursday NFL games (UTC).
+    - cron: '0 12 * * 1,2,5'
+permissions:
+  contents: read
+concurrency:
+  group: wto-phase2d-postgame-scoring
+  cancel-in-progress: false
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Validate prospective scoring guards
+        run: node --test tests/wto-prospective-score.test.mjs
+      - name: Score completed NFL finals against immutable pregame locks
+        run: node scripts/wto-prospective-score.mjs
+      - name: Upload read-only postgame scoring evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: wto-phase2d-verified-outcomes-${{ github.run_id }}
+          path: reports/prospective-scoring/
+          if-no-files-found: warn
+          retention-days: 90
