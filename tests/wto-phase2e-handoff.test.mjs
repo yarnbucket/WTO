@@ -6,6 +6,7 @@ import {join} from "node:path";
 import {createHash} from "node:crypto";
 import {pathToFileURL} from "node:url";
 import {validateOriginalPublisherExport,receiveProducerHandoff} from "../scripts/wto-phase2e-handoff.mjs";
+import {packageOriginalOutput} from "../scripts/wto-phase2e-package.mjs";
 const when=new Date("2026-11-24T12:00:00.000Z");
 const filename="wto-ex-week12-20261124.json";
 const runId="45250000001";
@@ -94,4 +95,22 @@ test("conflicting original root archive is never silently overwritten",async()=>
 });
 test("source week and filename must agree",()=>{
  assert.throws(()=>validateOriginalPublisherExport(original(),"wto-ex-week13-20261124.json",when),/week does not match/);
+});
+
+test("trusted publisher packager copies original bytes and produces matching signed-run receipt",async()=>{
+ const h=await harness();
+ const outputDir=new URL("producer-artifact/",h.root);
+ const packaged=await packageOriginalOutput({sourcePath:h.source,runId,outputDir,now:when}).catch(async err=>{
+  // Fixture source is named generically: copy its unchanged bytes under the actual publisher name.
+  if(!/source filename/.test(String(err)))throw err;
+  const authenticPath=join(h.dir,filename);
+  await writeFile(authenticPath,h.bytes);
+  return packageOriginalOutput({sourcePath:authenticPath,runId,outputDir,now:when});
+ });
+ assert.equal(packaged.artifact_name,artifactName);
+ assert.equal(packaged.manifest.sha256,sha(h.bytes));
+ assert.equal(packaged.manifest.source_name,filename);
+ assert.deepEqual(await readFile(new URL(filename,outputDir)),h.bytes);
+ const receipt=await receiveProducerHandoff({...h.args,sourcePath:new URL(filename,outputDir)});
+ assert.equal(receipt.eligible,1);
 });
