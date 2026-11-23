@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "1ca479ddf8366178e2aac1d27b11a2ef1da35aeb46eb41c955c59e37336520ec",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "da2364893c5d5a660d051bb84096b37ed6b8a061a1e329c8d2b230a3c186723f",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 11,
+      "captured_at": "2026-11-23T17:10:24.153Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W11-CIN-WAS",
+          "away": "CIN",
+          "home": "WAS",
+          "kickoff": "2026-11-23T20:15:00-05:00",
+          "projection_generated_at": "2026-11-19T16:59:19.056Z",
+          "projection_revision_id": "2026-W11-CIN-WAS-thursday-2026-11-19T16:59:19.056Z",
+          "market_as_of": "2026-11-19T16:58:13.064732+00:00",
+          "projection": {
+            "winner": "CIN",
+            "win_probability": 0.75,
+            "confidence_grade": "A+",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "CIN",
+            "spread": -6.5,
+            "total": 53.5
+          }
+        }
+      ]
+    }
+  }
+}
