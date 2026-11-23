@@ -2,7 +2,7 @@
 // Does not calculate, backfill, modify, or infer any prediction or betting line.
 import {readFile,writeFile,mkdir} from "node:fs/promises";
 import {createHash} from "node:crypto";
-import {basename} from "node:path";
+import {basename,resolve,sep} from "node:path";
 import {pathToFileURL} from "node:url";
 import {validateOriginalPublisherExport} from "./wto-phase2e-handoff.mjs";
 export async function packageOriginalOutput({sourcePath,runId,outputDir,now=new Date()}){
@@ -24,8 +24,7 @@ export async function packageOriginalOutput({sourcePath,runId,outputDir,now=new 
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
  const [sourcePath,runId,outputPath]=process.argv.slice(2);
  if(!sourcePath||!runId||!outputPath)throw Error("Usage: node scripts/wto-phase2e-package.mjs <original-wto-ex-weekNN-YYYYMMDD.json> <github-run-id> <empty-output-dir>");
- const {pathToFileURL}=await import("node:url");
- const out=outputPath.startsWith("/")?pathToFileURL(outputPath.endsWith("/")?outputPath:outputPath+"/"):new URL(outputPath.replace(/\/?$/,"/"),pathToFileURL(process.cwd()+"/"));
+ const out=pathToFileURL(resolve(outputPath)+sep);
  const result=await packageOriginalOutput({sourcePath,runId,outputDir:out});
  console.log("Phase 2E: ready to upload authenticated producer artifact "+result.artifact_name);
 }
