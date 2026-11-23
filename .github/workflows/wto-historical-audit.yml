@@ -5,8 +5,10 @@ on:
     paths:
       - 'scripts/wto-historical-audit.mjs'
       - 'scripts/build-wto-historical-report.mjs'
+      - 'scripts/wto-confidence-calibration.mjs'
       - 'tests/wto-historical-audit.test.mjs'
       - 'tests/wto-historical-report.test.mjs'
+      - 'tests/wto-confidence-calibration.test.mjs'
       - 'tests/wto-audit-dashboard.test.mjs'
       - 'wto-audit.html'
       - 'wto-audit-summary-2026.json'
@@ -23,9 +25,11 @@ jobs:
         with:
           node-version: '22'
       - name: Run audit unit tests
-        run: node --test tests/wto-historical-audit.test.mjs tests/wto-historical-report.test.mjs tests/wto-audit-dashboard.test.mjs
+        run: node --test tests/wto-historical-audit.test.mjs tests/wto-historical-report.test.mjs tests/wto-audit-dashboard.test.mjs tests/wto-confidence-calibration.test.mjs
       - name: Rebuild report from original predictions and completed ESPN finals
         run: node scripts/build-wto-historical-report.mjs
+      - name: Build read-only Phase 2 confidence calibration
+        run: node scripts/wto-confidence-calibration.mjs
       - name: Upload report without modifying source data
         uses: actions/upload-artifact@v4
         with:
@@ -33,3 +37,5 @@ jobs:
           path: |
             reports/wto-historical-audit-2026.json
             reports/wto-historical-audit-2026.md
+            reports/wto-confidence-calibration-2026.json
+            reports/wto-confidence-calibration-2026.md
