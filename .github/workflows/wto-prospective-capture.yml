@@ -8,6 +8,7 @@ on:
       - 'scripts/wto-publish-and-lock.mjs'
       - 'scripts/wto-prospective-grade-policy.mjs'
       - 'tests/wto-publish-and-lock.test.mjs'
+      - 'scripts/wto-unify-capture-status.mjs'
   schedule:
     # Thursday and Sunday before most NFL kickoffs (UTC; daylight saving varies).
     - cron: '30 16 * * 4'
@@ -23,13 +24,15 @@ jobs:
         with:
           node-version: '22'
       - name: Test pregame capture integrity
-        run: node --test tests/wto-prospective-snapshot.test.mjs tests/wto-auto-capture.test.mjs tests/wto-prospective-grade-policy.test.mjs tests/wto-publish-and-lock.test.mjs
+        run: node --test tests/wto-prospective-snapshot.test.mjs tests/wto-auto-capture.test.mjs tests/wto-prospective-grade-policy.test.mjs tests/wto-publish-and-lock.test.mjs tests/wto-unify-capture-status.test.mjs
       - name: Publish and lock incoming future prediction archives
         run: node scripts/wto-publish-and-lock.mjs
       - name: Inspect upcoming archive and confidence-grade readiness
         run: node scripts/wto-capture-readiness.mjs
       - name: Capture only authentic graded pregame archive entries
         run: node scripts/wto-auto-capture.mjs
+      - name: Reconcile publisher and legacy diagnostics
+        run: node scripts/wto-unify-capture-status.mjs
       - name: Upload immutable run artifact and capture status
         uses: actions/upload-artifact@v4
         with:
