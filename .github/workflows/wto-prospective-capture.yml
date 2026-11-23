@@ -10,6 +10,7 @@ on:
       - 'tests/wto-publish-and-lock.test.mjs'
       - 'scripts/wto-unify-capture-status.mjs'
       - 'scripts/wto-stage-permanent-archive.mjs'
+      - 'tests/wto-stage-permanent-archive.test.mjs'
   schedule:
     # Thursday and Sunday before most NFL kickoffs (UTC; daylight saving varies).
     - cron: '30 16 * * 4'
@@ -26,7 +27,7 @@ jobs:
         with:
           node-version: '22'
       - name: Test pregame capture integrity
-        run: node --test tests/wto-prospective-snapshot.test.mjs tests/wto-auto-capture.test.mjs tests/wto-prospective-grade-policy.test.mjs tests/wto-publish-and-lock.test.mjs tests/wto-unify-capture-status.test.mjs
+        run: node --test tests/wto-prospective-snapshot.test.mjs tests/wto-auto-capture.test.mjs tests/wto-prospective-grade-policy.test.mjs tests/wto-publish-and-lock.test.mjs tests/wto-unify-capture-status.test.mjs tests/wto-stage-permanent-archive.test.mjs
       - name: Publish and lock incoming future prediction archives
         run: node scripts/wto-publish-and-lock.mjs
       - name: Inspect upcoming archive and confidence-grade readiness
