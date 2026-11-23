@@ -38,8 +38,14 @@ export function gradeArchive(archive, scoreboard) {
     if(!s) {rows.push({week:archive.week,gameId:g.game_id,issue:"missing_verified_final"});continue;}
     const projectedAt=g.projection_generated_at??archive.generated_at;
     const marketAt=g.market_as_of;
-    if(!projectedAt || !marketAt || !Number.isFinite(Date.parse(projectedAt)) || !Number.isFinite(Date.parse(marketAt)) || Date.parse(projectedAt)>=Date.parse(g.kickoff) || Date.parse(marketAt)>=Date.parse(g.kickoff)){
-      rows.push({week:archive.week,gameId:g.game_id,issue:"prediction_not_verified_pregame"});continue;
+    const kickoffAt=Date.parse(g.kickoff);
+    const predictionValid=Boolean(projectedAt) && Number.isFinite(Date.parse(projectedAt)) && Number.isFinite(kickoffAt) && Date.parse(projectedAt)<kickoffAt;
+    const marketValid=Boolean(marketAt) && Number.isFinite(Date.parse(marketAt)) && Number.isFinite(kickoffAt) && Date.parse(marketAt)<kickoffAt;
+    // Legacy Week 6 contains original market lines but lacks market_as_of.
+    // Preserve these separately; NEVER label them timestamp-verified.
+    const legacyMarket=archive.week===6 && !marketAt && predictionValid;
+    if(!predictionValid || (!marketValid && !legacyMarket)){
+      rows.push({week:archive.week,gameId:g.game_id,issue:"prediction_or_market_not_verified_pregame"});continue;
     }
     const aiWinner=[g.away,g.home].includes(g.projection?.winner)?g.projection.winner:null;
     const favorite=[g.away,g.home].includes(g.market?.favorite)?g.market.favorite:null;
@@ -51,7 +57,7 @@ export function gradeArchive(archive, scoreboard) {
       aiWinner,marketFavorite:favorite,spreadSide,totalSide,
       spread:g.market?.spread,totalLine:g.market?.total,
       projectionGeneratedAt:projectedAt,modelVersion:g.model_version??archive.model_version,
-      marketAsOf:marketAt,cohort:archive.week===11?"week11_sunday_archive":"weeks6to10_experimental",
+      marketAsOf:marketAt??null,marketProvenance:legacyMarket?"legacy_untimestamped":"timestamp_verified",cohort:legacyMarket?"week6_legacy_untimestamped":archive.week===11?"week11_sunday_archive":"weeks7to10_experimental",
       winner:gradeWinner(aiWinner,g.away,g.home,s.awayScore,s.homeScore),
       marketWinner:gradeWinner(favorite,g.away,g.home,s.awayScore,s.homeScore),
       ats:gradeSpread(spreadSide,favorite,g.market?.spread,g.away,g.home,s.awayScore,s.homeScore),
@@ -65,13 +71,21 @@ export function reportMarkdown(rows) {
   const lines=["# WTO historical audit — archived experimental model","",
     "Weeks 6–10 are the original historical baseline. Week 11 is a separate Sunday archive cohort, not the manual poster-board picks. Do not combine cohorts to claim a single continuous model record.","",
     "Original pregame projections and lines; completed ESPN finals only. Abstentions and pushes are excluded from win-rate denominators.","",
+    "Week 6 is a legacy cohort: original market lines are preserved but their market_as_of timestamps are missing. Week 6 is NOT part of the strictly timestamp-verified cohort.","",
     "| Week | Final games | AI winners | Market favorites | AI ATS | AI totals |","|---|---:|---:|---:|---:|---:|"];
   for(const w of weeks){
     const r=rows.filter(x=>x.week===w&&!x.issue);
     lines.push("| "+w+" | "+r.length+" | "+record(count(r,"winner"))+" | "+record(count(r,"marketWinner"))+" | "+record(count(r,"ats"))+" | "+record(count(r,"total"))+" |");
   }
   const valid=rows.filter(x=>!x.issue);
+  const strict=valid.filter(x=>x.marketProvenance==="timestamp_verified");
+  const legacy=valid.filter(x=>x.marketProvenance==="legacy_untimestamped");
   lines.push("| **Pooled (descriptive only)** | **"+valid.length+"** | **"+record(count(valid,"winner"))+"** | **"+record(count(valid,"marketWinner"))+"** | **"+record(count(valid,"ats"))+"** | **"+record(count(valid,"total"))+"** |","","## Paired winner audit");
+  lines.push("","## Provenance-separated totals");
+  for(const [label,group] of [["Strict timestamp-verified",strict],["Legacy untimestamped Week 6",legacy]]){
+    lines.push("- "+label+": "+group.length+" games; winners "+record(count(group,"winner"))+"; ATS "+record(count(group,"ats"))+"; totals "+record(count(group,"total"))+".");
+  }
+  lines.push("","The pooled line is descriptive only and must not be presented as a fully timestamp-verified result.","");
   const paired=pairedWinnerAudit(valid);
   lines.push("Comparable games: "+paired.summary.games+"; AI wins: "+paired.summary.aiWins+"; market wins: "+paired.summary.marketWins+"; disagreements: "+paired.summary.disagreements+"; AI-only correct: "+paired.summary.aiOnly+"; market-only correct: "+paired.summary.marketOnly+".","","## Disagreements");
   for(const r of paired.disagreements) lines.push("- "+r.gameId+": AI "+r.aiWinner+" vs market "+r.marketFavorite+" — "+(r.aiCorrect?"AI correct":"Market correct"));
@@ -92,7 +106,7 @@ export async function build({load=async path=>JSON.parse(await readFile(new URL(
     const scoreboard=parseScoreboard(await response.json());
     all.push(...gradeArchive(archive,scoreboard));
   }
-  const output={schema_version:1,season:2026,source:"ESPN public final-score scoreboard + immutable WTO pregame archives",cohorts:{"weeks6to10_experimental":[6,7,8,9,10],"week11_sunday_archive":[11]},weeks:[...SOURCES.keys()],rows:all};
+  const output={schema_version:1,season:2026,source:"ESPN public final-score scoreboard + immutable WTO pregame archives",cohorts:{"week6_legacy_untimestamped":[6],"weeks7to10_experimental":[7,8,9,10],"week11_sunday_archive":[11]},weeks:[...SOURCES.keys()],rows:all};
   const folder=new URL("../reports/",import.meta.url);
   await mkdir(folder,{recursive:true});
   await writeFile(new URL("wto-historical-audit-2026.json",folder),JSON.stringify(output,null,2)+"\n");
