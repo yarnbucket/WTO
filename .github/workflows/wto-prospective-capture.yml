@@ -1,6 +1,12 @@
 name: WTO Phase 2B prospective capture
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'incoming/wto-ex-week*.json'
+      - 'scripts/wto-publish-and-lock.mjs'
+      - 'scripts/wto-prospective-grade-policy.mjs'
+      - 'tests/wto-publish-and-lock.test.mjs'
   schedule:
     # Thursday and Sunday before most NFL kickoffs (UTC; daylight saving varies).
     - cron: '30 16 * * 4'
@@ -16,7 +22,9 @@ jobs:
         with:
           node-version: '22'
       - name: Test pregame capture integrity
-        run: node --test tests/wto-prospective-snapshot.test.mjs tests/wto-auto-capture.test.mjs tests/wto-prospective-grade-policy.test.mjs
+        run: node --test tests/wto-prospective-snapshot.test.mjs tests/wto-auto-capture.test.mjs tests/wto-prospective-grade-policy.test.mjs tests/wto-publish-and-lock.test.mjs
+      - name: Publish and lock incoming future prediction archives
+        run: node scripts/wto-publish-and-lock.mjs
       - name: Inspect upcoming archive and confidence-grade readiness
         run: node scripts/wto-capture-readiness.mjs
       - name: Capture only authentic graded pregame archive entries
