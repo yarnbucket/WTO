@@ -4,7 +4,7 @@ import {mkdtemp,readFile,writeFile,mkdir} from "node:fs/promises";
 import {tmpdir} from "node:os";
 import {join} from "node:path";
 import {createHash} from "node:crypto";
-import {pathToFileURL} from "node:url";
+import {pathToFileURL,fileURLToPath} from "node:url";
 import {validateOriginalPublisherExport,receiveProducerHandoff,resolveSourceSeason} from "../scripts/wto-phase2e-handoff.mjs";
 import {packageOriginalOutput} from "../scripts/wto-phase2e-package.mjs";
 import {processIncoming} from "../scripts/wto-publish-and-lock.mjs";
@@ -151,7 +151,7 @@ test("accepts authentic original WTO EX Week 11 source format without inventing 
  assert.equal(verified.historical,1);
  const tmp=await mkdtemp(join(tmpdir(),"wto-real-source-"));
  const outputDir=pathToFileURL(tmp+"/");
- const packaged=await packageOriginalOutput({sourcePath,runId,outputDir,now:publicationWindow});
+ const packaged=await packageOriginalOutput({sourcePath:fileURLToPath(sourcePath),runId,outputDir,now:publicationWindow});
  assert.equal(packaged.manifest.sha256,sha(originalBytes));
  assert.deepEqual(await readFile(new URL("wto-ex-week11-20261122.json",outputDir)),originalBytes);
  assert.equal(packaged.manifest.season,2026);
