@@ -37,3 +37,25 @@ test("mixed archives lock valid future games while isolating past and incomplete
  assert.equal(result.readiness.filter(x=>x.status==="eligible").length,1);
  assert.equal(result.published[0].game_id,valid.game_id);
 });
+
+test("identical matchups from two weekly archives lock only once",()=>{
+ const first=fixture(),second=fixture();
+ second.name="wto-ex-week12-20261127.json";
+ const result=processIncoming([first,second],now);
+ assert.equal(result.published.length,1);
+ assert.equal(result.duplicates.length,1);
+ assert.equal(result.duplicates[0].reason,"identical_snapshot");
+ assert.equal(result.rejected.length,0);
+});
+test("distinct valid revisions select latest original prediction",()=>{
+ const first=fixture(),second=fixture();
+ second.name="wto-ex-week12-20261127.json";
+ second.archive.games[0].projection_generated_at="2026-11-26T11:00:00Z";
+ second.archive.games[0].projection_revision_id="rev2";
+ second.archive.games[0].projection.win_probability=.86;
+ const result=processIncoming([first,second],now);
+ assert.equal(result.published.length,1);
+ assert.equal(result.published[0].snapshot.snapshot.games[0].projection.confidence_grade,"A++");
+ assert.equal(result.superseded.length,1);
+ assert.equal(result.duplicates.length,0);
+});
