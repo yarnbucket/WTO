@@ -24,3 +24,16 @@ test("old weekly archives are reported as historical, not publishing failures",(
  const result=processIncoming([old],now);
  assert.equal(result.historical.length,1);assert.equal(result.rejected.length,0);
 });
+
+test("mixed archives lock valid future games while isolating past and incomplete records",()=>{
+ const mixed=fixture();
+ const valid=mixed.archive.games[0];
+ mixed.archive.games.push({...valid,game_id:"past",kickoff:"2026-11-20T01:00:00Z"});
+ mixed.archive.games.push({...valid,game_id:"missing-market",market_as_of:null});
+ const result=processIncoming([mixed],now);
+ assert.equal(result.published.length,1);
+ assert.equal(result.historical.length,1);
+ assert.equal(result.rejected.length,1);
+ assert.equal(result.readiness.filter(x=>x.status==="eligible").length,1);
+ assert.equal(result.published[0].game_id,valid.game_id);
+});
