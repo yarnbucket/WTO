@@ -34,7 +34,7 @@ export function processIncoming(entries,now=new Date()){
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
  const root=new URL("../",import.meta.url),incoming=new URL("../incoming/",import.meta.url),out=new URL("../reports/prospective/",import.meta.url);
  let names=[];try{names=(await readdir(incoming)).filter(n=>n.endsWith(".json"))}catch(e){if(e.code!=="ENOENT")throw e}
- const rootNames=(await readdir(root)).filter(n=>/^wto-ex-week\\d+-\\d{8}\\.json$/.test(n));
+ const rootNames=(await readdir(root)).filter(n=>/^wto-ex-week\d+-\d{8}\.json$/.test(n));
  const all=[...names.map(name=>({name,url:new URL(name,incoming)})),...rootNames.map(name=>({name,url:new URL(name,root)}))];
  const entries=await Promise.all(all.map(async ({name,url})=>({name,archive:JSON.parse(await readFile(url,"utf8"))})));
  const result=processIncoming(entries);
