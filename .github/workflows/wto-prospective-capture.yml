@@ -9,12 +9,14 @@ on:
       - 'scripts/wto-prospective-grade-policy.mjs'
       - 'tests/wto-publish-and-lock.test.mjs'
       - 'scripts/wto-unify-capture-status.mjs'
+      - 'scripts/wto-stage-permanent-archive.mjs'
   schedule:
     # Thursday and Sunday before most NFL kickoffs (UTC; daylight saving varies).
     - cron: '30 16 * * 4'
     - cron: '30 16 * * 0'
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
 jobs:
   capture:
     runs-on: ubuntu-latest
@@ -33,6 +35,24 @@ jobs:
         run: node scripts/wto-auto-capture.mjs
       - name: Reconcile publisher and legacy diagnostics
         run: node scripts/wto-unify-capture-status.mjs
+      - name: Stage permanent audit records
+        run: node scripts/wto-stage-permanent-archive.mjs
+      - name: Propose permanent archive through reviewable pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain -- archive/prospective/)" ]; then
+            echo "No new immutable records to archive"
+            exit 0
+          fi
+          BRANCH="wto/phase2c-archive-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add archive/prospective/
+          git commit -m "Archive verified prospective snapshots (run ${{ github.run_id }})"
+          git push origin "$BRANCH"
+          gh pr create --base "${{ github.event.repository.default_branch }}" --head "$BRANCH" --title "WTO Phase 2C: archive verified prospective snapshots" --body "Immutable pregame snapshot archive proposed for review. No live predictor or MY PICKS changes."
       - name: Upload immutable run artifact and capture status
         uses: actions/upload-artifact@v4
         with:
