@@ -126,7 +126,7 @@ test("complete Phase 2E producer intake feeds unchanged original into existing P
  assert.equal(published.snapshot.snapshot.games[0].projection.confidence_policy_id,"wto-prospective-probability-bands-v1");
  assert.equal(incoming.games[0].projection.confidence_grade,undefined);
  const out=new URL("reports/prospective/",h.root);
- await writeFile(new URL("locked-1234567890abcdef.json",out),JSON.stringify(published.snapshot,null,2)+"\\n");
+ await writeFile(new URL("locked-1234567890abcdef.json",out),JSON.stringify(published.snapshot,null,2)+"\n");
  const staged=await stageArchive({root:h.root,reportDir:out});
  assert.equal(staged.staged.length,1);
  assert.equal(staged.staged[0].game_id,"2026-W12-CIN-WAS");
