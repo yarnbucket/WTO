@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import {parseScoreboard,gradeArchive,reportMarkdown} from "../scripts/build-wto-historical-report.mjs";
+import {parseScoreboard,gradeArchive,reportMarkdown,normalizeTeamAbbreviation} from "../scripts/build-wto-historical-report.mjs";
 const payload={events:[{id:"401",status:{type:{completed:true}},competitions:[{competitors:[{homeAway:"away",score:"9",team:{abbreviation:"MIA"}},{homeAway:"home",score:"26",team:{abbreviation:"BUF"}}]}]},{id:"402",status:{type:{completed:false}},competitions:[{competitors:[{homeAway:"away",score:"0",team:{abbreviation:"NYG"}},{homeAway:"home",score:"0",team:{abbreviation:"NO"}}]}]}]};
 test("only completed ESPN events are graded",()=>{
   const m=parseScoreboard(payload);
@@ -17,4 +17,19 @@ test("archive grading retains original lines and source timestamps",()=>{
 test("post-kickoff projections are excluded rather than silently graded",()=>{
   const a={week:11,generated_at:"2026-11-23T10:00:00Z",games:[{game_id:"late",kickoff:"2026-11-22T18:00:00Z",away:"MIA",home:"BUF",projection:{winner:"BUF"},market:{favorite:"BUF",spread:-16.5,total:44.5}}]};
   assert.equal(gradeArchive(a,parseScoreboard(payload))[0].issue,"prediction_not_verified_pregame");
+});
+
+test("Washington WSH ESPN code maps to WTO WAS in either home or away position",()=>{
+  assert.equal(normalizeTeamAbbreviation("WSH"),"WAS");
+  assert.equal(normalizeTeamAbbreviation("WAS"),"WAS");
+  assert.equal(normalizeTeamAbbreviation("SF"),"SF");
+  const makeEvent=(id,away,home)=>({id,status:{type:{completed:true}},competitions:[{competitors:[
+    {homeAway:"away",score:"17",team:{abbreviation:away}},
+    {homeAway:"home",score:"23",team:{abbreviation:home}}
+  ]}]});
+  const m=parseScoreboard({events:[makeEvent("w1","WSH","SF"),makeEvent("w2","PHI","WSH")]});
+  assert.ok(m.has("WAS-SF"));
+  assert.ok(m.has("PHI-WAS"));
+  assert.equal(m.get("WAS-SF").awayScore,17);
+  assert.equal(m.get("PHI-WAS").homeScore,23);
 });
