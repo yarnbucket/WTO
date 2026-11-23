@@ -8,7 +8,11 @@ const API = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboa
 const count = (rows,key) => ({win:rows.filter(r=>r[key]==="win").length,loss:rows.filter(r=>r[key]==="loss").length,push:rows.filter(r=>r[key]==="push").length,unavailable:rows.filter(r=>r[key]===null).length});
 const pct = (r) => r.win+r.loss ? (100*r.win/(r.win+r.loss)).toFixed(1)+"%" : "—";
 const record = (r) => r.win+"–"+r.loss+(r.push?"–"+r.push:"")+" ("+pct(r)+")";
-export function normalizeTeamAbbreviation(code) {\n  const aliases = { WSH: "WAS" };\n  return aliases[code] ?? code;\n}\nexport function parseScoreboard(payload) {
+export function normalizeTeamAbbreviation(code) {
+  const aliases = { WSH: "WAS" };
+  return aliases[code] ?? code;
+}
+export function parseScoreboard(payload) {
   const scores = new Map();
   for (const event of payload.events ?? []) {
     const competition = event.competitions?.[0];
