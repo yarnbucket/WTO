@@ -75,7 +75,7 @@ jobs:
           fi
       - name: Upload immutable run artifact and capture status
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: wto-prospective-capture-${{ github.run_id }}
           path: reports/prospective/
