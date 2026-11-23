@@ -18,3 +18,6 @@ Run `node scripts/wto-publish-and-lock.mjs` or allow the workflow to run. Inspec
 Snapshots are preserved as run artifacts for 90 days; they are **not** committed as durable repository history. Long-term append-only retention needs a separate implementation. Scheduled GitHub Actions are best-effort and may run late, so the validator always checks actual time against kickoff.
 
 Do not backfill prior games, invent original probabilities, or rewrite `index.html`, `wto-ex.js`, or MY PICKS.
+
+## Mixed archive behavior (November 2026)
+The bridge now evaluates each game independently. Already-started games are counted as `historical`, incomplete future games as `rejected`, and validated future games as `published`. One invalid game does not block another valid game. Each eligible game gets its own independently fingerprinted snapshot. The `publisher-status.json` includes per-game `readiness` entries and counts. No past game receives a new confidence grade.
