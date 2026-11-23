@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "source": "2026-11-23 archived GitHub Actions audit artifact (4), paired winner disagreements",
+  "frozen": true,
+  "disagreements": [
+    {
+      "week": 6,
+      "away": "NO",
+      "home": "NYG",
+      "aiWinner": "NYG",
+      "marketFavorite": "NO",
+      "aiResult": "loss",
+      "marketResult": "win",
+      "provenance": "legacy_untimestamped"
+    },
+    {
+      "week": 7,
+      "away": "CIN",
+      "home": "BAL",
+      "aiWinner": "BAL",
+      "marketFavorite": "CIN",
+      "aiResult": "loss",
+      "marketResult": "win",
+      "provenance": "timestamp_verified"
+    },
+    {
+      "week": 7,
+      "away": "LAR",
+      "home": "LV",
+      "aiWinner": "LV",
+      "marketFavorite": "LAR",
+      "aiResult": "loss",
+      "marketResult": "win",
+      "provenance": "timestamp_verified"
+    },
+    {
+      "week": 7,
+      "away": "KC",
+      "home": "SEA",
+      "aiWinner": "KC",
+      "marketFavorite": "SEA",
+      "aiResult": "loss",
+      "marketResult": "win",
+      "provenance": "timestamp_verified"
+    },
+    {
+      "week": 8,
+      "away": "MIN",
+      "home": "DET",
+      "aiWinner": "MIN",
+      "marketFavorite": "DET",
+      "aiResult": "loss",
+      "marketResult": "win",
+      "provenance": "timestamp_verified"
+    },
+    {
+      "week": 9,
+      "away": "BUF",
+      "home": "MIN",
+      "aiWinner": "MIN",
+      "marketFavorite": "BUF",
+      "aiResult": "loss",
+      "marketResult": "win",
+      "provenance": "timestamp_verified"
+    },
+    {
+      "week": 11,
+      "away": "NYJ",
+      "home": "LAC",
+      "aiWinner": "NYJ",
+      "marketFavorite": "LAC",
+      "aiResult": "win",
+      "marketResult": "loss",
+      "provenance": "timestamp_verified"
+    }
+  ]
+}
