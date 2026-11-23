@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "generated_at": "2026-11-23T15:25:00Z",
+  "source": "WTO historical audit artifact, verified report uploaded 2026-11-23",
+  "status": "frozen_read_only",
+  "weeks": [
+    {
+      "week": 6,
+      "cohort": "legacy_untimestamped",
+      "games": 14,
+      "winner": [
+        7,
+        6
+      ],
+      "market": [
+        9,
+        5
+      ],
+      "ats": [
+        7,
+        7
+      ],
+      "total": [
+        4,
+        10
+      ]
+    },
+    {
+      "week": 7,
+      "cohort": "timestamp_verified",
+      "games": 12,
+      "winner": [
+        5,
+        7
+      ],
+      "market": [
+        8,
+        4
+      ],
+      "ats": [
+        4,
+        8
+      ],
+      "total": [
+        8,
+        4
+      ]
+    },
+    {
+      "week": 8,
+      "cohort": "timestamp_verified",
+      "games": 14,
+      "winner": [
+        9,
+        5
+      ],
+      "market": [
+        10,
+        4
+      ],
+      "ats": [
+        8,
+        6
+      ],
+      "total": [
+        7,
+        7
+      ]
+    },
+    {
+      "week": 9,
+      "cohort": "timestamp_verified",
+      "games": 13,
+      "winner": [
+        11,
+        2
+      ],
+      "market": [
+        12,
+        1
+      ],
+      "ats": [
+        7,
+        5
+      ],
+      "total": [
+        7,
+        6
+      ]
+    },
+    {
+      "week": 10,
+      "cohort": "timestamp_verified",
+      "games": 13,
+      "winner": [
+        8,
+        4
+      ],
+      "market": [
+        8,
+        5
+      ],
+      "ats": [
+        9,
+        4
+      ],
+      "total": [
+        7,
+        6
+      ]
+    },
+    {
+      "week": 11,
+      "cohort": "timestamp_verified",
+      "games": 12,
+      "winner": [
+        10,
+        2
+      ],
+      "market": [
+        9,
+        3
+      ],
+      "ats": [
+        4,
+        8
+      ],
+      "total": [
+        6,
+        6
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "week": 11,
+      "gameId": "2026-W11-CIN-WAS",
+      "reason": "missing_verified_final"
+    }
+  ],
+  "notes": [
+    "Two winner abstentions excluded from winner denominators.",
+    "One neutral ATS pick excluded from ATS denominator.",
+    "Week 6 market timestamp is missing; do not use it in strict verified cohort.",
+    "Week 11 Sunday archive is distinct from manual posterboard."
+  ]
+}
