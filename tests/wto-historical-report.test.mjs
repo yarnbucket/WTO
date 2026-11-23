@@ -46,3 +46,24 @@ test("incomplete Week 11 games remain excluded and never get invented scores",()
   assert.equal(rows[0].issue,"missing_verified_final");
   assert.match(reportMarkdown(rows),/Exclusions \(1\)/);
 });
+
+test("Week 6 missing market timestamp is graded only as explicitly labeled legacy",()=>{
+  const archive={week:6,generated_at:"2026-10-15T19:35:45Z",games:[{
+    game_id:"2026-W06-MIA-BUF",kickoff:"2026-10-15T20:15:00-04:00",
+    away:"MIA",home:"BUF",projection:{winner:"BUF",away_score:9,home_score:26,projected_total:35},
+    market:{favorite:"BUF",spread:-16.5,total:44.5},market_as_of:null
+  }]};
+  const rows=gradeArchive(archive,parseScoreboard(payload));
+  assert.equal(rows[0].issue,undefined);
+  assert.equal(rows[0].marketProvenance,"legacy_untimestamped");
+  assert.equal(rows[0].cohort,"week6_legacy_untimestamped");
+  assert.match(reportMarkdown(rows),/Legacy untimestamped Week 6/);
+});
+test("Missing market timestamp in later weeks is excluded",()=>{
+  const archive={week:11,generated_at:"2026-11-19T10:00:00Z",games:[{
+    game_id:"2026-W11-MIA-BUF",kickoff:"2026-11-22T18:00:00Z",
+    away:"MIA",home:"BUF",projection:{winner:"BUF",away_score:9,home_score:26,projected_total:35},
+    market:{favorite:"BUF",spread:-16.5,total:44.5},market_as_of:null
+  }]};
+  assert.equal(gradeArchive(archive,parseScoreboard(payload))[0].issue,"prediction_or_market_not_verified_pregame");
+});
