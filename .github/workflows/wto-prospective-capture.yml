@@ -17,6 +17,8 @@ jobs:
           node-version: '22'
       - name: Test pregame capture integrity
         run: node --test tests/wto-prospective-snapshot.test.mjs tests/wto-auto-capture.test.mjs
+      - name: Inspect upcoming archive and confidence-grade readiness
+        run: node scripts/wto-capture-readiness.mjs
       - name: Capture only authentic graded pregame archive entries
         run: node scripts/wto-auto-capture.mjs
       - name: Upload immutable run artifact and capture status
