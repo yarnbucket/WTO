@@ -10,6 +10,7 @@ on:
       - 'tests/wto-audit-dashboard.test.mjs'
       - 'wto-audit.html'
       - 'wto-audit-summary-2026.json'
+      - 'wto-audit-disagreements-2026.json'
       - '.github/workflows/wto-historical-audit.yml'
 permissions:
   contents: read
