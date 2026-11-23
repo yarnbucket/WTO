@@ -5,7 +5,7 @@ import {tmpdir} from "node:os";
 import {join} from "node:path";
 import {createHash} from "node:crypto";
 import {pathToFileURL} from "node:url";
-import {validateOriginalPublisherExport,receiveProducerHandoff} from "../scripts/wto-phase2e-handoff.mjs";
+import {validateOriginalPublisherExport,receiveProducerHandoff,resolveSourceSeason} from "../scripts/wto-phase2e-handoff.mjs";
 import {packageOriginalOutput} from "../scripts/wto-phase2e-package.mjs";
 import {processIncoming} from "../scripts/wto-publish-and-lock.mjs";
 import {stageArchive} from "../scripts/wto-stage-permanent-archive.mjs";
@@ -133,4 +133,43 @@ test("complete Phase 2E producer intake feeds unchanged original into existing P
  const record=JSON.parse(await readFile(new URL(staged.staged[0].path,h.root)));
  assert.equal(record.lock.snapshot.games[0].projection.winner,"CIN");
  assert.equal(record.lock.snapshot.games[0].market.spread,-3.5);
+});
+
+test("accepts authentic original WTO EX Week 11 source format without inventing a top-level season",async()=>{
+ // Historical original checked at its original pregame publication window for compatibility ONLY.
+ // Never writes the Week 11 source back to the permanent archive.
+ const sourcePath=new URL("../wto-ex-week11-20261122.json",import.meta.url);
+ const originalBytes=await readFile(sourcePath);
+ const source=JSON.parse(originalBytes);
+ assert.equal(source.season,undefined);
+ const publicationWindow=new Date("2026-11-22T11:20:00Z");
+ const verified=validateOriginalPublisherExport(source,"wto-ex-week11-20261122.json",publicationWindow);
+ assert.equal(verified.season,2026);
+ assert.equal(verified.season_source,"original_game_ids");
+ assert.equal(verified.source_games,13);
+ assert.equal(verified.eligible,12);
+ assert.equal(verified.historical,1);
+ const tmp=await mkdtemp(join(tmpdir(),"wto-real-source-"));
+ const outputDir=pathToFileURL(tmp+"/");
+ const packaged=await packageOriginalOutput({sourcePath,runId,outputDir,now:publicationWindow});
+ assert.equal(packaged.manifest.sha256,sha(originalBytes));
+ assert.deepEqual(await readFile(new URL("wto-ex-week11-20261122.json",outputDir)),originalBytes);
+ assert.equal(packaged.manifest.season,2026);
+});
+test("season provenance fails closed when game IDs conflict or next season omits explicit season",()=>{
+ const a=original();delete a.season;
+ assert.equal(resolveSourceSeason(a),2026);
+ const wrong={...a,games:[...a.games,{...a.games[0],game_id:"2027-W12-ARI-KC",away:"ARI",home:"KC"}]};
+ assert.throws(()=>resolveSourceSeason(wrong),/Season missing or inconsistent/);
+ const later={...a,games:[{...a.games[0],game_id:"2027-W12-CIN-WAS"}]};
+ assert.throws(()=>resolveSourceSeason(later),/explicit season is required/);
+ const mismatch={...a,season:2027};
+ assert.throws(()=>validateOriginalPublisherExport(mismatch,filename,when),/Invalid original game ID/);
+});
+test("existing zero-padded Week 06 game IDs are accepted as original provenance",()=>{
+ const a={...original(),season:undefined,week:6,generated_at:"2026-10-15T19:35:45.215Z"};
+ a.games=[{...a.games[0],game_id:"2026-W06-CIN-WAS",projection_generated_at:"2026-10-15T19:35:45.215Z",market_as_of:"2026-10-15T19:30:00Z",kickoff:"2026-10-18T13:00:00-04:00"}];
+ const r=validateOriginalPublisherExport(a,"wto-ex-week6-20261015.json",new Date("2026-10-15T20:00:00Z"));
+ assert.equal(r.season,2026);
+ assert.equal(r.eligible,1);
 });
