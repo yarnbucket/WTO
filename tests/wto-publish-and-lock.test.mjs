@@ -16,5 +16,11 @@ test("past kickoff and incomplete markets fail closed",()=>{
  const late=fixture();late.archive.games[0].kickoff="2026-11-25T01:00:00Z";
  const noMarket=fixture();noMarket.archive.games[0].market_as_of=null;
  const r=processIncoming([late,noMarket],now);
- assert.equal(r.published.length,0);assert.equal(r.rejected.length,2);
+ assert.equal(r.published.length,0);assert.equal(r.rejected.length,1);assert.equal(r.historical.length,1);
+});
+
+test("old weekly archives are reported as historical, not publishing failures",()=>{
+ const old=fixture();old.archive.games[0].kickoff="2026-11-20T01:00:00Z";
+ const result=processIncoming([old],now);
+ assert.equal(result.historical.length,1);assert.equal(result.rejected.length,0);
 });
