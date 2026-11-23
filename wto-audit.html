@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WTO · Historical Audit</title><style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,sans-serif;background:#0c1221;color:#eef3fc}
+*{box-sizing:border-box}body{margin:0;padding:18px;max-width:1000px;margin-inline:auto}a{color:#8dc8ff}header{display:flex;align-items:center;justify-content:space-between;gap:12px}h1{font-size:1.6rem;margin:24px 0 8px}h2{font-size:1.1rem;margin:20px 0 8px}.muted{color:#aebdd4}.notice{padding:12px;border:1px solid #53657e;border-radius:12px;background:#17243a}.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}.stat{padding:16px;background:#17243a;border:1px solid #33435b;border-radius:12px}.stat b{display:block;font-size:1.6rem}.stat small{color:#c1cee2}.tablewrap{overflow:auto;border:1px solid #33435b;border-radius:12px}table{width:100%;border-collapse:collapse;white-space:nowrap}th,td{padding:11px;text-align:left;border-bottom:1px solid #33435b}th{background:#1a2b44}tr:last-child td{border:0}select{padding:9px;border-radius:8px;background:#1a2b44;color:white;border:1px solid #667d9e}button{padding:8px 12px;background:#223b5c;border:1px solid #647c9b;color:white;border-radius:8px}.footer{font-size:.85rem;margin-top:24px}
+</style></head><body><header><a href="./index.html">← WTO Home</a><span class="muted">READ-ONLY · 2026</span></header>
+<h1>🏈 WTO Historical Audit</h1><p class="muted">Frozen report snapshot. Performance evaluation only — no changes to the live predictor or MY PICKS.</p>
+<div class="notice"><strong>Evidence matters:</strong> Week 6 uses original market lines without a verified market timestamp. The default view excludes it. Week 11 Sunday archive is separate from the manual posterboard. Past accuracy is not a guaranteed probability for future games.</div>
+<h2>Historical performance</h2><label for="cohort">Data quality: </label><select id="cohort"><option value="strict">Timestamp-verified only (Weeks 7–11)</option><option value="all">All archived weeks (legacy included)</option><option value="legacy">Week 6 legacy only</option></select>
+<div class="stats" id="stats" aria-live="polite"></div>
+<h2>Weekly results</h2><div class="tablewrap"><table><thead><tr><th>Week</th><th>Games</th><th>WTO winner</th><th>Vegas favorite</th><th>WTO ATS</th><th>WTO O/U</th><th>Provenance</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p id="pending" class="muted"></p><p class="footer muted" id="source"></p>
+<script>
+(async function(){
+ const root=document.getElementById('stats'),body=document.getElementById('rows'),filter=document.getElementById('cohort');
+ const format=(a)=>a[0]+'–'+a[1]+' ('+(a[0]+a[1]?(100*a[0]/(a[0]+a[1])).toFixed(1)+'%':'—')+')';
+ const names={winner:'WTO winners',market:'Vegas favorites',ats:'WTO ATS',total:'WTO O/U'};
+ try{
+  const response=await fetch('./wto-audit-summary-2026.json',{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);
+  const data=await response.json();if(data.schema_version!==1||!Array.isArray(data.weeks))throw Error('Invalid report schema');
+  function render(){
+   const weeks=data.weeks.filter(w=>filter.value==='all'||(filter.value==='legacy'?w.cohort==='legacy_untimestamped':w.cohort==='timestamp_verified'));
+   root.replaceChildren();body.replaceChildren();
+   for(const key of ['winner','market','ats','total']){
+    const a=weeks.reduce((v,w)=>[v[0]+w[key][0],v[1]+w[key][1]],[0,0]);
+    const el=document.createElement('div');el.className='stat';const title=document.createElement('small');title.textContent=names[key];const value=document.createElement('b');value.textContent=format(a);el.append(title,value);root.append(el);
+   }
+   for(const w of weeks){
+    const tr=document.createElement('tr');
+    for(const v of [w.week,w.games,format(w.winner),format(w.market),format(w.ats),format(w.total),w.cohort==='legacy_untimestamped'?'Legacy / no market timestamp':'Verified']){
+      const td=document.createElement('td');td.textContent=String(v);tr.append(td);
+    }body.append(tr);
+   }
+  }
+  filter.addEventListener('change',render);render();
+  document.getElementById('pending').textContent='Pending at snapshot: '+data.pending.map(x=>'Week '+x.week+' '+x.gameId+' ('+x.reason+')').join(', ')+'.';
+  document.getElementById('source').textContent='Source: '+data.source+'. Snapshot: '+data.generated_at+'. This view does not automatically refresh with new games.';
+ }catch(e){root.textContent='Audit data unavailable: '+e.message;}
+})();
+</script></body></html>
