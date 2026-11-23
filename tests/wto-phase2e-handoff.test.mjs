@@ -7,6 +7,8 @@ import {createHash} from "node:crypto";
 import {pathToFileURL} from "node:url";
 import {validateOriginalPublisherExport,receiveProducerHandoff} from "../scripts/wto-phase2e-handoff.mjs";
 import {packageOriginalOutput} from "../scripts/wto-phase2e-package.mjs";
+import {processIncoming} from "../scripts/wto-publish-and-lock.mjs";
+import {stageArchive} from "../scripts/wto-stage-permanent-archive.mjs";
 const when=new Date("2026-11-24T12:00:00.000Z");
 const filename="wto-ex-week12-20261124.json";
 const runId="45250000001";
@@ -100,17 +102,35 @@ test("source week and filename must agree",()=>{
 test("trusted publisher packager copies original bytes and produces matching signed-run receipt",async()=>{
  const h=await harness();
  const outputDir=new URL("producer-artifact/",h.root);
- const packaged=await packageOriginalOutput({sourcePath:h.source,runId,outputDir,now:when}).catch(async err=>{
-  // Fixture source is named generically: copy its unchanged bytes under the actual publisher name.
-  if(!/source filename/.test(String(err)))throw err;
-  const authenticPath=join(h.dir,filename);
-  await writeFile(authenticPath,h.bytes);
-  return packageOriginalOutput({sourcePath:authenticPath,runId,outputDir,now:when});
- });
+ const authenticPath=join(h.dir,filename);
+ await writeFile(authenticPath,h.bytes);
+ const packaged=await packageOriginalOutput({sourcePath:authenticPath,runId,outputDir,now:when});
  assert.equal(packaged.artifact_name,artifactName);
  assert.equal(packaged.manifest.sha256,sha(h.bytes));
  assert.equal(packaged.manifest.source_name,filename);
  assert.deepEqual(await readFile(new URL(filename,outputDir)),h.bytes);
  const receipt=await receiveProducerHandoff({...h.args,sourcePath:new URL(filename,outputDir)});
  assert.equal(receipt.eligible,1);
+});
+
+test("complete Phase 2E producer intake feeds unchanged original into existing Phase 2B/2C lock",async()=>{
+ const h=await harness();
+ await receiveProducerHandoff(h.args);
+ const incoming=JSON.parse(await readFile(new URL("incoming/"+filename,h.root)));
+ const result=processIncoming([{name:filename,archive:incoming}],when);
+ assert.equal(result.rejected.length,0);
+ assert.equal(result.published.length,1);
+ const published=result.published[0];
+ assert.equal(published.snapshot.snapshot.games[0].projection.winner,"CIN");
+ assert.equal(published.snapshot.snapshot.games[0].projection.confidence_grade,"A+");
+ assert.equal(published.snapshot.snapshot.games[0].projection.confidence_policy_id,"wto-prospective-probability-bands-v1");
+ assert.equal(incoming.games[0].projection.confidence_grade,undefined);
+ const out=new URL("reports/prospective/",h.root);
+ await writeFile(new URL("locked-1234567890abcdef.json",out),JSON.stringify(published.snapshot,null,2)+"\\n");
+ const staged=await stageArchive({root:h.root,reportDir:out});
+ assert.equal(staged.staged.length,1);
+ assert.equal(staged.staged[0].game_id,"2026-W12-CIN-WAS");
+ const record=JSON.parse(await readFile(new URL(staged.staged[0].path,h.root)));
+ assert.equal(record.lock.snapshot.games[0].projection.winner,"CIN");
+ assert.equal(record.lock.snapshot.games[0].market.spread,-3.5);
 });
