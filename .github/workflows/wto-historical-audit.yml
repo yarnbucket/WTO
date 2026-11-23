@@ -6,9 +6,11 @@ on:
       - 'scripts/wto-historical-audit.mjs'
       - 'scripts/build-wto-historical-report.mjs'
       - 'scripts/wto-confidence-calibration.mjs'
+      - 'scripts/wto-prospective-snapshot.mjs'
       - 'tests/wto-historical-audit.test.mjs'
       - 'tests/wto-historical-report.test.mjs'
       - 'tests/wto-confidence-calibration.test.mjs'
+      - 'tests/wto-prospective-snapshot.test.mjs'
       - 'tests/wto-audit-dashboard.test.mjs'
       - 'wto-audit.html'
       - 'wto-audit-summary-2026.json'
@@ -25,7 +27,7 @@ jobs:
         with:
           node-version: '22'
       - name: Run audit unit tests
-        run: node --test tests/wto-historical-audit.test.mjs tests/wto-historical-report.test.mjs tests/wto-audit-dashboard.test.mjs tests/wto-confidence-calibration.test.mjs
+        run: node --test tests/wto-historical-audit.test.mjs tests/wto-historical-report.test.mjs tests/wto-audit-dashboard.test.mjs tests/wto-confidence-calibration.test.mjs tests/wto-prospective-snapshot.test.mjs
       - name: Rebuild report from original predictions and completed ESPN finals
         run: node scripts/build-wto-historical-report.mjs
       - name: Build read-only Phase 2 confidence calibration
