@@ -16,7 +16,7 @@ test("archive grading retains original lines and source timestamps",()=>{
 });
 test("post-kickoff projections are excluded rather than silently graded",()=>{
   const a={week:11,generated_at:"2026-11-23T10:00:00Z",games:[{game_id:"late",kickoff:"2026-11-22T18:00:00Z",away:"MIA",home:"BUF",projection:{winner:"BUF"},market:{favorite:"BUF",spread:-16.5,total:44.5}}]};
-  assert.equal(gradeArchive(a,parseScoreboard(payload))[0].issue,"prediction_not_verified_pregame");
+  assert.equal(gradeArchive(a,parseScoreboard(payload))[0].issue,"prediction_or_market_not_verified_pregame");
 });
 
 test("Washington WSH ESPN code maps to WTO WAS in either home or away position",()=>{
