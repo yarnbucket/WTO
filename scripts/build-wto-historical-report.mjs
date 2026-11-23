@@ -8,7 +8,7 @@ const API = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboa
 const count = (rows,key) => ({win:rows.filter(r=>r[key]==="win").length,loss:rows.filter(r=>r[key]==="loss").length,push:rows.filter(r=>r[key]==="push").length,unavailable:rows.filter(r=>r[key]===null).length});
 const pct = (r) => r.win+r.loss ? (100*r.win/(r.win+r.loss)).toFixed(1)+"%" : "—";
 const record = (r) => r.win+"–"+r.loss+(r.push?"–"+r.push:"")+" ("+pct(r)+")";
-export function parseScoreboard(payload) {
+export function normalizeTeamAbbreviation(code) {\n  const aliases = { WSH: "WAS" };\n  return aliases[code] ?? code;\n}\nexport function parseScoreboard(payload) {
   const scores = new Map();
   for (const event of payload.events ?? []) {
     const competition = event.competitions?.[0];
@@ -18,7 +18,7 @@ export function parseScoreboard(payload) {
     const away = teams.find(c=>c.homeAway==="away");
     const home = teams.find(c=>c.homeAway==="home");
     if (!away || !home || !Number.isFinite(Number(away.score)) || !Number.isFinite(Number(home.score))) continue;
-    const awayAbbr=away.team?.abbreviation,homeAbbr=home.team?.abbreviation;
+    const awayAbbr=normalizeTeamAbbreviation(away.team?.abbreviation),homeAbbr=normalizeTeamAbbreviation(home.team?.abbreviation);
     if (!awayAbbr || !homeAbbr) continue;
     const id=event.id;
     const key=awayAbbr+"-"+homeAbbr;
