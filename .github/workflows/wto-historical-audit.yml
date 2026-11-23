@@ -1,0 +1,31 @@
+name: WTO historical audit
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/wto-historical-audit.mjs'
+      - 'scripts/build-wto-historical-report.mjs'
+      - 'tests/wto-historical-audit.test.mjs'
+      - 'tests/wto-historical-report.test.mjs'
+      - '.github/workflows/wto-historical-audit.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run audit unit tests
+        run: node --test tests/wto-historical-audit.test.mjs tests/wto-historical-report.test.mjs
+      - name: Rebuild report from original predictions and completed ESPN finals
+        run: node scripts/build-wto-historical-report.mjs
+      - name: Upload report without modifying source data
+        uses: actions/upload-artifact@v4
+        with:
+          name: wto-historical-audit-2026
+          path: |
+            reports/wto-historical-audit-2026.json
+            reports/wto-historical-audit-2026.md
