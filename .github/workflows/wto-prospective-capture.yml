@@ -1,6 +1,11 @@
 name: WTO Phase 2B prospective capture
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - WTO weekly predictor publisher
+    types:
+      - completed
   push:
     paths:
       - 'incoming/wto-ex-week*.json'
@@ -12,11 +17,15 @@ on:
       - 'scripts/wto-stage-permanent-archive.mjs'
       - 'tests/wto-stage-permanent-archive.test.mjs'
       - '.github/workflows/wto-prospective-capture.yml'
+      - 'scripts/wto-phase2e-handoff.mjs'
+      - 'scripts/wto-phase2e-package.mjs'
+      - 'tests/wto-phase2e-handoff.test.mjs'
   schedule:
     # Thursday and Sunday before most NFL kickoffs (UTC; daylight saving varies).
     - cron: '30 16 * * 4'
     - cron: '30 16 * * 0'
 permissions:
+  actions: read
   contents: write
   pull-requests: write
 concurrency:
@@ -24,6 +33,11 @@ concurrency:
   cancel-in-progress: false
 jobs:
   capture:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_repository.full_name == github.repository &&
+       github.event.workflow_run.head_branch == github.event.repository.default_branch)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -31,7 +45,31 @@ jobs:
         with:
           node-version: '22'
       - name: Test pregame capture integrity
-        run: node --test tests/wto-prospective-snapshot.test.mjs tests/wto-auto-capture.test.mjs tests/wto-prospective-grade-policy.test.mjs tests/wto-publish-and-lock.test.mjs tests/wto-unify-capture-status.test.mjs tests/wto-stage-permanent-archive.test.mjs
+        run: node --test tests/wto-prospective-snapshot.test.mjs tests/wto-auto-capture.test.mjs tests/wto-prospective-grade-policy.test.mjs tests/wto-publish-and-lock.test.mjs tests/wto-unify-capture-status.test.mjs tests/wto-stage-permanent-archive.test.mjs tests/wto-phase2e-handoff.test.mjs
+      - name: Import original prediction artifact from trusted publisher
+        if: github.event_name == 'workflow_run'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PRODUCER_RUN_ID: ${{ github.event.workflow_run.id }}
+          PRODUCER_WORKFLOW: ${{ github.event.workflow_run.name }}
+          PRODUCER_REPO: ${{ github.event.workflow_run.head_repository.full_name }}
+          PRODUCER_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          test "$PRODUCER_WORKFLOW" = "WTO weekly predictor publisher"
+          test "$PRODUCER_REPO" = "$GITHUB_REPOSITORY"
+          test "$PRODUCER_BRANCH" = "$DEFAULT_BRANCH"
+          [[ "$PRODUCER_RUN_ID" =~ ^[1-9][0-9]{0,17}$ ]]
+          ARTIFACT_NAME="wto-original-predictions-$PRODUCER_RUN_ID"
+          STAGING="$RUNNER_TEMP/wto-phase2e"
+          mkdir -p "$STAGING"
+          gh run download "$PRODUCER_RUN_ID" --repo "$GITHUB_REPOSITORY" --name "$ARTIFACT_NAME" --dir "$STAGING"
+          SOURCE_NAME="$(jq -er '.source_name' "$STAGING/manifest.json")"
+          SOURCE_SHA="$(jq -er '.sha256' "$STAGING/manifest.json")"
+          RECEIPT_RUN_ID="$(jq -er '.producer_run_id' "$STAGING/manifest.json")"
+          test "$RECEIPT_RUN_ID" = "$PRODUCER_RUN_ID"
+          node scripts/wto-phase2e-handoff.mjs "$STAGING/$SOURCE_NAME" "$SOURCE_NAME" "$SOURCE_SHA" "$PRODUCER_RUN_ID" "$ARTIFACT_NAME"
       - name: Publish and lock incoming future prediction archives
         run: node scripts/wto-publish-and-lock.mjs
       - name: Inspect upcoming archive and confidence-grade readiness
