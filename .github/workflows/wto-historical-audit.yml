@@ -7,6 +7,9 @@ on:
       - 'scripts/build-wto-historical-report.mjs'
       - 'tests/wto-historical-audit.test.mjs'
       - 'tests/wto-historical-report.test.mjs'
+      - 'tests/wto-audit-dashboard.test.mjs'
+      - 'wto-audit.html'
+      - 'wto-audit-summary-2026.json'
       - '.github/workflows/wto-historical-audit.yml'
 permissions:
   contents: read
@@ -19,7 +22,7 @@ jobs:
         with:
           node-version: '22'
       - name: Run audit unit tests
-        run: node --test tests/wto-historical-audit.test.mjs tests/wto-historical-report.test.mjs
+        run: node --test tests/wto-historical-audit.test.mjs tests/wto-historical-report.test.mjs tests/wto-audit-dashboard.test.mjs
       - name: Rebuild report from original predictions and completed ESPN finals
         run: node scripts/build-wto-historical-report.mjs
       - name: Upload report without modifying source data
