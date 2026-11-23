@@ -55,6 +55,8 @@ export function gradeArchive(archive, scoreboard) {
       week:archive.week,gameId:g.game_id,eventId:s.eventId,away:g.away,home:g.home,
       awayScore:s.awayScore,homeScore:s.homeScore,
       aiWinner,marketFavorite:favorite,spreadSide,totalSide,
+      pregameWinProbability:Number.isFinite(g.projection?.win_probability)?g.projection.win_probability:null,
+      confidenceGrade:typeof g.projection?.confidence_grade==="string"?g.projection.confidence_grade:null,
       spread:g.market?.spread,totalLine:g.market?.total,
       projectionGeneratedAt:projectedAt,modelVersion:g.model_version??archive.model_version,
       marketAsOf:marketAt??null,marketProvenance:legacyMarket?"legacy_untimestamped":"timestamp_verified",cohort:legacyMarket?"week6_legacy_untimestamped":archive.week===11?"week11_sunday_archive":"weeks7to10_experimental",
