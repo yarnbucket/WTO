@@ -33,3 +33,16 @@ test("Washington WSH ESPN code maps to WTO WAS in either home or away position",
   assert.equal(m.get("WAS-SF").awayScore,17);
   assert.equal(m.get("PHI-WAS").homeScore,23);
 });
+
+test("incomplete Week 11 games remain excluded and never get invented scores",()=>{
+  const archive={week:11,generated_at:"2026-11-22T11:00:00Z",games:[{
+    game_id:"2026-W11-CIN-WAS",kickoff:"2026-11-23T20:15:00-05:00",away:"CIN",home:"WAS",
+    projection:{winner:"CIN",away_score:24,home_score:20,projected_total:44},
+    market:{favorite:"CIN",spread:-6.5,total:53.5},
+    market_as_of:"2026-11-19T16:58:13Z"
+  }]};
+  const rows=gradeArchive(archive,new Map());
+  assert.equal(rows.length,1);
+  assert.equal(rows[0].issue,"missing_verified_final");
+  assert.match(reportMarkdown(rows),/Exclusions \(1\)/);
+});
