@@ -21,3 +21,6 @@ Do not backfill prior games, invent original probabilities, or rewrite `index.ht
 
 ## Mixed archive behavior (November 2026)
 The bridge now evaluates each game independently. Already-started games are counted as `historical`, incomplete future games as `rejected`, and validated future games as `published`. One invalid game does not block another valid game. Each eligible game gets its own independently fingerprinted snapshot. The `publisher-status.json` includes per-game `readiness` entries and counts. No past game receives a new confidence grade.
+
+## Duplicate and reporting reconciliation
+The publisher locks **one active snapshot per season/week/game_id**. Identical SHA-256 snapshots from multiple archive filenames are recorded under `duplicates`, not counted as separate predictions. Distinct valid revisions are resolved to the latest original `projection_generated_at` and recorded under `superseded`; a tie is broken by source filename. The unified `reports/prospective/phase2b-status.json` is the authoritative status for unique publisher locks. Legacy `capture-status.json` and `source-readiness.json` remain diagnostic and may show zero because they require grades already present in the original archive. The workflow now generates the unified report after those diagnostics.
