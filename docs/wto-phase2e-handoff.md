@@ -4,7 +4,7 @@
 
 ## Producer → receiver → archive
 
-1. An upstream WTO prediction publisher produces and commits a genuine pregame source named wto-ex-weekNN-YYYYMMDD.json at the repository root on main. It must contain original model_version, generated_at, game prediction revision IDs and timestamps, actual win probabilities, and original market evidence. It must be committed **before kickoff**. The producer itself remains external to this repository; no function here invents its predictions.
+1. The existing **WTO Tuesday & Sunday Updates** automation publishes a genuine pregame WTO EX source named wto-ex-weekNN-YYYYMMDD.json at the repository root on main, when the weekly projection and source evidence are available. It must preserve original model_version, generated_at, original prediction revision IDs and timestamps, actual win probabilities, and original market evidence. It must be committed **before kickoff**. GitHub does not independently generate the model forecast; no function here invents its predictions. For the existing 2026 sources, the top-level season field is absent and is validated from the original 2026-WNN-TEAM-TEAM IDs without changing the source bytes. Later seasons must provide an explicit season field.
 2. GitHub Actions workflow `.github/workflows/wto-weekly-prediction-publisher.yml` automatically detects the newly changed original file (one per run), validates it, and packages the unchanged bytes into an artifact named `wto-original-predictions-<run_id>`. A manifest includes source filename, producer run ID and SHA-256 digest. The source file is not rewritten.
 3. The existing Phase 2B workflow listens for **completed successful runs** of exactly `WTO weekly predictor publisher`. It checks the upstream job is from this repository's default branch, downloads the artifact with GitHub Actions read permission, validates the manifest/run ID/digest/source, and writes an ephemeral `incoming/` file with exclusive-create semantics.
 4. The existing Phase 2B processing verifies prospective predictions, assigns explicitly versioned **publication-time** confidence labels, and locks one snapshot per eligible future game; the existing Phase 2C step proposes immutable snapshot records for human review. The existing Phase 2D job later scores verified finals.
@@ -22,7 +22,7 @@
 
 ## Trigger and deployment
 
-The producer workflow is triggered by a GitHub push that modifies exactly one root wto-ex-week*.json file. A manual workflow_dispatch is provided for recovery **only for a source already present in the repository**; no manual export is required in normal operation. If several weekly files change in one commit, the packager fails rather than silently ignoring any.
+The producer workflow is triggered by the existing Tuesday/Sunday updater's GitHub commit when it modifies exactly one root wto-ex-week*.json file. A manual workflow_dispatch is provided for recovery **only for a source already present in the repository**; no manual export is required in normal operation. If several weekly files change in one commit, the packager fails rather than silently ignoring any.
 
 Workflow_run delivery begins after these workflow files are merged to the default branch. The first real future publisher run should be reviewed for successful 2E receipt, successful 2B lock, and a Phase 2C archive PR. Keep GitHub Actions permission to create PRs enabled in repository Settings → Actions → General, or archive PR creation will still need manual intervention.
 
@@ -32,4 +32,4 @@ For a producer-side integration from another automated job, reuse `node scripts/
 
 `node --test tests/wto-phase2e-handoff.test.mjs` tests metadata, source preservation, duplicate conflicts, invalid market/projection timestamps, source digest, safe filenames, and packager/receiver interoperation. The Phase 2B workflow runs it alongside all prior capture tests.
 
-**Unverified until the next authentic source:** actual GitHub workflow_run artifact delivery, production PR creation for a newly generated weekly archive, and the future model's complete game coverage. Successful branch tests cannot substitute for this proof.
+**Unverified until the next authentic source:** actual GitHub workflow_run artifact delivery, production PR creation for a newly generated weekly archive, and the future model's complete game coverage. A compatibility test inspects the original immutable Week 11 Sunday file using its historical publication time but never backfills it into production. Successful branch tests cannot substitute for the first genuine post-merge delivery.

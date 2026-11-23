@@ -8,11 +8,25 @@ const sourcePattern=/^wto-ex-week(0?[1-9]|1[0-8])-\d{8}\.json$/;
 const iso=x=>typeof x==="string"&&/\dT.*(?:Z|[+-]\d\d:\d\d)$/.test(x)&&Number.isFinite(Date.parse(x));
 const requireField=(ok,message)=>{if(!ok)throw Error(message)};
 const sha256=data=>createHash("sha256").update(data).digest("hex");
+// Existing WTO EX sources identify the 2026 season in each game_id, not a top-level field.
+// Derive that *metadata* only; never synthesize a missing score, odds or probability.
+export function resolveSourceSeason(archive){
+ if(archive?.season!==undefined&&archive?.season!==null){
+  requireField(Number.isInteger(archive.season)&&archive.season>=2026&&archive.season<=2100,"Invalid source season");
+  return archive.season;
+ }
+ requireField(Array.isArray(archive?.games)&&archive.games.length>0,"Source games required for season provenance");
+ const years=new Set(archive.games.map(g=>/^([0-9]{4})-W[0-9]{1,2}-[A-Z]{2,3}-[A-Z]{2,3}$/.exec(g?.game_id??"")?.[1]));
+ requireField(years.size===1&&!years.has(undefined),"Season missing or inconsistent in original game IDs");
+ const season=Number([...years][0]);
+ requireField(season===2026,"An explicit season is required for later-season exports");
+ return season;
+}
 export function validateOriginalPublisherExport(archive,sourceName,now=new Date()){
  requireField(sourcePattern.test(sourceName),"Unexpected publisher source filename");
  const today=now.getTime();
  requireField(archive?.schema_version===1,"Source schema_version must be 1");
- requireField(Number.isInteger(archive?.season)&&archive.season>=2026&&archive.season<=2100,"Invalid source season");
+ const season=resolveSourceSeason(archive);
  requireField(Number.isInteger(archive?.week)&&archive.week>=1&&archive.week<=18,"Invalid source week");
  requireField(Number(sourceName.match(sourcePattern)[1])===archive.week,"Source week does not match filename");
  requireField(typeof archive.model_version==="string"&&archive.model_version.length>0,"Missing original model version");
@@ -22,7 +36,8 @@ export function validateOriginalPublisherExport(archive,sourceName,now=new Date(
  let eligible=0,historical=0;
  for(const game of archive.games){
   const id=game?.game_id;
-  requireField(typeof id==="string"&&id===String(archive.season)+"-W"+String(archive.week)+"-"+game.away+"-"+game.home,"Invalid original game ID");
+  const padded=String(archive.week).padStart(2,"0"),compact=String(archive.week);
+  requireField(typeof id==="string"&&[season+"-W"+padded+"-"+game.away+"-"+game.home,season+"-W"+compact+"-"+game.away+"-"+game.home].includes(id),"Invalid original game ID");
   requireField(!seen.has(id),"Duplicate original game ID: "+id);seen.add(id);
   requireField(/^[A-Z]{2,3}$/.test(game.away)&&/^[A-Z]{2,3}$/.test(game.home)&&game.away!==game.home,"Invalid original teams");
   requireField(iso(game.kickoff)&&iso(game.projection_generated_at)&&iso(game.market_as_of),"Missing original offset-aware timestamps");
@@ -35,7 +50,7 @@ export function validateOriginalPublisherExport(archive,sourceName,now=new Date(
   if(kickoff>today)eligible++;else historical++;
  }
  requireField(eligible>0,"No original pre-kickoff games available; historical data cannot be backfilled");
- return {season:archive.season,week:archive.week,model_version:archive.model_version,eligible,historical,source_games:archive.games.length};
+ return {season,season_source:archive.season==null?"original_game_ids":"explicit_field",week:archive.week,model_version:archive.model_version,eligible,historical,source_games:archive.games.length};
 }
 export async function receiveProducerHandoff({sourcePath,sourceName,expectedSha256,producerRunId,artifactName,root=new URL("../",import.meta.url),now=new Date()}){
  requireField(sourcePattern.test(sourceName)&&basename(sourceName)===sourceName,"Unsafe original source name");
