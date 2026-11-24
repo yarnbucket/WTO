@@ -1,0 +1,17 @@
+name: WTO Phase 2F validation
+on:
+  push:
+    branches: ['wto/phase2f-weekly-producer']
+  pull_request:
+    paths: ['scripts/wto-*.mjs', 'tests/wto-*.mjs', '.github/workflows/wto-phase2f-validation.yml']
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/wto-weekly-baseline.test.mjs tests/wto-points-model.test.mjs
