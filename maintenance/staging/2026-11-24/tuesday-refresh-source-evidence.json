@@ -1,0 +1,339 @@
+{
+  "base_ledger_blob": "173c210f225a5ff75ab319742ab27221d7eedacb",
+  "status": "source_evidence_staged_not_published",
+  "week11": {
+    "sources": [
+      "https://www.nfl.com/schedules/2026/by-week/week-11",
+      "https://deepmetricanalytics.com/nfl/schedule?week=11",
+      "https://advancedfootballstats.com/games/2026/11"
+    ],
+    "games": [
+      {
+        "game_id": "2026-W11-IND-HOU",
+        "away_score": 3,
+        "home_score": 26,
+        "reported_market": {
+          "favorite": "HOU",
+          "spread": -12.5,
+          "total": 44.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-MIA-BUF",
+        "away_score": 9,
+        "home_score": 26,
+        "reported_market": {
+          "favorite": "BUF",
+          "spread": -16.5,
+          "total": 45.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-BAL-CAR",
+        "away_score": 33,
+        "home_score": 35,
+        "reported_market": {
+          "favorite": "CAR",
+          "spread": -2.5,
+          "total": 44.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-NO-CHI",
+        "away_score": 13,
+        "home_score": 21,
+        "reported_market": {
+          "favorite": "CHI",
+          "spread": -11.5,
+          "total": 47.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-TEN-DAL",
+        "away_score": 30,
+        "home_score": 51,
+        "reported_market": {
+          "favorite": "DAL",
+          "spread": -7.5,
+          "total": 55.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-TB-DET",
+        "away_score": 21,
+        "home_score": 31,
+        "reported_market": {
+          "favorite": "DET",
+          "spread": -3.5,
+          "total": 48.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-ARI-KC",
+        "away_score": 7,
+        "home_score": 34,
+        "reported_market": {
+          "favorite": "KC",
+          "spread": -15.5,
+          "total": 40.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-PIT-PHI",
+        "away_score": 16,
+        "home_score": 19,
+        "reported_market": {
+          "favorite": "PIT",
+          "spread": -3.5,
+          "total": 37.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-NYJ-LAC",
+        "away_score": 27,
+        "home_score": 24,
+        "reported_market": {
+          "favorite": "LAC",
+          "spread": -3,
+          "total": 43.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-LV-DEN",
+        "away_score": 24,
+        "home_score": 38,
+        "reported_market": {
+          "favorite": "DEN",
+          "spread": -11.5,
+          "total": 41.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-JAX-NYG",
+        "away_score": 18,
+        "home_score": 23,
+        "reported_market": {
+          "favorite": "JAX",
+          "spread": -6,
+          "total": 45.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-MIN-SF",
+        "away_score": 10,
+        "home_score": 35,
+        "reported_market": {
+          "favorite": "SF",
+          "spread": -4.5,
+          "total": 44.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      },
+      {
+        "game_id": "2026-W11-CIN-WAS",
+        "away_score": 20,
+        "home_score": 22,
+        "reported_market": {
+          "favorite": "CIN",
+          "spread": -6,
+          "total": 54.5,
+          "line_type": "historical market reference; closing and exact quote time unverified"
+        }
+      }
+    ]
+  },
+  "week12": {
+    "source": "https://edraft.com/nfl/odds/week-12",
+    "source_updated_at": "2026-11-24T09:33:00-05:00",
+    "schedule_source": "https://media.nfl.com/content/dam/communications/documents/2026/Week%2012%20Schedule%20Change.pdf",
+    "games": [
+      {
+        "game_id": "2026-W12-GB-LAR",
+        "favorite": "LAR",
+        "spread": -2.5,
+        "total": 44.3,
+        "opening_favorite": "LAR",
+        "opening_spread": -4.5,
+        "opening_total": 48.5,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-CHI-DET",
+        "favorite": "CHI",
+        "spread": -2.5,
+        "total": 55.5,
+        "opening_favorite": "DET",
+        "opening_spread": -2.5,
+        "opening_total": 53,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-PHI-DAL",
+        "favorite": "DAL",
+        "spread": -8.5,
+        "total": 48,
+        "opening_favorite": "DAL",
+        "opening_spread": -1.5,
+        "opening_total": 49.5,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-KC-BUF",
+        "favorite": "BUF",
+        "spread": -3,
+        "total": 47.5,
+        "opening_favorite": "BUF",
+        "opening_spread": -2.5,
+        "opening_total": 50,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-DEN-PIT",
+        "favorite": "DEN",
+        "spread": -3,
+        "total": 37.8,
+        "opening_favorite": "DEN",
+        "opening_spread": -1.5,
+        "opening_total": 39.5,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-NYJ-MIA",
+        "favorite": "NYJ",
+        "spread": -3.5,
+        "total": 41,
+        "opening_favorite": "NYJ",
+        "opening_spread": -3,
+        "opening_total": null,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-ATL-MIN",
+        "favorite": "MIN",
+        "spread": -7,
+        "total": 42.5,
+        "opening_favorite": "MIN",
+        "opening_spread": -3.5,
+        "opening_total": 43.5,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-TEN-JAX",
+        "favorite": "JAX",
+        "spread": -14.5,
+        "total": 47.5,
+        "opening_favorite": null,
+        "opening_spread": null,
+        "opening_total": 45.5,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-NYG-IND",
+        "favorite": "NYG",
+        "spread": -6.5,
+        "total": 41.5,
+        "opening_favorite": "IND",
+        "opening_spread": -2.5,
+        "opening_total": 47,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-BAL-HOU",
+        "favorite": "HOU",
+        "spread": -6.5,
+        "total": 46.5,
+        "opening_favorite": null,
+        "opening_spread": null,
+        "opening_total": 43.5,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-NO-CIN",
+        "favorite": "CIN",
+        "spread": -10,
+        "total": 50.5,
+        "opening_favorite": "CIN",
+        "opening_spread": -6.5,
+        "opening_total": null,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-NE-LAC",
+        "favorite": "LAC",
+        "spread": -1.3,
+        "total": 35.5,
+        "opening_favorite": "LAC",
+        "opening_spread": -2.5,
+        "opening_total": null,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-SEA-SF",
+        "favorite": "SF",
+        "spread": -3,
+        "total": 46.5,
+        "opening_favorite": "SF",
+        "opening_spread": -2.5,
+        "opening_total": null,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-WAS-ARI",
+        "favorite": "WAS",
+        "spread": -7.5,
+        "total": 41.5,
+        "opening_favorite": "WAS",
+        "opening_spread": -4,
+        "opening_total": null,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-LV-CLE",
+        "favorite": "CLE",
+        "spread": -4.5,
+        "total": 41.5,
+        "opening_favorite": "CLE",
+        "opening_spread": -1.5,
+        "opening_total": null,
+        "quote_at": null,
+        "prices": null
+      },
+      {
+        "game_id": "2026-W12-CAR-TB",
+        "favorite": "TB",
+        "spread": -3,
+        "total": 43.5,
+        "opening_favorite": "TB",
+        "opening_spread": -4,
+        "opening_total": null,
+        "quote_at": null,
+        "prices": null
+      }
+    ]
+  }
+}
