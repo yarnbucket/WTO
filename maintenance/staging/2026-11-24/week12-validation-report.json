@@ -1,0 +1,175 @@
+{
+  "checks": [
+    {
+      "id": "2026-W12-GB-LAR",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-CHI-DET",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-PHI-DAL",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-KC-BUF",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-DEN-PIT",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-ATL-MIN",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-BAL-HOU",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-LV-CLE",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-NO-CIN",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-NYG-IND",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-NYJ-MIA",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-TEN-JAX",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-SEA-SF",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-WAS-ARI",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-NE-LAC",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    },
+    {
+      "id": "2026-W12-CAR-TB",
+      "score": true,
+      "winner": true,
+      "probability": true,
+      "ats": true,
+      "total": true,
+      "market": true,
+      "quoteTimestamp": false
+    }
+  ],
+  "uniqueGames": 16,
+  "uniqueHistory": 163,
+  "historyCount": 163,
+  "arithmeticPass": true,
+  "publicationReady": false,
+  "blockers": [
+    "Quote timestamps missing",
+    "Tied projection incompatible with current generator",
+    "Native module and workflow tests not executed",
+    "Source verification not independently repeated in this run"
+  ]
+}
