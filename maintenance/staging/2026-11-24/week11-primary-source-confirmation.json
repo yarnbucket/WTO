@@ -1,0 +1,154 @@
+{
+  "base_blob": "173c210f225a5ff75ab319742ab27221d7eedacb",
+  "verification_date": "2026-11-24",
+  "sources": [
+    "https://www.nfl.com/schedules/2026/by-week/week-11",
+    "https://linesmart.app/nfl/results/2026-11/"
+  ],
+  "closing_archive_updated_at": "2026-11-24T00:45:00-05:00",
+  "games": [
+    {
+      "game_id": "2026-W11-IND-HOU",
+      "away_score": 3,
+      "home_score": 26,
+      "closing_favorite": null,
+      "closing_spread": null,
+      "closing_total": null,
+      "ats_winner": null,
+      "total_result": null,
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-ARI-KC",
+      "away_score": 7,
+      "home_score": 34,
+      "closing_favorite": "KC",
+      "closing_spread": -16,
+      "closing_total": 40.5,
+      "ats_winner": "KC",
+      "total_result": "OVER",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-BAL-CAR",
+      "away_score": 33,
+      "home_score": 35,
+      "closing_favorite": "CAR",
+      "closing_spread": -2.5,
+      "closing_total": 44.5,
+      "ats_winner": "BAL",
+      "total_result": "OVER",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-MIA-BUF",
+      "away_score": 9,
+      "home_score": 26,
+      "closing_favorite": "BUF",
+      "closing_spread": -17,
+      "closing_total": 44.5,
+      "ats_winner": "PUSH",
+      "total_result": "UNDER",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-NO-CHI",
+      "away_score": 13,
+      "home_score": 21,
+      "closing_favorite": "CHI",
+      "closing_spread": -12,
+      "closing_total": 48,
+      "ats_winner": "NO",
+      "total_result": "UNDER",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-TB-DET",
+      "away_score": 21,
+      "home_score": 31,
+      "closing_favorite": "DET",
+      "closing_spread": -4,
+      "closing_total": 49,
+      "ats_winner": "DET",
+      "total_result": "OVER",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-TEN-DAL",
+      "away_score": 30,
+      "home_score": 51,
+      "closing_favorite": "DAL",
+      "closing_spread": -7.5,
+      "closing_total": 54.5,
+      "ats_winner": "DAL",
+      "total_result": "OVER",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-PIT-PHI",
+      "away_score": 16,
+      "home_score": 19,
+      "closing_favorite": "PIT",
+      "closing_spread": -3.5,
+      "closing_total": 37.5,
+      "ats_winner": "PHI",
+      "total_result": "UNDER",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-NYJ-LAC",
+      "away_score": 27,
+      "home_score": 24,
+      "closing_favorite": "LAC",
+      "closing_spread": -3.5,
+      "closing_total": 43,
+      "ats_winner": "NYJ",
+      "total_result": "OVER",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-JAX-NYG",
+      "away_score": 18,
+      "home_score": 23,
+      "closing_favorite": "JAX",
+      "closing_spread": -6.5,
+      "closing_total": 45,
+      "ats_winner": "NYG",
+      "total_result": "UNDER",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-LV-DEN",
+      "away_score": 24,
+      "home_score": 38,
+      "closing_favorite": "DEN",
+      "closing_spread": -11.5,
+      "closing_total": 41,
+      "ats_winner": "DEN",
+      "total_result": "OVER",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-MIN-SF",
+      "away_score": 10,
+      "home_score": 35,
+      "closing_favorite": "SF",
+      "closing_spread": -5,
+      "closing_total": 45,
+      "ats_winner": "SF",
+      "total_result": "PUSH",
+      "closing_quote_at": null
+    },
+    {
+      "game_id": "2026-W11-CIN-WAS",
+      "away_score": 20,
+      "home_score": 22,
+      "closing_favorite": "CIN",
+      "closing_spread": -6,
+      "closing_total": 54.5,
+      "ats_winner": "WAS",
+      "total_result": "UNDER",
+      "closing_quote_at": null
+    }
+  ]
+}
