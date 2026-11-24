@@ -1,0 +1,161 @@
+{
+  "method": "manual JS transcription of existing points model, archived input IDs",
+  "rows": [
+    {
+      "id": "2026-W11-IND-HOU",
+      "calculated": [
+        21,
+        30
+      ],
+      "saved": [
+        21,
+        30
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-ARI-KC",
+      "calculated": [
+        15,
+        31
+      ],
+      "saved": [
+        15,
+        31
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-BAL-CAR",
+      "calculated": [
+        23,
+        27
+      ],
+      "saved": [
+        23,
+        27
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-JAX-NYG",
+      "calculated": [
+        27,
+        17
+      ],
+      "saved": [
+        27,
+        17
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-MIA-BUF",
+      "calculated": [
+        16,
+        32
+      ],
+      "saved": [
+        16,
+        32
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-NO-CHI",
+      "calculated": [
+        20,
+        30
+      ],
+      "saved": [
+        20,
+        30
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-TB-DET",
+      "calculated": [
+        22,
+        25
+      ],
+      "saved": [
+        22,
+        25
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-TEN-DAL",
+      "calculated": [
+        23,
+        31
+      ],
+      "saved": [
+        23,
+        31
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-NYJ-LAC",
+      "calculated": [
+        22,
+        20
+      ],
+      "saved": [
+        22,
+        20
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-LV-DEN",
+      "calculated": [
+        22,
+        29
+      ],
+      "saved": [
+        22,
+        29
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-PIT-PHI",
+      "calculated": [
+        22,
+        16
+      ],
+      "saved": [
+        22,
+        16
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-MIN-SF",
+      "calculated": [
+        19,
+        22
+      ],
+      "saved": [
+        19,
+        22
+      ],
+      "match": true
+    },
+    {
+      "id": "2026-W11-CIN-WAS",
+      "calculated": [
+        31,
+        22
+      ],
+      "saved": [
+        31,
+        22
+      ],
+      "match": true
+    }
+  ]
+}
