@@ -1,0 +1,373 @@
+{
+  "status": "staged",
+  "games": [
+    {
+      "game_id": "2026-W12-GB-LAR",
+      "current": {
+        "favorite": "LAR",
+        "spread": -2.5,
+        "total": 44,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "LAR",
+        "spread": -4.5,
+        "total": 48.5,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-CHI-DET",
+      "current": {
+        "favorite": "CHI",
+        "spread": -2.5,
+        "total": 55,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "DET",
+        "spread": -2.5,
+        "total": 53,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-PHI-DAL",
+      "current": {
+        "favorite": "DAL",
+        "spread": -8.5,
+        "total": 48,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "DAL",
+        "spread": -1.5,
+        "total": 49.5,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-KC-BUF",
+      "current": {
+        "favorite": "BUF",
+        "spread": -3,
+        "total": 47.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "BUF",
+        "spread": -2.5,
+        "total": 50,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-DEN-PIT",
+      "current": {
+        "favorite": "DEN",
+        "spread": -3,
+        "total": 38,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "DEN",
+        "spread": -1.5,
+        "total": 39.5,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-ATL-MIN",
+      "current": {
+        "favorite": "MIN",
+        "spread": -7,
+        "total": 42.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "MIN",
+        "spread": -3.5,
+        "total": 43.5,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-BAL-HOU",
+      "current": {
+        "favorite": "HOU",
+        "spread": -6.5,
+        "total": 46.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": null,
+        "spread": null,
+        "total": 43.5,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-NO-CIN",
+      "current": {
+        "favorite": "CIN",
+        "spread": -10,
+        "total": 50.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "CIN",
+        "spread": -6.5,
+        "total": null,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-NYG-IND",
+      "current": {
+        "favorite": "NYG",
+        "spread": -6.5,
+        "total": 41.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "IND",
+        "spread": -2.5,
+        "total": 47,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-NYJ-MIA",
+      "current": {
+        "favorite": "NYJ",
+        "spread": -3.5,
+        "total": 40.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "NYJ",
+        "spread": -3,
+        "total": null,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-TEN-JAX",
+      "current": {
+        "favorite": "JAX",
+        "spread": -14.5,
+        "total": 47.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": null,
+        "spread": null,
+        "total": 45.5,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-NE-LAC",
+      "current": {
+        "favorite": "LAC",
+        "spread": -1.5,
+        "total": 35.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "LAC",
+        "spread": -2.5,
+        "total": null,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-SEA-SF",
+      "current": {
+        "favorite": "SF",
+        "spread": -3,
+        "total": 46.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "SF",
+        "spread": -2.5,
+        "total": null,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-WAS-ARI",
+      "current": {
+        "favorite": "WAS",
+        "spread": -7.5,
+        "total": 41.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "WAS",
+        "spread": -4,
+        "total": null,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-LV-CLE",
+      "current": {
+        "favorite": "CLE",
+        "spread": -4.5,
+        "total": 41.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "CLE",
+        "spread": -1.5,
+        "total": null,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    },
+    {
+      "game_id": "2026-W12-CAR-TB",
+      "current": {
+        "favorite": "TB",
+        "spread": -3,
+        "total": 43.5,
+        "provider": "CBS Sports/SportsLine",
+        "source_url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-12-2026/",
+        "publication_at": "2026-11-24T09:16:00-05:00",
+        "quote_at": null,
+        "prices": null
+      },
+      "opening": {
+        "favorite": "TB",
+        "spread": -4,
+        "total": null,
+        "provider": "eDraft consensus",
+        "source_url": "https://edraft.com/nfl/odds/week-12",
+        "source_updated_at": "2026-11-24T09:33:00-05:00",
+        "quote_at": null,
+        "prices": null
+      }
+    }
+  ]
+}
