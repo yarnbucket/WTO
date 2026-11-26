@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "3b82d353bcae524225f71481922bf8ee8296a9e928caf5d262b03b0767f391bb",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "63b4f78ae22e291d695aee585c7f37cf785575820e1c373672ef11b4eae38e21",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-26T17:02:49.383Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-BAL-HOU",
+          "away": "BAL",
+          "home": "HOU",
+          "kickoff": "2026-11-29T13:00:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-BAL-HOU-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:35.768024+00:00",
+          "projection": {
+            "winner": "HOU",
+            "win_probability": 0.75,
+            "confidence_grade": "A+",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "HOU",
+            "spread": -6.5,
+            "total": 47.5
+          }
+        }
+      ]
+    }
+  }
+}

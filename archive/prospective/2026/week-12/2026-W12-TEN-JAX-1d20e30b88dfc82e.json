@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "1d20e30b88dfc82e7c1fd3ac3a2cc324065057ab6eabd40f0abbd2eaa9be4910",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "8d3db9ed28fdcbf11fb8749a90edf6e58b31996dfa9883c83f1e75fc9937151c",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-26T17:02:49.383Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-TEN-JAX",
+          "away": "TEN",
+          "home": "JAX",
+          "kickoff": "2026-11-29T13:00:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-TEN-JAX-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:40.553679+00:00",
+          "projection": {
+            "winner": "JAX",
+            "win_probability": 0.75,
+            "confidence_grade": "A+",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "JAX",
+            "spread": -14.5,
+            "total": 49.5
+          }
+        }
+      ]
+    }
+  }
+}
