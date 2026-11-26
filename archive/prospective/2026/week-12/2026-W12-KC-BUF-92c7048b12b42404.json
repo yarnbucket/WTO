@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "92c7048b12b4240475fd9c57866fca98cebfe9df8bc41af234595473653d3561",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "68e8f485838ca98fb56b8170859729a0d2f911b67310735253e7ad36fa7d339a",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-26T17:02:49.383Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-KC-BUF",
+          "away": "KC",
+          "home": "BUF",
+          "kickoff": "2026-11-26T20:20:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-KC-BUF-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:35.757711+00:00",
+          "projection": {
+            "winner": "BUF",
+            "win_probability": 0.571,
+            "confidence_grade": "UNRATED",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "BUF",
+            "spread": -3,
+            "total": 45.5
+          }
+        }
+      ]
+    }
+  }
+}

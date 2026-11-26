@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "9ffc6dac45f54c41f551ecfedc4e0f52964ec37d39d91d1d638e6e78b1d3be20",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "21223b19d2a0404227441a3ff8e62392417fda5d488e7c7763857db76639f6be",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-26T17:02:49.383Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-CHI-DET",
+          "away": "CHI",
+          "home": "DET",
+          "kickoff": "2026-11-26T13:00:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-CHI-DET-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:35.754688+00:00",
+          "projection": {
+            "winner": "DET",
+            "win_probability": 0.571,
+            "confidence_grade": "UNRATED",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "CHI",
+            "spread": -1.5,
+            "total": 56.5
+          }
+        }
+      ]
+    }
+  }
+}

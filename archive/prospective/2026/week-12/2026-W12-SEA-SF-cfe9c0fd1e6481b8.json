@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "cfe9c0fd1e6481b8fc9593d00b476e9d02495465c003e9902b0b922a51f2886c",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "138057778196758dd4379352b87f2eaf4e1e40952a8aab48d8199dd5d38b11a4",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-26T17:02:49.383Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-SEA-SF",
+          "away": "SEA",
+          "home": "SF",
+          "kickoff": "2026-11-29T16:25:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-SEA-SF-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:40.557951+00:00",
+          "projection": {
+            "winner": "SF",
+            "win_probability": 0.731,
+            "confidence_grade": "A",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "SF",
+            "spread": -2.5,
+            "total": 43.5
+          }
+        }
+      ]
+    }
+  }
+}

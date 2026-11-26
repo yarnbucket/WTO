@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "3f0bd2e6a1bcb347d09f5e994b0867a7d662b531643bc9ff55749a74a53a60f6",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "a749f6d3e817beaf63d7b2413e0156b0780ccdc12f2ab7c8bc805dd9c36b21f1",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-26T17:02:49.383Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-PHI-DAL",
+          "away": "PHI",
+          "home": "DAL",
+          "kickoff": "2026-11-26T16:30:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-PHI-DAL-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:35.775868+00:00",
+          "projection": {
+            "winner": "DAL",
+            "win_probability": 0.75,
+            "confidence_grade": "A+",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "DAL",
+            "spread": -8.5,
+            "total": 49.5
+          }
+        }
+      ]
+    }
+  }
+}
