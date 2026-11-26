@@ -1,0 +1,369 @@
+{
+  "base_commit": "0065ec7aa49eefe6d722ff84b2d1312ed999d0b6",
+  "generated_at": "2026-11-26T16:59:40.717971+00:00",
+  "provider": "DraftKings via ESPN",
+  "market_changes": [
+    {
+      "game_id": "2026-W12-CHI-DET",
+      "before": {
+        "market_favorite": "CHI",
+        "market_spread": -2.5,
+        "market_total": 55.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "CHI",
+        "market_spread": -1.5,
+        "market_total": 56.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:35.754688+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-PHI-DAL",
+      "before": {
+        "market_favorite": "DAL",
+        "market_spread": -8.5,
+        "market_total": 47.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "DAL",
+        "market_spread": -8.5,
+        "market_total": 49.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:35.775868+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-KC-BUF",
+      "before": {
+        "market_favorite": "BUF",
+        "market_spread": -2.5,
+        "market_total": 50.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "BUF",
+        "market_spread": -3,
+        "market_total": 45.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:35.757711+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-DEN-PIT",
+      "before": {
+        "market_favorite": "DEN",
+        "market_spread": -2.5,
+        "market_total": 37.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "DEN",
+        "market_spread": -4.5,
+        "market_total": 36.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:35.784149+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-ATL-MIN",
+      "before": {
+        "market_favorite": "MIN",
+        "market_spread": -7.5,
+        "market_total": 42.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "MIN",
+        "market_spread": -7,
+        "market_total": 41.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:35.778097+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-BAL-HOU",
+      "before": {
+        "market_favorite": "HOU",
+        "market_spread": -6.5,
+        "market_total": 46.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "HOU",
+        "market_spread": -6.5,
+        "market_total": 47.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:35.768024+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-LV-CLE",
+      "before": {
+        "market_favorite": "CLE",
+        "market_spread": -4.5,
+        "market_total": 41.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "CLE",
+        "market_spread": -4.5,
+        "market_total": 40.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:35.799683+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-NO-CIN",
+      "before": {
+        "market_favorite": "CIN",
+        "market_spread": -10.5,
+        "market_total": 51.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "CIN",
+        "market_spread": -10,
+        "market_total": 49.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:35.770140+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-NYG-IND",
+      "before": {
+        "market_favorite": "NYG",
+        "market_spread": -6.5,
+        "market_total": 42.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "NYG",
+        "market_spread": -6,
+        "market_total": 41.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:40.633701+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-NYJ-MIA",
+      "before": {
+        "market_favorite": "NYJ",
+        "market_spread": -3.5,
+        "market_total": 41.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "NYJ",
+        "market_spread": -4.5,
+        "market_total": 40.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:40.594798+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-TEN-JAX",
+      "before": {
+        "market_favorite": "JAX",
+        "market_spread": -14.5,
+        "market_total": 47.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "JAX",
+        "market_spread": -14.5,
+        "market_total": 49.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:40.553679+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-SEA-SF",
+      "before": {
+        "market_favorite": "SF",
+        "market_spread": -3.5,
+        "market_total": 46.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "SF",
+        "market_spread": -2.5,
+        "market_total": 43.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:40.557951+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-WAS-ARI",
+      "before": {
+        "market_favorite": "WAS",
+        "market_spread": -7.5,
+        "market_total": 40.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "WAS",
+        "market_spread": -6.5,
+        "market_total": 41.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:40.551244+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-NE-LAC",
+      "before": {
+        "market_favorite": "LAC",
+        "market_spread": -1.5,
+        "market_total": 35.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "NE",
+        "market_spread": -1.5,
+        "market_total": 35.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:40.620395+00:00"
+      },
+      "unavailable_fields": []
+    },
+    {
+      "game_id": "2026-W12-CAR-TB",
+      "before": {
+        "market_favorite": "TB",
+        "market_spread": -2.5,
+        "market_total": 43.5,
+        "price_provider": "bet365 via FOX Sports",
+        "market_as_of": "2026-11-23T15:22:00-05:00"
+      },
+      "after": {
+        "market_favorite": "TB",
+        "market_spread": -3,
+        "market_total": 43.5,
+        "price_provider": "DraftKings via ESPN",
+        "market_as_of": "2026-11-26T16:59:40.618831+00:00"
+      },
+      "unavailable_fields": []
+    }
+  ],
+  "market_holds": [],
+  "excluded_already_kicked_off": [
+    "2026-W12-GB-LAR"
+  ],
+  "schedule_changes": [
+    {
+      "game_id": "2026-W12-LV-CLE",
+      "previous_kickoff": "2026-11-29T13:00:00-05:00",
+      "kickoff": "2026-11-29T20:20:00-05:00",
+      "source_url": "https://amp.nfl.com/news/week-12-schedule-change",
+      "checked_at": "2026-11-26T16:59:30.957347+00:00",
+      "reason": "Official NFL November 17 flex announcement, corroborated by ESPN event"
+    },
+    {
+      "game_id": "2026-W12-TEN-JAX",
+      "previous_kickoff": "2026-11-29T16:05:00-05:00",
+      "kickoff": "2026-11-29T13:00:00-05:00",
+      "source_url": "https://amp.nfl.com/news/week-12-schedule-change",
+      "checked_at": "2026-11-26T16:59:30.957347+00:00",
+      "reason": "Official NFL November 17 flex announcement, corroborated by ESPN event"
+    },
+    {
+      "game_id": "2026-W12-NE-LAC",
+      "previous_kickoff": "2026-11-29T20:20:00-05:00",
+      "kickoff": "2026-11-29T16:05:00-05:00",
+      "source_url": "https://amp.nfl.com/news/week-12-schedule-change",
+      "checked_at": "2026-11-26T16:59:30.957347+00:00",
+      "reason": "Official NFL November 17 flex announcement, corroborated by ESPN event"
+    }
+  ],
+  "opening_counts": {
+    "complete": 179,
+    "partial": 0,
+    "missing": 93
+  },
+  "decision": "Publish independently verified pregame data",
+  "weather": "No weather/roof retrieval or changes under override",
+  "checks": [
+    "2026 REG Week 12 slate and source IDs",
+    "All selected kickoff instants agree with source; three flex changes verified by official NFL announcement",
+    "All earlier market/opening histories preserved",
+    "Weather, roof, results and closing fields unchanged",
+    "Wednesday game excluded from current collection",
+    "One provider, numeric prices or explicit null; current never labelled closing",
+    "All 15 new revisions validate; historical full-validator errors identical to base",
+    "163 completed prior-week scoring inputs only",
+    "Approved point-model SHA256 and 63 residuals unchanged",
+    "All W/L/push probabilities sum to one",
+    "Only future pregame projections created; no Wednesday revision or results repair",
+    "Final release checks passed for Wednesday exclusion, unchanged weather/roof/results, all 15 markets, UI opening fields and matching EX/cache references"
+  ],
+  "proposed_changed_files": [
+    "ff26-nfl-lines-2026.json",
+    "wto-game-insights-2026.json",
+    "wto-ex-week12-20261126.json",
+    "index.html",
+    "sw.js",
+    "wto-slip.js",
+    "maintenance/staging/2026-11-26-thursday/candidate-records.json",
+    "maintenance/staging/2026-11-26-thursday/validation-report.json"
+  ],
+  "predictions": {
+    "new_supported": 15,
+    "prior_week_inputs": 163,
+    "model_sha256": "b28576f6249ba6a2eacd39542e2f84b4661dca84260ad2eaff5a81b4fa65e7c6",
+    "unchanged_residuals": 63,
+    "generated_at": "2026-11-26T17:00:43.327Z",
+    "excluded_after_kickoff": "2026-W12-GB-LAR"
+  },
+  "optional_gaps": [
+    {
+      "field": "provider_timestamp",
+      "reason": "Source does not expose native per-market quote timestamps; exact retrieval timestamps stored."
+    },
+    {
+      "field": "injury_report_date",
+      "reason": "Official aggregate lacks per-row report dates; null stored."
+    },
+    {
+      "field": "injury_role",
+      "reason": "Unverified roles omitted."
+    },
+    {
+      "field": "final_participation",
+      "reason": "Preserved practice and game designation distinctions; no inference."
+    }
+  ],
+  "existing_validation_gaps": {
+    "legacy_insight_errors": 49,
+    "new_errors": 0,
+    "note": "Full insight validation matches the base exactly; historical reviews are unchanged."
+  }
+}

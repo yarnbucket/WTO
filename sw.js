@@ -1,4 +1,4 @@
-const CACHE = 'wto-shell-v137-week11-sunday';
+const CACHE = 'wto-shell-v138-week12-thursday';
 
 const SHELL = [
   './',
@@ -30,9 +30,10 @@ const SHELL = [
   './wto-ex-week10-20261112.json',
   './wto-ex-week11-20261119.json',
   './wto-ex-week11-20261122.json',
+  './wto-ex-week12-20261126.json',
   './wto-division-read.js?v=58',
   './wto-slip-lib.js?v=117',
-  './wto-slip.js?v=129',
+  './wto-slip.js?v=130',
   './wto-slip.css?v=58'
 ];
 
