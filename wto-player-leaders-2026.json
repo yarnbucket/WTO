@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "season": 2026,
-  "updated_at": "2026-11-26T20:48:15.470Z",
+  "updated_at": "2026-11-26T20:49:04.556Z",
   "description": "Immutable cumulative player-leader snapshots, isolated from odds, results, and team-ranking data.",
   "snapshots": [
     {
@@ -10970,6 +10970,739 @@
               "stats": {
                 "receptions": 41,
                 "receivingYards": 586,
+                "receivingTouchdowns": 4
+              },
+              "rank": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "snapshot_id": "2026-through-week-9-official-20261126",
+      "season": 2026,
+      "through_week": 9,
+      "verified_at": "2026-11-26T20:49:04.556Z",
+      "scope": "league",
+      "methodology": "Official NFL/Elias cumulative passing, rushing and receiving tables through Monday November 9, 2026, ranked by position and yardage. Existing verified ESPN player IDs reused; no subsequent games included.",
+      "ranking_metrics": {
+        "QB": "gross passing yards",
+        "RB": "rushing yards",
+        "TE": "receiving yards",
+        "WR": "receiving yards"
+      },
+      "coverage": {
+        "scheduled_games": 136,
+        "final_games": 136,
+        "complete": true,
+        "missing_game_ids": [],
+        "verification_basis": "official cumulative statistical tables and completed WTO ledger; not independent individual-box reconciliation"
+      },
+      "source_provider": "NFL / Elias Sports Bureau (official cumulative tables)",
+      "source_urls": [
+        "https://static.clubs.nfl.com/image/upload/chargers/bxzhbbsnc8ti75506dtj"
+      ],
+      "position_source_urls": [
+        "https://static.clubs.nfl.com/image/upload/chargers/bxzhbbsnc8ti75506dtj"
+      ],
+      "multi_team_review": [],
+      "scopes": {
+        "LEAGUE": {
+          "QB": [
+            {
+              "player_id": "4036378",
+              "player": "Jordan Love",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 215,
+                "passingAttempts": 341,
+                "passingYards": 2618,
+                "passingTouchdowns": 19,
+                "interceptions": 6,
+                "completion_pct": 63
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "3915511",
+              "player": "Joe Burrow",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 219,
+                "passingAttempts": 296,
+                "passingYards": 2386,
+                "passingTouchdowns": 23,
+                "interceptions": 6,
+                "completion_pct": 74
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "2577417",
+              "player": "Dak Prescott",
+              "team": "DAL",
+              "teams": [
+                "DAL"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 218,
+                "passingAttempts": 336,
+                "passingYards": 2381,
+                "passingTouchdowns": 16,
+                "interceptions": 5,
+                "completion_pct": 64.9
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "12483",
+              "player": "Matthew Stafford",
+              "team": "LAR",
+              "teams": [
+                "LAR"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 230,
+                "passingAttempts": 346,
+                "passingYards": 2374,
+                "passingTouchdowns": 16,
+                "interceptions": 9,
+                "completion_pct": 66.5
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "14880",
+              "player": "Kirk Cousins",
+              "team": "LV",
+              "teams": [
+                "LV"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 202,
+                "passingAttempts": 315,
+                "passingYards": 2340,
+                "passingTouchdowns": 20,
+                "interceptions": 8,
+                "completion_pct": 64.1
+              },
+              "rank": 5
+            }
+          ],
+          "RB": [
+            {
+              "player_id": "4430807",
+              "player": "Bijan Robinson",
+              "team": "ATL",
+              "teams": [
+                "ATL"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 169,
+                "rushingYards": 880,
+                "rushingTouchdowns": 5,
+                "yards_per_carry": 5.2
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4567048",
+              "player": "Kenneth Walker III",
+              "team": "KC",
+              "teams": [
+                "KC"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 159,
+                "rushingYards": 872,
+                "rushingTouchdowns": 7,
+                "yards_per_carry": 5.5
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4429795",
+              "player": "Jahmyr Gibbs",
+              "team": "DET",
+              "teams": [
+                "DET"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 177,
+                "rushingYards": 847,
+                "rushingTouchdowns": 9,
+                "yards_per_carry": 4.8
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4596448",
+              "player": "Bucky Irving",
+              "team": "TB",
+              "teams": [
+                "TB"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 167,
+                "rushingYards": 825,
+                "rushingTouchdowns": 7,
+                "yards_per_carry": 4.9
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4379399",
+              "player": "James Cook III",
+              "team": "BUF",
+              "teams": [
+                "BUF"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 169,
+                "rushingYards": 814,
+                "rushingTouchdowns": 8,
+                "yards_per_carry": 4.8
+              },
+              "rank": 5
+            }
+          ],
+          "WR": [
+            {
+              "player_id": "4430878",
+              "player": "Jaxon Smith-Njigba",
+              "team": "SEA",
+              "teams": [
+                "SEA"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 71,
+                "receivingYards": 1036,
+                "receivingTouchdowns": 9
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4241389",
+              "player": "CeeDee Lamb",
+              "team": "DAL",
+              "teams": [
+                "DAL"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 70,
+                "receivingYards": 904,
+                "receivingTouchdowns": 7
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4248528",
+              "player": "Christian Watson",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 49,
+                "receivingYards": 879,
+                "receivingTouchdowns": 7
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4701936",
+              "player": "Matthew Golden",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 53,
+                "receivingYards": 783,
+                "receivingTouchdowns": 5
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4239993",
+              "player": "Tee Higgins",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 48,
+                "receivingYards": 758,
+                "receivingTouchdowns": 6
+              },
+              "rank": 5
+            }
+          ],
+          "TE": [
+            {
+              "player_id": "4432665",
+              "player": "Brock Bowers",
+              "team": "LV",
+              "teams": [
+                "LV"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 48,
+                "receivingYards": 658,
+                "receivingTouchdowns": 6
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4361307",
+              "player": "Trey McBride",
+              "team": "ARI",
+              "teams": [
+                "ARI"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 73,
+                "receivingYards": 598,
+                "receivingTouchdowns": 5
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "3040151",
+              "player": "George Kittle",
+              "team": "SF",
+              "teams": [
+                "SF"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 38,
+                "receivingYards": 483,
+                "receivingTouchdowns": 5
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "15847",
+              "player": "Travis Kelce",
+              "team": "KC",
+              "teams": [
+                "KC"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 33,
+                "receivingYards": 482,
+                "receivingTouchdowns": 2
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "5083076",
+              "player": "Harold Fannin Jr.",
+              "team": "CLE",
+              "teams": [
+                "CLE"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 37,
+                "receivingYards": 453,
+                "receivingTouchdowns": 4
+              },
+              "rank": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "snapshot_id": "2026-through-week-10-official-20261126",
+      "season": 2026,
+      "through_week": 10,
+      "verified_at": "2026-11-26T20:49:04.556Z",
+      "scope": "league",
+      "methodology": "Official NFL/Elias cumulative passing, rushing and receiving tables through Monday November 16, 2026, ranked by position and yardage. Existing verified ESPN player IDs reused; no subsequent games included.",
+      "ranking_metrics": {
+        "QB": "gross passing yards",
+        "RB": "rushing yards",
+        "TE": "receiving yards",
+        "WR": "receiving yards"
+      },
+      "coverage": {
+        "scheduled_games": 150,
+        "final_games": 150,
+        "complete": true,
+        "missing_game_ids": [],
+        "verification_basis": "official cumulative statistical tables and completed WTO ledger; not independent individual-box reconciliation"
+      },
+      "source_provider": "NFL / Elias Sports Bureau (official cumulative tables)",
+      "source_urls": [
+        "https://static.clubs.nfl.com/image/upload/saints/mpm6l7eo4vxeu6fdgcwo.pdf"
+      ],
+      "position_source_urls": [
+        "https://static.clubs.nfl.com/image/upload/saints/mpm6l7eo4vxeu6fdgcwo.pdf"
+      ],
+      "multi_team_review": [
+        {
+          "player": "Kirk Cousins",
+          "teams": [
+            "LV",
+            "MIN"
+          ],
+          "display_team": "MIN",
+          "method": "Official source lists LV-MIN; cumulative league total includes both teams."
+        }
+      ],
+      "scopes": {
+        "LEAGUE": {
+          "QB": [
+            {
+              "player_id": "4036378",
+              "player": "Jordan Love",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 232,
+                "passingAttempts": 368,
+                "passingYards": 2838,
+                "passingTouchdowns": 20,
+                "interceptions": 7,
+                "completion_pct": 63
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "3915511",
+              "player": "Joe Burrow",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 254,
+                "passingAttempts": 340,
+                "passingYards": 2795,
+                "passingTouchdowns": 27,
+                "interceptions": 6,
+                "completion_pct": 74.7
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "2577417",
+              "player": "Dak Prescott",
+              "team": "DAL",
+              "teams": [
+                "DAL"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 248,
+                "passingAttempts": 387,
+                "passingYards": 2724,
+                "passingTouchdowns": 21,
+                "interceptions": 6,
+                "completion_pct": 64.1
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "12483",
+              "player": "Matthew Stafford",
+              "team": "LAR",
+              "teams": [
+                "LAR"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 248,
+                "passingAttempts": 372,
+                "passingYards": 2623,
+                "passingTouchdowns": 19,
+                "interceptions": 10,
+                "completion_pct": 66.7
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "14880",
+              "player": "Kirk Cousins",
+              "team": "MIN",
+              "teams": [
+                "LV",
+                "MIN"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 223,
+                "passingAttempts": 346,
+                "passingYards": 2547,
+                "passingTouchdowns": 22,
+                "interceptions": 9,
+                "completion_pct": 64.5
+              },
+              "rank": 5
+            }
+          ],
+          "RB": [
+            {
+              "player_id": "4429795",
+              "player": "Jahmyr Gibbs",
+              "team": "DET",
+              "teams": [
+                "DET"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 199,
+                "rushingYards": 1000,
+                "rushingTouchdowns": 11,
+                "yards_per_carry": 5
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4379399",
+              "player": "James Cook III",
+              "team": "BUF",
+              "teams": [
+                "BUF"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 187,
+                "rushingYards": 971,
+                "rushingTouchdowns": 9,
+                "yards_per_carry": 5.2
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4430807",
+              "player": "Bijan Robinson",
+              "team": "ATL",
+              "teams": [
+                "ATL"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 185,
+                "rushingYards": 951,
+                "rushingTouchdowns": 6,
+                "yards_per_carry": 5.1
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4567048",
+              "player": "Kenneth Walker III",
+              "team": "KC",
+              "teams": [
+                "KC"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 159,
+                "rushingYards": 872,
+                "rushingTouchdowns": 7,
+                "yards_per_carry": 5.5
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4596448",
+              "player": "Bucky Irving",
+              "team": "TB",
+              "teams": [
+                "TB"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 167,
+                "rushingYards": 825,
+                "rushingTouchdowns": 7,
+                "yards_per_carry": 4.9
+              },
+              "rank": 5
+            }
+          ],
+          "WR": [
+            {
+              "player_id": "4430878",
+              "player": "Jaxon Smith-Njigba",
+              "team": "SEA",
+              "teams": [
+                "SEA"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 79,
+                "receivingYards": 1207,
+                "receivingTouchdowns": 10
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4241389",
+              "player": "CeeDee Lamb",
+              "team": "DAL",
+              "teams": [
+                "DAL"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 77,
+                "receivingYards": 976,
+                "receivingTouchdowns": 8
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4248528",
+              "player": "Christian Watson",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 52,
+                "receivingYards": 916,
+                "receivingTouchdowns": 7
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4362628",
+              "player": "Ja'Marr Chase",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 64,
+                "receivingYards": 878,
+                "receivingTouchdowns": 7
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4701936",
+              "player": "Matthew Golden",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 58,
+                "receivingYards": 853,
+                "receivingTouchdowns": 5
+              },
+              "rank": 5
+            }
+          ],
+          "TE": [
+            {
+              "player_id": "4432665",
+              "player": "Brock Bowers",
+              "team": "LV",
+              "teams": [
+                "LV"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 50,
+                "receivingYards": 676,
+                "receivingTouchdowns": 6
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4361307",
+              "player": "Trey McBride",
+              "team": "ARI",
+              "teams": [
+                "ARI"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 78,
+                "receivingYards": 635,
+                "receivingTouchdowns": 5
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4361050",
+              "player": "Isaiah Likely",
+              "team": "NYG",
+              "teams": [
+                "NYG"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 55,
+                "receivingYards": 575,
+                "receivingTouchdowns": 7
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "3040151",
+              "player": "George Kittle",
+              "team": "SF",
+              "teams": [
+                "SF"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 44,
+                "receivingYards": 557,
+                "receivingTouchdowns": 5
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "5083076",
+              "player": "Harold Fannin Jr.",
+              "team": "CLE",
+              "teams": [
+                "CLE"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 44,
+                "receivingYards": 544,
                 "receivingTouchdowns": 4
               },
               "rank": 5
