@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "season": 2026,
-  "updated_at": "2026-11-03T15:06:17.577789+00:00",
+  "updated_at": "2026-11-26T20:48:15.470Z",
   "description": "Immutable cumulative player-leader snapshots, isolated from odds, results, and team-ranking data.",
   "snapshots": [
     {
@@ -1287,7 +1287,7 @@
                 "interceptions": 0,
                 "completions": 20,
                 "passingAttempts": 29,
-                "completion_pct": 69.0
+                "completion_pct": 69
               }
             },
             {
@@ -1302,7 +1302,7 @@
                 "interceptions": 0,
                 "completions": 17,
                 "passingAttempts": 25,
-                "completion_pct": 68.0
+                "completion_pct": 68
               }
             },
             {
@@ -1375,7 +1375,7 @@
                 "rushingAttempts": 24,
                 "rushingYards": 144,
                 "rushingTouchdowns": 3,
-                "yards_per_carry": 6.0
+                "yards_per_carry": 6
               }
             },
             {
@@ -1572,7 +1572,7 @@
                 "interceptions": 1,
                 "completions": 21,
                 "passingAttempts": 42,
-                "completion_pct": 50.0
+                "completion_pct": 50
               }
             },
             {
@@ -1602,7 +1602,7 @@
                 "interceptions": 0,
                 "completions": 27,
                 "passingAttempts": 37,
-                "completion_pct": 73.0
+                "completion_pct": 73
               }
             },
             {
@@ -1658,7 +1658,7 @@
                 "rushingAttempts": 10,
                 "rushingYards": 100,
                 "rushingTouchdowns": 1,
-                "yards_per_carry": 10.0
+                "yards_per_carry": 10
               }
             },
             {
@@ -1671,7 +1671,7 @@
                 "rushingAttempts": 21,
                 "rushingYards": 83,
                 "rushingTouchdowns": 0,
-                "yards_per_carry": 4.0
+                "yards_per_carry": 4
               }
             },
             {
@@ -2207,7 +2207,7 @@
                 "interceptions": 1,
                 "completions": 46,
                 "passingAttempts": 73,
-                "completion_pct": 63.0
+                "completion_pct": 63
               }
             },
             {
@@ -2280,7 +2280,7 @@
                 "rushingAttempts": 34,
                 "rushingYards": 169,
                 "rushingTouchdowns": 3,
-                "yards_per_carry": 5.0
+                "yards_per_carry": 5
               }
             },
             {
@@ -2588,7 +2588,7 @@
                 "interceptions": 0,
                 "completions": 72,
                 "passingAttempts": 120,
-                "completion_pct": 60.0
+                "completion_pct": 60
               }
             },
             {
@@ -2661,7 +2661,7 @@
                 "rushingAttempts": 58,
                 "rushingYards": 346,
                 "rushingTouchdowns": 2,
-                "yards_per_carry": 6.0
+                "yards_per_carry": 6
               }
             },
             {
@@ -3328,7 +3328,7 @@
                 "rushingAttempts": 70,
                 "rushingYards": 421,
                 "rushingTouchdowns": 3,
-                "yards_per_carry": 6.0
+                "yards_per_carry": 6
               }
             },
             {
@@ -3570,7 +3570,7 @@
                 "interceptions": 1,
                 "completions": 105,
                 "passingAttempts": 150,
-                "completion_pct": 70.0
+                "completion_pct": 70
               }
             }
           ],
@@ -3637,7 +3637,7 @@
                 "rushingAttempts": 61,
                 "rushingYards": 306,
                 "rushingTouchdowns": 3,
-                "yards_per_carry": 5.0
+                "yards_per_carry": 5
               }
             }
           ],
@@ -4207,7 +4207,7 @@
                 "interceptions": 0,
                 "completions": 128,
                 "passingAttempts": 191,
-                "completion_pct": 67.0
+                "completion_pct": 67
               }
             },
             {
@@ -4755,7 +4755,7 @@
                 "rushingAttempts": 122,
                 "rushingYards": 492,
                 "rushingTouchdowns": 7,
-                "yards_per_carry": 4.0
+                "yards_per_carry": 4
               }
             },
             {
@@ -4971,7 +4971,7 @@
                 "interceptions": 0,
                 "completions": 128,
                 "passingAttempts": 191,
-                "completion_pct": 67.0
+                "completion_pct": 67
               }
             }
           ],
@@ -6236,7 +6236,7 @@
                 "passingYards": 2115,
                 "passingTouchdowns": 20,
                 "interceptions": 6,
-                "completion_pct": 73.0
+                "completion_pct": 73
               },
               "rank": 2
             },
@@ -6272,7 +6272,7 @@
                 "passingYards": 1913,
                 "passingTouchdowns": 12,
                 "interceptions": 3,
-                "completion_pct": 69.0
+                "completion_pct": 69
               },
               "rank": 4
             },
@@ -6356,7 +6356,7 @@
                 "rushingAttempts": 158,
                 "rushingYards": 632,
                 "rushingTouchdowns": 8,
-                "yards_per_carry": 4.0
+                "yards_per_carry": 4
               },
               "rank": 4
             },
@@ -6670,7 +6670,7 @@
                 "rushingAttempts": 147,
                 "rushingYards": 728,
                 "rushingTouchdowns": 5,
-                "yards_per_carry": 5.0
+                "yards_per_carry": 5
               },
               "rank": 3
             },
@@ -6872,7 +6872,7 @@
       "through_week": 1,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -6979,7 +6979,7 @@
                 "interceptions": 1,
                 "completions": 21,
                 "passingAttempts": 42,
-                "completion_pct": 50.0
+                "completion_pct": 50
               }
             },
             {
@@ -7015,7 +7015,7 @@
                 "interceptions": 0,
                 "completions": 20,
                 "passingAttempts": 29,
-                "completion_pct": 69.0
+                "completion_pct": 69
               }
             },
             {
@@ -7033,7 +7033,7 @@
                 "interceptions": 0,
                 "completions": 17,
                 "passingAttempts": 25,
-                "completion_pct": 68.0
+                "completion_pct": 68
               }
             }
           ],
@@ -7083,7 +7083,7 @@
                 "rushingAttempts": 24,
                 "rushingYards": 144,
                 "rushingTouchdowns": 3,
-                "yards_per_carry": 6.0
+                "yards_per_carry": 6
               }
             },
             {
@@ -7282,7 +7282,7 @@
       "through_week": 2,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -7405,7 +7405,7 @@
                 "interceptions": 1,
                 "completions": 46,
                 "passingAttempts": 73,
-                "completion_pct": 63.0
+                "completion_pct": 63
               }
             },
             {
@@ -7708,7 +7708,7 @@
       "through_week": 3,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -7951,7 +7951,7 @@
                 "rushingAttempts": 58,
                 "rushingYards": 346,
                 "rushingTouchdowns": 2,
-                "yards_per_carry": 6.0
+                "yards_per_carry": 6
               }
             },
             {
@@ -8150,7 +8150,7 @@
       "through_week": 4,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -8409,7 +8409,7 @@
                 "rushingAttempts": 70,
                 "rushingYards": 421,
                 "rushingTouchdowns": 3,
-                "yards_per_carry": 6.0
+                "yards_per_carry": 6
               }
             },
             {
@@ -8608,7 +8608,7 @@
       "through_week": 5,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -8778,7 +8778,7 @@
                 "interceptions": 0,
                 "completions": 128,
                 "passingAttempts": 191,
-                "completion_pct": 67.0
+                "completion_pct": 67
               }
             },
             {
@@ -9081,7 +9081,7 @@
       "through_week": 6,
       "verified_at": "2026-10-20T12:21:46.411853+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -9576,7 +9576,7 @@
       "through_week": 7,
       "verified_at": "2026-10-27T10:27:16.975305+00:00",
       "scope": "cumulative_completed_week",
-      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot\u2019s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
+      "methodology": "League-wide cumulative individual game statistics from all verified final 2026 regular-season ESPN boxes through this week. QB gross passing yards; RB rushing yards; WR/TE receiving yards ranked separately. Ties share competition rank; alphabetical order resolves fifth-place display cutoff. Multi-team players are merged by verified player ID across all applicable teams, with team displaying the latest team in this snapshot’s game evidence. Earlier snapshots remain independent. Historical backfill is retrospective statistics, not a pregame forecast.",
       "ranking_metrics": {
         "QB": "passingYards",
         "RB": "rushingYards",
@@ -10343,7 +10343,7 @@
                 "passingYards": 2115,
                 "passingTouchdowns": 20,
                 "interceptions": 6,
-                "completion_pct": 73.0
+                "completion_pct": 73
               },
               "rank": 4
             },
@@ -10427,7 +10427,7 @@
                 "rushingAttempts": 147,
                 "rushingYards": 728,
                 "rushingTouchdowns": 5,
-                "yards_per_carry": 5.0
+                "yards_per_carry": 5
               },
               "rank": 4
             },
@@ -10598,6 +10598,379 @@
                 "receptions": 49,
                 "receivingYards": 636,
                 "receivingTouchdowns": 2
+              },
+              "rank": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "snapshot_id": "2026-through-week-11-official-20261126",
+      "season": 2026,
+      "through_week": 11,
+      "verified_at": "2026-11-26T20:48:15.470Z",
+      "scope": "league",
+      "methodology": "Official NFL/Elias cumulative conference passing, rushing and receiving tables through Monday Nov 23 2026; ranked by position and yardage across both conferences. Cross-check receiving and unaffected rushing/quarterback totals against ESPN-derived NFL Schedule; newer Nov 25 games excluded using official cutoff. Existing verified ESPN player IDs reused.",
+      "ranking_metrics": {
+        "QB": "gross passing yards",
+        "RB": "rushing yards",
+        "TE": "receiving yards",
+        "WR": "receiving yards"
+      },
+      "coverage": {
+        "scheduled_games": 163,
+        "final_games": 163,
+        "complete": true,
+        "missing_game_ids": [],
+        "verification_basis": "official cumulative tables plus 163-game WTO final ledger; not a new individual-box reconciliation"
+      },
+      "source_provider": "NFL / Elias Sports Bureau (official cumulative tables)",
+      "source_urls": [
+        "https://media.patriots.1rmg.com/wp-content/uploads/2026/03/24062345/NFL-Entire-Statistics-Week-11.pdf",
+        "https://www.nfl-schedule.com/nfl-player-stats"
+      ],
+      "position_source_urls": [
+        "https://www.nfl-schedule.com/nfl-player-stats"
+      ],
+      "multi_team_review": [
+        {
+          "player": "Kirk Cousins",
+          "teams": [
+            "LV",
+            "MIN"
+          ],
+          "display_team": "MIN",
+          "method": "Official NFL table lists LV-MIN; league total includes both teams, display is the latter verified team."
+        }
+      ],
+      "scopes": {
+        "LEAGUE": {
+          "QB": [
+            {
+              "player_id": "3915511",
+              "player": "Joe Burrow",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 282,
+                "passingAttempts": 380,
+                "passingYards": 3095,
+                "passingTouchdowns": 29,
+                "interceptions": 6,
+                "completion_pct": 74.2
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "2577417",
+              "player": "Dak Prescott",
+              "team": "DAL",
+              "teams": [
+                "DAL"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 276,
+                "passingAttempts": 420,
+                "passingYards": 3049,
+                "passingTouchdowns": 25,
+                "interceptions": 6,
+                "completion_pct": 65.7
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4036378",
+              "player": "Jordan Love",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 232,
+                "passingAttempts": 368,
+                "passingYards": 2838,
+                "passingTouchdowns": 20,
+                "interceptions": 7,
+                "completion_pct": 63
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "14880",
+              "player": "Kirk Cousins",
+              "team": "MIN",
+              "teams": [
+                "LV",
+                "MIN"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 249,
+                "passingAttempts": 384,
+                "passingYards": 2782,
+                "passingTouchdowns": 22,
+                "interceptions": 10,
+                "completion_pct": 64.8
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "3046779",
+              "player": "Jared Goff",
+              "team": "DET",
+              "teams": [
+                "DET"
+              ],
+              "position": "QB",
+              "stats": {
+                "completions": 225,
+                "passingAttempts": 332,
+                "passingYards": 2716,
+                "passingTouchdowns": 20,
+                "interceptions": 4,
+                "completion_pct": 67.8
+              },
+              "rank": 5
+            }
+          ],
+          "RB": [
+            {
+              "player_id": "4429795",
+              "player": "Jahmyr Gibbs",
+              "team": "DET",
+              "teams": [
+                "DET"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 222,
+                "rushingYards": 1098,
+                "rushingTouchdowns": 13,
+                "yards_per_carry": 4.9
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4379399",
+              "player": "James Cook III",
+              "team": "BUF",
+              "teams": [
+                "BUF"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 209,
+                "rushingYards": 1060,
+                "rushingTouchdowns": 10,
+                "yards_per_carry": 5.1
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4430807",
+              "player": "Bijan Robinson",
+              "team": "ATL",
+              "teams": [
+                "ATL"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 185,
+                "rushingYards": 951,
+                "rushingTouchdowns": 6,
+                "yards_per_carry": 5.1
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4596448",
+              "player": "Bucky Irving",
+              "team": "TB",
+              "teams": [
+                "TB"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 185,
+                "rushingYards": 893,
+                "rushingTouchdowns": 8,
+                "yards_per_carry": 4.8
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4567048",
+              "player": "Kenneth Walker III",
+              "team": "KC",
+              "teams": [
+                "KC"
+              ],
+              "position": "RB",
+              "stats": {
+                "rushingAttempts": 159,
+                "rushingYards": 872,
+                "rushingTouchdowns": 7,
+                "yards_per_carry": 5.5
+              },
+              "rank": 5
+            }
+          ],
+          "WR": [
+            {
+              "player_id": "4430878",
+              "player": "Jaxon Smith-Njigba",
+              "team": "SEA",
+              "teams": [
+                "SEA"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 79,
+                "receivingYards": 1207,
+                "receivingTouchdowns": 10
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4241389",
+              "player": "CeeDee Lamb",
+              "team": "DAL",
+              "teams": [
+                "DAL"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 88,
+                "receivingYards": 1108,
+                "receivingTouchdowns": 9
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4248528",
+              "player": "Christian Watson",
+              "team": "GB",
+              "teams": [
+                "GB"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 52,
+                "receivingYards": 916,
+                "receivingTouchdowns": 7
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "4362628",
+              "player": "Ja'Marr Chase",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 69,
+                "receivingYards": 909,
+                "receivingTouchdowns": 7
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "4239993",
+              "player": "Tee Higgins",
+              "team": "CIN",
+              "teams": [
+                "CIN"
+              ],
+              "position": "WR",
+              "stats": {
+                "receptions": 55,
+                "receivingYards": 867,
+                "receivingTouchdowns": 7
+              },
+              "rank": 5
+            }
+          ],
+          "TE": [
+            {
+              "player_id": "4361307",
+              "player": "Trey McBride",
+              "team": "ARI",
+              "teams": [
+                "ARI"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 87,
+                "receivingYards": 689,
+                "receivingTouchdowns": 5
+              },
+              "rank": 1
+            },
+            {
+              "player_id": "4432665",
+              "player": "Brock Bowers",
+              "team": "LV",
+              "teams": [
+                "LV"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 50,
+                "receivingYards": 676,
+                "receivingTouchdowns": 6
+              },
+              "rank": 2
+            },
+            {
+              "player_id": "4361050",
+              "player": "Isaiah Likely",
+              "team": "NYG",
+              "teams": [
+                "NYG"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 56,
+                "receivingYards": 610,
+                "receivingTouchdowns": 7
+              },
+              "rank": 3
+            },
+            {
+              "player_id": "3040151",
+              "player": "George Kittle",
+              "team": "SF",
+              "teams": [
+                "SF"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 47,
+                "receivingYards": 591,
+                "receivingTouchdowns": 7
+              },
+              "rank": 4
+            },
+            {
+              "player_id": "15847",
+              "player": "Travis Kelce",
+              "team": "KC",
+              "teams": [
+                "KC"
+              ],
+              "position": "TE",
+              "stats": {
+                "receptions": 41,
+                "receivingYards": 586,
+                "receivingTouchdowns": 4
               },
               "rank": 5
             }
