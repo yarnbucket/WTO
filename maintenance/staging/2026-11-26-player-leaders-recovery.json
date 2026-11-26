@@ -1,0 +1,506 @@
+{
+  "record_type": "player_leaders_recovery_checkpoint",
+  "date": "2026-11-26",
+  "base_commit": "6e8a6394f0753ef8ad96dee59b36fa1373dfc86a",
+  "ledger_blob_sha": "9b462026321af921960a2246dcbc926b390f4086",
+  "ledger_utf8_size": 3516570,
+  "ledger_expected_size": 3516570,
+  "leader_blob_sha": "c53f7d88cdec70a46d09f8b62b3a2a163c6c1125",
+  "leader_last_updated_at": "2026-11-03T15:06:17.577789+00:00",
+  "existing_snapshot_weeks": {
+    "snapshots": [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "conference_position_snapshots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "league_position_snapshots": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "target_weeks": [
+    9,
+    10,
+    11
+  ],
+  "latest_completed_week": 11,
+  "completed_games_through_week_11": 163,
+  "weeks": [
+    {
+      "week": 9,
+      "scheduled": 15,
+      "final": 15,
+      "games": [
+        {
+          "game_id": "2026-W09-JAX-BAL",
+          "espn_event_id": "401873037",
+          "away": "JAX",
+          "home": "BAL",
+          "away_score": 33,
+          "home_score": 10,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873037",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-CIN-ATL",
+          "espn_event_id": "401873038",
+          "away": "CIN",
+          "home": "ATL",
+          "away_score": 34,
+          "home_score": 17,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873038",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-CLE-NO",
+          "espn_event_id": "401873039",
+          "away": "CLE",
+          "home": "NO",
+          "away_score": 22,
+          "home_score": 23,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873039",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-DAL-IND",
+          "espn_event_id": "401873040",
+          "away": "DAL",
+          "home": "IND",
+          "away_score": 27,
+          "home_score": 23,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873040",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-DEN-CAR",
+          "espn_event_id": "401873041",
+          "away": "DEN",
+          "home": "CAR",
+          "away_score": 26,
+          "home_score": 21,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873041",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-DET-MIA",
+          "espn_event_id": "401873042",
+          "away": "DET",
+          "home": "MIA",
+          "away_score": 19,
+          "home_score": 9,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873042",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-LAR-WAS",
+          "espn_event_id": "401873043",
+          "away": "LAR",
+          "home": "WAS",
+          "away_score": 20,
+          "home_score": 13,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873043",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-NYG-PHI",
+          "espn_event_id": "401873044",
+          "away": "NYG",
+          "home": "PHI",
+          "away_score": 19,
+          "home_score": 11,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873044",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-NYJ-KC",
+          "espn_event_id": "401873045",
+          "away": "NYJ",
+          "home": "KC",
+          "away_score": 12,
+          "home_score": 35,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873045",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-HOU-LAC",
+          "espn_event_id": "401873046",
+          "away": "HOU",
+          "home": "LAC",
+          "away_score": 44,
+          "home_score": 22,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873046",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-LV-SF",
+          "espn_event_id": "401873047",
+          "away": "LV",
+          "home": "SF",
+          "away_score": 17,
+          "home_score": 38,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873047",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-ARI-SEA",
+          "espn_event_id": "401873048",
+          "away": "ARI",
+          "home": "SEA",
+          "away_score": 3,
+          "home_score": 17,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873048",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-GB-NE",
+          "espn_event_id": "401873049",
+          "away": "GB",
+          "home": "NE",
+          "away_score": 45,
+          "home_score": 27,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873049",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-TB-CHI",
+          "espn_event_id": "401873050",
+          "away": "TB",
+          "home": "CHI",
+          "away_score": 24,
+          "home_score": 27,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873050",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W09-BUF-MIN",
+          "espn_event_id": "401873051",
+          "away": "BUF",
+          "home": "MIN",
+          "away_score": 23,
+          "home_score": 6,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873051",
+          "individual_box_score": "not present in ledger"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "scheduled": 14,
+      "final": 14,
+      "games": [
+        {
+          "game_id": "2026-W10-WAS-NYG",
+          "espn_event_id": "401873052",
+          "away": "WAS",
+          "home": "NYG",
+          "away_score": 24,
+          "home_score": 21,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-NE-DET",
+          "espn_event_id": "401873053",
+          "away": "NE",
+          "home": "DET",
+          "away_score": 10,
+          "home_score": 35,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873053",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-BUF-NYJ",
+          "espn_event_id": "401873054",
+          "away": "BUF",
+          "home": "NYJ",
+          "away_score": 31,
+          "home_score": 12,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873054",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-CAR-NO",
+          "espn_event_id": "401873055",
+          "away": "CAR",
+          "home": "NO",
+          "away_score": 20,
+          "home_score": 17,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873055",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-HOU-CLE",
+          "espn_event_id": "401873056",
+          "away": "HOU",
+          "home": "CLE",
+          "away_score": 24,
+          "home_score": 27,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873056",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-JAX-TEN",
+          "espn_event_id": "401873057",
+          "away": "JAX",
+          "home": "TEN",
+          "away_score": 40,
+          "home_score": 23,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873057",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-KC-ATL",
+          "espn_event_id": "401873058",
+          "away": "KC",
+          "home": "ATL",
+          "away_score": 35,
+          "home_score": 13,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873058",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-MIA-IND",
+          "espn_event_id": "401873059",
+          "away": "MIA",
+          "home": "IND",
+          "away_score": 22,
+          "home_score": 24,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873059",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-MIN-GB",
+          "espn_event_id": "401873060",
+          "away": "MIN",
+          "home": "GB",
+          "away_score": 30,
+          "home_score": 10,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873060",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-LAR-ARI",
+          "espn_event_id": "401873061",
+          "away": "LAR",
+          "home": "ARI",
+          "away_score": 34,
+          "home_score": 6,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873061",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-SEA-LV",
+          "espn_event_id": "401873062",
+          "away": "SEA",
+          "home": "LV",
+          "away_score": 21,
+          "home_score": 13,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873062",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-SF-DAL",
+          "espn_event_id": "401873063",
+          "away": "SF",
+          "home": "DAL",
+          "away_score": 46,
+          "home_score": 40,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873063",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-PIT-CIN",
+          "espn_event_id": "401873064",
+          "away": "PIT",
+          "home": "CIN",
+          "away_score": 18,
+          "home_score": 38,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873064",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W10-LAC-BAL",
+          "espn_event_id": "401873065",
+          "away": "LAC",
+          "home": "BAL",
+          "away_score": 23,
+          "home_score": 20,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873065",
+          "individual_box_score": "not present in ledger"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "scheduled": 13,
+      "final": 13,
+      "games": [
+        {
+          "game_id": "2026-W11-IND-HOU",
+          "espn_event_id": "401873066",
+          "away": "IND",
+          "home": "HOU",
+          "away_score": 3,
+          "home_score": 26,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873066",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-ARI-KC",
+          "espn_event_id": "401873067",
+          "away": "ARI",
+          "home": "KC",
+          "away_score": 7,
+          "home_score": 34,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873067",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-BAL-CAR",
+          "espn_event_id": "401873068",
+          "away": "BAL",
+          "home": "CAR",
+          "away_score": 33,
+          "home_score": 35,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873068",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-JAX-NYG",
+          "espn_event_id": "401873069",
+          "away": "JAX",
+          "home": "NYG",
+          "away_score": 18,
+          "home_score": 23,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873069",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-MIA-BUF",
+          "espn_event_id": "401873070",
+          "away": "MIA",
+          "home": "BUF",
+          "away_score": 9,
+          "home_score": 26,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873070",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-NO-CHI",
+          "espn_event_id": "401873071",
+          "away": "NO",
+          "home": "CHI",
+          "away_score": 13,
+          "home_score": 21,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873071",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-TB-DET",
+          "espn_event_id": "401873072",
+          "away": "TB",
+          "home": "DET",
+          "away_score": 21,
+          "home_score": 31,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873072",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-TEN-DAL",
+          "espn_event_id": "401873073",
+          "away": "TEN",
+          "home": "DAL",
+          "away_score": 30,
+          "home_score": 51,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873073",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-NYJ-LAC",
+          "espn_event_id": "401873074",
+          "away": "NYJ",
+          "home": "LAC",
+          "away_score": 27,
+          "home_score": 24,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873074",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-LV-DEN",
+          "espn_event_id": "401873075",
+          "away": "LV",
+          "home": "DEN",
+          "away_score": 24,
+          "home_score": 38,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873075",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-PIT-PHI",
+          "espn_event_id": "401873076",
+          "away": "PIT",
+          "home": "PHI",
+          "away_score": 16,
+          "home_score": 19,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873076",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-MIN-SF",
+          "espn_event_id": "401873077",
+          "away": "MIN",
+          "home": "SF",
+          "away_score": 10,
+          "home_score": 35,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873077",
+          "individual_box_score": "not present in ledger"
+        },
+        {
+          "game_id": "2026-W11-CIN-WAS",
+          "espn_event_id": "401873078",
+          "away": "CIN",
+          "home": "WAS",
+          "away_score": 20,
+          "home_score": 22,
+          "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873078",
+          "individual_box_score": "not present in ledger"
+        }
+      ]
+    }
+  ],
+  "source_attempts": [
+    {
+      "source": "ESPN week 9–11 scoreboard API",
+      "status": "not accessible in this execution environment"
+    },
+    {
+      "source": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+      "status": "release CSV could not be retrieved"
+    },
+    {
+      "source": "WTO season ledger and saved staging records",
+      "status": "team totals only; no complete individual player lines"
+    }
+  ],
+  "publication": "hold player rankings only; existing valid snapshots remain unchanged",
+  "required_next": "Retrieve complete individual player evidence for all cumulative weeks (through Week 11), including roster positions and player IDs; reconcile game identity, scores and category totals with ledger; append only missing immutable snapshots for 9, 10, 11, plus legacy Week 8 if independently verified and missing; preserve existing snapshots, picks and unrelated files. Use maintenance/player-leaders-top20.md; no new schedule or model changes.",
+  "unresolved": "Complete individual game statistics and verified position/ID attribution; no complete candidate generated."
+}
