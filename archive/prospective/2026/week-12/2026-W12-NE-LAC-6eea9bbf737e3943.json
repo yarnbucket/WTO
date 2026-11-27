@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "6eea9bbf737e39436204d472d0f553d59a235de016da80dc3e57a12c93b4beaf",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "a8e82574a5c8f07c32f61a01d5753726f359e799d67c0c7a9b44fa52b163f0c5",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-27T00:41:51.438Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-NE-LAC",
+          "away": "NE",
+          "home": "LAC",
+          "kickoff": "2026-11-29T16:05:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-NE-LAC-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:40.620395+00:00",
+          "projection": {
+            "winner": "NE",
+            "win_probability": 0.702,
+            "confidence_grade": "A",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "NE",
+            "spread": -1.5,
+            "total": 35.5
+          }
+        }
+      ]
+    }
+  }
+}

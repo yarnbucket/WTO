@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "ca4b9c897b60323827808c05ccc41914b841000db27448aed79a0935b25ecadf",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "f28da7b03a2330205a34db8af973a317c3a9da97ba74e87b4c2daa12300c278e",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-27T00:41:51.438Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-CAR-TB",
+          "away": "CAR",
+          "home": "TB",
+          "kickoff": "2026-11-30T20:15:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-CAR-TB-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:40.618831+00:00",
+          "projection": {
+            "winner": "TB",
+            "win_probability": 0.671,
+            "confidence_grade": "A",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "TB",
+            "spread": -3,
+            "total": 43.5
+          }
+        }
+      ]
+    }
+  }
+}

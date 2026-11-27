@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "678caeb3c03a36185325662774dc5d95ce512999e38d02a7292a2cf51567fb58",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "d88f56c2e5b9e577e14150652c917ffa6649565d4f5e654c12037bf2b5a9cd97",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-27T00:41:51.438Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-DEN-PIT",
+          "away": "DEN",
+          "home": "PIT",
+          "kickoff": "2026-11-27T15:00:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-DEN-PIT-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:35.784149+00:00",
+          "projection": {
+            "winner": "DEN",
+            "win_probability": 0.536,
+            "confidence_grade": "UNRATED",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "DEN",
+            "spread": -4.5,
+            "total": 36.5
+          }
+        }
+      ]
+    }
+  }
+}

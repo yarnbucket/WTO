@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "9b490694b61c1cae9079b296936ef27862af63866687810c755a6738fca46efe",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "9e05ec3cb6d56ab548b27a2d02d83bcb793a3ad31ccbe88bdfc73a69467f08b4",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-27T00:41:51.438Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-ATL-MIN",
+          "away": "ATL",
+          "home": "MIN",
+          "kickoff": "2026-11-29T13:00:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-ATL-MIN-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:35.778097+00:00",
+          "projection": {
+            "winner": "MIN",
+            "win_probability": 0.75,
+            "confidence_grade": "A+",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "MIN",
+            "spread": -7,
+            "total": 41.5
+          }
+        }
+      ]
+    }
+  }
+}

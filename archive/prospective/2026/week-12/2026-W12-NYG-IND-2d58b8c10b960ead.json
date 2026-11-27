@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "2d58b8c10b960eadc9abf4d27b8d2725a87e42fb5d9ffb9661970ecd00a0a9fe",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "3729ba178c6e309b9a4cabce6aff3cb68b90acbed1798a10311ce2e633ab70c8",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-27T00:41:51.438Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-NYG-IND",
+          "away": "NYG",
+          "home": "IND",
+          "kickoff": "2026-11-29T13:00:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-NYG-IND-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:40.633701+00:00",
+          "projection": {
+            "winner": "NYG",
+            "win_probability": 0.702,
+            "confidence_grade": "A",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "NYG",
+            "spread": -6,
+            "total": 41.5
+          }
+        }
+      ]
+    }
+  }
+}
