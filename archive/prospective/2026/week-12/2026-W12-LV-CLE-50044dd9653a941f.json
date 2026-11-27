@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "50044dd9653a941fecacb0ddfe53ab72502c7d029f6b327300f35f6b81bcb6cc",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "7d4d560fa0de013dd91aff693adf327351caae683e4f5ee4797c95ab01d1a1a4",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-27T00:41:51.438Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-LV-CLE",
+          "away": "LV",
+          "home": "CLE",
+          "kickoff": "2026-11-29T20:20:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-LV-CLE-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:35.799683+00:00",
+          "projection": {
+            "winner": "CLE",
+            "win_probability": 0.571,
+            "confidence_grade": "UNRATED",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "CLE",
+            "spread": -4.5,
+            "total": 40.5
+          }
+        }
+      ]
+    }
+  }
+}

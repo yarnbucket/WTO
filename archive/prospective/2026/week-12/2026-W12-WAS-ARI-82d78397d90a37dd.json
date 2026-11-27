@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "identity_sha256": "82d78397d90a37dd1bef471f9e497aba6f8f0c4d9257dcaeaeb3dd2dce3165d7",
+  "lock": {
+    "schema_version": 1,
+    "sha256": "ad40c177f9e60da6c80ecadea8cd3356a8f78a8fbedaeca6d1fa2623b790f4b6",
+    "snapshot": {
+      "schema_version": 1,
+      "season": 2026,
+      "week": 12,
+      "captured_at": "2026-11-27T00:41:51.438Z",
+      "model_version": "empirical-errors-v1",
+      "games": [
+        {
+          "game_id": "2026-W12-WAS-ARI",
+          "away": "WAS",
+          "home": "ARI",
+          "kickoff": "2026-11-29T16:25:00-05:00",
+          "projection_generated_at": "2026-11-26T17:00:43.327Z",
+          "projection_revision_id": "2026-W12-WAS-ARI-thursday-2026-11-26T17:00:43.327Z",
+          "market_as_of": "2026-11-26T16:59:40.551244+00:00",
+          "projection": {
+            "winner": "WAS",
+            "win_probability": 0.671,
+            "confidence_grade": "A",
+            "confidence_policy_id": "wto-prospective-probability-bands-v1"
+          },
+          "market": {
+            "favorite": "WAS",
+            "spread": -6.5,
+            "total": 41.5
+          }
+        }
+      ]
+    }
+  }
+}
