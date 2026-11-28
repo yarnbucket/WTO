@@ -1,0 +1,27 @@
+{
+  "base_commit": "08e8dd0d7ebff6048899cb8465b4c487f5dc74b5",
+  "base_blob": "9b462026321af921960a2246dcbc926b390f4086",
+  "updated_blob": "45cb78f05c90c31e86d1b3b8c0b5b5719477cbd3",
+  "game_ids": [
+    "2026-W12-ATL-MIN",
+    "2026-W12-BAL-HOU",
+    "2026-W12-NO-CIN",
+    "2026-W12-NYG-IND",
+    "2026-W12-NYJ-MIA",
+    "2026-W12-TEN-JAX",
+    "2026-W12-NE-LAC",
+    "2026-W12-SEA-SF",
+    "2026-W12-WAS-ARI",
+    "2026-W12-LV-CLE",
+    "2026-W12-CAR-TB"
+  ],
+  "source_url": "https://www.boydsbets.com/nfl-odds/",
+  "source_publication_at": "2026-11-28T02:39:00-05:00",
+  "retrieved_at": "2026-11-28T13:05:44.821Z",
+  "unresolved": [
+    "exact sportsbook timestamp",
+    "dependent insights and spread tracker refresh",
+    "completed game results not modified"
+  ],
+  "scope": "market ledger only"
+}
